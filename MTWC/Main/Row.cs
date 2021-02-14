@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TWCompare
+namespace MTWC
 {
     public class Row
     {

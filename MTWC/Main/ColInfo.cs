@@ -1,4 +1,4 @@
-﻿namespace TWCompare
+﻿namespace MTWC
 {
     public class ColInfo
     {

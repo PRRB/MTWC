@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace TWCompare
+namespace MTWC
 {
     public class RowInfo
     {

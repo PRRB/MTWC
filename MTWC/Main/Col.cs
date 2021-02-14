@@ -1,4 +1,4 @@
-﻿namespace TWCompare
+﻿namespace MTWC
 {
     public class Col
     {
@@ -7,9 +7,10 @@
             ColNum = colNum;
 
             str = str.Trim();
-            if (str.StartsWith("\"") && str.EndsWith("\"") && !str[1..^2].Contains("\""))
+            if (str.StartsWith("\"") && str.EndsWith("\""))
+                // && !str[1..^2].Contains("\""))
             {
-                str = str[1..^2];
+                str = str.Substring(1, str.Length - 2);
             }
 
             Text = str;
