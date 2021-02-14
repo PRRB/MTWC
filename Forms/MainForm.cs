@@ -22,12 +22,7 @@ namespace TWCompare
         private void MainForm_Load(object sender, EventArgs e)
         {
             main = new Main();
-            this.textBox1.Lines = main.Lines;
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            richTextBox1.Lines = main.Lines;
         }
     }
 }
