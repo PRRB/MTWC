@@ -7,10 +7,9 @@
             ColNum = colNum;
 
             str = str.Trim();
-            if (str.StartsWith("\"") && str.EndsWith("\"")
-                && !str[1..^2].Contains("\""))
+            if (str.StartsWith("\"") && str.EndsWith("\"") && !str[1..^2].Contains("\""))
             {
-
+                str = str[1..^2];
             }
 
             Text = str;

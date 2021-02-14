@@ -23,6 +23,18 @@ namespace TWCompare
 
         public Main()
         {
+            try
+            {
+                Init();
+            }
+            catch
+            {
+                Console.WriteLine("well sheeee...");
+            }
+        }
+
+        void Init()
+        {
             Text = File.ReadAllText(fullpath);
             Text = Text
                 .Replace("\r\n", "###")

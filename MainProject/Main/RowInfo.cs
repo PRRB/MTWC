@@ -32,9 +32,12 @@ namespace TWCompare
         private void SetGeneralStats(string stats)
         {
             _generalStats = stats;
-            _stats = stats.Split(',').ToDictionary(
-                k => k.Split('(')[0].Trim(),
-                v => v.Split('(')[1].Split(')')[0].Trim());
+            if (stats?.Length > 0)
+            {
+                _stats = stats.Split(',').ToDictionary(
+                    k => k.Split('(')[0].Trim(),
+                    v => v.Split('(')[1].Split(')')[0].Trim());
+            }
         }
         public string GeneralStats
         {
@@ -96,27 +99,27 @@ namespace TWCompare
         //HONOUR_LEVEL( 5 ),
         //AMMO( 0 ),
         //FORMATIONS_PREFERRED_NUM_ROWS( 3 )
-        public int HEIGHT => int.Parse(_stats[nameof(HEIGHT)]);
-        public int RADIUS => int.Parse(_stats[nameof(RADIUS)]);
-        public int SCALE => int.Parse(_stats[nameof(SCALE)]);
-        public string PROJECTILE_TYPE => _stats[nameof(PROJECTILE_TYPE)];
-        public int SAMURAI => int.Parse(_stats[nameof(SAMURAI)]);
-        public int MARCH_SPEED => int.Parse(_stats[nameof(MARCH_SPEED)]);
-        public int RUN_SPEED => int.Parse(_stats[nameof(RUN_SPEED)]);
-        public int CHARGE_SPEED => int.Parse(_stats[nameof(CHARGE_SPEED)]);
-        public int MIN_TURNSPEED => int.Parse(_stats[nameof(MIN_TURNSPEED)]);
-        public int MAX_TURNSPEED => int.Parse(_stats[nameof(MAX_TURNSPEED)]);
-        public int TURN_TO_MOTION_SPEED => int.Parse(_stats[nameof(TURN_TO_MOTION_SPEED)]);
-        public int MAX_INMOTION_TURN => int.Parse(_stats[nameof(MAX_INMOTION_TURN)]);
-        public int FORMATION_WIDTH_SPACING => int.Parse(_stats[nameof(FORMATION_WIDTH_SPACING)]);
-        public int FORMATION_LENGTH_SPACING => int.Parse(_stats[nameof(FORMATION_LENGTH_SPACING)]);
-        public int ENGAGEMENT_THRESHOLD => int.Parse(_stats[nameof(ENGAGEMENT_THRESHOLD)]);
-        public int CHARGE_BONUS => int.Parse(_stats[nameof(CHARGE_BONUS)]);
-        public int MELEE_BONUS => int.Parse(_stats[nameof(MELEE_BONUS)]);
-        public int DEFENCE_BONUS => int.Parse(_stats[nameof(DEFENCE_BONUS)]);
-        public int ARMOUR_LEVEL => int.Parse(_stats[nameof(ARMOUR_LEVEL)]);
-        public int HONOUR_LEVEL => int.Parse(_stats[nameof(HONOUR_LEVEL)]);
-        public int AMMO => int.Parse(_stats[nameof(AMMO)]);
-        public int FORMATIONS_PREFERRED_NUM_ROWS => int.Parse(_stats[nameof(FORMATIONS_PREFERRED_NUM_ROWS)]);
+        public int? HEIGHT => int.Parse(_stats?[nameof(HEIGHT)]);
+        public int? RADIUS => int.Parse(_stats?[nameof(RADIUS)]);
+        public int? SCALE => int.Parse(_stats?[nameof(SCALE)]);
+        public string PROJECTILE_TYPE => _stats?[nameof(PROJECTILE_TYPE)];
+        public int? SAMURAI => int.Parse(_stats?[nameof(SAMURAI)]);
+        public int? MARCH_SPEED => int.Parse(_stats?[nameof(MARCH_SPEED)]);
+        public int? RUN_SPEED => int.Parse(_stats?[nameof(RUN_SPEED)]);
+        public int? CHARGE_SPEED => int.Parse(_stats?[nameof(CHARGE_SPEED)]);
+        public int? MIN_TURNSPEED => int.Parse(_stats?[nameof(MIN_TURNSPEED)]);
+        public int? MAX_TURNSPEED => int.Parse(_stats?[nameof(MAX_TURNSPEED)]);
+        public int? TURN_TO_MOTION_SPEED => int.Parse(_stats?[nameof(TURN_TO_MOTION_SPEED)]);
+        public int? MAX_INMOTION_TURN => int.Parse(_stats?[nameof(MAX_INMOTION_TURN)]);
+        public int? FORMATION_WIDTH_SPACING => int.Parse(_stats?[nameof(FORMATION_WIDTH_SPACING)]);
+        public int? FORMATION_LENGTH_SPACING => int.Parse(_stats?[nameof(FORMATION_LENGTH_SPACING)]);
+        public int? ENGAGEMENT_THRESHOLD => int.Parse(_stats?[nameof(ENGAGEMENT_THRESHOLD)]);
+        public int? CHARGE_BONUS => int.Parse(_stats?[nameof(CHARGE_BONUS)]);
+        public int? MELEE_BONUS => int.Parse(_stats?[nameof(MELEE_BONUS)]);
+        public int? DEFENCE_BONUS => int.Parse(_stats?[nameof(DEFENCE_BONUS)]);
+        public int? ARMOUR_LEVEL => int.Parse(_stats?[nameof(ARMOUR_LEVEL)]);
+        public int? HONOUR_LEVEL => int.Parse(_stats?[nameof(HONOUR_LEVEL)]);
+        public int? AMMO => int.Parse(_stats?[nameof(AMMO)]);
+        public int? FORMATIONS_PREFERRED_NUM_ROWS => int.Parse(_stats?[nameof(FORMATIONS_PREFERRED_NUM_ROWS)]);
     }
 }
