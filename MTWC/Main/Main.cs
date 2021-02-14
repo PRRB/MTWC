@@ -52,6 +52,7 @@ namespace MTWC
             foreach (var row in Rows)
             {
                 var rowInfo = new RowInfo();
+                rowInfo.RowNum = row.RowNum;
                 foreach (var col in row.Cols)
                 {
                     var colName = col.Type.ToString();

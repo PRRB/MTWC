@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace MTWC
@@ -20,9 +21,19 @@ namespace MTWC
             this.rowInfoBindingSource.DataSource = _main.RowInfo;
         }
 
-        private void colInfoBindingSource_CurrentChanged(object sender, EventArgs e)
+        private void lbCols_SelectedIndexChanged(object sender, EventArgs e)
         {
+            var selectedCols = new List<string>();
+            foreach (ColInfo info in lbCols.SelectedItems)
+            {
+                selectedCols.Add(info.Type.ToString());
+            }
 
+            foreach (DataGridViewColumn col in this.gvRowGrid.Columns)
+            {
+                col.Visible = selectedCols.Count == 0 
+                    || selectedCols.Contains(col.HeaderText);
+            }
         }
     }
 }

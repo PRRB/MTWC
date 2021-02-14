@@ -35,7 +35,7 @@ namespace MTWC
             this.lbCols = new System.Windows.Forms.ListBox();
             this.colInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tpColGrid = new System.Windows.Forms.TabPage();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.gvColGrid = new System.Windows.Forms.DataGridView();
             this.rowNumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.typeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,8 +44,8 @@ namespace MTWC
             this.tpLines = new System.Windows.Forms.TabPage();
             this.tbLines = new System.Windows.Forms.RichTextBox();
             this.tpRowGrid = new System.Windows.Forms.TabPage();
-            this.rowInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.gvRowGrid = new System.Windows.Forms.DataGridView();
+            this.rowNumDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.unitIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.unitTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.productionCostDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -121,15 +121,16 @@ namespace MTWC
             this.hONOURLEVELDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aMMODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rowInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tcLayout.SuspendLayout();
             this.tpCols.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.colInfoBindingSource)).BeginInit();
             this.tpColGrid.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvColGrid)).BeginInit();
             this.tpLines.SuspendLayout();
             this.tpRowGrid.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gvRowGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rowInfoBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // tcLayout
@@ -165,8 +166,10 @@ namespace MTWC
             this.lbCols.Location = new System.Drawing.Point(3, 3);
             this.lbCols.MultiColumn = true;
             this.lbCols.Name = "lbCols";
+            this.lbCols.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.lbCols.Size = new System.Drawing.Size(633, 307);
             this.lbCols.TabIndex = 0;
+            this.lbCols.SelectedIndexChanged += new System.EventHandler(this.lbCols_SelectedIndexChanged);
             // 
             // colInfoBindingSource
             // 
@@ -174,36 +177,36 @@ namespace MTWC
             // 
             // tpColGrid
             // 
-            this.tpColGrid.Controls.Add(this.dataGridView1);
+            this.tpColGrid.Controls.Add(this.gvColGrid);
             this.tpColGrid.Location = new System.Drawing.Point(4, 22);
             this.tpColGrid.Name = "tpColGrid";
             this.tpColGrid.Padding = new System.Windows.Forms.Padding(3);
-            this.tpColGrid.Size = new System.Drawing.Size(792, 424);
+            this.tpColGrid.Size = new System.Drawing.Size(639, 313);
             this.tpColGrid.TabIndex = 1;
             this.tpColGrid.Text = "ColGrid";
             this.tpColGrid.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // gvColGrid
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.gvColGrid.AllowUserToAddRows = false;
+            this.gvColGrid.AllowUserToDeleteRows = false;
+            this.gvColGrid.AllowUserToOrderColumns = true;
+            this.gvColGrid.AutoGenerateColumns = false;
+            this.gvColGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gvColGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.rowNumDataGridViewTextBoxColumn,
             this.typeDataGridViewTextBoxColumn,
             this.titleDataGridViewTextBoxColumn,
             this.dataTypeDataGridViewTextBoxColumn,
             this.descriptionDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.colInfoBindingSource;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(786, 418);
-            this.dataGridView1.TabIndex = 0;
+            this.gvColGrid.DataSource = this.colInfoBindingSource;
+            this.gvColGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gvColGrid.Location = new System.Drawing.Point(3, 3);
+            this.gvColGrid.Name = "gvColGrid";
+            this.gvColGrid.ReadOnly = true;
+            this.gvColGrid.RowHeadersVisible = false;
+            this.gvColGrid.Size = new System.Drawing.Size(633, 307);
+            this.gvColGrid.TabIndex = 0;
             // 
             // rowNumDataGridViewTextBoxColumn
             // 
@@ -252,7 +255,7 @@ namespace MTWC
             this.tpLines.Location = new System.Drawing.Point(4, 22);
             this.tpLines.Name = "tpLines";
             this.tpLines.Padding = new System.Windows.Forms.Padding(3);
-            this.tpLines.Size = new System.Drawing.Size(792, 424);
+            this.tpLines.Size = new System.Drawing.Size(639, 313);
             this.tpLines.TabIndex = 2;
             this.tpLines.Text = "Lines";
             this.tpLines.UseVisualStyleBackColor = true;
@@ -262,14 +265,14 @@ namespace MTWC
             this.tbLines.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbLines.Location = new System.Drawing.Point(3, 3);
             this.tbLines.Name = "tbLines";
-            this.tbLines.Size = new System.Drawing.Size(786, 418);
+            this.tbLines.Size = new System.Drawing.Size(633, 307);
             this.tbLines.TabIndex = 0;
             this.tbLines.Text = "";
             this.tbLines.WordWrap = false;
             // 
             // tpRowGrid
             // 
-            this.tpRowGrid.Controls.Add(this.dataGridView2);
+            this.tpRowGrid.Controls.Add(this.gvRowGrid);
             this.tpRowGrid.Location = new System.Drawing.Point(4, 22);
             this.tpRowGrid.Name = "tpRowGrid";
             this.tpRowGrid.Padding = new System.Windows.Forms.Padding(3);
@@ -278,18 +281,16 @@ namespace MTWC
             this.tpRowGrid.Text = "RowGrid";
             this.tpRowGrid.UseVisualStyleBackColor = true;
             // 
-            // rowInfoBindingSource
+            // gvRowGrid
             // 
-            this.rowInfoBindingSource.DataSource = typeof(MTWC.RowInfo);
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.AllowUserToOrderColumns = true;
-            this.dataGridView2.AutoGenerateColumns = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.gvRowGrid.AllowUserToAddRows = false;
+            this.gvRowGrid.AllowUserToDeleteRows = false;
+            this.gvRowGrid.AllowUserToOrderColumns = true;
+            this.gvRowGrid.AllowUserToResizeRows = false;
+            this.gvRowGrid.AutoGenerateColumns = false;
+            this.gvRowGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gvRowGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.rowNumDataGridViewTextBoxColumn1,
             this.unitIdDataGridViewTextBoxColumn,
             this.unitTypeDataGridViewTextBoxColumn,
             this.productionCostDataGridViewTextBoxColumn,
@@ -365,13 +366,22 @@ namespace MTWC
             this.hONOURLEVELDataGridViewTextBoxColumn,
             this.aMMODataGridViewTextBoxColumn,
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn});
-            this.dataGridView2.DataSource = this.rowInfoBindingSource;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.Size = new System.Drawing.Size(633, 307);
-            this.dataGridView2.TabIndex = 0;
+            this.gvRowGrid.DataSource = this.rowInfoBindingSource;
+            this.gvRowGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gvRowGrid.Location = new System.Drawing.Point(3, 3);
+            this.gvRowGrid.Name = "gvRowGrid";
+            this.gvRowGrid.ReadOnly = true;
+            this.gvRowGrid.RowHeadersVisible = false;
+            this.gvRowGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.gvRowGrid.Size = new System.Drawing.Size(633, 307);
+            this.gvRowGrid.TabIndex = 0;
+            // 
+            // rowNumDataGridViewTextBoxColumn1
+            // 
+            this.rowNumDataGridViewTextBoxColumn1.DataPropertyName = "RowNum";
+            this.rowNumDataGridViewTextBoxColumn1.HeaderText = "RowNum";
+            this.rowNumDataGridViewTextBoxColumn1.Name = "rowNumDataGridViewTextBoxColumn1";
+            this.rowNumDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // unitIdDataGridViewTextBoxColumn
             // 
@@ -898,6 +908,11 @@ namespace MTWC
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn.Name = "fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn";
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // rowInfoBindingSource
+            // 
+            this.rowInfoBindingSource.DataSource = typeof(MTWC.RowInfo);
+            this.rowInfoBindingSource.Sort = "ProductionCost";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -911,11 +926,11 @@ namespace MTWC
             this.tpCols.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.colInfoBindingSource)).EndInit();
             this.tpColGrid.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvColGrid)).EndInit();
             this.tpLines.ResumeLayout(false);
             this.tpRowGrid.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gvRowGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rowInfoBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -931,13 +946,14 @@ namespace MTWC
         private System.Windows.Forms.ListBox lbCols;
         private System.Windows.Forms.BindingSource rowInfoBindingSource;
         private System.Windows.Forms.BindingSource colInfoBindingSource;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView gvColGrid;
         private System.Windows.Forms.DataGridViewTextBoxColumn rowNumDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn typeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataTypeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView gvRowGrid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rowNumDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn unitIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn unitTypeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn productionCostDataGridViewTextBoxColumn;
