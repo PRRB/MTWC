@@ -1,13 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace TWCompare
 {
-    class Main
+    public class Main
     {
         const string path
             //= @"C:\Program Files (x86)\Steam\steamapps\common\Total War Medieval 1 Gold\";
@@ -15,10 +14,13 @@ namespace TWCompare
         const string fullpath = path + "CRUSADERS_UNIT_PROD11.TXT";
         const string newpath = path + "CRUSADERS_UNIT_PROD11-2.TXT";
 
-        public string[] Lines;
-        public string Text;
-        public List<ColInfo> Info = new List<ColInfo>();
-        public List<Row> Rows = new List<Row>();
+        public string[] Lines { get; set; }
+        public string Text { get; set; }
+        public List<ColInfo> ColInfo { get; set; } = new List<ColInfo>();
+        public List<Row> Rows { get; set; } = new List<Row>();
+
+        public List<RowInfo> RowInfo { get; set; } = new List<RowInfo>();
+
         public Main()
         {
             Text = File.ReadAllText(fullpath);
@@ -28,10 +30,26 @@ namespace TWCompare
                 .Replace("###", "\r\n");
 
             File.WriteAllText(newpath, Text, Encoding.UTF8);
-            Lines = File.ReadAllLines(newpath);
 
-            
-            LoadStructure();
+            Lines = File.ReadAllLines(newpath);
+            ColInfo = LoadColInfo(Lines);
+            Rows = LoadStructure();
+
+
+            var props = typeof(RowInfo).GetProperties();
+            foreach (var row in Rows)
+            {
+                var rowInfo = new RowInfo();
+                foreach (var col in row.Cols)
+                {
+                    var colName = col.Type.ToString();
+                    var prop = props.First(p
+                        => p.Name.Equals(colName, StringComparison.OrdinalIgnoreCase));
+
+                    prop.SetValue(rowInfo, col.Text);
+                }
+                RowInfo.Add(rowInfo);
+            }
 
             var lighthalberdier = GetRows("lighthalberdier", ColType.UnitId).First();
             var lightspearmen = GetRows("lightspearmen", ColType.UnitId).First();
@@ -40,28 +58,12 @@ namespace TWCompare
             var mountedscouts = GetRows("mountedscouts", ColType.UnitId);
         }
 
-        private List<Row> GetRows(string value, ColType filter = ColType.UnitId)
+        private List<ColInfo> LoadColInfo(string[] lines)
         {
-            return Rows.Where(r => r.HasValue(value, filter)).ToList();
-        }
-
-        private void LoadStructure()
-        {
-            LoadColInfo(new Row(0, Lines[0]), new Row(1, Lines[1]), new Row(2, Lines[2]));
-            for (var i = 4; i < Lines.Length; i++)
-            {
-                var str = Lines[i];
-                if (str.Length > 0 && char.IsLetter(str[0]))
-                {
-                    Rows.Add(new Row(i, str, Info));
-                    continue;
-                }
-                break;
-            }
-        }
-
-        private void LoadColInfo(Row row1, Row row2, Row row3)
-        {
+            var row1 = new Row(0, lines[0]);
+            var row2 = new Row(1, lines[1]);
+            var row3 = new Row(2, lines[2]);
+            var info = new List<ColInfo>();
             for (var i = 0; i < row1.Cols.Count; i++)
             {
                 var colInfo = new ColInfo
@@ -72,8 +74,30 @@ namespace TWCompare
                     DataType = row2.Cols[i].Text,
                     Description = row3.Cols[i].Text
                 };
-                Info.Add(colInfo);
+                info.Add(colInfo);
             }
+            return info;
+        }
+
+        private List<Row> LoadStructure()
+        {
+            var rows = new List<Row>();
+            for (var i = 4; i < Lines.Length; i++)
+            {
+                var str = Lines[i];
+                if (str.Length > 0 && char.IsLetter(str[0]))
+                {
+                    rows.Add(new Row(i, str, ColInfo));
+                    continue;
+                }
+                break;
+            }
+            return rows;
+        }
+
+        private List<Row> GetRows(string value, ColType filter = ColType.UnitId)
+        {
+            return Rows.Where(r => r.HasValue(value, filter)).ToList();
         }
     }
 }

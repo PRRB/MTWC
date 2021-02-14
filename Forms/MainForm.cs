@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TWCompare
@@ -17,12 +10,15 @@ namespace TWCompare
             InitializeComponent();
         }
 
-        private Main main;
+        private Main _main;
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            main = new Main();
-            richTextBox1.Lines = main.Lines;
+            _main = new Main();
+            this.dsColInfo.DataSource = _main;
+            this.dsRows.DataSource = _main;
+            richTextBox1.Lines = _main.Lines;
+            
         }
     }
 }

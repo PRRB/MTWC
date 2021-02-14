@@ -7,7 +7,7 @@ namespace TWCompare
     {
         public int RowNum { get; }
 
-        string RawStr { get; }
+        public string RawStr { get; }
         public List<Col> Cols { get; }
         private readonly List<ColInfo> ColInfo;
         public Row(int rownum, string str, List<ColInfo> info = null)
@@ -32,6 +32,17 @@ namespace TWCompare
         {
             return Cols[(int)col]
                 .Text.IndexOf(value, StringComparison.OrdinalIgnoreCase) > -1;
+        }
+
+        public string GetValue(string colName)
+        {
+            var type = TypeForCol(colName);
+            return Cols.Find(c => c.Type == type).Text;
+        }
+
+        private ColType TypeForCol(string colName)
+        {
+            return (ColType)Enum.Parse(typeof(ColType),colName);
         }
     }
 }
