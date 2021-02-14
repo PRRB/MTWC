@@ -24,5 +24,10 @@ namespace TWCompare
             main = new Main();
             this.textBox1.Lines = main.Lines;
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -11,7 +11,8 @@ namespace TWCompare
     class Main
     {
         const string path
-            = @"C:\Program Files (x86)\Steam\steamapps\common\Total War Medieval 1 Gold\";
+            //= @"C:\Program Files (x86)\Steam\steamapps\common\Total War Medieval 1 Gold\";
+            = @"C:\Users\Phil\Documents\MTW\MTW\";
         const string fullpath = path + "CRUSADERS_UNIT_PROD11.TXT";
         const string newpath = path + "CRUSADERS_UNIT_PROD11-2.TXT";
 
@@ -33,9 +34,11 @@ namespace TWCompare
             
             LoadStructure();
 
-            var jav = GetRows("spanishjavelin", ColType.UnitId).First();
-            var mil = GetRows("urbanmilitia", ColType.UnitId).First();
-            var vik = GetRows("viking", ColType.UnitId);
+            var lighthalberdier = GetRows("lighthalberdier", ColType.UnitId).First();
+            var lightspearmen = GetRows("lightspearmen", ColType.UnitId).First();
+            var lightcavalry = GetRows("lightcavalry", ColType.UnitId);
+            var peasantcavalry = GetRows("peasantcavalry", ColType.UnitId);
+            var mountedscouts = GetRows("mountedscouts", ColType.UnitId);
         }
 
         private List<Row> GetRows(string value, ColType filter = ColType.UnitId)
