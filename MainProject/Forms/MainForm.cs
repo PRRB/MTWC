@@ -17,7 +17,7 @@ namespace TWCompare
             _main = new Main();
             this.dsColInfo.DataSource = _main;
             this.dsRows.DataSource = _main;
-            richTextBox1.Lines = _main.Lines;
+            rtLines.Lines = _main.Lines;
             
         }
     }

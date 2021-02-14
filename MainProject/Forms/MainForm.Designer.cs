@@ -29,60 +29,63 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tcMain = new System.Windows.Forms.TabControl();
+            this.tpLines = new System.Windows.Forms.TabPage();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.dsColInfo = new System.Windows.Forms.BindingSource(this.components);
             this.tpColGrid = new System.Windows.Forms.TabPage();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.RowNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.typeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.gvColumns = new System.Windows.Forms.DataGridView();
+            this.gvcRowNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gvctypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gvcgcvtitleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gvcdataTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gvcdescriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tpCols = new System.Windows.Forms.TabPage();
+            this.rtLines = new System.Windows.Forms.RichTextBox();
             this.tpRowGrid = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dsRows = new System.Windows.Forms.BindingSource(this.components);
             this.mainBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.colsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tabControl1.SuspendLayout();
-            this.tabPage3.SuspendLayout();
+            this.tcMain.SuspendLayout();
+            this.tpLines.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dsColInfo)).BeginInit();
             this.tpColGrid.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gvColumns)).BeginInit();
+            this.tpCols.SuspendLayout();
+            this.tpRowGrid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dsRows)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mainBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.colsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tcMain
             // 
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tpColGrid);
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tpRowGrid);
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(672, 389);
-            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
-            this.tabControl1.TabIndex = 2;
+            this.tcMain.Controls.Add(this.tpLines);
+            this.tcMain.Controls.Add(this.tpColGrid);
+            this.tcMain.Controls.Add(this.tpCols);
+            this.tcMain.Controls.Add(this.tpRowGrid);
+            this.tcMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tcMain.Location = new System.Drawing.Point(0, 0);
+            this.tcMain.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tcMain.Name = "tcMain";
+            this.tcMain.SelectedIndex = 0;
+            this.tcMain.Size = new System.Drawing.Size(672, 389);
+            this.tcMain.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
+            this.tcMain.TabIndex = 2;
             // 
-            // tabPage3
+            // tpLines
             // 
-            this.tabPage3.Controls.Add(this.listBox1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.tabPage3.Size = new System.Drawing.Size(664, 361);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Cols";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.tpLines.Controls.Add(this.listBox1);
+            this.tpLines.Location = new System.Drawing.Point(4, 24);
+            this.tpLines.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tpLines.Name = "tpLines";
+            this.tpLines.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tpLines.Size = new System.Drawing.Size(664, 361);
+            this.tpLines.TabIndex = 2;
+            this.tpLines.Text = "Cols";
+            this.tpLines.UseVisualStyleBackColor = true;
             // 
             // listBox1
             // 
@@ -106,7 +109,7 @@
             // 
             // tpColGrid
             // 
-            this.tpColGrid.Controls.Add(this.dataGridView1);
+            this.tpColGrid.Controls.Add(this.gvColumns);
             this.tpColGrid.Location = new System.Drawing.Point(4, 24);
             this.tpColGrid.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tpColGrid.Name = "tpColGrid";
@@ -116,101 +119,102 @@
             this.tpColGrid.Text = "ColGrid";
             this.tpColGrid.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // gvColumns
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.RowNum,
-            this.typeDataGridViewTextBoxColumn,
-            this.titleDataGridViewTextBoxColumn,
-            this.dataTypeDataGridViewTextBoxColumn,
-            this.descriptionDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.dsColInfo;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(4, 3);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(656, 355);
-            this.dataGridView1.TabIndex = 0;
+            this.gvColumns.AllowUserToAddRows = false;
+            this.gvColumns.AllowUserToDeleteRows = false;
+            this.gvColumns.AllowUserToOrderColumns = true;
+            this.gvColumns.AutoGenerateColumns = false;
+            this.gvColumns.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.gvColumns.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gvColumns.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.gvcRowNum,
+            this.gvctypeDataGridViewTextBoxColumn,
+            this.gvcgcvtitleDataGridViewTextBoxColumn,
+            this.gvcdataTypeDataGridViewTextBoxColumn,
+            this.gvcdescriptionDataGridViewTextBoxColumn});
+            this.gvColumns.DataSource = this.dsColInfo;
+            this.gvColumns.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gvColumns.Location = new System.Drawing.Point(4, 3);
+            this.gvColumns.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.gvColumns.Name = "gvColumns";
+            this.gvColumns.ReadOnly = true;
+            this.gvColumns.RowHeadersVisible = false;
+            this.gvColumns.Size = new System.Drawing.Size(656, 355);
+            this.gvColumns.TabIndex = 0;
             // 
-            // RowNum
+            // gvcRowNum
             // 
-            this.RowNum.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.RowNum.DataPropertyName = "RowNum";
-            this.RowNum.HeaderText = "#";
-            this.RowNum.Name = "RowNum";
-            this.RowNum.ReadOnly = true;
-            this.RowNum.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.RowNum.Width = 39;
+            this.gvcRowNum.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.gvcRowNum.DataPropertyName = "RowNum";
+            this.gvcRowNum.HeaderText = "#";
+            this.gvcRowNum.Name = "gvcRowNum";
+            this.gvcRowNum.ReadOnly = true;
+            this.gvcRowNum.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.gvcRowNum.Width = 39;
             // 
-            // typeDataGridViewTextBoxColumn
+            // gvctypeDataGridViewTextBoxColumn
             // 
-            this.typeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.typeDataGridViewTextBoxColumn.DataPropertyName = "Type";
-            this.typeDataGridViewTextBoxColumn.HeaderText = "Type";
-            this.typeDataGridViewTextBoxColumn.Name = "typeDataGridViewTextBoxColumn";
-            this.typeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.gvctypeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.gvctypeDataGridViewTextBoxColumn.DataPropertyName = "Type";
+            this.gvctypeDataGridViewTextBoxColumn.HeaderText = "Type";
+            this.gvctypeDataGridViewTextBoxColumn.Name = "gvctypeDataGridViewTextBoxColumn";
+            this.gvctypeDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // titleDataGridViewTextBoxColumn
+            // gvcgcvtitleDataGridViewTextBoxColumn
             // 
-            this.titleDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.titleDataGridViewTextBoxColumn.DataPropertyName = "Title";
-            this.titleDataGridViewTextBoxColumn.FillWeight = 248.2759F;
-            this.titleDataGridViewTextBoxColumn.HeaderText = "Title";
-            this.titleDataGridViewTextBoxColumn.Name = "titleDataGridViewTextBoxColumn";
-            this.titleDataGridViewTextBoxColumn.ReadOnly = true;
+            this.gvcgcvtitleDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.gvcgcvtitleDataGridViewTextBoxColumn.DataPropertyName = "Title";
+            this.gvcgcvtitleDataGridViewTextBoxColumn.FillWeight = 248.2759F;
+            this.gvcgcvtitleDataGridViewTextBoxColumn.HeaderText = "Title";
+            this.gvcgcvtitleDataGridViewTextBoxColumn.Name = "gvcgcvtitleDataGridViewTextBoxColumn";
+            this.gvcgcvtitleDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // dataTypeDataGridViewTextBoxColumn
+            // gvcdataTypeDataGridViewTextBoxColumn
             // 
-            this.dataTypeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dataTypeDataGridViewTextBoxColumn.DataPropertyName = "DataType";
-            this.dataTypeDataGridViewTextBoxColumn.FillWeight = 25.86207F;
-            this.dataTypeDataGridViewTextBoxColumn.HeaderText = "DataType";
-            this.dataTypeDataGridViewTextBoxColumn.Name = "dataTypeDataGridViewTextBoxColumn";
-            this.dataTypeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.gvcdataTypeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.gvcdataTypeDataGridViewTextBoxColumn.DataPropertyName = "DataType";
+            this.gvcdataTypeDataGridViewTextBoxColumn.FillWeight = 25.86207F;
+            this.gvcdataTypeDataGridViewTextBoxColumn.HeaderText = "DataType";
+            this.gvcdataTypeDataGridViewTextBoxColumn.Name = "gvcdataTypeDataGridViewTextBoxColumn";
+            this.gvcdataTypeDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // descriptionDataGridViewTextBoxColumn
+            // gvcdescriptionDataGridViewTextBoxColumn
             // 
-            this.descriptionDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
-            this.descriptionDataGridViewTextBoxColumn.FillWeight = 25.86207F;
-            this.descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
-            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
-            this.descriptionDataGridViewTextBoxColumn.ReadOnly = true;
+            this.gvcdescriptionDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.gvcdescriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
+            this.gvcdescriptionDataGridViewTextBoxColumn.FillWeight = 25.86207F;
+            this.gvcdescriptionDataGridViewTextBoxColumn.HeaderText = "Description";
+            this.gvcdescriptionDataGridViewTextBoxColumn.Name = "gvcdescriptionDataGridViewTextBoxColumn";
+            this.gvcdescriptionDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // tabPage1
+            // tpCols
             // 
-            this.tabPage1.Controls.Add(this.richTextBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.tabPage1.Size = new System.Drawing.Size(664, 361);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Lines";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tpCols.Controls.Add(this.rtLines);
+            this.tpCols.Location = new System.Drawing.Point(4, 24);
+            this.tpCols.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tpCols.Name = "tpCols";
+            this.tpCols.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tpCols.Size = new System.Drawing.Size(664, 361);
+            this.tpCols.TabIndex = 0;
+            this.tpCols.Text = "Lines";
+            this.tpCols.UseVisualStyleBackColor = true;
             // 
-            // richTextBox1
+            // rtLines
             // 
-            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox1.Location = new System.Drawing.Point(4, 3);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(656, 355);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
-            this.richTextBox1.WordWrap = false;
+            this.rtLines.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtLines.Location = new System.Drawing.Point(4, 3);
+            this.rtLines.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rtLines.Name = "rtLines";
+            this.rtLines.ReadOnly = true;
+            this.rtLines.Size = new System.Drawing.Size(656, 355);
+            this.rtLines.TabIndex = 0;
+            this.rtLines.Text = "";
+            this.rtLines.WordWrap = false;
             // 
             // tpRowGrid
             // 
+            this.tpRowGrid.Controls.Add(this.dataGridView1);
             this.tpRowGrid.Location = new System.Drawing.Point(4, 24);
             this.tpRowGrid.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tpRowGrid.Name = "tpRowGrid";
@@ -219,6 +223,15 @@
             this.tpRowGrid.TabIndex = 3;
             this.tpRowGrid.Text = "RowGrid";
             this.tpRowGrid.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(4, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(656, 355);
+            this.dataGridView1.TabIndex = 0;
             // 
             // dsRows
             // 
@@ -239,17 +252,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(672, 389);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tcMain);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "MainForm";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.MainForm_Load);
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
+            this.tcMain.ResumeLayout(false);
+            this.tpLines.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dsColInfo)).EndInit();
             this.tpColGrid.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gvColumns)).EndInit();
+            this.tpCols.ResumeLayout(false);
+            this.tpRowGrid.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dsRows)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mainBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.colsBindingSource)).EndInit();
@@ -258,24 +273,24 @@
         }
 
         #endregion
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabControl tcMain;
+        private System.Windows.Forms.TabPage tpCols;
         private System.Windows.Forms.TabPage tpColGrid;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.DataGridView gvColumns;
+        private System.Windows.Forms.RichTextBox rtLines;
+        private System.Windows.Forms.TabPage tpLines;
         private System.Windows.Forms.ListBox listBox1;
-        public System.Windows.Forms.BindingSource dsColInfo;
         private System.Windows.Forms.BindingSource dsRows;
         private System.Windows.Forms.BindingSource mainBindingSource;
         private System.Windows.Forms.BindingSource colsBindingSource;
         private System.Windows.Forms.TabPage tpRowGrid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn rowNumDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RowNum;
-        private System.Windows.Forms.DataGridViewTextBoxColumn typeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataTypeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gvcRowNum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gvctypeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gvcgcvtitleDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gvcdataTypeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gvcdescriptionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.BindingSource dsColInfo;
     }
 }
 
