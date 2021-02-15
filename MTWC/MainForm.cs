@@ -35,7 +35,8 @@ namespace MTWC
             {
                 col.Visible = selectedCols.Count == 0
                     || selectedCols.Contains(col.HeaderText)
-                    || col.HeaderText == "UnitId";
+                    || col.HeaderText == ColType.UnitId.ToString()
+                    || col.HeaderText == "#";
             }
         }
 
@@ -88,7 +89,8 @@ namespace MTWC
             currencyManager1.SuspendBinding();
             foreach (DataGridViewRow row in gvRowGrid.Rows)
             {
-                row.Visible = (row.DataBoundItem as RowInfo)._show;
+                var rowInfo = (row.DataBoundItem as RowInfo);
+                row.Visible = rowInfo._show;
             }
             currencyManager1.ResumeBinding();
         }

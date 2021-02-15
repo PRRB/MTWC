@@ -46,6 +46,9 @@ namespace MTWC
             this.tbRows = new System.Windows.Forms.TextBox();
             this.tpRowGrid = new System.Windows.Forms.TabPage();
             this.gvRowGrid = new System.Windows.Forms.DataGridView();
+            this.rowInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tpLines = new System.Windows.Forms.TabPage();
+            this.tbLines = new System.Windows.Forms.RichTextBox();
             this.rowNumDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.unitIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.unitTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -122,9 +125,6 @@ namespace MTWC
             this.hONOURLEVELDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aMMODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rowInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tpLines = new System.Windows.Forms.TabPage();
-            this.tbLines = new System.Windows.Forms.RichTextBox();
             this.tcLayout.SuspendLayout();
             this.tpCols.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.colInfoBindingSource)).BeginInit();
@@ -397,16 +397,46 @@ namespace MTWC
             this.gvRowGrid.TabIndex = 0;
             this.gvRowGrid.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.gvRowGrid_ColumnHeaderMouseClick);
             // 
+            // rowInfoBindingSource
+            // 
+            this.rowInfoBindingSource.DataSource = typeof(MTWC.RowInfo);
+            this.rowInfoBindingSource.Sort = "ProductionCost";
+            // 
+            // tpLines
+            // 
+            this.tpLines.Controls.Add(this.tbLines);
+            this.tpLines.Location = new System.Drawing.Point(4, 22);
+            this.tpLines.Name = "tpLines";
+            this.tpLines.Padding = new System.Windows.Forms.Padding(3);
+            this.tpLines.Size = new System.Drawing.Size(639, 313);
+            this.tpLines.TabIndex = 2;
+            this.tpLines.Text = "Lines";
+            this.tpLines.UseVisualStyleBackColor = true;
+            // 
+            // tbLines
+            // 
+            this.tbLines.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbLines.Location = new System.Drawing.Point(3, 3);
+            this.tbLines.Name = "tbLines";
+            this.tbLines.Size = new System.Drawing.Size(633, 307);
+            this.tbLines.TabIndex = 0;
+            this.tbLines.Text = "";
+            this.tbLines.WordWrap = false;
+            // 
             // rowNumDataGridViewTextBoxColumn1
             // 
+            this.rowNumDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rowNumDataGridViewTextBoxColumn1.DataPropertyName = "RowNum";
-            this.rowNumDataGridViewTextBoxColumn1.HeaderText = "RowNum";
+            this.rowNumDataGridViewTextBoxColumn1.Frozen = true;
+            this.rowNumDataGridViewTextBoxColumn1.HeaderText = "#";
             this.rowNumDataGridViewTextBoxColumn1.Name = "rowNumDataGridViewTextBoxColumn1";
             this.rowNumDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.rowNumDataGridViewTextBoxColumn1.Width = 30;
             // 
             // unitIdDataGridViewTextBoxColumn
             // 
             this.unitIdDataGridViewTextBoxColumn.DataPropertyName = "UnitId";
+            this.unitIdDataGridViewTextBoxColumn.Frozen = true;
             this.unitIdDataGridViewTextBoxColumn.HeaderText = "UnitId";
             this.unitIdDataGridViewTextBoxColumn.Name = "unitIdDataGridViewTextBoxColumn";
             this.unitIdDataGridViewTextBoxColumn.ReadOnly = true;
@@ -929,32 +959,6 @@ namespace MTWC
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn.Name = "fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn";
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // rowInfoBindingSource
-            // 
-            this.rowInfoBindingSource.DataSource = typeof(MTWC.RowInfo);
-            this.rowInfoBindingSource.Sort = "ProductionCost";
-            // 
-            // tpLines
-            // 
-            this.tpLines.Controls.Add(this.tbLines);
-            this.tpLines.Location = new System.Drawing.Point(4, 22);
-            this.tpLines.Name = "tpLines";
-            this.tpLines.Padding = new System.Windows.Forms.Padding(3);
-            this.tpLines.Size = new System.Drawing.Size(639, 313);
-            this.tpLines.TabIndex = 2;
-            this.tpLines.Text = "Lines";
-            this.tpLines.UseVisualStyleBackColor = true;
-            // 
-            // tbLines
-            // 
-            this.tbLines.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbLines.Location = new System.Drawing.Point(3, 3);
-            this.tbLines.Name = "tbLines";
-            this.tbLines.Size = new System.Drawing.Size(633, 307);
-            this.tbLines.TabIndex = 0;
-            this.tbLines.Text = "";
-            this.tbLines.WordWrap = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -997,6 +1001,9 @@ namespace MTWC
         private System.Windows.Forms.DataGridViewTextBoxColumn dataTypeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridView gvRowGrid;
+        private System.Windows.Forms.TabPage tpRows;
+        private System.Windows.Forms.TextBox tbRows;
+        private System.Windows.Forms.ListBox lbRows;
         private System.Windows.Forms.DataGridViewTextBoxColumn rowNumDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn unitIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn unitTypeDataGridViewTextBoxColumn;
@@ -1073,9 +1080,6 @@ namespace MTWC
         private System.Windows.Forms.DataGridViewTextBoxColumn hONOURLEVELDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn aMMODataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn;
-        private System.Windows.Forms.TabPage tpRows;
-        private System.Windows.Forms.TextBox tbRows;
-        private System.Windows.Forms.ListBox lbRows;
     }
 }
 
