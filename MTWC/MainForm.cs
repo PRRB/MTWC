@@ -33,8 +33,9 @@ namespace MTWC
 
             foreach (DataGridViewColumn col in gvRowGrid.Columns)
             {
-                col.Visible = selectedCols.Count == 0 
-                    || selectedCols.Contains(col.HeaderText);
+                col.Visible = selectedCols.Count == 0
+                    || selectedCols.Contains(col.HeaderText)
+                    || col.HeaderText == "UnitId";
             }
         }
 

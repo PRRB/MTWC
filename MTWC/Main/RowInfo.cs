@@ -105,7 +105,7 @@ namespace MTWC
         public int? RADIUS => int.Parse(_stats?[nameof(RADIUS)]);
         public int? SCALE => int.Parse(_stats?[nameof(SCALE)]);
         public string PROJECTILE_TYPE => _stats?[nameof(PROJECTILE_TYPE)];
-        public int? SAMURAI => int.Parse(_stats?[nameof(SAMURAI)]);
+        public string SAMURAI => _stats?[nameof(SAMURAI)];
         public int? MARCH_SPEED => int.Parse(_stats?[nameof(MARCH_SPEED)]);
         public int? RUN_SPEED => int.Parse(_stats?[nameof(RUN_SPEED)]);
         public int? CHARGE_SPEED => int.Parse(_stats?[nameof(CHARGE_SPEED)]);

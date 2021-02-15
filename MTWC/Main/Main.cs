@@ -77,7 +77,8 @@ namespace MTWC
             var row2 = new Row(1, lines[1]);
             var row3 = new Row(2, lines[2]);
             var info = new List<ColInfo>();
-            for (var i = 0; i < row1.Cols.Count; i++)
+            var i = 0;
+            while (i < row1.Cols.Count)
             {
                 var colInfo = new ColInfo
                 {
@@ -88,6 +89,21 @@ namespace MTWC
                     Description = row3.Cols[i].Text
                 };
                 info.Add(colInfo);
+                i++;
+            }
+            var count = Enum.GetValues(typeof(ColType)).Length;
+            while (i < count)
+            {
+                var colInfo = new ColInfo
+                {
+                    RowNum = i,
+                    Type = (ColType)i,
+                    Title = ((ColType)i).ToString(),
+                    DataType = null,
+                    Description = ((ColType)i).ToString()
+                };
+                info.Add(colInfo);
+                i++;
             }
             return info;
         }
