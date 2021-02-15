@@ -5,6 +5,7 @@ namespace MTWC
 {
     public class RowInfo
     {
+        public bool _show { get; set; }
         public int RowNum { get; set; }
         public string UnitId { get; set; }
         public string UnitType { get; set; }

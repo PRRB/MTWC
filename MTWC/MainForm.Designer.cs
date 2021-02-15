@@ -41,8 +41,9 @@ namespace MTWC
             this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tpLines = new System.Windows.Forms.TabPage();
-            this.tbLines = new System.Windows.Forms.RichTextBox();
+            this.tpRows = new System.Windows.Forms.TabPage();
+            this.lbRows = new System.Windows.Forms.ListBox();
+            this.tbRows = new System.Windows.Forms.TextBox();
             this.tpRowGrid = new System.Windows.Forms.TabPage();
             this.gvRowGrid = new System.Windows.Forms.DataGridView();
             this.rowNumDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -122,23 +123,27 @@ namespace MTWC
             this.aMMODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rowInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tpLines = new System.Windows.Forms.TabPage();
+            this.tbLines = new System.Windows.Forms.RichTextBox();
             this.tcLayout.SuspendLayout();
             this.tpCols.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.colInfoBindingSource)).BeginInit();
             this.tpColGrid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gvColGrid)).BeginInit();
-            this.tpLines.SuspendLayout();
+            this.tpRows.SuspendLayout();
             this.tpRowGrid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gvRowGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rowInfoBindingSource)).BeginInit();
+            this.tpLines.SuspendLayout();
             this.SuspendLayout();
             // 
             // tcLayout
             // 
             this.tcLayout.Controls.Add(this.tpCols);
             this.tcLayout.Controls.Add(this.tpColGrid);
-            this.tcLayout.Controls.Add(this.tpLines);
+            this.tcLayout.Controls.Add(this.tpRows);
             this.tcLayout.Controls.Add(this.tpRowGrid);
+            this.tcLayout.Controls.Add(this.tpLines);
             this.tcLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tcLayout.Location = new System.Drawing.Point(0, 0);
             this.tcLayout.Name = "tcLayout";
@@ -249,26 +254,41 @@ namespace MTWC
             this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
             this.descriptionDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // tpLines
+            // tpRows
             // 
-            this.tpLines.Controls.Add(this.tbLines);
-            this.tpLines.Location = new System.Drawing.Point(4, 22);
-            this.tpLines.Name = "tpLines";
-            this.tpLines.Padding = new System.Windows.Forms.Padding(3);
-            this.tpLines.Size = new System.Drawing.Size(639, 313);
-            this.tpLines.TabIndex = 2;
-            this.tpLines.Text = "Lines";
-            this.tpLines.UseVisualStyleBackColor = true;
+            this.tpRows.Controls.Add(this.lbRows);
+            this.tpRows.Controls.Add(this.tbRows);
+            this.tpRows.Location = new System.Drawing.Point(4, 22);
+            this.tpRows.Name = "tpRows";
+            this.tpRows.Padding = new System.Windows.Forms.Padding(3);
+            this.tpRows.Size = new System.Drawing.Size(639, 313);
+            this.tpRows.TabIndex = 4;
+            this.tpRows.Text = "Rows";
+            this.tpRows.UseVisualStyleBackColor = true;
             // 
-            // tbLines
+            // lbRows
             // 
-            this.tbLines.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbLines.Location = new System.Drawing.Point(3, 3);
-            this.tbLines.Name = "tbLines";
-            this.tbLines.Size = new System.Drawing.Size(633, 307);
-            this.tbLines.TabIndex = 0;
-            this.tbLines.Text = "";
-            this.tbLines.WordWrap = false;
+            this.lbRows.DisplayMember = "UnitId";
+            this.lbRows.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbRows.FormattingEnabled = true;
+            this.lbRows.Location = new System.Drawing.Point(3, 23);
+            this.lbRows.MultiColumn = true;
+            this.lbRows.Name = "lbRows";
+            this.lbRows.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.lbRows.Size = new System.Drawing.Size(633, 287);
+            this.lbRows.Sorted = true;
+            this.lbRows.TabIndex = 1;
+            // 
+            // tbRows
+            // 
+            this.tbRows.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tbRows.Location = new System.Drawing.Point(3, 3);
+            this.tbRows.Name = "tbRows";
+            this.tbRows.Size = new System.Drawing.Size(633, 20);
+            this.tbRows.TabIndex = 0;
+            this.tbRows.Text = "Spear";
+            this.tbRows.WordWrap = false;
+            this.tbRows.TextChanged += new System.EventHandler(this.tbRows_TextChanged);
             // 
             // tpRowGrid
             // 
@@ -375,6 +395,7 @@ namespace MTWC
             this.gvRowGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gvRowGrid.Size = new System.Drawing.Size(633, 307);
             this.gvRowGrid.TabIndex = 0;
+            this.gvRowGrid.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.gvRowGrid_ColumnHeaderMouseClick);
             // 
             // rowNumDataGridViewTextBoxColumn1
             // 
@@ -913,6 +934,27 @@ namespace MTWC
             this.rowInfoBindingSource.DataSource = typeof(MTWC.RowInfo);
             this.rowInfoBindingSource.Sort = "ProductionCost";
             // 
+            // tpLines
+            // 
+            this.tpLines.Controls.Add(this.tbLines);
+            this.tpLines.Location = new System.Drawing.Point(4, 22);
+            this.tpLines.Name = "tpLines";
+            this.tpLines.Padding = new System.Windows.Forms.Padding(3);
+            this.tpLines.Size = new System.Drawing.Size(639, 313);
+            this.tpLines.TabIndex = 2;
+            this.tpLines.Text = "Lines";
+            this.tpLines.UseVisualStyleBackColor = true;
+            // 
+            // tbLines
+            // 
+            this.tbLines.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbLines.Location = new System.Drawing.Point(3, 3);
+            this.tbLines.Name = "tbLines";
+            this.tbLines.Size = new System.Drawing.Size(633, 307);
+            this.tbLines.TabIndex = 0;
+            this.tbLines.Text = "";
+            this.tbLines.WordWrap = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -927,10 +969,12 @@ namespace MTWC
             ((System.ComponentModel.ISupportInitialize)(this.colInfoBindingSource)).EndInit();
             this.tpColGrid.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gvColGrid)).EndInit();
-            this.tpLines.ResumeLayout(false);
+            this.tpRows.ResumeLayout(false);
+            this.tpRows.PerformLayout();
             this.tpRowGrid.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gvRowGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rowInfoBindingSource)).EndInit();
+            this.tpLines.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1029,6 +1073,9 @@ namespace MTWC
         private System.Windows.Forms.DataGridViewTextBoxColumn hONOURLEVELDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn aMMODataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn;
+        private System.Windows.Forms.TabPage tpRows;
+        private System.Windows.Forms.TextBox tbRows;
+        private System.Windows.Forms.ListBox lbRows;
     }
 }
 
