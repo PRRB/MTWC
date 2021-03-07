@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
 using System.ComponentModel;
 using System.Linq;
+using System.Windows.Forms;
 
 namespace MTWC
 {
@@ -15,14 +15,26 @@ namespace MTWC
 
         Main _main;
 
-        const string FilterDefault = "light";
+        const string RowDefault = "light";
+
+        static readonly ColType[] ColDefault = new ColType[]
+            {ColType.UnitId, ColType.SupportCost, ColType.ProductionCost,
+                ColType.UnitSize,
+             ColType.MoralBonus, ColType.RUN_SPEED, ColType.CHARGE_BONUS,
+             ColType.MELEE_BONUS, ColType.DEFENCE_BONUS, ColType.ARMOUR_LEVEL};
 
         private void MainForm_Load(object sender, EventArgs e)
         {
             _main = new Main();
             tbLines.Lines = _main.Lines;
             colInfoBindingSource.DataSource = _main.ColInfo;
-            tbRows.Text = FilterDefault;
+
+            var selectedCols = _main.ColInfo.Where(c => ColDefault.Any(d => d == c.Type));
+            foreach (ColInfo info in selectedCols)
+            {
+                lbCols.SelectedItems.Add(info);
+            }
+            tbRows.Text = RowDefault;
             SetDefaultRowSelection();
             PopulateRows();
             rowInfoBindingSource.DataSource = GetSelectedRows();
