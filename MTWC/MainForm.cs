@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.ComponentModel;
+using System.Linq;
 
 namespace MTWC
 {
@@ -14,13 +15,17 @@ namespace MTWC
 
         Main _main;
 
+        const string FilterDefault = "light";
+
         private void MainForm_Load(object sender, EventArgs e)
         {
             _main = new Main();
             tbLines.Lines = _main.Lines;
             colInfoBindingSource.DataSource = _main.ColInfo;
-            rowInfoBindingSource.DataSource = _main.RowInfo;
+            tbRows.Text = FilterDefault;
+            SetDefaultRowSelection();
             PopulateRows();
+            rowInfoBindingSource.DataSource = GetSelectedRows();
         }
 
         private void lbCols_SelectedIndexChanged(object sender, EventArgs e)
@@ -56,11 +61,7 @@ namespace MTWC
             lbRows.SelectedIndexChanged -= new EventHandler(lbRows_SelectedIndexChanged);
             lbRows.Items.Clear();
 
-            var search = (tbRows.Text ?? "").ToLower();
-            var rows = _main.RowInfo
-                .FindAll(r => search == "" || r.UnitId.ToLower().Contains(search));
-
-            foreach (var row in rows)
+            foreach (var row in GetFilteredRows())
             {
                 lbRows.Items.Add(row);
                 if (row._show)
@@ -73,6 +74,30 @@ namespace MTWC
             lbRows.EndUpdate();
         }
 
+        private List<RowInfo> GetFilteredRows()
+        {
+            var search = (tbRows.Text ?? "").ToLower();
+            return _main.RowInfo
+                .FindAll(r => search == "" || r.UnitId.ToLower().Contains(search));
+        }
+
+        private List<RowInfo> GetSelectedRows()
+        {
+            return _main.RowInfo.Where(r => r._show).ToList();
+        }
+
+        private void SetDefaultRowSelection()
+        {
+            foreach (var row in _main.RowInfo)
+            {
+                row._show = false;
+            }
+            foreach (var row in GetFilteredRows())
+            {
+                row._show = true;
+            }
+        }
+
         private void lbRows_SelectedIndexChanged(object sender, EventArgs e)
         {
             var showAll = lbRows.SelectedItems.Count == 0;
@@ -80,19 +105,11 @@ namespace MTWC
             {
                 row._show = showAll;
             }
-            if (showAll) return;
             foreach (RowInfo row in lbRows.SelectedItems)
             {
                 row._show = true;
             }
-            CurrencyManager currencyManager1 = (CurrencyManager)BindingContext[gvRowGrid.DataSource];
-            currencyManager1.SuspendBinding();
-            foreach (DataGridViewRow row in gvRowGrid.Rows)
-            {
-                var rowInfo = (row.DataBoundItem as RowInfo);
-                row.Visible = rowInfo._show;
-            }
-            currencyManager1.ResumeBinding();
+            rowInfoBindingSource.DataSource = GetSelectedRows();
         }
     }
 }

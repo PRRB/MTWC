@@ -46,9 +46,6 @@ namespace MTWC
             this.tbRows = new System.Windows.Forms.TextBox();
             this.tpRowGrid = new System.Windows.Forms.TabPage();
             this.gvRowGrid = new System.Windows.Forms.DataGridView();
-            this.rowInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tpLines = new System.Windows.Forms.TabPage();
-            this.tbLines = new System.Windows.Forms.RichTextBox();
             this.rowNumDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.unitIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.unitTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -125,6 +122,9 @@ namespace MTWC
             this.hONOURLEVELDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aMMODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rowInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tpLines = new System.Windows.Forms.TabPage();
+            this.tbLines = new System.Windows.Forms.RichTextBox();
             this.tcLayout.SuspendLayout();
             this.tpCols.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.colInfoBindingSource)).BeginInit();
@@ -286,7 +286,7 @@ namespace MTWC
             this.tbRows.Name = "tbRows";
             this.tbRows.Size = new System.Drawing.Size(633, 20);
             this.tbRows.TabIndex = 0;
-            this.tbRows.Text = "Spear";
+            this.tbRows.Text = "Camel";
             this.tbRows.WordWrap = false;
             this.tbRows.TextChanged += new System.EventHandler(this.tbRows_TextChanged);
             // 
@@ -396,32 +396,6 @@ namespace MTWC
             this.gvRowGrid.Size = new System.Drawing.Size(633, 307);
             this.gvRowGrid.TabIndex = 0;
             this.gvRowGrid.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.gvRowGrid_ColumnHeaderMouseClick);
-            // 
-            // rowInfoBindingSource
-            // 
-            this.rowInfoBindingSource.DataSource = typeof(MTWC.RowInfo);
-            this.rowInfoBindingSource.Sort = "ProductionCost";
-            // 
-            // tpLines
-            // 
-            this.tpLines.Controls.Add(this.tbLines);
-            this.tpLines.Location = new System.Drawing.Point(4, 22);
-            this.tpLines.Name = "tpLines";
-            this.tpLines.Padding = new System.Windows.Forms.Padding(3);
-            this.tpLines.Size = new System.Drawing.Size(639, 313);
-            this.tpLines.TabIndex = 2;
-            this.tpLines.Text = "Lines";
-            this.tpLines.UseVisualStyleBackColor = true;
-            // 
-            // tbLines
-            // 
-            this.tbLines.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbLines.Location = new System.Drawing.Point(3, 3);
-            this.tbLines.Name = "tbLines";
-            this.tbLines.Size = new System.Drawing.Size(633, 307);
-            this.tbLines.TabIndex = 0;
-            this.tbLines.Text = "";
-            this.tbLines.WordWrap = false;
             // 
             // rowNumDataGridViewTextBoxColumn1
             // 
@@ -958,6 +932,32 @@ namespace MTWC
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn.HeaderText = "FORMATIONS_PREFERRED_NUM_ROWS";
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn.Name = "fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn";
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // rowInfoBindingSource
+            // 
+            this.rowInfoBindingSource.DataSource = typeof(MTWC.RowInfo);
+            this.rowInfoBindingSource.Sort = "ProductionCost";
+            // 
+            // tpLines
+            // 
+            this.tpLines.Controls.Add(this.tbLines);
+            this.tpLines.Location = new System.Drawing.Point(4, 22);
+            this.tpLines.Name = "tpLines";
+            this.tpLines.Padding = new System.Windows.Forms.Padding(3);
+            this.tpLines.Size = new System.Drawing.Size(639, 313);
+            this.tpLines.TabIndex = 2;
+            this.tpLines.Text = "Lines";
+            this.tpLines.UseVisualStyleBackColor = true;
+            // 
+            // tbLines
+            // 
+            this.tbLines.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbLines.Location = new System.Drawing.Point(3, 3);
+            this.tbLines.Name = "tbLines";
+            this.tbLines.Size = new System.Drawing.Size(633, 307);
+            this.tbLines.TabIndex = 0;
+            this.tbLines.Text = "";
+            this.tbLines.WordWrap = false;
             // 
             // MainForm
             // 

@@ -47,7 +47,6 @@ namespace MTWC
             ColInfo = LoadColInfo(Lines);
             Rows = LoadStructure();
 
-
             var props = typeof(RowInfo).GetProperties();
             foreach (var row in Rows)
             {
