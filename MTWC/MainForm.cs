@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -27,7 +26,8 @@ namespace MTWC
         {
             _main = new Main();
             tbLines.Lines = _main.Lines;
-            colInfoBindingSource.DataSource = _main.ColInfo;
+            bsColSelection.DataSource = _main.ColInfo;
+            bsCompareCols.DataSource = _main.ColInfo;
 
             var selectedCols = _main.ColInfo.Where(c => ColDefault.Any(d => d == c.Type));
             foreach (ColInfo info in selectedCols)
@@ -37,7 +37,7 @@ namespace MTWC
             tbRows.Text = RowDefault;
             SetDefaultRowSelection();
             PopulateRows();
-            rowInfoBindingSource.DataSource = GetSelectedRows();
+            bsCompareRows.DataSource = GetSelectedRows();
         }
 
         private void lbCols_SelectedIndexChanged(object sender, EventArgs e)
@@ -48,7 +48,7 @@ namespace MTWC
                 selectedCols.Add(info.Type.ToString());
             }
 
-            foreach (DataGridViewColumn col in gvRowGrid.Columns)
+            foreach (DataGridViewColumn col in gvCompare.Columns)
             {
                 col.Visible = selectedCols.Count == 0
                     || selectedCols.Contains(col.HeaderText)
@@ -57,9 +57,19 @@ namespace MTWC
             }
         }
 
-        private void gvRowGrid_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        private void gvCompare_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            gvRowGrid.Sort(gvRowGrid.Columns[e.ColumnIndex], ListSortDirection.Ascending);
+            var ds = (List<RowInfo>)bsCompareRows.DataSource;
+            var name = gvCompare.Columns[e.ColumnIndex].HeaderText;
+
+            var sortProp = typeof(RowInfo).GetProperty(name);
+            var sorted = ds
+                .OrderBy(c => sortProp.GetValue(c));
+
+            ds.Sort((x, y) => sortProp
+                .GetValue(y).ToString().CompareTo(sortProp.GetValue(x).ToString()));
+
+            gvCompare.Refresh();
         }
 
         private void tbRows_TextChanged(object sender, EventArgs e)
@@ -121,7 +131,7 @@ namespace MTWC
             {
                 row._show = true;
             }
-            rowInfoBindingSource.DataSource = GetSelectedRows();
+            bsCompareRows.DataSource = GetSelectedRows();
         }
     }
 }

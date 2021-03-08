@@ -33,7 +33,7 @@ namespace MTWC
             this.tcLayout = new System.Windows.Forms.TabControl();
             this.tpCols = new System.Windows.Forms.TabPage();
             this.lbCols = new System.Windows.Forms.ListBox();
-            this.colInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bsColSelection = new System.Windows.Forms.BindingSource(this.components);
             this.tpColGrid = new System.Windows.Forms.TabPage();
             this.gvColGrid = new System.Windows.Forms.DataGridView();
             this.rowNumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,8 +44,8 @@ namespace MTWC
             this.tpRows = new System.Windows.Forms.TabPage();
             this.lbRows = new System.Windows.Forms.ListBox();
             this.tbRows = new System.Windows.Forms.TextBox();
-            this.tpRowGrid = new System.Windows.Forms.TabPage();
-            this.gvRowGrid = new System.Windows.Forms.DataGridView();
+            this.tpCompare = new System.Windows.Forms.TabPage();
+            this.gvCompare = new System.Windows.Forms.DataGridView();
             this.rowNumDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.unitIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.unitTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -122,19 +122,21 @@ namespace MTWC
             this.hONOURLEVELDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aMMODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rowInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bsCompareRows = new System.Windows.Forms.BindingSource(this.components);
             this.tpLines = new System.Windows.Forms.TabPage();
             this.tbLines = new System.Windows.Forms.RichTextBox();
+            this.bsCompareCols = new System.Windows.Forms.BindingSource(this.components);
             this.tcLayout.SuspendLayout();
             this.tpCols.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.colInfoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bsColSelection)).BeginInit();
             this.tpColGrid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gvColGrid)).BeginInit();
             this.tpRows.SuspendLayout();
-            this.tpRowGrid.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gvRowGrid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rowInfoBindingSource)).BeginInit();
+            this.tpCompare.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gvCompare)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bsCompareRows)).BeginInit();
             this.tpLines.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bsCompareCols)).BeginInit();
             this.SuspendLayout();
             // 
             // tcLayout
@@ -142,7 +144,7 @@ namespace MTWC
             this.tcLayout.Controls.Add(this.tpCols);
             this.tcLayout.Controls.Add(this.tpColGrid);
             this.tcLayout.Controls.Add(this.tpRows);
-            this.tcLayout.Controls.Add(this.tpRowGrid);
+            this.tcLayout.Controls.Add(this.tpCompare);
             this.tcLayout.Controls.Add(this.tpLines);
             this.tcLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tcLayout.Location = new System.Drawing.Point(0, 0);
@@ -164,7 +166,7 @@ namespace MTWC
             // 
             // lbCols
             // 
-            this.lbCols.DataSource = this.colInfoBindingSource;
+            this.lbCols.DataSource = this.bsColSelection;
             this.lbCols.DisplayMember = "Type";
             this.lbCols.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbCols.FormattingEnabled = true;
@@ -176,9 +178,9 @@ namespace MTWC
             this.lbCols.TabIndex = 0;
             this.lbCols.SelectedIndexChanged += new System.EventHandler(this.lbCols_SelectedIndexChanged);
             // 
-            // colInfoBindingSource
+            // bsColSelection
             // 
-            this.colInfoBindingSource.DataSource = typeof(MTWC.ColInfo);
+            this.bsColSelection.DataSource = typeof(MTWC.ColInfo);
             // 
             // tpColGrid
             // 
@@ -204,7 +206,7 @@ namespace MTWC
             this.titleDataGridViewTextBoxColumn,
             this.dataTypeDataGridViewTextBoxColumn,
             this.descriptionDataGridViewTextBoxColumn});
-            this.gvColGrid.DataSource = this.colInfoBindingSource;
+            this.gvColGrid.DataSource = this.bsColSelection;
             this.gvColGrid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gvColGrid.Location = new System.Drawing.Point(3, 3);
             this.gvColGrid.Name = "gvColGrid";
@@ -292,24 +294,24 @@ namespace MTWC
             // 
             // tpRowGrid
             // 
-            this.tpRowGrid.Controls.Add(this.gvRowGrid);
-            this.tpRowGrid.Location = new System.Drawing.Point(4, 22);
-            this.tpRowGrid.Name = "tpRowGrid";
-            this.tpRowGrid.Padding = new System.Windows.Forms.Padding(3);
-            this.tpRowGrid.Size = new System.Drawing.Size(639, 313);
-            this.tpRowGrid.TabIndex = 3;
-            this.tpRowGrid.Text = "RowGrid";
-            this.tpRowGrid.UseVisualStyleBackColor = true;
+            this.tpCompare.Controls.Add(this.gvCompare);
+            this.tpCompare.Location = new System.Drawing.Point(4, 22);
+            this.tpCompare.Name = "tpRowGrid";
+            this.tpCompare.Padding = new System.Windows.Forms.Padding(3);
+            this.tpCompare.Size = new System.Drawing.Size(639, 313);
+            this.tpCompare.TabIndex = 3;
+            this.tpCompare.Text = "RowGrid";
+            this.tpCompare.UseVisualStyleBackColor = true;
             // 
-            // gvRowGrid
+            // gvCompare
             // 
-            this.gvRowGrid.AllowUserToAddRows = false;
-            this.gvRowGrid.AllowUserToDeleteRows = false;
-            this.gvRowGrid.AllowUserToOrderColumns = true;
-            this.gvRowGrid.AllowUserToResizeRows = false;
-            this.gvRowGrid.AutoGenerateColumns = false;
-            this.gvRowGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gvRowGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.gvCompare.AllowUserToAddRows = false;
+            this.gvCompare.AllowUserToDeleteRows = false;
+            this.gvCompare.AllowUserToOrderColumns = true;
+            this.gvCompare.AllowUserToResizeRows = false;
+            this.gvCompare.AutoGenerateColumns = false;
+            this.gvCompare.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gvCompare.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.rowNumDataGridViewTextBoxColumn1,
             this.unitIdDataGridViewTextBoxColumn,
             this.unitTypeDataGridViewTextBoxColumn,
@@ -386,16 +388,16 @@ namespace MTWC
             this.hONOURLEVELDataGridViewTextBoxColumn,
             this.aMMODataGridViewTextBoxColumn,
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn});
-            this.gvRowGrid.DataSource = this.rowInfoBindingSource;
-            this.gvRowGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gvRowGrid.Location = new System.Drawing.Point(3, 3);
-            this.gvRowGrid.Name = "gvRowGrid";
-            this.gvRowGrid.ReadOnly = true;
-            this.gvRowGrid.RowHeadersVisible = false;
-            this.gvRowGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gvRowGrid.Size = new System.Drawing.Size(633, 307);
-            this.gvRowGrid.TabIndex = 0;
-            this.gvRowGrid.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.gvRowGrid_ColumnHeaderMouseClick);
+            this.gvCompare.DataSource = this.bsCompareRows;
+            this.gvCompare.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gvCompare.Location = new System.Drawing.Point(3, 3);
+            this.gvCompare.Name = "gvCompare";
+            this.gvCompare.ReadOnly = true;
+            this.gvCompare.RowHeadersVisible = false;
+            this.gvCompare.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.gvCompare.Size = new System.Drawing.Size(633, 307);
+            this.gvCompare.TabIndex = 0;
+            this.gvCompare.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.gvCompare_ColumnHeaderMouseClick);
             // 
             // rowNumDataGridViewTextBoxColumn1
             // 
@@ -933,10 +935,10 @@ namespace MTWC
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn.Name = "fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn";
             this.fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // rowInfoBindingSource
+            // bsCompareRows
             // 
-            this.rowInfoBindingSource.DataSource = typeof(MTWC.RowInfo);
-            this.rowInfoBindingSource.Sort = "ProductionCost";
+            this.bsCompareRows.DataSource = typeof(MTWC.RowInfo);
+            this.bsCompareRows.Sort = "ProductionCost";
             // 
             // tpLines
             // 
@@ -970,15 +972,16 @@ namespace MTWC
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.tcLayout.ResumeLayout(false);
             this.tpCols.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.colInfoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bsColSelection)).EndInit();
             this.tpColGrid.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gvColGrid)).EndInit();
             this.tpRows.ResumeLayout(false);
             this.tpRows.PerformLayout();
-            this.tpRowGrid.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gvRowGrid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rowInfoBindingSource)).EndInit();
+            this.tpCompare.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gvCompare)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bsCompareRows)).EndInit();
             this.tpLines.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bsCompareCols)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -989,18 +992,18 @@ namespace MTWC
         private System.Windows.Forms.TabPage tpCols;
         private System.Windows.Forms.TabPage tpColGrid;
         private System.Windows.Forms.TabPage tpLines;
-        private System.Windows.Forms.TabPage tpRowGrid;
+        private System.Windows.Forms.TabPage tpCompare;
         private System.Windows.Forms.RichTextBox tbLines;
         private System.Windows.Forms.ListBox lbCols;
-        private System.Windows.Forms.BindingSource rowInfoBindingSource;
-        private System.Windows.Forms.BindingSource colInfoBindingSource;
+        private System.Windows.Forms.BindingSource bsCompareRows;
+        private System.Windows.Forms.BindingSource bsColSelection;
         private System.Windows.Forms.DataGridView gvColGrid;
         private System.Windows.Forms.DataGridViewTextBoxColumn rowNumDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn typeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataTypeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridView gvRowGrid;
+        private System.Windows.Forms.DataGridView gvCompare;
         private System.Windows.Forms.TabPage tpRows;
         private System.Windows.Forms.TextBox tbRows;
         private System.Windows.Forms.ListBox lbRows;
@@ -1080,6 +1083,7 @@ namespace MTWC
         private System.Windows.Forms.DataGridViewTextBoxColumn hONOURLEVELDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn aMMODataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn fORMATIONSPREFERREDNUMROWSDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource bsCompareCols;
     }
 }
 
