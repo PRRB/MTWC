@@ -150,7 +150,7 @@ namespace MTWC
             this.tcLayout.Location = new System.Drawing.Point(0, 0);
             this.tcLayout.Name = "tcLayout";
             this.tcLayout.SelectedIndex = 0;
-            this.tcLayout.Size = new System.Drawing.Size(647, 339);
+            this.tcLayout.Size = new System.Drawing.Size(728, 429);
             this.tcLayout.TabIndex = 0;
             // 
             // tpCols
@@ -292,13 +292,13 @@ namespace MTWC
             this.tbRows.WordWrap = false;
             this.tbRows.TextChanged += new System.EventHandler(this.tbRows_TextChanged);
             // 
-            // tpRowGrid
+            // tpCompare
             // 
             this.tpCompare.Controls.Add(this.gvCompare);
             this.tpCompare.Location = new System.Drawing.Point(4, 22);
-            this.tpCompare.Name = "tpRowGrid";
+            this.tpCompare.Name = "tpCompare";
             this.tpCompare.Padding = new System.Windows.Forms.Padding(3);
-            this.tpCompare.Size = new System.Drawing.Size(639, 313);
+            this.tpCompare.Size = new System.Drawing.Size(720, 403);
             this.tpCompare.TabIndex = 3;
             this.tpCompare.Text = "RowGrid";
             this.tpCompare.UseVisualStyleBackColor = true;
@@ -395,7 +395,7 @@ namespace MTWC
             this.gvCompare.ReadOnly = true;
             this.gvCompare.RowHeadersVisible = false;
             this.gvCompare.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gvCompare.Size = new System.Drawing.Size(633, 307);
+            this.gvCompare.Size = new System.Drawing.Size(714, 397);
             this.gvCompare.TabIndex = 0;
             this.gvCompare.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.gvCompare_ColumnHeaderMouseClick);
             // 
@@ -965,7 +965,7 @@ namespace MTWC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 339);
+            this.ClientSize = new System.Drawing.Size(728, 429);
             this.Controls.Add(this.tcLayout);
             this.Name = "MainForm";
             this.Text = "MTWC";
