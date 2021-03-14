@@ -58,6 +58,7 @@
     <Compile Include="Main\Main.cs" />
     <Compile Include="Main\Row.cs" />
     <Compile Include="Main\RowInfo.cs" />
+    <Compile Include="Main\Extensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">

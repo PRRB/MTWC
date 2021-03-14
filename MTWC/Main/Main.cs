@@ -50,15 +50,20 @@ namespace MTWC
             var props = typeof(RowInfo).GetProperties();
             foreach (var row in Rows)
             {
-                var rowInfo = new RowInfo();
-                rowInfo.RowNum = row.RowNum;
+                var rowInfo = new RowInfo
+                {
+                    RowNum = row.RowNum
+                };
                 foreach (var col in row.Cols)
                 {
                     var colName = col.Type.ToString();
                     var prop = props.First(p
                         => p.Name.Equals(colName, StringComparison.OrdinalIgnoreCase));
 
-                    prop.SetValue(rowInfo, col.Text);
+                    if (prop.PropertyType == typeof(int?))
+                        prop.SetValue(rowInfo, col.Text.ToInt());
+                    else
+                        prop.SetValue(rowInfo, col.Text);
                 }
                 RowInfo.Add(rowInfo);
             }

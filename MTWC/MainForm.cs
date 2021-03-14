@@ -16,14 +16,32 @@ namespace MTWC
 
         const string RowDefault = "light";
 
-        static readonly ColType[] ColDefault = new ColType[]
-            {ColType.UnitId, ColType.SupportCost, ColType.ProductionCost,
-                ColType.UnitSize,
-             ColType.MoralBonus, ColType.RUN_SPEED, ColType.CHARGE_BONUS,
-             ColType.MELEE_BONUS, ColType.DEFENCE_BONUS, ColType.ARMOUR_LEVEL};
+        static readonly ColType[] ColDefault = new ColType[] {
+            ColType.UnitId, ColType.SupportCost, ColType.ProductionCost,
+            ColType.UnitSize,
+
+            ColType.Region, ColType.RegionIDtroopAdvantage,
+            ColType.RulerIDTroopAdvantage,
+            ColType.FactionAssociation, ColType.BuildingsNeeded,
+            
+            ColType.MeleeSupportingRanks,
+            ColType.CavAttackBonus,
+            ColType.CavDefenceBonus,
+
+            ColType.MoralBonus,
+            ColType.IsArmourPiercing,
+            ColType.ShieldType,
+            ColType.ShieldModifier,
+
+            ColType.RUN_SPEED, ColType.CHARGE_BONUS,
+            ColType.MELEE_BONUS, ColType.DEFENCE_BONUS, ColType.ARMOUR_LEVEL
+        };
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            gvColGrid.DoubleBuffered(true);
+            gvCompare.DoubleBuffered(true);
+
             _main = new Main();
             tbLines.Lines = _main.Lines;
             bsColSelection.DataSource = _main.ColInfo;
@@ -63,11 +81,33 @@ namespace MTWC
             var name = gvCompare.Columns[e.ColumnIndex].HeaderText;
 
             var sortProp = typeof(RowInfo).GetProperty(name);
-            var sorted = ds
-                .OrderBy(c => sortProp.GetValue(c));
 
-            ds.Sort((x, y) => sortProp
-                .GetValue(y).ToString().CompareTo(sortProp.GetValue(x).ToString()));
+            if (sortProp.PropertyType == typeof(int?))
+            {
+                ds.Sort((x, y) =>
+                {
+                    var xx = sortProp.GetValue(x) as int?;
+                    var yy = sortProp.GetValue(y) as int?;
+
+                    var result = xx == null
+                        ? yy == null ? 0 : 1
+                        : yy == null ? -1 : (int)yy - (int)xx;
+                    return result;
+                });
+            }
+            else
+            {
+                ds.Sort((x, y) =>
+                {
+                    var xx = sortProp.GetValue(x).ToString();
+                    var yy = sortProp.GetValue(y).ToString();
+
+                    var result = string.IsNullOrWhiteSpace(xx)
+                        ? string.IsNullOrWhiteSpace(yy) ? 0 : 1
+                        : string.IsNullOrWhiteSpace(yy) ? -1 : xx.CompareTo(yy);
+                    return result;
+                });
+            }
 
             gvCompare.Refresh();
         }
