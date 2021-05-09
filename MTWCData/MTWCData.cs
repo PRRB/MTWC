@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MTWC
 {
-    public class Main
+    public class MTWCData
     {
         const string path
             //= @"C:\Program Files (x86)\Steam\steamapps\common\Total War Medieval 1 Gold\";
@@ -21,7 +21,7 @@ namespace MTWC
 
         public List<RowInfo> RowInfo { get; set; } = new List<RowInfo>();
 
-        public Main()
+        public MTWCData()
         {
             try
             {

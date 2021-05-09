@@ -12,7 +12,7 @@ namespace MTWC
             InitializeComponent();
         }
 
-        Main _main;
+        MTWCData _main;
 
         const string RowDefault = "light";
 
@@ -42,7 +42,7 @@ namespace MTWC
             gvColGrid.DoubleBuffered(true);
             gvCompare.DoubleBuffered(true);
 
-            _main = new Main();
+            _main = new MTWCData();
             tbLines.Lines = _main.Lines;
             bsColSelection.DataSource = _main.ColInfo;
             bsCompareCols.DataSource = _main.ColInfo;

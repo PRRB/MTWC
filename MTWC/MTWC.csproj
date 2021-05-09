@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SourceGrid, Version=4.40.4580.29115, Culture=neutral, PublicKeyToken=df6f5e538749e85d, processorArchitecture=MSIL">
+      <HintPath>..\packages\SourceGrid.4.4.0\lib\net35\SourceGrid.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,12 +56,6 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main\Col.cs" />
-    <Compile Include="Main\ColInfo.cs" />
-    <Compile Include="Main\ColType.cs" />
-    <Compile Include="Main\Main.cs" />
-    <Compile Include="Main\Row.cs" />
-    <Compile Include="Main\RowInfo.cs" />
     <Compile Include="Main\Extensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,7 +70,12 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\DataSources\ColInfo.datasource" />
     <None Include="Properties\DataSources\RowInfo.datasource" />
     <None Include="Properties\Settings.settings">
@@ -94,6 +97,12 @@
     <Content Include="GameFiles\Original\PROJECTILESTATS.TXT" />
     <Content Include="GameFiles\Original\VIKINGS_BUILD_PROD.TXT" />
     <Content Include="GameFiles\Original\VIKINGS_UNIT_PROD.TXT" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MTWCData\MTWCData.csproj">
+      <Project>{da7a339b-4773-4050-9025-4eae34e7c52e}</Project>
+      <Name>MTWCData</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
