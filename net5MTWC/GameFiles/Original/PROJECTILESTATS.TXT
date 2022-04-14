@@ -1,0 +1,86 @@
+VER 101		
+; Comment lines begin with a semi colon		
+; The first line of the file must give the file version number. Should only be changed by CA		
+;One row of data per projectile type. They must be presented in the correct order		
+;Data Fields are as follows		
+;Name:		The name of the projectile. This is for reference only. The projectiles must be presented in the correct order
+;Length		Affects the drawing of arrows
+;Freq		No longer used
+;Range		Range the projectile can be fired at. 5000 = 100 metres
+;Velocity		The speed of the projectile in flght. Making this higher will result in a flatter trajectory
+;Accuracy		The accuracy of the projectile. 1 = best accuracy. Lower numbers are more erratic. Must be > 0. Affects ranging in for artillery
+;Lethality		The base chance of a hit scoring a kill. This can greater than 1 as is multiplied by the base kill chance (by default 18%)
+;		However if the two multiplied together should not exceed 100%
+;Power		"The number of hits points damage done to a man or structure. Most men have only 1 hit points, but generals have more"
+;Armour Mod		The target's armour is multiplied by this value to get the effective armour. Thus 1 = no special armour penetration
+;Reload Time		The number if animation cycles its takes to reload. Not used by artillery
+;Shoot Immediate		"Can the unit be fired immediately a target is presented, or must the unit load first"
+;ReloadMoving		Can the Soldier reload while moving
+;IsGun		Is the weapon considered a gun for purposes of firing in revolving ranks
+;TryHigh		Can the weapon try a high angle shot if the low angle shot is blocked
+;FireInRain		Can the weapon fire in the rain. Doesn't apply to artillery
+;MinAngle		Minimum angle the weapon can fire at. 64 = vertically up.
+;MaxAngle		Maximum angle the weapon can fire at. 64 = vertically up
+;AccColDec		y if this projecitle should always accurate collision detection against models. This is computationally expensive
+;LaunchFX		;Name of sound effect to use when artillery fires. Note this is a name internal to the program and does not refer to a wav file
+;Model		;Name of the model used for an artillery piece
+;bounce		y if the projectile can bounce
+;minCrew		The minimum number of crew needed for an artillery piece
+;numSoldiers		Affects loss of effectiveness as crew is reduced. Must be greater than minCrew
+;		Effectiveness = SoldiersInUnit / (numSoldiers - minCrew)
+;TurnSpeed		Turning rate of artillery pieces that can turn. Set to 0 for pieces that cannot turn
+;ArtilleryReloadTime		Reload time of artillery. A value of 140 indicated 10 seconds
+;FieldOfFire		The horizontal cone of fire for an artillery piece. It must turn (if it can) to engage targets outside this arc
+;SafeShots		The number of shots an artillery piece can fire before it has a chance of exploding
+;Safety		The chance of a gun exploding
+;HitGround		The 5 hit values define what happens when the projectile hits various items
+;HitTree		Currently the only value checked is whether hitSoldier = PENETRATE
+;HitSoldier		Other values have no effect in the original Medieval
+;HitWood		
+;HitStone		
+;BlastRadius		Radius in which troops can be killed by a artillery hit on the ground
+;BlastKillChance		The percentage kill chance of a soldier in the blast radius being killed
+;AimAdjust		The aim point for this projectile is offset by the given height from the normal aim point on a model
+;CustomBattleCost		"This is used to calculate the the florin amount that is deducted from missile units,before upgrade costs are applied"
+;		It applies only to custom and multiplayer games
+;		"To function correctly, it needs to be the same as the cost for the weapon listed in the unit production spreadsheet"
+;FlamingProjectile		Specifies the projectile to be used against flammable targets. If NONE then the same type is used. FLAMING_ARROW or FLAMING_ROCK may be specified
+;		"The ballistic and other properties are immaterial, as the properties of the base type will be used. Only the power and IsFlaming rating are relevent"
+;IsFlaming		Specifies if the projectile is flaming. 																																					
+;																																							
+;																																							
+;Name	Length	Freq	Range	Velocity	Accuracy	Lethality	Power	Armour Mod	Reload Time	Shoot Immediated	Reload Moving	IsGun	TryHigh	FireInRain	MinAngle	MaxMangle	AccColDec	LaunchFX	Model	bounce	minCrew	numSoldiers	TurnSpeed	Not Used	ArtilleryReload	FieldOfFire	NumSafeShots	Safety	HitGround	HitTree	HitSolider	HitWood	HitStone	BlastRadius	BlastKillChance	AimAdjust	CustomBatleCost	FlamingProjectile	IsFlaming
+none	0	-1	0	0	1	1	0	1	0	n	n	n	n	y	0	0	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	0	NONE	n
+longbow	25	11	6000	170	0.6	0.68	1	0.5	4	n	n	n	y	y	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	250	FLAMING_ARROW	n
+shortbow	25	11	5000	150	0.6	0.68	1	1	4	n	n	n	n	y	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	200	FLAMING_ARROW	n
+mountedlongbow	25	11	5000	150	0.55	0.68	1	1	4	n	n	n	y	y	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	170	NONE	n
+arquebus	0	15	4000	300	0.07	4	4	0.015	30	y	n	y	n	n	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	120	NONE	n
+handgun	0	15	2000	300	0.05	4	4	0.015	30	y	n	y	n	n	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	70	NONE	n
+ninjastar	0	5	1200	100	0.5	1.25	1	0.5	3	y	y	n	n	y	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	0	NONE	n
+javelin	0	5	1500	80	0.15	2	2	0.3	3	y	y	n	n	y	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	80	NONE	n
+grenade	0	5	1300	80	0.03	10	6	0	6	y	y	n	n	n	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	350	NONE	n
+crossbow	10	5	5000	250	0.7	1	2	0.4	15	y	n	n	n	y	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	135	NONE	n
+arbalest	10	5	6000	250	0.75	1.25	3	0.3	15	y	n	n	n	y	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	205	NONE	n
+ballista	100	5	10000	200	0.9	10	40	0	15	n	n	n	n	y	0	57	y	SE_ARTILLERY_BALLISTA	ballista	n	2	6	64	80	150	5	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	-50	0	NONE	n
+catapult	100	5	12000	200	0.6	10	80	0	15	n	n	n	y	y	10	80	y	SE_ARTILLERY_CATAPULT	catapult	y	3	6	64	80	228	5	0	0	BOUNCE	REMOVE	PENETRATE	REMOVE	REMOVE	96	25	0	0	FLAMING_ROCK	n
+trebuchet	100	5	12000	200	0.6	10	150	0	15	n	n	n	y	y	10	80	y	SE_ARTILLERY_TREBUCHET	trebuchet	y	6	12	0	80	280	15	0	0	REMOVE	REMOVE	PENETRATE	REMOVE	REMOVE	96	25	0	0	FLAMING_TREBUCHET	n
+mangonel	100	5	12000	200	0.6	10	250	0	15	n	n	n	y	y	10	80	y	SE_ARTILLERY_MANGONEL	mangonel	y	6	12	0	80	280	15	0	0	REMOVE	REMOVE	PENETRATE	REMOVE	REMOVE	128	25	0	0	FLAMING_MANGONEL	n
+bombard	100	5	16000	300	0.8	10	150	0	15	n	n	y	n	y	-5	57	y	SE_ARTILLERY_BOMBARDIER	bombard	y	6	12	0	80	280	15	3	0.1	BOUNCE	PENETRATE	PENETRATE	PENETRATE	REMOVE	128	25	0	0	NONE	n
+culverin	100	5	24000	400	0.9	10	250	0	15	n	n	y	n	y	-5	57	y	SE_ARTILLERY_CULVERIN	culverin	y	4	10	64	80	228	5	0	0	BOUNCE	REMOVE	PENETRATE	PENETRATE	REMOVE	128	25	0	0	NONE	n
+demi-culverin	100	5	16000	300	0.9	10	100	0	15	n	n	y	n	y	-5	57	y	SE_ARTILLERY_DEMI_CULVERIN	demi-culverin	y	4	8	64	80	228	5	0	0	BOUNCE	REMOVE	PENETRATE	PENETRATE	REMOVE	96	25	0	0	NONE	n
+siege-cannon	100	5	28000	400	0.8	10	450	0	15	n	n	y	n	y	-5	57	y	SE_ARTILLERY_SIEGE_CANNON	siege-cannon	y	8	12	0	80	280	15	10	0.03	BOUNCE	PENETRATE	PENETRATE	PENETRATE	EXPLODE	128	25	0	0	NONE	n
+demi-cannon	100	5	16000	300	0.9	10	150	0	15	n	n	y	n	y	-5	57	y	SE_ARTILLERY_DEMI_CANNON	demi-cannon	y	8	12	64	80	280	5	20	0.01	BOUNCE	REMOVE	PENETRATE	PENETRATE	EXPLODE	128	25	0	0	NONE	n
+mortar	100	5	12000	250	0.6	10	100	0	15	n	n	y	y	y	30	80	y	SE_ARTILLERY_MORTAR	mortar	n	4	6	0	80	192	25	0	0	REMOVE	REMOVE	EXPLODE	EXPLODE	EXPLODE	128	25	0	0	NONE	n
+serpentine	100	5	16000	300	0.9	10	40	0	15	n	n	y	n	y	-5	57	y	SE_ARTILLERY_SERPENTINE	serpentine	y	4	8	64	80	150	5	0	0	BOUNCE	REMOVE	PENETRATE	PENETRATE	REMOVE	96	25	0	0	NONE	n
+organ_gun	100	5	3000	80	0.9	10	10	0	15	n	n	y	n	y	-20	57	y	SE_ARTILLERY_ORGAN_GUN	organ-gun	y	4	8	64	80	500	5	0	0	BOUNCE	REMOVE	REMOVE	REMOVE	REMOVE	600	25	0	0	NONE	n
+torch	10	5	500	50	0.75	0.05	5	1	15	n	n	n	y	y	-20	85	y	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	0	NONE	y
+arrow_from_model	25	11	6000	150	0.6	0.63	1	0.5	4	n	n	n	y	y	-50	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	0	FLAMING_ARROW	n
+bolt_from_model	10	5	6000	250	0.75	1.25	3	0.3	7	y	n	n	n	y	-50	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	0	NONE	n
+bullet_from_model	0	15	4000	300	0.07	4	4	0.015	10	y	n	y	n	n	-50	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	0	NONE	n
+flaming_arrow	25	11	5000	150	0.6	0.68	1	1	4	n	n	n	n	y	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	200	NONE	y
+flaming_rock	100	5	12000	200	0.6	10	80	0	15	n	n	n	y	y	10	80	y	SE_ARTILLERY_CATAPULT	catapult	y	3	6	64	80	228	5	0	0	BOUNCE	REMOVE	PENETRATE	REMOVE	REMOVE	96	25	0	0	NONE	y
+flaming_trebuchet	100	5	12000	200	0.6	10	150	0	15	n	n	n	y	y	10	80	y	SE_ARTILLERY_TREBUCHET	trebuchet	y	6	12	0	80	280	15	0	0	REMOVE	REMOVE	PENETRATE	REMOVE	REMOVE	96	25	0	0	NONE	y
+flaming_mangonel	100	5	12000	200	0.6	10	250	0	15	n	n	n	y	y	10	80	y	SE_ARTILLERY_MANGONEL	mangonel	y	6	12	0	80	280	15	0	0	REMOVE	REMOVE	PENETRATE	REMOVE	REMOVE	128	25	0	0	NONE	y
+boiling_oil	0	5	1300	80	0.03	10	6	0	6	y	y	n	n	n	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	350	NONE	y
+dart	0	5	2500	100	0.3	1	1	1	3	y	y	n	n	y	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	80	NONE	n
+heavy_spear	0	5	1500	80	0.15	4	2	0.3	3	y	y	n	n	y	-20	57	n	NONE	NONE	n	0	0	0	0	0	0	0	0	REMOVE	REMOVE	REMOVE	REMOVE	REMOVE	0	0	0	80	NONE	n
