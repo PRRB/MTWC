@@ -9,10 +9,10 @@ namespace MTWC
     public class MTWCData
     {
         const string path
-            //= @"C:\Program Files (x86)\Steam\steamapps\common\Total War Medieval 1 Gold\";
-            = @"C:\Users\Phil\Documents\MTW\MTW\";
-        const string fullpath = path + "CRUSADERS_UNIT_PROD11.TXT";
-        const string newpath = path + "CRUSADERS_UNIT_PROD11-2.TXT";
+        //= @"C:\MTW\MTW";
+        = @"C:\Program Files (x86)\Steam\steamapps\common\Total War Medieval 1 Gold";
+        const string fullpath = path + "\\CRUSADERS_UNIT_PROD11.TXT";
+        const string newpath = path + "\\CRUSADERS_UNIT_PROD11-2.TXT";
 
         public string[] Lines { get; set; }
         public string Text { get; set; }
@@ -68,11 +68,11 @@ namespace MTWC
                 RowInfo.Add(rowInfo);
             }
 
-            var lighthalberdier = GetRows("lighthalberdier", ColType.UnitId).First();
-            var lightspearmen = GetRows("lightspearmen", ColType.UnitId).First();
-            var lightcavalry = GetRows("lightcavalry", ColType.UnitId);
-            var peasantcavalry = GetRows("peasantcavalry", ColType.UnitId);
-            var mountedscouts = GetRows("mountedscouts", ColType.UnitId);
+            //var lighthalberdier = GetRows("lighthalberdier", ColType.UnitId).First();
+            //var lightspearmen = GetRows("lightspearmen", ColType.UnitId).First();
+            //var lightcavalry = GetRows("lightcavalry", ColType.UnitId);
+            //var peasantcavalry = GetRows("peasantcavalry", ColType.UnitId);
+            //var mountedscouts = GetRows("mountedscouts", ColType.UnitId);
         }
 
         private List<ColInfo> LoadColInfo(string[] lines)
