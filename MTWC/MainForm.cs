@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace MTWC
@@ -14,7 +15,7 @@ namespace MTWC
 
         MTWCData _main;
 
-        const string RowDefault = "light";
+        const string RowDefault = "^spearmen|viking|housecarle";
 
         static readonly ColType[] ColDefault = new ColType[] {
             ColType.UnitId, ColType.SupportCost, ColType.ProductionCost,
@@ -52,7 +53,7 @@ namespace MTWC
             {
                 lbCols.SelectedItems.Add(info);
             }
-            tbRows.Text = RowDefault;
+            tbRowFilter.Text = "";
             SetDefaultRowSelection();
             PopulateRows();
             bsCompareRows.DataSource = GetSelectedRows();
@@ -123,7 +124,7 @@ namespace MTWC
             lbRows.SelectedIndexChanged -= new EventHandler(lbRows_SelectedIndexChanged);
             lbRows.Items.Clear();
 
-            foreach (var row in GetFilteredRows())
+            foreach (var row in GetFilteredRows(tbRowFilter.Text))
             {
                 lbRows.Items.Add(row);
                 if (row._show)
@@ -136,11 +137,12 @@ namespace MTWC
             lbRows.EndUpdate();
         }
 
-        private List<RowInfo> GetFilteredRows()
+        private List<RowInfo> GetFilteredRows(string filter)
         {
-            var search = (tbRows.Text ?? "").ToLower();
-            return _main.RowInfo
-                .FindAll(r => search == "" || r.UnitId.ToLower().Contains(search));
+            var search = filter.Trim() ?? "";
+            if (search == "") return _main.RowInfo;
+            var regex = new Regex(search, RegexOptions.IgnoreCase);
+            return _main.RowInfo.FindAll(r => regex.IsMatch(r.UnitId));
         }
 
         private List<RowInfo> GetSelectedRows()
@@ -154,7 +156,7 @@ namespace MTWC
             {
                 row._show = false;
             }
-            foreach (var row in GetFilteredRows())
+            foreach (var row in GetFilteredRows(RowDefault))
             {
                 row._show = true;
             }

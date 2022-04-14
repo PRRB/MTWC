@@ -43,7 +43,7 @@ namespace MTWC
             this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tpRows = new System.Windows.Forms.TabPage();
             this.lbRows = new System.Windows.Forms.ListBox();
-            this.tbRows = new System.Windows.Forms.TextBox();
+            this.tbRowFilter = new System.Windows.Forms.TextBox();
             this.tpCompare = new System.Windows.Forms.TabPage();
             this.gvCompare = new System.Windows.Forms.DataGridView();
             this.rowNumDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -259,7 +259,7 @@ namespace MTWC
             // tpRows
             // 
             this.tpRows.Controls.Add(this.lbRows);
-            this.tpRows.Controls.Add(this.tbRows);
+            this.tpRows.Controls.Add(this.tbRowFilter);
             this.tpRows.Location = new System.Drawing.Point(4, 22);
             this.tpRows.Name = "tpRows";
             this.tpRows.Padding = new System.Windows.Forms.Padding(3);
@@ -283,14 +283,14 @@ namespace MTWC
             // 
             // tbRows
             // 
-            this.tbRows.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tbRows.Location = new System.Drawing.Point(3, 3);
-            this.tbRows.Name = "tbRows";
-            this.tbRows.Size = new System.Drawing.Size(633, 20);
-            this.tbRows.TabIndex = 0;
-            this.tbRows.Text = "Camel";
-            this.tbRows.WordWrap = false;
-            this.tbRows.TextChanged += new System.EventHandler(this.tbRows_TextChanged);
+            this.tbRowFilter.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tbRowFilter.Location = new System.Drawing.Point(3, 3);
+            this.tbRowFilter.Name = "tbRows";
+            this.tbRowFilter.Size = new System.Drawing.Size(633, 20);
+            this.tbRowFilter.TabIndex = 0;
+            this.tbRowFilter.Text = "Camel";
+            this.tbRowFilter.WordWrap = false;
+            this.tbRowFilter.TextChanged += new System.EventHandler(this.tbRows_TextChanged);
             // 
             // tpCompare
             // 
@@ -1005,7 +1005,7 @@ namespace MTWC
         private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridView gvCompare;
         private System.Windows.Forms.TabPage tpRows;
-        private System.Windows.Forms.TextBox tbRows;
+        private System.Windows.Forms.TextBox tbRowFilter;
         private System.Windows.Forms.ListBox lbRows;
         private System.Windows.Forms.DataGridViewTextBoxColumn rowNumDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn unitIdDataGridViewTextBoxColumn;
