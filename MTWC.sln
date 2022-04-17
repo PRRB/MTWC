@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31005.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net48MTWC", "MTWC\net48MTWC.csproj", "{E5E52787-3796-4CC2-8C6B-CAD6A2F5FDFB}"
 EndProject
@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTWCData", "MTWCData\MTWCData.csproj", "{DA7A339B-4773-4050-9025-4EAE34E7C52E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net5MTWC", "net5MTWC\net5MTWC.csproj", "{629C0DCB-58F6-4999-A673-0F86BFFBFA11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net6MTWC", "net6MTWC\net6MTWC.csproj", "{629C0DCB-58F6-4999-A673-0F86BFFBFA11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -92,13 +92,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GameFiles\Original\CRUSADERS_UNIT_PROD11.TXT" />
-    <Content Include="GameFiles\Original\CRUSADER_BUILD_PROD13.TXT" />
-    <Content Include="GameFiles\Original\PROJECTILESTATS.TXT" />
-    <Content Include="GameFiles\Original\VIKINGS_BUILD_PROD.TXT" />
-    <Content Include="GameFiles\Original\VIKINGS_UNIT_PROD.TXT" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MTWCData\MTWCData.csproj">
       <Project>{da7a339b-4773-4050-9025-4eae34e7c52e}</Project>
       <Name>MTWCData</Name>

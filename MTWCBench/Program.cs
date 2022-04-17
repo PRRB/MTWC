@@ -6,7 +6,7 @@ namespace MTWCBench
     {
         public static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<MTWCDataBench>();
+            var summary = BenchmarkRunner.Run<MTWCBench>();
         }
     }
 }
