@@ -1,0 +1,768 @@
+// Glorious Objectives Text
+
+// Notes to translators.
+//		
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+// ii) If untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated strings
+// easily and can see that they have not been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+//
+// iii) The data is organised as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+//
+// Comments are ignored and will be stripped out later. 
+// They can be used to issue instructions or for information.
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localised.
+
+["GloriousObjectivesTextData"]
+{"Glorious Objectives text data"}
+// Do not translate. Just so I can see what the data is. 
+
+// Note to programmers
+// Use CAT() as the localisation container.
+
+//Titles/Descriptions/Non-Region Conditions start here:
+
+["Glorious Achievements_xzy"]
+{"Glorious Achievements"}
+
+["GG_IBERIAN_JIHAD_TITLE"]
+{"The Iberian Jihad"}
+
+["GG_IBERIAN_JIHAD_DESCRIPTION"]
+{"With Muslim civilization far in advance of any European nation, the idea of unifying the Spanish peninsula under the Almohad Caliphate is a noble vision. Points are counted in 1130, 1166, and 1204. These provinces must be conquered:"}
+
+["GG_ALHAMBRA_PALACE_TITLE"]
+{"The Alhambra (Red) Palace"}
+
+["GG_ALHAMBRA_PALACE_DESCRIPTION"]
+{"A splendid government citadel on the plateau overlooking the city of Granada will mark a claim to permanent dominance over Spain. Points are counted (but only once) between 1205-1320. Your faction must build:"}
+
+["GG_ALHAMBRA_PALACE"]
+{"A Citadel in Granada"}
+
+["GG_HOMELAND_TITLE"]
+{"Homelands"}
+
+["GG_HOMELAND_DESCRIPTION"]
+{"The heart of your faction's homeland must be defended against incursions. Control must be kept of the provinces listed below. Points are counted in 1100, 1125, 1150, 1175, 1205, 1225, 1250, 1275, 1300, 1321, 1350, 1375, 1400, 1425 and 1453."}
+
+["GG_HOMELAND_ALMOHAD_TITLE"]
+{"The Almohad Empire"}
+
+["GG_HOMELAND_ALMOHAD_DESCRIPTION"]
+{"The heart of the Almohad Empire must be defended against incursions. Points are counted in 1204, 1320, and 1453. The following provinces must be controlled:"}
+
+["GG_SUSTAIN_BYZANTIUM_TITLE"]
+{"Preservation of the Empire"}
+
+["GG_SUSTAIN_BYZANTIUM_DESCRIPTION"]
+{"The golden age of Roman civilization lives on in Byzantium, but pressure from barbaric neighbours threatens it. Points are counted in 1150, 1260, 1365, and 1453. Preserve the Empire by protecting these provinces:"}
+
+["GG_HOMELAND_BYZANTIUM_TITLE"]
+{"Byzantium"}
+
+["GG_HOMELAND_BYZANTIUM_DESCRIPTION"]
+{"The heart of Byzantium must be defended against incursions. Points are counted in 1204, 1320, and 1453. The following provinces must be controlled:"}
+
+["GG_KALMAR_UNION_TITLE"]
+{"The Kalmar Union"}
+
+["GG_KALMAR_UNION_DESCRIPTION"]
+{"The union of Denmark, Norway, and Sweden faces the formidable challenge of achieving superiority over the German Hansa - a demanding economic target. Points are counted (but only once) between 1321-1453. This is achieved when:"}
+
+["GG_TRADE_INCOME_3000"]
+{"Income from Trade exceeds 3,000 florins"}
+
+["GG_TRADE_INCOME_6000"]
+{"Income from Trade exceeds 6,000 florins"}
+
+["GG_TRADE_INCOME_12000"]
+{"Income from Trade exceeds 12,000 florins"}
+
+["GG_TRADE_INCOME_24000"]
+{"Income from Trade exceeds 24,000 florins"}
+
+["GG_HOMELAND_DENMARK_TITLE"]
+{"The Kingdom of Denmark"}
+
+["GG_HOMELAND_DENMARK_DESCRIPTION"]
+{"The heart of the Kingdom of Denmark must be defended against incursions. Points are counted in 1204, 1320, and 1453. The following provinces must be controlled:"}
+
+["GG_PLANTAGENET_CLAIMS_TITLE"]
+{"Plantagenet Claims"}
+
+["GG_PLANTAGENET_CLAIMS_DESCRIPTION"]
+{"Your faction are the rightful heirs to extensive lands on the continent. Making good these claims are a noble and profitable objective. Points are counted in 1453 only. The following provinces must be controlled:"}
+
+["GG_WOOL_MONOPOLY_TITLE"]
+{"Wool Monopoly"}
+
+["GG_WOOL_MONOPOLY_DESCRIPTION"]
+{"Control of the wool cloth trade is at the apex of mercantile and territorial competitions with French and Spanish interests, and is a goal worthy of some effort. Points are counted in 1350, 1400, and 1450. English merchants must:"}
+
+["GG_WOOL_MERCHANT_INCOME_67"]
+{"Control more than 2/3rds of the Wool Trade"}
+
+["GG_SUBDUE_SCOTLAND_TITLE"]
+{"Subdue Scotland"}
+
+["GG_SUBDUE_SCOTLAND_DESCRIPTION"]
+{"The 'Auld Alliance' continues to help the Scots defy English sovereignty over Scotland. The defeat of these unruly highlanders will be a testament to your faction's greatness. Points are counted in 1320, and the English must conquer:"}
+
+["GG_HOMELAND_ENGLISH_TITLE"]
+{"The Kingdom of England"}
+
+["GG_HOMELAND_ENGLISH_DESCRIPTION"]
+{"The heart of England must be defended against incursions. Points are counted on 1204, 1320, and 1453. The following provinces must be controlled:"}
+
+["GG_GRAND_MOSQUE_AL_AZHAR_TITLE"]
+{"The Grand Mosque of Al-Azhar"}
+
+["GG_GRAND_MOSQUE_AL_AZHAR_DESCRIPTION"]
+{"The greatness of Egypt will be profoundly enhanced by building a Grand Mosque to be the principal seat of Islamic learning. Points are scored (once) between 1095-1204. The Egyptians must build:"}
+
+["GG_MOSQUE_EGYPT"]
+{"A Mosque in Egypt"}
+
+["GG_JERUSALEM_TITLE"]
+{"Jerusalem"}
+
+["GG_JERUSALEM_DESCRIPTION"]
+{"Jerusalem, the goal of the Prophet's mystic night journey, is a centre of pilgrimage for the Islamic faith. Protecting it from non-believers is therefore the solemn duty for the Sultan of Egypt. Points are counted in 1130, 1166, 1260, and 1365. The Egyptians must control:"}
+
+["GG_CAIRO_TITLE"]
+{"Cairo"}
+
+["GG_CAIRO_DESCRIPTION"]
+{"The city of Al-Qahirah (Cairo) has transformed in recent years from a royal enclave to an imperial metropolis. As the hub of Egyptian power it can become the greatest city in the known world. Points are counted (only once) between 1321-1453. The Egyptians must attain:"}
+
+["GG_GREATEST_CITY_EGYPT"]
+{"More building levels in Egypt than any other province"}
+
+["GG_HOMELAND_EGYPTIAN_TITLE"]
+{"The Sultanate of Egypt"}
+
+["GG_HOMELAND_EGYPTIAN_DESCRIPTION"]
+{"The heart of the Egyptian Sultanate must be defended against incursions. Points are counted on 1204, 1320, and 1453. The following provinces must be controlled:"}
+
+["GG_ALBIGENSIAN_CRUSADE_TITLE"]
+{"The Albigensian Crusade"}
+
+["GG_ALBIGENSIAN_CRUSADE_DESCRIPTION"]
+{"Continued Albigensian heresies in the south must be crushed once and for all. Draw them out into open revolt and then start a Crusade against these heretics. Points are counted (once) between 1205-1250. To protect the faith, the following must be done:"}
+
+["GG_CRUSADE_TO_AQUITAINE"]
+{"Successfully launch a Crusade to Aquitaine"}
+
+["GG_CRUSADE_TO_TOULOUSE"]
+{"Successfully launch a Crusade to Toulouse"}
+
+["GG_KRAK_DES_CHEVALIERS_TITLE"]
+{"The Krak des Chevaliers"}
+
+["GG_KRAK_DES_CHEVALIERS_DESCRIPTION"]
+{"The Knights of St John have called for a mighty Citadel to be built in Tripoli as a bastion of the Crusaders. Points are counted (once) between 1100-1200. The following must be built:"}
+
+["GG_CITADEL_TRIPOLI"]
+{"A Citadel in Tripoli"}
+
+["GG_NOTRE_DAME_TITLE"]
+{"Notre Dame Cathedral"}
+
+["GG_NOTRE_DAME_DESCRIPTION"]
+{"The Church's leaders have conceived of a great Cathedral in Paris, constructed on the ruins of two previous basilicas. This will stand as a permanent statement of France's piety. Points are counted (once) between 1150-1250. The following must be built:"}
+
+["GG_CATHEDRAL_ILE_DE_FRANCE"]
+{"A Cathedral in Ile-de-France"}
+
+["GG_SAINTE_CHAPELLE_TITLE"]
+{"Sainte-Chapelle"}
+
+["GG_SAINTE_CHAPELLE_DESCRIPTION"]
+{"A sumptuous chapel to house blessed fragments, such as barbs from the Crown of Thorns stained with the blood of Jesus Christ, will glorify France. Points are counted (once) between 1230-1260. The following must be built:"}
+
+["GG_RELIQUARY_ILE_DE_FRANCE"]
+{"A Reliquary in Ile-de-France"}
+
+["GG_VALOIS_CLAIMS_TITLE"]
+{"Valois Claims"}
+
+["GG_VALOIS_CLAIMS_DESCRIPTION"]
+{"The perfidious Plantagenet Kings of England lay title to lands that are rightfully French. Cast the ignoble curs back to the sea! Points are counted in 1453. The French must control:"}
+
+["GG_HOMELAND_FRENCH_TITLE"]
+{"The Kingdom of France"}
+
+["GG_HOMELAND_FRENCH_DESCRIPTION"]
+{"The heart of France must be defended against incursions. Points are counted in 1204, 1320, and 1453. The following provinces must be controlled:"}
+
+["GG_HOLY_ROMAN_EMPIRE_TITLE"]
+{"The Holy Roman Empire"}
+
+["GG_HOLY_ROMAN_EMPIRE_DESCRIPTION"]
+{"The coronation of Charlemagne in 800AD established the King of Germany as Emperor and protector of Rome. Points are counted in 1150, 1204, and 1250. To make reunification a glorious reality the Empire must conquer:"}
+
+["GG_HANSEATIC_LEAGUE_TITLE"]
+{"The Hanseatic League"}
+
+["GG_HANSEATIC_LEAGUE_DESCRIPTION"]
+{"A powerful chain of German coastal cities, with ports and merchants uniting to dominate trade, offers vast wealth to the furtherance of the Empire. Points are counted in 1250, 1300, 1350, 1400, and 1450. Imperial merchants must:"}
+
+["GG_NORTH_SEA_INCOME_67"]
+{"Control more than 2/3rds of North Sea Trade"}
+
+["GG_DRANG_NACH_OSTEN_TITLE"]
+{"Drang nach Osten"}
+
+["GG_DRANG_NACH_OSTEN_DESCRIPTION"]
+{"The drive to the east is called for by your knights eager for new fiefdoms and titles, but will be fiercely resisted by the pagan tribes. Points are counted in 1204, 1260, and 1320. Imperial armies must control:"}
+
+["GG_HUSSITE_SUPPRESSION_TITLE"]
+{"Hussite Suppression"}
+
+["GG_HUSSITE_SUPPRESSION_DESCRIPTION"]
+{"The Hussites (followers of Jan Hus) are warfaring heretics causing turmoil in the east and threatening to move westward. Defeating them will restore religious peace. Points are counted (once) between 1410-1440. Make sure that:"}
+
+["GG_HERESY_SUB10_BOHEMIA"]
+{"Heresy level in Bohemia is less than 10"}
+
+["GG_HOMELAND_GERMAN_HRE_TITLE"]
+{"Holy Roman Empire"}
+
+["GG_HOMELAND_GERMAN_HRE_DESCRIPTION"]
+{"The heart of Germany must be defended against incursions. Points are counted in 1204, 1320, and 1453. Control of these provinces is essential:"}
+
+["GG_LOMBARD_LEAGUE_TITLE"]
+{"The Lombard League"}
+
+["GG_LOMBARD_LEAGUE_DESCRIPTION"]
+{"With the so-called Holy Roman Emperor regarding Italy as a German province, the cities of northern Italy must stand together to preserve their independence. Points are counted in 1160, 1204, and 1250. The Italians must hold:"}
+
+["GG_FLORENCE_DUOMO_TITLE"]
+{"The Florentine Duomo"}
+
+["GG_FLORENCE_DUOMO_DESCRIPTION"]
+{"A great domed cathedral in the noble city of Florence will glorify God and Italy. Points are counted in 1420, and the following should be built:"}
+
+["GG_CATHEDRAL_TUSCANY"]
+{"A Cathedral in Tuscany"}
+
+["GG_DOMINANCE_OF_TRADE_TITLE"]
+{"Noble Mercantilism"}
+
+["GG_DOMINANCE_OF_TRADE_DESCRIPTION"]
+{"Venetian, Genoese, and Tuscan merchants are the finest and most cultured in Europe. Their success is the success of Italy. Points are counted in 1204, 1320, and 1453. Italian merchants must: "}
+
+["GG_DOMINATE_TRADE_INCOME_67"]
+{"Control more income from Trade than any other faction"}
+
+["GG_HOMELAND_ITALIAN_TITLE"]
+{"The Italian City-States"}
+
+["GG_HOMELAND_ITALIAN_DESCRIPTION"]
+{"The heart of Italy must be defended against incursions. Points are counted on 1204, 1320, and 1453. The Italians must retain control of these provinces:"}
+
+["GG_CHRISTIANIZATION_TITLE"]
+{"Polish Christianization"}
+
+["GG_CHRISTIANIZATION_DESCRIPTION"]
+{"The process of promulgating the Orthodox faith in Poland is also the process of unification, with great political and spiritual benefits for your people. Points are counted in 1204, 1320, and 1453. It must ensured that:"}
+
+["GG_ORTHODOX_FAITH_SUPRA50_POLAND"]
+{"Orthodox Faith level in Poland is greater than 50"}
+
+["GG_ORTHODOX_FAITH_SUPRA50_LITHUANIA"]
+{"Orthodox Faith level in Lithuania is greater than 50"}
+
+["GG_STAND_FAST_TITLE"]
+{"Stand Fast"}
+
+["GG_STAND_FAST_DESCRIPTION"]
+{"Teutonic expansionism from the West threatens all the slavic peoples. Poland is the spine of the defence and must stand firm before the aggressors. Points are counted on 1204 and 1320. You must control:"}
+
+["GG_JAGELLONIAN_TITLE"]
+{"The Jagellonian University"}
+
+["GG_JAGELLONIAN_DESCRIPTION"]					   
+{"Recognition of the value the great thinkers of Europe can only increase Poland's glory. Points are counted (once) between 1320-1360. The following must be built:"}
+
+["GG_UNIVERSITY_POLAND"]
+{"A University in Poland"}
+
+["GG_HOMELAND_POLISH_TITLE"]
+{"The Kingdom of Poland"}
+
+["GG_HOMELAND_POLISH_DESCRIPTION"]
+{"The heart of Poland must be defended against incursions. Points are counted on 1204, 1320, and 1453. Polish armies must retain control of these provinces:"}
+
+["GG_SURVIVE_GOLDEN_HORDE_TITLE"]
+{"Survive the Mongol Invasion"}
+
+["GG_SURVIVE_GOLDEN_HORDE_DESCRIPTION"]
+{"Batu Khan's Golden Horde has dismembered empires and slaughtered whole cities. They are seemingly unstoppable, yet Russia must somehow stand before them or be consumed by their ferocious appetite for war! Points are counted in 1250 and 1320. Russian armies must defend:"}
+
+["GG_DEFY_TEUTONS_TITLE"]
+{"Defy the Teutons"}
+
+["GG_DEFY_TEUTONS_DESCRIPTION"]
+{"Germanic eastward expansion threatens to eclipse Russian glory. The Teutonic aggressors must be pushed back into the west. Points are counted in 1204, 1260, and 1320. Russian armies must control:"}
+
+["GG_KREMLIN"]
+{"Build a fortress in Muscovy. "}
+
+["GG_KREMLIN_TITLE"]
+{"The Kremlin"}
+
+["GG_KREMLIN_DESCRIPTION"]
+{"A mighty fortress to act as a sign of princely power and Russian greatness should be constructed. Build a fortress in Muscovy between 1367 and 1377."}
+
+["GG_MOSCOW"]
+{"Moscow"}
+
+["GG_MOSCOW_TITLE"]
+{"Moscow"}
+
+["GG_MOSCOW_DESCRIPTION"]
+{"Moscow can potentially boast of becoming the finest city in Europe, magnifying your glory. Points are counted (once) between 1321-1453, and there must be:"}
+
+["GG_GREATEST_CITY_MUSCOVY"]
+{"More buildings in Muscovy than any other province"}
+
+["GG_HOMELAND_RUSSIA_TITLE"]
+{"The Russian Empire"}
+
+["GG_HOMELAND_RUSSIA_DESCRIPTION"]
+{"The heart of Russia must be defended against incursions. Points are counted in 1204, 1320, and 1453. The Russians retain control of:"}
+
+["GG_IBERIAN_ALMO_CIV_TITLE"]
+{"Iberian Almohad civilization"}
+
+["GG_IBERIAN_ALMO_CIV_DESCRIPTION"]
+{"Despite their conflict for territory, there is common ground between Spanish and Berber culture. Points are counted in 1204, 1320, and 1453. No matter who owns the provinces, there must be:"}
+
+["GG_IBERIAN_ALMO_CIV_CASTILE"]
+{"More than 30 buildings or upgrades in Castile"}
+
+["GG_IBERIAN_ALMO_CIV_ARAGON"]
+{"More than 30 buildings or upgrades in Aragon"}
+
+["GG_IBERIAN_ALMO_CIV_GRANADA"]
+{"More than 30 buildings or upgrades in Granada"}
+
+["GG_IBERIAN_ALMO_CIV_CORDOBA"]
+{"More than 30 buildings or upgrades in Cordoba"}
+
+["GG_IBERIAN_SPAN_CIV_TITLE"]
+{"Iberian Spanish civilization"}
+
+["GG_IBERIAN_SPAN_CIV_DESCRIPTION"]
+{"Despite their conflict for territory, there is common ground between Spanish and Berber culture. Points are counted in 1204, 1320, and 1453. No matter who owns the provinces, there must be:"}
+
+["GG_IBERIAN_SPAN_CIV_CASTILE"]
+{"More than 30 buildings or upgrades in Castile"}
+
+["GG_IBERIAN_SPAN_CIV_ARAGON"]
+{"More than 30 buildings or upgrades in Aragon"}
+
+["GG_IBERIAN_SPAN_CIV_GRANADA"]
+{"More than 30 buildings or upgrades in Granada"}
+
+["GG_IBERIAN_SPAN_CIV_CORDOBA"]
+{"More than 30 buildings or upgrades in Cordoba"}
+
+["GG_RECONQUISTA_TITLE"]
+{"The Spanish Reconquista"}
+
+["GG_RECONQUISTA_DESCRIPTION"]
+{"The Berbers threaten to completely conquer the Spanish peninsula, but with fantastic heroism the tide may turn in favour of the true Church. The greatest Spanish goal is the reconquest of the peninsula. Points are counted in 1320, and Spanish armies must hold:"}
+
+["GG_SPANISH_UNIFICATION_TITLE"]
+{"The Unification of Spain"}
+
+["GG_SPANISH_UNIFICATION_DESCRIPTION"]
+{"By combining Castile, Leon and Aragon the glorious destiny of Spain can be fulfilled, with Spanish ships ruling the sea and Spanish armies conquering the land. Points are counted (once) between 1321-1453. Spanish armies must control:"}
+
+["GG_HOMELAND_SPANISH_TITLE"]
+{"The Kingdom of Spain"}
+
+["GG_HOMELAND_SPANISH_DESCRIPTION"]
+{"The heart of Spain must be defended against incursions. Points are counted on 1204, 1320, and 1453. These provinces must be held:"}
+
+["GG_ICONIUM_TITLE"]
+{"Iconium"}
+
+["GG_ICONIUM_DESCRIPTION"]
+{"Legend says that Konya (Iconium) was the first city to rise after the flood. Backed by the Bozkr Mountains and surrounded by a fertile plain, it is destined to be the hub of Turkey's glory. Points are counted in 1204. By that year the following must be attained: "}
+
+["GG_GREATEST_CITY_RUM"]
+{"More buildings in Rum than any other province"}
+
+["GG_IMPERIAL_EXPANSION_TITLE"]
+{"The Turkish Empire"}
+
+["GG_IMPERIAL_EXPANSION_DESCRIPTION"]
+{"Your vigorous people seek expansion to the west, where only the enfeebled Byzantine Empire stands between you and greatness. Points are counted (once) between 1321-1453. The following must be conquered:"}
+
+["GG_FALL_OF_CONSTANTINOPLE_TITLE"]
+{"The Fall of Constantinople"}
+
+["GG_FALL_OF_CONSTANTINOPLE_DESCRIPTION"]
+{"The imperial city of Constantinople is the gateway between Asia Minor and Europe. The thunder of siege-engines destroying the towering Theodosian land wall will sound a golden paean through history. Points are counted in 1453, when the following should be conquered: "}
+
+["GG_HOMELAND_TURKISH_TITLE"]
+{"The Sultanate of Turkey"}
+
+["GG_HOMELAND_TURKISH_DESCRIPTION"]
+{"The heart of Turkey must be defended against incursions. Points are counted in 1204, 1320, and 1453. Control of these provinces is essential:"}
+
+["GG_CRUSADES_TITLE"]
+{"Crusades"}
+
+["GG_CRUSADES_DESCRIPTION"]
+{"The Pope has guaranteed indulgences for every man that fights in Outremer (Asia Minor), defending the pilgrimage trails and claiming the lands holy to our Saviour. To go on Crusade is to march in the Glory of God. Points are counted between 1095-1204, and the following must be carried out:"}
+
+["GG_CRUSADE_TO_ANTIOCH"]
+{"Successfully launch a Crusade to Antioch"}
+
+["GG_CRUSADE_TO_EDESSA"]
+{"Successfully launch a Crusade to Edessa"}
+
+["GG_CRUSADE_TO_JERUSALEM"]
+{"Successfully launch a Crusade to Palestine"}
+
+["GG_CRUSADE_TO_TRIPOLI"]
+{"Successfully launch a Crusade to Tripoli"}
+
+["GG_JIHAD_TITLE"]
+{"The Jihad for Asia"}
+
+["GG_JIHAD_DESCRIPTION"]
+{"The sacred duty to Jihad may be fulfilled by the heart, the tongue, the hand, and at the last resort by the sword. To wage war against enemies of the Faith is a duty no Sultan worthy of the title will shirk. Points are counted between 1095-1204. The following must be defended:"}
+
+//Region Conditions start here:
+
+["GG_AFRICA"]
+{"Africa"}
+
+["GG_ALGERIA"]
+{"Algeria"}
+
+["GG_ANATOLIA"]
+{"Anatolia"}
+
+["GG_ANJOU"]
+{"Anjou"}
+
+["GG_ANTIOCH"]
+{"Antioch"}
+
+["GG_AQUITAINE"]
+{"Aquitaine"}
+
+["GG_ARABIA"]
+{"Arabia"}
+
+["GG_ARAGON"]
+{"Aragon"}
+
+["GG_ARMENIA"]
+{"Armenia"}
+
+["GG_AUSTRIA"]
+{"Austria"}
+
+["GG_BAVARIA"]
+{"Bavaria"}
+
+["GG_BOHEMIA"]
+{"Bohemia"}
+
+["GG_BRANDENBURG"]
+{"Brandenburg"}
+
+["GG_BRITTANY"]
+{"Brittany"}
+
+["GG_BULGARIA"]
+{"Bulgaria"}
+
+["GG_BURGUNDY"]
+{"Burgundy"}
+
+["GG_CARPATHIA"]
+{"Carpathia"}
+
+["GG_CASTILE"]
+{"Castile"}
+
+["GG_CHAMPAGNE"]
+{"Champagne"}
+
+["GG_CHERNIGOV"]
+{"Chernigov"}
+
+["GG_CONSTANTINOPLE"]
+{"Constantinople"}
+
+["GG_CORDOBA"]
+{"Cordoba"}
+
+["GG_CORSICA"]
+{"Corsica"}
+
+["GG_CRETE"]
+{"Crete"}
+
+["GG_CRIMEA"]
+{"Crimea"}
+
+["GG_CYPRUS"]
+{"Cyprus"}
+
+["GG_DENMARK"]
+{"Denmark"}
+
+["GG_DOM_OF_SALADIN"]
+{"Arabia"}
+//{"Dominion of Saladin"}
+
+["GG_EDESSA"]
+{"Edessa"}
+
+["GG_EGYPT"]
+{"Egypt"}
+
+["GG_FINLAND"]
+{"Finland"}
+
+["GG_FLANDERS"]
+{"Flanders"}
+
+["GG_FRANCONIA"]
+{"Franconia"}
+
+["GG_FREISLAND"]
+{"Freisland"}
+
+["GG_GENOA"]
+{"Genoa"}
+
+["GG_GEORGIA"]
+{"Georgia"}
+
+["GG_GRANADA"]
+{"Granada"}
+
+["GG_GREECE"]
+{"Greece"}
+
+["GG_HUNGARY"]
+{"Hungary"}
+
+["GG_ILE_DE_FRANCE"]
+{"Ile de France"}
+
+["GG_IRELAND"]
+{"Ireland"}
+
+["GG_JERUSALEM"]
+{"Palestine"}
+
+["GG_KHAZAR"]
+{"Khazar"}
+
+["GG_KIEV"]
+{"Kiev"}
+
+["GG_LEON"]
+{"Leon"}
+
+["GG_LESSER_ARMENIA"]
+{"Lesser Armenia"}
+
+["GG_LIBYA"]
+{"Cyrenacia"}
+
+["GG_LITHUANIA"]
+{"Lithuania"}
+
+["GG_LIVONIA"]
+{"Livonia"}
+
+["GG_LORRAINE"]
+{"Lorraine"}
+
+["GG_MERCIA"]
+{"Mercia"}
+
+["GG_MILAN"]
+{"Milan"}
+
+["GG_MOLDAVIA"]
+{"Moldavia"}
+
+["GG_MOROCCO"]
+{"Morocco"}
+
+["GG_MUSCOVY"]
+{"Muscovy"}
+
+["GG_NAPLES"]
+{"Naples"}
+
+["GG_NAVARRE"]
+{"Navarre"}
+
+["GG_NICAEA"]
+{"Nicaea"}
+
+["GG_NORMANDY"]
+{"Normandy"}
+
+["GG_NORTH_UMBRIA"]
+{"Northumbria"}
+
+["GG_NORWAY"]
+{"Norway"}
+
+["GG_NOVGOROD"]
+{"Novgorod"}
+
+["GG_PEREYASLAVL"]
+{"Pereyaslavl"}
+
+["GG_POLAND"]
+{"Poland"}
+
+["GG_POMERANIA"]
+{"Pomerania"}
+
+["GG_PORTUGAL"]
+{"Portugal"}
+
+["GG_PROVENCE"]
+{"Provence"}
+
+["GG_PRUSSIA"]
+{"Prussia"}
+
+["GG_RHODES"]
+{"Rhodes"}
+
+["GG_ROME"]
+{"Rome"}
+
+["GG_RUM"]
+{"Rum"}
+
+["GG_RYAZAN"]
+{"Ryazan"}
+
+["GG_SARDINIA"]
+{"Sardinia"}
+
+["GG_SAXONY"]
+{"Saxony"}
+
+["GG_SCOTLAND"]
+{"Scotland"}
+
+["GG_SERBIA"]
+{"Serbia"}
+
+["GG_SILESIA"]
+{"Silesia"}
+
+["GG_SINAI"]
+{"Sinai"}
+
+["GG_SMOLENSK"]
+{"Smolensk"}
+
+["GG_SWABIA"]
+{"Swabia"}
+
+["GG_SWEDEN"]
+{"Sweden"}
+
+["GG_SWITZERLAND"]
+{"Switzerland"}
+
+["GG_SYRIA"]
+{"Syria"}
+
+["GG_TOULOUSE"]
+{"Toulouse"}
+
+["GG_TREBIZOND"]
+{"Trebizond"}
+
+["GG_TRIPOLI"]
+{"Tripoli"}
+
+["GG_TUNISIA"]
+{"Tunisia"}
+
+["GG_TUSCANY"]
+{"Tuscany"}
+
+["GG_TYROLIA"]
+{"Tyrolia"}
+
+["GG_VALENCIA"]
+{"Valencia"}
+
+["GG_VENICE"]
+{"Venice"}
+
+["GG_VOLGA_BULGARIA"]
+{"Volga Bulgaria"}
+
+["GG_VOLHYNIA"]
+{"Volhynia"}
+
+["GG_WALES"]
+{"Wales"}
+
+["GG_WALLACHIA"]
+{"Wallachia"}
+
+["GG_WESSEX"]
+{"Wessex"}
+
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+
+
+
+
+SetShowTransOff  // Do not translate.
+//???? Remove when localised.

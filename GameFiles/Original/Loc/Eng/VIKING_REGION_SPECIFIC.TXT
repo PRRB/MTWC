@@ -1,0 +1,827 @@
+
+//*********************************************************************
+// 
+// The campaigns 'region specific' and 'title' text strings:-
+// 
+// This is the default file used for arrays of region names and arrays 
+// of text containing the full set of region names in order.
+//
+// Specific title names ( specified in the startpos file ) also need 
+// to be placed in this file..
+//
+//*********************************************************************
+
+@["country_xzy"]
+@{"Region Zero"}
+@{"Domon"} 
+@{"Orcades"}      
+@{"Cait"}         
+@{"Moray"}        
+@{"Sci"}          
+@{"Athfotla"}
+@{"Monoth"}       
+@{"Dal Riada"}    
+@{"Fib"}          
+@{"Cyil"}         
+@{"Reget"}   
+@{"Lothene"}      
+@{"Cumbri"}       
+@{"Elmete"}       
+@{"Beornice"}     
+@{"Pec Saetan"}   
+@{"Dere"}         
+@{"Guined"}       
+@{"Clwyd"}        
+@{"Wrocen Saetan"}
+@{"Mierce"}       
+@{"Lindissi"}     
+@{"Pouis"}        
+@{"Hwicce"}       
+@{"Defet"}        
+@{"Guent"}        
+@{"Middel Seaxe"} 
+@{"Middel Engle"} 
+@{"East Engle"}   
+@{"Cerniu"}      
+@{"Defnas"}       
+@{"Sumorsaete"}   
+@{"West Seaxe"}   
+@{"East Seaxe"}   
+@{"Dornsaete"}    
+@{"Suth Seaxe"}  
+@{"Cantware"}     
+@{"Connacht"}     
+@{"Ulster"}       
+@{"Munster"}      
+@{"Laigin"}       
+@{"Hordaland"}    
+@{"Jutland"}      
+@{"Manau"}        
+@{"Brega"}     
+@{"Faeringasaer"}
+@{"Muir Domon"}   
+@{"Muir Norc"}    
+@{"Nordsaer"}     
+@{"Hordasaer"}     
+@{"Jutesaer"}      
+@{"Muir Moray"}   
+@{"Muir Giudan"}  
+@{"Beorn Sae"}     
+@{"Engle Sae"}     
+@{"Seaxe Sae"}     
+@{"Dofras Sund"}  
+@{"Soluente"}     
+@{"Lyme Sund"}    
+@{"Muir Nicht"}   
+@{"Saefern Mutha"}
+@{"Muir Eriu"}    
+@{"Muir Munster"} 
+@{"Muir Cendtire"}
+@{"Muir Connacht"}
+@{"Vestsaer"}     
+
+["Region Zero"]			{"Region Zero"}
+["Domon"]				{"Domon"} 
+["Orcades"]				{"Orcades"}      
+["Cait"]				{"Cait"}         
+["Moray"]				{"Moray"}        
+["Sci"]					{"Sci"}          
+["Athfotla"]			{"Athfotla"}
+["Monoth"]				{"Monoth"}       
+["Dal Riada"]			{"Dal Riada"}    
+["Fib"]					{"Fib"}          
+["Cyil"]				{"Cyil"}         
+["Reget"]				{"Reget"}   
+["Lothene"]				{"Lothene"}      
+["Cumbri"]				{"Cumbri"}       
+["Elmete"]				{"Elmete"}       
+["Beornice"]			{"Beornice"}     
+["Pec Saetan"]			{"Pec Saetan"}   
+["Dere"]				{"Dere"}         
+["Guined"]				{"Guined"}       
+["Clwyd"]				{"Clwyd"}        
+["Wrocen Saetan"]		{"Wrocen Saetan"}
+["Mierce"]				{"Mierce"}       
+["Lindissi"]			{"Lindissi"}     
+["Pouis"]				{"Pouis"}        
+["Hwicce"]				{"Hwicce"}       
+["Defet"]				{"Defet"}        
+["Guent"]				{"Guent"}        
+["Middel Seaxe"]		{"Middel Seaxe"} 
+["Middel Engle"]		{"Middel Engle"} 
+["East Engle"]			{"East Engle"}   
+["Cerniu"]				{"Cerniu"}      
+["Defnas"]				{"Defnas"}       
+["Sumorsaete"]			{"Sumorsaete"}   
+["West Seaxe"]			{"West Seaxe"}   
+["East Seaxe"]			{"East Seaxe"}   
+["Dornsaete"]			{"Dornsaete"}    
+["Suth Seaxe"]			{"Suth Seaxe"}  
+["Cantware"]			{"Cantware"}     
+["Connacht"]			{"Connacht"}     
+["Ulster"]				{"Ulster"}       
+["Munster"]				{"Munster"}      
+["Laigin"]				{"Laigin"}       
+["Hordaland"]			{"Hordaland"}    
+["Jutland"]				{"Jutland"}      
+["Manau"]				{"Manau"}        
+["Brega"]				{"Brega"}     
+["Faeringa_saer"]		{"Faeringasaer"}
+["Muir Domon"]			{"Muir Domon"}   
+["Muir Norc"]			{"Muir Norc"}    
+["Nordsaer"]			{"Nordsaer"}     
+["Hordsaer"]			{"Hordasaer"}     
+["Jutsaer"]				{"Jutesaer"}      
+["Muir Moray"]			{"Muir Moray"}   
+["Muir Giudan"]			{"Muir Giudan"}  
+["Beornsea"]			{"Beorn Sae"}     
+["Englesae"]			{"Engle Sae"}     
+["Seaxesae"]			{"Seaxe Sae"}     
+["Dofras Sund"]			{"Dofras Sund"}  
+["Soluente"]			{"Soluente"}     
+["Lyme Sund"]			{"Lyme Sund"}    
+["Muir Nicht"]			{"Muir Nicht"}   
+["Saefern_mutha"]		{"Saefern Mutha"}
+["Muir Eriu"]			{"Muir Eriu"}    
+["Muir Munster"]		{"Muir Munster"} 
+["Muir Cendtire"]		{"Muir Cendtire"}
+["Muir Connacht"]		{"Muir Connacht"}
+["Vestsaer"]			{"Vestsaer"}     
+
+@["of_Clan_Districts"]
+@{" of the rebels"}
+@{" of the Irish"} 
+@{" of the Mercians"}      
+@{" of the Northumbrians"}
+@{" of the Picts"}        
+@{" of the Saxons"}          
+@{" of the Scots"}
+@{" of the Vikings"}       
+@{" of the Welsh"}    
+
+@["province_of_xzy"]
+@{" of Region Zero"}
+@{" of Domon"} 
+@{" of Orcades"}      
+@{" of Cait"}         
+@{" of Moray"}        
+@{" of Sci"}          
+@{" of Athfotla"}
+@{" of Monoth"}       
+@{" of Dal Riada"}    
+@{" of Fib"}          
+@{" of Cyil"}         
+@{" of Reget"}   
+@{" of Lothene"}      
+@{" of Cumbri"}       
+@{" of Elmete"}       
+@{" of Beornice"}     
+@{" of Pec Saetan"}   
+@{" of Dere"}         
+@{" of Guined"}       
+@{" of Clwyd"}        
+@{" of Wrocen Saetan"}
+@{" of Mierce"}       
+@{" of Lindissi"}     
+@{" of Pouis"}        
+@{" of Hwicce"}       
+@{" of Defet"}        
+@{" of Guent"}        
+@{" of Middel Seaxe"} 
+@{" of Middel Engle"} 
+@{" of East Engle"}   
+@{" of Cerniu"}      
+@{" of Defnas"}       
+@{" of Sumorsaete"}   
+@{" of West Seaxe"}   
+@{" of East Seaxe"}   
+@{" of Dornsaete"}    
+@{" of Suth Seaxe"}  
+@{" of Cantware"}     
+@{" of Connacht"}     
+@{" of Ulster"}       
+@{" of Munster"}      
+@{" of Laigin"}       
+@{" of Hordaland"}    
+@{" of Jutland"}      
+@{" of Manau"}        
+@{" of Brega"}     
+@{" of Faeringasaer"}
+@{" of Muir Domon"}   
+@{" of Muir Norc"}    
+@{" of Nordsaer"}     
+@{" of Hordasaer"}     
+@{" of Jutesaer"}      
+@{" of Muir Moray"}   
+@{" of Muir Giudan"}  
+@{" of Beorn Sae"}     
+@{" of Engle Sae"}     
+@{" of Seaxe Sae"}     
+@{" of Dofras Sund"}  
+@{" of Soluente"}     
+@{" of Lyme Sund"}    
+@{" of Muir Nicht"}   
+@{" of Saefern Mutha"}
+@{" of Muir Eriu"}    
+@{" of Muir Munster"} 
+@{" of Muir Cendtire"}
+@{" of Muir Connacht"}
+@{" of Vestsaer"}     
+
+@["pl_invasion_title_xzy"]
+@{"Your Forces Invade Region Zero"}
+@{"Your Forces Invade Domon"}        
+@{"Your Forces Invade Orcades"}      
+@{"Your Forces Invade Cait"}         
+@{"Your Forces Invade Moray"}        
+@{"Your Forces Invade Sci"}          
+@{"Your Forces Invade Athfotla"}     
+@{"Your Forces Invade Monoth"}       
+@{"Your Forces Invade Dal Riada"}    
+@{"Your Forces Invade Fib"}          
+@{"Your Forces Invade Cyil"}         
+@{"Your Forces Invade Reget"}   
+@{"Your Forces Invade Lothene"}      
+@{"Your Forces Invade Cumbri"}       
+@{"Your Forces Invade Elmete"}       
+@{"Your Forces Invade Beornice"}     
+@{"Your Forces Invade Pec Saetan"}   
+@{"Your Forces Invade Dere"}         
+@{"Your Forces Invade Guined"}       
+@{"Your Forces Invade Clwyd"}        
+@{"Your Forces Invade Wrocen Saetan"}
+@{"Your Forces Invade Mierce"}       
+@{"Your Forces Invade Lindissi"}     
+@{"Your Forces Invade Pouis"}        
+@{"Your Forces Invade Hwicce"}       
+@{"Your Forces Invade Defet"}        
+@{"Your Forces Invade Guent"}        
+@{"Your Forces Invade Middel Seaxe"} 
+@{"Your Forces Invade Middel Engle"} 
+@{"Your Forces Invade East Engle"}   
+@{"Your Forces Invade Cerniu"}       
+@{"Your Forces Invade Defnas"}       
+@{"Your Forces Invade Sumorsaete"}   
+@{"Your Forces Invade West Seaxe"}   
+@{"Your Forces Invade East Seaxe"}   
+@{"Your Forces Invade Dornsaete"}    
+@{"Your Forces Invade Suth Seaxe"}  
+@{"Your Forces Invade Cantware"}     
+@{"Your Forces Invade Connacht"}     
+@{"Your Forces Invade Ulster"}       
+@{"Your Forces Invade Munster"}      
+@{"Your Forces Invade Laigin"}       
+@{"Your Forces Invade Hordaland"}    
+@{"Your Forces Invade Jutland"}      
+@{"Your Forces Invade Manau"}        
+@{"Your Forces Invade Brega"}        
+@{"Your Forces Invade Faeringasaer"}
+@{"Your Forces Invade Muir Domon"}   
+@{"Your Forces Invade Muir Norc"}    
+@{"Your Forces Invade Nordsaer"}     
+@{"Your Forces Invade Hordasaer"}     
+@{"Your Forces Invade Jutesaer"}      
+@{"Your Forces Invade Muir Moray"}   
+@{"Your Forces Invade Muir Giudan"}  
+@{"Your Forces Invade Beorn Sae"}     
+@{"Your Forces Invade Engle Sae"}     
+@{"Your Forces Invade Seaxe Sae"}     
+@{"Your Forces Invade Dofras Sund"}  
+@{"Your Forces Invade Soluente"}     
+@{"Your Forces Invade Lyme Sund"}    
+@{"Your Forces Invade Muir Nicht"}   
+@{"Your Forces Invade Saefern Mutha"}
+@{"Your Forces Invade Muir Eriu"}    
+@{"Your Forces Invade Muir Munster"} 
+@{"Your Forces Invade Muir Cendtire"}
+@{"Your Forces Invade Muir Connacht"}
+@{"Your Forces Invade Vestsaer"}     
+
+@["region_taken_title_xzy"]
+@{"Region Zero Conquered!"}  
+@{"Domon Conquered!"}        
+@{"Orcades Conquered!"}      
+@{"Cait Conquered!"}         
+@{"Moray Conquered!"}        
+@{"Sci Conquered!"}          
+@{"Athfotla Conquered!"}     
+@{"Monoth Conquered!"}       
+@{"Dal Riada Conquered!"}    
+@{"Fib Conquered!"}          
+@{"Cyil Conquered!"}         
+@{"Reget Conquered!"}   
+@{"Lothene Conquered!"}      
+@{"Cumbri Conquered!"}       
+@{"Elmete Conquered!"}       
+@{"Beornice Conquered!"}     
+@{"Pec Saetan Conquered!"}   
+@{"Dere Conquered!"}         
+@{"Guined Conquered!"}       
+@{"Clwyd Conquered!"}        
+@{"Wrocen Saetan Conquered!"}
+@{"Mierce Conquered!"}       
+@{"Lindissi Conquered!"}     
+@{"Pouis Conquered!"}        
+@{"Hwicce Conquered!"}       
+@{"Defet Conquered!"}        
+@{"Guent Conquered!"}        
+@{"Middel Seaxe Conquered!"} 
+@{"Middel Engle Conquered!"} 
+@{"East Engle Conquered!"}   
+@{"Cerniu Conquered!"}       
+@{"Defnas Conquered!"}       
+@{"Sumorsaete Conquered!"}   
+@{"West Seaxe Conquered!"}   
+@{"East Seaxe Conquered!"}   
+@{"Dornsaete Conquered!"}    
+@{"Suth Seaxe Conquered!"}  
+@{"Cantware Conquered!"}     
+@{"Connacht Conquered!"}     
+@{"Ulster Conquered!"}       
+@{"Munster Conquered!"}      
+@{"Laigin Conquered!"}       
+@{"Hordaland Conquered!"}    
+@{"Jutland Conquered!"}      
+@{"Manau Conquered!"}        
+@{"Brega Conquered!"}        
+@{"Faeringasaer Conquered!"}
+@{"Muir Domon Conquered!"}   
+@{"Muir Norc Conquered!"}    
+@{"Nordsaer Conquered!"}     
+@{"Hordasaer Conquered!"}     
+@{"Jutesaer Conquered!"}      
+@{"Muir Moray Conquered!"}   
+@{"Muir Giudan Conquered!"}  
+@{"Beorn Sae Conquered!"}     
+@{"Engle Sae Conquered!"}     
+@{"Seaxe Sae Conquered!"}     
+@{"Dofras Sund Conquered!"}  
+@{"Soluente Conquered!"}     
+@{"Lyme Sund Conquered!"}    
+@{"Muir Nicht Conquered!"}   
+@{"Saefern Mutha Conquered!"}
+@{"Muir Eriu Conquered!"}    
+@{"Muir Munster Conquered!"} 
+@{"Muir Cendtire Conquered!"}
+@{"Muir Connacht Conquered!"}
+@{"Vestsaer Conquered!"}     
+
+@["region_lost_title_xzy"]
+@{"Region Zero Lost!"}  
+@{"Domon Lost!"}        
+@{"Orcades Lost!"}      
+@{"Cait Lost!"}         
+@{"Moray Lost!"}        
+@{"Sci Lost!"}          
+@{"Athfotla Lost!"}     
+@{"Monoth Lost!"}       
+@{"Dal Riada Lost!"}    
+@{"Fib Lost!"}          
+@{"Cyil Lost!"}         
+@{"Reget Lost!"}   
+@{"Lothene Lost!"}      
+@{"Cumbri Lost!"}       
+@{"Elmete Lost!"}       
+@{"Beornice Lost!"}     
+@{"Pec Saetan Lost!"}   
+@{"Dere Lost!"}         
+@{"Guined Lost!"}       
+@{"Clwyd Lost!"}        
+@{"Wrocen Saetan Lost!"}
+@{"Mierce Lost!"}       
+@{"Lindissi Lost!"}     
+@{"Pouis Lost!"}        
+@{"Hwicce Lost!"}       
+@{"Defet Lost!"}        
+@{"Guent Lost!"}        
+@{"Middel Seaxe Lost!"} 
+@{"Middel Engle Lost!"} 
+@{"East Engle Lost!"}   
+@{"Cerniu Lost!"}       
+@{"Defnas Lost!"}       
+@{"Sumorsaete Lost!"}   
+@{"West Seaxe Lost!"}   
+@{"East Seaxe Lost!"}   
+@{"Dornsaete Lost!"}    
+@{"Suth Seaxe Lost!"}  
+@{"Cantware Lost!"}     
+@{"Connacht Lost!"}     
+@{"Ulster Lost!"}       
+@{"Munster Lost!"}      
+@{"Laigin Lost!"}       
+@{"Hordaland Lost!"}    
+@{"Jutland Lost!"}      
+@{"Manau Lost!"}        
+@{"Brega Lost!"}        
+@{"Faeringasaer Lost!"}
+@{"Muir Domon Lost!"}   
+@{"Muir Norc Lost!"}    
+@{"Nordsaer Lost!"}     
+@{"Hordasaer Lost!"}     
+@{"Jutesaer Lost!"}      
+@{"Muir Moray Lost!"}   
+@{"Muir Giudan Lost!"}  
+@{"Beorn Sae Lost!"}     
+@{"Engle Sae Lost!"}     
+@{"Seaxe Sae Lost!"}     
+@{"Dofras Sund Lost!"}  
+@{"Soluente Lost!"}     
+@{"Lyme Sund Lost!"}    
+@{"Muir Nicht Lost!"}   
+@{"Saefern Mutha Lost!"}
+@{"Muir Eriu Lost!"}    
+@{"Muir Munster Lost!"} 
+@{"Muir Cendtire Lost!"}
+@{"Muir Connacht Lost!"}
+@{"Vestsaer Lost!"}     
+
+@["region_return_title_xzy"]
+@{"Region Zero Relieved!"}  
+@{"Domon Relieved!"}        
+@{"Orcades Relieved!"}      
+@{"Cait Relieved!"}         
+@{"Moray Relieved!"}        
+@{"Sci Relieved!"}          
+@{"Athfotla Relieved!"}     
+@{"Monoth Relieved!"}       
+@{"Dal Riada Relieved!"}    
+@{"Fib Relieved!"}          
+@{"Cyil Relieved!"}         
+@{"Reget Relieved!"}   
+@{"Lothene Relieved!"}      
+@{"Cumbri Relieved!"}       
+@{"Elmete Relieved!"}       
+@{"Beornice Relieved!"}     
+@{"Pec Saetan Relieved!"}   
+@{"Dere Relieved!"}         
+@{"Guined Relieved!"}       
+@{"Clwyd Relieved!"}        
+@{"Wrocen Saetan Relieved!"}
+@{"Mierce Relieved!"}       
+@{"Lindissi Relieved!"}     
+@{"Pouis Relieved!"}        
+@{"Hwicce Relieved!"}       
+@{"Defet Relieved!"}        
+@{"Guent Relieved!"}        
+@{"Middel Seaxe Relieved!"} 
+@{"Middel Engle Relieved!"} 
+@{"East Engle Relieved!"}   
+@{"Cerniu Relieved!"}       
+@{"Defnas Relieved!"}       
+@{"Sumorsaete Relieved!"}   
+@{"West Seaxe Relieved!"}   
+@{"East Seaxe Relieved!"}   
+@{"Dornsaete Relieved!"}    
+@{"Suth Seaxe Relieved!"}  
+@{"Cantware Relieved!"}     
+@{"Connacht Relieved!"}     
+@{"Ulster Relieved!"}       
+@{"Munster Relieved!"}      
+@{"Laigin Relieved!"}       
+@{"Hordaland Relieved!"}    
+@{"Jutleand Relieved!"}      
+@{"Manau Relieved!"}        
+@{"Brega Relieved!"}        
+@{"Faeringasaer Relieved!"}
+@{"Muir Domon Relieved!"}   
+@{"Muir Norc Relieved!"}    
+@{"Nordsaer Relieved!"}     
+@{"Hordasaer Relieved!"}     
+@{"Jutesaer Relieved!"}      
+@{"Muir Moray Relieved!"}   
+@{"Muir Giudan Relieved!"}  
+@{"Beorn Sae Relieved!"}     
+@{"Engle Sae Relieved!"}     
+@{"Seaxe Sae Relieved!"}     
+@{"Dofras Sund Relieved!"}  
+@{"Soluente Relieved!"}     
+@{"Lyme Sund Relieved!"}    
+@{"Muir Nicht Relieved!"}   
+@{"Saefern Mutha Relieved!"}
+@{"Muir Eriu Relieved!"}    
+@{"Muir Munster Relieved!"} 
+@{"Muir Cendtire Relieved!"}
+@{"Muir Connacht Relieved!"}
+@{"Vestsaer Relieved!"}     
+
+
+@["Amir_of_String"]
+@{"Amir of Region Zero"}  
+@{"Amir of Domon"}        
+@{"Amir of Orcades"}      
+@{"Amir of Cait"}         
+@{"Amir of Moray"}        
+@{"Amir of Sci"}          
+@{"Amir of Athfotla"}     
+@{"Amir of Monoth"}       
+@{"Amir of Dal Riada"}    
+@{"Amir of Fib"}          
+@{"Amir of Cyil"}         
+@{"Amir of Reget"}   
+@{"Amir of Lothene"}      
+@{"Amir of Cumbri"}       
+@{"Amir of Elmete"}       
+@{"Amir of Beornice"}     
+@{"Amir of Pec Saetan"}   
+@{"Amir of Dere"}         
+@{"Amir of Guined"}       
+@{"Amir of Clwyd"}        
+@{"Amir of Wrocen Saetan"}
+@{"Amir of Mierce"}       
+@{"Amir of Lindissi"}     
+@{"Amir of Pouis"}        
+@{"Amir of Hwicce"}       
+@{"Amir of Defet"}        
+@{"Amir of Guent"}        
+@{"Amir of Middel Seaxe"} 
+@{"Amir of Middel Engle"} 
+@{"Amir of East Engle"}   
+@{"Amir of Cerniu"}       
+@{"Amir of Defnas"}       
+@{"Amir of Sumorsaete"}   
+@{"Amir of West Seaxe"}   
+@{"Amir of East Seaxe"}   
+@{"Amir of Dornsaete"}    
+@{"Amir of Suth Seaxe"}  
+@{"Amir of Cantware"}     
+@{"Amir of Connacht"}     
+@{"Amir of Ulster"}       
+@{"Amir of Munster"}      
+@{"Amir of Laigin"}       
+@{"Amir of Hordaland"}    
+@{"Amir of Jutland"}      
+@{"Amir of Manau"}        
+@{"Amir of Brega"}        
+@{"Amir of Faeringasaer"}
+@{"Amir of Muir Domon"}   
+@{"Amir of Muir Norc"}    
+@{"Amir of Nordsaer"}     
+@{"Amir of Hordasaer"}     
+@{"Amir of Jutesaer"}      
+@{"Amir of Muir Moray"}   
+@{"Amir of Muir Giudan"}  
+@{"Amir of Beorn Sae"}     
+@{"Amir of Engle Sae"}     
+@{"Amir of Seaxe Sae"}     
+@{"Amir of Dofras Sund"}  
+@{"Amir of Soluente"}     
+@{"Amir of Lyme Sund"}    
+@{"Amir of Muir Nicht"}   
+@{"Amir of Saefern Mutha"}
+@{"Amir of Muir Eriu"}    
+@{"Amir of Muir Munster"} 
+@{"Amir of Muir Cendtire"}
+@{"Amir of Muir Connacht"}
+@{"Amir of Vestsaer"}     
+
+@["Duke_of_String"]
+@{"Duke of Region Zero"}  
+@{"Duke of Domon"}        
+@{"Duke of Orcades"}      
+@{"Duke of Cait"}         
+@{"Duke of Moray"}        
+@{"Duke of Sci"}          
+@{"Duke of Athfotla"}     
+@{"Duke of Monoth"}       
+@{"Duke of Dal Riada"}    
+@{"Duke of Fib"}          
+@{"Duke of Cyil"}         
+@{"Duke of Reget"}   
+@{"Duke of Lothene"}      
+@{"Duke of Cumbri"}       
+@{"Duke of Elmete"}       
+@{"Duke of Beornice"}     
+@{"Duke of Pec Saetan"}   
+@{"Duke of Dere"}         
+@{"Duke of Guined"}       
+@{"Duke of Clwyd"}        
+@{"Duke of Wrocen Saetan"}
+@{"Duke of Mierce"}       
+@{"Duke of Lindissi"}     
+@{"Duke of Pouis"}        
+@{"Duke of Hwicce"}       
+@{"Duke of Defet"}        
+@{"Duke of Guent"}        
+@{"Duke of Middel Seaxe"} 
+@{"Duke of Middel Engle"} 
+@{"Duke of East Engle"}   
+@{"Duke of Cerniu"}       
+@{"Duke of Defnas"}       
+@{"Duke of Sumorsaete"}   
+@{"Duke of West Seaxe"}   
+@{"Duke of East Seaxe"}   
+@{"Duke of Dornsaete"}    
+@{"Duke of Suth Seaxe"}  
+@{"Duke of Cantware"}     
+@{"Duke of Connacht"}     
+@{"Duke of Ulster"}       
+@{"Duke of Munster"}      
+@{"Duke of Laigin"}       
+@{"Duke of Hordaland"}    
+@{"Duke of Jutland"}      
+@{"Duke of Manau"}        
+@{"Duke of Brega"}        
+@{"Duke of Faeringasaer"}
+@{"Duke of Muir Domon"}   
+@{"Duke of Muir Norc"}    
+@{"Duke of Nordsaer"}     
+@{"Duke of Hordasaer"}     
+@{"Duke of Jutesaer"}      
+@{"Duke of Muir Moray"}   
+@{"Duke of Muir Giudan"}  
+@{"Duke of Beorn Sae"}     
+@{"Duke of Engle Sae"}     
+@{"Duke of Seaxe Sae"}     
+@{"Duke of Dofras Sund"}  
+@{"Duke of Soluente"}     
+@{"Duke of Lyme Sund"}    
+@{"Duke of Muir Nicht"}   
+@{"Duke of Saefern Mutha"}
+@{"Duke of Muir Eriu"}    
+@{"Duke of Muir Munster"} 
+@{"Duke of Muir Cendtire"}
+@{"Duke of Muir Connacht"}
+@{"Duke of Vestsaer"}     
+
+["Title King of Scotland"]		{"King of Scotland"}["Title King of Bohemia"]		{"King of Bohemia"}
+["Title King of Jerusalem"]		{"King of Jerusalem"}
+
+["Title Earl of Northumbria"]	{"Earl of Northumbria"}
+["Title Earl of Mercia"]		{"Earl of Mercia"}
+["Title Earl of Wessex"]		{"Earl of Wessex"}
+["Title Earl of Norway"]		{"Earl of Norway"}
+["Title Earl of Sweden"]		{"Earl of Sweden"}
+["Title Earl of Denmark"]		{"Earl of Denmark"}
+
+["Title Grand Duke of Novgorod"]	{"Grand Duke of Novgorod"}
+["Title Grand Duke of Muscovy"]		{"Grand Duke of Muscovy"}
+
+["Title Margrave of Brandenburg"]	{"Margrave of Brandenburg"}
+["Title Margrave of Tuscany"]		{"Margrave of Tuscany"}
+
+["Title Count of Flanders"]		{"Count of Flanders"}
+["Title Count of Champagne"]	{"Count of Champagne"}
+["Title Count of Anjou"]		{"Count of Anjou"}
+["Title Count of Toulouse"]		{"Count of Toulouse"}
+["Title Count of Tripoli"]		{"Count of Tripoli"}
+
+["Title Prince of Antioch"]		{"Prince of Antioch"}
+
+
+@["goods_names"]
+@{"Wood"}
+@{"Furs"}
+@{"Wool"}
+@{"Saltfish"}
+@{"Honey"}
+@{"Salt"}
+@{"Pottery"}
+@{"Linen"}
+@{"Amber"}
+@{"Antler work"}
+@{"Jet"}
+@{"Mead"}
+@{"Pewter"}
+@{"Textiles"}
+@{"Walrus tusks"}
+@{"Whalebone"}
+
+@["tradable_goods_intro_tooltips"]
+@{"Wood is processed here and may be used in trade with other nations."}
+@{"Furs are produced here and may be used in trade with other nations."}
+@{"Wool is processed here and may be used in trade with other nations."}
+@{"Saltfish are processed here and may be used in trade with other nations."}
+@{"Honey is produced here and may be used in trade with other nations."}
+@{"Salt is processed here and may be used in trade with other nations."}
+@{"Pottery is produced here and may be used in trade with other nations."}
+@{"Linen is processed here and may be used in trade with other nations."}
+@{"Amber is produced here and may be used in trade with other nations."}
+@{"Antler work is produced here and may be used in trade with other nations."}
+@{"Jet is processed here and may be used in trade with other nations."}
+@{"Mead is produced here and may be used in trade with other nations."}
+@{"Pewter is produced here and may be used in trade with other nations."}
+@{"Textiles are produced here and may be used in trade with other nations."}
+@{"Walrus tusks are processed here and may be used in trade with other nations."}
+@{"Whalebone is processed here and may be used in trade with other nations."}
+
+@["castle_size_txt_xzy"]
+@{"200 infantry or 100 cavalry"}
+@{"200 infantry or 100 cavalry"}
+@{"260 infantry or 130 cavalry"}
+@{"320 infantry or 160 cavalry"}
+@{"320 infantry or 160 cavalry"}
+@{"420 infantry or 210 cavalry"}
+@{"420 infantry or 210 cavalry"}
+@{"600 infantry or 300 cavalry"}
+@{"600 infantry or 300 cavalry"}
+
+// Viking castles
+
+["Stornoway"]		{"Stornoway"}
+["Kirkewale"]		{"Kirkewale"}
+["Clyne"]			{"Clyne"}
+["Craig Phadrig"]	{"Craig Phadrig"}
+["Annait"]			{"Annait"}
+["Dunachton"]		{"Dunachton"}
+["Abberdeon"]		{"Abberdeon"}
+["Dunad"]			{"Dunad"}
+["Din Eidyn"]		{"Din Eidyn"}
+["Dunbarton"]		{"Dunbarton"}
+["Hwiterhe"]		{"Hwiterhe"}
+["Lindisfarne"]		{"Lindisfarne"}
+["Luel"]			{"Luel"}
+["Hagustaldsae"]	{"Hagustaldsae"}
+["Calaracha"]		{"Calaracha"}
+["Legacaestir"]		{"Legacaestir"}
+["Eoferxic"]		{"Eoferxic"}
+["Dinas Emrys"]		{"Dinas Emrys"}
+["Llandrillo"]		{"Llandrillo"}
+["Lyccidfleth"]		{"Lyccidfleth"}
+["Leicaestir"]		{"Leicaestir"}
+["Lyndclerie"]		{"Lyndclerie"}
+["Llangurig"]		{"Llangurig"}
+["Wigranceastre"]	{"Wigranceastre"}
+["Minui"]			{"Minui"}
+["Dinas Powys"]		{"Dinas Powys"}
+["Bilmiga"]			{"Bilmiga"}
+["Medeshamstedi"]	{"Medeshamstedi"}
+["Elmham"]			{"Elmham"}
+["Tintagel"]		{"Tintagel"}
+["Cridiantun"]		{"Cridiantun"}
+["Cheddar"]			{"Cheddar"}
+["Dorcic"]			{"Dorcic"}
+["Lundenwic"]		{"Lundenwic"}
+["Uintancaestir"]	{"Uintancaestir"}
+["Selaeseu"]		{"Selaeseu"}
+["Cantwaraburh"]	{"Cantwaraburh"}
+["Cruachu"]			{"Cruachu"}
+["Eamhain Macha"]	{"Eamhain Macha"}
+["Caiseal"]			{"Caiseal"}
+["Dun Ailinne"]		{"Dun Ailinne"}
+["Skinngsal"]		{"Skinngsal"}
+["Jelling"]			{"Jelling"}
+["Maughold"]		{"Maughold"}
+["Teamhair"]		{"Teamhair"}
+
+//********************************************************************************
+// Changes after first submission
+
+
+// New titles
+
+["King of the Isles"]			{"King of the Isles"}
+["Thane of the Northern Isles"]	{"Thane of the Northern Isles"}
+["Thane of Cait"]				{"Thane of Cait"}
+["Thane of Cawdor"]				{"Thane of Cawdor"}
+["Thane of Sci"]				{"Thane of Sci"}
+["Thane of Athfotla"]			{"Thane of Athfotla"}
+["Thane of Monoth"]				{"Thane of Monoth"}
+["Thane of Dal Riada"]			{"Thane of Dal Riada"}
+["Thane of Fib"]				{"Thane of Fib"}
+["Thane of Cyil"]				{"Thane of Cyil"}
+["King of Strathclyde"]			{"King of Strathclyde"}
+["Warden of the Northern Marches"]			{"Warden of the Northern Marches"}
+["Earl of Cumbri"]				{"Earl of Cumbri"}
+["Earl of Elmete"]				{"Earl of Elmete"}
+["Earl of Beornice"]			{"Earl of Beornice"}
+["Earl of Pec Saetan"]			{"Earl of Pec Saetan"}
+["Earl of Dere"]				{"Earl of Dere"}
+["Prince of Guined"]			{"Prince of Guined"}
+["Prince of Clwyd"]				{"Prince of Clwyd"}
+["Earl of Wrocen Saetan"]			{"Earl of Wrocen Saetan"}
+["Earl of Mierce"]				{"Earl of Mierce"}
+["Earl of Lindissi"]			{"Earl of Lindissi"}
+["Prince of Pouis"]				{"Prince of Pouis"}
+["Earl of Hwicce"]				{"Earl of Hwicce"}
+["Prince of Defet"]				{"Prince of Defet"}
+["Prince of Guent"]				{"Prince of Guent"}
+["Earl of Middel Seaxe"]		{"Earl of Middel Seaxe"}
+["Earl of Middel Engle"]		{"Earl of Middel Engle"}
+["Earl of East Engle"]			{"Earl of East Engle"}
+["Prince of Cerniu"]			{"Prince of Cerniu"}
+["Earl of Defnas"]				{"Earl of Defnas"}
+["Earl of Sumorsaete"]			{"Earl of Sumorsaete"}
+["Earl of West Seaxe"]			{"Earl of West Seaxe"}
+["King of East Seaxe"]			{"King of East Seaxe"}
+["Earl of Dornsaete"]			{"Earl of Dornsaete"}
+["Earl of Suth Seaxe"]			{"Earl of Suth Seaxe"}
+["King of Cantware"]			{"King of Cantware"}
+["Ruire of Connacht"]			{"Ruire of Connacht"}
+["Ruire of Ulster"]				{"Ruire of Ulster"}
+["Ruire of Munster"]			{"Ruire of Munster"}
+["Ruire of Laigin"]				{"Ruire of Laigin"}
+["Prince of Norway"]			{"Prince of Norway"}
+["Prince of Denmark"]			{"Prince of Denmark"}
+["King of Man"]					{"King of Man"}
+["Ruire of Brega"]			{"Ruire of Brega"}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	Text added after 7th Jan 2003 begins here:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+
+

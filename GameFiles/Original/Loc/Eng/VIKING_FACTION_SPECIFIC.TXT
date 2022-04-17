@@ -1,0 +1,252 @@
+
+//*********************************************************************
+// 
+// The campaigns 'faction specific' and 'rebel' text strings:-
+// 
+// This is the default file used for arrays of faction names and arrays 
+// of text containing the full set of faction names in order.
+//
+// Rebel faction names also need to be placed in this file..
+//
+//*********************************************************************
+
+@["faction_leaders_xzy"]
+@{"The Rebel Leader"}
+@{"The Irish Leader"}
+@{"The Mercian Leader"}
+@{"The Northumbrian Leader"}
+@{"The Pict Leader"}
+@{"The Saxon Leader"}
+@{"The Scottish Leader"}
+@{"The Viking Leader"}
+@{"The Welsh Leader"}
+
+// This array dictates how the faction corresponding to the position in the list would address their leader.
+// eg. If your first faction was the English then you would want "King" at position 1, not at position 0 as this is always the rebels.
+
+@["king_titles"]	// Label
+@{"Rui Ri "}			// Position 0
+@{"King "}		// Position 1
+@{"King "}	
+@{"King "}		
+@{"King "}	
+@{"King "}		
+@{"King "}		
+@{"King "}	
+@{"King "}		
+@{"King "}		
+@{"Prince "}	
+@{"King "}		
+@{"Sultan "}	
+@{"King "}		
+@{"Duke "}		
+@{"Khan "}		
+@{"King "}		
+@{"Prince "}	
+@{"Pope "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+
+
+@["custom_battle_menu_factions"]
+@{"Rebel"}
+@{"Irish"}
+@{"Mercians"}
+@{"Northumbrians"}
+@{"Picts"}
+@{"Saxons"}
+@{"Scots"}
+@{"Vikings"}
+@{"Welsh"}
+
+@["factions_posessive_xzy"]
+@{"Rebel"}
+@{"Irish"}
+@{"Mercians"}
+@{"Northumbrians"}
+@{"Picts"}
+@{"Saxons"}
+@{"Scots"}
+@{"Vikings"}
+@{"Welsh"}
+
+// The following is to accomodate languages requiring female forms of faction names for ["other_princess_tooltip1"] 
+// in tooltip.txt. For languages not requiring this copy whatever you have in ["factions_posessive_xzy"] (names.txt),
+// but obviously leave the label as is here.
+
+@["female_factions_posessive_xzy"]
+@{"Rebel"}
+@{"Irish"}
+@{"Mercians"}
+@{"Northumbrians"}
+@{"Picts"}
+@{"Saxons"}
+@{"Scots"}
+@{"Vikings"}
+@{"Welsh"}
+
+@["factions_xzy"]
+@{"The Rebels"}
+@{"The Irish"}
+@{"The Mercians"}
+@{"The Northumbrians"}
+@{"The Picts"}
+@{"The Saxons"}
+@{"The Scots"}
+@{"The Vikings"}
+@{"The Welsh"}
+
+@["of_Clan_Names"]
+@{" of The Rebels"}          
+@{" of The Irish"}        
+@{" of The Mercians"}     
+@{" of The Northumbrians"}
+@{" of The Picts"}        
+@{" of The Saxons"}       
+@{" of The Scots"}        
+@{" of The Vikings"}      
+@{" of The Welsh"}        
+
+@["factions_special_xzy"]
+@{"the Rebels"}
+@{"the Irish"}
+@{"the Mercians"}
+@{"the Northumbrians"}
+@{"the Picts"}
+@{"the Saxons"}
+@{"the Scots"}
+@{"the Vikings"}
+@{"the Welsh"}
+
+@["factions_special_caps_xzy"]	
+@{"The Rebels"}
+@{"The Irish"}
+@{"The Mercians"}
+@{"The Northumbrians"}
+@{"The Picts"}
+@{"The Saxons"}
+@{"The Scots"}
+@{"The Vikings"}
+@{"The Welsh"}
+
+@["rebel_factions_xzy"]             
+@{"the Western Islanders"}                  
+@{"the Orcadians"}                       
+@{"the Men of Cait"}                          
+@{"the Men of Moray"}                         
+@{"the Men of Sci"}                           
+@{"the Athfotlans"}                 
+@{"the Monoth"}                        
+@{"the Dal Riadans"}                     
+@{"the Men of Fib"}                           
+@{"the Strathclyders"}                          
+@{"the Strathclyders"}                    
+@{"the Lothians"}                       
+@{"the Strathclyders"}                                           
+@{"the Men of Elmete"}                        
+@{"the Beornicians"}                      
+@{"the Pec Saetans"}                    
+@{"the Deirans"}                          
+@{"the Men of Guined"}                        
+@{"the Men of Clwyd"}                         
+@{"the Wrocen Saetans"}                 
+@{"the Suth Angles"}                        
+@{"the Lindissiwaras"}                      
+@{"the Men of Pouis"}                         
+@{"the Hwiccas"}                        
+@{"the Men of Defet"}                         
+@{"the Men of Guent"}                         
+@{"the Middel Saxons"}                  
+@{"the Middel Engles"}                  
+@{"the North Folk"}                    
+@{"the Men of Cerniu"}                       
+@{"the Men of Defnas"}                        
+@{"the Sumorsaetas"}                    
+@{"the Wilsaetas"}                    
+@{"the East Saxons"}                    
+@{"the Dornsaetas"}                     
+@{"the Suth Saxons"}                   
+@{"the Cantishmen"}                      
+@{"the Men of Connacht"}                      
+@{"the Ulstermen"}                        
+@{"the Men of Munster"}                       
+@{"the Men of Laigin"}                        
+@{"the Men of Hordaland"}                     
+@{"the Men of Jutland"}                       
+@{"the Manx"}                         
+@{"the Men of Brega"}                      
+
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	Text added after 7th Jan 2003 begins here:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+["Victory"]
+{"Victory"}
+
+["Defeat"]
+{"Defeat"}
+
+["Victory_60"]
+{"You have conquered more than two-thirds of Britain. You may claim your victory 
+or continue onwards to total domination of the British Isles.\n\n
+Do you wish to claim this lesser victory?
+"}
+
+["Victory_100"]
+{"You have achieved total domination of the British Isles. Each and every one of your enemies 
+lies relegated to a footnote of history and your glory shall forever be revered."}
+
+["Victory_Glory"]
+{"The year is 1066 and the time has come to assess the glory of your realm. 
+Your Glorious Achievements outstrip those of all your rivals.\n\n
+Victory is yours."}
+
+["Loss_Glory"]
+{"The year is 1066 and the time has come for an accounting of your achievements. 
+I regret to inform you that your realm is not the most glorious in Britain.\n\n
+Your rule has been found wanting and you now must accept defeat."}
+
+//////////////////////////////////
+["Loss_Glory2"]
+{"Despite surviving to the year 1066, 
+your kingdom failed to attain the glory expected of it and you must now accept defeat."}
+
+["Victory_Glory2"]
+{"Even though your rivals survived alongside your outstanding kingdom, they were unable to match your achievements. Glory is forever yours."}
+
+["Simple_Loss"]
+{"You failed in your primary undertaking of maintaining your kingdom and dynasty.\nYou have lost."}
+
+["Victory_100_2"]
+{"Britain is entirely under your dominance and your place in history is assured.\nYou have achieved total victory."}
+
+["Victory_60_2"]
+{"Although total dominance eluded you, most of the British Isles are under your control.\nNone would truly dispute your victory."}
+
+["Time_Win"]
+{"The year is 1066 and the time has come to assess your kingdom.\n\n
+Your lands outstrip those of all your rivals and mastery of Britain was almost within your grasp. 
+Time would, surely, have granted dominion.\n\n
+Victory is yours."}
+
+["Time_Loss2"]
+{"Despite surviving to 1066 you were unable to secure a lasting position of power for your kingdom and people
+ within the British Isles.\n
+History has judged that you have lost."}
+

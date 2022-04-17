@@ -1,0 +1,3324 @@
+//
+// This contains the front end text.
+//
+
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If untranslated a string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated stings
+// easily and can see that they have no been 
+// translated when the program has been run.
+// Once the translation has been done acceptable
+// they should be removed.
+
+
+// iii) The data is organised as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later
+// They can be used to issue instructions or for information.
+//
+
+
+SetShowTransOn //Do not translate.
+//???? Remove when localised.
+
+["FrontendTextData"]  {"Frontend Text data."}
+
+
+["Main_Menu_Title"]
+{"Main Menu"} 
+
+["Main_Menu_Savegame_Title"]
+{"Save Game"}
+
+["Main_Menu_Savegame_Error_Saving_File_Popup_Title"]
+{"The game could not be saved"}
+
+["Main_Menu_Savegame_Overwrite_File_Popup_Title"]
+{"File exists. Overwrite?"}
+
+["Main_Menu_Savegame_Game_Saved_File_Popup_Title"]
+{"Game saved"}
+
+["Main_Menu_Multiplayer_Title"]
+{"Multiplayer Menu"}
+
+["Main_Menu_Tutorial_Title"]
+{"Tutorial Menu"}
+
+["Main_Menu_Options_Title"]
+{"Options Menu"}
+
+["Main_Menu_Quit_Popup_Title"]
+{"Quit Medieval Total War Demo?"}
+
+["Main_Menu_Quit_Popup_Yes"]
+{"YES"}
+
+["Main_Menu_Quit_Popup_No"]
+{"NO"}
+
+["Main_Menu_Newgame_Difficulty_Dialog_Title"]
+{"Difficulty Level"}
+
+["Main_Menu_Newgame_Difficulty_Dialog_Easy"]
+{"Easy"}
+
+["Main_Menu_Newgame_Difficulty_Dialog_Normal"]
+{"Normal"}
+
+["Main_Menu_Newgame_Difficulty_Dialog_Hard"]
+{"Hard"}
+
+["Main_Menu_Newgame_Difficulty_Dialog_Expert"]
+{"Expert"}
+
+["Custom_Game_Difficulty_Level_Prompt"]
+{"Difficulty Level"}
+
+@["Custom_Game_Difficulty_List"]
+@{"Difficulty Level:"}
+@{"Easy"}
+@{"Normal"}
+@{"Hard"}
+@{"Expert"}
+
+//@["Main_Menu_Tutorial"]
+//@{"Sicily"}
+//@{"Bulgaria"}
+//@{"Antioch"}
+//@{" "}
+//@{" "}
+
+["Main_Menu_Initial_Single_Player_Description"]
+{"Begin a new game"}
+
+["Main_Menu_Initial_Load_Game_Description"]
+{"Load a previously saved game"}
+
+["Main_Menu_Initial_Multiplayer_Description"]
+{"Search for Medieval servers or create a multiplayer game"}
+
+["Main_Menu_Initial_Battle_Tutorial_Description"]
+{"Familiarise yourself with Medieval's battle interface in this sequence of training missions."}
+
+["Main_Menu_Initial_Strategy_Tutorial_Description"]
+{"Familiarise yourself with Medieval's strategy game in this structured tutorial."}
+
+["Main_Menu_Initial_Map_Editor_Description"]
+{"Create new maps or edit existing ones"}
+
+["Main_Menu_Initial_Options_Description"]
+{"Customise audio, video and control setup"}
+
+["Main_Menu_Initial_Quit_Description"]
+{"Quit Medieval: Total War Demo"}
+
+["Main_Menu_Newgame_Description_0"]
+{"Partake in an ancient battle and fight it the way it should have been fought."}
+
+["Main_Menu_Newgame_Description_1"]
+{"Select a Faction, build an impregnable empire and place your throne upon it."}
+
+["Main_Menu_Newgame_Description_2"]
+{"Create your own battle scenarios."}
+
+["Main_Menu_Multiplayer_Description_0"]
+{"Connect to the persistent online Medieval world and join a faction or resume an ongoing game."}
+
+["Main_Menu_Multiplayer_Description_1"]
+{"Play a Medieval battle over a local area network"}
+
+["Main_Menu_Multiplayer_Description_2"]
+{"Connect to the official Medieval website"}
+
+["Main_Menu_Multiplayer_Description_3"]
+{"Connect to the Medieval: Total War news server"}
+
+["Main_Menu_Multiplayer_Description_4"]
+{"Connect to the internet via dialup adapters"}
+
+//["Main_Menu_Tutorial_Description_0"]
+//{"Basic Battlemap Tutorial"}
+//
+//["Main_Menu_Tutorial_Description_1"]
+//{"Intermediate Battlemap Tutorial "}
+//
+//["Main_Menu_Tutorial_Description_2"]
+//{"Advanced Battlemap Tutorial"}
+//
+//["Main_Menu_Tutorial_Description_3"]
+//{" "}
+//
+//["Main_Menu_Tutorial_Description_4"]
+//{" "}
+
+["Main_Menu_Options_Description_0"]
+{"Configure video settings and screen resolution"}
+
+["Main_Menu_Options_Description_1"]
+{"Configure audio settings"}
+
+["Main_Menu_Options_Description_2"]
+{"Configure graphic detail settings"}
+
+["Main_Menu_Options_Description_3"]
+{"Customise keyboard and mouse controls"}
+
+["Main_Menu_In_Game_Description_0"]
+{"Return to your campaign"}
+
+["Main_Menu_In_Game_Description_1"]
+{"Save your progress"}
+
+["Main_Menu_In_Game_Description_2"]
+{"Customise audio, video and control setup"}
+
+["Main_Menu_In_Game_Description_3"]
+{"Quit this campaign and return to the main menu"}
+
+
+["Main_Menu_Registration_Dialog_New_Player_Option"]
+{"New Player"}
+
+["Main_Menu_Registration_Dialog_Exisiting_Player_Option"]
+{"Existing Player"}
+
+["Main_Menu_Registration_Dialog_Online_Name_Prompt"]
+{"Online Name"}
+
+["Main_Menu_Registration_Dialog_Password_Prompt"]
+{"Password"}
+
+["Main_Menu_Registration_Dialog_Connecting"]
+{"Connecting..."}
+
+["Main_Menu_Registration_Dialog_Failed_To_Connect"]
+{"Failed to connect"}
+
+["Main_Menu_Registration_Dialog_Logging_On"]
+{"Logging On..."}
+
+["Main_Menu_Registration_Dialog_Failed_To_Logon"]
+{"Failed to log on"}
+
+["Main_Menu_Registration_Dialog_Logged_On"]
+{"Logged on"}
+
+
+["Main_Menu_Registration_Title"]
+{"Logon Information"}
+
+["Main_Menu_Registration_Prompt_0"]
+{"Please register your copy of Medieval"}
+									 
+["Main_Menu_Registration_Prompt_1"]
+{"New CD Key"}
+
+["Main_Menu_Registration_Prompt_2"]
+{"Email:"}
+
+["Main_Menu_Registration_Prompt_3"]
+{"Select a family name"}
+
+["Main_Menu_Registration_Prompt_4"]
+{"Online name"}
+
+["Main_Menu_Registration_Prompt_5"]
+{"Password"}
+
+
+["Main_Menu_Verify_Player_Title"]
+{"Player Logon"}
+
+["Main_Menu_Verify_Player_Prompt_0"]
+{"Welcome back to the world of Medieval: Total War"}
+									 
+["Main_Menu_Verify_Player_Prompt_1"]
+{"Your CD serial code"}
+
+["Main_Menu_Verify_Player_Prompt_2"]
+{"Your family name"}
+
+["Main_Menu_Verify_Player_Prompt_3"]
+{"Online name"}
+
+["Main_Menu_Verify_Player_Prompt_4"]
+{"Password"}
+
+["Daimyo_Menu_Start_Game"]
+{"Start Game"}
+
+["Video_Menu_Title"]
+{"Video Options"}
+
+["Video_Menu_Gamma_Title"]
+{"Gamma correction"}
+
+["Video_Menu_Battlemap_Resolution"]
+{"Battlemap resolution"}
+
+["Video_Menu_Japmap_Resolution"]
+{"Strategy map resolution"}
+
+["Video_Menu_8Bit_Textures"]
+{"Use 8-bit textures"}
+
+["Video_Menu_Test_Displaymode"]
+{""}
+
+["Video_Menu_Japmap_Resolution_Error"]
+{"There is a problem setting the strategy map resolution. Are your drivers certified? Please try a lower resolution."}
+
+["Video_Menu_Battlemap_Resolution_Error"]
+{"There is a problem setting the battle map resolution. Are your drivers certified? Please try a lower resolution."}
+
+["Video_Menu_Change_Device_Error"]
+{"There is a problem using this device. Please make sure you have the correct drivers and that they are correctly installed."}
+
+["LAN_Multiplayer_Title"]
+{"LAN Game"}
+
+["LAN_Multiplayer_Attack"]
+{"Attack"}
+
+["LAN_Multiplayer_Defend"]
+{"Defend"}
+
+["LAN_Multiplayer_Name_Column_Title"]
+{"Game"}
+
+["LAN_Multiplayer_Map_Column_Title"]
+{"Map"}
+
+["LAN_Multiplayer_Style_Column_Title"]
+{"Style"}
+
+["LAN_Multiplayer_Players_Column_Title"]
+{"Players"}
+
+["LAN_Multiplayer_Ping_Column_Title"]
+{"Latency"}
+
+@["LAN_Multiplayer_Options"]
+@{"Join Game"}
+@{"Host Game"}
+@{"Exit"}
+
+["LAN_Multiplayer_Joingame"]
+{"Join Game"}
+
+["LAN_Multiplayer_Creategame"]
+{"Host Game"}
+
+["LAN_Multiplayer_Join_Game_Enter_Password_Prompt"]
+{"Enter password"}
+
+["LAN_Multiplayer_Join_Game_Not_Selected_Error"]
+{"You must select a game to join"}
+
+["LAN_Multiplayer_Join_Game_Maxplayers_Error"]
+{"This game already has its maximum number of players"}
+
+["LAN_Multiplayer_Join_Game_Incorrect_Password_Error"]
+{"Incorrect password"}
+
+["LAN_Multiplayer_Join_Game_Failed_To_Connect_Error"]
+{"Failed to connect to this game"}
+
+["LAN_Multiplayer_Connection_Timeout_Error"]
+{"Connection timed out"}
+
+["LAN_Multiplayer_No_Local_Player_Error"]
+{"Local player info not set - unable to proceed"}
+
+["LAN_Multiplayer_Return_To_Lobby_Error"]
+{"A player has dropped out.  Returning to lobby."}
+
+["LAN_Multiplayer_Hostgame_Title"]
+{"Host Game Options"}
+
+["LAN_Multiplayer_Continue"]
+{"Continue"}
+
+["LAN_Multiplayer_Exit"]
+{"Exit"}
+
+["LAN_Multiplayer_Map"]
+{"Map"}
+
+["LAN_Multiplayer_Servername"]
+{"Server name"}
+
+["LAN_Multiplayer_Password"]
+{"Password"}
+
+["LAN_Multiplayer_Maxplayers"]
+{"Max players"}
+
+@["Session_Game_State"]
+@{"Open"}
+@{"Closed"}
+@{"In Battle"}
+@{"Finishing Battle"}
+
+//@["Custom_Battle_Season_Headings"]
+//@{"Select a Season:"}
+//@{"Spring"}
+//@{"Summer"}
+//@{"Autumn"}
+//@{"Winter"}
+
+@["Custom_Battle_Season_Headings"]
+@{"Select a Season:"}
+@{"Spring"}
+@{"Summer"}
+@{"Autumn"}
+@{"Winter"}
+
+["LAN_Multiplayer_Lobby_Title"]
+{"Multiplayer Lobby"}
+
+["LAN_Multiplayer_Kokubox_Title"]
+{"Florins"}
+
+["LAN_Multiplayer_Lobbynamebox_Title"]
+{"Name"}
+
+["LAN_Multiplayer_Accept"]
+{"Accept"}
+
+["LAN_Multiplayer_Lobby_Waiting_For_Players"]
+{"Waiting for players..."}
+
+["LAN_Multiplayer_Initial_Lobbyname"]
+{"Player"}
+
+["LAN_Multiplayer_Servername_Error"]
+{"Please enter a server name"}
+
+["LAN_Multiplayer_Maxplayers_Error"]
+{"Please specify maximum number of players"}
+
+["LAN_Multiplayer_Lobbyname_Error"]
+{"Please specify a name"}
+
+["LAN_Multiplayer_Koku_Error"]
+{"Please specify the number of florins for each team"}
+
+["LAN_Multiplayer_Too_Little_Koku_Error"]
+{"You need at least 100 florins to buy one unit for your army"}
+
+["Armyselect_Screen_Title"]
+{"Army Select"}
+
+["Armyselect_Unittype1"]
+{"Trebizond Archers"}
+
+["Armyselect_Unittype2"]
+{"Feudal Sergeants"}
+
+["Armyselect_Unittype3"]
+{"Artillery Crew"}
+
+["Armyselect_Unittype5"]
+{"Kern"}
+
+["Armyselect_Unittype6"]
+{"Warrior Monks"}
+
+["Armyselect_Unittype7"]
+{"Cavalry Archers"}
+
+["Armyselect_Unittype8"]
+{"Heavy Cavalry"}
+
+["Armyselect_Unittype9"]
+{"Fanatics"}
+
+["Armyselect_Unittype10"]
+{"Genoese Sailors"}
+
+["Armyselect_Unittype11"]
+{"Arbalesters"}
+
+
+["Armyselect_Unit_Honour"]
+{"Valour"}
+
+["Armyselect_Army_Standard"]
+{"Standard"}
+
+["Armyselect_Remaining_Koku"]
+{"Florins"}
+
+["Armyselect_Unit_Cost"]
+{"Cost"}
+
+["Armyselect_Remove_Unit"]
+{"Remove"}
+
+["Armyselect_Selectedunits_Error"]
+{"One or more factions has no units"}
+
+["Armyselect_Remove_Unit_Tooltip"]
+{"Left-click to remove"}
+
+["Armyselect_Ready"]
+{"Ready"}
+
+["Customise_Army_Title"]
+{"Customise Army"}
+
+["Customise_Army_Unit_Plural_Prompt"]
+{"Units"}
+
+["Customise_Army_Unit_Singular_Prompt"]
+{"Unit"}
+
+["Custom_Battle_Faction_Select_Title"]
+{"Select Factions"}
+
+["Custom_Battle_Attack_Title"]
+{"Attack"}
+
+["Custom_Battle_Defend_Title"]
+{"Defend"}
+
+["Custom_Battle_Randomunits_Title"]
+{"Random Units"}
+
+
+@["Custom_Battle_Options_list"]
+@{"Use setup from last battle"}
+@{"Accept"}
+
+["Custom_Battle_Attacker_String"]
+{"Attacker"}
+
+["Custom_Battle_Defender_String"]
+{"Defender"}
+
+["Custom_Battle_Koku_Title"]
+{"Florins"}
+
+["Custom_Battle_Player_Mon_Title"]
+{"Factions"}
+
+["Custom_Battle_Human_Player_Title"]
+{"Human Player"}
+
+["Custom_Battle_CPU_Player_Title"]
+{"CPU Players"}
+
+["Custom_Battle_Active_Title"]
+{"Active"}
+
+@["Custom_Battle_Default_CPU_Daimyo_Names"]
+@{"Peasants"}
+@{"Leader 1"}
+@{"Leader 2"}
+@{"Leader 3"}
+@{"Leader 4"}
+@{"Leader 5"}
+@{"Leader 6"}
+@{"Leader 7"}
+
+
+["Custom_Battle_Random_Units_Title"]
+{"Random Units"}
+
+["Custom_Battle_Missing_Daimyo_Name_Error_Message"]
+{"Please enter a name for each of the activated Factions"}
+
+["Custom_Battle_No_Attackers_Error_Message"]
+{"You need to set at least one Faction as an Attacker"}
+
+["Custom_Battle_No_Defenders_Error_Message"]
+{"You need to set at least one Faction as a Defender"}
+
+["Custom_Battle_No_CPU_Daimyos_Error_Message"]
+{"You will need to activate a computer-controlled Faction to battle against"}
+
+["Custom_Battle_Using_Saved_Data_Message"]
+{"Now using data from previous custom battle"}
+
+["Audio_Menu_Title"]
+{"Audio Options"}
+
+["Audio_Menu_Music_Volume"]
+{"Music Volume"}
+
+["Audio_Menu_Sfx_Volume"]
+{"SFX Volume"}
+
+["Audio_Menu_Doppler"]
+{"Doppler"}
+
+["Audio_mute_Switch"]
+{"Mute"}
+
+["Graphics_Menu_Title"]
+{"Graphics Options"}
+
+["Controls_Menu_Title"]
+{"Control Options"}
+
+["Controls_Menu_Mouselook"]
+{"Mouselook"}
+
+["Controls_Menu_Mousemove"]
+{"Mousemove"}
+
+["Controls_Menu_Camera_Rotate_Speed"]
+{"Camera Rotate Speed"}
+
+["Controls_Menu_Camera_Move_Speed"]
+{"Camera Move Speed"}
+
+["Assign_Keys_Menu_Title"]
+{"Assign Keys"}
+
+["Assign_Keys_Command_Column_Header"]
+{"Command"}
+
+["Assign_Keys_Key_Column_Header"]
+{"Key"}
+
+["Assign_Keys_Reset_To_Defaults"]
+{"Reset to defaults"}
+
+["Game_Options_Menu_Title"]
+{"Game Options"}
+
+["Game_Options_Interface_Settings_Subtitle"]
+{"Interface Settings"}
+
+["Game_Options_Icon_Bar"]
+{"Icon Bar"}
+
+["Game_Options_Radar"]
+{"Overview Map"}
+
+["Game_Options_Widescreen"]
+{"Widescreen"}
+
+["Game_Options_Fullscreen"]
+{"Fullscreen"}
+
+["Game_Options_Control_Menu_Subtitle"]
+{"Control Menu"}
+
+["Game_Options_Simple"]
+{"Simple"}
+
+["Game_Options_Advanced"]
+{"Advanced"}
+
+["Game_Options_Realism_Settings_Subtitle"]
+{"Realism Settings"}
+
+["Game_Options_Morale"]
+{"Morale"}
+
+["Game_Options_Fatigue"]
+{"Fatigue"}
+
+["Game_Options_Limited_Ammo"]
+{"Limited Ammo"}
+
+["Choose_A_Clan"]
+{"Choose a Faction"}
+
+@["Peasants_and_Ronin_Starting_Forces"]
+@{"Not selectable"}
+
+["Chatbox_To"]
+{"To"}
+
+["Chatbox_Buddy"]
+{"BUDDY"}
+
+["Chatbox_Unbuddy"]
+{"UNBUDDY"}
+
+["Chatbox_Ignore"]
+{"IGNORE"}
+
+["Chatbox_Unignore"]
+{"UNIGNORE"}
+
+["Chatbox_Command"]
+{"Command"}
+
+["Customgame_Title"]           
+{"Custom Game"}
+
+["Customgame_Maxplayers_Error"]
+{"Please specify maximum number of players"}
+
+["Customgame_Maxplayers"]
+{"Max Players"}
+
+["Customgame_Weathertype"]
+{"Weather Type"}
+                                  
+["Customgame_Continue"]
+{"Continue"}
+
+["Customgame_Exit"]
+{"Exit"}
+
+["Customgame_Map"]
+{"Map"}
+
+["Dan_Test_Menu_List"]
+{"Empty."}
+
+["Remember_Password_Label"]
+{"Remember my password"}
+
+["Online_Server_Error"]
+{"There has been a server error and you have been disconnected!"}
+
+["Online_Disconnected"]
+{"You have been disconnected from the server!"}
+
+@["Online_Options_Menu_Options"]
+@{"Chat Rooms"}
+@{"Internet Games"}
+@{"Log Off Medieval"}
+
+["Online_Select_Chat_Room_Menu_Titles"]
+{"Chat Rooms"}
+
+["Online_Select_Chat_Room_Column_Header_Room"]
+{"Room"}
+
+["Online_Select_Chat_Room_Column_Header_Players"]
+{"Players"}
+
+["Online_Select_Chat_Room_Column_Header_Status"]
+{"Status"}
+
+@["Online_Select_Chat_Room_Options"]
+@{"Internet games"}
+@{"Join chat room"}
+@{"Leave chat room"}
+
+
+["Online_Select_Chat_Room_Dialog_Title"]
+{"Join Room"}
+
+["Online_Select_Chat_Room_Dialog_Title2"]
+{"Unable to join room"}
+
+["Online_Select_Chat_Room_Dialog_Joining"]
+{"Joining room..."}
+
+["Online_Select_Chat_Room_Dialog_No_Room"]
+{"The selected room does not exist"}
+
+["Online_Select_Chat_Room_Dialog_Room_Full"]
+{"The selected room is full"}
+
+["Online_Select_Chat_Room_Dialog_Wrong_Password"]
+{"Incorrect password"}
+
+["Online_Select_Chat_Room_Dialog_Enter_Password"]
+{"Enter password"}
+
+["Online_Select_Chat_Room_Join_Error"]
+{"You must select a chat room to join"}
+
+["Online_Select_Chat_Room_Leave_Error"]
+{"This chat room has no parent to leave to"}
+
+["Online_Create_Chat_Room_Menu_Titles"]
+{"Create A Chat Room"}
+
+["Online_Create_Chat_Room_Enter_Name"]
+{"Chat room name"}
+
+["Online_Create_Chat_Room_Private_Toggle_Label"]
+{"Make this room private"}
+
+["Online_Create_Chat_Room_Description"]
+{"Description"}
+
+["Online_Create_Chat_Room_Maxplayers"]
+{"Maximum number of players"}
+
+["Online_Create_Chat_Room_Maxplayers_Error"]
+{"The maximum number of players must be in the range 2 - 100"}
+
+["Online_Create_Chat_Room_Name_Error"]
+{"The chat room must have a name"}
+
+["Online_Create_Chat_Room_Create_Error"]
+{"Failed to create chat room"}
+
+["Online_Create_Chat_Room_Password"]
+{"Password (optional)"}
+
+["Online_Internet_Games_Title"]
+{"Internet Games"}
+
+["Online_Internet_Games_Column_Header_Game"]
+{"Game"}
+
+["Online_Internet_Games_Column_Header_Map"]
+{"Map"}
+
+["Online_Internet_Games_Column_Header_Players"]
+{"Players"}
+
+["Online_Internet_Games_Column_Header_Koku"]
+{"Florins"}
+
+["Online_Internet_Games_Column_Header_Speed"]
+{"Latency"}
+
+["Online_Internet_Games_Column_Header_Status"]
+{"Status"}
+
+["Online_Internet_Games_Join_Select_Error"]
+{"You must select an internet game to join"}
+
+["Online_Internet_Games_Join_Connect_Error"]
+{"Could not connect to this internet game"}
+
+["Online_Internet_Games_Join_Password_Error"]
+{"Incorrect password for this internet game"}
+
+["Online_Internet_Games_Join_Number_Of_Players_Error"]
+{"This internet game already has its maximum number of players"}
+
+@["Online_Internet_Games_Options"]
+@{"Chat rooms"}
+@{"Join game"}
+@{"Host game"}
+@{"View role of honour"}
+
+["Online_Battle_Results_Title"]
+{"Battle Results"}
+
+@["Online_Battle_Results_Column_Header_Attacker"]
+@{"Attacker"}
+@{"Defender"}
+
+["Online_Battle_Results_Column_Header_Defender"]
+{"Defender"}
+
+@["Online_Battle_Results_Column_Header_Kills"]
+@{"Kills"}
+@{"Kills"}
+
+@["Online_Battle_Results_Column_Header_Losses"]
+@{"Losses"}
+@{"Losses"}
+
+@["Online_Battle_Results_Column_Header_Bonus"]
+@{"Bonus"}
+@{"Bonus"}
+
+@["Online_Battle_Results_Column_Header_New_Honour"]
+@{"New Valour"}
+@{"New Valour"}
+
+@["Online_Battle_Results_Column_Header_Honour"]
+@{"Valour"}
+@{"Valour"}
+
+@["Online_Battle_Results_Options"]
+@{"Continue"}
+
+["Online_Battle_Results_Battle_Name"]
+{"Internet Game"}
+
+["Online_Battle_Results_Attacker_Victory_Message"]
+{"Victory for the attackers!"}
+
+["Online_Battle_Results_Defender_Victory_Message"]
+{"Victory for the defenders!"}
+
+["Online_Battle_Results_Battle_Unresolved_Message"]
+{"Battle unresolved"}
+
+["Online_Battle_Results_Time_Message"]
+{"Battle duration "}				// This and the next 2 strings joined together with number of minutes and seconds inserted, e.g.
+						// "Battle duration 15 minutes and 23 seconds".
+["Online_Battle_Results_Time_Minutes"]
+{" minutes and "}
+
+["Online_Battle_Results_Time_Seconds"]
+{" seconds"}
+
+["Online_Create_Internet_Battle_Error"]
+{"Failed to initialise online database.  The results of this battle will not be recorded."}
+
+["Online_Upload_Internet_Battle_Results_Error"]
+{"Failed to upload to online database.  The results of this battle will not be recorded."} 
+
+["LAN_Multiplayer_Initial_Cpu_Lobbyname"]
+{"CPU"}
+
+["Historical_Battle_Title"]
+{"Historical Battle"}
+
+["Select_Historical_Battle_Prompt"]
+{"Select an Historical Battle"}
+
+["Historical_Battle_Fight_Battle"]
+{"Fight Battle"}
+
+@["Historical_Battle_Full_List_Info_Prompts"]
+@{"Title"}
+@{"Author"}
+@{"Rating"}
+@{"Province"}
+@{"Description"}
+@{"Conditions"}
+
+@["Historical_Battle_Daimyo_Alliances"]
+@{"(Player)"}
+@{"(Ally)"}
+@{"(Enemy)"}
+
+
+["Historical_Battle_Battle_Info_Description_Prompt"]
+{"Description"}
+
+["Historical_Battle_Battle_Info_Conditions_Prompt"]
+{"Conditions"}
+
+["Historical_Battle_Clan_Names_Shimazu"]
+{"Leader 1"}
+
+["Historical_Battle_Clan_Names_Mori"]
+{"Leader 2"}
+
+["Historical_Battle_Clan_Names_Oda"]
+{"Leader 3"}
+
+["Historical_Battle_Clan_Names_Takeda"]
+{"Leader 4"}
+
+["Historical_Battle_Clan_Names_Imagawa"]
+{"Leader 5"}
+
+["Historical_Battle_Clan_Names_Hojo"]
+{"Leader 6"}
+
+["Historical_Battle_Clan_Names_Uesugi"]
+{"Leader 7"}
+
+["Battle_Results_Title"]
+{"Battle Results"}
+
+["Battle_Results_Custom_Battle_Title"]
+{"Custom Battle"}
+
+["Battle_Results_Title_Attacker_Victorious"]
+{"Victory for the attackers!"}
+
+["Battle_Results_Title_Defender_Victorious"]
+{"Victory for the defenders!"}
+
+@["Battle_Results_Custom_Battle_Results_Chart_Column_0_Header"]
+@{"Coat of"}
+@{"Arms"}
+
+@["Battle_Results_Custom_Battle_Results_Chart_Column_1_Header"]
+@{"Faction"}
+@{"Name"}
+
+@["Battle_Results_Custom_Battle_Results_Chart_Column_2_Header"]
+@{"Men"}
+@{"Killed"}
+
+@["Battle_Results_Custom_Battle_Results_Chart_Column_3_Header"]
+@{"Men"}
+@{"Lost"}
+
+@["Battle_Results_Custom_Battle_Results_Chart_Column_4_Header"]
+@{"Valour"}
+@{" "}
+
+["Empty_Cell"]
+{" "}
+
+@["Battle_Results_Custom_Battle_Results_Time_Message"]
+@{"This battle lasted"}
+@{"mins"}
+@{"secs"}
+
+@["Battle_Results_Custom_Battle_Results_Victory_Message"]
+@{"You are victorious!"}
+@{"You have won this battle!"}
+@{"You stand triumphant!"}
+@{"Your enemies are obliterated!"}
+@{"Your enemies are dust!"}
+@{"This day is yours!"}
+
+@["Battle_Results_Custom_Battle_Results_Defeat_Message"]
+@{"You have been defeated"}
+@{"You have lost this battle"}
+@{"You have suffered defeat"}
+@{"Your soldiers have failed you"}
+@{"You have lost this day"}
+
+
+@["Battle_Results_Multiplayer_Battle_Results_Attackers_Victory_Message"]
+@{"The attackers are victorious!"}
+@{"The attackers' empire continues to grow!"}
+@{"The attackers gain this province!"}
+@{"The defenders of this province are vanquished!"}
+@{"This province is yours!"}
+@{"This day is yours!"}
+
+@["Battle_Results_Multiplayer_Battle_Results_Attackers_Defeat_Message"]
+@{"Your armies have been defeated"}
+@{"This day belongs to your rivals"}
+@{"Your name is tarnished with this defeat"}
+@{"Your armies have fallen"}
+@{"You have suffered defeat"}
+@{"Your forces have been repelled"}
+
+@["Battle_Results_Multiplayer_Battle_Results_Defenders_Victory_Message"]
+@{"The invaders are no more!"}
+@{"This province remains in your hands!"}
+@{"Your lands are safe from the invaders!"}
+@{"The attackers were repelled!"}
+@{"The defenders have won this day!"}
+@{"You have successfully protected your land!"}
+
+@["Battle_Results_Multiplayer_Battle_Results_Defenders_Defeat_Message"]
+@{"Your armies have been defeated"}
+@{"The enemy has overrun this province"}
+@{"Your land is in the hands of the attackers"}
+@{"Your defences were breached and your armies have fallen"}
+@{"The attackers are victorious! Your province is now their province!"}
+@{"You have lost this day"}
+
+
+
+@["Battle_Results_Custom_Battle_Results_Options"]
+@{"Re-fight this battle"}
+@{"Return to Main Menu"}
+@{"Fight a new battle"}
+
+
+//////////////////////////////////////////////
+// Tutorial text
+
+
+
+
+///////////////////////////////////
+// Battle Tutorial
+
+// The 'Lessons Learned' text for the Sicily Tutorial.
+@["Tutorial_Sicily_Lessons_Learned"]
+@{"How to control the camera"}
+@{"How to select units"}
+@{"How to give orders to units"}
+@{"How to change formations"}
+
+// The 'Upcoming Battle' text for the Sicily Battle.
+@["Tutorial_Sicily_Battle"]
+@{"This battle gives you the chance to practice the basics of commanding your army that you learned in the first tutorial. Remember that all commands in a battle work the same way by selecting a unit, pointing at a spot on the battlefield or an enemy unit, and then clicking. Use the camera controls to keep an eye on the action so that you can take advantage of enemy mistakes!"}
+
+// Hints and Tips for the Sicily Battle.
+@["Tutorial_Sicily_Battle_Hints_And_Tips"]
+@{"Use the camera to review the battlefield and plan your attack."}
+@{"Loose formation will help to defend your men against arrow fire."}
+@{"You can click and drag to change the formation of the selected unit."}
+@{"The unit flag at the bottom of the screen contains important information about each of your units."}
+@{"If you double click on one of your units the camera will move to them automatically."}
+@{"The wedge formation is the most effective for charging the enemy line."}
+@{"Your cavalry should try to avoid fighting in forests."}
+@{"Cavalry should try and avoid fighting against spearmen head on."}
+@{"You can hold the mouse over your unit to see their current status."}
+@{"You can hold the mouse over the buttons at the top of the screen to see a tool tip."}
+@{"You can issue orders by pressing the button at the top of the screen, using the right click menu or using a keyboard shortcut."}
+@{"It's a single click to move, and a double click to run. But don't tire your men out before battle."}
+@{"Double click to charge the enemy."}
+
+// The Victory message for the Sicily Battle.
+@["Tutorial_Sicily_Battle_Victory"]
+@{"Superb! You have grasped the essentials of command! Now move on to a new challenge!"}
+
+// The Defeat message for the Sicily Battle.
+@["Tutorial_Sicily_Battle_Defeat"]
+@{"You are beaten. Try again, and make sure your orders result in the enemy’s ruin!"}
+
+// The 'Lessons Learned' text for the Bulgaria Tutorial.
+@["Tutorial_Bulgaria_Lessons_Learned"]
+@{"How to group your units together"}
+@{"How to give orders to groups"}
+@{"How to use your archers"}
+@{"How to change combat states"}
+@{"The advantage of height"}
+
+// The 'Upcoming Battle' text for the Bulgaria Battle.
+@["Tutorial_Bulgaria_Battle"]
+@{"Now that you have a grasp of command and have had some basic tactics explained, you have the opportunity to defeat an enemy using straightforward army organisation and some tactics."}
+@{"Choose wisely where to fight: make your enemy fight uphill by occupying the available high ground whenever possible. Make sure that some of your units are grouped together so that they can be used as a ‘hammer’ to attack the enemy and break them. Next, make sure your archers have a good field of fire, so that they can fire at and weaken the enemy. Finally, remember that formations make a difference to the way units fight. A wedge is perfect for a charge, while loose formation is much better when being peppered with arrows. Issue orders so that your units change formation as required."}
+
+// Hints and Tips for the Bulgaria Battle.
+@["Tutorial_Bulgaria_Battle_Hints_And_Tips"]
+@{"Left click on the enemy to fire."}
+@{"Use the mouse cursor to check the range of your archers. If the arrow is green the target is in range, if it's red the target is out of range."}
+@{"If the Fire At Will button at the top of the screen is pressed your archers will automatically fire when the enemy are in range. Turn it off if you want to save ammunition."}
+@{"Your archers can also kill your own troops, so be careful if you are firing into a group of men who are fighting."}
+@{"Don't waste ammunition firing at heavily armed units. Target your archers where they will have the most effect."}
+@{"Group Formations are an easy way to control your army."}
+@{"Setting your archers to Skirmish is a good way to keep them out of hand to hand combat."}
+@{"The height advantage can be crucial in battle. It gives your archers greater range, and units fight better downhill."}
+@{"Spearmen are very effective against cavalry."}
+
+// The Victory message for the Bulgaria Battle.
+@["Tutorial_Bulgaria_Battle_Victory"]
+@{"Good. Your units were organised and crushed the enemy because of it. Now you should learn some tactical finesse!"}
+
+// The Defeat message for the Bulgaria Battle.
+@["Tutorial_Bulgaria_Battle_Defeat"]
+@{"The battle is lost. Perhaps you should try again, and this time use your units in support of each other!"}
+
+// The 'Lessons Learned' text for the Greece Tutorial.
+@["Tutorial_Greece_Lessons_Learned"]
+@{"The importance of morale"}
+@{"How to hide units and set ambushes"}
+@{"How to use cover"}
+@{"How to use waypoints"}
+
+// The 'Upcoming Battle' text for the Greece Battle.
+@["Tutorial_Greece_Battle"]
+@{"Now that you have an understanding of command, organisation and basic tactics, it’s time to practice some of the finer points of being a Medieval: Total War general."}
+@{"It’s often a good idea to keep the enemy from knowing your plans until it is too late for them to do anything much to save themselves. This battle will let you hide units from the enemy for as long as possible, by placing them in cover and using the terrain to mask their actions from enemy eyes. A unit in a forest, for example, can wait until the enemy is very close before ambushing them!"}
+@{"You’ll also have the chance to move units by giving them waypoints. Waypoints let you control marching units so that they stay out of trouble until it is the right time to commit them to a fight. It can also be very effective to send a unit around a flank to attack an enemy from behind. It may not seem very fair, but this is war!"}
+
+// Hints and Tips for the Greece Battle.
+@["Tutorial_Greece_Battle_Hints_And_Tips"]
+@{"Hold down the Shift key to set waypoints. While you hold down Shift you can see the waypoints for all your selected units."}
+@{"Trees can provide cover from missile fire and can allow units to hide."}
+@{"Hot weather will cause heavily armoured units to become fatigued more quickly."}
+@{"If you hold down the Alt key and order a unit to move they will maintain their current facing when they arrive at their destination."}
+@{"Weather has a number of important effects on battle. Rain will reduce the effectiveness of arrows and prevent the use of gunpowder."}
+@{"You can press the Pause button at any time to pause the battle, and you can issue orders to your units while the game is paused."}
+@{"If you hold down Control and click and drag with the right mouse button, you can drag a box on the battlefield which allows you to select multiple units."}
+@{"You can speed up the game by moving the slider which is beneath the overview map, or by pressing Control + T."}
+@{"The bar above the overview map shows the current kill ratio in a battle. The green bar indicates how many of the enemy you are killing. The red bar indicates how many of your troops the enemy are killing."}
+@{"The Reinforcements button allows you to decide where you want reinforcements to come onto the battlefield."}
+@{"The morale of your troops will be better if they are close to the General."}
+@{"Expendable units like Peasants can be used to draw the enemy out of position or to occupy and tire out his best troops."}
+
+// The Victory message for the Greece Battle.
+@["Tutorial_Greece_Battle_Victory"]
+@{"Congratulations! Your tactical mastery shows real promise! Carry on, and your enemies will fall before you."}
+
+// The Defeat message for the Greece Battle.
+@["Tutorial_Greece_Battle_Defeat"]
+@{"Your tactical skills could do with a little help. Perhaps if you try again, you can master the skills needed by a general."}
+
+// The 'Lessons Learned' text for the Antioch Tutorial.
+@["Tutorial_Antioch_Lessons_Learned"]
+@{"How to deploy artillery"}
+@{"How to use artillery to destroy enemy defences"}
+@{"How to attack and conquer a castle"}
+@{"How to review your progress during a battle"}
+
+// The 'Upcoming Battle' text for the Antioch Battle.
+@["Tutorial_Antioch_Battle"]
+@{"You’re now ready for your last lesson in Medieval warfare: using artillery to break castle defences. Remember that artillery includes stone- and missile-firing weapons as well as cannon, but the command skills needed are much the same for all these weapons."}
+@{"Firstly, remember you have to position artillery quite carefully. You can’t move it once the battle starts, and enemy might just overrun a carelessly placed artillery piece. The purpose of artillery is to batter enemy defences until they collapse, so you might find it a good idea to concentrate in turn on small parts of a castle. Once a breach has been made, you’ll need to decide when it is wide enough to send in your other troops to carry the fight to the defenders."}
+@{"Finally, you’ll need to practice monitoring your progress in the battle. There’s plenty of fighting to watch during a battle, but there’s other information on the screen that can also help you win."}
+
+// Hints and Tips for the Antioch Battle.
+@["Tutorial_Antioch_Battle_Hints_And_Tips"]
+@{"You can review the status of the battle at any time by pressing the F1 key."}
+@{"Your artillery can target walls, towers, buildings, or units of enemy troops."}
+@{"Your troops can attack the enemy gate directly, but it will cost a lot of lives."}
+@{"Remember to protect your artillery. If the enemy destroys them or makes their crews rout they will be useless."}
+@{"Remember to deploy your artillery in range of the enemy walls, but don't put them too close as they may be vulnerable to enemy fire."}
+@{"Attack the towers of enemy castles as they may fire arrows or artillery at your troops."}
+@{"Be careful about firing artillery once your troops are attacking the castle as you may kill your own men as well as the enemy."}
+
+// The Victory message for the Antioch Battle.
+@["Tutorial_Antioch_Battle_Victory"]
+@{"Wonderful! You should be able to win great victories in Total War!"}
+
+// The Defeat message for the Antioch Battle.
+@["Tutorial_Antioch_Battle_Defeat"]
+@{"That was unfortunate. Perhaps you should try again, and concentrate on the enemy defences."}
+
+// The 'Upcoming Battle' text for the Jaffa tutorial
+@["Tutorial_Jaffa"]
+@{"The capture of Jaffa marked a high point for the warriors of the Third Crusade under their leader, Richard Coeur de Lion. After their victory at Arsuf in September 1191, the Crusaders took the city, but got no closer to their final goal of capturing Jerusalem. Richard's army encamped outside the city because of the stench of the dead within the walls, for in Medieval times it was well-known that foul smells caused disease. In this battle, a large Saracen force has appeared, cutting off any chance of an advance and with the walls at their backs, Richard's army has no easy avenue of retreat. The Crusader position is, however, far from hopeless. Defeating Saladin's army just requires nerve and a little daring. The trick is to stand fast and use archers to weaken the Saracens as they approach and then launch a counter-charge at the right moment. Learning to judge the 'right moment' is part of matching King Richard's strategic skill! We think this battle is rather hard, and if you can win it, you're doing extremely well!"}
+
+// The Victory message for the Jaffa tutorial
+@["Tutorial_Jaffa_Victory"]
+@{"Congratulations! You have matched King Richard's achievement in defeating Saladin."}
+
+// The Defeat message for Jaffa.
+@["Tutorial_Jaffa_Defeat"]
+@{"You have been defeated by the Saracen army, and Jaffa has been retaken."}
+
+// The 'Upcoming Battle' text for the Agincourt tutorial
+@["Tutorial_Agincourt"]
+@{"Agincourt is, perhaps, the most famous English victory in the Hundred Years' War. Following a siege at Harfleur, Henry V lead his small, tired army on a march towards Calais and safety. He was trapped by a larger French army - some say five times as many men - and most of the English expected to die. In the event, the French nobility were their own worst enemies. They charged forward in search of glory and easy victory and met only death as they were shot down by English longbowmen. With Agincourt, Henry V began a campaign that almost put him on the French throne, but his triumphs were squandered by his successors."}
+@{"Ensure that your general is not killed, and also crush the spirit of the French and make them rout from the field."}
+
+// The Victory message for the Agincourt tutorial
+@["Tutorial_Agincourt_Victory"]
+@{"Congratulations! English yeomanry has triumphed over the French knights, and your mastery of tactics means the victory is yours."}
+
+// The Defeat message for Agincourt.
+@["Tutorial_Agincourt_Defeat"]
+@{"The battle was long and gruelling, but the French have carried the day. Consider the tactics revealed to you in earlier battles, and try again!"}
+
+
+/////////////////////////////////////////////////////////
+// Chatroom menus
+
+["Chatserver_Public"]
+{"public"}
+
+["Chatserver_Private"]
+{"private"}
+
+["Chatserver_Friendly"]
+{"friendly"}
+
+["Chatserver_Competitive"]
+{"competitive"}
+
+["Chatserver_Friendly_Prompt"]
+{"Friendly:"}
+
+["Chatserver_Competitive_Prompt"]
+{"Competitive:"}
+
+["Chatserver_Player_Left_Room_Message"]
+{" has left the room"}
+
+["Chatserver_Player_Entered_Room_Message"]
+{" has entered the room"}
+
+["Chatserver_Buddy_Message"]
+{" is now your buddy"}
+
+["Chatserver_UnBuddy_Message"]
+{" is no longer your buddy"}
+
+["Chatserver_Ignore_Message"]
+{"You are now ignoring "}
+
+["Chatserver_UnIgnore_Message"]
+{"You are no longer ignoring "}
+
+["Chatserver_Blackmark_Message"]
+{"You have given a black mark to "}
+
+["Chatserver_Command_Prefix"]
+{"#"}
+
+["Chatserver_Command_Seperator"]
+{" "}
+
+["Chatserver_Unrecognised_Command"]
+{"Unrecognised command"}
+
+["Chatserver_Syntax_Error"]
+{"Syntax error"}
+
+["Chatserver_OK"]
+{"OK"}
+
+//***************************
+// DO NOT TRANSLATE UNTIL GET TO
+// "BEGIN TRANSLATION AGAIN".
+//**************************
+
+
+
+
+["Chatserver_Buddy_Command_Lower"]
+{"buddy"}
+
+["Chatserver_UnBuddy_Command_Lower"]
+{"unbuddy"}
+
+["Chatserver_Ignore_Command_Lower"]
+{"ignore"}
+
+["Chatserver_UnIgnore_Command_Lower"]
+{"unignore"}
+
+["Chatserver_Blackmark_Command_Lower"]
+{"blackmark"}
+
+["Chatserver_Buddy_Command_Upper"]
+{"BUDDY"}
+
+["Chatserver_UnBuddy_Command_Upper"]
+{"UNBUDDY"}
+
+["Chatserver_Ignore_Command_Upper"]
+{"IGNORE"}
+
+["Chatserver_UnIgnore_Command_Upper"]
+{"UNIGNORE"}
+
+["Chatserver_Blackmark_Command_Upper"]
+{"BLACKMARK"}
+
+["Chatserver_Server_Command_Lower"]
+{"server"}
+
+["Chatserver_Room_Command_Lower"]
+{"room"}
+
+["Chatserver_Game_Command_Lower"]
+{"game"}
+
+["Chatserver_Server_Command_Upper"]
+{"SERVER"}
+
+["Chatserver_Room_Command_Upper"]
+{"ROOM"}
+
+["Chatserver_Game_Command_Upper"]
+{"GAME"}
+
+["Chatserver_Status_Command_Lower"]
+{"status"}
+
+["Chatserver_Status_Command_Upper"]
+{"STATUS"}
+
+["Chatserver_Locate_Command_Lower"]
+{"locate"}
+
+["Chatserver_Locate_Command_Upper"]
+{"LOCATE"}
+
+["Chatserver_Page_Command_Lower"]
+{"page"}
+
+["Chatserver_Page_Command_Upper"]
+{"PAGE"}
+
+["Chatserver_AFK_Command_Lower"]
+{"afk"}
+
+["Chatserver_AFK_Command_Upper"]
+{"AFK"}
+
+//***************************
+//BEGIN TRANSLATION AGAIN.
+//**************************
+
+
+["Chatserver_All"]
+{"All"}
+
+["Chatserver_Name_Prefix"]
+{"["}
+
+["Chatserver_Name_Suffix"]
+{"] "}
+
+["Chatserver_Server_Message"]
+{"Now viewing server player list"}
+
+["Chatserver_Room_Message"]
+{"Now viewing room player list"}
+
+["Chatserver_Game_Message"]
+{"Now viewing game player list"}
+
+["Chatserver_Server_Error"]
+{"Server player list unavailable"}
+
+["Chatserver_Room_Error"]
+{"Room player list unavailable"}
+
+["Chatserver_Game_Error"]
+{"Game player list unavailable"}
+
+["Chatserver_Current_Chatroom"]
+{"Current chat room -- "}
+
+["Chatserver_Ignored_Message"]
+{"You are being ignored by "}
+
+["Chatserver_Located_Message"]
+{" is in the following chat room -- "}
+
+["Chatserver_Connected_Message"]
+{" has connected"}
+
+["Chatserver_Disconnected_Message"]
+{" has disconnected"}
+
+["Chatserver_AFK_Message"]
+{" is AFK"}
+
+["Chatserver_AFKed_Message"]
+{"You are AFK"}
+
+["Chatserver_NotAFKed_Message"]
+{"You are no longer AFK"}
+
+["Chatserver_PagedBy_Message"]
+{" has paged you"}
+
+["Chatserver_Paged_Message"]
+{"You have paged "}
+
+["Chatserver_Broadcast_Message"]
+{"<BROADCAST MESSAGE> "}
+
+["Chatserver_No_Room_Name"]
+{"<NO ROOM NAME>"}
+
+["Chatserver_Prompt"]
+{">"}
+
+["Chatserver_To"]
+{"To "}
+
+["Chatserver_Logon_Invalid_CD_Key"]
+{"INVALID CD KEY"}
+
+["Chatserver_Logon_CD_Key_In_Use"]
+{"CD KEY IN USE"}
+
+["Chatserver_Logon_Details_Incorrect"]
+{"DETAILS INCORRECT"}
+
+["Chatserver_Logon_Logon_Error"]
+{"LOGON ERROR"}
+
+["News_Client_Logon_Title"]
+{"Medieval News Server Logon"}
+
+["News_Client_Connecting_Message"]
+{"Connecting..."}
+
+["News_Client_Failed_To_Connect_Error"]
+{"Failed to connect"}
+
+["News_Client_Menu_Main_Title"]
+{"Medieval News"}
+
+["Multiplayer_Timed_Out"]
+{"Connection timed out"}
+
+["Multiplayer_Return_To_Lobby"]
+{"A player has dropped out.  Returning to lobby."}
+
+["Dialup_Menu_Title"]
+{"Dialup Adapters"}
+
+["Dialup_Menu_Connect_Option"]
+{"Connect"}
+
+["Dialup_Menu_Disconnect_Option"]
+{"Disconnect"}
+
+["Dialup_Menu_Bind_Option"]
+{"Bind"}
+
+["Dialup_Menu_Unbind_Option"]
+{"Unbind"}
+
+["Dialup_Menu_Selected_Adapter"]
+{"Selected Adapter"}
+
+["Dialup_Menu_Connected"]
+{"Connected"}
+
+["Dialup_Menu_Disconnected"]
+{"Disconnected"}
+
+["Dialup_Menu_Username"]
+{"Profile Name"}
+
+["Dialup_Menu_Password"]
+{"Password"}
+
+["Dialup_Menu_Modem"]
+{"Modem"}
+
+["Dialup_Menu_Phone_Number"]
+{"Phone number"}
+
+["Dialup_Menu_Default_Connection"]
+{"Default connection"}
+
+["Dialup_Menu_IP_Address"]
+{"IP address"}
+
+["Dialup_Menu_Bound"]
+{"Bound to Medieval: Total War"}
+
+["Dialup_Menu_OK_Message"]
+{"OK"}
+
+["Dialup_Menu_Connecting_Message"]
+{"Connecting..."}
+
+["Dialup_Menu_Connected_Message"]
+{"Connected"}
+
+["Dialup_Menu_Authenticating_Message"]
+{"Authenticating..."}
+
+["Dialup_Menu_Authenticated_Message"]
+{"Authenticated"}
+
+["Dialup_Menu_Logon_Message"]
+{"Logon"}
+
+["Dialup_Menu_Disconnecting_Message"]
+{"Disconnecting..."}
+
+["Dialup_Menu_Authenticate_Error"]
+{"Authentication Error!"}
+
+["Dialup_Menu_Error"]
+{"Error!"}
+
+["Dialup_Menu_Password_Expired_Error"]
+{"Password expired!"}
+
+["Dialup_Menu_Disconnected_Error"]
+{"Disconnected!"}
+
+["Dialup_Menu_No_Adpaters_Error"]
+{"No dialup adapters found!"}
+
+["Graphics_Menu_Smokeswitch_Title"]
+{"Smoke"}
+["Graphics_Menu_Dustswitch_Title"]
+{"Dust"}
+["Graphics_Menu_Vegetationswitch_Title"]
+{"Ambient Flora"}
+["Graphics_Menu_Wildlifeswitch_Title"]
+{"Ambient Fauna"}
+
+["Graphics_Menu_Defaultunitsize_Title"]
+{"Default unit size"}
+["Graphics_Menu_Maxmenbattlefield_Title"]
+{"Max men on battlefield"}
+
+@["Graphics_Menu_DefaultUnitSize_Options"]
+@{"Small (default)"}
+@{"Medium"}
+@{"Large"}
+@{"Huge"}
+
+@["Assign_Keys_Menu_Key_Descriptions"]
+@{"Forward"}
+@{"Forward#2"}
+@{"Forward fast"}
+@{"Backward"}
+@{"Backward#2"}
+@{"Pan Left"}
+@{"Pan Right"}
+@{"Pan Up"}
+@{"Pan Down"}
+@{"Turn left"}
+@{"Turn Left#2"}
+@{"Turn left fast"}
+@{"Turn right"}
+@{"Turn Right#2"}
+@{"Turn right fast"}
+@{"Turn up"}
+@{"Turn down"}
+//@{"Speed up"}
+//@{"Toggle freeview"}
+@{"Goto start"}
+@{"Hide UI"}
+@{"Grab Screenshot"}
+//@{"Toggle continuous grab"}
+//@{"Quit quickly"}
+//@{"Quit nicely"}
+@{"Pause"}
+@{"Unit stats On/Off"}
+//@{"Map editor"}
+@{"Shrink screen"}
+@{"Enlarge screen"}
+@{"Group formation"}
+//@{"Previous daimyo"}
+//@{"Next daimyo"}
+//@{"Toggle daimyo AI"}
+@{"Show target ghosts"}
+@{"Previous unit"}
+@{"Next unit"}
+@{"Select all"}
+@{"Deselect all units"}
+//@{"Queue commands"}
+@{"Halt"}
+@{"Rally"}
+@{"Rout"}
+@{"Group"}
+@{"Close formation"}
+@{"Loose formation"}
+@{"Wedge formation"}
+@{"Engage at will"}
+@{"Hold formation"}
+@{"Skirmish"}
+@{"Hold position"}
+@{"Fire at will"}
+//@{"Hide"}
+@{"Look at"}
+@{"Single Line"}
+@{"Defensive"}
+@{"Square formation"}
+@{"Skirmish left"}
+@{"Skirmish centre"}
+@{"Skirmish right"}
+@{"Left hand offensive"}
+@{"Centre offensive"}
+@{"Right hand offensive"}
+@{"Send message"}
+@{"Withdraw from battle"}
+@{"Run"}
+@{"Select all Cavalry"}
+@{"Select all Missile"}
+@{"Select all Melee"}
+@{"Speed up time"}
+@{"Overview Map On/Off"}
+@{"Button Bar On/Off"}
+@{"Unit Panel On/Off"}
+
+["Assign_Menu_Reset_Keys"]
+{"Reset to defaults"}
+
+["Assign_Keys_Menu_Accept"]
+{"Accept"}
+
+
+
+
+
+SetShowTransOff //Do not translate.
+//???? Remove when localised.
+
+
+// Run the game using the software renderer only.
+["Software_Mode"]
+{"Software Mode"}
+
+@["No_Historical_Battle_Region_Map_Found_Prompt"]
+@{"Unable to find region map."}
+@{"Battle unavailable."}
+
+["Last_Quicksave_Label"]
+{"Last Quicksave"}
+
+["Mulitplayer_LAN_Battle_Title"]
+{"Multiplayer LAN Battle"}
+
+["Mulitplayer_LAN_Battle_Results_timed_out_message"]
+{"Battle Result unknown due To loss of connection."}
+
+["Unsupported_Video_Card_Title"]
+{"No suitable video card."}
+
+["Unsupported_Video_Card"]
+{"Medieval cannot find a suitable video card in your system and will therefore be unable to run."}
+
+["Request_Video_Bitdepth_Change_Title"]
+{"Invalid desktop resolution."}
+
+["Request_Video_Bitdepth_Change"]
+{"Medieval requires your Windows desktop to be in 16-bit colour mode. Please change this, then restart the game."}
+
+["In_Game_Menu_Title"]
+{"In-Game Menu"}
+
+["Game_Options_Restricted_Camera"]
+{"Restrict Camera"}
+
+["No_Dialup_Adapters_Connected_Error"]
+{"No dialup adapters are connected to the internet!"}
+
+["Multiplayer_Extra_Settings_Unit_Size"]
+{"unit size: %d"} // %s = number
+
+["Multiplayer_Extra_Settings_Morale"]
+{", morale"}
+
+["Multiplayer_Extra_Settings_Fatigue"]
+{", fatigue"}
+
+["Multiplayer_Extra_Settings_Limited_Ammo"]
+{", limited ammo"}
+
+["Multiplayer_Extra_Settings_Restricted_Camera"]
+{", restricted camera"}
+
+["New_Armyselect_Unittype4"]
+{"Unused"}
+
+["No_Loadgame_Chosen_Message"]
+{"Please select a game to load."}
+
+// new chatserver messages (including %s as word to be inserted label)
+["New_Chatserver_Player_Left_Room_Message"]
+{"%s has left the room"} // %s = name
+
+["New_Chatserver_Player_Entered_Room_Message"]
+{"%s has entered the room"} // %s = name
+
+["New_Chatserver_Buddy_Message"]
+{"%s is now your buddy"} // %s = name
+
+["New_Chatserver_UnBuddy_Message"]
+{"%s is no longer your buddy"} // %s = name
+
+["New_Chatserver_Ignore_Message"]
+{"You are now ignoring %s"} // %s = name
+
+["New_Chatserver_UnIgnore_Message"]
+{"You are no longer ignoring %s"} // %s = name
+
+["New_Chatserver_Blackmark_Message"]
+{"You have given a black mark to %s"} // %s = name
+
+["New_Chatserver_Ignored_Message"]
+{"You are being ignored by %s"} // %s = name
+
+["New_Chatserver_Located_Message"]
+{"%s is in the following chat room --"} // %s = name
+
+["New_Chatserver_Connected_Message"]
+{"%s has connected"} // %s = name
+
+["New_Chatserver_Disconnected_Message"]
+{"%s has disconnected"} // %s = name
+
+["New_Chatserver_AFK_Message"]
+{"%s is AFK"} // %s = name
+
+["New_Chatserver_PagedBy_Message"]
+{"%s has paged you"} // %s = name
+
+["New_Chatserver_Paged_Message"]
+{"You have paged %s"} // %s = name 
+
+["New_Chatserver_To"]
+{"To %s"} // %s = name 
+
+["New_Chatserver_Message"]
+{"[%s] %s"} // 1st %s = name, 2nd %s = message 
+
+["New_Chatserver_Broadcast_Message"]
+{"<BROADCAST MESSAGE> %s"}  // %s = message
+
+["Customise_Army_Next_Daimyo_Message"]
+{"Setup the next Faction's Army"}
+
+["Customise_Army_Previous_Daimyo_Message"]
+{"Setup the previous Faction's Army"}
+
+@["New_Custom_Battle_Default_CPU_Daimyo_Names"]
+@{"Peasants"}
+@{"Leader 1"}
+@{"Leader 2"}
+@{"Leader 3"}
+@{"Leader 4"}
+@{"Leader 5"}
+@{"Leader 6"}
+@{"Leader 7"}
+
+
+["New_Peasant_And_Ronin_Daimyo"]
+{"Rebels"}
+
+["New_Historical_Battle_Clan_Names_Peasants"]
+{"REBELS"}
+
+["New_Graphics_Menu_Title"]
+{"Performance Options"}
+
+["Main_Menu_Options_Description_4"]
+{"Adjust Game Settings"}
+
+["Custom_Battle_Too_Many_Defenders_Message"]
+{"Too many Defenders for this region. Only one Defender is allowed for castle battles."}
+
+["ArmySelect_Too_Many_Units_For_Castle_Message"]
+{"Adding this unit will exceed castle capacity."}
+
+["ArmySelect_Castle_Capacity_Exceeeded_Message"]
+{"The Defending Faction's army has exceeded the capacity of the castle in this region."}
+
+//@["Pre_Tutorial_No_Replay_Options"]
+//@{" "}
+//@{"Return To Tutorial Menu"}
+//@{"Continue"}
+//
+//@["Post_Tutorial_No_Continue_Options"]
+//@{"Replay this tutorial"}
+//@{"Return to Tutorial Menu"}
+//@{" "}
+
+["Quit_Campaign_Without_Saving_Message"]
+{"Quit this campaign without saving your progress?"}
+
+["Quit_Campaign_Message"]
+{"Are you sure you want to quit this campaign?"}
+
+["Quit_Shogun_Without_Saving_Message"]
+{"Are you sure you want to quit Medieval: Total War without saving your progress?"}
+
+@["Custom_Battle_Time_Limits"]
+@{"No Limit"}
+@{"5 Minutes"}
+@{"10 Minutes"}
+@{"15 Minutes"}
+@{"20 Minutes"}
+@{"25 Minutes"}
+@{"30 Minutes"}
+@{"35 Minutes"}
+@{"40 Minutes"}
+@{"45 Minutes"}
+@{"50 Minutes"}
+@{"55 Minutes"}
+@{"60 Minutes"}
+
+["Custom_Battle_Time_Limit_Prompt"]
+{"Time Limit:"}
+
+["TCPIP_Not_Installed"]
+{"TCP/IP protocol not installed!"}
+
+@["New_Main_Menu_In_Game_Menu"]
+@{"Resume Game"}
+@{"Load Game"}
+@{"Save Game"}
+@{"Options"}
+@{"Main Menu"}
+@{"Quit"}
+
+["Custom_Game_Temp_Numbers_For_Files"]
+{"000 - 000"}
+
+["Custom_Game_FileCount_Sentence_Builders"]	//Use to produce sentences to show the number of files displaying
+{"of"}							//and the number of files found
+								//such as "1-100 of 153"
+
+
+["Audio_Menu_Subtitles"]
+{"Subtitles"}
+
+["Audio_Menu_Sound_Quality"]
+{"Sound Quality"}
+
+@["Audio_Menu_Sound_Quality_Options"]
+@{"Low"}
+@{"Medium"}
+@{"High"}
+
+["DELETE"]
+{"DELETE"}
+
+["BACKSPACE"]
+{"BACKSPACE"}
+
+["LEFT"]
+{"LEFT"}
+
+["RIGHT"]
+{"RIGHT"}
+
+["UP"]
+{"UP"}
+
+["DOWN"]
+{"DOWN"}
+
+["HOME"]
+{"HOME"}
+
+["END"]
+{"END"}
+
+["ESCAPE"]
+{"ESCAPE"}									// CANCEL
+
+["ENTER"]
+{"ENTER"}									// OK
+
+["CTRL"]
+{"CTRL"}
+
+["SHIFT"]
+{"SHIFT"}							// Save Selection 0 - 9 
+
+["INSERT"]
+{"INSERT"}
+
+["PAGEUP"]
+{"PAGEUP"}
+
+["PAGEDOWN"]
+{"PAGEDOWN"}
+
+
+[" + CTRL"]
+{" + CTRL"}
+
+[" + ALT"]
+{" + ALT"}
+
+["ALT"]
+{"ALT"}
+
+["Audio_Menu_Speech_Title"]
+{"Speech"}
+
+@["Audio_Menu_Speech_Option_English"]
+@{"English"}
+@{"French"}
+@{"German"}
+@{"Spanish"}
+@{"Polish"}
+
+
+["Audio_Menu_Speech_Option_Japanese"]
+{"Japanese"}
+
+["Multiplayer_No_Map_Error"]
+{"A copy of this map file is not present in the maps folder"}
+
+["Internet_Games_Sub_Title"]
+{"in the current chatroom"}
+
+["News_Server_Select_Message"]
+{"Select a message from the list below"}
+
+["News_Server_Selected_Message"]
+{"Selected Message"}
+
+["New_Main_Menu_Registration_Dialog_Title"]
+{"GameSpy Logon"}
+
+["New_Online_Options_Menu_Title"]
+{"Logged On!"}
+
+@["New_Online_Options_Menu_Options"]
+@{"Chat Rooms"}
+@{"Internet Games"}
+@{"Log Off"}
+
+@["Main_Menu_Savegame_Options"]
+@{"Delete This Savegame"}
+@{"Sort by Name"}
+@{"Sort by Date"}
+@{"Save"}
+@{"Resume Game"}
+
+@["Main_Menu_Loadgame_Options"]
+@{"Delete This Savegame"}
+@{"Sort by Name"}
+@{"Sort by Date"}
+@{"Load"}
+
+["Main_Menu_Delete_Savegame_Title"]
+{"Are you sure you want to delete this savegame?"}
+
+["Chatserver_Muted_Message"]
+{"You have been muted for having too many black marks!"}
+
+
+["Waiting_To_Go_Title"]
+{"Waiting To Begin Battle"}
+
+["Main_Menu_Savegame_No_Name_Entered_Error"]
+{"Please enter a name for your savegame"}
+
+["Room_Playerlist"]
+{"Room Playerlist"}
+
+["Game_Playerlist"]
+{"Game Playerlist"}
+
+["Server_Playerlist"]
+{"Server Playerlist"}
+
+["game_loaded_txt"] {"Game\nLoaded."}	// Note to translators: '\n' is used to break the 2 words into 2 separate lines.. eg. Game 
+["game_saved_txt"] {"Game\nSaved."}		//                                                                                   Loaded
+
+["Use_Existing_Internet_Connection"]
+{"Use existing internet connection"}
+
+
+["Patched_Main_Menu_Descriptions_5"]
+{"Quit Medieval: Total War"}
+
+["Patched_Main_Menu_In_Game_Description_4"]
+{"Quit Medieval: Total War"}
+
+["Patched_Last_Autosave"]
+{"Last Autosave"}
+
+@["Savegame_Info_Prompts"]
+@{"Date Saved"}
+@{"Faction"}
+@{"Year"}
+@{"Difficulty"}
+@{"Florins"}
+@{"Men"}
+@{"Provinces Owned"}
+@{"Religion"}
+@{"Factions Remaining"}
+@{"Allies"}
+@{"Enemies"}
+@{"Active Heirs"}
+
+["Extra_Main_Menu_Description_Credits"]
+{"Play the Credits"}
+
+["Generate_Log_File_Caption"]
+{"Create Battle Log File"}
+
+["Patched_Main_Menu_Multiplayer_Description_0"]
+{"Chat to other Medieval players, and host or join a Medieval battle over the internet"}
+
+["Patched_Main_Menu_Multiplayer_Description_5"]
+{"Register a new Medieval player account at GameSpy"}
+
+@["Patched_Main_Menu_Multiplayer"]
+@{""}
+@{""}
+@{"LAN Game"}
+@{"Medieval Website"}
+@{"Medieval News Server"}
+@{"Connect to the Internet"}
+
+["Patched_Chatserver_Logon_Details_Incorrect"]
+{"Account Details Incorrect."}
+
+["Campaign_Battle_Time_Limit_Caption"]
+{"Campaign Battle Time Limit"}
+
+["Event_Movies_Caption"]
+{"Event Movies"}
+
+["Patched_Chatserver_Room_All"]
+{"Room"}
+
+["Patched_Chatserver_Game_All"]
+{"This Game"}
+
+["Patched_Chatserver_Game_Allies"]
+{"Game Allies"}
+
+["Patched_Chatserver_Selection"]
+{"Selection"}
+
+["Patched_Chatserver_Filter_Public_Chat_Prompt"]
+{"Filter Public Chat"}
+
+["Patched_Online_Select_Chat_Room_Column_Header_Sub_Players"]
+{"Sub-Players"}
+
+["Patched_Online_Select_Chat_Room_Column_Header_Sub_Rooms"]
+{"Sub-Rooms"}
+
+["Patched_Map_Info_Menu_Title"]
+{"Map Information"}
+
+["Patched_No_Map_Info"]
+{"No Map Information Available."}
+
+
+@["Assign_Keys_Menu_Key_Descriptions_Updated"]
+@{"Forward"}
+@{"Forward#2"}
+@{"Forward fast"}
+@{"Backward"}
+@{"Backward#2"}
+@{"Pan Left"}
+@{"Pan Right"}
+@{"Pan Up"}
+@{"Pan Down"}
+@{"Turn left"}
+@{"Turn Left#2"}
+@{"Turn left fast"}
+@{"Turn right"}
+@{"Turn Right#2"}
+@{"Turn right fast"}
+@{"Turn up"}
+@{"Turn down"}
+@{"Goto start"}
+@{"Hide UI"}
+@{"Pause"}
+@{"Unit stats On/Off"}
+@{"Shrink screen"}
+@{"Enlarge screen"}
+@{"Group formation"}
+@{"Show target ghosts"}
+@{"Previous unit"}
+@{"Next unit"}
+@{"Select all"}
+@{"Deselect all units"}
+@{"Halt"}
+@{"Rally"}
+@{"Rout"}
+@{"Group"}
+@{"Close formation"}
+@{"Loose formation"}
+@{"Wedge formation"}
+@{"Engage at will"}
+@{"Hold formation"}
+@{"Skirmish"}
+@{"Hold position"}
+@{"Fire at will"}
+@{"Look at"}
+@{"Single Line"}
+//@{"Defensive"}
+//@{"Square formation"}
+//@{"Skirmish left"}
+//@{"Skirmish centre"}
+//@{"Skirmish right"}
+//@{"Left hand offensive"}
+//@{"Centre offensive"}
+//@{"Right hand offensive"}
+@{"Sorted Single Line"}					// New for Medieval
+@{"Double Line"}						// New for Medieval
+@{"Sorted Double Line"}					// New for Medieval
+@{"Missile First 3 Line"}				// New for Medieval
+@{"Foot First 3 Line"}					// New for Medieval
+@{"Cavalry First 3 Line"}				// New for Medieval
+@{"Cavalry Screen"}						// New for Medieval
+@{"Column"}								// New for Medieval
+@{"Send message"}
+@{"Withdraw from battle"}
+@{"Run"}
+@{"Select all Cavalry"}
+@{"Select all Missile"}
+@{"Select all Melee"}
+@{"Select all Artillery"}
+@{"Speed up time"}
+@{"Overview Map On/Off"}
+@{"Button Bar On/Off"}
+@{"Unit Panel On/Off"}
+
+
+// KEEP THE FOLLOWING IN CAPITALS PLEASE.
+@["Assign_Menu_Constant_Keys"]
+@{"A"}									// ATTACK
+@{"R"}									// RETREAT 
+@{"W"}									// WAIT
+@{"Y"}									// YES
+@{"N"}									// NO 
+@{"DELETE"}
+@{"BACKSPACE"}
+@{"LEFT ARROW"}
+@{"RIGHT ARROW"}
+@{"UP ARROW"}
+@{"DOWN ARROW"}
+@{"HOME"}
+@{"END"}
+@{"ESCAPE"}									// CANCEL
+@{"ENTER"}									// OK
+@{"0|CTRL|SHIFT"}							// Save Selection 0 - 9 
+@{"1|CTRL|SHIFT"}
+@{"2|CTRL|SHIFT"}
+@{"3|CTRL|SHIFT"}
+@{"4|CTRL|SHIFT"}
+@{"5|CTRL|SHIFT"}
+@{"6|CTRL|SHIFT"}
+@{"7|CTRL|SHIFT"}
+@{"8|CTRL|SHIFT"}
+@{"9|CTRL|SHIFT"}
+@{"0|CTRL"}									// Restore Selection 0 - 9
+@{"1|CTRL"}
+@{"2|CTRL"}
+@{"3|CTRL"}
+@{"4|CTRL"}
+@{"5|CTRL"}
+@{"6|CTRL"}
+@{"7|CTRL"}
+@{"8|CTRL"}
+@{"9|CTRL"}
+
+
+["Patched_Main_Menu_Newgame_Historical_Campaign_Description"]
+{"Embark on a series of historical battles and fight for your place in history."}
+
+["Historical_Campaign_Title"]
+{"Historical Campaigns"}
+
+@["Historical_Campaigns_Options"]
+@{"Begin Campaign"}
+@{"Continue Campaign"}
+@{"Re-enact This Battle"}
+
+@["Historical_Campaigns_Battle_Options"]
+@{"Completed Battles"}
+@{"Ongoing Campaigns"}
+
+["Historical_Campaign_Battle_List_Column1_Title"]
+{"Battle"}
+
+["Historical_Campaign_Battle_List_Column2_Title"]
+{"Easy"}
+
+["Historical_Campaign_Battle_List_Column3_Title"]
+{"Normal"}
+
+["Historical_Campaign_Battle_List_Column4_Title"]
+{"Hard"}
+
+["Historical_Campaign_Battle_List_Column5_Title"]
+{"Expert"}
+
+["Abbreviated_Minutes"]
+{"m"}
+
+["Abbreviated_Seconds"]
+{"s"}
+
+["Historical_Campaign_Completed"]
+{"COMPLETED"}
+
+["Historical_Campaign_Unlocked"]
+{"Unlocked"}
+
+
+["Addon_Multiplayer_Menu_Multiplayer_Campaign_Description"]
+{"Start or continue a campaign against other players"}
+
+["Game_Type_Prompt"]
+{"Game Type:"}
+
+@["Game_Types"]
+@{"None"}
+@{"Standard Win Lose"}
+@{"Last Man Standing"}
+@{"Capture The Command Tent"}
+@{"King Of The Hill"}
+@{"Halve The Enemy"}
+@{"Assassinate The General"}
+@{"Survive The Siege"}
+
+@["Game_Types_Short"]
+@{"NONE"}
+@{"W/L"}
+@{"LMS"}
+@{"CTCT"}
+@{"KOTH"}
+@{"HTE"}
+@{"ATG"}
+@{"STS"}
+
+@["Game_Types_NONE"]	//NOTE TO TRANSLATORS: These two lines make up one sentence: i.e. "Last Man Standing"
+@{"None"}				//they have been split in order to fit on the screen. If your translation is small enough
+@{" "}					//not to need splitting, please leave the second line empty, to look like this: @{""}
+
+@["Game_Types_WL"]	//NOTE TO TRANSLATORS: These two lines make up one sentence: i.e. "Last Man Standing"
+@{"Win/Lose"}		//they have been split in order to fit on the screen. If your translation is small enough
+@{" "}				//not to need splitting, please leave the second line empty, to look like this: @{""}
+
+@["Game_Types_LMS"]	//NOTE TO TRANSLATORS: These two lines make up one sentence: i.e. "Last Man Standing"
+@{"Last Man"}		//they have been split in order to fit on the screen. If your translation is small enough
+@{"Standing"}		//not to need splitting, please leave the second line empty, to look like this: @{""}
+
+@["Game_Types_CTH"]	//NOTE TO TRANSLATORS: These two lines make up one sentence: i.e. "King Of The Hill"    
+@{"Capture The"}		//they have been split in order to fit on the screen. If your translation is small enough
+@{"Command Tent"}		//not to need splitting, please leave the second line empty, to look like this: @{""}    
+
+@["Game_Types_KOTH"]	//NOTE TO TRANSLATORS: These two lines make up one sentence: i.e. "Capture The Command Tent"    
+@{"King Of"}		//they have been split in order to fit on the screen. If your translation is small enough
+@{"The Hill"}		//not to need splitting, please leave the second line empty, to look like this: @{""}    
+
+@["Game_Types_HTE"]	//NOTE TO TRANSLATORS: These two lines make up one sentence: i.e. "Halve The Enemy"    
+@{"Halve"}			//they have been split in order to fit on the screen. If your translation is small enough
+@{"The Enemy"}		//not to need splitting, please leave the second line empty, to look like this: @{""}    
+
+@["Game_Types_ATG"]	//NOTE TO TRANSLATORS: These two lines make up one sentence: i.e. "Assassinate The General"    
+@{"Assassinate"}		//they have been split in order to fit on the screen. If your translation is small enough
+@{"The General"}		//not to need splitting, please leave the second line empty, to look like this: @{""}    
+
+@["Game_Types_STS"]	//NOTE TO TRANSLATORS: These two lines make up one sentence: i.e. "Survive The Siege"    
+@{"Survive"}		//they have been split in order to fit on the screen. If your translation is small enough
+@{"The Siege"}		//not to need splitting, please leave the second line empty, to look like this: @{""}    
+
+["Seasons_Prompt"]
+{"Year:"}
+
+@["Seasons"]
+@{"Spring"}
+@{"Summer"}
+@{"Autumn"}
+@{"Winter"}
+
+["Difficulty_Prompt"]
+{"Difficulty:"}
+
+["Daimyo_Menu_Configuration"]
+{"Campaign Selection"}
+
+["Daimyo_Menu_Daimyo_Select"]
+{"Faction Selection"}
+
+["Startpos_Title"]
+{"Starting Positions"}
+
+["Victory_Conditions_Title"]
+{"Conditions of Victory"}
+
+["Victory_Condition_Dominate_All_Of_Japan"]
+{"Take control of all countries."}
+
+["Victory_Condition_Control_40_Regions"]
+{"Control at least two thirds of the continent."}
+
+["Victory_Condition_Eliminate_Rivals"]
+{"Eliminate Your Rival Factions"}
+
+["Victory_Condition_Survive"]
+{"Keep Your Faction Alive For 70 Years"}
+
+["Multiplayer_Extra_Settings_None"]
+{"Game Style: None"}
+
+["Multiplayer_Extra_Settings_Win_Lose"]
+{"Game Style: Win / Lose"}
+
+["Multiplayer_Extra_Settings_Last_Man_Standing"]
+{"Game Style: Last Man Standing"}
+
+["Multiplayer_Extra_Settings_Capture_The_Command_Tent"]
+{"Game Style: Capture The Command Tent"}
+
+["Multiplayer_Extra_Settings_King_Of_The_Hill"]
+{"Game Style: King of The Hill"}
+
+["Multiplayer_Extra_Settings_Halve_The_Enemy"]
+{"Game Style: Halve The Enemy"}
+
+["Multiplayer_Extra_Settings_Assassinate_General"]
+{"Game Style: Assassinate The General"}
+
+["Multiplayer_Extra_Settings_Survive_The_Siege"]
+{"Game Style: Survive The Siege"}
+
+["starting_forces_lsamurai"]
+{"%d Artillery Crew"}
+
+["starting_forces_samspears"]
+{"%d Feudal Sergeants"}
+
+["starting_forces_naginata"]
+{"%d Highland Clansmen"}
+
+["starting_forces_nodachi"]
+{"%d Kern"}					
+
+["starting_forces_lcavalry"]
+{"%d Peasants"}				
+
+["starting_forces_hcavalry"]
+{"%d Heavy Cavalry"}
+
+["starting_forces_lancers"]
+{"%d Fanatics"}		
+
+["starting_forces_ashispears"]
+{"%d Trebizond Archers"}		
+
+["starting_forces_arquemen"]
+{"%d Genoese Sailors"} 		
+
+["starting_forces_musketmen"]
+{"%d Arbalesters"}   			
+
+["starting_forces_monks"]
+{"%d Chivalric Sergeants"}	
+
+["starting_forces_battlefieldninja"]
+{"%d Crossbowmen"}			
+
+["starting_forces_masterswordsman"]
+{"%d Italian Infantry"}	
+
+["starting_forces_auxjavelins"]
+{"%d Order Footsoldiers"}     
+
+["starting_forces_auxspears"]
+{"%d Pavise Arbalester"}      
+
+["starting_forces_auxpolearms"]
+{"%d Pavise Crossbowmen"}		
+
+["starting_forces_greanadiers"]
+{"%d Pikemen"}				
+
+["starting_forces_ashigaruxbow"]
+{"%d Trebizond Archers"}	
+
+["starting_forces_nijinatacav"]
+{"%d Highland Cavalry"}		
+
+//["starting_forces_mongollightcav"]
+//{"%d Mounted Cavaliers"}	
+
+//["starting_forces_mongolheavycav"]
+//{"%d Mounted Executioners"}		
+
+
+//["starting_forces_geisha"]
+//{"%d Executioners"}
+
+//["starting_forces_priest"]
+//{"%d Priests"}
+
+//["starting_forces_ninja"]
+//{"%d Cardinals"}
+
+//["starting_forces_emissary"]
+//{"%d Witchfinders"}
+
+//["starting_forces_shinobi"]
+//{"%d Spies"}
+
+["starting_forces_none"]
+{"No Starting Forces"}
+
+//["starting_forces_not_selectable"]
+//{"Not Selectable"}
+
+
+["Addon_Armyselect_Unittype12"]
+{"Unused"}
+
+["Addon_Armyselect_Unittype13"]
+{"Unused"}
+
+["Addon_Armyselect_Unittype14"]
+{"Unused"}
+
+["Addon_Armyselect_Unittype15"]
+{"Unused"}
+
+["Addon_Armyselect_Unittype16"]
+{"Unused"}
+
+["Addon_Armyselect_Unittype17"]
+{"Unused"}
+
+["Addon_Armyselect_Unittype18"]
+{"Unused"}
+
+["Addon_Armyselect_Unittype19"]
+{"Unused"}
+
+["Addon_Armyselect_Unittype20"]
+{"Unused"}
+
+["Addon_Armyselect_Unittype21"]
+{"Unused"}
+
+// Shanes new buttons..
+
+@["New_Registration_Family_Names"]
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+@{"Unused"}
+
+["LAN_Multiplayer_Era_Column_Title"]
+{"Era"}
+
+
+ 
+["Graphics_Menu_HighQualityMoviesswitch_Title"]
+{"High quality movies"}
+
+
+["no_server_message"]
+{"No game servers were found running on the LAN. You must run a game server somewhere on the LAN and leave it running for the duration of the game. "}
+
+
+
+["Multiplayer_Game_Info_Season"]
+{"Year: "}
+
+
+["Error_Invalid_Savgame_Filename"]
+{"Invalid Filename!"}
+
+@["Num_Men_Required_Strings"]
+@{"1 man"}
+@{"2 men"}
+@{"3 men"}
+@{"4 men"}
+@{"5 men"}
+@{"6 men"}
+@{"7 men"}
+@{"8 men"}
+@{"9 men"}
+@{"10 men"}
+@{"12 men"}
+@{"14 men"}
+@{"16 men"}
+@{"18 men"}
+@{"20 men"}
+@{"25 men"}
+@{"30 men"}
+@{"35 men"}
+@{"40 men"}
+@{"45 men"}
+@{"50 men"}
+@{"55 men"}
+@{"60 men"}
+
+["Limit Prompt"]
+{"Limit:"}
+
+@["Limit Types"]
+@{"Time Limited"}
+@{"Point Limited"}
+
+["Point Limit Prompt"]
+{"Point Limit:"}
+
+@["KOTH_Points_Required_to_Win"]
+@{"5 Points"}
+@{"10 Points"}
+@{"15 Points"}
+@{"20 Points"}
+@{"30 Points"}
+@{"40 Points"}
+@{"50 Points"}
+@{"75 Points"}
+@{"100 Points"}
+@{"150 Points"}
+
+["Men Required Prompt"]
+{"Men Required:"}
+
+["Error_Invalid_Campaign_Name"]
+{"Invalid campaign name!"}
+
+["Error_Invalid_Server_Name"]
+{"Invalid server name!"}
+
+["Map_List_Map_Limit_Exceeded_Warning"]
+{"WARNING: Map limit exceeded - some maps will be unavailable. "}
+
+["Multiplayer_Map_Disclaimer_Message"]
+{"Note: some maps may be unsuitable for multiplayer battles"}
+
+["SB_Unlocked"]
+{" [UNLOCKED]"}	//will be tacked on to the end of a battle name
+			//i.e. "Nagashima [UNLOCKED]"
+
+["SB_Defeated"]
+{" [DEFEATED]"}	//will be tacked on to the end of a battle name
+			//i.e. "Azukazaki [DEFEATED]"
+
+["SB_Victorious"]
+{" [VICTORIOUS]"}	//will be tacked on to the end of a battle name
+			//i.e. "Nara [VICTORIOUS]"
+
+
+@["Main_Menu"]
+@{"Single Player"}
+@{"Load Game"}
+@{"Multiplayer"}
+@{"Campaign Tutorial"}
+@{"Battle Tutorial"}
+@{"Map Editor"}
+@{"Options"}
+@{"Quit"}
+//@{"Historical Campaigns"}
+
+@["Main_Menu_Options"]
+@{"Video"}
+@{"Audio"}
+@{"Performance"}
+@{"Controls"}
+@{"Game"}
+//@{"Map Editor"}
+
+
+
+["Play_Game_Menu_Title"]
+{"Single Player"}
+
+["multiplayer_campaign_exit_code_lost_connection"]
+{"Connection Lost!"}
+
+["multiplayer_campaign_exit_code_timed_out"]
+{"No move submitted before deadline - Game Over!"}
+
+["multiplayer_campaign_exit_code_generic_game_over"]
+{"Game Over!"}
+
+["multiplayer_campaign_error_message_campaign_inactive"]
+{"Campaign has become inactive - Game Over!"}
+
+
+@["Main_Menu_Newgame"]
+@{"Full Campaign"}
+@{"Custom Battle"}
+@{"Historical Battles"}
+@{"Historical Campaigns"}
+
+
+//["Addon_Multiplayer_Menu_Multiplayer_LAN_Campaign_Description"]
+//{"Host, join or continue a LAN campaign"}
+
+["Addon_Multiplayer_Menu_Multiplayer_Internet_Campaign_Description"]
+{"Host, join or continue an internet campaign"}
+
+@["Addon_Multiplayer_Menu"]
+@{"Internet Battle"}
+@{"Internet Campaign"}
+@{"LAN Battle"}
+//@{"LAN Campaign"}
+@{"Medieval Website"}
+@{"Medieval News Server"}
+@{"Register on GameSpy"}
+@{"Connect to the Internet"}
+
+["Customise_Army_Weapon_Level_Text"]
+{"Weapon"}
+
+["Customise_Army_Armour_Level_Text"]
+{"Armour"}
+
+["Game_Options_Throne_Room"]
+{"Unused"}
+
+["Main_Menu_Map_Editor_Title"]
+{"Map Editor"}
+
+@["Map_Editor_Menu"]
+@{"New Map"}
+@{"Edit Map"}
+@{"Delete Map"}
+
+["Map_Editor_Column_Heading_Name"]
+{"Name"}
+
+["Map_Editor_Column_Heading_Date"]
+{"Date"}
+
+["Map_Editor_Create_Map_Button"]
+{"Continue"}
+
+["Main_Menu_Map_Editor_Description_0"]
+{"Create a new map"}
+
+["Main_Menu_Map_Editor_Description_1"]
+{"Load and edit selected map"}
+
+["Main_Menu_Map_Editor_Description_2"]
+{"Delete selected map"}
+
+["Main_Menu_Map_Editor_Confirm_Delete_Message"]
+{"Delete"}
+
+["Main_Menu_Map_Editor_Delete_Map_Popup_Box_Title"]
+{"Delete Map"}
+
+["Main_Menu_Map_Editor_Select_Map_Size_Title"]
+{"Select Map Size"}
+
+["Main_Menu_Map_Editor_Map_Size_Small"]
+{"Small"}
+
+["Main_Menu_Map_Editor_Map_Size_Medium"]
+{"Medium"}
+
+["Main_Menu_Map_Editor_Map_Size_Large"]
+{"Large"}
+
+["Map_List_Map_Limit_Exceeded_Error"]
+{"Map limit exceeded"}
+
+["Multiplayer_Campaign_Menu_Title"]
+{"Select Connection"}
+
+@["Multiplayer_Campaign_Connection_Types"]
+@{"LAN"}
+@{"Internet"}
+
+["Multiplayer_Campaign_Server_Name_Prompt"]
+{"Server Location"}
+
+@["Multiplayer_Campaign_Connection_Options"]
+@{"Add"}
+@{"Delete"}
+@{"Clear"}
+
+["Multiplayer_Campaign_Connection_Status_None"]
+{"No Server"}
+
+["Multiplayer_Campaign_Connection_Status_Dead"]
+{"Dead"}
+
+["Multiplayer_Campaign_Connection_Status_Alive"]
+{"Alive"}
+
+@["Multiplayer_Campaign_Menu"]
+@{"Refresh"}
+@{"Connect to Server"}
+
+["Multiplayer_Campaign_Menu_Gamelist_Column_Heading_Name"]
+{"Name"}
+
+["Multiplayer_Campaign_Menu_Gamelist_Column_Heading_Status"]
+{"Status"}
+
+["Multiplayer_Campaign_Menu_Gamelist_Column_Heading_Players"]
+{"Players"}
+
+["Multiplayer_Campaign_Menu_Gamelist_Column_Heading_Turn_Time_Remaining"]
+{"Turn Timeout"}
+
+["Multiplayer_Campaign_Menu_Gamelist_Column_Heading_Move_Time_Remaining"]
+{"Move Timeout"}
+
+["Multiplayer_Campaign_Menu_Serverlist_Column_Heading_Location"]
+{"Location"}
+
+["Multiplayer_Campaign_Menu_Serverlist_Column_Heading_Status"]
+{"Status"}
+
+["Multiplayer_Campaign_Menu_Game_Data_Title"]
+{"Game Data"}
+
+["Multiplayer_Campaign_Menu_Players_Title"]
+{"Players"}
+
+@["Multiplayer_Campaign_Menu_Game_Data_Headings"]
+@{"Difficulty"}
+@{"Year"}
+@{"Turns"}
+@{"Map Held"}
+
+["Multiplayer_Campaign_Menu_Campaign_Status_0"]
+{"None"}
+
+["Multiplayer_Campaign_Menu_Campaign_Status_1"]
+{"Recruiting"}
+
+["Multiplayer_Campaign_Menu_Campaign_Status_2"]
+{"Resolving Battles"}
+
+["Multiplayer_Campaign_Menu_Campaign_Status_3"]
+{"Resolving Turns"}
+
+["Multiplayer_Campaign_Menu_Campaign_Status_4"]
+{"Game Over"}
+
+["Multiplayer_Campaign_Menu_Campaign_Status_5"]
+{"Inactive"}
+
+["Multiplayer_Campaign_Load_Menu_Title"]
+{"Multiplayer Campaign Selection"}
+
+["Multiplayer_Campaign_Join_Menu_Title"]
+{"Join Multiplayer Campaign"}
+
+["Multiplayer_Campaign_Setup_Menu_Title"]
+{"Multiplayer Campaign Setup"}
+
+@["Multiplayer_Campaign_Difficulty_Values"]
+@{"Easy"}
+@{"Normal"}
+@{"Hard"}
+@{"Expert"}
+
+["Multiplayer_Campaign_Time_Units_Days"]
+{"Days"}
+
+["Multiplayer_Campaign_Time_Units_Hours"]
+{"Hours"}
+
+["Multiplayer_Campaign_Time_Units_Minutes"]
+{"Minutes"}
+
+["Multiplayer_Campaign_Time_Abb_Days"]
+{"d"}
+
+["Multiplayer_Campaign_Time_Abb_Hours"]
+{"h"}
+
+["Multiplayer_Campaign_Time_Abb_Minutes"]
+{"m"}
+
+@["Multiplayer_Campaign_Settings"]
+@{"Campaign Name"}
+@{"Host Password"}
+@{"Join Password"}
+@{"Number of Players"}
+@{"Difficulty"}
+@{"Turn Time"}
+@{"Move Time"}
+
+["Multiplayer_Campaign_Player_Name"]
+{"Player Name"}
+
+["Multiplayer_Campaign_Select_Daimyo"]
+{"Select Faction"}
+
+["Multiplayer_Campaign_Start_Regions"]
+{"Start Regions"}
+
+["Multiplayer_Campaign_Delete_Server_Prompt"]
+{"Delete Server?"}
+
+["Multiplayer_Campaign_Menu_Chat_Room_Option"]
+{"Chat Rooms"}
+
+["Multiplayer_Campaign_Menu_Setup_Campaign_Option"]
+{"Start New Campaign"}
+
+["Multiplayer_Campaign_Menu_Submit_Sub_Option"]
+{"Submit"}
+
+["Multiplayer_Campaign_Menu_Join_Campaign_Sub_Option"]
+{"Join"}
+
+["Multiplayer_Campaign_Menu_Load_Campaign_Sub_Option"]
+{"Load & Play"}
+
+["Multiplayer_Campaign_Menu_Start_Campaign_Sub_Option"]
+{"Start Campaign"}
+
+["Multiplayer_Campaign_Menu_Done_Sub_Option"]
+{"Done"}
+
+["Multiplayer_Campaign_Menu_Delete_Sub_Option"]
+{"Delete"}
+
+["Multiplayer_Campaign_Menu_Details_Sub_Option"]
+{"View Details"}
+
+["Multiplayer_Campaign_Menu_Withdraw_Sub_Option"]
+{"Withdraw"}
+
+["Multiplayer_Campaign_Menu_Resign_Sub_Option"]
+{"Resign"}
+
+["Multiplayer_Campaign_Menu_Duplicate_Player_Name"]
+{"Player of this name has already joined"}
+
+["Multiplayer_Campaign_Menu_File_Exists_Error"]
+{"A campaign of this name is already active"}
+
+["Multiplayer_Campaign_Menu_Rename_Message"]
+{"A campaign of this name already exists - overwrite?"}
+
+["Multiplayer_Campaign_Menu_Joining_Error"]
+{"Campaign data is corrupted - cannot join"}
+
+["Multiplayer_Campaign_Menu_Joining_Error2"]
+{"Unable to join campaign - incorrect password or faction selection unavailable."}
+
+["Multiplayer_Campaign_Menu_Hosting_Error"]
+{"Host request rejected - check host password"}
+
+["Multiplayer_Campaign_Menu_Connection_Error"]
+{"Unable to connect to server"}
+
+["Multiplayer_Campaign_Resignation_Prompt"]
+{"Resign from this campaign - all data will be lost?"}
+
+["Multiplayer_Campaign_Deletion_Prompt"]
+{"Delete this campaign?"}
+
+["Multiplayer_Campaign_IP_Address_Prompt"]
+{"IP Address"}
+
+["Multiplayer_Campaign_Port_Number_Prompt"]
+{"Port Number"}
+
+["Multiplayer_Campaign_Refresh_Button"]
+{"Refresh"}
+
+@["Multiplayer_Campaign_In_Game_Menu"]
+@{"Resume Game"}
+@{"Options"}
+@{"Exit Game"}
+@{"Quit"}
+
+
+["Custom_Battle_Era_Selection_Prompt"]
+{"Select Era"}
+
+["Custom_Battle_Era_Selection_Select"]
+{"Select"}
+
+["LAN_Battle_Era_Selection_Prompt"]
+{"Era:"}
+
+@["LAN_Battle_Era_Selection"]
+@{"Unused"}
+@{"Unused"}
+
+["ADDON_Armyselect_Selectedunits_Error"]
+{"One or more armies has no units"}
+
+@["Multiplayer_Campaign_Chat_Rooms_Menu_Options"]
+@{"Join chat room"}
+@{"Create chat room"}
+@{"Leave chat room"}
+
+
+
+["Reset_Historical_Campaign_Progress"]
+{"Reset Progress"}
+
+["Verify_Reset_Historical_Campaign_Progress"]
+{"Are you sure you want to reset your progress for this campaign?"}
+
+
+SetShowTransOn
+
+
+
+
+//--------------------------------------------------------------------------------------
+//
+//	MEDIEVAL STRINGS TO GO UNDER THIS LINE!!!!!!!!
+//
+//--------------------------------------------------------------------------------------
+
+["Main_Menu_Loadgame_Title"]
+{"Load Game"}
+
+
+//Faction select menu text
+
+["FSM_Campaign_Select_Title"]
+{"Campaign Selection"}
+
+["FSM_Campaign_Select_Heading"]
+{"Campaigns"}
+
+["FSM_Campaign_Select_Victory_Conditions_Heading"]
+{"Victory Conditions"}
+
+["FSM_Campaign_Select_Campaign_Info_Heading"]
+{"Background"}
+
+["FSM_VC1_Dominate"]
+{"Achieve domination by conquering all provinces"}
+
+["FSM_VC2_Glory"]
+{"Attain victory through glorious achievements"}
+
+["FSM_Faction_Select_Title"]
+{"Faction Selection"}
+
+["FSM_Faction_Select_Start_Game_Option"]
+{"Start Campaign"}
+
+["FSM_Faction_Select_Starting_Forces_Heading"]
+{"Start units: "}
+
+["Custom_Battle_Attacking_Title"]
+{"Attacking"}
+
+["Custom_Battle_Defending_Title"]
+{"Defending"}
+
+["Connection_Method_Heading"]
+{"Connection:"}
+
+@["Connection_Method"]
+@{"Client - Server"}
+@{"Peer to Peer"}
+
+["Level_Heading"]
+{"Level:"}
+
+@["Level"]
+@{"Friendly"}
+@{"Competitive"}
+
+["Architecture_Heading"]
+{"Architecture:"}
+
+@["Architecture"]
+@{"Western European"}
+@{"Southern European"}
+@{"Eastern European"}
+@{"Islamic"}
+
+["Terrain_Heading"]
+{"Terrain:"}
+
+@["Terrain"]
+@{"Lush"}
+@{"Arid"}
+@{"Rocky Desert"}
+@{"Sandy Desert"}
+@{"Temperate"}
+
+["Mapsize_Heading"]
+{"Mapsize:"}
+
+@["Mapsize"]
+@{"Small"}
+@{"Medium"}
+@{"Large"}
+
+["Multiplayer_Checksum_Error"]
+{"Version conflict in either map, production or startpos files - cannot join this game"}
+
+["CBFS_CPU_Players_Switch_Heading"]
+{"Number of CPU players"}
+
+
+// Names of keys. 
+// Some key names have changed, but because they're part of an array they
+// have to be changed above the "MEDIEVAL STRINGS TO GO UNDER THIS LINE!!!!!!!!" line. 
+// Please seach for the string "New for Medieval" to find the changes
+
+
+
+//Tutorial Menu Strings
+//=====================
+
+@["Main_Menu_Tutorial_Jaffa"]
+@{"Sicily"}
+@{"Sicily Battle"}
+@{"Bulgaria"}
+@{"Bulgaria Battle"}
+@{"Greece"}
+@{"Greece Battle"}
+@{"Antioch"}
+@{"Antioch Battle"}
+@{"The Battle Of Jaffa"}
+
+@["Main_Menu_Tutorial_Agincourt"]
+@{"Sicily"}
+@{"Sicily Battle"}
+@{"Bulgaria"}
+@{"Bulgaria Battle"}
+@{"Greece"}
+@{"Greece Battle"}
+@{"Antioch"}
+@{"Antioch Battle"}
+@{"Agincourt"}
+
+
+["Main_Menu_Tutorial_Description_0"]
+{"Basic Battlemap Tutorial"}
+
+["Main_Menu_Tutorial_Description_1"]
+{"Practice the lessons taught in Sicily in a combat situation."}
+
+["Main_Menu_Tutorial_Description_2"]
+{"Intermediate Battlemap Tutorial Part One"}
+
+["Main_Menu_Tutorial_Description_3"]
+{"Practice the basic techniques covered in Bulgaria in a combat situation."}
+
+["Main_Menu_Tutorial_Description_4"]
+{"Intermediate Battlemap Tutorial Part Two"}
+
+["Main_Menu_Tutorial_Description_5"]
+{"Practice the additional techniques covered in Greece in a combat situation."}
+
+["Main_Menu_Tutorial_Description_6"]
+{"Advanced Battlemap Tutorial"}
+
+["Main_Menu_Tutorial_Description_7"]
+{"Practice the advanced techniques shown to you in Antioch in a combat situation."}
+
+["Main_Menu_Tutorial_Description_8_Jaffa"]
+{"Lead a Crusader Army to victory before the walls of Jaffa."}
+
+["Main_Menu_Tutorial_Description_8_Agincourt"]
+{"Engage and defeat the French at the battle of Agincourt."}
+
+
+["Pre_Tutorial_Prompts"]
+{"This tutorial will teach you:"}
+
+["Post_Tutorial_Prompts"]
+{"In this tutorial you have learned:"}
+
+@["Post_Tutorial_Options"]
+@{"Play next tutorial"}
+@{"Replay this tutorial"}
+@{"Return to Tutorial Menu"}
+
+@["Pre_Tutorial_Options"]
+@{"Play this tutorial"}
+@{"Replay previous tutorial"}
+@{"Return to Tutorial Menu"}
+
+//@["Pre_Tutorial_No_Replay_Options"]
+//@{" "}
+//@{"Return To Tutorial Menu"}
+//@{"Continue"}
+
+@["Post_Tutorial_No_Continue_Options"]
+@{" "}
+@{"Replay this tutorial"}
+@{"Return to Tutorial Menu"}
+
+
+["Post_Tutorial_1_Titles"]
+{"Sicily Tutorial"}
+
+["Post_Tutorial_2_Titles"]
+{"Sicily Battle"}
+
+["Post_Tutorial_3_Titles"]
+{"Bulgaria Tutorial"}
+
+["Post_Tutorial_4_Titles"]
+{"Bulgaria Battle"}
+
+["Post_Tutorial_5_Titles"]
+{"Greece Tutorial"}
+
+["Post_Tutorial_6_Titles"]
+{"Greece Battle"}
+
+["Post_Tutorial_7_Titles"]
+{"Antioch Tutorial"}
+
+["Post_Tutorial_8_Titles"]
+{"Antioch Battle"}
+
+["Post_Tutorial_9_Titles"]
+{"The Battle Of Agincourt 1415"}
+
+
+//@["Post_Tutorial_1_Lessons_Learned"]
+//@{"List lessons in Sicily Tutorial here"}
+//
+//@["Post_Tutorial_2_Lessons_Learned"]
+//@{"List lessons in Sicily Practice here"}
+//
+//@["Post_Tutorial_3_Lessons_Learned"]
+//@{"List lessons in Bulgaria Tutorial Part 1 here"}
+//
+//@["Post_Tutorial_4_Lessons_Learned"]
+//@{"List lessons in Bulgaria Practice Part 1 here"}
+//
+//@["Post_Tutorial_5_Lessons_Learned"]
+//@{"List lessons in Bulgaria Tutorial Part 2 here"}
+//
+//@["Post_Tutorial_6_Lessons_Learned"]
+//@{"List lessons in Bulgaria Practice Part 2 here"}
+//
+//@["Post_Tutorial_7_Lessons_Learned"]
+//@{"List lessons in Antioch Tutorial here"}
+//
+//@["Post_Tutorial_8_Lessons_Learned"]
+//@{"List lessons in Antioch Practice here"}
+
+
+["Post_Tutorial_Win_Subheader"]
+{"You have won this battle."}
+
+["Post_Tutorial_Lose_Subheader"]
+{"You have lost this battle."}
+
+["Post_Tutorial_Quit_Lesson_Subheader"]
+{"You have quit this tutorial"}
+
+["Post_Tutorial_Quit_Battle_Subheader"]
+{"You have quit this battle."}
+
+@["Post_Tutorial_Lost_Lesson_Message_1"]
+@{"Perhaps you should try again."}
+
+//@["Post_Tutorial_Lost_Lesson_Message_2"]
+//@{"You failed this tutorial. Try again."}
+
+@["Post_Tutorial_Lost_Lesson_Message_3"]
+@{"Perhaps you should try again."}
+
+//@["Post_Tutorial_Lost_Lesson_Message_4"]
+//@{"You failed this tutorial. Try again."}
+
+@["Post_Tutorial_Lost_Lesson_Message_5"]
+@{"Perhaps you should try again."}
+
+//@["Post_Tutorial_Lost_Lesson_Message_6"]
+//@{"You failed this tutorial. Try again."}
+
+@["Post_Tutorial_Lost_Lesson_Message_7"]
+@{"Perhaps you should try again."}
+
+//@["Post_Tutorial_Lost_Lesson_Message_8"]
+//@{"You failed this tutorial. Try again."}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+@["New Architecture"]
+@{"Western European"}
+@{"Southern European"}
+@{"Eastern European"}
+@{"Islamic"}
+@{"Dark Age European"}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	Text added after 7th Jan 2003 begins here:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+@["New Terrain"]
+@{"Lush"}
+@{"Arid"}
+@{"Rocky Desert"}
+@{"Sandy Desert"}
+@{"Temperate"}
+@{"Dark Age Lush"}
+
+["Battle_Results_Quick_Battle_Title"]
+{"Quick Battle"}
+
+SetShowTransOff
+
+//*************************************************************
+

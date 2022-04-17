@@ -1,0 +1,1585 @@
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {" "} need to be translated.
+// and the 
+// {" "} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If an untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated stings
+// easily and can see that they have not been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organized as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]		 
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later
+// They can be used to issue instructions or for information.
+//
+
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localized.
+
+["your_building_xzy"]
+{"Your building."}
+
+["your_army_xzy"]  
+{"Your army."}
+
+["bribed_army_xzy"]  
+{"Bribed army."}
+
+["own_unit_tooltip1"]
+{"Your unit."}
+
+["your_castle_xzy"]  
+{"Your %s."}						// Where '%s' will be replaced with the castle type, eg: 'fortress'.
+
+["your_province_xzy"]  
+{"Your province."}
+
+["your_seaprovince_xzy"]  
+{"Neutral waters."}
+
+["building_tooltip_xzy"]
+{"This is a building."}
+
+["armies_tooltip_xzy"]
+{"%s army\n%s"}					// Only 'army' needs translating, in the following context: The first '%s' will be replaced with a factions name, eg: 'Scottish army'. The '\n' is a carriage return. The 2nd '%s' will be replaced with the status of your relationship with the army's faction, eg: '< Neutral >'.
+
+["fleets_tooltip_xzy"]
+{"%s fleet\n%s"}   				// Same rules as armies_tooltip_xzy. 
+
+["units_tooltip_xzy"]
+{"%s unit\n%s"}					// Same rules as armies_tooltip_xzy.
+
+["castles_tooltip_xzy"]
+{"%s castle\n%s"}				// Same rules as armies_tooltip_xzy.
+
+["buildings_tooltip_xzy"]
+{"%s building\n%s"}				// Same rules as armies_tooltip_xzy.
+
+["regions_tooltip_xzy"]
+{"%s province\n%s"}				// Same rules as armies_tooltip_xzy.
+
+["searegions_tooltip_xzy"]
+{"Hostile waters\n%s"}			// Same rules as armies_tooltip_xzy except sea regions are never owned by an individual faction, hence the omitted preceeding '%s'.
+
+["marriage_icon_tooltip"]
+{"This signifies this man is married."}
+
+["royalblood_icon_tooltip"]
+{"This signifies this man is of royal blood."}
+
+// second level tool tips
+//=======================
+
+@["own_fleet_tooltip2"]
+@{"Left-click to select it."}
+@{"Left-click and hold to pick it up."}
+@{"Drop it where you want it to go."}
+@{"Valid moves are highlighted."}
+@{"Drop it on an enemy fleet to attack."}
+@{"Right-click on it for details."}
+@{"It can contain up to 16 ships."}
+@{"Select it to see its ships."}
+@{"Its ships are displayed on the review panel."}
+@{"It has an admiral leading it."}
+@{"Admirals gain ranks by winning battles."}
+@{"They add to the fleet's fighting ability."}
+@{"The higher the admiral's rank the bigger the bonus."}
+@{""}
+
+@["other_fleet_tooltip2"]
+@{"If you have a fleet"}
+@{"in the same sea region"}
+@{"right-click on it for details."}
+@{"It contains up to 16 ships."}
+@{"The coloured bar on the flag indicates the fleet size."}
+@{"The bigger the fleet, the taller the coloured bar."} 
+@{"It has an admiral leading it."}
+@{""}
+
+
+@["own_army_tooltip2"]
+@{"Left-click to select it."}
+@{"Left-click and hold to pick it up."}
+@{"Drop it where you want it to go."}
+@{"Valid moves are highlighted."}
+@{"The coloured zone on the flag indicates the army size."}
+@{"The bigger the army, the taller the coloured zone."} 
+@{"Right-click on it for details."}
+@{"It contains up to 16 units."}
+@{"Select it to see its units."}
+@{"Its units are displayed on the review panel."}
+@{"Standard units contain 100 men."}
+@{"It has a general leading it."}
+@{"Generals gain rank by winning battles."}
+@{"They add to the army's fighting ability."}
+@{"The higher the general's rank the bigger the bonus."}
+@{""}
+
+@["other_army_tooltip2"]
+@{"If you have a spy close by"}
+@{"or a watchtower in a neighbouring region"}
+@{"right-click on it for details."}
+@{"It contains up to 16 units."}
+@{"The coloured zone on the flag indicates the army size."}
+@{"The bigger the army, the taller the coloured zone."} 
+@{"It has a general leading it."}
+@{"Drop an Assassin on it"}
+@{"to assassinate the general."}
+@{""}
+
+@["bribed_army_tooltip2"]
+@{"Not selectable."}
+@{"Having only just been bribed"}
+@{"this army must wait a year"}
+@{"as it changes its allegiance."}
+@{""}
+
+@{"Left-click to select it."}
+@{"Left-click and hold to pick it up."}
+@{"Drop it where you want it to go."}
+@{"Valid moves are highlighted."}
+@{"Right-click on it for details."}
+@{"It contains up to 16 units."}
+@{"Select it to see its units."}
+@{"Its units are displayed on the review panel."}
+@{"Standard units contain 100 men."}
+@{"It has a general leading it."}
+@{"Generals gain rank by winning battles."}
+@{"They add to the army's fighting ability."}
+@{"The higher his rank the bigger the bonus."}
+@{""}
+
+
+@["own_castle_tooltip2"]
+@{"Right-click on it for details."}
+@{"Newly built units arrive here."}
+@{"You can retreat to it if attacked."}
+@{"It has a general leading it."}
+@{"Upgrading the castle"}
+@{"gives new building options."}
+@{""}
+
+@["other_castle_tooltip2"]
+@{"If you have a spy close by"}
+@{"or a watchtower in a neighbouring region"}
+@{"right-click on it for details."}
+@{"It has a general leading it."}
+@{"Drop an Assassin on it"}
+@{"to assassinate the castle's general."}
+@{"Drop an army on it to assault it."}
+@{""}
+
+
+@["own_unit_tooltip2"]
+@{"Left-click to select it."}
+@{"Left-click and hold to pick up."}
+@{"Right-click on it for details."}
+@{"Drop it in the region to make a new army."}
+@{"Drop it on a castle or army to assign it there."}
+@{"You can select multiple units."}
+@{"The top-left number is number of men."}
+@{"The top-right number is the unit valour."}
+@{"The graphic shows the unit type."}
+@{""}
+
+@["other_unit_tooltip2"]
+@{"It belongs to the selected army."}
+@{"Right-click on it for details."}
+@{"The top-left number is number of men."}
+@{"The top-right number is the unit valour."}
+@{"The graphic shows the unit type."}
+@{""}
+
+
+@["own_searegion_tooltip2"]
+@{"These seas are openly passable."}
+@{"Build shipping routes"}
+@{"by placing fleets in sea regions"} 
+@{"along the entire path of the route."} 
+@{"Use your fleets of warships"}
+@{"to blockade your enemies' routes,"}
+@{"and reduce their trade income."}
+@{"But beware of your enemies"}
+@{"using the same tactics against you."}
+@{""}
+
+@["other_searegion_tooltip2"]
+@{"These waters are currently"}
+@{"occupied by your enemy."}
+@{"All of your trade routes passing through"}
+@{"are now blockaded by enemy ships."} 
+@{""}
+
+
+@["own_region_tooltip2"]
+@{"Right-click for details."}
+@{"Left-click to select."}
+@{"The selected province is highlighted."} 
+@{"Select it to see buildings."}
+@{"Any buildings there appear on the panel."}
+@{"The border colour shows who owns a province."}
+@{"Each major faction has its own colour."}
+@{"Drop pieces here to move them here."}
+@{"Use the cursor keys to look around."}
+@{""}
+
+@["other_region_tooltip2"]
+@{"Drop armies here to invade."}
+@{"Right-click for details."}
+@{"Left-click here to select."}
+@{"The selected province is highlighted."} 
+@{"The border colour shows who owns a province."}
+@{"Each major faction has its own colour."}
+@{"If you have a spy in this province"}
+@{"click on pieces here for details."}
+@{""}
+
+@["own_building_tooltip2"]
+@{"Right-click for details"}
+@{"of the units trained by this building,"}
+@{"any possible upgrades to it,"}
+@{"generated income and its other functions."}
+@{""}
+
+
+//["unit_icon_tooltip"]         // not used??
+//{"This is a unit."}
+
+@["unit_icon_tooltip2"]
+@{"Right-click for details."}
+@{"Left-click on it to build it."}
+@{"When it has finished training"}
+@{"it will appear in the castle"}
+@{"if there is any room available."}
+@{"Otherwise, the new unit will be a part"
+@{"of a new army in the province."}
+@{""}
+
+@["review_panel_tooltip"]
+@{"The Review Panel."}
+@{"To view the units in an army"}
+@{"select an army by left-clicking on it."}
+@{"You can only view your own units"}
+@{"or enemy units where you have a spy."}
+@{"To view the buildings in a province"}
+@{"select the province with a left-click."}
+@{""}
+
+//@["info_icon_tooltip"]
+//@{"Information."}
+//@{"This brings up the status information pages."}
+//@{"They give detailed summaries of various topics."}
+//@{"The diplomatic status page is the starting point."}
+//@{"Others can be reached using the icons on each page."}
+//@{"No actions are done on these pages,"}
+//@{"they are for information only."}
+
+@["training_panel_icon_tooltip"]
+@{"Train Units."}
+@{"This button brings up the training panel"}
+@{"for the currently selected region."}
+@{"This panel is used train new units,"}
+@{"which include soldiers, ships, agents and artillery."}
+@{"It also allows access to the hiring of mercenaries"}
+@{"if they are available in this region."}
+@{"The progress of the current unit you are training"}
+@{"will be displayed within this button."}
+@{"To train some units you must have the right buildings in the province."}
+@{"New units appear in the province's castle."}
+@{""}
+
+@["building_panel_icon_tooltip"]
+@{"Build Buildings."}
+@{"This button brings up the building panel."}
+@{"Use the button to build new buildings in the selected region."}
+@{"The progress of the current building under construction"}
+@{"will be displayed within this button."}
+@{"Buildings are needed to train troops and agents,"}
+@{"and for the creation of ships and artillery."}
+@{"They are also used to increase your kingdom's wealth,"}
+@{"and make a province happy or more religious."}
+@{""}
+
+@["glory_panel_icon_tooltip"]
+@{"This brings up the glorious objectives page."}
+@{"Use it to see information"}
+@{"about requirements for glorious achievements."}
+@{""}
+
+@["season_tooltip"]
+@{"The current year."}
+@{"Each game turn is equivalent to one year."}
+@{""}
+
+
+@["end_season_tooltip"]
+@{"This button ends the year."}
+@{"All the other factions then calculate their moves"}
+@{"and all moves are resolved simultaneously."}
+@{"Where armies meet battles will be fought"}
+@{"and you will be notified of various events."}
+@{"Don't end the year until you are happy with your moves."}
+@{"You can reconsider and take back moves"}
+@{"until you click this button."}
+@{""}
+
+@["minimap_tooltip"]
+@{"Overall map."}
+@{"It shows which factions control which provinces,"}
+@{"but only in the provinces you can see."}
+@{"You can see all neighbouring provinces"}
+@{"and any province where you have a spy."} 
+@{"Each faction has its own colour."}
+@{"You can also move the overall view by clicking on this map."}
+@{""}
+
+@["prod_parchment_buildings_tooltip"]
+@{"The Building Panel."}
+@{"To build a building in the currently selected province,"}
+@{"left-click on one of the building icons."}
+@{"It will be added to the queue at the bottom of the panel."}
+@{"Right-click on it for details."}
+@{"You can queue orders for up to four buildings."}
+@{"Only one building can be built at a time in each province."}
+@{"The cost is deducted when building starts."}
+@{"If you don't have enough money when it's time to start a building"}
+@{"the order is put 'on hold' until you do."}
+@{"To exit the panel click on the exit icon in the top right"}
+@{"or click again on the build icon."}  
+@{""}
+
+@["prod_parchment_units_tooltip"]
+@{"The Unit Training Panel."}
+@{"To train a unit in the currently selected province,"}
+@{"left-click on one of the unit icons."}
+@{"It will be added to the queue at the bottom of the panel."}
+@{"Right-click on it for details."}
+@{"You can queue up to five unit training orders."}
+@{"Only one unit can be trained at a time in each province."}
+@{"The cost is deducted when training starts."}
+@{"If you don't have enough money when it's time to train a unit"}
+@{"the order is put 'on hold' until you do."}
+@{"To exit the panel click on the exit icon in the top right"}
+@{"or click again on the train icon."} 
+@{""}
+
+@["prod_parchment_mercs_tooltip"]
+@{"The Mercenary Hiring Panel."}
+@{"To hire a mercenary unit in this region"}
+@{"left-click on one of the unit icons."}
+@{"It will be added to the queue at the bottom of the panel."}
+@{"Right-click on it for details."}
+@{"You can queue up to five mercenary bands."}
+@{"Make your selection and click the hire icon."}
+@{"The queue will empty and the hiring cost will be deducted"}
+@{"from your coffers. The hired units will appear on the map"}
+@{"under your control immediately."}
+@{"To exit the panel click on the exit icon in the top right"}
+@{"or click again on the hire icon."} 
+@{""}
+
+@["prod_parchment_buildings_queue_pos0_tooltip"]
+@{"The current building under construction."}
+@{"The sand timer to the left describes"}
+@{"how many years remain until"}
+@{"this building is completed."}
+@{"Left-clicking the building will remove it from the queue."}
+@{"Right-clicking the building will display further information."}
+@{""}
+
+@["prod_parchment_buildings_queue_tooltip"]
+@{"The Building Construction Queue."}
+@{"You can queue up to four buildings here."}
+@{"To change the order of selected buildings"}
+@{"click and hold the left mouse button over a building,"}
+@{"then drag the building to its new queue position,"}
+@{"then release the left mouse button to drop the building."}
+@{"When moving a new building to the front of the queue,"}
+@{"if the building that previously occupied the position"}
+@{"was part way through construction, this progress will be lost,"}
+@{"unless it is restored to the position before you end the year."}
+@{"Left-clicking a building will remove it from the queue."}
+@{"Right-clicking a building will display further information."}
+@{""}
+
+@["prod_parchment_units_queue_pos0_tooltip"]
+@{"The current unit in training."}
+@{"The sand timer to the left describes"}
+@{"how many years are remaining"}
+@{"until this unit is completed."}
+@{"Left-clicking the unit will remove it from the queue."}
+@{"Right-clicking the unit will display further information."}
+@{""}
+
+@["prod_parchment_units_queue_tooltip"]
+@{"The Unit Training Queue."}
+@{"You can queue up to five units here."}
+@{"To change the order of selected units,"}
+@{"click and hold the left mouse button over a unit,"}
+@{"then drag the unit to its new queue position,"}
+@{"then release the left mouse button to drop the unit."}
+@{"When moving a new unit to the front of the queue,"}
+@{"if the unit that previously occupied the position"}
+@{"was part way through training, this progress will be lost,"}
+@{"unless it is restored to the position before you end the year."}
+@{"Left-clicking a unit will remove it from the queue."}
+@{"Right-clicking a unit will display further information."}
+@{""}
+
+@["prod_parchment_mercs_queue_tooltip"]
+@{"The Mercenary Hiring Queue."}
+@{"You can queue up to five mercenary bands here."}
+@{"To change the order of selected hirelings,"}
+@{"click and hold the left mouse button over a unit,"}
+@{"then drag the unit to its new queue position,"}
+@{"then release the left mouse button to drop the unit."}
+@{"Left-clicking a unit will remove it from the queue."}
+@{"Right-clicking a unit will display further information."}
+@{""}
+
+@["other_building_tooltip2"]
+@{"Right-click for details."}
+@{"It is in the selected province."}
+@{"It may be destroyed or downgraded if you invade."}
+@{""}
+
+@["treasury_tooltip"]
+@{"Your current treasury."}
+@{"Florins are the unit of currency."}
+@{"You gain Florins each year from your provinces' farms"}
+@{"and from mines and trade."}
+@{"You spend it on new units and buildings"}
+@{"and to support existing units."}
+@{"If it becomes negative"}
+@{"you owe money and cannot spend any"}
+@{"until the debt is cleared."}  
+@{""}
+
+@["economy_icon_tooltip"]
+@{"This brings up the economic status information page."}
+@{""}
+
+
+@["alliance_icon_tooltip"]
+@{"This brings up the alliance status information page."}
+@{""}
+
+
+@["heirs_icon_tooltip"]
+@{"This brings up the heirs status information page."}
+@{""}
+
+
+@["military_icon_tooltip"]
+@{"This brings up the military status information page."}
+@{""}
+
+
+@["spy_icon_tooltip"]
+@{"This brings up the spy status information page."}
+@{""}
+
+
+@["tax_icon_tooltip"]
+@{"This brings up the tax information page."}
+@{""}
+
+
+@["own_emissary_tooltip2_new"]
+@{"Left-click to select it."}
+@{"Left-click and hold to pick up."}
+@{"Drop it where you want it to go."}
+@{"Valid moves are highlighted."}
+@{"To propose a treaty"}
+@{"drop it on an enemy faction leader."}
+@{"To initiate a bribe, drop"}
+@{"it on an enemy army or castle."}
+@{"He also does some spying"}
+@{"so you can see details about emissary's province."}
+@{""}
+
+@["connect_icon_tooltip"]
+@{"This is the connect icon."}
+@{"Click it to connect to the server,"}
+@{"or to disconnect."}
+@{"You must be connected to submit moves"}
+@{"and to receive moves from other players."}
+@{"You automatically connect when the game starts."}
+@{""}
+
+@["netstatus_icon_tooltip"]
+@{"This is the net status icon."}
+@{"It brings up the net status panel."}
+@{"This shows who is on-line"}
+@{"and who has not yet submitted their moves."}
+@{""}
+
+@["alternate_connect_icon_tooltip"]
+@{"This is the connect icon."}
+@{"It brings up the net status panel"}
+@{"and connects you to the server."}
+@{""}
+
+
+@["netstatus_panel_tooltip"]
+@{"This net status panel."}
+@{"It comes up when you are on-line."}
+@{"It shows which other players are on-line"}
+@{"and which of them have finished their moves."}
+@{"Click one of the other players"}
+@{"to bring up the chat window."}
+@{""}
+
+@["battle_panel_tooltip"]
+@{"This is the battle panel."}
+@{"It shows which battles need to be resolved"}
+@{"and which players are involved."}
+@{"They are players who have finished their moves."}
+@{""}
+
+
+
+["governor_title_tooltip"]
+{"Title of Governor"}
+
+@["governor_title_tooltip2"]
+@{"Grant this to a general"}
+@{"and he will aid in the"}
+@{"running of this province."}
+@{"Right-click to view bonuses."}
+@{"Left-click and hold to pick the title up."}
+@{"To award the title to a general"}
+@{"drop it on one of your armies."}
+@{""}
+
+@["own_crusade_tooltip"]
+@{"This is your Crusade."}
+@{"You can only march it towards the target province."}
+@{"It will pick up troops along the way"}
+@{"if the provinces it passes through have high Zeal."}
+@{""}
+
+@["own_crusade_marker_tooltip"]
+@{"This is your Crusade marker."}
+@{"Drop it on a province to start a Crusade."}
+@{"The Pope must approve new Crusades"}
+@{"and may ask for a donation for his blessing."}
+@{""}
+
+["other_crusade_tooltip"]
+{"%s Crusade"}						// Don't translate %s. Will be replaced by a region name, e.g. "Scottish Crusade"
+
+["other_crusade_marker_tooltip"]
+{"%s Crusade Marker"}				// Don't translate %s. Will be replaced by a region name, e.g. "Scottish Crusade Marker"
+
+@["other_crusade_tooltip2"]
+@{"It may attack provinces with a different religion"}
+@{"or provinces belonging to a faction the Pope has excommunicated."}
+@{""}
+
+@["other_crusade_marker_tooltip2"]
+@{"Drop an Inquisitor on it"}
+@{"to root out any heretics."}
+@{""}
+
+@["own_jihad_tooltip"]
+@{"This is your Jihad."}
+@{"You can only march it towards the target province."}
+@{"It will pick up troops along the way"}
+@{"if the provinces it passes through have high Zeal."}
+@{""}
+
+@["own_jihad_marker_tooltip"]
+@{"This is your Jihad Marker."}
+@{"Drop it on a province to start a Jihad."}
+@{""}
+
+["other_jihad_tooltip"]
+{"%s Jihad"}						// Don't translate %s. String will look like "Scottish jihad"
+
+["other_jihad_marker_tooltip"]
+{"%s Jihad Marker"}				// Don't translate %s. String will look like "Scottish jihad Marker"
+
+@["other_jihad_tooltip2"]
+@{"It may attack provinces with a different religion."}
+@{""}
+
+@["other_jihad_marker_tooltip2"]
+@{"Drop an Alim or Imam on it"}
+@{"to root out any heretics."}
+@{""}
+
+//INFO PARCHMENT TOOLTIPS!
+
+["Tooltip_Too_Long"]
+{"ERROR!!!!! Tooltip is too long - tooltips must be %d characters or less in length. Bad Tooltip starts..... %s"}
+
+
+//=================================
+//region info parchment tooltips
+
+
+["region_income_tooltip"]
+{"All revenue acquired from agricultural harvesting, mines and tax gathering."}
+
+["region_trade_income_tooltip"]
+{"Income generated from local domestic trade. Deals with the local sales of any merchant that is present in this province."}
+				 
+["exports_trade_income_tooltip"]
+{"Exporting goods requires sea routes and merchants, with ports at both the source and destination of trade goods. Shipping gives provinces access to goods they are not otherwise able to use and enjoy."}
+
+["other_income_tooltip"]
+{"Income generated from individual buildings and associations."}
+
+["region_resources_tooltip"]
+{"Natural resources that can be found and exploited in this region. These are the minerals, ores and other basic materials that can be extracted for economic gains."}
+
+["tradable_goods_tooltip"]
+{"Goods produced here are sold through a merchant to the local people and are also exported abroad if shipping routes have been established."}
+
+@["tradable_goods_intro_tooltips"]
+@{"Glassware is produced here and may be used in trade with other nations."}
+@{"Wood is processed here and may be used in trade with other nations."}
+@{"Furs are produced here and may be used in trade with other nations."}
+@{"Wine is produced here and may be used in trade with other nations."}
+@{"Wool is processed here and may be used in trade with other nations."}
+@{"Silk is processed here and may be used in trade with other nations."}
+@{"Cotton is processed here and may be used in trade with other nations."}
+@{"Linen is processed here and may be used in trade with other nations."}
+@{"Wax is produced here and may be used in trade with other nations."}
+@{"Honey is produced here and may be used in trade with other nations."}
+@{"Salt is processed here and may be used in trade with other nations."}
+@{"Hides are produced here and may be used in trade with other nations."}
+@{"Butter is produced here and may be used in trade with other nations."}
+@{"Pottery is produced here and may be used in trade with other nations."}
+@{"Saltfish are processed here and may be used in trade with other nations."}
+@{"Spices are produced here and may be used in trade with other nations."}
+@{"Gems are processed here and may be used in trade with other nations."}
+@{"Sugar is produced here and may be used in trade with other nations."}
+@{"Dyes are produced here and may be used in trade with other nations."}
+@{"Ivory is processed here and may be used in trade with other nations."}
+@{"Olive oil is produced here and may be used in trade with other nations."}
+@{"Grain is produced here and may be used in trade with other nations."}
+
+@["resources_intro_tooltips"]
+@{"Copper Deposits are in plentiful supply here. "}
+@{"Gold Deposits are in plentiful supply here. "}
+@{"Silver Deposits are in plentiful supply here. "}
+@{"Iron Deposits are in plentiful supply here. "}
+@{"Wood is in plentiful supply here. "}
+@{"Salt is in plentiful supply here. "}
+
+@["goods_working_tooltips"]
+@{"Tin is at your merchants' disposal. "} 
+@{"Lead is at your merchants' disposal. "}
+@{"Copper is at your merchants' disposal. "}
+@{"Gold is at your merchants' disposal. "}
+@{"Silver is at your merchants' disposal. "}
+@{"Iron is at your merchants' disposal. "}
+@{"Timber is at your merchants' disposal. "}
+@{"Wine is at your merchants' disposal. "}
+@{"Salt is at your merchants' disposal. "}
+@{"Wool is at your merchants' disposal. "}
+@{"Fish is at your merchants' disposal. "}
+@{"Spices is at your merchants' disposal. "}
+@{"Linen is at your merchants' disposal. "}
+@{"Silk is at your merchants' disposal. "}
+@{"Cotton is at your merchants' disposal. "}
+@{"Glass is at your merchants' disposal. "}
+@{"Pottery is at your merchants' disposal. "}
+
+@["resources_working_tooltips"]
+@{"Income from Tin Mine: %d Florins. "}
+@{"Income from Lead Mine: %d Florins. "}
+@{"Income from Copper Mine: %d Florins. "}
+@{"Income from Gold Mine: %d Florins. "}
+@{"Income from Silver Mine: %d Florins. "}
+@{"This region has a plentiful supply of iron - useful for armour manufacture."}
+@{"Income from Foresters: %d Florins. "}
+@{"Income from Vineyards: %d Florins. "}
+@{"Income from Salt Mine: %d Florins. "}
+//@{"Income from Marble Quarry: %d Florins. "}
+//@{"Income from Wool Mills: %d Florins. "}
+//@{"Income from Fisheries: %d Florins. "}
+//@{"Income from Spice Markets: %d Florins. "}
+//@{"Income from Weavers: %d Florins. "}
+//@{"Income from SilkWeavers: %d Florins. "}
+//@{"Income from Cotton Mills: %d Florins. "}
+
+@["goods_idle_tooltips"]
+@{"Build a Tin merchant to exploit this available Tin. "} 
+@{"Build a Lead merchant to exploit this available Lead. "} 
+@{"Build a Copper merchant to exploit this available Copper. "} 
+@{"Build a Gold merchant to exploit this available Gold. "} 
+@{"Build a Silver merchant to exploit this available Silver. "} 
+@{"Build an Iron merchant to exploit this available Iron. "} 
+@{"Build a Timber merchant to exploit this available Timber. "} 
+@{"Build a Wine merchant to exploit this available Wine. "} 
+@{"Build a Salt merchant to exploit this available Salt. "} 
+@{"Build a Weaver to exploit this available Wool. "}
+@{"Build a Salter to exploit this available Fish. "}
+@{"Build a Spice merchant to exploit these available Spices. "}
+@{"Build a Weaver to exploit this available Linen. "}
+@{"Build a Weaver to exploit this available Silk. "}
+@{"Build a Weaver to exploit this available Cotton. "}
+@{"Build a Glass merchant to exploit this available Glass. "}
+@{"Build a Potter to exploit this available Pottery. "}
+
+
+@["resources_idle_tooltips"]
+@{"This region has seams of tin that can be exploited with a mine. "}
+@{"Build a lead mine to extract and sell the metal.  "}
+@{"Mining the copper will supplement this country's gross national product. "}
+@{"Mine this precious metal to boost your economy. "}
+@{"Mine this as quickly as possible to fill your coffers. "}
+@{"This region has a plentiful supply of iron - useful for armour manufacture. "}
+@{"Build a Forester to eploit and export it. "}
+@{"Enhance the trade by building Vineyards. "}
+@{"Mine this valuable commodity as soon as possible. "}
+@{"Build mills to exploit it. "}
+@{"Building a Salter will help process and sell the catches. "}
+@{"Build Spice Markets to trade in these luxury items. "}
+@{"Build a Weaver and export the fine cloth it manufactures. "}
+@{"Create Silkweavers and export the fine cloth they manufacture. "}
+@{"Build Cotton Mills to take advantage of the cotton grown here. "}
+@{"Build a Glassworks to take advantage of this resource. "}
+@{"Build a Potter to take advantage of this resource. "}
+
+												  
+["happiness_tooltip"]
+{"The mood of the population. Indicates the likelihood of rebellions in this province. "}
+
+@["happiness_rating"]
+@{"This country may as well be considered independent, because no-one is successfully controlling it."}
+@{"This country is extremely unhappy and is constantly rebelling."}
+@{"This country is very unhappy and the riots in the streets are testament to this."}
+@{"This country is unhappy and the population are teetering on the brink of taking up arms and fighting their cause."}
+@{"This country is moderately unhappy. No real threats of rebellion, but the people are certainly considering it."}
+@{"This country is content with its lot, and the people are indifferent towards their ruler."}
+@{"This country is happy. The peasants are unlikely to rebel."}
+@{"This country is very happy."}
+@{"This country is extremely happy."}
+@{"This country is jubilant."}
+@{"This country is ecstatic."}
+
+["faith_tooltip"]
+{"The most popular faiths that are active in this region at the moment. If your faction leader's beliefs conflict with that of the majority of the people, revolutions may be sparked off."}
+
+@["religion_tooltips"]
+@{"Pagan"}
+@{"Catholic"}
+@{"Orthodox"}
+@{"Islamic"}
+@{"Jewish"}
+@{"Heretic"}
+
+@["religion_pcnt_tooltips"]
+@{"Percentage of the population following the Pagan religion. This value can be influenced by buildings, events, invasions and the actions of agents in this region."}
+@{"Percentage of the population following the Catholic religion. This value can be influenced by buildings, events, invasions and the actions of agents in this region."}
+@{"Percentage of the population following the Orthodox religion. This value can be influenced by buildings, events, invasions and the actions of agents in this region."}
+@{"Percentage of the population following the Islamic religion. This value can be influenced by buildings, events, invasions and the actions of agents in this region."}
+@{"Percentage of the population following the Jewish religion. This value can be influenced by events, invasions and the actions of agents in this region."}
+@{"Percentage of the population following Heretical cults. This value can be influenced by events, invasions and the actions of agents in this region."}
+
+["zeal_tooltip"]
+{"How fanatical the religious groups are in this country."}
+
+["region_loyalty_tooltip"]
+{"Indication of how loyal the population is, if the value drops below 100% there's a chance the people may revolt."}
+
+["region_taxation_tooltip"]
+{"The amount of taxes levied on the population. Low taxes make happy, loyal people. Higher taxes, while providing a greater income, have the opposite effect."}
+
+@["zeal_rating"]
+@{"Zeal rating 0%. The worshippers aren't interested in religious activity."}
+@{"Zeal rating 10%. The peasants do the bare minimum to keep this faith alive."}
+@{"Zeal rating 20%. The population support the faith, but it's not an important part of their lives."}
+@{"Zeal rating 30%. Worship plays a significant part in the lives of these followers."}
+@{"Zeal rating 40%. The followers of this religion take their faith very seriously in this country."}
+@{"Zeal rating 50%. Faith is in high consideration for this group. They are likely to support any causes that reflect their teachings."}
+@{"Zeal rating 60%. The people of this faith are fierecely religious, and are likely to support any actions that comply with their beliefs."}
+@{"Zeal rating 70%. This religion has a following that can only be described as fanatical."}
+
+
+@["health_rating"]
+@{"Health rating 0. This country is populated only by the dead and dying. Something must be done to improve health here."}			//0% -> 9% health
+@{"Health rating 1. The people of this country are being decimated by disease."}													//10% -> 19% health
+@{"Health rating 2. The poor living conditions of this country means the populuation is constantly battling with ill-health."}		//20% -> 29% health
+@{"Health rating 3. Conditions, although tolerable, are far from ideal. Poor health makes people unhappy."}						//30% -> 39% health
+@{"Health rating 4. The peasants of this country are healthy enough to farm and fight, which is all that is required of them."}		//40% -> 49% health
+@{"Health rating 5. The health of the people is stable. No further consideration as to their wellfare need be made."}				//50% -> 59% health
+@{"Health rating 6. Conditions in this country are better than average, and the happiness of the people reflects this."}			//60% -> 69% health
+@{"Health rating 7. The good living conditions in this country play a major role in the happiness of its people."}					//70% -> 79% health
+@{"Health rating 8. Disease is virtually unknown here. The people are as healthy as they can be."}									//80% -> 89% health
+@{"Health rating 9. The vitality of these people is legendary. Death from disease is unusual."}										//90% ->  health
+
+
+
+
+//end of region info tooltips
+//=================================
+
+
+//=================================
+//army info parchment tooltips
+
+["leader_faction_shield_tooltip"]
+{"This man rules %s."} 				//Do not translate %s. Will be replaced by faction name, e.g. "This man rules France."
+
+["non_leader_faction_shield_tooltip"]
+{"This man fights under the banner of %s."}	//Do not translate %s. Will be replaced by faction name, e.g. "This man fights under the banner of France."
+
+["battles_won_tooltip"]
+{"The number of victories this man has commanded. "}
+
+["battles_won_tooltip2"]
+{"This value can increase leadership aptitude. "}
+
+["battles_lost_tooltip"]
+{"The number of occasions this man's army has suffered defeat. "}
+
+["battles_lost_tooltip2"]
+{"Experiencing too many defeats can have a detrimental effect on the field of battle. "}
+
+["baggage_train_tooltip"]
+{"Amount of gold this army must take to sustain it for one year if it is sent on an invasion mission. "}
+
+["baggage_train_tooltip2"]
+{"If the invasion fails and the baggage train is captured by the enemy, this value is taken out of your coffers. "}
+
+["num_men_tooltip"]
+{"The number of men that make up this commander's army. "}
+
+["num_ships_tooltip"]
+{"The number of ships that make up this fleet. "}
+
+["no_governorship_tooltip"]
+{"If this man holds a governorship, it is indicated here. "}
+
+["governorship_tooltip"]
+{"The name of the governorship this man bears. "}
+
+["no_office_tooltip"]
+{"If this man has been awarded a state office, the name of the office is shown here. "}
+
+["office_tooltip"]
+{"The name of the state office this man bears. "}
+
+["title_bonus_tooltip"]
+{"This title offers the following bonuses: "}
+
+
+
+//own general tooltips
+
+["loyalty_tooltip"]
+{"Indication of how loyal this general is. "}
+
+@["loyalty_rating"]
+@{"This man's plotting of your downfall is no doubt about to come to fruition. It would be best to remove him...permanently."}
+@{"This man is likely to be the cause of many of your problems both at home and abroad. Remove him and you will probably solve many of your rebellion difficulties."}
+@{"This man is either considering attempting a coup or well on the road to organising one. It is better to be safe than sorry and put him somewhere where he is unable to do so."}
+@{"This man's loyalty is in serious question. Placing him in charge of a large army may not be wise, in case you end up having to fight that army in the not too distant future."}
+@{"This man's faith in your leadership may be wavering. You should either take steps to improve his loyalty or keep him close to you."}
+@{"This man's loyalty to the country is what one would expect of a commander of your forces."}
+@{"This commander has sworn fealty to you and will keep his word of honour - of that you can have no doubt."}
+@{"This man's strong faith in your leadership abilities makes him most loyal to you. He should be considered worthy to lead a sizeable army."}
+@{"Should troubles threaten to erupt into a civil war, you can count on this man to be standing by your side."}
+@{"This man's staunch faith in you makes him a valuable man to have under your command. For him, no action is considered too base when defending your person or rule."}
+@{"None could ask for a man more loyal. He values your life above all others and will fight your cause absolutely and with no questions asked."}
+
+
+["influence_tooltip"]
+{"How much other factions and outside forces are swayed by his actions."}
+
+@["influence_rating"]
+@{"You are virtually ignored outside your own borders. Foreign parties consider you of little or no consequence."}
+@{"You command little influence in matters abroad. Other factions are highly unlikely to take heed of what you have to say."}
+@{"While you have a voice in the world, it is small and seldom heard. Steps must be taken to make other countries sit up and take notice."}
+@{"Your actions away from home, while having some influence, do not always reach the right ears. Increase your empire and be more decisive on the field of battle to capture the attention of other monarchs."}
+@{"You are recognised as a significant power in the world, but some countries still find it acceptable to politely ignore your suggestions. Perhaps a more forceful foreign policy is required."}
+@{"The realm you rule is regarded with respect and not a little envy. Small factions may follow your lead, but it will take a little more effort to make the major powers bend to your will."}
+@{"A proposal of alliance from you will be most seriously considered by all players in the world of politics. Choose your allies carefully - a fall from grace can be as equally spectacular as a rise."}
+@{"Foreign powers will fight amongst themselves to be favoured with an alliance with you. Used wisely, this state of affairs can guarantee your lineage for generations to come."}
+@{"You are amongst the select few in the world who can truly be said to have a major influence over your fellow man. You should be safe in the knowledge that whatever you do you, someone will support your decisions."}
+@{"You have the ear of many of the foreign powers in the world and the attention of all of them. Leaders who oppose you risk much indeed."}
+@{"No sane man would dare stand against you in matters of state. Treaties are likely to be accepted without a second thought and seldom broken by the other party, no matter what transgressions you may perform."}
+
+
+@["other_influence_rating"]
+@{"It is a wonder this man is considered a leader of his people at all, for the amount of influence he commands. Not a man to be considered a serious political threat."}
+@{"His opinions are of no matter in the world of international politics. He is not likely to affect actions of other parties as either an ally or an enemy."}
+@{"His opinions are of little consequence in the wider scheme of things, although he has been known to sway a vote in the past."}
+@{"One of the minor powers in the world. He is not a threat on his own, although small powers in large numbers have been known to cause problems for more influential parties."}
+@{"An influential man, but one need not take his word as law. He has some influence over the smaller factions, but others do not feel the need to consider his position when discussing foreign policy."}
+@{"A man who controls a nation which is fast becoming powerful in the political arena. Still not large enough to be considered a major power, but perhaps caution should be advised before dismissing him out of hand."}
+@{"One of the more desirable alliance prospects. Official ties with this man should be considered should the opportunity arise, but be wary of repercussions from this man's rivals."}
+@{"An alliance with this faction would certainly strengthen your position. Any effort required in making an alliance with this man would not be poorly spent."}
+@{"There are few men indeed who hold such influence in the decisions of neighbouring countries. It would be fortuitous to count this man as an ally - the alternative is not such a welcoming prospect."}
+@{"This man is one of the major players in the game of international politics. His words should be carefully considered before actions are taken. Some say this man has grown too powerful and should be watched with caution."}
+@{"This man has achieved the pinnacle of international power. Such influence should not be wielded by one man and steps should be taken to strip him of it before he grinds enemies and allies alike into the dust in his goal of total conquest."}
+
+
+["piety_tooltip"]
+{"How much support a religious population will offer this man. "}
+
+@["piety_rating"]
+@{"The fact that this man feels no compunction to safeguard his immortal soul is disconcerting. Perhaps he has none - an even greater cause for worry..."}
+@{"Perhaps he has noticed the places of worship that true believers pray in. If he is aware of their existence, he is certainly not aware of their correct purpose."}
+@{"He is only dimly aware of the omnipotent forces that guide our daily lives. Ignorance will not save this man from his fate when the Day of Judgement is at hand."}
+@{"His continued ignorance of the divine means that the devout will, in turn, ignore him in his hour of need."}
+@{"A familiarity with prayer may be enough to participate in worship, but only a true follower will secure the support of the religious masses."}
+@{"This man can be considered a true believer, although his faith has not dominated his life. A few like-minded individuals may support him should he request it."}
+@{"A faithful man that is more devout than most, this individual can expect to garner support from the religious communities whose religious views match his own."}
+@{"Religion plays a significant part in this man's life. Should the need arise, his belief will secure some support from the population's faithful."}
+@{"Seen as a major participator in religious activities, this man's popularity amongst those of his faith will ensure sizeable support should he call for it."}
+@{"God-fearing but persuasive, this man can whip up the faithful masses into a frenzy. Should he call for support, a sizeable force would muster to meet his request."}
+@{"One of the most active public figures in his religious community, this man's fervour will rouse all but the most apathetic amongst the followers of his faith."}
+
+
+["dread_tooltip"]
+{"The degree to which this man instills fear in others. "}
+
+@["dread_rating"]
+@{"This man is considered approachable by all, generally as either the instigator or the butt of some joke or other."}
+@{"A jovial character who is easy to get to know although there is, perhaps, a hardness about him that warns that he will only be pushed so far."}
+@{"Open and friendly most of the time but given to bouts of moody introspection. There is a glimmer of something dark in this man's personality, although he hides it extremely well."}
+@{"In general, a pleasant person, although he has been known to have one or two explosive outbursts. His bark is considered to be much worse than his bite."}
+@{"On first glance, he exudes charm and easy smiles, but there are stories told that this man's past hides darker deeds. However, there is no evidence to back up this suspicion."}
+@{"His steely gaze and tendency to stay silent have been enough to unnerve many a steadfast man. Not especially malevolent but there is something about this man that strikes a chord. Caution is advised."}
+@{"Tales of brutality towards prisoners have tainted this man's record. The rumours are wild, but reported incidents cannot be completely dismissed as mere stories."}
+@{"This man has had the blood of innocents on his hands on more than one occasion. His public face is that of man who is prepared to go further than most to attain his goals. Such men are useful, but also dangerous."}
+@{"Stories of his butchering of women and children may be unfounded, but he has certainly waded across lakes of blood to achieve his objectives. "}
+@{"People fall silent when he enters a room. He seems to walk shrouded in permanent shadow. Tales of his deeds, both mighty and vile, are told in whispers."}
+@{"A tempestuous man whose brutality is matched only by his remorselessness. None are safe from him - adult, child, prince or pauper - all will bend to his will or suffer the consequences. "}
+
+
+["generalship_tooltip"]
+{"How able this man is to command a fighting force. "}
+
+@["generalship_rating"]
+@{"As a general, he has yet to show any merit on the field of battle."}
+@{"He has shown aptitude when it comes to commanding others."}
+@{"A combination of good planning and efficient execution are apparent in this noteworthy commander."}
+@{"Some choice decisions on the battlefield have made this man stand out. Worthy of further observation."}
+@{"It is obvious to see that a devious military mind is emerging. We are witnessing the development of a superb commander."}
+@{"The enemy know fear when they see his banner flying on the field of combat. A sound military thinker and superb tactician."}
+@{"A man well respected and admired throughout the world as an excellent battlefield commander. No doubt he will continue to shine as his career continues."}
+@{"This man's uncanny ability on the field of battle has ensured victory after victory. Knowing who to preserve and who to sacrifice can make any battle turn to one's favour."}
+@{"One of the true greats when it comes to military command. This man has the knack of taking raw recruits and turning them into a fearsome war machine."}
+@{"Battles orchestrated by his hand almost seem to be accompanied by music. If there is an art to war, then this man is a master of his craft."}
+@{"A legend in his own lifetime on the battlefield, his grasp of military tactics is unsurpassed."}
+
+
+["acumen_tooltip"]
+{"How adept this man is at running an economy. "}
+
+@["acumen_rating"]
+@{"This man's education is on par with the common man, but no leader would entrust the running of a province to a peasant."}
+@{"Literacy and numeracy are essential qualities in any official post, so it is probably best to keep this man out of office."}
+@{"A rudimentary grasp of reading and writing means this man is better qualified than most to hold office."}
+@{"A somewhat slow learner, but he possesses a dogged determination that sees tasks through to the end. An adequate candidate for an official."}
+@{"His proficiency at economics and people management will ensure that the economy would not suffer, but it is unlikely to prosper either."}
+@{"A good mediator and one who has a working knowledge in all aspects of finance. One to consider for any role where financial stability is required."}
+@{"A knowledgeable man whose occasional flashes of inspiration have made him something of an authority on monetary matters."}
+@{"Sound business thinking in the past has allowed this man to prosper more than most. If left to his own devices, he would probably be quite an affluent merchant by now."}
+@{"One who seldom makes mistakes in matters of finance. Economies can only prosper under his governorship."}
+@{"A calculating personality and excellent educational background has honed this man into a person destined to hold office."}
+@{"A master economist who's grasp of trading, book-keeping and markets has made him one of the foremost experts in the world. Economies will flourish under his guidance."}
+
+
+//end of army info tooltips
+//=================================
+
+["alliance_shield_tooltip"]
+{"%s. Religion: %s"} // Don't translate %s. String will look like, e.g. "The English. Religion: Catholic"
+
+["your_fleet_xzy"]  
+{"Your Fleet"}
+
+["own_ship_xyz"]
+{"Your Ship"}
+
+//=================================
+// Agent tooltips section.
+//=================================
+
+@["tooltip_status"]
+@{"<Ally>"}
+@{"<Neutral>"}
+@{"<Enemy>"}
+
+["blockaded_status"]
+{"<Blockaded>"}
+
+//=================================
+// SPY tooltips..
+//=================================
+
+["own_spy_tooltip1"]
+{"Your spy."}
+
+@["own_spy_tooltip2"]
+@{"Royal agent and secret policeman."}
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him where you want him to go."}
+@{"In your provinces he will"}
+@{"apprehend enemy agents"}
+@{"and improve loyalty."}
+@{"In enemy provinces"}
+@{"he will gather detailed information"}
+@{"and provoke rebellions."}
+@{"Drop him on an army to discover"}
+@{"the secrets vices and virtues"}
+@{"of the commanding general and to"}
+@{"accuse the general of treason."}
+@{""}
+
+["other_spy_tooltip1"]
+{"%s spy\n%s"}			// Only 'Spy' needs translating, in the following context: The first '%s' will be replaced with a factions name, eg: 'Scottish spy'. The '\n' is a carriage return. The 2nd '%s' will be replaced with the status of your relationship with the spy's faction, eg: '< Neutral >'.
+
+@["other_spy_tooltip2"]
+@{"If he moves to your faction leader"}
+@{"he may make public his vices and virtues."}
+@{"He will also spy on any province"}
+@{"and report back details to his master."}
+@{"Drop an assassin on him"}
+@{"to kill him."}
+@{""}
+
+//=================================
+// ASSASSIN tooltips..
+//=================================
+
+["own_assassin_tooltip1"]
+{"Your assassin."}
+
+@["own_assassin_tooltip2"]
+@{"Trained assassin."}
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him on an army"}
+@{"to assassinate the commanding general."}
+@{"Drop him on an emissary or another person"}
+@{"to assassinate that individual."}
+@{"An assassin does some spying"}
+@{"so you can see details of the province he occupies."}
+@{""}
+
+["other_assassin_tooltip1"]
+{"%s assassin\n%s"}		// Same rule as ["other_spy_tooltip1"]
+
+@["other_assassin_tooltip2"]
+@{"If he moves to your faction leader"}
+@{"he may try to assassinate him."}
+@{"He may also try to kill your generals and agents."}
+@{"He will also spy on any province"}
+@{"and report back details to his master."}
+@{"Drop an assassin on him"}
+@{"to kill him."}
+@{""}
+
+
+//=================================
+// EMISSARY tooltips..
+//=================================
+
+["own_emissary_tooltip1"]
+{"Your emissary"}
+
+@["own_emissary_tooltip2"]
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him where you want him to go."}
+@{"Valid moves are highlighted."}
+@{"To propose a treaty"}
+@{"drop him on a rival faction leader."}
+@{"Drop him on your army to strip"}
+@{"the commanding general of all his titles and offices."}
+@{"He also does some spying"}
+@{"so you can see details of the province he occupies."}
+@{""}
+
+["other_emissary_tooltip1"]
+{"%s emissary\n%s"}		// Same rule as ["other_spy_tooltip1"]
+
+@["other_emissary_tooltip2"]
+@{"If he moves to your faction leader"}
+@{"he may propose a treaty."}
+@{"He will also spy on the province"}
+@{"and report back details to his master."}
+@{"Drop an assassin on him"}
+@{"to kill him."}
+@{""}
+
+//=================================
+// PRIEST tooltips..
+//=================================
+
+["own_priest_tooltip1"]
+{"Your Orthodox bishop."}
+
+@["own_priest_tooltip2"]
+@{"Spreads Orthodox Christianity."}
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him where you want him to go."}
+@{"Valid moves are highlighted."}
+@{"He will promote Orthodox Christianity"}
+@{"in whichever province he currently occupies."}
+@{"To propose a treaty"}
+@{"drop it on an enemy faction leader."}
+@{"He also does some spying"}
+@{"so you can see details of the province he occupies."}
+@{""}
+
+["other_priest_tooltip1"]
+{"%s priest\n%s"}		// Same rule as ["other_spy_tooltip1"]
+
+@["other_priest_tooltip2"]
+@{"Spreads Orthodox Christianity."}
+@{"If he moves to your faction leader"}
+@{"he may propose a treaty."}
+@{"He also acts as a spy for his faction."}
+@{"Drop an assassin on him"}
+@{"to kill him."}
+@{""}
+
+//=================================
+// BISHOP tooltips..
+//=================================
+			   
+["own_bishop_tooltip1"]
+{"Your bishop."}
+			   	
+@["own_bishop_tooltip2"]
+@{"Spreads Catholic Christianity."}
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him where you want him to go."}
+@{"Valid moves are highlighted."}
+@{"Will promote Catholicism"}
+@{"in whichever province he currently occupies."}
+@{"To propose a treaty"}
+@{"drop him on an enemy faction leader."}
+@{"He also does some spying"}
+@{"so you can see details of the province he occupies."}
+@{""}
+
+["other_bishop_tooltip1"]
+{"%s bishop\n%s"}		// Same rule as ["other_spy_tooltip1"]
+
+@["other_bishop_tooltip2"]
+@{"Spreads Catholic Christianity."}
+@{"If he moves to your faction leader"}
+@{"he may propose a treaty."}
+@{"He also acts as a spy for his faction."}
+@{"Drop an assassin on him"}
+@{"to kill him."}
+@{""}
+
+//=================================
+// ORTHODOX BISHOP tooltips..
+//=================================
+
+["own_obishop_tooltip1"]
+{"Your bishop."}
+
+@["own_obishop_tooltip2"]
+@{"Spreads Orthodox Christianity."}
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him where you want him to go."}
+@{"Valid moves are highlighted."}
+@{"He will promote Orthodox Christianity"}
+@{"in whichever province he currently occupies."}
+@{"To propose a treaty"}
+@{"drop it on an enemy faction leader."}
+@{"He also does some spying"}
+@{"so you can see details of the province he occupies."}
+@{""}
+
+["other_obishop_tooltip1"]
+{"%s Orthodox bishop\n%s"}		// Same rule as ["other_spy_tooltip1"]
+
+@["other_obishop_tooltip2"]
+@{"Spreads Orthodox Christianity."}
+@{"If he moves to your faction leader"}
+@{"he may propose a treaty."}
+@{"He also acts as a spy for his faction."}
+@{"Drop an assassin on him"}
+@{"to kill him."}
+@{""}
+
+//=================================
+// CARDINAL tooltips..
+//=================================
+
+["own_cardinal_tooltip1"]
+{"Your cardinal."}
+
+@["own_cardinal_tooltip2"]
+@{"Rapidly spreads Catholic Christianity."}
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him where you want him to go."}
+@{"Valid moves are highlighted."}
+@{"He will quickly promote Catholicism"}
+@{"in whichever province he currently occupies."}
+@{"To propose a treaty"}
+@{"drop him on an enemy faction leader."}
+@{"He also does some spying"}
+@{"so you can see details of the province he occupies."}
+@{""}
+
+["other_cardinal_tooltip1"]
+{"%s cardinal\n%s"}		// Same rule as ["other_spy_tooltip1"]
+
+@["other_cardinal_tooltip2"]
+@{"Rapidly spreads Catholic Christianity."}
+@{"If he moves to your faction leader"}
+@{"he may propose a treaty."}
+@{"He also acts as a spy for his faction."}
+@{"Drop an assassin on him"}
+@{"to kill him."}
+@{""}
+
+//=================================
+// INQUISITOR tooltips..
+//=================================
+
+["own_inquisitor_tooltip1"]
+{"Your inquisitor."}
+		   
+@["own_inquisitor_tooltip2"]
+@{"Increases Catholic Zeal."}
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him where you want him to go."}
+@{"Valid moves are highlighted."}
+@{"He increases the Zeal of the province he occupies."}
+@{"To purge a heretical or insufficiently pious general"}
+@{"drop him on an army."}
+@{"To try to purge a heretical king"}
+@{"drop him on a monarch"}
+@{"but this may not always work."}
+@{"He also does some spying"}
+@{"so you can see details of the province he occupies."}
+@{""}
+
+["other_inquisitor_tooltip1"]
+{"%s inquisitor\n%s"}		// Same rule as ["other_spy_tooltip1"]
+
+@["other_inquisitor_tooltip2"]
+@{"Increases Catholic Zeal."}
+@{"If he moves to your monarch or one of your generals"}
+@{"he may kill them for being heretical."}
+@{"Drop an assassin on him"}
+@{"to kill him."}
+@{""}
+
+//=================================
+// GRAND INQUISITOR tooltips..
+//=================================
+
+["own_ginquisitor_tooltip1"]
+{"Your grand inquisitor."}
+
+@["own_ginquisitor_tooltip2"]
+@{"Greatly increases Catholic Zeal."}
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him where you want him to go."}
+@{"Valid moves are highlighted."}
+@{"He greatly increases the Zeal of the province he occupies."}
+@{"To purge a heretical or insufficiently pious general"}
+@{"drop him on an army."}
+@{"To try to purge a heretical king"}
+@{"drop him on a monarch"}
+@{"but there is a chance this may not work."}
+@{"He also does some spying"}
+@{"so you can see details of the province he occupies."}
+@{""}
+
+["other_ginquisitor_tooltip1"]
+{"%s Grand Inquisitor\n%s"}		// Same rule as ["other_spy_tooltip1"]
+
+@["other_ginquisitor_tooltip2"]
+@{"Greatly increases Catholic Zeal."}
+@{"If he moves to your monarch or one of your generals"}
+@{"he may kill them for being heretical."}
+@{"Drop an assassin on him"}
+@{"to kill him."}
+@{""}
+
+//=================================
+// ALIM tooltips..
+//=================================
+
+["own_mullah_tooltip1"]
+{"Your alim."}
+
+@["own_mullah_tooltip2"]
+@{"Spreads the teachings of Islam."}
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him where you want him to go."}
+@{"Valid moves are highlighted."}
+@{"Will aid the growth of the Islamic faith"}
+@{"in the province he currently occupies."}
+@{"To propose a treaty"}
+@{"drop him on an enemy faction leader."}
+@{"He also does some spying"}
+@{"so you can see details of the province he occupies."}
+@{""}
+
+["other_mullah_tooltip1"]
+{"%s alim\n%s"}			// Same rule as ["other_spy_tooltip1"]
+
+@["other_mullah_tooltip2"]
+@{"Spreads the teachings of Islam."}
+@{"If he moves to your faction leader"}
+@{"he may propose a treaty."}
+@{"Drop an assassin on an alim"}
+@{"to kill him."}
+@{""}
+
+//=================================
+// IMAM tooltips..
+//=================================
+
+["own_ulama_tooltip1"]
+{"Your imam."}
+
+@["own_ulama_tooltip2"]
+@{"Rapidly spreads the teachings of Islam."}
+@{"Left-click to select him."}
+@{"Left-click and hold to pick him up."}
+@{"Drop him where you want him to go."}
+@{"Valid moves are highlighted."}
+@{"Will aid the growth of the Islamic faith"}
+@{"in the province he currently occupies."}
+@{"To propose a treaty"}
+@{"drop him on an enemy faction leader."}
+@{"He also does some spying"}
+@{"so you can see details of the province he occupies."}
+@{""}
+
+["other_ulama_tooltip1"]
+{"%s imam\n%s"}			// Same rule as ["other_spy_tooltip1"]
+
+@["other_ulama_tooltip2"]
+@{"Rapidly spreads the teachings of Islam."}
+@{"If he moves to your faction leader"}
+@{"he may propose a treaty."}
+@{"Drop an assassin on an imam"}
+@{"to kill him."}
+@{""}
+
+//=================================
+// PRINCESS tooltips..
+//=================================
+
+["own_princess_tooltip1"]
+{"Your princess."}
+
+@["own_princess_tooltip2"]
+@{"Left-click to select her."}
+@{"Left-click and hold to pick her up."}
+@{"Drop her where you want her to go."}
+@{"Valid moves are highlighted."}
+@{"Drop her where you want her to go."}
+@{"Drop her on a faction leader to propose"}
+@{"marriage into that faction."}
+@{"If all the faction's royalty are already married"}
+@{"she will propose a treaty instead."}
+@{"Drop her on one of your armies"}
+@{"to propose marriage to its general"}
+@{"and secure the man's loyalty."}
+@{"She also does some spying"}
+@{"so you can see details of the province she occupies."}
+@{""}
+
+["other_princess_tooltip1"]
+{"%s princess\n%s"}		// Same rule as ["other_spy_tooltip1"]
+
+@["other_princess_tooltip2"]
+@{"If she moves to your faction leader"}
+@{"she may propose a marriage or treaty."}
+@{"Drop an emissary on a princess"}
+@{"to propose a marriage with her"}
+@{"if your faction has a royal bachelor available."}
+@{"Drop an assassin on a princess"}
+@{"to kill her."}
+@{""}
+
+
+
+["admiral_battles_lost_tooltip"]
+{"The number of sea battles this admiral has lost."}
+
+["admiral_battles_won_tooltip"]
+{"The number of sea battles this admiral has won."}
+
+["genral_battles_lost_tooltip"]
+{"The number of sea battles this admiral has lost."}
+
+["general_battles_won_tooltip"]
+{"The number of sea battles this admiral has won."}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+// Pre battle screen tooltips..
+
+["players_main_army1"]
+{"Your opening army."}
+
+@["players_main_army2"]
+@{"This is the army you will place on the battlefield"}
+@{"at the beginning of the battle."}
+@{"You may exchange units in this army"}
+@{"for units in your reinforcements army"}
+@{"if you have reinforcements available."}
+@{""}
+
+["players_allies_main_army1"]
+{"Your allies opening army."}
+
+@["players_allies_main_army2"]
+@{"This is the army your ally will enter the battle with."}
+@{""}
+
+["cpus_main_army1"]
+{"Your opponents opening army."}
+
+@["cpus_main_army2"]
+@{"This is the army you will face, once on the battlefield."}
+@{"If you have spies in the region of battle"}
+@{"additional information about his army will be revealed"}
+@{"depending on the number and level of your spies."}
+@{""}
+
+["cpus_allies_main_army1"]
+{"Your opponents allies opening army."}
+
+@["cpus_allies_main_army2"]
+@{"This is the army your opponents ally will enter the battle with."}
+@{""}
+
+["players_reinforcements1"]
+{"Your reinforcements."}
+
+@["players_reinforcements2"]
+@{"You may alter the order of your reinforcements"}
+@{"and exchange them for units in your opening army."}
+@{"Left click and release to attach a unit to your cursor,"}
+@{"Left click again to insert the attached unit into a slot."}
+@{"If the force you are inserting into is full, the held unit"}
+@{"will instead be exchanged with the unit in the slot."}
+@{""}
+
+["players_allies_reinforcements1"]
+{"Your allies reinforcements."}
+
+@["players_allies_reinforcements2"]
+@{"Your ally has given you his order of reinforcements,"}
+@{"though you may not alter his decisions,"}
+@{"it may allow you to better order your own reinforcements."}
+@{""}
+
+["cpus_reinforcements1"]
+{"Your opponents reinforcements."}
+
+@["cpus_reinforcements2"]
+@{"If you have spies in the region of battle"}
+@{"additional information about his reinforcements may be revealed,"}
+@{"depending on the number and level of your spies."}
+@{""}
+
+["cpus_allies_reinforcements1"]
+{"Your opponents allies reinforcements."}
+
+@["cpus_allies_reinforcements2"]
+@{"If you have spies in the region of battle"}
+@{"additional information about his reinforcements may be revealed,"}
+@{"depending on the number and level of your spies."}
+@{""}
+
+["players_general1"]
+{"The commanding general of your opening army."}
+
+@["players_general2"]
+@{"If you decide to exchange the initial general of your army,"}
+@{"the best man remaining will be automaticaly promoted"}
+@{"The stars to the right depict his command ability."}
+@{""}
+
+["players_allies_general1"]
+{"The commanding general of your allies opening army."}
+
+@["players_allies_general2"]
+@{"The stars to the right depict his command ability."}
+@{""}
+
+["cpus_general1"]
+{"The commanding general of your enemies army."}
+
+@["cpus_general2"]
+@{"The stars to the right depict his command ability."}
+@{""}
+
+["cpus_allies_general1"]
+{"The commanding general of your enemies allies army."}
+
+@["cpus_allies_general2"]
+@{"The stars to the right depict his command ability."}
+@{""}
+
+["savegame_icon_tooltip"]
+{"Quick-save your progress between battles."}
+
+["loadgame_icon_tooltip"]
+{"Quick-load your last quicksaved game."}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	Text added after 7th Jan 2003 begins here:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+
+SetShowTransOff //Do not translate.
+//???? Remove when localized.

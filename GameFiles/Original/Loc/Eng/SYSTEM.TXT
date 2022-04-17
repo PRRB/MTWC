@@ -1,0 +1,361 @@
+//
+// This contains the in system text.
+//
+
+//
+// Generally contains text for the various subsystems such as error codes.
+//
+
+
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If an untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated stings
+// easily and can see that they have no been 
+// translated when the program has been run.
+// Once the translation has been done acceptable
+// they should be removed.
+
+
+
+// iii) The data is organized as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is a another label"]
+// {"This is the another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later
+// The can be used to issue instructions or for 
+// Information.
+//
+
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localized.
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Charlie's japmap chat and auto connection gubbins
+//
+// note to translators: DO NOT CHANGE %s
+//
+/////////////////////////////////////////////////////////////////////////////
+
+["JMC_to_string"]
+{"To %s"}
+
+["JMC_all_string"]
+{"All"}
+
+["JMC_allies_string"]
+{"Allies"}
+
+["JMC_selection_string"]
+{"Selection"}
+
+["JMC_button_text"]
+{"SEND"}
+
+/////////////////////////////////////////////////////////////////////////////
+
+["JMCD_cd_key_title_text"]
+{"CD KEY:"}
+
+["JMCD_family_name_title_text"]
+{"FAMILY NAME:"}
+
+["JMCD_user_name_title_text"]
+{"USER NAME:"}
+
+["JMCD_password_title_text"]
+{"PASSWORD:"}
+
+["JMCD_remember_password_text"]
+{"Remember password"}
+
+["JMCD_none_text"]
+{"none"}
+
+/////////////////////////////////////////////////////////////////////////////
+["JMCD_starting_battle_text"]
+{"STARTING BATTLE..."}
+
+["JMCD_status_text"]
+{"STATUS:"}
+
+["JMCD_error_text"]
+{"ERROR:"}
+
+["JMCD_ok_button_text"]
+{"OK"}
+
+["JMCD_cancel_button_text"]
+{"CANCEL"}
+
+["JMCD_connect_button_text"]
+{"CONNECT"}
+
+["JMCD_retry_button_text"]
+{"RETRY"}
+
+["JMCD_abort_button_text"]
+{"ABORT"}
+
+/////////////////////////////////////////////////////////////////////////////
+
+["JMCD_autostart_text_idle"]
+{"IDLE"}
+
+["JMCD_autostart_text_error"]
+{"ERROR"}
+
+["JMCD_autostart_text_connecting"]
+{"CONNECTING TO GAMESPY ARCADE..."}
+
+["JMCD_autostart_text_logging_on"]
+{"LOGGING ON TO GAMESPY ARCADE..."}
+
+["JMCD_autostart_text_getting_own_ip_address"]
+{"FINDING THIS INTERNET ADDRESS..."}
+
+["JMCD_autostart_text_creating_room"]
+{"CREATING THE GAME ROOM ON GAMESPY ARCADE..."}
+
+["JMCD_autostart_text_joining_room"]
+{"JOINING THE GAME ROOM ON GAMESPY ARCADE..."}
+
+["JMCD_autostart_text_waiting_for_game"]
+{"WAITING FOR THE GAME HOST..."}
+
+["JMCD_autostart_text_getting_host_ip_address"]
+{"FINDING THE HOSTS INTERNET ADDRESS..."}
+
+["JMCD_autostart_text_waiting_for_session_info"]
+{"WAITING FOR GAME DETAILS..."}
+
+["JMCD_autostart_text_joining_game"]
+{"JOINING THE GAME..."}
+
+["JMCD_autostart_text_waiting_for_all_players_to_join"]
+{"WAITING FOR ALL PLAYERS TO JOIN THE GAME..."}
+
+["JMCD_autostart_text_waiting_for_all_players_to_set_army_data"]
+{"WAITING FOR ALL PLAYERS TO INITIALISE..."}
+
+["JMCD_autostart_text_disconnecting"]
+{"DISCONNECTING FROM GAMESPY ARCADE..."}
+
+/////////////////////////////////////////////////////////////////////////////
+
+["JMCD_autostart_error_text_none"]
+{"NONE"}
+
+["JMCD_autostart_error_text_unknown_error"]
+{"UNKNOWN ERROR"}
+
+["JMCD_autostart_error_text_failed_to_connect"]
+{"FAILED TO CONNECT TO GAMESPY ARCADE"}
+
+["JMCD_autostart_error_text_cd_key_incorrect"]
+{"INVALID CD KEY"}
+
+["JMCD_autostart_error_text_cd_key_in_use"]
+{"CD KEY IN USE"}
+
+["JMCD_autostart_error_text_name_or_password_incorrect"]
+{"NAME OR PASSWORD INCORRECT"}
+
+["JMCD_autostart_error_text_unknown_log_on_error"]
+{"UNKNOWN LOG ON ERROR"}
+
+["JMCD_autostart_error_text_log_on_timeout"]
+{"TIMED OUT LOGGING ON"}
+
+["JMCD_autostart_error_text_unknown_server_error"]
+{"UNKNOWN GAMESPY ARCADE SERVER ERROR"}
+
+["JMCD_autostart_error_text_disconnected_from_server"]
+{"DICONNECTED FROM GAMESPY ARCADE"}
+
+["JMCD_autostart_error_text_getting_own_ip_address_timeout"]
+{"TIMED OUT FINDING INTERNET ADDRESS"}
+
+["JMCD_autostart_error_text_failed_to_create_room"]
+{"FAILED TO CREATE THE GAME ROOM ON GAMESPY ARCADE"}
+
+["JMCD_autostart_error_text_create_room_timeout"]
+{"TIMED OUT CREATING THE GAME ROOM ON GAMESPY ARCADE"}
+
+["JMCD_autostart_error_text_failed_to_join_room_incorrect_password"]
+{"FAILED TO JOIN THE GAME ROOM ON GAMESPY ARCADE - INCORRECT PASSWORD"}
+
+["JMCD_autostart_error_text_failed_to_join_room_room_full"]
+{"FAILED TO JOIN THE GAME ROOM ON GAMESPY ARCADE - ROOM FULL"}
+
+["JMCD_autostart_error_text_failed_to_join_room_no_room"]
+{"FAILED TO JOIN THE GAME ROOM ON GAMESPY ARCADE - ROOM NOT FOUND"}
+
+["JMCD_autostart_error_text_join_room_timeout"]
+{"TIMED OUT JOINING THE GAME ROOM ON GAMESPY ARCADE"}
+
+["JMCD_autostart_error_text_waiting_for_game_timeout"]
+{"TIMED OUT WAITING FOR THE GAME HOST"}
+
+["JMCD_autostart_error_text_getting_host_ip_address_timeout"]
+{"TIMED OUT FINDING THE HOST INTERNET ADDRESS"}
+
+["JMCD_autostart_error_text_waiting_for_session_info_timeout"]
+{"TIMED OUT WAITING FOR GAME DETAILS"}
+
+["JMCD_autostart_error_text_joining_game_timeout"]
+{"TIMED OUT JOINING THE GAME"}
+
+["JMCD_autostart_error_text_joining_game_rejected"]
+{"REJECTED FROM JOINING THE GAME"}
+
+["JMCD_autostart_error_text_waiting_for_all_players_to_join_timeout"]
+{"TIMED OUT WAITING FOR ALL PLAYERS TO JOIN THE GAME"}
+
+["JMCD_autostart_error_text_waiting_for_all_players_to_set_army_data_timeout"]
+{"TIMED OUT WAITING FOR ALL PLAYERS TO INITIALISE"}
+
+/////////////////////////////////////////////////////////////////////////////
+
+["JMCD_battle_error_text_dropped_from_battle"]
+{"DROPPED FROM NETWORK BATTLE"}
+
+/////////////////////////////////////////////////////////////////////////////
+
+["JMCD_server_error_failed_to_connect"]
+{"FAILED TO CONNECT TO THE CAMPAIGN SERVER"}
+
+/////////////////////////////////////////////////////////////////////////////
+
+["JMCD_dialup_adapter_selected_title"]
+{"SELECTED ADAPTER:"}
+
+["JMCD_dialup_adapter_connected"]
+{"connected"}
+
+["JMCD_dialup_adapter_disconnected"]
+{"disconnected"}
+
+["JMCD_dialup_adapter_state_ok_text"]
+{"OK..."}
+
+["JMCD_dialup_adapter_state_connecting_text"]
+{"CONNECTING..."}
+
+["JMCD_dialup_adapter_state_connected_text"]
+{"CONNECTED..."}
+
+["JMCD_dialup_adapter_state_authenticating_text"]
+{"AUTHENTICATING..."}
+
+["JMCD_dialup_adapter_state_authenticated_text"]
+{"AUTHENTICATED..."}
+
+["JMCD_dialup_adapter_state_logon_text"]
+{"LOGGING ON..."}
+
+["JMCD_dialup_adapter_state_password_expired_text"]
+{"PASSWORD EXPIRED"}
+
+["JMCD_dialup_adapter_state_disconnected_text"]
+{"DISCONNECTED"}
+
+["JMCD_dialup_adapter_state_error_text"]
+{"ERROR"}
+
+["JMCD_dialup_adapter_state_authenticate_error_text"]
+{"AUTHENTICATION ERROR"}
+
+["JMCD_dialup_adapter_state_disconnecting_text"]
+{"DISCONNECTING..."}
+
+
+["CD_Loader_Insert_Disk_1"]
+{"Please Insert Medieval Total War Disk 1"}
+
+["CD_Loader_Insert_Disk_2"]
+{"Please Insert Medieval Total War Disk 2"}
+
+["Disk1_Req"]
+{"Disk 1 Required"}
+
+["Disk2_Req"]
+{"Disk 2 Required"}
+
+["Ins_Disk1"]
+{"Please Insert Disk 1"}
+
+["Ins_Disk2"]
+{"Please Insert Disk 2"}
+
+["MMX-Enabled processor"]
+{"An MMX-Enabled processor is required to play MEDIEVAL: TOTAL WAR."}
+
+["MMX Not Detected"]
+{"MMX Not Detected"}
+
+["DISK_LOW_1"]
+{"Please ensure that you have at least 100 megabytes of free space available on your main hard-drive\n
+and at least 30 megabytes free on the drive to which you installed Medieval:Total War."}
+
+["DISK_LOW_2"]
+{"Drive Space Too Low"}
+
+
+
+["NEIGHBOURLIST_ERROR"]
+{"Error in Neighbour List!"}
+
+
+["NEIGHBOUR_ERROR"]
+{"%s is in %s's neighbour list, but %s ISN'T in %s's neighbour list.\n"}
+
+
+["BORDER_ERROR"]
+{"There is no Border info available for travelling from %s to %s "}
+
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+["display_castle_toggle"]
+{"Press c to toggle castle pieces on and off"}
+
+["display_type_toggle"]
+{"Press z to toggle between the different types of pieces"}
+
+["display_side_toggle"]
+{"Press x to toggle between friendly and enemy pieces"}
+
+
+
+SetShowTransOff  // Do not translate.
+//???? Remove when localized.

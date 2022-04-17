@@ -1,0 +1,398 @@
+
+//*********************************************************************
+// 
+// The campaigns 'faction specific' and 'rebel' text strings:-
+// 
+// This is the default file used for arrays of faction names and arrays 
+// of text containing the full set of faction names in order.
+//
+// Rebel faction names also need to be placed in this file..
+//
+//*********************************************************************
+
+//faction leader names
+@["faction_leaders_xzy"]
+@{"The Rebel Leader"}
+@{"The Almohad Khalifah"}
+@{"The Byzantine Emperor"}
+@{"The King of the Danes"}   		
+@{"The Egyptian Sultan"}
+@{"The King of England"}
+@{"The King of France"}
+@{"The Holy Roman Emperor"}
+@{"The Italian Doge"}  		
+@{"The King of Poland"}   		
+@{"The Russian Grand Prince"}   		
+@{"The Spanish King"}
+@{"The Turkish Sultan"}
+@{"The King of Aragon"}
+@{"The Duke of Burgundy"}
+@{"The Khan of the Golden Horde"}
+@{"The King of Hungary"}
+@{"The Prince of Novgorod"}
+@{"The Pope"}
+@{"The King of Sicily"}
+@{"The Swiss Leader"}
+
+// This array dictates how the faction corresponding to the position in the list would address their leader.
+// eg. If your first faction was the English then you would want "King" at position 1, not at position 0 as this is always the rebels.
+
+@["king_titles"]	// Label
+@{"King "}			// Position 0
+@{"Khalifah "}		// Position 1
+@{"Emperor "}	
+@{"King "}		
+@{"Sultan "}	
+@{"King "}		
+@{"King "}		
+@{"Emperor "}	
+@{"Doge "}		
+@{"King "}		
+@{"Prince "}	
+@{"King "}		
+@{"Sultan "}	
+@{"King "}		
+@{"Duke "}		
+@{"Khan "}		
+@{"King "}		
+@{"Prince "}	
+@{"Pope "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+@{"King "}		
+
+
+@["custom_battle_menu_factions"]
+@{"Rebel"}
+@{"Almohad"}						  
+@{"Byzantine"}						  
+@{"Danish"}   						  
+@{"Egyptian"}						  
+@{"English"}						  
+@{"French"}							  
+@{"German"}							  
+@{"Italian"}  						  
+@{"Polish"}   						  
+@{"Russian"}   						  
+@{"Spanish"}						  
+@{"Turkish"}						  
+@{"Aragonese"}						  
+@{"Burgundian"}						  
+@{"Golden Horde"}					  
+@{"Hungarian"}						  
+@{"Novgorod"}						  
+@{"Papal"}							  
+@{"Sicilian"}						  
+@{"Swiss"}							  
+
+
+@["factions_posessive_xzy"]
+@{"Rebel"}
+@{"Almohad"}						  
+@{"Byzantine"}						  
+@{"Danish"}   						  
+@{"Egyptian"}						  
+@{"English"}						  
+@{"French"}							  
+@{"German"}							  
+@{"Italian"}  						  
+@{"Polish"}   						  
+@{"Russian"}   						  
+@{"Spanish"}						  
+@{"Turkish"}						  
+@{"Aragonese"}						  
+@{"Burgundian"}						  
+@{"Golden Horde"}					  
+@{"Hungarian"}						  
+@{"Novgorod"}						  
+@{"Papal"}							  
+@{"Sicilian"}						  
+@{"Swiss"}
+
+// The following is to accomodate languages requiring female forms of faction names for ["other_princess_tooltip1"] 
+// in tooltip.txt. For languages not requiring this copy whatever you have in ["factions_posessive_xzy"] (names.txt),
+// but obviously leave the label as is here.
+
+@["female_factions_posessive_xzy"]
+@{"Rebel"}
+@{"Almohad"}						  
+@{"Byzantine"}						  
+@{"Danish"}   						  
+@{"Egyptian"}						  
+@{"English"}						  
+@{"French"}							  
+@{"German"}							  
+@{"Italian"}  						  
+@{"Polish"}   						  
+@{"Russian"}   						  
+@{"Spanish"}						  
+@{"Turkish"}						  
+@{"Aragonese"}						  
+@{"Burgundian"}						  
+@{"Golden Horde"}					  
+@{"Hungarian"}						  
+@{"Novgorod"}						  
+@{"Papal"}							  
+@{"Sicilian"}						  
+@{"Swiss"}
+
+@["factions_xzy"]
+@{"The Rebels"}
+@{"The Almohads"}
+@{"The Byzantines"}
+@{"The Danes"}   		
+@{"The Egyptians"}
+@{"The English"}
+@{"The French"}
+@{"The Germans"}
+@{"The Italians"}  		
+@{"The Polish"}   		
+@{"The Russians"}   		
+@{"The Spanish"}
+@{"The Turkish"}
+@{"The Aragonese"}
+@{"The Burgundians"}
+@{"The Golden Horde"}
+@{"The Hungarians"}
+@{"The People of Novgorod"}
+@{"The Papacy"}
+@{"The Sicilians"}
+@{"The Swiss"}
+
+
+@["of_Clan_Names"]
+@{" of The Rebels"}
+@{" of The Almohads"}
+@{" of The Byzantines"}
+@{" of The Danes"}   		
+@{" of The Egyptians"}
+@{" of The English"}
+@{" of The French"}
+@{" of The Germans"}
+@{" of The Italians"}  		
+@{" of The Polish"}   		
+@{" of The Russians"}
+@{" of The Spanish"}
+@{" of The Turkish"}
+@{" of The Aragonese"}
+@{" of The Burgundians"}
+@{" of The Golden Horde"}
+@{" of The Hungarians"}
+@{" of The men of Novgorod"}
+@{" of The Papacy"}
+@{" of The Sicilians"}
+@{" of The Swiss"}
+
+@["factions_special_xzy"]
+@{"the Rebels"}
+@{"the Almohads"}
+@{"the Byzantines"}
+@{"the Danes"}   		
+@{"the Egyptians"}
+@{"the English"}
+@{"the French"}
+@{"the Germans"}
+@{"the Italians"}  		
+@{"the Polish"}   		
+@{"the Russians"}   		
+@{"the Spanish"}
+@{"the Turkish"}
+@{"the Aragonese"}
+@{"the Burgundians"}
+@{"the Golden Horde"}
+@{"the Hungarians"}
+@{"the People of Novgorod"}
+@{"the Papacy"}
+@{"the Sicilians"}
+@{"the Swiss"}
+
+@["factions_special_caps_xzy"]	
+@{"The Rebels"}
+@{"The Almohads"}
+@{"The Byzantines"}
+@{"The Danes"}   		
+@{"The Egyptians"}
+@{"The English"}
+@{"The French"}
+@{"The Germans"}
+@{"The Italians"}  		
+@{"The Polish"}   		
+@{"The Russians"}   		
+@{"The Spanish"}
+@{"The Turkish"}
+@{"The Aragonese"}
+@{"The Burgundians"}
+@{"The Golden Horde"}
+@{"The Hungarians"}
+@{"The People of Novgorod"}
+@{"The Papacy"}
+@{"The Sicilians"}
+@{"The Swiss"}
+
+@["rebel_factions_xzy"]             
+@{"the Alans"}                          
+@{"the Alsatians"}                      
+@{"the Anatolians"}                     
+@{"the Andalucians"}                    
+@{"the Angevins"}                       
+@{"the Apulians"}                       
+@{"the Arabs"}                          
+@{"the Armenians"}                      
+@{"the Basarabs"}                       
+@{"the Basques"}                        
+@{"the Bedouins"}                       
+@{"the Belarussians"}                   
+@{"the Berbers"}                                           
+@{"the Blois"}                          
+@{"the Bretons"}                        
+@{"the Bulgars"}                        
+@{"the Burgundians"}                    
+@{"the Castilians"}                     
+@{"the Catalans"}                       
+@{"the Cordobans"}                      
+@{"the Corsicans"}                      
+@{"the Cretans"}                        
+@{"the Croatians"}                      
+@{"the Cumans"}                         
+@{"the Cypriots"}                       
+@{"the Czechs"}                         
+@{"the Danes"}                          
+@{"the Dodecanese"}                     
+@{"the Egyptians"}                      
+@{"the English"}                        
+@{"the Finns"}                          
+@{"the Flemish"}                        
+@{"the Friesians"}                      
+@{"the Genoans"}                        
+@{"the Georgians"}                      
+@{"the Guiennes"}                       
+@{"the Hellenes"}                       
+@{"the Irish"}                          
+@{"the Jacquerie"}                      
+@{"the Khazars"}                        
+@{"the Landesadel"}                     
+@{"the Lascarids"}                      
+@{"the Leonese"}                        
+@{"the Levantines"}                     
+@{"the Lithuanians"}                    
+@{"the Livs"}                           
+@{"the Lombards"}                       
+@{"the Cyrenacians"}                        
+@{"the Maltese"}                        
+@{"the Maygars"}                        
+@{"the Mercians"}                       
+@{"the Moors"}                          
+@{"the Neapolitans"}                    
+@{"the Normans"}                        
+@{"the Norse"}                          
+@{"the Northumbrians"}                  
+@{"the Piasts"}                         
+@{"the Poles"}                          
+@{"the Pomeranians"}                    
+@{"the Portuguese"}                     
+@{"the Provencals"}                     
+@{"the Prussians"}                      
+@{"the Rebel Alliance"}                 
+@{"the Rhenish"}                        
+@{"the Rhomaioi"}                       
+@{"the Romans"}                         
+@{"the Rurikids"}                       
+@{"the Sardinians"}                     
+@{"the Saxons"}                         
+@{"the Schaunbergs"}                    
+@{"the Scots"}                          
+@{"the Seljuks"}                        
+@{"the Serbs"}                          
+@{"the Sicilians"}                      
+@{"the Swabs"}                          
+@{"the Swedish"}                        
+@{"the Swiss"}                          
+@{"the Toulousians"}                    
+@{"the Trapezuntines"}                  
+@{"the Tuaregs"}                        
+@{"the Tuscans"}                        
+@{"the Tyrolians"}                      
+@{"the Ugrians"}                        
+@{"the Venitians"}                      
+@{"the Vlads"}                          
+@{"the Volhynians"}                     
+@{"the Welfs"}                          
+@{"the Welsh"}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	Text added after 7th Jan 2003 begins here:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+["Victory"]
+{"Victory"}
+
+["Defeat"]
+{"Defeat"}
+
+["Victory_60"]
+{"You have conquered more than sixty percent of Europe. You may claim your victory 
+or continue onwards to total European Domination\n\n
+Do you wish to claim this lesser victory?
+"}
+
+["Victory_100"]
+{"You have achieved utter and total domination of Europe. Each and every one of your enemies 
+lies relegated to a footnote of history and your glory shall ever be noted with reverence."}
+
+["Victory_Glory"]
+{"The year is 1453 and the time has come to assess the glory of your realm. 
+Your Glorious Achievements outstrip those of all your rivals.\n\n
+Victory is yours."}
+
+["Loss_Glory"]
+{"The year is 1453 and the time has come for an accounting of your achievements. 
+I regret to inform you that your realm is not the most glorious in Europe.\n\n
+You have been found wanting in your sovereignty and now must accept defeat."}
+
+//////////////////////////////////
+["Loss_Glory2"]
+{"Despite surviving to the year of 1453, 
+your empire failed to attain the glory expected of it and you must now accept defeat."}
+
+["Victory_Glory2"]
+{"Even though your rivals survived alongside your outstanding empire, 
+they were unable to match your achievements. Glory is yours."}
+
+["Simple_Loss"]
+{"You failed in your primary undertaking of maintaining your empire and dynasty.\n
+You have lost."}
+
+["Victory_100_2"]
+{"Europe is entirely under your dominance and your place in history is assured.\n
+You have achieved total victory.
+"}
+
+["Victory_60_2"]
+{"Although total dominance eluded you, most of Europe is under your control.\n
+None would truly dispute your victory.
+"}
+
+["Time_Win"]
+{"The year is 1453 and the time has come to assess the worth of your realm.\n\n
+Your lands outstrip those of all your rivals and mastery of Europe was almost within your grasp. 
+Time would, surely, have granted total domination.\n\n
+Victory is yours."}
+
+["Time_Loss2"]
+{"Despite surviving to 1453 you were unable to secure a lasting position of power for your empire and dynasty 
+within Europe.\n
+You have lost."}

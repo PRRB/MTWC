@@ -1,0 +1,23 @@
+#3xx=buildings models
+*.3XX
+#tga=images
+*.tga
+#LBM=graphics files
+*.LBM
+#BIF=more image files
+*.BIF
+*.BIF_
+*.BIF__
+*.Buf
+*.mpg
+*.WAV
+
+#*.A3X
+#*.asar
+#*.bin
+#*.Bp8
+#*.CGF
+#*.dat
+#*.dll
+#*.exe
+#*.jjm #maps

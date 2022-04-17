@@ -1,0 +1,783 @@
+//
+// This contains the strat map tutorial text.
+//
+
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated strings
+// easily and can see that they have not been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organized as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later.
+// They can be used to issue instructions or for information.
+//
+
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localized.
+
+
+
+["Thats_Not_Right"]
+{"Please try again."}
+
+["Please_Click_Seal"]
+{"Throughout Medieval:Total War you will find information boxes
+ which you will need to close by clicking on the red seal icon.
+ It is positioned at the bottom of the instruction panel.\n\n
+Please click on it now."}
+
+["Seal_Remind"]
+{"Please don't forget the red seal marker."}
+
+["Click_Seal_Reminder"]
+{"The instruction panel will no longer ask you to click
+ on the red seal marker since the full campaign game will never remind you.
+ If the seal is present in a panel then you should left-click on it to continue.
+"}
+
+
+["Tutorial_lab"]
+{"Tutorial"}
+
+["welcome_gui_intro_lab"]
+{"Welcome to the Graphical User Interface intro tutorial."}                                                                      
+               
+["space_to_cont_lab"]
+{"Press space to continue."}
+
+["good_lab"]
+{"Good."}
+
+["excellent_lab"]
+{"Excellent."}		   
+			                                                                                        
+["start_xzy"]
+{"Let's start off by clicking the review panel (lower middle panel)."}
+                                                                                                    
+["select_danish_castle_xzy."]                                       
+{"Well done. Try selecting the castle in the Danish province."}
+                                                                                                    
+["no_try_again_xzy"]
+{"No, that's not it.Try again."}
+                                                                                                    
+["pick_second_from_left_unit_xzy"]                                                
+{"Good. Now pick up the second unit from the left."}
+                                                                                                    
+["not_danish_castle_xzy"]                                                 
+{"Sorry, that is not the Danish castle. Try again."}                                                
+                                                                                                    
+["drop_on_denmark"]                                                           
+{"Good. Drop it onto the Danish province."}                                                           
+                                                                                                    
+["wrong_unit_xzy"]                                                                     
+{"Sorry, that isn't the unit."}
+                                                                                                    
+["bring_up_gloryparch_xzy"]                                                 
+{"Well done. Finally bring up the Glory Parchment"}                                                 
+                                                                                                    
+["not_denmark_xzy"]                                                                       
+{"No, that's not Denmark."}                                                                       
+                                                                                                    
+["finished_tutorial_xzy"]
+{"Excellent. You have finished the tutorial."}                                                      
+                                                                                                    
+["not_it_try_again_xzy"]                                                                
+{"Sorry, that isn't it. Try again."}
+
+
+
+["stage1_title_lab"]
+{"Welcome"}
+
+["stage1_header_lab"]
+{"Introduction"}
+
+["stage1_body_lab"]
+{"Welcome to the Medieval:Total War Campaign Tutorial. In this first chapter
+ you will defend the forces of England from a northern invasion by the
+ armies of Scotland.
+ \n\n\nPress the red seal below to continue.
+"}
+
+["stage1_1_lab"]
+{"You hold sovereignty over the lands of Wessex...,"}
+
+["stage1_2_lab"]
+{"You hold sovereignty over the lands of Wessex...,\nMercia..."}
+
+["Northumbrage_"]
+{"You hold sovereignty over the lands of Wessex...,\nMercia...\nand Northumbria.
+\n\n\n\nPress the red seal marker below to continue.
+"}
+
+["Northum_header_lab"]
+{"Border Unrest"}
+
+["North_hassle"]
+{"Intelligence from Northumbria has sent urgent reports. An army has
+ been sighted massing in Scotland to the north of Northumbria. Let's inspect it.
+ \n\n\nPress the red seal marker to continue.
+"}
+
+["Army_in_Scotland"]
+{"Army in Scotland"}
+
+["Watch_in_NorthU"]
+{"The red and white banner beside the army gives an idea of its size.
+ The amount of red shows the number of men out of a maximum of one thousand.
+ \n\nInformants in Northumbria offer us more detail on the enemy in Scotland.
+ \n\nPlease click on the Scottish army.
+"}
+
+["Please_Click_Army_Scot"]
+{"Please click on the army in Scotland to inspect it."}
+
+["Explain_Rev_Panel_1"]
+{"This is the Review Panel. It shows the composition of this Scottish army. The red and white banner
+ gives a rough guide to its size but here you can see much more detail.
+\n\nNote that this army of Highland Clansmen has three units, each of 180 men.
+\n\nPlease click the seal
+"}
+
+["Explain_Rev_Panel_2"]
+{"So, the Scottish army has
+\n180 x 3 = 540 men. The number to the upper right of a unit icon shows the unit's valour,
+ which is 0 for each of these units.
+\n\nThe rank of the General of the army is shown in the small white flag with the gold star.
+\n\nPlease click the seal marker below.
+"}
+
+["Army_in_NorthU"]
+{"Army in Northumbria"}
+
+["Our_Army_in_NorthU"]
+{"Our only defence is the army in Northumbria.
+ You can see that it has less red in its banner than the Scottish army and so has fewer men.
+\n\nPlease click on the army in Northumbria to review your troops.
+"}
+
+["Please_Click_Army_NorthU"]
+{"Please click on the army in Northumbria to inspect it."}
+
+["Review_NorthU"]
+{"Now we can see our troops in Northumbria. We have 60 Spearmen and 60 Archers.
+ Our 120 men will have no hope of defending Northumbria should the Scottish invade.
+\n\nLet's see what we can do about this...
+"}
+
+["Defence_Plans"]
+{"Defend The Realm"}
+
+["Defence_Wessex1"]
+{"We will need more troops to defend our lands.
+\n\nIn Wessex, which is south of our current position,
+ we have a castle where we can train units. We will need to reposition the view on Wessex.
+"}
+
+
+["Defence_Wessex2"]
+{"Use the cursor keys to scroll the map to Wessex which is south of Northumbria.
+\n\nYou can also push the mouse against the edge of the screen to scroll.
+\n\nThe CursorKey helper will show the way..."}
+
+["Defence_Wessex3"]
+{"Well done, you found Wessex.
+\n\nYou can only train troops in provinces where you have fortifications and/or buildings.
+ We have a castle here in Wessex ready to train units.
+\n\nPlease click on the castle."}
+
+["Please_Click_Castle_Wessex"]
+{"Please click on the castle in Wessex so that we can begin to train fresh troops there."}
+
+["Please_Click_Train_Icon"]
+{"Please click on the Unit Training Icon so we can proceed to the Unit Training Panel where
+ we can train troops ready to repel the Scottish."}
+
+["Please_Click_Train_Icon2"]
+{"Please click on the Unit Training Icon so we can proceed to the Unit Training Panel where
+ we can train troops ready to attack Scotland."}
+
+["Troops_in_Wessex"]
+{"Troops in Wessex"}
+
+["Wessex_Train1"]
+{"If you look at the Review Panel you can see we have 100 Archers in the Castle.
+ We need more than this to defend Northumbria so let's start our training.
+\n\nPlease click on the Unit Training Icon."}
+
+["Training_panel_head"]
+{"Unit Training Panel"}
+
+["Training_panel_desc1"]
+{"The training panel shows which units can be trained in a province and which units are queued for training.
+ Each province can train one unit per year at most.\n\nHere in Wessex you currently can train only units
+ of peasants.
+\n\nPlease click on the Peasants icon."}
+
+["Training_panel_desc_Northu"]
+{"The training panel shows which units can be trained in a province and which units are queued for training.
+ Each province can train one unit per year at most.\n\nHere in Northumbria you currently can train only units
+ of peasants.
+\n\nPlease click on the Peasants icon."}
+
+["Please_Click_peasants"]
+{"The unit graphics near the top of the training panel show which troops you can
+ train in the currently selected province. We are about to train some peasants so please click
+ on the Peasants icon."}
+
+["Close_Train_parch"]
+{"Well done. You have now added a unit of Peasants to the training queue for Wessex.
+ The number beneath the hourglass next to the queue shows how many years it will take to
+ train the unit at the head of the queue.
+\n\nNow close the panel by clicking on the X in the top right corner."}
+
+["Close_Train_parch_Northu"]
+{"Fine, that's added a unit of Peasants to the Training Queue. They should be available
+ at the start of next year.
+\n\nClose the panel by clicking on the X in the top right corner."}
+
+["Please_Click_X"]
+{"To close the Training Panel you should now click on the X marker in the top right corner of the panel."}
+
+["Please_Click_X_B"]
+{"To close the Building Panel you should now click on the X marker in the top right corner of the panel."}
+
+["Reclick_Wessex_Castle"]
+{"Great. We now have troops in training in Wessex. If you recall,
+ we have a unit of Archers sitting in the castle. We will now remove those Archers from the castle
+ and move north to reinforce our borders.
+\n\nPlease click on the Castle in Wessex."}
+
+["Please_Click_Castle_Wessex2"]
+{"Please click on the castle in Wessex. This will bring up the Review Panel for the troops in the castle
+ so we can extract our unit of 100 Archers."}
+
+["Please_Click_Castle_Wessex3"]
+{"Please click on the castle in Wessex. This will bring up the Review Panel for the troops in the castle
+ so we can extract our unit of Peasants."}
+
+["Merge_Troops_Wessex"]
+{"Merge Armies in Wessex"}
+
+["Mobilize_Wessex"]
+{"Mobilize Your Army"}
+
+["Extract_Troops_Wessex"]
+{"OK. The Review Panel is again focused on the Castle in Wessex.
+ We shall now use 'Drag and Drop' to move the unit of Archers from the review panel to the army already
+ deployed in the field in Wessex.
+\n\nPlease left-click-and-hold on the unit of Archers in the review panel.
+"}
+
+["Extract_Peasants_Wessex"]
+{"OK. The Review Panel is again focused on the Castle in Wessex.
+ We shall again use 'Drag and Drop' to move the unit of Peasants from the review panel
+ into the field in Wessex.
+\n\nPlease left-click-and-hold on the unit of Peasants in the review panel.
+"}
+
+["Drag_Drop_Help"]
+{"Drag-and-drop is a hard task to get just right.
+\nPoint the cursor at the unit of Archers in the Review Panel.
+ Next press the left mouse button and hold it down. You can then carry the Archers over to the Army
+ already deployed in Wessex."}
+
+["Drag_Drop_Help_Peasants"]
+{"You must master the art of Drag-and-Drop.
+\nPoint the cursor at the unit of Peasants in the Review Panel.
+ Next press the left mouse button and hold it down. You can then carry the Peasants
+ and drop them in Wessex."}
+
+["Drag_Drop_Help_Peasants_Northu"]
+{"An easy mistake to make. Just left-click-and hold on the Peasants and move them to join the King's Army."}
+
+["Drop_on_King_Wessex"]
+{"Excellent. Now keep the left button held down and move the unit over to the Army sitting in Wessex
+ and then release the left button.
+\n\nThe unit icon of the Archers you are carrying with the cursor will light up when it is over the Army."}
+
+["Merge_Done_Wessex"]
+{"That's great. You have now merged the Archers with the King's own troops in Wessex.
+ Notice that the review panel has automatically switched to display the joint army.
+\n\nLet's use the same technique to move the King's Army piece in Wessex up to Mercia - the province just north of Wessex.
+"}
+
+["Try_Again_King_Wessex"]
+{"Let's use the 'Drag and Drop' technique to move the King's Army piece in Wessex up to Mercia
+ which is the province just north of Wessex.
+\n\nPlease click and hold with the left mouse button on the Army piece in Wessex.
+"}
+
+["Please_Click_King_Wessex"]
+{"This is the King's Army. Use the 'Drag and Drop' technique to pick it up and move it north to Mercia."}
+
+["Drop_In_Mercia1"]
+{"Very good. Notice that several provinces light up showing all the places the Army may move to.
+ Northumbria is in yellow since it is two moves away from Wessex. Also the Army icon will
+ highlight as you pass over the Castle since that too is a valid move.
+\n\nPlease drop the army in Mercia."}
+
+["End_Season_Tut"]
+{"We've nothing left to do now but commit our orders for the year.
+\n\nClick on the End Year icon and we'll see the results of our orders and move to the next year."}
+
+["End_Season_Tut5"]
+{"Battles in Medieval:Total War are always fought after all moves are completed. We've launched our attack
+ into Scotland so we've nothing left to do now but commit our orders for the year and wait to see the
+ enemy moves.
+\n\nClick on the End Year icon and we'll see the results of our orders and move to the next year."}
+
+["Let_Battle_Commence"]
+{"Let Battle Commence"}
+
+["End_Season_Tut2"]
+{"That's everything for this second year.
+\n\nClick on the End Year icon and we'll see the results of our orders and move to the next year."}
+
+["End_Season"]
+{"Year End"}
+
+["End_Season_Wait"]
+{"Please wait while your computer opponents manage their own deployments."}
+
+["Season_Two"]
+{"Year Two"}
+
+["Season_Three"]
+{"Year Three"}
+
+["Season_Four"]
+{"Year Four"}
+
+["Season_Five"]
+{"Year Five"}
+
+["Season_Six"]
+{"Year Six"}
+
+["Combat_Panel_1"]
+{"So, the Scottish invaded Northumbria, just as we feared. The Combat Panel presents your options
+ for a possible battle.
+\n\nSince we already know we have no real chance of success, please select the option
+ to 'Abandon the Province'."}
+
+["Abandon_Help"]
+{"We are not planning to contest this battle so select 'Abandon the Province' and your troops
+ in Northumbria will retreat to Mercia."}
+
+["Lost_Northu"]
+{"One of these large information panels should appear after each encounter with enemy forces.
+ As we already knew, we have just lost the province of Northumbria to the Scottish invaders.
+\n\nPlease click on the red seal in the information panel to continue."}
+
+["Lost_Northu2"]
+{"The Scottish have now taken our province of Northumbria.
+\n\nYou can see that your army from Northumbria has retreated into Mercia. Note that if
+ you ever abandon a province and have nowhere to retreat to your army will be eliminated.
+"}
+
+["Repel_Invaders"]
+{"Repel The Invaders"}
+
+["Regroup_Mercia_Tit"]
+{"Regroup in Mercia"}
+
+["Cant_See_Scotland"]
+{"Because we have lost Northumbria, we no longer own a province which is a neighbour of Scotland.
+\n\nThis is why we cannot get any information from Scotland and no longer see any
+ enemy armies there."}
+
+["Regroup_Mercia"]
+{"All is going according to plan.
+\nLuckily for us the Scottish only invaded with part of their huge army in Scotland. We should
+ strike back immediately into Northumbria with our forces in Mercia.
+\n\nWe'll merge the two Armies sitting in Mercia and launch a counter attack with the combined Army.
+"}
+
+["Merge_in_Mercia1"]
+{"Please use 'Drag and Drop' to move the army which retreated from Northumbria into the King's
+ army in Mercia.
+\n\nPlease left-click-and-hold on the army in Mercia.
+"}
+
+["Drag_Drop_Help_Mercia"]
+{"Remember how you moved the unit of Archers earlier.
+\nPoint the cursor at the Army in Mercia. Next press the left mouse button and hold it down
+ so you can carry the Army with the cursor.
+\nIt will highlight when it is over the King's Army.
+"}
+
+["Drop_on_King_Mercia"]
+{"Excellent. Now keep the left button held down and move the unit over to the King's Army in Mercia
+ and then release the left button.
+\n\nThe Army icon you are carrying with the cursor will light up when it is over the King's Army.
+"}
+
+["Attack_Northu"]
+{"Great. We now have all the troops in Mercia combined into a single army led by the King.
+\n\nNow pick up the King's Army and drop in into Northumbria. This will launch our
+ counter-attack and we can reclaim the province.
+"}
+
+["Attack_Northu_failmes"]
+{"We merged all of the troops in Mercia into a single army led by the King which we now
+ want to move into Northumbria to attack the Scottish army there.
+\n\nPlease pick up the King's Army and drop in into Northumbria to launch our
+ counter-attack so we can reclaim the province.
+"}
+
+["Drop_In_Northu1"]
+{"Very good. Recall that several provinces will usually light up showing all the places to which the Army may move.
+\n\nPlease drop the army in Northumbria to attack the Scottish army there."}
+
+["Drop_In_Northu2"]
+{"Very good. Recall that several provinces will usually light up showing all the places to which the Army may move.
+\n\nPlease drop the army in Northumbria to bring up your reinforments."}
+
+["Please_Click_King_Mercia"]
+{"This is the King's Army. Use the 'Drag and Drop' technique to pick it up and move it north to Northumbria."}
+
+["Counter_Attack"]
+{"Counter Strike"}
+
+["Remind_Peasants_Wessex_Castle"]
+{"The Castle in Wessex has a red and white banner showing that it contains troops so
+ our unit of Peasants should now be trained and ready.
+\n\nPlease click on the Castle in Wessex so we can bring them into the field.
+ We will then move them north as reinforcements.
+"}
+
+["Bring_Reinf"]
+{"Bring up the Rear"}
+
+["Drop_Peasants_Wessex"]
+{"Drop the Peasants in Wessex.
+\n\nNote that only the Wessex region has highlighted since from inside a Castle you can only
+ move a unit to the province the Castle occupies or to an army in the province which has
+ room to take the unit."}
+
+["Peasants_In_Wessex"]
+{"Well done. The Peasants now sit in their own Army in Wessex.
+\n\nPlease pick them up and move them on to Mercia so they will be ready to serve
+ as reinforcements in our coming attack on Scotland.
+"}
+
+["Please_Click_Peasants_Wessex"]
+{"This is the Army of your unit of Peasants.
+\nUse the 'Drag and Drop' technique to pick it up and move it north to Mercia."}
+
+["Please_Click_Peasants_Mercia"]
+{"This is the Army of your unit of Peasants.
+\nUse the 'Drag and Drop' technique to pick it up and move it north to Northumbria.
+"}
+
+["Drop_In_Mercia_Peasants"]
+{"Again several provinces light up showing all the places to which the Army may move.
+\nNorthumbria has not highlighted since you don't currently own that province. The Army icon will
+ highlight as you pass over the Castle since it is a valid move to return the Army to the Castle.
+\n\nPlease drop the army in Mercia."}
+
+["Try_Again_Peasants_Wessex"]
+{"Let's use the 'Drag and Drop' technique to move the Peasants' Army piece in Wessex up to Mercia
+ which is the province just north of Wessex.
+\n\nPlease click and hold with the left mouse button on the Army piece in Wessex.
+"}
+
+["Explain_Retreat_Northu"]
+{"Excellent. We've driven the Scottish army out of Northumbria.
+\n\nPlease click on the seal to close the information panel.
+"}
+
+["Close_Info_Panel"]
+{"Please click on the red seal in the information panel to continue."}
+
+["Regained_Northu"]
+{"One of these large information panels should appear after each encounter with enemy forces.
+ This one informs us of the good news that we've retaken Northumbria.
+\n\nPlease click on the red seal in the information panel to continue."}
+
+["Harvest_Tut"]
+{"Harvest Panel"}
+
+["Harvest_Tut_Desc"]
+{"Each year you will receive a harvest report.
+\n\nThis will give details of your expenses due to buildings and troop costs and 
+ will inform you of profits from farmland, mines and trade.
+\n\n\nPlease close the Harvest Panel."}
+
+["Another_Harvest"]
+{"Another Harvest report. You receive income each year from the provinces you control
+ and from trade and resources. You spend money in your Treasury to support
+ troops, train fresh units and to construct new buildings.
+\n\nYour Treasury is always displayed on the right-hand side of the main panel.
+\n\nPlease close the Harvest Panel.
+"}
+
+["Time_to_Review"]
+{"Time to Review"}
+
+["Recount_S3"]
+{"Our position is stronger now than when we started.
+\n\nYou have moved the King up to lead your troops in Northumbria and have
+ a unit of Peasants moving up through Mercia.
+\n\nLet's take another look around and begin our plans.
+"}
+
+["Scroll_to_Scotland_please"]
+{"Since we have re-conquered Northumbria, we have information on Scotland again
+ so we should take another look at the Scottish army and start to plan their elimination.
+\n\nLet's reposition the view on Scotland.
+\n\nThe CursorKey helper will show the way ..."}
+
+["Click_Scottish_Army_Review"]
+{"Just as a reminder and to see whether the Scottish have trained any extra units,
+ take a look at the army in Scotland.
+\n\nPlease click on the Scottish army."}
+
+["Scroll_to_Northu"]
+{"This Scottish army seems to be just as we last saw it.
+\n\nThere are three units of 180 men with no valour led by a general with no rank.
+ This pitiful army of 540 men will pose no problem to our forces.
+\n\nLet's scroll back down to Northumbria and look at our own troops."}
+
+["Scroll_to_Northu_S4"]
+{"Let's take the view back up to Northumbria and train another unit there. The advantage of training
+ troops on your front line is that they are ready to fight immediately.
+\n\nNotice that your new Fort is visible in Northumbria.
+\n\nPlease scroll up to Northumbria."}
+
+["Our_Army_in_NorthU_S3"]
+{"You can see by looking at the red and white banners next to the Scottish army and next
+ to our army that they still outnumber us. We should take a look inside our army to examine it.
+\n\nPlease click on the army in Northumbria.
+"}
+
+["Discuss_Army_Northu"]
+{"Your army in Northumbria now has:
+\n\n21 Royal Knights,
+\n160 Archers in two units,
+\n60 Spearmen
+\n\nA total of 241 men led by your King with rank of 3 and two unit leaders
+ with rank of 1. The most ranked general always leads.
+"}
+
+["Discuss_Army_Northu2"]
+{"With the one hundred Peasants coming up from Mercia we will have 341 men.
+\n\nRather than shuffle troops up from Wessex, we will now build a fortification
+ and train extra troops in Northumbria.
+\n\n\nPlease click in Northumbria to select the province itself.
+"}
+
+["New_Buildings"]
+{"New Buildings"}
+
+["Build_Northu"]
+{"Since you selected the province of Northumbria itself, the Review Panel shows the buildings
+ in the province. The one you can see is called a Watch Tower. It is the presence of the Watch Tower
+ that has allowed you to inspect the Army in Scotland.
+\n\nWe shall now build a Fort in Northumbria.
+\n\nPlease click on the building icon.
+"}
+
+["Please_click_Northumbria"]
+{"Please left-click in the highlighted part of the province of Northumbria"}
+
+["Please_click_Build"]
+{"Please click on the Build Icon and we will build a Fort in Northumbria"}
+
+["Build_panel_head"]
+{"Building Panel"}
+
+["Building_panel_desc1"]
+{"The building panel shows which buildings you can construct in a province and which buildings
+ are queued for construction. Here in Northumbria you already have quite a choice.
+\n\nAs with training units, each province can construct one building per year at most.
+\n\nPlease click on the Fort icon."}
+
+["Building_panel_desc2"]
+{"You have now queued a Fort for construction. As with the Training Panel for units,
+ the number beneath the hourglass shows the time to build the item at the head of the queue.
+\n\nYour Fort should be ready in one year.
+\n\nPlease close the panel by clicking on the X in the top right corner.
+"}
+
+["Scroll_Mercia"]
+{"Before we end this year we should bring the Army of Peasants north from Mercia into
+ Northumbria to join the rest of our forces. This brings our troops together and should
+ stop the Scottish striking again into Northumbria.
+\n\n\nPlease scroll the view to Mercia."}
+
+["Move_Peasants_Into_Northu"]
+{"Well done, Mercia is now back on screen.
+\n\nPick up the Army of Peasants and drop it into Northumbria.
+\n\n\nPlease click-and-hold on the Army in Mercia.
+"}
+
+["Move_Peasants_Into_Northu_Again"]
+{"We are moving north into Northumbria in preparation for an assault into Scotland.
+\n\nPick up your Army of Peasants in Mercia and drop it into Northumbria.
+"}
+
+["Fort_Completed_Northu"]
+{"Excellent, with our Fort ready in Northumbria we can train troops right on the front
+ line. Training them right on the border with Scotland ensures that they can be used for
+ battle as soon as they are built and we can strike into the heart of the Scottish.
+\n\nPlease close the Information Panel."}
+
+["Merge_Armies_Northu"]
+{"Let's merge the Armies in Northumbria and then we'll train an extra unit in the Fort.
+\n\nPlease pick up the King's Army and drop it onto the Army of Peasants.
+\n\nRemember, it will highlight when it sits over the other Army ready for you to release the left mouse button.
+"}
+
+["Please_Click_King_Northu"]
+{"This is the King's Army. Use the 'Drag and Drop' technique to pick it up and merge it with the Army
+ of Peasants."}
+
+["Train_in_Northu"]
+{"Well done. Note again that the Review Panel shows the combined army.
+\n\nWe're almost ready now to strike into Scotland. We first need to train another unit and we should
+ then have sufficient force for a successful attack.
+\n\n\nPlease click the Train Units icon.
+"}
+
+["Prepare_To_Attack"]
+{"Prepare to Attack"}
+
+["Get_Troops_Castle_Northu"]
+{"The unit of Peasants we were training in the Fort in Northumbria is now ready to be deployed.
+ You need to take them out of the Fort.
+\n\nPlease click on the Fort in Northumbria.
+"}
+
+["Please_Click_Castle_Northu"]
+{"Please click on the Fort in Northumbria so that we can deploy the unit of Peasants."}
+
+["Extract_Peasants_Northu"]
+{"The Review Panel is focused on the Fort in Northumbria.
+ Use 'Drag and Drop' to move the unit of Peasants from the review panel to the King's Army
+ deployed in Northumbria.
+\n\nPlease drag the unit of Peasants to the King's Army.
+"}
+
+["The_Final_Blow"]
+{"The Final Blow"}
+
+["Move_King_To_Scotland"]
+{"Finally we are ready to march into Scotland. We are still outnumbered but we have superior troops
+ and a superior General. We should win this easily.
+\n\nPlease pick up the Army in Northumbria and drop it in Scotland.
+"}
+
+["Move_King_To_Scotland2"]
+{"Excellent. Victory is close now.
+\n\nJust drop the Army in Scotland and then we will end the year.
+"}
+
+["Please_Click_King_Northu2"]
+{"This is the King's Army. Use the 'Drag and Drop' technique to pick it up and move it
+ to Scotland to attack the Scottish.
+"}
+
+["Final_Battle_Choice"]
+{"There's no point turning back now.
+\nIn the full game you could choose to fight the combat in the full 3D battle environment. Let's just
+ let the computer resolve this conflict for now.
+\n\nPlease select 'Automatically Resolve the Attack'.
+"}
+
+["Auto_Resolve_Help"]
+{"Please select 'Automatically Resolve the Attack' and we'll see the outcome of our attack.
+"}
+
+["The_Victory"]
+{"The Victory"}
+
+["Victory_Desc"]
+{"You win!
+\n\nWe lost more men than we might have liked and waiting a few more years to train more troops
+ in Northumbria would have produced a more decisive victory.
+\n\nPlease close the Victory Panel.
+"}
+
+["You_Own_Scotland"]
+{"The Glory is all yours.
+\n\nThe Scottish army is defeated and you have added Scotland to your Kingdom.
+\n\nPlease close the Information Panel.
+"}
+
+["Well_Done_Tut"]
+{"Congratulations"}
+
+["End_Tut_One"]
+{"
+\nThis ends the campaign tutorial.
+\n\nYou now have mastery of the basic elements of the campaign section of Medieval:Total War.
+\n\nPlease click the red seal to return to the game's Main Menu.
+"}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+["Explain_Rev_Panel_2_updated"]
+{"So, the Scottish army has
+\n180 x 3 = 540 men. The number to the upper right of a unit icon shows the unit's valour,
+ which is 1 for each of these units.
+\n\nThe rank of the General of the army is shown in the small white flag with the gold star.
+\n\nPlease click the seal marker below.
+"}
+
+["Scroll_to_Northu_updated"]
+{"This Scottish army seems to be just as we last saw it.
+\n\nThere are three units of 180 men with 1 valour led by a general with no rank.
+ This pitiful army of 540 men will pose no problem to our forces.
+\n\nLet's scroll back down to Northumbria and look at our own troops."}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	Text added after 7th Jan 2003 begins here:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+
+
+///////////////////////////////////
+SetShowTransOff  // Do not translate.
+//???? Remove when localized.

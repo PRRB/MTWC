@@ -1,0 +1,244 @@
+//
+// This contains the translated historical battle scenarios text.
+//
+
+//
+// Generally contains text for the various subsystems such as error codes.
+//
+
+
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If an untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated stings
+// easily and can see that they have no been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organised as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later.
+// They can be used to issue instructions or for information.
+//
+
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localised.
+
+["HistoricalData"]  {"Historical data."}
+
+
+//this file contains all the translated strings for the historical battles ( both stand
+//alone and the battles that make up historical campaigns ).
+
+
+["Milan_Title"]						{"The Milan Road"}
+["Milan_Rating"]				 	{""}
+["Milan_Description"]				{"Frederick Barbarossa's campaign in Italy was to re-establish the authority of the Holy Roman Empire, and even re-establish the very concept of the Empire. The Italians, having been independent for so long, were reluctant to yield to any external authority, especially one that wasn't even Italian! Barbarossa's campaign strategy in Italy was therefore everything that could be expected from a medieval warlord. It was thorough, brutal and effective. Barbarossa correctly guessed that the inhabitants of Milan would be more amenable to his demands if they were starving when he besieged them, so he made sure that this would be the case by cutting their supplies."}
+["Milan_Conditions"]			 	{"Take the town of Legnano and hold it with 10 men for a short length of time. Despite the strength of his bodyguard don't let your king be captured or killed."}
+["Milan_Trigger1_Desc"]				{"Ensure Barbarossa remains alive and on-field until the end."}
+["Milan_Trigger2_Desc"]				{"You have only 8 minutes in which to achieve victory."}
+["Milan_Trigger3_Desc"]				{"Take at least 10 men into the marked town and hold it for 3 minutes."}
+
+["Carcano_Title"]				 	{"Carcano 1160"}
+["Carcano_Rating"]				 	{""}
+["Carcano_Description"]				{"Carcano was the site of an epic battle between the Holy Roman Emperor Frederick and the joint forces of Milan and its near neighbours. According to some accounts of the battle Barbarossa was forced to withdraw behind the walls of Baradello when his forces were attacked in the flank by cavalry from Milan. The castle of Carcano was subsequently destroyed by the victors. You must do better than Barbarossa and win the battle."}
+["Carcano_Conditions"]			 	{"Don't lose your king, he is the driving force behind your campaign. If you lose more than 60% of your troops, you will soon run out of knights to fight for your cause. Frederick Barbarossa needed his knights to subdue Northern Italy."}
+["Carcano_Trigger1_Desc"]		 	{"Avoid death or routing to ensure victory over the Milanese."}
+["Carcano_Trigger2_Desc"]		 	{"Barbarossa must remain on the battlefield and must not fall."}
+["Carcano_Trigger3_Desc"]		 	{"If over 60 percent of your troops rout or die, the battle is lost."}
+["Carcano_Trigger4_Desc"]		 	{"You must defeat both Milanese armies to win."}
+
+["Legnano_Title"]				 	{"Legnano 1176"}
+["Legnano_Rating"]				 	{""}
+["Legnano_Description"]				{"Over a period of 16 years Frederick Barbarossa continued to campaign in Italy. At Legnano he ran into an army that was ready and waiting and, on the day, better organised and led. Historically, Barbarossa's army was defeated at Legnano by a combined force including troops from Lombardy, Milan and the Papal armies. His enemies even managed to kill his standard bearer and force Barbarossa to escape after abandoning his horse. He was forced to abandon his dreams of Imperial glory and make his peace with Pope Alexander III, finally being forgiven and accepted back into the Church in 1177. You have a chance to reverse this disastrous result for the Holy Roman Emperor."}
+["Legnano_Conditions"]			 	{"Destroy the Papal forces or kill their leader."}
+["Legnano_Trigger1_Desc"]		 	{"Prolong your chance of victory by keeping your troops alive and steady."}
+["Legnano_Trigger2_Desc"]		 	{"Keep Barbarossa alive and on the field until victory is achieved."}
+["Legnano_Trigger3_Desc"]		 	{"Victory can also be yours if you can defeat the Milanese force."}
+["Legnano_Trigger4_Desc"]		 	{"End the battle quickly by killing the Papal General."}
+
+["SanRomano_Title"]				 	{"San Romano"}
+["SanRomano_Rating"]			 	{""}
+["SanRomano_Description"]		 	{"Under siege by the Imperial Army lead by Frederick Barbarossa, the citizens of Milan became desperate enough to try any stratagem that would break the siege. With help unlikely to reach them from beyond the besieging army, their best option was to sally forth and attack. If they could reach the Imperial baggage train it could be destroyed and the besiegers would have to lift the siege. If they could destroy some of Barbarossa's siege engines and artillery this too would benefit them. A wise commander, such as Barbarossa, could still be caught off balance by such a sally, but would soon organise a temporary defence to counter it."}
+["SanRomano_Conditions"]		 	{"If the enemy reaches the marked area at any point with at least one man, your supply train will be lost to your cause."}
+["SanRomano_Trigger1_Desc"]		 	{"Do not let the enemy claim victory by defeating your army."}
+["SanRomano_Trigger2_Desc"]		 	{"Barbarossa must oversee his troops. Keep him alive and on the field."}
+["SanRomano_Trigger3_Desc"]		 	{"The Milanese will capture your train if they get just 1 man inside your picket."}
+["SanRomano_Trigger4_Desc"]		 	{"Hold out against the invaders for 20 minutes and they will abandon their assault."}
+["SanRomano_Trigger5_Desc"]		 	{"If you feel you can manage it, defeat both invading armies to ensure victory."}
+["SanRomano_Trigger6_Desc"]		 	{"DO NOT abandon your baggage train. Maintain a guard of at least 40 men inside your picket."}
+
+["MilanFort_Title"]				 	{"Milan Border Fort 1158"}
+["MilanFort_Rating"]			 	{""}
+["MilanFort_Description"]		 	{"This engagement is typical of many that had to be fought during Frederick Barbarossa's advance into northern Italy. The cities of Italy were rich by European standards and could afford better defences than only their city walls. They could also finance the construction of outlying forts and fortified villages that would either delay an attacker with yet another siege, or allow the defenders to sally forth and harrass an attacker's supply lines. To forestall such attacks, a prudent commander - and Barbarossa was a good general - would make sure the outlying defences were destroyed before moving on to his main objective. In this case, the small town has to be taken and held."}
+["MilanFort_Conditions"]		 	{"The Milanese border fort needs to be taken after a certain amount of time with at least 10 men."}
+["MilanFort_Trigger1_Desc"]			{"Should Barbarossa die or flee, this day will be lost."}
+["MilanFort_Trigger2_Desc"]			{"Defeat is your only reward should you fail to capture the fort before 21 minutes pass."}
+["MilanFort_Trigger3_Desc"]			{"You need to get at least 10 men inside the fort and hold it for 1 minute."}
+
+["Agincourt_Title"]					{"Agincourt 1415"}
+["Agincourt_Rating"]				{""}
+["Agincourt_Description"]			{"Agincourt is, perhaps, the most famous English victory in the Hundred Years' War. Following a siege at Harfleur, Henry V lead his small, tired army on a march towards Calais and safety. He was trapped by a larger French army - some say five times as many men - and most of the English expected to die. In the event, the French nobility were their own worst enemies. They charged forward in search of glory and easy victory and met only death as they were shot down by English longbowmen. With Agincourt, Henry V began a campaign that almost put him on the French throne, but his triumphs were squandered by his successors."}
+["Agincourt_Conditions"]			{"Ensure that your general is not killed and also crush the spirit of the French and make them rout from the field."}
+["Agincourt_Trigger1_Desc"]			{"Protect King Henry. The battle is lost if he is killed"}
+["Agincourt_Trigger2_Desc"]			{"Make sure your army isn't routed or slaughtered."}
+["Agincourt_Trigger3_Desc"]			{"Break the French army. Kill them, or force them to rout."}
+									
+["Crecy_Title"]						{"Crécy 1346"}
+["Crecy_Rating"]				  	{""}
+["Crecy_Description"]				{"Crécy was the opening battle of Edward the Black Prince's assault on Normandy, one of the early campaigns of the Hundred Years' War. The French had been careful to avoid battle with the tactically superior English, but at Crécy they had the advantage of numbers and, apparently, better morale too. Edward chose a defensive position for his army and waited for the French attack. After exchanges between the English longbowmen and the French crossbows, the French knights lost patience and charged forwards - they even managed to trample their own crossbowmen! With little discipline, the French were cut down in droves and French knighthood lost its bravest and best."}
+["Crecy_Conditions"]			 	{"You have to make sure that you protect your general and he does not get killed.  You also must then defeat the French attacks on your position."}
+["Crecy_Trigger1_Desc"]				{"Edward, the Black Prince, must survive the battle."}
+["Crecy_Trigger2_Desc"]				{"Ensure your army does not run from the battlefield."}
+["Crecy_Trigger3_Desc"]				{"King Phillip of France cannot be allowed victory. Defeat his army."}
+
+["Poitiers_Title"]				  	{"Poitiers 1356"}
+["Poitiers_Rating"]				 	{""}
+["Poitiers_Description"]		 	{"Ten years after his victory at Crécy, Edward the Black Prince was still campaigning in France. In 1356 an army under King Jean Le Bon of France caught up with an English raiding force near Bordeaux. Once again, the English proved themselves to be masters of selecting ground for a fight that suited them, not the French. The English longbows wreaked terrible damage, and the French 'battles' (or divisions) did not attack together. Surprised by an English counter attack, the French broke and fled, but their King was captured. Legend has it that after the battle the chivalrous Edward served dinner to his chief captive, King Jean, before sending him back to the Tower of London to await ransom."}
+["Poitiers_Conditions"]			 	{"The player has to survive long enough in order to wait for reinforcements that will help them to defeat the French.  Also you  must ensure that your general who is Edward the Black Prince does not get killed in battle."}
+["Poitiers_Trigger1_Desc"]		 	{"The Black Prince's survival is paramount. Protect him at all costs."}
+["Poitiers_Trigger2_Desc"]		 	{"Though outnumbered, your forces must stand firm. Rally any who flee!"}
+["Poitiers_Trigger3_Desc"]		 	{"Victory can only be achieved by defeating the army of King Jean."}
+
+["LoireValley_Title"]			 	{"The Loire Valley 1429"}
+["LoireValley_Rating"]			 	{""}
+["LoireValley_Description"]		 	{"Even with Orléans saved from its English attackers, there were still problems for the French. The Loire Valley was still full of English troops, as the English had abandoned their old strategy of raiding and despoiling the countryside to one of occupation and siege. Without this valley being cleared of English soldiers, the victory at Orléans would be a hollow one. With the English gone, the French would have a new freedom of action. Jeanne led her troops into the attack..."}
+["LoireValley_Conditions"]		 	{"Your objective is to invade the castle and get rid of the English occupants and get at least 100 men into the castle."}
+["LoireValley_Trigger1_Desc"]	 	{"Stand fast and strong in the face of the enemy. Die or run, and this day is theirs."}
+["LoireValley_Trigger2_Desc"]	 	{"Invade the castle, outnumbering the enemy within by at least 100 men for victory."}
+
+["Orleans_Title"]					{"Orleans 1429"}
+["Orleans_Rating"]					{""}
+["Orleans_Description"]				{"Once Jeanne d'Arc had convinced King Charles of France and his religious advisors that she wasn't mad or a heretic, it became clear that not only was she an inspirational leader, but she also had the practical military skills of a general many years her senior. With Orléans surrounded by an English army, the French needed a victory to lift the protracted siege, and with Jeanne as their living banner, they had a good chance of success..."}
+["Orleans_Conditions"]				{"Destroy all 4 of the English ballistae to claim victory."}
+["Orleans_Trigger1_Desc"]			{"If your army falls to the English, this battle is lost."}
+["Orleans_Trigger2_Desc"]			{"Destroy all 4 of the English ballistae to claim victory."}
+
+["Patay_Title"]						{"Patay 1429"}
+["Patay_Rating"]					{""}
+["Patay_Description"]				{"As the French continued to attack in the Loire Valley, the English garrison of Beaugency suspected that they had been abandoned. They left the town and moved off without expecting the French to be so close or to pursue them, even so they took the usual precautions for a march through hostile territory. The French pursued closely but carefully, determined that this time an English army would not get the chance to choose defensive ground of their own liking and that their own forces would not enter the fight in a piecemeal fashion to be shot down by longbowmen. The whole French force succeeded in catching the English before they could set a defensive position, and battle was joined."}
+["Patay_Conditions"]				{"Ensure Joan of Arc's place in French history by routing the English off the field of battle."}
+["Patay_Trigger1_Desc"]				{"Protect Joan of Arc's life. If she falls, who knows what the English will do to her?"}
+["Patay_Trigger2_Desc"]				{"Should your armies fall, the English have won. You cannot let this happen."}
+["Patay_Trigger3_Desc"]				{"You must repel the English intruders. Rout them or kill them, but defeat them you must."}
+
+["Arsuf_Title"]						{"Arsuf 1191"}
+["Arsuf_Rating"]					{""}
+["Arsuf_Description"]				{"The Frankish kingdoms in the Holy Land had met with mixed fortunes before the arrival of reinforcements in the shape of the Third Crusade. Before Richard Coeur de Lion and Philip II Augustus of France arrived, the Crusaders had been too weak to be much of a threat to Saladin, but with help from these European monarchs, they managed to break into Acre and take it from the Saracens. In September 1191, after a year of frustation and unhappiness with their further progress, the Crusaders moved south from Acre, making for the town of Jaffa. Outside the small settlement of Arsuf, they met a Saracen army in the open. Richard's tactical sense proved to be the decisive factor, and his victory at Arsuf restored the morale of the Third Crusade, as it proved that the Saracens were not invincible even with the example of Saladin to inspire them."}
+["Arsuf_Conditions"]				{""}
+["Arsuf_Trigger1_Desc"]				{"Keep King Richard alive."}
+["Arsuf_Trigger2_Desc"]				{"Make sure enough of your troops stand fast and survive Saladin's onslaught."}
+["Arsuf_Trigger3_Desc"]				{"Rout or kill Saladin's army in its entirety."}
+
+["Jaffa_Title"]						{"Jaffa 1191"}
+["Jaffa_Rating"]					{""}
+["Jaffa_Description"]				{"The capture of Jaffa marked a high point for the warriors of the Third Crusade under their leader, Richard Coeur de Lion. After their victory at Arsuf in September 1191, the Crusaders took the city, but got no closer to their final goal of capturing Jerusalem. Richard's army encamped outside the city because of the stench of the dead within the walls, for in medieval times it was well-known that foul smells caused disease. In this battle, a large Saracen force has appeared, cutting off any chance of retreat and with the walls at their backs, Richard's army has no easy avenue of retreat. The Crusader position is, however, far from hopeless. Defeating Saladin's army just requires nerve and a little daring. The trick is to stand fast and use archers to weaken the Saracens as they approach and then launch a counter-charge at the right moment. Learning to judge the 'right moment' is part of matching King Richard's strategic skill!"}
+["Jaffa_Conditions"]				{""}
+["Jaffa_Trigger1_Desc"]				{"Keep King Richard alive."}
+["Jaffa_Trigger2_Desc"]				{"Make sure enough of your troops stand fast and survive Saladin's onslaught."}
+["Jaffa_Trigger3_Desc"]				{"Rout or kill Saladin's army in its entirety."}
+
+["Acre_Title"]						{"Acre"}
+["Acre_Rating"]						{""}
+["Acre_Description"]				{"Under the leadership of King Guy of Jerusalem the Crusaders besieged Acre, but were both discomforted by the arrival of a relief force under Saladin and encouraged by the arrival of their own reinforcements. King Guy and his advisors decided to launch an attack on the Muslim encampment, rather than simply concentrating on their siege works. Guy gave orders for his army to make ready for a pitched battle, and initially everything seemed to go well. He had chosen a reasonably strong position for his army, with one flank protected by the sea and the other by the River Belus, and his archers and crossbowmen in the front. But problems soon came about when his men - and especially the more mobile cavalry - realised there was the prospect of loot from the nearby Muslim encampment. Once the Crusaders had dispersed to look for money and valuables, Saladin was able to rally his forces and counterattack."}
+["Acre_Conditions"]					{"You should kill, or force the rout of, all the Franks and Crusaders on the battlefield. Historically, Saladin managed to capture and then execute the Master of the Temple, thus finishing off one of his most implacable enemies. "}
+["Acre_Trigger1_Desc"]				{"Protect Sultan Saladin - Should he fall, the Crusaders will claim victory."}
+["Acre_Trigger2_Desc"]				{"Maintain your army long enough to ensure the defeat of Guy's Forces."}
+["Acre_Trigger3_Desc"]				{"The Crusaders must be defeated. Rout or destroy King Guy's Army."}
+
+["Hattin_Title"]					{"The Horns of Hattin"}
+["Hattin_Rating"]					{""}
+["Hattin_Description"]				{"Thanks to early Muslim successes, the Crusaders were forced to set aside their internal disputes and campaign together. Saladin, however, didn't wait for them to come to him: he attacked along the main road to Tiberias and Sennabra, threatening both towns and the castle. An appeal for help against the Saracens was sent to King Guy of Jerusalem. Count Raymond of Tripoli advised waiting where there was water and pasture for the cavalry, even though his own wife was under siege at Tiberias. King Guy, however, chose to listen to the Master of the Temple, the commander of the Knights Templar, whose plan involved an immediate attack. The Franks broke camp, left the road, and moved across the barren wasteland of the Plain of Toran. Whether through spies or traitors, Saladin was warned of the approaching Crusaders and moved his army to the hills at Hattin, ready to fall on the Crusaders as they came out of the waterless plain and before they had chance form a battle line. Saladin's forces were in a perfect place to harass the tired, thirsty Crusaders as they advanced piecemeal into the fray."}
+["Hattin_Conditions"]				{"Your objective is to kill all the Frankish Crusaders or drive them from the battlefield."}
+["Hattin_Trigger1_Desc"]			{"Saladin must survive to continue the fight to drive away the Crusaders."}
+["Hattin_Trigger2_Desc"]			{"Avoid overwhelming losses through death or routing."}
+["Hattin_Trigger3_Desc"]			{"Kill the Frankish army or drive them from the battlefield."}
+
+["MarjAyyun_Title"]				   	{"Marj'Ayyun 1179"}
+["MarjAyyun_Rating"]			   	{""}
+["MarjAyyun_Description"]		   	{"Saladin was not a commander to wait for the enemy or to allow earlier problems to deflect him. On hearing that he had invaded towards Sidon, King Baldwin IV of Jerusalem ordered a counter-march to intercept the Saracen forces. Eventually, they reached a hilltop overlooking the Saracen encampment but, rather than waiting for their infantry to recover from the wearying march, the Frankish Crusaders advanced. Always impetuous - and in this case absolutely convinced that they were to have an easy victory by destroying the Saracens in camp - the nobles, knights and cavalry were soon disorganised and apart from the rest of the army. The supporting infantry was left straggling after, exhausted in the heat. Although there was a delay as Saracen skirmishers held off the Crusaders for a while, as the battle begins, the Crusader infantry forces are still not in proper positions to immediately affect the battle. The heavy knights may be too far forward, isolated from proper support and getting tired in their unsuitable, heavy armour."}
+["MarjAyyun_Conditions"]		   	{"Kill or drive off the Crusader forces."}
+["MarjAyyun_Trigger1_Desc"]		   	{"Saladin must survive the battle to continue his campaign."}
+["MarjAyyun_Trigger2_Desc"]		   	{"Protect your army. Suffer too many deaths or routings and the battle is lost."}
+["MarjAyyun_Trigger3_Desc"]		   	{"King Baldwin's army must be driven off or slaughtered."}
+
+["Mohi_Title"]						{"Mohi 1241"}
+["Mohi_Rating"]			   			{""}
+["Mohi_Description"]				{"When Batu Khan and Subadai Bahadur reached Hungary in the spring of 1241 they faced a large force of Hungarians supported by the Knights Templar. Feigning retreat for nine miles after reaching the city of Pest, the Mongols drew their enemies to the banks of a river near the village of Mohi, where they set up camp on high ground overlooking the bridge. Concealing their own camp, the Mongols watched as the Hungarians pitched their tents on the opposite bank, unaware that only a thin stretch of water separated them from the Golden Horde! As Batu led an attack on the bridge and the Templars guarding it, Subadai forded the river upstream, outflanked and routed the Hungarians. What followed was terrible carnage as the Mongols hunted down the fleeing troops all the way to Pest, which they razed to the ground. The Horde then marched on towards Vienna, only turning back when the death of Ogadai Khan required them to return to the East to choose his successor."}
+["Mohi_Conditions"]					{"Cross the river and attack the Hungarian camp before they mobilise.  Use the second river crossing to cut off the enemy flanks.  Rout the enemy from the battlefield. "}
+["Mohi_Trigger1_Desc"]				{"Prevent the Horde from routing or dying in too great a number."}
+["Mohi_Trigger2_Desc"]				{"Kill or rout the Hungarian army."}
+["Mohi_Trigger3_Desc"]				{"Defeat the Templar forces - rout them or kill them."}
+
+["Liegnitz_Title"]					{"Liegnitz 1241"}
+["Liegnitz_Rating"]				   	{""}
+["Liegnitz_Description"]			{"After destroying Kiev in December 1240 the Golden Horde turned its attention to Hungary, which offered a solid base for future attacks on Western Europe. The court of King Bela IV had also provided sanctuary for Russian princes fleeing the fall of Kiev. Whereas the main thrust of the attack was the Hungarian plains, in order to fully outflank the enemy the Mongols also invaded Poland. After they had captured Cracow and Sandomir the Silesian king Henry the Pious met the Golden Horde at Liegnitz in the spring of 1241 with a combined force including Teutonic Knights, led by their Grand Master. The Mongols managed to confuse and divide the Polish and German army before surrounding and beheading Henry."}
+["Liegnitz_Conditions"]				{"Kill the German general and capture or kill the Polish king.  Kill 50% of the enemy.  Rout all remaining enemies from the battlefield."}
+["Liegnitz_Trigger1_Desc"]			{"Kill both the Polish King AND the Teutonic Grand Master."}
+["Liegnitz_Trigger2_Desc"]			{"If the Polish King flees the battlefield, his cowardice will win him the day."}
+["Liegnitz_Trigger3_Desc"]			{"Allowing the Teutonic Grand Master to escape will hand you an unacceptable defeat."}
+["Liegnitz_Trigger4_Desc"]			{"Kill or rout at least half the combined opposing forces."}
+["Liegnitz_Trigger5_Desc"]			{"Ensure the Horde stands firm and does not suffer overwhelming death."}
+
+["Kalka_Title"]						{"Kalka River 1223"}
+["Kalka_Rating"]					{""}
+["Kalka_Description"]				{"In 1221, having conquered a large portion of Asia, Genghis Khan turned his attention to Eastern Europe. He ordered Jebei Noyon and Subadai Bahadur to lead a reconnaissance into Russia, a move that would bring dire consequences for medieval Europe. The Mongols had a major decisive victory at the Kalka River in 1223 against a fragile alliance of Russian princes, where they used their infamous 'feigned retreat' for the first time on European soil. Drawing the disorganised army across the river, the Mongols surrounded the Russians on the opposite bank and then pursued them as they fled from the battlefield. After the battle the Mongols marched eastward to rejoin Genghis Khan. They were not to return to Europe until 1237 - ten years after the Great Khan's death, when his son Ogadai ordered the Golden Horde to return and continue the conquest."}
+["Kalka_Conditions"]				{"Kill or rout the Russian army from the battlefield."}
+["Kalka_Trigger1_Desc"]				{"Do not let your men's resolve fail them or allow them to fall in great numbers."}
+["Kalka_Trigger2_Desc"]				{"Crush the Russian army under your boot, or send them weeping back to the soft arms of their women."}
+
+["Kiev_Title"]						{"Kiev 1240"}
+["Kiev_Rating"]						{""}
+["Kiev_Description"]				{"When the Golden Horde returned to Europe in 1236 they began by crushing the Kipchaks and Bulgars of the Steppes, before reaching Russia in late 1237. After decisive victories in Riazan, Vladimir and Moscow during the following year they stopped short of Novgorod and waited throughout 1239, resting in the Don basin before recommencing their onslaught at Kiev in 1240. The inhabitants of Kiev showed their defiance by executing the Mongol emissaries sent to demand their surrender. Batu Khan himself is said to have marvelled at the great city's beauty, but despite that he attacked fiercely with catapults, arrows and naptha.  When Kiev fell in December 1240 there was much slaughter - people were impaled and some had wood splinters driven under their fingernails, whilst priests were roasted alive and nuns were ravished upon the church altars."}
+["Kiev_Conditions"]					{"Protect your catapults against the sallying Russian forces whilst breaching the city walls on all sides.  Then get at least 1 man inside and kill the enemy general."}
+["Kiev_Trigger1_Desc"]				{"Protect the catapults. If even one is destroyed, you will know defeat this day."}
+["Kiev_Trigger2_Desc"]				{"If the Horde is routed or killed, the enemy will claim victory. Do not allow this to happen."}
+["Kiev_Trigger3_Desc"]				{"Take the Russian General's head."}
+["Kiev_Trigger4_Desc"]				{"Get at least 1 of the Horde inside the castle walls."}
+
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+["StamfordBridge_Title"]				{"Stamford Bridge 1066"}
+["StamfordBridge_Rating"]				{""}
+["StamfordBridge_Description"]			{"Stamford Bridge was the last Viking battle on English soil. Harold Godwinsson, the English King, had spent the summer of 1066 camped in Southern England awaiting the arrival of the Norman invasion fleet led by William the Duke of Normandy. To his surprise it was a Viking invasion force led by the Norwegian King, Harald Hardrada, that landed 250 miles to the North in a small village just outside York. Accompanied by the English King's brother, Earl Tostig, who had been recruiting troops in Scotland, King Harald’s army took the city of York and then marched East towards Stamford Bridge - where they would be joined by a Viking re-inforcement army led by Eystein Orri. It was here that King Harold’s men, exhausted after 5 days of forced marching, surprised Harald’s army on the banks of the River Derwent. The bridge was undefended - save for a solitary Viking who was determined to halt the English advance in time for the rest of the army to don their armour and prepare for battle..."}
+["StamfordBridge_Conditions"]				{"King Harald Hardrada, the Earl of Tostig and Eystein Orri must all be killed or routed from the field."}
+["StamfordBridge_Trigger1_Desc"]		{"If your king is killed, captured or runs away, you lose."}	
+["StamfordBridge_Trigger2_Desc"]		{"You must kill, capture or rout all 3 enemy generals to win"}
+["StamfordBridge_Trigger3_Desc"]		{"Achieve victory within 15 minutes or you will lose this day."}
+
+
+SetShowTransOff  // Do not translate.
+//???? Remove when localised.

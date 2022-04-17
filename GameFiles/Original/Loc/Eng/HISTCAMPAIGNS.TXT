@@ -1,0 +1,82 @@
+//
+// This contains the translated campaign startpos text.
+//
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If an untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated stings
+// easily and can see that they have no been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organised as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localised.
+
+["StartposData"]  {"StartPos data."}
+
+
+
+["Barbarossa_Description_Label"]
+{"Frederick Barbarossa was the King of Germany and Holy Roman Emperor for nearly 40 years. Like all Emperors, he dreamed of bringing the Empire back to its former greatness, which meant bringing Italy back into the Imperial fold and making sure that the Papacy was under Imperial control too. These two strategic aims were to take Barbarossa into Italy at the head of his armies, and lead to the his excommunication by Pope Alexander III in 1160. In return, Frederick simply chose to regard another churchman as the 'real' Pope and ignored Alexander! Barbarossa also launched many attacks into Northern Italy but was eventually forced to realise that he couldn't retake the Italian parts of the Holy Roman Empire by force. It is some of these battles that make up the campaign here. In 1177 he and Pope Alexander came to an agreement and his excommunication was cancelled. Frederick Babarossa drowned while leading his crusading army across the River Saleph (in what is now Turkey), but during the later middle ages he was believed to be sleeping beneath the Imperial castle of Kyffhauser, waiting to rescue his people from dire peril!"}
+
+["England_100yrs_War_Description_Label"]
+{"The Hundred Years' War was fought by England and France from 1337 to 1457, although warfare was by no means continuous during this period. English kings felt that they had good claims to much of France and even to the French throne. Most of the fighting took place on French soil, but there were occasional attacks on English coastal towns by French raiders. When there was fighting, it was bloody and often merciless. The French nobility regarded war as their vocation, and were horrified to be confronted and beaten by lesser - but more professional - English soldiers. The three battles in this campaign show the differences in warmaking between the English and the French. By 1420 the English, under their finest warrior-king, Henry V, had very nearly achieved their goals. But even victories at Crécy, Poitiers and Agincourt would not be quite enough. As an historical aside, the English owe their traditional two-fingered gesture of contempt to the Hundred Years' War. The French threatened to cut off the first two fingers of any longbowman they captured, thus crippling the man as a warrior. Waving two fingers at the French thus became a way of defying them and daring them to come and make good their threats of mutilation!"}
+
+["France_100yrs_War_Description_Label"]
+{"With the death of Henry V of England in 1422, the French were spared the humiliation of an English King on their throne. King Charles of France, although irredeemably mad, did his country one last service by just outliving Henry, and the French crown never passed to an English monarch. The English, for their part, were too busy with political in-fighting for control of the child King Henry VI to wage another effective campaign. The tide of war was almost turning in favour of the English until, that is, the appearance of a charismatic young woman, Jeanne d'Arc, who was to lead French armies to new victories and drive out the hated English. This was to be the end game of the Hundred Years' War, and the time that defined France as a unified nation. The battles presented here reflect this period of French resurgence."}
+
+["Richard_Description_Label"]
+{"Richard the Lion-hearted, or 'Coeur de Lion', is one of the great warrior kings of English history, although he spent only six months in England during his ten years on the throne - and even that was just to squeeze more money out of the country! The rest of the time he was doing what he enjoyed and did best: soldiering. Richard's fame as a warrior was well earned, as he was personally brave, a formidable strategist, a master castle builder and seen as the embodiment of chivalry. His skills eventually gave him command of the Third Crusade, and while he failed to take Jerusalem, it was not for want of trying. His battles were conducted with a good deal of military skill and political 'savvy', as he alternated attacks on the Saracens and negotiations with Saladin. Richard came to an appropriate soldier's end after his crusading days. He died after being shot by a crossbowman while besieging a rebellious vassal in France. Despite his personal wish that the crossbowman should not be harmed for carrying out his duty, once Richard was safely dead his lieutenants captured and flayed Richard's killer in revenge."}
+
+["Saladin_Description_Label"]
+{"Saladin, or Salah al-Din Yusuf ibn Ayyub, was the founder of the Ayyubid dynasty in Egypt and the eventual conqueror of the Crusader kingdom of Jerusalem. He brought the city back into Muslim control in 1187 and then defended it against the attacks of, among others, Richard the Lionheart during the Third Crusade. Before this, however, he fought many successful battles against the 'Frankish' Crusaders, always being sensible enough to let the Crusaders' own weaknesses work against them before he moved in for the kill..."}
+
+["Golden_Horde_Description_Label"]
+{"'The horde of the Tartars is numberless. When one is killed, another ten spring from the hell whence he came. Each of them has the head of a dog, and carries with him sufficient weapons for three or four warriors.' So wrote Benedict the Pole, and he had every reason to be fearful, even if he had confused Tartars and Mongols. The Golden Horde were more terrible than anything he could have wished to see: cruel, uncompromising and the most efficient military force since the Caesars. They erased cities, slaughtered thousands, and enslaved any survivors. That they turned aside from reaching further into Europe is one of the quirks of history, and due to one death. Their Khan, Ogadai, drank himself to death and a replacement had to be selected from among the Golden Family by the Horde. If Ogadai had not died, who knows where the Horde would have stopped. They could easily have camped in the ruins of Paris, Rome or Cadiz. The battles in this campaign show how efficient their military machine could be with the right leadership."}
+
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+
+
+
+
+
+
+
+
+SetShowTransOff  // Do not translate.
+//???? Remove when localised.
+
+

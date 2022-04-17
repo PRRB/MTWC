@@ -1,0 +1,130 @@
+//
+// This contains the map descriptions text.
+//
+
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If untranslated a string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated stings
+// easily and can see that they have no been 
+// translated when the program has been run.
+// Once the translation has been done acceptable
+// they should be removed.
+
+
+// iii) The data is organised as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later
+// They can be used to issue instructions or for information.
+//
+
+
+SetShowTransOn //Do not translate.
+//???? Remove when localised.
+
+["MapsTextData"]
+{"Maps text data"}
+
+
+//=============
+//CAMPAIGN MAPS
+//=============
+
+//["Summary of castle battles"}
+
+["castle1a"]
+{"A castle dominates the centre of a province that undulates considerably. There is a valley to the left of the castle and a wooded copse on both sides with an incline toward the front gate and a steeper hill behind."}
+
+["castle1b"]
+{"A castle dominates the centre of a province that undulates considerably. There is a valley to the left of the castle and a wooded copse on both sides with an incline toward the front gate and a steeper hill behind."}
+
+["castle1c"]
+{"A castle dominates the centre of a province that undulates considerably. There is a valley to the left of the castle and a wooded copse on both sides with an incline toward the front gate and a steeper hill behind."}
+
+["castle1d"]
+{"A castle dominates the centre of a province that undulates considerably. There is a valley to the left of the castle and a wooded copse on both sides with an incline toward the front gate and a steeper hill behind."}
+
+["castle2a"]
+{"An angular landscape is hosts an escarpment channelling invaders towards the castle gate. A long slope faces towards the castle while to the right lies a forested incline and a grassy bluff. The village sits in front of the castle and is often the scene of carnage."}
+
+["castle2b"]
+{"An angular landscape is hosts an escarpment channelling invaders towards the castle gate. A long slope faces towards the castle while to the right lies a forested incline and a grassy bluff. The village sits in front of the castle and is often the scene of carnage."}
+
+["castle2c"]
+{"An angular landscape is hosts an escarpment channelling invaders towards the castle gate. A long slope faces towards the castle while to the right lies a forested incline and a grassy bluff. The village sits in front of the castle and is often the scene of carnage."}
+
+["castle2d"]
+{"An angular landscape is hosts an escarpment channelling invaders towards the castle gate. A long slope faces towards the castle while to the right lies a forested incline and a grassy bluff. The village sits in front of the castle and is often the scene of carnage."}
+
+["castle3a"]
+{"A valley and steep cliff to the right of the castle could hide invaders.  The castle is at high altitude and can be very foggy. A foreground of bleak wide open space is only interrupted by a window road. Attacker who use this obvious route will be easily spotted and picked off."}
+
+["castle3b"]
+{"A valley and steep cliff to the right of the castle could hide invaders.  The castle is at high altitude and can be very foggy. A foreground of bleak wide open space is only interrupted by a window road. Attacker who use this obvious route will be easily spotted and picked off."}
+
+["castle3c"]
+{"A valley and steep cliff to the right of the castle could hide invaders.  The castle is at high altitude and can be very foggy. A foreground of bleak wide open space is only interrupted by a window road. Attacker who use this obvious route will be easily spotted and picked off."}
+
+["castle3d"]
+{"A valley and steep cliff to the right of the castle could hide invaders.  The castle is at high altitude and can be very foggy. A foreground of bleak wide open space is only interrupted by a window road. Attacker who use this obvious route will be easily spotted and picked off."}
+
+["castle4a"]
+{"A rolling gentle landscape with few major obstacles - this terrain clearly suits the cavalry charge. The castle is built on slightly raised land with a clear view but the enemy can come from any side. A sparse scattering of trees offers some protection while behind the castle a wooded copse could hide invaders."}
+
+["castle4b"]
+{"A rolling gentle landscape with few major obstacles - this terrain clearly suits the cavalry charge. The castle is built on slightly raised land with a clear view but the enemy can come from any side. A sparse scattering of trees offers some protection while behind the castle a wooded copse could hide invaders."}
+
+["castle4c"]
+{"A rolling gentle landscape with few major obstacles - this terrain clearly suits the cavalry charge. The castle is built on slightly raised land with a clear view but the enemy can come from any side. A sparse scattering of trees offers some protection while behind the castle a wooded copse could hide invaders."}
+
+["castle4d"]
+{"A rolling gentle landscape with few major obstacles - this terrain clearly suits the cavalry charge. The castle is built on slightly raised land with a clear view but the enemy can come from any side. A sparse scattering of trees offers some protection while behind the castle a wooded copse could hide invaders."}
+
+
+//=============
+//TUTORIAL MAPS
+//=============
+
+//===============
+//HISTORICAL MAPS
+//===============
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+
+
+
+
+
+
+
+SetShowTransOff  // Do not translate.
+//???? Remove when localised.

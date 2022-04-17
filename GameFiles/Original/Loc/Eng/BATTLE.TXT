@@ -1,0 +1,1428 @@
+//
+// This contains the in-game battle text.
+//
+
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated strings
+// easily and can see that they have not been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organized as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later.
+// They can be used to issue instructions or for information.
+//
+
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localized.
+
+["BattleTextData"]  {"Battle Text Data."}
+
+
+
+//***********************************************************************
+// Used in the weather dialog box.
+// The dialog is displayed and the player is allowed to make a choice of  
+// when to fight, over a number of days. Our choice is made on the 
+// weather conditions which are displayed as a string.
+//***********************************************************************
+
+["firstDialogDiable"] {"Waiting for game to start"}
+
+["Weather_Attack"] {"Attack"}
+	// Start the battle.
+
+["Weather_Wait"] {"Wait"}
+	// Keep waiting and hoping that the next day's weather will be better suited 
+	// for battle.
+
+["Weather_Retreat"] {"Retreat"}
+	// Give up
+
+["Weather_WaitingForWeatherSelection"] {"Waiting for the attacker to\nchoose the day of attack..."}
+
+["Weather_WeatherErroneous"] {"The weather is erroneous"}
+	//?????
+	// Note sure ask John. Think default error.
+	//????
+
+["Weather_EnemyUponUs"] {"The enemy is upon us!"}
+
+
+
+//*************************************************************
+// Used to describe the troops under the cursor
+//*************************************************************
+
+// Status
+["Enemy_bracketed"]		{"(Enemy)"}			// The troops belong to an enemy
+["Allied_bracketed"]		{"(Allied)"}		// The troops belong to an ally
+
+// Action
+["Standing"]			{"Standing"}		// The troops are standing still
+["Marching"]			{"Marching"}		// The troops are marching
+["Marching_Quickly"]		{"Marching Quickly"}		
+["Marching_VQuickly"]		{"Marching Very Quickly"}	
+["Hiding"]				{"Concealed"}	// The troops are hiding in ambush
+["Running_Away"]			{"Running Away"}	// The troops are running away in fear
+["Attacking"]			{"Attacking"}	// The troops are attacking the enemy
+["Pursuing"]			{"Pursuing"}	// The troops are chasing after the enemy
+["Fighting"]			{"Fighting"}	// The troops are fighting
+["Reloading"]			{"Reloading"}	// The archers/gunners are reloading their weapons.
+["Aiming"]			{"Aiming"}		// The archers/gunners are aiming.
+["Firing"]			{"Firing"}		// The archers/gunners are firing.
+["Bombarding"]		{"Firing"}	// The artillery unit is firing
+["Withdrawing"]		{"Withdrawing"}	// The unit is withdrawing from the battlefield
+
+// Artillery status
+["ArtilleryDestroyed"]	{"Artillery destroyed"}
+["ArtilleryReloadingPre"]	{"Reloading"}
+["ArtilleryReloadingPost"]	{"% complete"}
+["ArtilleryShortOfCrew"]	{"Not enough crew present"}
+["ArtilleryReadyToFire"] {"Ready to fire"}
+
+// Fighting Results.
+// These phrases describe how well a unit is doing in a fight.
+["Winning_Easily"]		{"(Winning Easily)"}
+["Winning"]				{"(Winning)"}
+["Winning_Slightly"]		{"(Winning Slightly)"}
+["Evenly_Matched"]		{"(Evenly Matched)"}			
+["Losing_Slightly"]		{"(Losing Slightly)"}							
+["Losing"]			{"(Losing)"}
+["Losing_Badly"]		{"(Losing Badly)"}
+
+////////////////
+// Troop Morale.
+////////////////
+
+["ThreshNames_Impetuous"]	{"Impetuous"}	// The troops are impatient to attack
+["ThreshNames_Steady"]		{"Steady"}		// The troops are ready to fight
+["ThreshNames_Uncertain"]	{"Uncertain"}	// The troops are a little afraid
+["ThreshNames_Wavering"]	{"Wavering"}// The troops are afraid, and may run away soon
+["ThreshNames_Routing"]		{"Routing"}			// The troops are running away
+
+//////////////////////////
+// Soldier Tiredness Level
+//////////////////////////
+
+["FatigueLevel_Fresh"]				{"Fresh"}		// Fresh meaning not tired
+["FatigueLevel_QuiteFresh"]			{"Quite Fresh"}
+["FatigueLevel_QuiteTired"]			{"Quite Tired"}
+["FatigueLevel_VeryTired"]			{"Very Tired"}
+["FatigueLevel_Exhausted"]			{"Exhausted"}
+["FatigueLevel_TotallyExhausted"]		{"Totally Exhausted"}
+
+//////////////////////////
+// Unit Icon Prompts
+//////////////////////////
+
+["unitGroupBar"] {"Group Selection"}
+["unitIconFatigue"] {"Fatigue Level"}
+["unitIconGeneral"] {"General's Unit"}
+["unitIconSoldiers"] {"Number of Soldiers"}
+["unitIconAmmoBar"] {"Ammo"}
+["unitIconHonour"] {"Valour Level"}
+
+["unitIconNothing"] {"Awaiting Orders"}
+["unitIconShotAt"] {"Under Fire"}
+["unitIconShooting"] {"Shooting"}
+["unitIconFighting"] {"Engaged"}
+["unitIconMarching"] {"Marching"}
+["unitIconRouting"] {"Routing"}
+["unitIconHiding"] {"Hiding"}
+["unitIconWavering"] {"Wavering"}
+
+//////////////////////////
+// Model descriptions
+//////////////////////////
+
+["ModelDamaged"] {"% damaged"}		// will appear as "50% damaged", for example
+["ModelDestroyed"] {"Destroyed"}
+["GateDestroyed"] {"Forced open"}
+
+//??????
+// Hot keys need careful consultation with translators.
+// In theory they should be the 1st letter or a letter that
+// makes sense in the menu label.
+//?????
+
+
+
+//******************************************************
+// Used in game on the control menu but aren't definable
+//******************************************************
+
+["ActionHarakiri"] 	{"Harakiri"}
+["ActionRetreat"] 	{"Retreat"}
+["ActionDismountRemount"] {"Dismount/Remount"}
+["ActionProjectileCamera"]	{"Follow Projectiles"}
+["KillCaptured"] {"Kill captured soldiers"}
+
+[""] {""}
+
+
+// John's localisation stuff
+
+//////////////////////////
+/// Battle info panels ///
+//////////////////////////
+
+//["HonourAbbreviation"]		{"Hon"}
+["OrderOfBattle"]			{"Order of Battle"}
+["MillitaryGeneral"]		{"General"}
+["GeneralsRank"]			{"Rank"}
+
+["DefeatBattleResult"]		{"DEFEAT"}
+["NeutralBattleResult"]		{"End of Battle"}
+["VictoryBattleResult"]		{"VICTORY"}
+["NoUnitsFought"]			{"No Units Deployed"}
+
+["MonAbbreviation1"]			{"Mon"}
+["MonAbbreviation2"]			{""}
+["UnitLeaderAbbreviation1"]		{"Leader"}
+["UnitLeaderAbbreviation2"]		{""}
+["UnitTypeAbbreviation1"]		{"Type"}
+["UnitTypeAbbreviation2"]		{""}
+["MenAbbreviation1"]			{"Men"}
+["MenAbbreviation2"]			{""}
+["HonourAbbreviation1"]			{"Valour"}
+["HonourAbbreviation2"]			{""}
+["AttackBonusAbbreviation1"]		{"Att"}
+["AttackBonusAbbreviation2"]		{"Bonus"}
+["DefenceBonusAbbreviation1"]		{"Def"}
+["DefenceBonusAbbreviation2"]		{"Bonus"}
+["MoraleAbbreviation1"]			{"Morale"}
+["MoraleAbbreviation2"]			{""}
+["CurrentOrderAbbreviation1"]		{"Current"}
+["CurrentOrderAbbreviation2"]		{"Order"}
+["ArmourAbbreviation1"]			{"Armour"}
+["ArmourAbbreviation2"]			{""}
+
+["TotalKillsAbbreviation1"]		{"Total"}
+["TotalKillsAbbreviation2"]		{"Kills"}
+["HonourBonusAbbreviation1"]		{"Valour"}
+["HonourBonusAbbreviation2"]		{"Gained"}
+["HeadsTakenAbbreviation1"]		{"Men"}
+["HeadsTakenAbbreviation2"]		{"Killed"}
+["MenCapturedAbbreviation1"]		{"Men"}
+["MenCapturedAbbreviation2"]		{"Taken"}
+["MenLostAbbreviation1"]		{"Men"}
+["MenLostAbbreviation2"]		{"Lost"}
+
+["KilledInAction"]			{"Killed In Action"}
+["PressToClear"]				{"Press"}
+
+//////////////////////////
+/// Control Rejections ///
+//////////////////////////
+
+["NoDaimyoSelected"]		{"No king selected"}
+["NoUnitsSelected"]		{"No units selected"}
+["LEOneUnitsSelected"]		{"You must select two or more units"}
+["CannotGroupSingle"]		{"You cannot group single units"}
+["NotProjectile"]			{"Current selection has no projectiles"}
+["NotSkirmish"]			{"Current selection cannot skirmish"}
+["NotRally"]			{"Current selection cannot rally"}
+["AttackerDeployment"]		{"Attacker cannot mobilize during deployment"}
+["MayNotWithdraw"]		{"You may not withdraw at this time"}
+["MustBeProjectile"]	{"You must be a projectile unit"}
+["MustSelectSingleProjectileUnit"] {"You can only follow the projectiles of a single unit at a time"}
+["ReinforcementsPhase"] {"You can only bring on reinforcements during the battle"}
+["ReinforcementsNone"] {"No reinforcements to bring on"}
+["NoFormationsDuringDeployment"] {"You cannot use formations until the battle has started"}
+
+//////////////////////////////
+/// Context Sub-Menu Names ///
+//////////////////////////////
+
+["FormationSubMenu"]		{"Formation"}
+["MeleeSubMenu"]			{"Melee Mode"}
+["ArmyLayoutSubMenu"]		{"Army Layout"}
+["CameraMousePrompt"]		{"Point the camera"}
+["GroupFormationSubMenu"]	{"Group Formation"}
+
+
+////////////////////////////
+/// Battle-phase Dialogs ///
+////////////////////////////
+
+
+["Press %key_name%"]				
+{"Press %key_name%"}
+
+["QuitVerify"]					
+{"Are you sure you want to quit?"}
+
+//["QuitVerifyWithWarning"] 			
+//{"Are you sure you want to quit?\nWithout your leadership your troops will suffer extra casualties."}
+
+["ButtonContinue"]				
+{"Continue"}
+
+["BeginBattle"]					
+{"Begin Battle"}
+
+["DeploymentDefenderInstructions"]		
+{"Deploy your troops for battle then click the button to begin"}
+
+["DeploymentAttackerInstructions"]		
+{"Select a formation from the army banner or click the button to begin"}
+
+["DeploymentHistoricBattleInstructions"] 	
+{"Survey your troops and the battlefield then click the button to begin"}
+
+["WastedInstructions"]				
+{"Please wait while this conflict is resolved..."}
+
+["CampaignWastedInstructions"] 			
+{"Please wait while this conflict is resolved...\n\nOr click the button to automatically calculate casualties."}
+
+["ButtonCalculateCassualties"] 			
+{"End Battle"}
+
+["DeclareWarOnAlly"]				
+{"You have ordered an attack on an allied unit.\nDo you wish to declare war?"}
+
+["TimeUp"]					
+{"The time limit has expired."}
+
+////////////////////////////
+/// Battle-phase Dialogs ///
+////////////////////////////
+
+/////////////////////////////
+// Event Notification Dialogs
+/////////////////////////////
+
+["YourGeneralKilled"] 		
+{"Your general has been killed in battle.\nThe morale of your men has been reduced."}
+
+["EnemyGeneralKilled"] 		
+{"The enemy general has been killed in battle.\nThe morale of the enemy has been reduced."}
+
+["AlliedGeneralKilled"] 	
+{"Your ally's general has been killed in battle.\nTheir morale has been reduced."}
+
+["YourGeneralRouted"] 		{"Your general is running away!"}
+["EnemyGeneralRouted"] 		{"The enemy general is fleeing!"}
+["AlliedGeneralRouting"] 	{"Your ally's general is fleeing!"}
+
+["YourArmyWavering"] 		{"Your army is wavering"}
+["EnemyArmyWavering"] 		{"The enemy army is wavering"}
+["AlliedArmyWavering"] 		{"Your ally's army is wavering"}
+["YourArmyFleeing"] 		{"Your army is fleeing the battlefield!"}
+["EnemyArmyFleeing"] 		{"The enemy army is fleeing the battlefield!"}
+["AlliedArmyFleeing"] 		{"Your ally's army is fleeing the battlefield!"}
+
+["ReinforcementsArrived"] 	{"Reinforcements have arrived"}
+
+////////////////////////////////////////
+// End of Event Notification Dialogs
+////////////////////////////////////////
+
+["TimerPrompt"]	{"Time Remaining"}
+
+
+
+["Say:"]
+{"Say:"}
+
+["Send"]
+{"Send"}
+
+
+["Kill ratio"]	//Used in the radar map to indicate which side has killed more troops 
+{"Kill ratio"}	//than the other, and hence give some idea who's winning. 
+
+["Speed Slider"]
+{"Speed Slider"}
+	// Used on the radar map to indicate that battle can be slowed down or speeded up. 
+
+["PERCENTAGE_SYMBOL"]
+{"%"}
+
+["Resize Tutorial"]
+{"Resize (disabled in tutorial)"}
+
+["Resize"]
+{"Resize"}
+	// Used to indicate that this window (radar) can be resized. 
+
+["Paused"]
+{"Paused"}
+	// Used to indicate the game is paused
+
+
+["DroppingPlayerIn"]
+{"Dropping player in"}	// will follow the format: "Fred: Dropping Player In 3" where the number will clearly be a count-down in seconds
+
+["PlayerTimedOut"]
+{"The player failed to respond"}	// similar thing for this and the next, "Fred: <message>"
+
+["PlayerFailedChecksum"]
+{"The player went out of sync and was dropped"}
+
+
+["SendToAllies"]
+{"Send To Allies"}
+
+["SendToAll"]
+{"Send To All"}
+
+["PhaseBattleReadyDialog"]
+{"Waiting for deployment to end"}
+
+["Multiplayer_Version_Mismatch"]
+{"Network version mismatch"}
+
+// This message appears when the user orders all their units to rout
+["queryAllRout"] {"Are you sure you want all your troops to rout? You will lose the battle"}
+
+["CycleUnits"]
+{"Replace Unit with Reserve Troops"}
+
+["CycleUnitsInDeploymentOnly"]
+{"Troop Cycling Only Available In Deployment"}
+
+["NoReinforcements"]
+{"No Reinforcements Available"}
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Map Editor Stuff
+
+["textureEditor"] {"Texture Editor"}
+["heightEditor"] {"Height Editor"}
+["modelEditor"] {"Model Editor"}
+["treeEditor"] {"Tree Editor"}
+["weatherEditor"] {"Weather Editor"}
+
+
+// description of the key will be sandwiched between these two strings
+["PressF1ForHelp1"] {"Press "}
+["PressF1ForHelp2"] {" For Help"}
+["editorPolygonsModel"] {"Model Polygons"}	// for the simple map editor message: 'Model Polygons=2349'
+["editorPolygonsTrees"] {"Tree Polygons"}	// for the simple map editor message: 'Tree Polygons=1822'
+["editorTotalTrees"] {"Total Trees"}
+
+["Filename"] {"Filename"}
+["Save"] {"Save"}
+
+["Undo"] {"Undo"}
+["Redo"] {"Redo"}
+["RotateTexClockwise"] {"Rotate Texture Clockwise"}
+["RotateTexAnticlockwise"] {"Rotate Texture Anti-Clockwise"}
+["FlipTexture"] {"Flip Texture"}
+["ToggleShrubTexture"] {"Toggle Shrub Texture"}
+["ToggleTreeTexture"] {"Toggle Tree Texture"}
+["ToggleWater"] {"Toggle Water"}
+["ToggleConformity"] {"Toggle Conformity"}
+
+["Tree"] {"Tree"}
+["Scrub"] {"Scrub"}
+["usedTextures"] {"Used Textures:"}
+
+["noChangesToSave"] {"There are no changes to save"}
+["cantUndo"] {"There are no changes to undo"}
+["cantRedo"] {"There are no changes to redo"}
+["YouMustSelectATexture"] {"You must select a texture"}
+["NoModelSelected"] {"You must select a model"}
+["OverwriteQuery"] {"File already exists. Overwrite?"}
+["YouAreUsingTooManyModelTextures"] {"Models are using too many textures. Remove a model."}
+["ModelTextureSpace"] {"Used texture space"}
+["sky_box_none"] {"No sky-box"}
+["sky_box_no_water"] {"Waterless sky-box"}
+["sky_box_inland_river"] {"Inland river sky-box"}
+["sky_box_inland_lake"] {"Inland lake sky-box"}
+["sky_box_coastal"] {"Coastal sky-box"}
+["sky_box_coastal_river"] {"Coastal river sky-box"}
+
+
+//// help screen
+
+// headers/generics
+["MEHinput"] {"Input"}
+["MEHaction"] {"Action"}
+
+// keys/buttons
+["MEHlmb"] {"LMB"}	// left mouse button
+["MEHrmb"] {"RMB"}	// right mouse button
+["MEHlmbrmb"] {"LMB/RMB"}	// left/right mouse button
+["MEHclmbrmb"] {"Ctrl-LMB/RMB"}
+["MEHalmbrmb"] {"Alt-LMB/RMB"}
+["MEHctrlZ"] {"Ctrl-Z"}
+["MEHctrlShiftZ"] {"Ctrl-Shift-Z"}
+["MEHspace"] {"Space"}	// space bar
+["MEHbackspace"] {"Backspace"}
+["MEHreturn"] {"Return"}
+["MEHinsDel"] {"Ins/Del"}
+["MEHpgUpPgDn"] {"PgUp/PgDn"}
+["MEHhomeEnd"] {"Home/End"}
+["MEHpm"] {"+/-"}	// just in case a slash doesn't work well
+["MEHt"] {"T"}
+
+// actions
+//["Undo"] {"Undo"}
+//["Redo"] {"Redo"}
+["MEHraiseLower"] {"Select & raise/lower land"}
+["MEHcopyHeight"] {"Copy height"}
+["MEHsetWaterLevel"] {"Set Water-level"}
+["MEHsmoothPoint"] {"Smooth selected point"}
+["MEHflatten"] {"Flatten selected point"}
+["MEHsmoothLandscape"] {"Smooth landscape"}
+["MEHplaceTexture"] {"Place texture"}
+["MEHpickTexture"] {"Pick texture"}
+["MEHtexCycle"] {"Cycle through textures"}
+["MEHtexCycleQ"] {"Cycle through textures quickly"}
+["MEHtexFL"] {"First/Last texture"}
+["MEHtexRot"] {"Rotate Texture"}
+["MEHtexFlip"] {"Flip Texture"}
+["MEHnewModel"] {"Place/drag new model"}
+["MEHselModel"] {"Select/drag nearest model"}
+["MEHdelModel"] {"Delete selected model"}
+["MEHrotModel"] {"Rotate selected model"}
+["MEHcycleModel"] {"Cycle through model files"}
+["MEHcycleModelQ"] {"Cycle through model files quickly"}
+["MEHflModel"] {"First/Last model files"}
+["MEHtreePlace"] {"Place tree"}
+["MEHtreeDel"] {"Remove tree"}
+["MEHtreeToggle"] {"Toggle Tree Page"}
+
+
+/////////////////////////////////////////////////
+// Map Editor-related error messages
+
+["ThreeBridgeLimitHasBeenExceeded"]
+{"Map Error: Only three bridges allowed per map"}
+
+["castlesOccupyMoreThanOneEnclosure"]
+{"Map Error: Castles occupy more than one enclosure"}
+
+["tooManyCastles"]
+{"Map Error: Only four castles allowed per map"}
+
+["castleWallsAreTooNearTheEdge"]
+{"Map Error: Castle walls occupy the edge of the map"}
+
+["tooManyGates"]
+{"Map Error: Only sixteen castle gates allowed per map"}
+
+["YouAreUsingTooManyTextures"] {"You are already using the maximum number of ground textures allowed"}
+["UseTheRightMouseButtonToSelectATexture"] {"Please select a texture with the right mouse button first"}
+["EditTreeLimitReached"] {"You have placed the maximum number of trees allowed"}
+["TreesAreTooTight"] {"You cannot place trees too close together"}
+["canOnlyDeleteTreesYouPlaced"] {"You can only delete trees you placed yourself"}
+
+/////////////////////////////////////////////////
+// new unit types
+
+["NewQuitVerifyWithWarning"] 			
+{"Are you sure you want to quit?\nWithout your leadership your troops will lose this battle and may also suffer extra casualties."}
+
+["EnemyTakenHillFromYou"]
+{"The Enemy has taken the hill from you!"}
+
+["EnemyTakenHillFromAlly"]
+{"One of your rivals has taken the hill from an ally!"}
+
+["EnemyTakenHill"]
+{"The enemy has claimed the hill!"}
+
+["EnemyLosesHill"]
+{"The enemy has lost the hill."}
+
+["TakenHillFromEnemy"]
+{"You have taken the hill from your rival!"}
+
+["TakenHill"]
+{"You have claimed the hill!"}
+
+["LoseHill"]
+{"Your armies have lost the hill!"}
+
+["AllyTakenHillFromEnemy"]
+{"Your ally has driven the enemy from the hill and claimed it as their own."}
+
+["AllyTakenHill"]
+{"Your ally has the hill!"}
+
+["AllyLosesHill"]
+{"Your ally has lost control of the hill!"}
+
+["UnitResurrected"]
+{"Unit Resurrected!"}
+
+["BattleVictory"]
+{"Victory"}
+
+["BattleDefeat"]
+{"Defeat"}
+
+["BT_Tutorial_Title"]
+{"Tutorial"}
+
+["BT_Single_Player_Campaign_Title"]
+{"Single Player Campaign"}
+
+["BT_Historical_Campaign_Title"]
+{"Historical Campaign"}
+
+["BT_Custom_Battle_Title"]
+{"Custom Battle"}
+
+["BT_Multiplayer_Campaign_Title"]
+{"Multiplayer Campaign"}
+
+["BT_Multiplayer_Internet_Battle_Title"]
+{"Multiplayer Internet Battle"}
+
+["BT_Multiplayer_LAN_Battle_Title"]
+{"Multiplayer Battle"}
+
+["BT_Single_Player_Battle_Title"]
+{"Single Player Battle"}
+
+["Game_Style_Last_Man_Standing"]
+{"Last Man Standing"}
+
+["Game_Style_Capture_The_Command_Tent"]
+{"Capture The Command Tent"}
+
+["Game_Style_King_Of_The_Hill"]
+{"King Of The Hill"}
+
+["Game_Style_Halve_The_Enemy"]
+{"Halve The Enemy"}
+
+["Game_Style_Assassinate_General"]
+{"Assassinate The General"}
+
+["Game_Style_Survive_The_Siege"]
+{"Survive The Siege"}
+
+["Primary_Objectives_Label"]
+{"Primary Objectives"}
+
+["Secondary_Objectives_Label"]
+{"Secondary Objectives"}
+
+["enemies_defeated"]
+{"all enemies destroyed or routed off field."}
+
+["daimyo_defeated"]
+{"army destroyed or routed off field."}
+
+["general_killed"]
+{"the general is killed"}
+
+["all_generals_killed"]
+{"all generals are killed"}
+
+["lost_of_percentage_of_troops"]
+{"%d percent of troops lost through death or routing"} //NOTE TO TRANSLATORS: %s is the name of a king, %d is a percentage number
+											//e.g. "The French army loses 40 percent of its troops through death or routing"
+
+["combined_loss_of_percentage_of_troops"]		//NOTE TO TRANSLATORS: %d is a percentage number
+{"armies suffer combined losses of %d percent of troops"}
+
+["units_marked_for_death_killed"]
+{"units that are marked for death are killed"}
+
+["timeout_expires"]					//NOTE TO TRANSLATORS: %s is the name of a king, %d is a percentage number
+{"time limit expires (%d minutes)"}			//The Italian army manages to survive for 5 minutes
+
+["single_capture_unclaimed_area"]
+{"area %d is captured and held for %d minutes"}
+
+["single_hold_area"]
+{"enemies kept out of area %d for %d minutes"}
+
+["single_invade_area"]
+{"Area %d is invaded"}
+
+["single_hold_castle"]
+{"Castle is held for %d minutes"}
+
+["single_invade_castle"]
+{"Castle is invaded"}
+
+["Win_king_of_hill"]
+{"Army is crowned king of the hill"}
+
+["armies_hold_all_areas"]
+{"These armies hold all the areas"}
+
+["PressForTerminationConditions"]				
+{"Press %s for mission overviews"}
+
+["adtnl_marked_units_remaining"]
+{"%d marked units left"}
+
+["adtnl_time_remaining"]
+{"%d minutes remaining"}
+
+["adtnl_men_required"]
+{"%d men required"}
+
+["adtnl_area_held"]
+{"area held"}
+
+["adtnl_area_captured"]
+{"area captured"}
+
+["adtnl_area_invaded"]
+{"area invaded"}
+
+["adtnl_castle_held"]
+{"castle held"}
+
+["adtnl_castle_captured"]
+{"castle captured"}
+
+["adtnl_castle_invaded"]
+{"castle invaded"}
+
+["CastleDefenderDeployment"]		{"Defenders cannot rout during castle battles"}
+
+["DeploymentKOTHInstructions"] 	
+{"Your troops will arrive shortly. Click the button to begin"}
+
+["AwaitingKOTHInstructions"] 	
+{"Awaiting other players......"}
+
+["VictoryConditionsTable_OR_string"]	
+{"OR"}
+
+["caps_attacker"]
+{"ATTACKER"}
+
+["caps_defender"]
+{"DEFENDER"}
+
+["KOTH_points_att"]
+{"Attackers: %d points"} //where %d is a points e.g. "Attackers: 12 points
+
+["KOTH_points_def"]
+{"Defenders: %d points"} //where %d is a points e.g. "Defenders: 3 points
+
+["KOTH_kills"]
+{"kills"}
+
+["KOTH_losses"]
+{"losses"}
+
+["KOTH_points"]
+{"points"}
+
+["KOTH_points_win"]
+{"First team to %d points wins"}//%d is a number i.e. "First team to 25 points wins"
+
+["KOTH_time_win"]
+{"Team with most points after %d minutes wins"} //%d is a number i.e. "Team with most points after 5 minutes wins"
+
+["rout_a_percentage_of_troops"]
+{"%d percent of troops lost through routing"} //NOTE TO TRANSLATORS: %s is the name of a king, %d is a percentage number
+							//e.g. "The French army loses 40 percent of its troops through routing"
+
+["combined_rout_a_percentage_of_troops"]		//NOTE TO TRANSLATORS: %d is a percentage number
+{"armies suffer combined routing of %d percent of troops"}
+
+["kill_a_percentage_of_troops"]
+{"%d percent of troops lost through death"} //NOTE TO TRANSLATORS: %s is the name of a king, %d is a percentage number
+							//e.g. "The French army loses 40 percent of its troops through death"
+["combined_kill_a_percentage_of_troops"]		//NOTE TO TRANSLATORS: %d is a percentage number
+{"armies suffer combined deaths of %d percent of troops"}
+
+["general_routed"]
+{"the general routs off the field"}
+
+["MapEditorSaveChanges"] {"The map has changed. Save changes?"}
+
+
+//new battle strings
+["KillEnemyGeneral_singular"]
+{"The enemy general has been slain"}
+
+["KillEnemyGeneral_plural"]
+{"All enemy generals have been slain"}
+
+["KillAllyGeneral_singular"]
+{"The general of your ally has been slain"}
+
+["KillAllyGeneral_plural"]
+{"All allied generals have been slain"}
+
+["EnemyLostPercentageOfTroop"]
+{"Enemy has suffered over %d percent casualties"}
+	// Note to translators
+	// Note the %d shows where the percentage value appears.
+	// Probably do not need to move it.
+	// Translate "Enemy has suffered over    percent casualties" 
+	// Will look like  "Enemy has suffered over 40 percent casualties" 
+
+["LostPercentageOfTroops"]
+{"You have lost over %d percent of your men!"}
+	// Note to translators
+	// Note the %d shows where the percentage value appears.
+	// Probably do not need to move it.
+	// Translate "We have lost over    percent of our men!" 
+	// Will look like  "We have lost over 60 percent of our men!" 
+
+["EnemySurvivedTimeout"]
+{"You have failed to break the enemy in time"}
+
+["SurvivedTimeout"]
+{"Your troops have delayed the enemy long enough!"}
+
+["EnemyHoldArea"]
+{"You have lost ground to the enemy!"}
+
+["HoldArea"]
+{"You have gained the territory under dispute"}
+
+["EnemyInvadeArea"]
+{"The enemy has taken your territory"}
+
+["InvadeArea"]
+{"You have taken the area from the enemy."}
+
+["EnemyHoldCastle"]
+{"You have failed to remove the castle from enemy hands"}
+
+["HoldCastle"]
+{"The enemy's attempts to take the castle have been denied!"}
+
+["EnemyInvadeCastle"]
+{"The enemy has invaded the castle!"}
+
+["InvadeCastle"]
+{"You have taken the castle!"}
+
+["EnemyKilledUnitType"]
+{"The enemy have destroyed your %s"}
+	// Note to translators
+	// Note the %s shows where a unit type will go.
+	// Translate "The enemy have destroyed your %s "
+	// Will look like  "The enemy have destroyed your Highland Clansmen" 
+
+["KilledUnitType"]
+{"You have crushed the enemy's %s"}
+	// Note to translators
+	// Note the %s shows where a unit type will go.
+	// Translate "You have crushed the enemy's "
+	// Will look like  "You have crushed the enemy's Heavy Cavalry" 
+
+["EnemyKilledAllMarked"]
+{"The enemy has slain the men you were sworn to protect!"}
+ 
+["KilledAllMarked"]
+{"You have obliterated those units marked for death"}
+
+["BattleNormalWin"]
+{"Drive the enemy from the battlefield"}
+
+["BattleKillAGeneral"]
+{"Kill the general of the %s"}
+
+["BattleProtectAGeneral"]
+{"Protect the general of the %s"}
+
+["BattleProtectYourGeneral"]
+{"Protect your general"}
+
+
+["BattleKillPercentageTroops"]
+{"Destroy or rout %d percent of the enemy"}
+
+["BattleKeepPercentageTroops"]
+{"Lose no more than %d percent of your army"}
+
+
+["BattleKillTroopTypeOfClan"]
+{"Kill the %s of the %s"}
+
+["BattleProtectTroopTypeOfClan"]
+{"Protect the %s of the %s"}
+
+["BattleProtectYourTroopType"]
+{"Protect your %s"}
+
+["BattleCaptureCastle"]
+{"Capture the castle"}
+
+["BattleHoldCastle"]
+{"Hold the castle"}
+
+["BattleInvadeCastle"]
+{"Invade the castle"}
+
+["BattleCaptureEnemyCommandTent"]
+{"Capture the Command Tent of the %s"}
+
+["BattleInvadeEnemyCommandTent"]
+{"Invade the Command Tent of the %s"}
+
+["BattleProtectCommandTentfromInvasion"]
+{"Protect the Command Tent of the %s from invasion"}
+
+["BattleCaptureDisputedArea"]
+{"Capture the disputed area"}
+
+["BattleInvadeDisputedArea"]
+{"Invade the disputed area"}
+
+["BattleKillAllMarked"]
+{"Kill or rout all units marked for death"}
+
+["BattleProtectAllMarked"]
+{"Protect the targeted units of your armies"}
+
+["BattleHoldUntilTimeout"]
+{"Fight until the time limit has expired"}
+
+["BattleWinBattleBeforeTimeout"]
+{"Win the day before the timelimit expires"}
+
+["EnemyTakenYourArea"]
+{"The enemy has taken control of one of your areas!"}
+
+["EnemyTakenAllyArea"]
+{"The enemy has invaded an area claimed by your ally!"}
+
+["EnemyTakenUnclaimedArea"]
+{"The enemy has acquired an unclaimed area."}
+
+["EnemyLoseAreas"]
+{"Your enemy is abandoning the battlefield. His territory can now be claimed!"}
+
+["TakenAnEnemyArea"]
+{"You have taken an area from the enemy!"}
+
+["TakenUnclaimedArea"]
+{"Your armies have invaded an unclaimed area."}
+
+["AllyTakenEnemyArea"]
+{"Your ally has taken an enemy area!"}
+
+["AllyTakenUnclaimedArea"]
+{"Your ally has taken an unclaimed area."}
+
+["AllyLoseAreas"]
+{"Your ally is no longer willing to defend his lands. You must reclaim his areas before the enemy does!"}
+
+["EnemiesLoseAllAreas"]
+{"Your enemies have lost all their areas!"}
+
+["EnemiesGainAllAreas"]
+{"The enemy has captured all the areas in this province!"}
+
+
+//--------------------------------------------------------------------------------------
+//
+//	MEDIEVAL STRINGS TO GO UNDER THIS LINE!!!!!!!!
+//
+//--------------------------------------------------------------------------------------
+
+
+///////////////////////////////////
+// some multiplayer stuff
+
+
+["KickRejectedRemote"] {""}
+["KickRejectedLocal"] {""}
+
+["KickUnconnectedRemote"] {""}
+["KickUnconnectedLocal"] {""}
+
+["KickDisconnectedRemote"] {"The connection between the player's machine and the server failed"}
+["KickDisconnectedLocal"] {"The connection between this machine and the server failed"}
+
+["KickMiscSocketRemote"] {"A network error occurred on the connection between the player's machine and the server"}
+["KickMiscSocketLocal"] {"A network error occurred on the connection between this machine and the server"}
+
+["KickOutOfSyncRemote"] {"Out of Sync: The game-state has\ndiverged on different machines."}
+["KickOutOfSyncLocal"] {"Out of Sync: The game-state has\ndiverged on different machines."}
+
+["KickTooSlowRemote"] {"The player's machine has slowed the game down too much."}
+["KickTooSlowLocal"] {"This machine has slowed the game down too much.\nTry a game with less players and/or units"}
+
+["KickQuitRemote"] {"The player quit the battle"}
+["KickQuitLocal"] {"You have quit the battle"}
+
+["KickUnknownRemote"] {"The player was dropped by the server\nThis was probably due to an internal error"}
+["KickUnknownLocal"] {"You have been dropped by the server\nThis was probably due to an internal error"}
+
+
+
+["PlayerIsKicked"]
+{"You have been dropped from this game"}
+
+
+///////////////////////////////////
+// some map editor stuff
+
+["randomHeights"] {"Generate random heights"}
+["LandscapeSaved"] {"Landscape successfully saved"}
+
+["EditModelSnapNone"] {"Don't snap model to grid"}
+["EditModelSnapCentre"] {"Snap model to grid centre"}
+["EditModelSnapEdge"] {"Snap model to grid edge"}
+["EditModelSnapCorner"] {"Snap model to grid corner"}
+
+
+///////////////////////////////////
+//reinforcements stuff
+
+["ReinforcementsOptions"]
+{"Reinforcements"}
+
+["PlaceFlag"]
+{"Place Assembly Point Flag"}
+
+["SummonUnits"]
+{"Bring On Reinforcements"}
+
+//////////////////////////////////
+// Battle Info Panel
+// This footer contains an explanation of some notation on the tables
+// The items it explains are as followes
+// Figures in parenthesis are values for fighting against cavalry
+// * indicates that the soldiers have weapons that are good for piercing armour
+// + indicates that more than one rank of soldiers are allowed to fight
+// $ indicates that the value given is when the soldier is using his shield
+// and would be less in situations where he could not use it.
+// The key needs to fit on one line
+["InfoTableFooter"]			{"() vs Cavalry : * Armour Piercing : + Extra Ranks : $ Includes Shield"}
+
+//******************************************************
+// Names of battle formations
+//******************************************************
+["ActionLineOfBattle"]     			{"Line of Battle"}
+["ActionBattlesInColumn"]	  		{"Battles in Column"}
+["Action3LineAttack"]	      		{"Three Line Attack"}
+["ActionCavalryCharge"]	    		{"Cavalry Charge"}
+["ActionInfantryCharge"]	   		{"Infantry Charge"}
+["ActionScorpion"]	         		{"Scorpion"}
+["ActionEasternCavalry"]	   		{"Eastern Cavalry"}
+["ActionEastEuropeanCavalry"]		{"East European Cavalry"}
+["ActionSteppeEnvelopment"]			{"Steppe Envelopment"}
+["ActionCavalrySkirmish"]	  		{"Cavalry Skirmish"}
+["Action3LineDefense"]	     		{"Three Line Defence"}
+["ActionEasternDefense"]	   		{"Eastern Defence"}
+["ActionSquare"]	           		{"Half Square"}
+["ActionEnglish"]	          		{"English"}
+["ActionOttoman"]	          		{"Ottoman"}
+
+////////////////////////////////////////////////////////////
+// New Battle Event Text
+// Only items that are new or changed for Medieval are here
+////////////////////////////////////////////////////////////
+
+["EnemyCastleWallBreached"]			{"You have breached the castle wall"}
+["PlayerCastleWallBreached"]		{"The enemy have breached your castle wall"}
+["AlliedCastleWallBreached"]		{"The castle wall has been breached"}
+["EnemyGateBreached"]				{"You have forced the castle gate open"}
+["PlayerGateBreached"]				{"The enemy have forced your castle gate open"}
+["AlliedGateBreached"]				{"The castle gate has been forced open"}
+
+["EnemyBaggageCaptured"]			{"You have captured the enemy's baggage"}
+["OwnBaggageCaptured"]				{"The enemy have captured your baggage"}
+["AlliedBaggageCaptured"]			{"Your ally's baggage has been captured"}
+
+["EnemyGeneralaptured"]				
+{"You have captured the enemy general \nThe morale of the enemy has been reduced"}
+
+["OwnGeneralCaptured"]				
+{"Your general has been captured \nThe morale of your men has been reduced"}
+
+["AlliedGeneralCaptured"]			
+{"Your ally's general has been captured \nTheir morale has been reduced"}
+
+["EnemyKingCaptured"]				
+{"You have captured the enemy king \nThe morale of the enemy has been reduced"}
+
+["OwnKingCaptured"]					
+{"Your king has been captured \nThe morale of your men has been reduced"}
+
+["AlliedKingCaptured"]				
+{"Your ally's king has been captured \nTheir morale has been reduced"}
+
+["EnemyKilledPrisoners"]			{"The enemy has killed all his prisoners"}
+["AllyKilledPrisoners"]				{"Your ally has killed all his prisoners"}
+
+["EnemyGunExploded"]				{"Your enemy's gun has exploded"}
+["AllyGunExploded"]					{"Your ally's gun has exploded"}
+["YourGunExploded"]					{"Your gun has exploded"}
+
+// These ones have been changed to say "king" instead of "daimyo"
+["YourDaimyoKIlled"] 		
+{"Your king has been killed in battle.\nThe morale of your men has been reduced."}
+
+["EnemyDaimyoKilled"] 		
+{"The enemy king has been killed in battle.\nThe morale of the enemy has been reduced."}
+
+["AlliedDaimyoKilled"] 		
+{"Your ally's king has been killed in battle.\nTheir morale has been reduced."}
+
+["YourDaimyoRouted"] 		{"Your king is running away!"}
+["EnemyDaimyoRouting"] 		{"The enemy king is fleeing!"}
+["AlliedDaimyoRouting"] 	{"Your ally's king is fleeing!"}
+
+["EnemyWasted"] 		{"The enemy are fleeing the field!"}
+["AllyWasted"] 			{"Your allies are fleeing the field!"}
+
+
+////////////////////////////////////
+// Mounting / Dismounting 
+["Dismounted"]				{"(Dismounted)"}
+["Dismount/Remount"]		{"Dismount / Remount"}		// Right menu command
+["Dismounting not allowed"] {"Dismounting not allowed"}
+
+///////////////////////////////////
+// Morale Concerns
+["Worried by enemy numbers"]			{"Worried by enemy numbers"}
+["Worried about flanks"]				{"Worried about flanks"}
+["Dismayed by news of general's death"]	{"Dismayed by general's death"}
+["Worried by routing friends"]			{"Worried by routing friends"}
+["Worried by so many casualties"]		{"Worried by so many casualties"}
+["Afraid of guns or artillery"]			{"Afraid of guns or artillery"}
+["Dismayed by destruction of army"]		{"Dismayed by destruction of army"}
+["Happy that flanks are protected"]		{"Happy that flanks are protected"}
+["Ready to fight as there is no retreat"] {"Ready to fight as there is no retreat"}
+["Encouraged by the general"]			{"Encouraged by the general"}
+["Encouraged by the general's reputation"] {"Encouraged by the general's reputation"}
+["Eager as the enemy are fleeing"]		{"Eager as the enemy are fleeing"}
+["Feeling safe on the hill"]			{"Feeling safe on the hill"}
+["Worried by enemy pursuit"]			{"Worried by enemy pursuit"}
+["Worried by lack of ammunition"]		{"Worried by lack of ammunition"}
+["Disheartened by constant retreat"]	{"Disheartened by constant retreat"}
+["Unknown Morale Item"]					{"Unknown Morale Item"}
+
+
+///////////////////////////////////
+// Replay Save 
+
+["ReplaySave"] {"Save Replay"}
+["ReplayNoSave"] {"Replay file not generated"}
+["ReplayFilename"] {"Please enter a filename"}
+
+
+//////////////////////////
+/// Control Rejections ///
+//////////////////////////
+
+["UnitRouting"]			{"Not possible while routing"}
+["UnitInEdgeZone"]		{"Not possible while in the edge zone"}
+
+///////////////////////////////////
+// Misc. Stuff
+
+["groupButtonSelection"] {"Group Selection"}
+["GrabUI1"] {"User interface will be included in screen grabs"}
+["GrabUI0"] {"User interface will NOT be included in screen grabs"}
+
+
+///////////////////////////////////
+// Conditions Dialog stuff
+
+["None"]			{"None"}
+
+["BattleTerminationConditionsTableHeader"]
+{"Battle Objectives"}
+
+["Avoid_own_incapacitation_label"]
+{"Make sure your army isn't captured, routed or killed."}
+
+["incapacitate_enemy_label"]
+{"Defeat the army commanded by %s."}		//NOTE: Don't translate "%s" - label will look like "Defeat the army commanded by The Swiss."
+
+["win_if_timelimit_expires"]
+{"Hold off the invaders until the %d minute time limit expires."}
+
+["lose_if_timelimit_expires"]
+{"Should the %d minute timelimit expire, the defenders will win."}
+
+
+///////////////////////////////////
+// Model names
+
+["model_arrow_tower"]
+{"Arrow Tower"}
+
+["model_artillery_tower"]
+{"Artillery Tower"}
+
+["model_ballista_tower"]
+{"Ballista Tower"}
+
+["model_ballista"]
+{"Ballista"}
+
+["model_bombard"]
+{"Bombard"}
+
+["model_bridge"]
+{"Bridge"}
+
+["model_castle_wall"]
+{"Castle Wall"}
+
+["model_catapult_tower"]
+{"Catapult Tower"}
+
+["model_catapult"]
+{"Catapult"}
+
+["model_tower"]
+{"Tower"}
+
+["model_culverin"]
+{"Culverin"}
+
+["model_demi-cannon"]
+{"Demi-cannon"}
+
+["model_demi-culverin"]
+{"Demi-culverin"}
+
+["model_fort"]
+{"Fort"}
+
+["model_gate"]
+{"Gate"}
+
+["model_gatehouse"]
+{"Gatehouse"}
+
+["model_gun_tower"]
+{"Gun Tower"}
+
+["model_keep_tower"]
+{"Keep Tower"}
+
+["model_keep"]
+{"Keep"}
+
+["model_mangonel"]
+{"Mangonel"}
+
+["model_mortar"]
+{"Mortar"}
+
+["model_stockade"]
+{"Stockade"}
+
+["model_serpentine"]
+{"Serpentine"}
+
+["model_grass"]
+{"Grass"}
+
+["model_shrub"]
+{"Shrub"}
+
+["model_shrub_long"]
+{"Long Shrub"}
+
+["model_siege-cannon"]
+{"Siege-cannon"}
+
+["model_tent"]
+{"Tent"}
+
+["model_trebuchet"]
+{"Trebuchet"}
+
+["model_conifer_tree"]
+{"Conifer Tree"}
+
+["model_palm_tree"]
+{"Palm Tree"}
+
+["model_classic_italian_tree"]
+{"Classic Italian Tree"}
+
+["model_oak_tree"]
+{"Oak Tree"}
+
+["model_deployment_flag"]
+{"Deployment Flag"}
+
+["tutflag2"]
+{"Tutorial Flag"}
+
+["model_tutorial_flag"]
+{"Tutorial Flag"}
+
+["model_wagon"]
+{"Wagon"}
+
+["model_wall"]
+{"Wall"}
+
+["model_windmill"]
+{"Windmill"}
+
+["model_cannonball"]
+{"Cannonball"}
+
+["model_cluster_1"]
+{"House"}
+
+["model_cluster_2"]
+{"House"}
+
+["model_cluster_3"]
+{"House"}
+
+["model_farmhouse"]
+{"Farmhouse"}
+
+["model_grave_1"]
+{"Grave"}
+
+["model_grave_2"]
+{"Grave"}
+
+["model_grave1"]
+{"Grave"}
+
+["model_grave2"]
+{"Grave"}
+
+["model_house_1"]
+{"House"}
+
+["model_house_2"]
+{"House"}
+
+["model_house_3"]
+{"House"}
+
+["model_house_4"]
+{"House"}
+
+["model_house_5"]
+{"House"}
+
+["model_house_6"]
+{"House"}
+
+["model_house_7"]
+{"House"}
+
+["model_house_8"]
+{"House"}
+
+["model_miscellaneous"]
+{"House"}
+
+["model_church"]
+{"Church"}
+
+["model_mosque"]
+{"Mosque"}
+
+["model_shack_1"]
+{"Shack"}
+
+["model_shack_2"]
+{"Shack"}
+
+["model_shack_3"]
+{"Shack"}
+
+["model_shack_4"]
+{"Shack"}
+
+["model_shack_5"]
+{"Shack"}
+
+["model_well"]
+{"Well"}
+
+["model_palm"]
+{"Palm Tree"}
+
+["model_stake1"]
+{"Stake"}
+
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+
+
+["model_stockade_gate"]
+{"Stockade Gate"}
+
+["model_warrior_hold"]
+{"Warrior Hold"}
+
+["model_organ-gun"]
+{"Organ Gun"}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	Text added after 7th Jan 2003 begins here:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+["model_religious_building_1"]
+{"Church"}
+
+["model_religious_building_2"]
+{"Chapel"}
+
+["model_shed"]
+{"Shed"}
+
+["model_hut"]
+{"Hut"}
+
+["model_pen"]
+{"Pen"}
+
+["model_stone_cross"]
+{"Stone Cross"}
+
+///////////////////////////////////
+SetShowTransOff  // Do not translate.
+//???? Remove when localized.
+

@@ -1,0 +1,404 @@
+
+//
+// This contains the intro and extro text.
+//
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated strings
+// easily and can see that they have not been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organized as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later.
+// They can be used to issue instructions or for information.
+//
+
+SetShowTransOn // Do not translate.
+//???? Remove when localized.
+
+
+//
+// Intro
+//
+
+["IntroAltStart2"]
+{"This is an age of darkness"}
+
+["Intro2"]
+{"A world of..."}
+
+["Intro3"]
+{"...fear..."}
+
+["Intro4"]
+{"...power..."}
+
+["Intro5"]
+{"...and death."}
+
+["Intro7"]
+{"But a few forge their destiny"}
+
+["IntroTotalWar1"]
+{"Medieval: Total War"}
+
+
+
+
+//
+// Catholic Extro
+//
+
+["Denmark_Major"]
+{"With Viking blood, the people of the North have come to "
+"dominate the world. Masters of the sea, invincible on land, "
+"indomitable in spirit, favoured by God, how could they not "
+"create a mighty empire? No corner of the world has not felt "
+"the force of their power. Sometimes they went in search of "
+"plunder, sometimes for trade, sometimes to settle, but always "
+"with the spirit of true Vikings. Not all pay homage to the "
+"Kings of the Danes but their swords have remade the world."}
+
+["Denmark_Minor"]
+{"In the harsh cold lands of the North lies a mighty kingdom "
+"peopled by a proud people. Their ancestors voyaged far across "
+"the seas in search of plunder and to trade and much of their "
+"old Viking spirit still lives on. Their merchants range far and wide, "
+"bringing back the bounty of other lands. And though his lands are "
+"civilized and prosperous, the King of the Danes can still unleash "
+"the fury of the Norsemen upon his foes..."}
+
+["England_Major"]
+{"From this sceptred isle, set in a silvered sea, came a lionhearted "
+"race of kings that would change the world forever. From their "
+"island fastness, their ships dominated the seas, bringing trade "
+"and wealth and allowing them to strike their enemies at will. "
+"Their power spread, first, across the Old World and then across "
+"the New, creating an empire whose pomp and majesty surpasses "
+"anything that had gone before: "
+"creating an empire upon which the sun never sets."} 
+
+["England_Minor"]
+{"Rulers of a green and pleasant land, the Kings of England grew "
+"rich and powerful in their island kingdom and their people were "
+"prosperous and merry. The sea served as a moat and their ships as "
+"wooden walls, protecting all from invasion. From their royal "
+"seat in London, they also ruled many lands beyond the sea while "
+"their navies ranged far across the oceans, bringing the rich "
+"bounty of the world to their doors."}
+
+["France_Major"]
+{"Vive la France! Vive l'emperor! Great is his glory and that "
+"of the French nation. Supreme in power and wealth and rich in "
+"civilization and culture, its armies have ranged across the "
+"continent and beyond, taking possession of men's bodies, "
+"while its civilization conquers men's hearts. Not even the "
+"ancients could match the splendour of the French nation. "
+"Long may it endure! Vive la France!"}
+
+["France_Minor"]
+{"Heirs to Charlemagne, the Kings of France rival his ancient "
+"greatness. Ringed around by enemies and afflicted with "
+"disunity at home, they have overcome these difficulties, "
+"smashed their enemies on the field of battle and forged a "
+"new nation! A nation that once more can be the leader of "
+"Europe, the defender of Christendom and usher in a new age "
+"of progress and enlightenment."}
+
+["Germany_Major"]
+{"A thousand years ago the tribes of Germany fell upon the "
+"Roman Empire and brought it low, plunging the world into "
+"darkness. Now they have built that Empire anew, twice as "
+"glorious as before! Elected by his lesser princes, the "
+"Kaiser holds the fate of Europe in his hands. Providing "
+"peace and security throughout his mighty realm, he defends "
+"Christendom from the heathens beyond his borders. Truly "
+"does he deserve the title of Holy Roman Emperor!"}
+
+["Germany_Minor"]
+{"Claiming the heritage of Charlemagne and claiming the "
+"heritage of Rome, the Holy Roman Empire dominates central "
+"Europe and its power is felt in many lands beyond. Ruling "
+"a land of petty princes and prosperous cities, the Kaiser "
+"defends the lands of his empire against heathen and heretic "
+"alike - his power cows the infidel and no jealous Christian "
+"prince dares to challenge him. Hail to the new Caesar!"}
+
+["Italy_Major"]
+{"It is given to few nations to spawn two mighty empires. "
+"Yet, just as the might of Rome was rooted in Italian soil, "
+"now, an even greater empire has arisen. Masters of the "
+"military and political arts, the princes of Italy - once "
+"petty tyrants ruling squabbling cities - became masters "
+"of the known world. Yet, these are not brutish conquerors. "
+"Not since the time of the Greeks have one people been so "
+"pre-eminent in culture, art, architecture, music and the "
+"sciences. Truly this new empire will lift the souls of all men!"}
+
+["Italy_Minor"]
+{"The new Italy is a shining example of modernity. Its once "
+"divided cities have united in a mighty state for the common "
+"good. Under its protection people enjoy their lives in peace. "
+"Their armies and navies bring security, their trade brings "
+"wealth and luxury and their mastery of art and literature "
+"brings them enjoyment. This is an oasis of light in a "
+"dark world and it is here that civilization is reborn."}
+
+["Spain_Major"]
+{"They set out to reclaim their homeland and ended up "
+"claiming the whole world. Throwing back the infidel "
+"invader that had blighted their land and laying their "
+"yoke upon the continent of Europe, their fleets voyaged "
+"across the oceans to new lands, all for the glory of the "
+"King of Spain. Their missionaries brought the glory of "
+"Jesus Christ to the whole world while Spanish armies "
+"smashed infidels, pagans and heretics that all men might "
+"bow their heads in prayer to the one God."} 
+
+["Spain_Minor"]
+{"In the land between Europe and Africa, between the "
+"calmness of the middle sea and the stormy ocean, was "
+"founded the Kingdom of Spain. Reclaiming their land "
+"from the infidel invaders, they forged a strong kingdom "
+"that never again would be overrun. Steadfast in religion, "
+"humble before God, they could be proud before lesser men. "
+"Their great ships voyaged far, seeking out new lands and "
+"trade, such that the wealth of the King of Spain became rightly legendary."}
+
+
+
+//
+// Orthodox Extro
+//
+
+["Byzantium_Major"]
+{"Constantinople: the eternal, the unchanging, the centre "
+"of the world. City that was born of Rome, surpassing even "
+"that ancient glory. For two thousand years the heirs of the "
+"Caesars have ruled from their capital on the Bosporus. "
+"There were dark days of danger and despair. Many lands "
+"were overrun by foes but in the end the triumph was theirs. "
+"An empire that was lost has been regained. A flame that "
+"died has been rekindled. A glory, once tarnished, has been reborn!"}
+
+["Byzantium_Minor"]
+{"Just as with their forefathers in Rome, the power and "
+"glory of the emperors of Byzantium shines forth like a "
+"beacon. Some lands are directly under their sway. "
+"In others their name is whispered with awe. For more "
+"than a thousand years, since Rome was lost to the barbarians, "
+"the city of Constantine and its empire has stood as an island "
+"of civilization in a cruel and barbarous world. Long may it endure!"}
+
+["Poland_Major"]
+{"In the centre only the strong survive. And from the "
+"centre they came: from an open, defenceless land beset "
+"by enemies. This was the crucible that forged them, hardened "
+"them, that gave them the strength to throw back their enemies "
+"and it gave them power to create a new empire - a Polish empire - 
+"to tie the vast, empty lands of the East with the rich provinces "
+"of the West. From the centre they came and from the centre they ruled."}
+
+["Poland_Minor"]
+{"In the centre only the strong survive. In a land with "
+"few defensible borders, beset by enemies, survival itself "
+"is victory. To survive and prosper, to have your enemies "
+"cower before you, to claim your place in the annals of "
+"history: this is victory indeed!"}
+
+["Russia_Major"]
+{"At the crossroads between Europe and Asia, "
+"beset by bitter enemies and by a climate more bitter "
+"still, this was an unlikely land for the birthplace "
+"of a great nation and yet here it was born. This was "
+"the genius of the Russian people, their triumph: to "
+"overcome great obstacles, endure great hardships, to "
+"build a state of imperial greatness that bestrides Europe "
+"and Asia like a colossus, to grind enemies into the dust, "
+"to transcend the glory of the greatest of ancient empires. "
+"The Tsar is great. Long may he rule!"}
+
+["Russia_Minor"]
+{"Theirs is a new land, a land of vast empty spaces, a "
+"land of the harshest kind, surrounded by many barbarous "
+"peoples. In a land that would have broken lesser men, the "
+"Russians not only survived but prospered. Their Tsars carved "
+"out a great state, mighty in military power and civilization. "
+"Conquerors and builders both, their names are feared and "
+"admired in equal measure."} 
+
+
+
+//
+// Muslim Extro
+//
+
+["Almohad_Major"]
+{"On the western fringes of Islam, a mighty empire was born. "
+"Its armies swept across the world, taking many lands, yet "
+"greatness is measured in more than just armies and wealth. "
+"In an age of fear and bigotry, the new rulers brought a "
+"spirit of tolerance, extending to each man the freedom to "
+"worship as he will, asking in return only obedience to God. "
+"All tremble before the power of the Khalifah's armies, yet they "
+"do also marvel at the glories of his realm: its "
+"architecture, gardens and, above all, its science and "
+"learning. The Khalifah has brought a taste of paradise "
+"to those on earth."}
+
+["Almohad_Minor"]
+{"On the western fringes of Africa and Europe, the "
+"Khalifah rules over a pleasant and bountiful kingdom. "
+"Their citizens excel at the arts and sciences. Its "
+"scholars keep great libraries; its architects raise "
+"great palaces, and create pleasant gardens. The leaders "
+"of the Kingdom follow the teachings of Islam, revealed "
+"through the Quran and the Sunnah, as do many of their people. "
+"Even the barbarous Christians of the north cannot but be awed "
+"by the wealth and grandeur of this land."}
+
+["Egypt_Major"]
+{"And so it came to pass that on the very banks of the "
+"Nile, where civilization itself had begun so many years "
+"before, a new civilization arose. Its rulers were mighty, "
+"and, with Allah's blessing, their armies swept across the "
+"continents of Europe and Asia, carrying civilization and "
+"faith with them. And so it is today, that all men "
+"prostrate themselves towards Allah, facing Mecca, and "
+"rightly revere the verses of the Quran."}
+
+["Egypt_Minor"]
+{"In the land of Egypt, so mighty so many centuries "
+"ago, a new power emerged. Its rulers were not Pharoahs "
+"but followers of Prophet Mohammed (peace be upon him) and "
+"their armies went forth and smote the infidels and kept all "
+"their lands safe for the people of the Faith. And, as in "
+"days of yore, all men were in awe of the wealth and glory "
+"of their kingdom."}
+
+["Turkey_Major"]
+{"Born in the saddle were their ancestors. Born to "
+"endure. Born to range forever across the land but "
+"born also to take and use the wisdom and knowledge of "
+"those they had conquered. From this tribe, the Sultans "
+"of the Turks forged a formidable weapon. Combining the "
+"arts of the cities and the ferocity of the nomad, they "
+"created a perfect army: an army that would overcome "
+"any obstacle; an army that would vanquish any foe; "
+"an army that would conquer an empire. And so it is "
+"that when the Sultan lifts up his hand, all men tremble."}
+
+["Turkey_Minor"]
+{"Their ancestors came from the centre of Asia, bringing "
+"with them their flocks of sheep. With their nomadic "
+"ferocity, they quickly overran the settled peoples in "
+"the lands they now own. Combining the crafts of the "
+"cities with their own traditions of warfare, the Turkish "
+"army became a formidable weapon - winning many victories "
+"and creating a great empire. The Sultan's rule now extends "
+"over many lands and spreads the glory of the religion of "
+"Islam throughout them."}
+
+
+ 
+
+["IntroScene1"]
+{"IntroScene1 subtitles."}
+
+["IntroScene2"]
+{"IntroScene2 subtitles."}
+
+["IntroScene3"]
+{"IntroScene3 subtitles."}
+
+["IntroScene5"]
+{"IntroScene5 subtitles."}
+
+["IntroScene6"]
+{"IntroScene6 subtitles."}
+
+["IntroScene8"]
+{"IntroScene8 subtitles."}
+
+["IntroScene9"]
+{"IntroScene9 subtitles."}
+
+
+["OutroScene1"]
+{"OutroScene1 subtitles."}
+
+["OutroScene2"]
+{"OutroScene2 subtitles."}
+
+["OutroScene3"]
+{"OutroScene3 subtitles."}
+
+["OutroScene4"]
+{"OutroScene4 subtitles."}
+
+["OutroScene5"]
+{"OutroScene5 subtitles."}
+
+["OutroScene6"]
+{"OutroScene6 subtitles."}
+
+["OutroScene7"]
+{"OutroScene7 subtitles."}
+
+["OutroScene8"]
+{"OutroScene8 subtitles."}
+
+["OutroScene9"]
+{"OutroScene9 subtitles."}
+
+["OutroScene10"]
+{"OutroScene10 subtitles."}
+
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+
+
+
+
+
+
+
+///////////////////////////////////
+SetShowTransOff // Do not translate.
+//???? Remove when localized.
+

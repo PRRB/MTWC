@@ -1,0 +1,788 @@
+//
+// lang is used to determine which file to play.
+// In english we play english.
+// In fra/deu/esp etc we just play the 
+// japanese wavs for the moment.
+// 
+
+
+//
+// When we go over to jap version
+// substitute jap for eng.
+//
+
+
+// Notes to sound guys.
+// In an ideal world 
+// ["X"] should correspond to X.wav
+// {"Y"} Y is the spoken text.
+//
+
+
+
+
+//
+// This is directory path after sound/
+// we use to get the speech.
+//
+
+["LOC_LANGUAGE_SOUND"] 
+{"loc\eng\"} // Do not translate.
+
+
+
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localized.
+
+
+//
+// Errors.
+//
+
+["ME_Error_0"] {"That's wrong."}
+["ME_Error_1"] {"No, try again."}
+["ME_Error_2"] {"That is not it."}
+["ME_Error_3"] {"No."} // *** easy going
+
+["ME_Error_4"] {"Pay attention and try again."} 
+["ME_Error_5"] {"If you can't manage this, you'll be slaughtered in the battle. Pay attention and try again."}
+["ME_Error_6"] {"Listen lad, and do as you are told! Once more."}
+["ME_Error_7"] {"No, that's not what I said you wet-eared whelp!"}
+["ME_Error_8"] {"You are making a fool of yourself in front of your father's men. Try to get it right this time."}
+["ME_Error_9"] {"You must listen to the orders. Try that again before you feel the flat of my sword."}
+["ME_Error_10"] {"Have you been out wenching? Focus on the battlefield and issue the commands."}
+["ME_Error_11"] {"No that is wrong! You must do as you are instructed."}
+["ME_Error_12"] {"On the battlefield there are no second chances, try that order again."}
+["ME_Error_13"] {"This is no time for foolishness, the fate of the kingdom is at stake. Do it again!"}
+
+
+//
+// Following orders.
+//
+
+["ME_FollowingOrders_0"] {"Good."}
+["ME_FollowingOrders_1"] {"Yes that is right."}
+["ME_FollowingOrders_2"] {"Well done."}
+["ME_FollowingOrders_3"] {"That's it."} // *** easy going
+
+["ME_FollowingOrders_4"] {"Very good, very good indeed."}
+["ME_FollowingOrders_5"] {"Good, your men are following your orders."}
+["ME_FollowingOrders_6"] {"Well done, the discipline of your troops is impressive."}
+["ME_FollowingOrders_7"] {"Your troops do well to obey your commands."}
+["ME_FollowingOrders_8"] {"Iron discipline, that's the way to control your men."}
+["ME_FollowingOrders_9"] {"Well done lad, you're learning fast."}
+["ME_FollowingOrders_10"] {"That is right. Remember your soldiers are like your sword, keep them firmly in your hand."}
+["ME_FollowingOrders_11"] {"That is very good. A strong commander is the backbone of his army."}
+["ME_FollowingOrders_12"] {"Splendid, remember these orders when you enter the fray."}
+["ME_FollowingOrders_13"] {"Well done, but it is not as easy in the heat of battle."}
+
+
+
+
+//
+// Mission 1 Sicily.
+//
+
+
+["Sicily_Welcome"]
+{"This lesson will teach you how to control the camera and how to select your troops and issue orders to them.
+ Listen to the General and follow the instructions on screen and you will soon be ready for battle."}
+
+["Sicily_KnowYourLands"]
+{"Use the arrow keys to move the camera and explore the battlefield.
+ Once battle commences the movement of the camera will be restricted to the line of sight of your troops."}
+["Sicily_KnowYourLands_ERROR"]
+{"Survey the battlefield using the arrow keys before continuing."}
+
+["Sicily_SurveyDomain"]
+{"You can also speed up the camera movement by holding down the Shift Key."}
+["Sicily_SurveyDomain_ERROR"]
+{"Hold the shift key and using the arrow keys move the camera quickly before continuing."}
+
+["Sicily_Radar"] 
+{"As well as using the camera to survey the battlefield you can also look at the overview map which is at the top left of the screen.
+ This map is very useful for getting an overview of the battle."}
+
+["Sicily_SymbolBattleUnit"]
+{"You will see that there is a small icon in the bottom left of your screen.
+ This symbol represents a unit of your soldiers. It shows the type of unit [Chivalric Knights] and how many men are in the unit [60]."}
+
+["Sicily_Select_Knights"]
+{"Left-click the unit icon in the bottom left of the screen to select the unit. You will see that it becomes highlighted.
+ You can also select a unit by clicking directly on them on the battlefield."}
+
+["Sicily_Move_Camera_To_Knights"]
+{"Double-left-click on the icon to move the camera close to your unit."}
+["Sicily_Move_Camera_To_Knights_SELECTED"]
+{"Your knights are selected, hence highlighted. Now double-left-click on the icon to position the camera close to them."}
+
+["Sicily_IntroductionToKnights"]
+{"You have now selected your knights.
+ Move the mouse pointer over them and you can see information about their status including their current
+ action [standing], their morale [impetuous] and their fatigue level [fresh]. Each of these things will be important in battle."}
+
+["Sicily_IntroductionToKnights2"]
+{"Your cavalry units are strong attacking units and have the benefit of great speed,
+ however they are vulnerable to spearmen and do not fight well in forest."}
+
+["Sicily_LeftClickMarch"]
+{"Now left-click by the base of the flag, this will march your men to that point."}
+["Sicily_LeftClickMarch_ERROR"]
+{"A double left-click will run your men to the flag. Single left-click by the base of the flag to march your men there."}
+
+["Sicily_UnitUnselected_Error"]
+{"Select your men by clicking either directly on the unit or on their icon."}
+
+["Sicily_Run_To_Flag"]
+{"Now double left-click by the base of the next flag, a double click orders your men to run to this point.
+ But remember that when they run they will become tired more rapidly."}
+["Sicily_Run_To_Flag_Single_Click"]
+{"A single left-click will walk your men. You must DOUBLE left-click by the flag to run your men there."}
+
+["Sicily_AttackOrders"] 
+{"Attack orders are issued in the same way as movement orders, by simply left-clicking on the enemy to attack and
+ double left-clicking to charge.
+ But before you launch into battle we will learn how to organise units into formations."} 
+
+["Sicily_Drag_Formation"]
+{"Hold down the left mouse button and drag it left to right between the two flags.
+ You will see that you can drag your unit formation into a line.
+ When you release the mouse button your men will move into this position."}
+["Sicily_Drag_Formation_ERROR"]
+{"Left-click and hold at the base of the leftside flag, then still holding the left mouse button down, drag the cursor across
+ by the right flag. Then release the mouse button. Your men will move to this new position."}
+
+["Sicily_Drag_Right_To_Left_Error"]
+{"You have incorrectly dragged from right to left. This would have put the unit between the flags but facing the other way."}
+
+["Sicily_Change_Formation"]
+{"As well as changing the shape of the formation and the facing you can also change which type of formation your men are in."} 
+
+["Sicily_Premature_Attack"]
+{"Not yet. The unit must be organised into formation before the attack."}
+
+["Sicily_Click_Order_Button"] 
+{"You will see a row of buttons at the top of the screen.  These are orders which you can give to your units."}
+
+["Sicily_Click_Order_Button2"] 
+{"If you hold your mouse over each button a tooltip will come up showing you what this button does and what the keyboard shortcut is.
+ Any order which is not available with the currently selected unit[s] will be greyed out."}
+
+["Sicily_Click_Order_Button3"] 
+{"Also if you were to position the mouse over your unit, or the unit icon and right click,
+ a menu will come up which gives access to the same orders."}
+
+
+["Sicily_Saracens"] 
+{"My Lord, Saracen intruders have been sighted by our scouts. You must organise your men
+ into formation to prepare them for battle."}
+
+["Sicily_Choose_Loose_Formation"] 
+{"Now go to the top of the screen and click the 'Loose Formation' button which is flashing."}
+
+["Sicily_Use_Of_Loose"]
+{"Loose formation will spread your men out and make them less vulnerable to arrow fire.
+ However, it is not the best formation for hand to hand combat."}
+
+["Sicily_Reset_Loose_Formation"]
+{"You must assume a loose formation. Click on the 'Loose Formation' button at the top of the screen."}
+
+//["Sicily_Shortcuts"] 
+//{"Remember you can issue orders from the buttons at the top of the screen, the right click menus or the keyboard shortuts."}
+
+["Sicily_Close_On_The_Enemy"] 
+{"Now move your knights closer to the enemy by left clicking near the base of the flag which is in front of you."}
+
+["Sicily_Choose_Wedge_Formation"] 
+{"Now change your men into a wedge formation by clicking on the flashing 'Wedge Formation' button at the top of the screen.
+ The wedge formation is the most effective formation for charging the enemy and breaking their lines, but it is not as useful for defence."}
+
+["Sicily_Reset_Wedge_Formation"]
+{"You must assume a wedge formation. Left click on the flashing 'Wedge Formation' button."}
+
+["Sicily_Deliver_Charge"] 
+{"Now double click on the enemy unit to charge them."}
+["Sicily_Deliver_Charge_Single_Click"] 
+{"A single-click will order your men to attack the enemy, the charge is more devastating.
+ Now double click on the enemy unit to charge them."}
+
+["Sicily_Good_Luck"]
+{""}
+
+["Sicily_Battle_Won"] 
+{"You have now learnt the basics of controlling a unit of soldiers and entering combat.
+ This is enough for the brash to abandon their training and begin Total War. If you desire, there is more to learn.
+ Use the next small battle to practice what you've learnt before we move on to controlling a larger army."}
+
+["Sicily_Battle_Lost"] 
+{"You have lost this battle. Try the tutorial again and pay particular
+ attention to the information on formations and charging the enemy."}
+
+["Sicily_Quit"] 
+{""}
+
+
+//
+// Mission 2 Bulgaria
+//
+
+["Bulgaria1_Intro"]
+{"In this lesson you will learn how to organise your army into groups of units,
+ the advantage of height in battle and how to use your archers."}
+
+["Bulgaria1_Intro_To_Archers"]
+{"You have two units of archers. If you look at the unit icon for your archers you will see a vertical bar on the left hand
+ side of the icon. This bar shows how much ammunition the unit has."}    
+
+["Bulgaria1_Archers_Select"]
+{"Select the first unit of archers, then hold down control and left click the second unit.
+ You will see that by doing this you will have both units selected.
+ When multiple units are selected it is possible to give them all orders at the same time."}
+
+["Bulgaria1_Archers_Reselect"]
+{"Left-click on a unit icon of the archers, then hold down control and left-click on the unit icon of the other archers."}
+["Bulgaria1_Archers_Reselect2"]
+{"You must ONLY select your archers. Left-click on a unit icon of the archers,
+ then hold down control and left-click on the unit icon of the other archers."}
+["Bulgaria1_Archers_Reselect_GROUPED"]
+{"Your archers are grouped. Select them by clicking the grey bar above their icons."}
+["Bulgaria1_Archers_Reselect2_GROUPED"]
+{"You must ONLY select your archers. Your archers are grouped. Select them by clicking the grey bar above their icons."}
+
+//["Bulgaria1_Archers_Group"]
+//{"Now that both units are selected you can organise them into a group, so that they can be selected with a single click.
+// Left click on the flashing 'Group' button at the top of the screen.
+// Now you can see that both units are selected their icons are joined together and there is a bar above the unit icons.
+// You can select the whole group by clicking on this bar."}  
+
+["Bulgaria1_Archers_Group"]
+{"Now that both units are selected you can organise them into a group,
+ left-click on the flashing 'Group' button at the top of the screen."}
+
+["Bulgaria1_Archers_Now_Grouped"]
+{"Now you can see that your archers are grouped together. This is shown by their icons being joined together with a bar above them.
+ You can select the whole group by clicking on this bar."} 
+
+["Bulgaria1_Archers_UnGroup"]
+{"To ungroup them you can simply press the 'Group' button again when the group is selected, but leave them grouped for now."}
+["Bulgaria1_Archers_UnGroup_ERROR"]
+{"You must leave your archers grouped, press the 'Group' button, before continuing."}
+
+["Bulgaria1_Archers_Group_Info"]
+{"You can now control both units with one click.
+ Note that you can also select your entire army at any time by pressing Ctrl + A."}
+
+["Bulgaria1_Archers_Group_Info2"]
+{"Also you can select all of the units of the same type by holding down Ctrl and double clicking on a unit.
+ But for now you should just have your archers selected and grouped."}
+
+["Bulgaria1_Archers_Group_Info2_ERROR"]
+{"Before continuing you must have your archers selected and grouped."}
+["Bulgaria1_Archers_Group_Info2_ERROR2"]
+{"Before continuing you must have ONLY your archers selected and grouped."}
+
+
+["Bulgaria1_Archers_Regroup"]
+{"You must group your archers. Click on the 'Group' button."}
+["Bulgaria1_Archers_Regroup_Too_Many"]
+{"You must ONLY group your archers. Ensuring both units are selected, click on the flashing 'Group' button twice."}
+//{"You must ONLY group your archers. Select both units using Ctrl then click on the flashing 'Group' button."}
+
+["Bulgaria1_Advantage_Of_Height"]
+{"Having a height advantage over your enemy is very important in battle."}
+
+["Bulgaria1_Advantage_Of_Height2"]
+{"Height gives your troops a longer line of sight and it gives your archers greater range.
+ Also, troops will become tired if they march uphill, and units will fight better if they are fighting downhill."}
+
+["Bulgaria1_Drag_Out"]
+{"Hold down the left mouse button and drag the cursor left to right between the two flags.
+ You will see that you can reshape the formation of a group by clicking and dragging in the same way
+ that you can change the formation of an individual unit."}
+["Bulgaria1_Drag_Out_ERROR"]
+{"Left-click and hold at the base of the leftside flag, then still holding the left mouse button down, drag the cursor across
+ by the right flag. Then release the mouse button. Your group will move to this new position."}
+
+
+["Bulgaria1_Group_Formations"]
+{"You can also organise groups into formations by clicking on the 'Group Formation' button at the top right of the screen.
+ This is very useful for organising your army. Press the 'Group Formation' button and then press 'Double Line' to organise your archers."}
+
+["Bulgaria1_Drag_Out_Group_Formations"]
+{"Now holding down the left mouse button drag out your group of archers between the two flags,
+ you will see that they stay in the double line formation."}
+//This is an additional instruction.
+
+["Bulgaria1_Drag_Out_Following_Orders"]{""}
+["Bulgaria1_Drag_Out_Group_Formations_Following_Orders"]{""}
+
+["Bulgaria1_Intro_To_Spearmen"]
+{"You also have a unit of spearmen. Spearmen are generally vulnerable to fire from archers,
+ but are good at defending against cavalry and can hold their own against other infantry."}
+
+["Bulgaria1_Spearmen_Select"]
+{"Select your spearmen."}
+["Bulgaria1_Spearmen_Select_Archers_Selected"]
+{"Left-click the spearmen icon or on the unit, to select just your spearmen"}
+
+["Bulgaria1_Spearmen_Reselect"]
+{"Left-click the unit or icon of your spearmen to select them."}
+["Bulgaria1_Spearmen_Reselect_Too_Many"]
+{"You must ONLY select your spearmen. Left-click the unit or icon of your spearmen to select them."}
+
+["Bulgaria1_Spearmen_Deploy"]
+{"Now click and drag to deploy them between the two flags in a line in front of your archers so they can shield them from the enemy."}
+
+["Bulgaria1_Spearmen_Hold_Position"]
+{"To make sure that your spearmen stay in this defensive position press the flashing 'Hold Position' button at the top of the screen."}
+
+
+["Bulgaria1_Skirmish"]
+{"Archers are good at attacking from a distance, but should usually be kept out of hand to hand combat except as a last resort.
+ Notice the flashing 'Skirmish' button at the top of the screen is depressed. Archers default to skirmish."}
+ 
+["Bulgaria1_Skirmish2"]
+{"In skirmish projectile troops will keep their distance from the enemy by moving backwards when threatened.
+ This is very useful for keeping them out of hand to hand combat."}
+
+
+
+["Bulgaria1_Volley"]
+{"Now keep your archers selected and move the mouse cursor over the enemy unit.
+ The green arrow next to the cursor shows that the enemy are in range.
+ Now left click to start firing at them to encourage them out of position."}
+
+
+["Bulgaria1_Enemy_Will_Advance"]
+{"When the enemy approaches fire your arrows at them, then engage them with your spearmen as they climb the hill.
+ When they are about to break you can finish them off by ordering your archers to charge in hand to hand."}
+
+
+["Bulgaria1_Alternate_Attack"]
+{"You can order your archers to attack hand to hand by holding down the 'Alt' key and left clicking on the enemy.
+ Do not do so yet - it's too early!"}
+
+ 
+["Bulgaria1_Alternate_Attack2"]
+{"This can be useful if you want to save ammunition or if a sudden assault can swing the battle.
+ Note that your archers will automatically attack hand to hand if they are out of ammunition."}
+
+
+["Bulgaria1_Good_Luck"]
+{"Now use your superior position and the combination of archers and spearmen to defeat your foe."}
+
+["Bulgaria1_Enemy_Advances"]
+{"The enemy presses! You have the necessary means and expertise to crush them my Lord. The battle is yours!"}
+
+["Bulgaria1_Battle_Waiting"]
+{""}
+
+["Bulgaria1_Battle_Won"]
+{"Well done, you have won this battle and learnt about some of the factors which effect combat.
+ Use the next battle to practice these skills, and when you finish you will be ready to move onto some more advanced combat."}
+
+["Bulgaria1_Battle_Lost"]
+{"You have lost this battle, restart the tutorial and try again.
+ The key to victory is to use the advantage of height and to use your spearmen to protect your archers."}
+
+["Bulgaria1_Quit"]
+{""}
+
+
+
+//
+//	Mission 3 - Greece
+//
+
+["Bulgaria2_Intro"] 
+{"In this tutorial you will learn some more advanced combat tactics, including the importance of morale, 
+how to set ambushes and use cover, how to give waypoint orders and the effects of flank and rear attacks."}
+
+["Bulgaria2_Importance_of_Morale"]
+{"Understanding morale can be critical to victory. By breaking the morale of your enemy you can make him turn and run.
+ By keeping the morale of your own troops steady you can ensure that they will stand and fight."}
+
+["Bulgaria2_Advantage_Of_Cover"]
+{"One of the most effective ways of lowering the enemy's morale is to launch an ambush.
+ You have two units of spearmen, each of whom are positioned near a forest on either side of the enemy."}
+
+["Bulgaria2_Unit_Select_Spearmen"]
+{"Left-click to select this unit of spearmen."}
+["Bulgaria2_Unit_Select_Spearmen_Too_Many"]
+{"Left-click so to select ONLY this unit of spearmen."}
+["Bulgaria2_Unit_Select_Spearmen_Too_Many2"]
+{"Left-click to select ONLY this unit of spearmen. If it is unclear which is the correct unit from the icons in the bottom left of the screen,
+ remember you can left-click the actual unit in front of you."}
+
+["Bulgaria2_Unit_Select_Knights"]
+{"Left-click to select your knights."}
+["Bulgaria2_Unit_Select_Knights_Too_Many"]
+{"Left-click to select ONLY your knights."}
+
+["Bulgaria2_Advantage_Of_Cover_Click_Flag"]
+{"Now click by the base of the flag amongst the trees to move this unit of spearmen into concealment."}
+
+["Bulgaria2_Advantage_Of_Cover_Click_Flag2"]
+{"This unit of spearmen has the tree symbol showng on their icon. They are hidden from the eyes of the enemy - ready to ambush.
+ Our other unit of spearmen is waiting across the valley. We will move them into hiding also."}
+
+["Bulgaria2_Advantage_Of_Cover_Click_Flag_Following_Orders"]
+{""}
+
+["Bulgaria2_Cover_Confirmed"]
+{"The tree symbol now appears on the unit icon indicating that
+ they are concealed and ready to ambush the enemy when they approach up the valley."}
+
+["Bulgaria2_Advantage_of_Cover2"]
+//{"Trees also provide cover from missile fire and incur a combat penalty on cavalry."}
+{"Trees also provide cover from missile fire. Cavalry fighting amongst them fight less effectively."}
+
+["Bulgaria2_Outflanking"]
+{"Your knights are your general's unit, indicated by the star on their icon and the horizontal flag they carry.
+ Your general's unit cannot hide, but we will use them to outflank."} 
+
+["Bulgaria2_Outflanking2"]
+{"Attacks to the enemy flank or rear are more effective than frontal assaults. Waypoints can be used to give complex movement orders
+ which can allow you to move your troops around behind the enemy."} 
+
+["Bulgaria2_Cavalry_Select"]
+{"Left-click your knights to select them."}
+
+["Bulgaria2_First_Waypoint"] 
+{"To set the first waypoint hold down the Shift-key and left-click on the ground by the flag."}
+
+["Bulgaria2_Second_Waypoint"] 
+{"To set the second waypoint hold down the shift key again and click by the flag.
+ You can press down the shift key by itself to see all the waypoints for the selected unit."}
+
+["Bulgaria2_Waypoints_Confirmed"]
+{"Your knights follow your commands."}
+
+["Bulgaria2_Remove_Waypoints"]
+{"Sometimes you will need to clear the waypoints that you have set, this can be done by simply issuing another order."} 
+
+["Bulgaria2_Click_Flag_Clear_Waypoints"]
+{"Left-click next to the flag without holding down the shift key."}
+
+["Bulgaria2_Waypoints_Cleared"] 
+{"You have cleared all your waypoints for this unit, and have given the unit new orders. They will now march to the flag."} 
+
+
+["Bulgaria2_Tactics"]
+{"The enemy will advance towards your peasants and archers.  
+Leave these men in position so they will draw the enemy into the ambush."}
+
+["Bulgaria2_Tactics2"]
+{"As the enemy moves through the valley order your spearmen to attack from the woods 
+and charge your knights into their rear."}
+
+
+["Bulgaria2_Routing"]
+{"If a unit is on the verge of routing a white flag will flash on their unit icon.  
+If they start routing then they will run away from the enemy and the white flag will be displayed without flashing."}
+
+["Bulgaria2_Rally"]
+{"Once a unit starts routing you can try to regain control of them by clicking the 'Rally' button at the top of the screen.
+ If the unit cannot be rallied then this button will be greyed out."}
+
+["Bulgaria2_Enemy_Advances"]
+{"My Lord the enemy are advancing. The battle is yours!"}
+
+["Bulgaria2_Battle_Waiting"]
+{""}
+
+["Bulgaria2_Battle_Won"]
+{"Congratulations. You have now experienced many of the most important aspects of combat. The next battle will challenge you
+ to apply what you have learnt. Once you have won you will learn how to fight a siege and conquer a castle."}
+
+["Bulgaria2_Battle_Lost"]
+{"You have lost.  Try again, and remember that the key to this battle is the timing of your attack.
+ Wait for the right moment to launch the ambush of your spearmen and charge your knights at the enemy."}
+
+["Bulgaria2_Quit"]
+{""}
+
+
+//
+//	Mission 4 - Antioch
+//
+
+
+["Antioch_Intro"]
+{"This lesson will teach you how to use your artillery to destroy enemy fortifications, and how to conquer a castle."}
+
+["Antioch_Intro_To_Artillery"]
+{"You have two catapults. These can be fired at enemy walls and defences."}
+
+//["Antioch_Move_Camera_To_Artillery"]
+//{"You see that your units include two catapults."}
+
+["Antioch_Placing_Artillery"]
+{"Your catapults have already been deployed so they cannot move. When placing artillery during deployment it is important
+ to be in range and have no hills or buildings obscuring a clear shot to the castle."}
+//{"You must place artillery correctly during deployment because artillery cannot be moved during battle. It is important
+// to be in range and have no hills or buildings obscuring a clear shot to the castle."}
+
+["Antioch_Catapult_Select"]
+{"Now select one of your catapults."}
+["Antioch_Catapult_Select_Too_Many"]
+{"Left-click to select ONLY one of your catapults."}
+
+["Antioch_Catapult_Reselect"]
+{"Left-click a catapult to select it."}
+["Antioch_Catapult_Reselect_Too_Many"]
+{"You must select ONLY a catapult. Left-click a catapult to select it."}
+
+["Antioch_Catapult_Reselect_Both"]
+{"Left-click a catapult, then hold down ctrl and left-click the other."}
+["Antioch_Catapult_Reselect_Both_Already_Grouped"]
+{"As your catapults are grouped you can select them by left-clicking the slim grey button above their unit icons."}
+["Antioch_Catapult_Reselect_Both_Too_Many"]
+{"You must select ONLY your catapults. Left-click a catapult, then hold down ctrl and left-click the other."}
+["Antioch_Catapult_Reselect_Both_Already_Grouped_Too_Many"]
+{"You must select ONLY your catapults. As your catapults are grouped you can select them by left-clicking the slim grey button above their unit icons."}
+
+
+["Antioch_Catapult_Reselect_One"]
+{"Hold down the shift key and left-click on the unit icon of the unselected catapult."}
+["Antioch_Catapult_Reselect_One_Already_Grouped"]
+{"As your catapults are grouped you can select them by left-clicking the grey bar above their unit icons."}
+["Antioch_Catapult_Reselect_One_Too_Many"]
+{"You must ONLY select your catapult. Left-click on the unit icon of a catapult then hold down the ctrl key and
+ left-click on the other catapult unit icon."}
+["Antioch_Catapult_Reselect_One_Already_Grouped_Too_Many"]
+{"As your catapults are grouped you can select them by left-clicking the slim grey button above their unit icons.
+ Remember to only select your catapults."}
+
+["Antioch_Range"]
+{"You can check the range of your catapults in the same way that you check range for archers."}
+
+["Antioch_Checking_Range"]
+{"Move your cursor over the castle walls. The range arrow on the cursor goes green indicating a wall is within range,
+ whilst the red arrow indicates a target is out of range."}
+["Antioch_Checking_Range_Error"]
+{"Check the range of your catapults before continuing. Move the cursor over the castle walls.
+ The green arrow on the cursor indicates a target in range, whilst a red arrow shows the target cannot be attacked."}
+
+["Antioch_Catapult_Select_Both"]
+{"Your catapults can target any point within range, including castle towers and walls. Hold down ctrl and select your second catapult."}
+
+
+["Antioch_Fire_At_Wall"]
+{"Now begin destroying the highlighted wall section by left-clicking upon it.
+ Once one wall section is destroyed you can target another wall section or a tower.
+ Your catapults can also target enemy units."}
+
+
+["Antioch_Retarget_Wall"]
+{"Do not cease your bombardment until the indicated castle wall is completely destroyed."}
+["Antioch_Retarget_Wall_Wrong_Section"]
+{"That is the wrong wall section. Left-click the flashing wall to fire upon it."}
+
+
+["Antioch_Crew_Required"]
+{"Your catapults will only fire while their crew is present. If the crew move away or they are killed, they will stop firing."}
+
+["Antioch_Patience"]
+{"We must now wait until our catapults have breached the castle wall."}
+
+["Antioch_Using_F1"]
+{"You can review the status of your units and of the battle at any time by pressing F1."}
+
+["Antioch_Breach_Waiting"]
+{""}
+
+["Antioch_Wall_Damage"]
+{""}
+
+["Antioch_Breach_Waiting2"]
+{""}
+
+["Antioch_The_Breach"]
+{"Your catapults have made a breach in the walls.  Now your troops will be able to storm the castle."}
+
+["Antioch_Charge_Breach"]
+{"The best units to assault the breach are your heavily armoured foot knights.
+ Your troops are also able to attack the enemy gate, but this will cost many men."}
+
+["Antioch_Good_Luck"]
+{"When you are assaulting a castle pay attention to defences such as arrow towers.
+ You should try to destroy these with your artillery. Good luck my Lord, the battle is yours."}
+
+["Antioch_Battle_Waiting"]
+{""}
+
+["Antioch_Battle_Win"]
+{"Well done. You have mastered much of the arts of warfare. The final battle will hone your siege and conquer skills."}
+
+["Antioch_Battle_Lose"]
+{"You have lost this battle. Try again and remember that the key to victory is to breach the enemy walls with your catapults
+ and press home the attack with your foot knights.
+ Remember your catapults can also target enemy troops."}
+
+["Antioch_Quit"]
+{""}
+
+
+//
+//
+//	Practice Battles  - - - - - - - -
+//
+//
+
+["Sicily_Practice_Start"]
+{"Your knights are a dominating battlefield presence. Dispatch the three enemy units."}
+
+["Sicily_Practice_Won"]
+{"Congratulations. You have a good grasp of controlling a small force now. The next pair of tutorial and practice battles
+ will show you proper tactics, as different units are strongest when they support each other."}
+
+["Sicily_Practice_Lost"]
+{"You have been beaten. You can try again, but remember that the secret to victory here is to study the battlefield 
+ and then issue the right (straightforward) commands to destroy the enemy."}
+
+["PM_UNUSED_UNITS"]
+{"Remember to use all resources available to you."}
+
+["PM_CAVALRY_AVOID_FIGHT_IN_FOREST"]
+{"Where possible avoid fighting with cavalry in forest."}
+
+["PM_CAVALRY_AVOID_SPEARMEN_HEADON"]
+{"Cavalry should not face spearmen head on."}
+
+["PM_SPEED_UP_INFO"]
+{"The game can be sped up using the speed slider along the bottom of the overview map."}
+
+["PM_SPEED_UP_INFO2"]
+{"Pressing Ctrl and 'T' together will toggle between maximum and normal speed."}
+
+["PM_AVOID_RUN_NEEDLESSLY"]
+{"Remember continually running your men will tire them."}
+
+["PM_LOOSE_LESSENS_PROJECTILE_DAMAGE"]
+{"Loose formation can lessen damage from arrows and other missile weapons."}
+
+["PM_WEDGE_EFFECTIVE_FOR_CHARGING"]
+{"Wedge formation can split enemy formations making them more vulnerable."}
+
+["PM_CHARGE_TOO_EARLY"]
+{"You are charging too early, your impetus will be reduced due to tiredness."}
+
+["PM_ARROW_SYMBOL"]
+{"A red arrow symbol on your unit icon indicates that they are being attacked by missile weapons."}
+
+
+// - - - - - - - - - - - - - - - - - - 
+
+["Bulgaria1_Practice_Start"]
+{"Your army has closed in on advantageous terrain for the inevitable clash. Use the skills learnt to combine terrain and troop mix to
+ smash the Byzantine defenders."}
+
+["Bulgaria1_Practice_Won"]
+{"Well done. You’ve managed to organise your army so that the units work well together and support each other.
+ The next tutorial and practice battle will help you learn more tactics to defeat your enemies."}
+
+["Bulgaria1_Practice_Lost"]
+{"You have lost the battle. Perhaps when you try again, remember to use both archers and a good high position
+ to defeat the enemy. Use your spearmen to protect your archers while they destroy the enemy."}
+
+["PM_ENEMY_OUT_OF_RANGE"]
+{"This target is out of range, your archers will attempt to move into range."}
+
+["PM_ARCHERS_PURSUE_ENEMY"]
+{"Your archers' target has moved out of range, your men will pursue their target until back in range."}
+
+["PM_FIRE_AT_WILL_INFO"]
+{"Your archers have started firing at the enemy, this because they are set to 'Fire At Will'."}
+
+["PM_WARNING_CAN_OWN_HIT_TROOPS"]
+{"Be aware that your arrows can kill your own men."}
+
+["PM_SKIRMISH_KEEP_OUT_OF_HTH"]
+{"Your archers are skirmishing away from the enemy, trying to keep out of melee combat."}
+
+["PM_SPEARMEN_EFFECTIVE_AGAINST_CAVALRY"]
+{"Spearmen are effective against mounted units."}
+
+["PM_HEIGHT_ADVANTAGE_ARROW"]
+{"From an elevated position your archers can fire further."}
+
+["PM_HEIGHT_ADVANTAGE_SPEAR"]
+{"The high ground gives a tactical advantage. Troops attacking downhill inflict more damage."}
+
+["PM_ARCHERS_BEST_IN_2_OR_3_LINES"]
+{"Front ranks of archers have greater accuracy. Archers are more effective in lines of two or three."}
+
+// - - - - - - - - - - - - - - - - - - 
+
+["Bulgaria2_Practice_Start"]
+{"The Byzantines have deployed a more experienced force. Use your ever increasing mastery of the art of warfare to crush the enemy."}
+
+["Bulgaria2_Practice_Won"]
+{"Congratulations. You have gained a strong understanding of more advanced tactics,
+ and should take these with you on campaign and crush your enemies."}
+
+["Bulgaria2_Practice_Lost"]
+{"Your army is beaten. Try again and remember your tactical devices - hiding, ambushing and outflanking.
+ These are the weapons of a wise general."}
+
+["PM_TREES_FOR_HIDING"]
+{"The tree symbol on a unit's icon indicates that this unit is hidden."}
+
+["PM_TREES_PROVIDE_MISSILE_COVER"]
+{"Trees provide partial cover from missile attacks."}
+
+["PM_GENERAL_PROVIDES_MORALE_BONUS"]
+{"Units who are near to their general, receive a morale bonus."}
+
+["PM_GENERAL_CANNOT_HIDE"]
+{"Remember the general's unit cannot hide from the enemy."}
+
+["PM_PEASANTS_CAN_DRAW_OUT_ENEMY_UNITS"]
+{"Sometimes expendable units can be used as bait, to draw the enemy out of position."}
+
+["PM_ARCHERS_IN_TREES"]
+{"Archers firing from the trees have their target obscured so are not as effective."}
+
+["PM_SPACEBAR_INFO"]
+{"Holding down the spacebar will display all units destinations."}
+
+["PM_KILL_ENEMY_GENERAL_INFO"]
+{"Killing the enemy general will lower the morale of the opposing army."}
+
+["PM_FLANK_ATTACK"]
+{"Attacking an enemy's flank or rear will allow your soldiers to inflict more damage."}
+
+// - - - - - - - - - - - - - - - - - - 
+
+["Antioch_Practice_Start"]
+{"A larger force than our own defends the castle. Careful use of your siege weapons will be essential for victory."}
+
+["Antioch_Practice_Won"]
+{"Very good, very good indeed. You are now ready to command mighty armies and wage Total War!"}
+
+["Antioch_Practice_Lost"]
+{"You have fallen at the last. Next time remember careful use of your siege weapons is key. Creating multiple breaches
+ may stretch the enemy, then lead the attack with your heavily armoured foot knights. Also remember your war engines may
+ also target troops."}
+
+["PM_ARTILLERY_REMOVE_PROJECTILE_TOWERS"]
+{"Remember artillery can target castle towers."}
+
+["PM_MULTIPLE_BREACHES_GIVES_MORE_ONE_ENTRANCE"]
+{"Further breaches can stretch the enemy as he attempts to defend them."}
+
+["PM_TROOPS_BEING_HIT_BY_ARTILLERY_TOWER"]
+{"Your troops are being shot by the castle defences."}
+
+["PM_ARTILLERY_CAN_TARGET_TROOPS"]
+{"Remember that artillery can also target troops."}
+
+["PM_CAREFUL_NOT_HIT_OWN_TROOPS"]
+{"Be careful not to accidentally bombard your own troops."}
+
+// - - - - - - - - - - - - - - - - - - 
+
+SetShowTransOff  // Do not translate.
+//???? Remove when localized.

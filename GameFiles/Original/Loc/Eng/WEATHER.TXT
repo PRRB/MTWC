@@ -1,0 +1,144 @@
+//
+// This contains the weather text for the game.
+//
+
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If an untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated stings
+// easily and can see that they have no been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organised as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later.
+// They can be used to issue instructions or for information.
+//
+
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localised.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+// these are the weather predictions which the attacker is presented with when choosing a day to attack //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// sand
+["WeatherSandCalmCalm"]   {"Calm weather expected"}
+["WeatherSandCalmStorm"]  {"Calm with sandstorms predicted later"}
+["WeatherSandStormCalm"]  {"Sandstorms dying down later"}
+["WeatherSandStormStorm"] {"Sandstorms all day"}
+
+////////////////////////////////////
+// initial report (how it is now)
+
+// this text is here 'just in case' and should not occur
+["WeatherDefaultStart"] {"Fine"}
+
+// fog
+["WeatherFogStartGood"]     {"good visibility"}
+["WeatherFogStartModerate"] {"moderate visibility"}
+["WeatherFogStartBad"]      {"poor visibility"}
+
+
+// snow
+["WeatherSnowCalmLight"]    {"calm"}
+["WeatherSnowCalmModerate"] {"moderate snowfall"}
+["WeatherSnowCalmHeavy"]    {"heavy snowfall"}
+
+["WeatherSnowWindyLight"]    {"chilly"}
+["WeatherSnowWindyModerate"] {"snowstorms"}
+["WeatherSnowWindyHeavy"]    {"blizzards"}
+
+// snow and rain combination
+["WeatherBothCalmLight"]    {"brisk"}
+["WeatherBothCalmModerate"] {"moderate snow and rain"}
+["WeatherBothCalmHeavy"]    {"heavy precipitation"}
+
+["WeatherBothWindyLight"]    {"clear and windy"}
+["WeatherBothWindyModerate"] {"wet and windy"}
+["WeatherBothWindyHeavy"]    {"stormy"}
+
+// rain
+["WeatherRainCalmLight"]    {"clear"}
+["WeatherRainCalmModerate"] {"moderate rainfall"}
+["WeatherRainCalmHeavy"]    {"heavy downpour"}
+
+["WeatherRainWindyLight"]    {"clear and windy"}
+["WeatherRainWindyModerate"] {"driving rain"}
+["WeatherRainWindyHeavy"]    {"rain storms"}
+
+
+
+////////////////////////////////////
+// prediction - how it will be
+
+// this text is here 'just in case' and should not occur
+["WeatherDefaultEnd"]   {"throughout the day"}
+
+// fog
+["WeatherFogEndWorse"]      {"becoming foggier later on"}
+["WeatherFogEndBetter"]     {"becoming clearer later on"}
+
+// temperature
+["WeatherTempEndWorse"]  {"turning to snow later"}
+["WeatherTempEndBetter"] {"turning to rain later"}
+
+// wind
+["WeatherWindEndWorse"]  {"with wind picking up later"}
+["WeatherWindEndBetter"] {"becoming calmer later on"}
+
+
+// precip
+["WeatherRainEndStarting"] {"with rain expected later"}
+["WeatherSnowEndStarting"] {"with snow expected later"}
+["WeatherEitherEndWorse"]  {"becoming worse later on"}
+["WeatherEitherEndBetter"] {"easing later"}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+SetShowTransOff  // Do not translate.
+//???? Remove when localised.
+

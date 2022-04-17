@@ -1,0 +1,327 @@
+//
+// This contains the global text for the game.
+//
+
+// Will contain error codes, menu text, and other text that you expect
+// to be available at any point.
+
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If an untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated stings
+// easily and can see that they have not been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organized as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later.
+// They can be used to issue instructions or for information.
+//
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localized.
+
+
+["GlobalTextData"]  {"Text for the entire game."}
+
+
+
+// John's fault
+
+["Army"]			{"Army"}
+["Yes"]				{"Yes"}
+["No"]				{"No"}
+["Continue"] 		{"Continue"}
+["OK"] 				{"OK"}
+["Cancel"] 			{"Cancel"}
+["Not Applicable"]	{"N/A"}
+["Unit"]			{"Unit"}
+["Units"]			{"Units"}
+["Florins"]			{"Florins"}
+["Men"]				{"Men"}
+["Player:"]			{"Player:"}
+["Faction:"]		{"Faction:"}
+["Costing"]			{"Costing"}			// Context:- 'Costing 500 florins'
+["Taking"]			{"Taking"}			// Context:- 'TAKING 2 Turns to build'
+["Turn"]			{"Year"}			// Context:- 'Taking 1 TURN to build'
+["Turns"]			{"Years"}			// Context:- 'Taking 2 TURNS to build'
+
+["right_click_info"]
+{"Right click for further information"}
+
+//--------------------------------------------------------------------------------------
+//
+//	MEDIEVAL STRINGS TO GO UNDER THIS LINE!!!!!!!!
+//
+//--------------------------------------------------------------------------------------
+
+
+["successful_assassinations"]
+{"Successful Assassinations"}
+
+["men_lost_to_assassins"]
+{"Men Lost To Assassins"}
+
+["men_killed_in_battle"]
+{"Men Killed In Battle"}
+
+["men_lost_in_battle"]
+{"Men Lost In Battle"}
+
+["battles_won"]
+{"Battles Won"}
+
+["battles_lost"]
+{"Battles Lost"}
+
+["horses_lost_in_battle"]
+{"Horses Lost In Battle"}
+
+["prisoners_killed"]
+{"Prisoners Killed"}
+
+["prisoners_sold"]
+{"Prisoners Sold"}
+
+["prisoners_ransomed_back"]
+{"Prisoners Ransomed Back"}
+
+["nobles_killed"]
+{"Nobles Killed"}
+
+["nobles_sold"]
+{"Nobles Sold"}
+
+["nobles_ransomed_back"]
+{"Nobles Ransomed Back"}
+
+["most_vices_on_one_leader"]
+{"Most Vices On One Leader"}
+
+["number_of_heirs"]
+{"Number of Heirs"}
+
+["number_of_wives"]
+{"Number of Wives"}
+
+["number_of_battles"]
+{"Number of Battles"}
+
+["time_in_battle"]
+{"Time in Battle"}
+
+["shortest_time_in_battle"]
+{"Shortest Time in Battle"}
+
+["longest_time_in_battle"]
+{"Longest Time in Battle"}
+
+["population"]
+{"Population"}
+
+["ships_built"]
+{"Ships Built"}
+
+["ships_lost"]
+{"Ships Lost"}
+
+["enemy_ships_destroyed"]
+{"Enemy Ships Destroyed"}
+
+["number_of_times_attacker"]
+{"Number of Times Attacker"}
+
+["number_of_times_defender"]
+{"Number of Times Defender"}
+
+["number_of_stategy_orders"]
+{"Number of Strategy Orders"}
+
+["castles_lost"]
+{"Castles Lost"}
+
+["castles_taken"]
+{"Castles Taken"}
+
+["buildings_destroyed"]
+{"Buildings Destroyed"}
+
+["weddings_offered"]
+{"Weddings Offered"}
+
+["emissaries_met"]
+{"Emissaries Met"}
+
+["emissaries_sent"]
+{"Emissaries Sent"}
+
+["alliances_you_broke"]
+{"Alliances You Broke"}
+
+["alliances_broken_by_others"]
+{"Alliances Broken By Others"}
+
+["spies_killed"]
+{"Spies Killed"}
+
+["spies_sent"]
+{"Spies Sent"}
+
+["greatest_general"]
+{"Greatest General"}
+
+["income"]
+{"Income"}
+
+["spice_income"]
+{"Spice Income"}
+
+["silk_income"]
+{"Silk Income"}
+
+["tons_of_gold"]
+{"Tons of Gold Mined"}
+
+["tons_of_iron"]
+{"Tons of Iron Mined"}
+
+["tons_of_silver"]
+{"Tons of Silver Mined"}
+
+["single_province_income"]
+{"Single Province Income"}
+
+["churches_built"]
+{"Churches Built"}
+
+["castles_built"]
+{"Castles Built"}
+
+["buildings_built"]
+{"Buildings Built"}
+
+["provinces_lost"]
+{"Provinces Lost"}
+
+["provinces_gained"]
+{"Provinces Gained"}
+
+["men_trained"]
+{"Men Trained"}
+
+["units_trained"]
+{"Units Trained"}
+
+["cannonballs_fired"]
+{"Cannonballs Fired"}
+
+["arrows_fired"]
+{"Arrows Fired"}
+
+["arrows_hitting"]
+{"Arrows Hitting"}
+
+["generals_lost"]
+{"Generals Lost"}
+
+["generals_killed"]
+{"Generals Killed"}
+
+["favourite_map"]
+{"Favourite Map"}
+
+["favourite_unit"]
+{"Favourite Unit"}
+
+["number_of_plagues"]
+{"Number of Plagues"}
+
+["number_of_rebellions"]
+{"Number of Rebellions"}
+
+["number_of_famines"]
+{"Number of Famines"}
+
+["number_of_kings"]
+{"Number of Kings"}
+
+["longest_ruling_king"]
+{"Longest Ruling King"}
+
+["deaths_to_inquisitors"]
+{"Deaths due to Inquisitors"}
+
+["time_in_siege"]
+{"Time in a Siege"}
+
+["average_happiness"]
+{"Average Happiness"}
+
+["By_Year"]
+{"Most in a single year"}
+
+["Grand_Total"]
+{"Total"}
+
+["By_Battle"]
+{"Most in a Single Battle"}
+
+["Number"]
+{"%d"}
+
+["Num_Years"]
+{"%d years"}
+
+
+
+["hiring_cost"]
+{"Hiring cost:"}
+
+["total_hiring_cost"]
+{"Total hiring costs:"}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+SetShowTransOff  // Do not translate.
+//???? Remove when localized.

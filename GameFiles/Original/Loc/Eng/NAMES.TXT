@@ -1,0 +1,5154 @@
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {" "} need to be translated.
+// and the 
+// {" "} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If an untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated stings
+// easily and can see that they have not been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organized as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later
+// They can be used to issue instructions or for information.
+//
+
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localized.
+
+
+@["country_xzy"]
+@{"Region Zero"}
+@{"Scotland"}
+@{"Northumbria"}
+@{"Mercia"}
+@{"Wales"}
+@{"Wessex"}
+@{"Ireland"}
+@{"Norway"}
+@{"Sweden"}
+@{"Denmark"}
+@{"Finland"}
+@{"Novgorod"}
+@{"Muscovy"}
+@{"Livonia"}
+@{"Smolensk"}
+@{"Ryazan"}
+@{"Chernigov"}
+@{"Lithuania"}
+@{"Pereyaslavl"}
+@{"Volga-Bulgaria"}
+@{"Khazar"}
+@{"Kiev"}
+@{"Crimea"}
+//@{"Golden Khanate"}
+@{"Volhynia"}
+@{"Prussia"}
+@{"Moldavia"}
+@{"Carpathia"}
+@{"Wallachia"}
+@{"Bulgaria"}
+@{"Hungary"}
+@{"Poland"}
+@{"Pomerania"}
+@{"Brandenburg"}
+@{"Silesia"}
+@{"Bohemia"}
+@{"Saxony"}
+@{"Friesland"}
+@{"Flanders"}
+@{"Normandy"}
+@{"Brittany"}
+@{"Franconia"}
+@{"Lorraine"}
+@{"Champagne"}
+@{"Ile de France"}
+@{"Anjou"}
+@{"Aquitaine"}
+@{"Toulouse"}
+@{"Provence"}
+@{"Burgundy"}
+@{"Swabia"}
+@{"Bavaria"}
+@{"Switzerland"}
+@{"Tyrolia"}
+@{"Austria"}
+@{"Croatia"}
+@{"Serbia"}
+@{"Greece"}
+@{"Constantinople"}
+@{"Crete"}
+@{"Rhodes"}
+@{"Georgia"}
+@{"Armenia"}
+@{"Rum"}
+@{"Lesser Armenia"}
+@{"Edessa"}
+@{"Trebizond"}
+@{"Nicaea"}
+@{"Anatolia"}
+@{"Cyprus"}
+@{"Antioch"}
+@{"Syria"}
+@{"Tripoli"}
+@{"Palestine"}
+@{"Arabia"}
+@{"Sinai"}
+@{"Egypt"}
+@{"Cyrenacia"}
+@{"Sahara"}				//@{"Africa"}
+@{"Tunisia"}
+@{"Algeria"}
+@{"Morocco"}
+@{"Granada"}
+@{"Cordoba"}
+@{"Portugal"}
+@{"Leon"}
+@{"Castile"}
+@{"Valencia"}
+@{"Navarre"}
+@{"Aragon"}
+@{"Corsica"}
+@{"Sardinia"}
+@{"Genoa"}
+@{"Milan"}
+@{"Venice"}
+@{"Tuscany"}
+@{"The Papal States"}
+@{"Rome"}
+@{"Naples"}
+@{"Malta"}
+@{"Sicily"}
+
+@{"North Atlantic"}
+@{"Irish Sea"}
+@{"Norwegian Sea"}
+@{"Skagerrak"}
+@{"Baltic Sea"}
+@{"North Sea"}
+@{"English Channel"}
+@{"Atlantic Ocean"}
+@{"Bay of Biscay"}
+@{"Costa Verde"}
+@{"Spanish Coast"}
+@{"Gulf of Cadiz"}
+@{"Straits of Gibraltar"}
+@{"Western Mediterranean"}
+@{"Gulf of Valencia"}
+@{"Gulf of Lions"}
+@{"Ligurian Sea"}
+@{"Tyrrhenian Sea"}
+@{"Straits of Sicily"}
+@{"Malta Channel"}
+@{"Gulf of Gabes"}
+@{"Africa Coast"}
+@{"Barbary Coast"}
+@{"Adriatic Ocean"}
+@{"Ionian Sea"}
+@{"Central Mediterranean"}
+@{"Gulf of Sidra"}
+@{"Mirtoon Sea"}
+@{"Aegean Sea"}
+@{"Sea Marmara"}
+@{"Black Sea"}
+@{"Sea of Crete"}
+@{"Dodecanese Sea"}
+@{"Eastern Mediterranean"}
+@{"Nile Coast"}
+@{"Atlantic Coast"}
+
+
+["Region Zero"]			{"Region Zero"}
+["Scotland"]			{"Scotland"}
+["Northumbria"]			{"Northumbria"}
+["Mercia"]				{"Mercia"}
+["Wales"]				{"Wales"}
+["Wessex"]				{"Wessex"}
+["Ireland"]				{"Ireland"}
+["Norway"]				{"Norway"}
+["Sweden"]				{"Sweden"}
+["Denmark"]				{"Denmark"}
+["Finland"]				{"Finland"}
+["Novgorod"]			{"Novgorod"}
+["Muscovy"]				{"Muscovy"}
+["Volga-Bulgaria"] 		{"Volga-Bulgaria"}
+["Livonia"]				{"Livonia"}
+["Smolensk"]			{"Smolensk"}
+["Ryazan"]				{"Ryazan"}
+["Chernigov"]			{"Chernigov"}
+["Lithuania"]			{"Lithuania"}
+["Pereyaslavl"]			{"Pereyaslavl"}
+["Khazar"]				{"Khazar"}
+["Kiev"]				{"Kiev"}
+["Crimea"]				{"Crimea"}
+//["Golden Khanate"]		{"Golden Khanate"}
+["Volhynia"]			{"Volhynia"}
+["Prussia"]				{"Prussia"}
+["Moldavia"]			{"Moldavia"}
+["Carpathia"]			{"Carpathia"}
+["Wallachia"]			{"Wallachia"}
+["Bulgaria"]			{"Bulgaria"}
+["Hungary"]				{"Hungary"}
+["Poland"]				{"Poland"}
+["Pomerania"]			{"Pomerania"}
+["Brandenburg"]			{"Brandenburg"}
+["Silesia"]				{"Silesia"}
+["Bohemia"]				{"Bohemia"}
+["Saxony"]				{"Saxony"}
+["Friesland"]			{"Friesland"}
+["Flanders"]			{"Flanders"}
+["Normandy"]			{"Normandy"}
+["Brittany"]			{"Brittany"}
+["Franconia"]			{"Franconia"}
+["Lorraine"]			{"Lorraine"}
+["Champagne"]			{"Champagne"}
+["Ile de France"]		{"Ile de France"}
+["Anjou"]				{"Anjou"}
+["Aquitaine"]			{"Aquitaine"}
+["Toulouse"]			{"Toulouse"}
+["Provence"]			{"Provence"}
+["Burgundy"]			{"Burgundy"}
+["Swabia"]				{"Swabia"}
+["Bavaria"]				{"Bavaria"}
+["Switzerland"]			{"Switzerland"}
+["Tyrolia"]				{"Tyrolia"}
+["Austria"]				{"Austria"}
+["Croatia"]				{"Croatia"}
+["Serbia"]				{"Serbia"}
+["Greece"]				{"Greece"}
+["Constantinople"]		{"Constantinople"}
+["Crete"]				{"Crete"}
+["Rhodes"]				{"Rhodes"}
+["Georgia"]				{"Georgia"}
+["Armenia"]				{"Armenia"}
+["Rum"]					{"Rum"}
+["Lesser Armenia"]		{"Lesser Armenia"}
+["Edessa"]				{"Edessa"}
+["Trebizond"]			{"Trebizond"}
+["Nicaea"]				{"Nicaea"}
+["Anatolia"]			{"Anatolia"}
+["Cyprus"]				{"Cyprus"}
+["Antioch"]				{"Antioch"}
+["Syria"]				{"Syria"}
+["Tripoli"]				{"Tripoli"}
+["Jerusalem"]			{"Palestine"}
+["Arabia"]				{"Arabia"}
+["Sinai"]				{"Sinai"}
+["Egypt"]				{"Egypt"}
+["Libya"]				{"Cyrenacia"}
+["Africa"]				{"Sahara"}		//{"Africa"}
+["Tunisia"]				{"Tunisia"}
+["Algeria"]				{"Algeria"}
+["Morocco"]				{"Morocco"}
+["Granada"]				{"Granada"}
+["Cordoba"]				{"Cordoba"}
+["Portugal"]			{"Portugal"}
+["Leon"]				{"Leon"}
+["Castile"]				{"Castile"}
+["Valencia"]   			{"Valencia"}
+["Navarre"]				{"Navarre"}
+["Aragon"]				{"Aragon"}
+["Corsica"]				{"Corsica"}
+["Sardinia"]			{"Sardinia"}
+["Genoa"]				{"Genoa"}
+["Milan"]				{"Milan"}
+["Venice"]				{"Venice"}
+["Tuscany"]				{"Tuscany"}
+["Papal States"]		{"The Papal States"}
+["Rome"]				{"Rome"}
+["Naples"]				{"Naples"}
+["Malta"]				{"Malta"}
+["Sicily"]				{"Sicily"}
+["North Atlantic"]		{"North Atlantic"}
+["North Sea"]			{"North Sea"}
+["English Channel"]		{"English Channel"}
+["Bay of Biscay"]		{"Bay of Biscay"}
+["Atlantic Ocean"]		{"Atlantic Ocean"}
+["Western Med"]			{"Western Mediterranean"}
+["Tyrrhenian Sea"]		{"Tyrrhenian Sea"}
+["Ionian Sea"]			{"Ionian Sea"}
+["Adriatic Ocean"]		{"Adriatic Ocean"}
+["Aegean Sea"]			{"Aegean Sea"}
+["Eastern Med"]			{"Eastern Mediterranean"}
+["Black Sea"]			{"Black Sea"}
+["Baltic Sea"]			{"Baltic Sea"}
+["Irish Sea"]			{"Irish Sea"}
+["Norwegian Sea"]		{"Norwegian Sea"}
+["Skagerrak"] 			{"Skagerrak"}
+["Costa Verde"]			{"Costa Verde"}
+["Spanish Coast"]		{"Spanish Coast"}
+["Gulf of Cadiz"]		{"Gulf of Cadiz"}
+["Straits of Gibraltar"]	{"Straits of Gibraltar"}
+["Gulf of Valencia"]		{"Gulf of Valencia"}
+["Gulf of Lions"]		{"Gulf of Lions"}
+["Ligurian Sea"]		{"Ligurian Sea"}
+["Straits of Sicily"]		{"Straits of Sicily"}
+["Malta Channel"]		{"Malta Channel"}
+["Gulf of Gabes"]		{"Gulf of Gabes"}
+["Africa Coast"]		{"Africa Coast"}
+["Barbary Coast"}		{"Barbary Coast"}
+["Central Mediterranean"]	{"Central Mediterranean"}
+["Gulf of Sidra"]		{"Gulf of Sidra"}
+["Mirtoon Sea"]			{"Mirtoon Sea"}
+["Sea Marmara"]			{"Sea of Marmara"}
+["Sea of Crete"]		{"Sea of Crete"}
+["Dodecanese Sea"]		{"Dodecanese Sea"}
+["Nile Coast"]			{"Nile Coast"}
+["Atlantic Coast"]		{"Atlantic Coast"}
+
+ 	  
+@["province_of_xzy"]
+@{" of Region Zero"}
+@{" of Scotland"}
+@{" of Northumbria"}
+@{" of Mercia"}
+@{" of Wales"}
+@{" of Wessex"}
+@{" of Ireland"}
+@{" of Norway"}
+@{" of Sweden"}
+@{" of Denmark"}
+@{" of Finland"}
+@{" of Novgorod"}
+@{" of Muscovy"}
+@{" of Livonia"}
+@{" of Smolensk"}
+@{" of Ryazan"}
+@{" of Chernigov"}
+@{" of Lithuania"}
+@{" of Pereyaslavl"}
+@{" of Volga-Bulgaria"}
+@{" of Khazar"}
+@{" of Kiev"}
+@{" of The Crimea"}
+@{" of Volhynia"}
+@{" of Prussia"}
+@{" of Moldavia"}
+@{" of Carpathia"}
+@{" of Wallachia"}
+@{" of Bulgaria"}
+@{" of Hungary"}
+@{" of Poland"}
+@{" of Pomerania"}
+@{" of Brandenburg"}
+@{" of Silesia"}
+@{" of Bohemia"}
+@{" of Saxony"}
+@{" of Friesland"}
+@{" of Flanders"}
+@{" of Normandy"}
+@{" of Brittany"}
+@{" of Franconia"}
+@{" of Lorraine"}
+@{" of Champagne"}
+@{" of Ile de France"}
+@{" of Anjou"}
+@{" of Aquitaine"}
+@{" of Toulouse"}
+@{" of Provence"}
+@{" of Burgundy"}
+@{" of Swabia"}
+@{" of Bavaria"}
+@{" of Switzerland"}
+@{" of Tyrolia"}
+@{" of Austria"}
+@{" of Croatia"}
+@{" of Serbia"}
+@{" of Greece"}
+@{" of Constantinople"}
+@{" of Crete"}
+@{" of Rhodes"}
+@{" of Georgia"}
+@{" of Armenia"}
+@{" of Rum"}
+@{" of Lesser Armenia"}
+@{" of Edessa"}
+@{" of Trebizond"}
+@{" of Nicaea"}
+@{" of Anatolia"}
+@{" of Cyprus"}
+@{" of Antioch"}
+@{" of Syria"}
+@{" of Tripoli"}
+@{" of Palestine"}
+@{" of Arabia"}
+@{" of Sinai"}
+@{" of Egypt"}
+@{" of Cyrenacia"}
+@{" of the Sahara"}				//@{"Africa"}
+@{" of Tunisia"}
+@{" of Algeria"}
+@{" of Morocco"}
+@{" of Granada"}
+@{" of Cordoba"}
+@{" of Portugal"}
+@{" of Leon"}
+@{" of Castile"}
+@{" of Valencia"}
+@{" of Navarre"}
+@{" of Aragon"}
+@{" of Corsica"}
+@{" of Sardinia"}
+@{" of Genoa"}
+@{" of Milan"}
+@{" of Venice"}
+@{" of Tuscany"}
+@{" of The Papal States"}
+@{" of Rome"}
+@{" of Naples"}
+@{" of Malta"}
+@{" of Sicily"}
+    
+@{" of The North Atlantic"}
+@{" of The Irish Sea"}
+@{" of The Norwegian Sea"}
+@{" of The Skagerrak"}
+@{" of The Baltic Sea"}
+@{" of The North Sea"}
+@{" of The English Channel"}
+@{" of The Atlantic Ocean"}
+@{" of The Bay of Biscay"}
+@{" of The Costa Verde"}
+@{" of The Spanish Coast"}
+@{" of The Gulf of Cadiz"}
+@{" of The Straits of Gibraltar"}
+@{" of The Western Mediterranean"}
+@{" of The Gulf of Valencia"}
+@{" of The Gulf of Lions"}
+@{" of The Ligurian Sea"}
+@{" of The Tyrrhenian Sea"}
+@{" of The Straits of Sicily"}
+@{" of The Malta Channel"}
+@{" of The Gulf of Gabes"}
+@{" of The Africa Coast"}
+@{" of The Barbary Coast"}
+@{" of The Adriatic Ocean"}
+@{" of The Ionian Sea"}
+@{" of The Central Mediterranean"}
+@{" of The Gulf of Sidra"}
+@{" of The Mirtoon Sea"}
+@{" of The Aegean Sea"}
+@{" of The Sea Marmara"}
+@{" of The Black Sea"}
+@{" of The Sea of Crete"}
+@{" of The Dodecanese Sea"}
+@{" of The Eastern Mediterranean"}
+@{" of The Nile Coast"}
+@{" of The Atlantic Coast"}
+
+	  					
+
+//faction leader names
+@["faction_leaders_xzy"]
+@{"The Rebel Leader"}
+@{"The Almohad Khalifah"}
+@{"The Byzantine Emperor"}
+@{"The King of the Danes"}   		
+@{"The Egyptian Sultan"}
+@{"The King of England"}
+@{"The King of France"}
+@{"The Holy Roman Emperor"}
+@{"The Italian Doge"}  		
+@{"The King of Poland"}   		
+@{"The Russian Grand Prince"}   		
+@{"The Spanish King"}
+@{"The Turkish Sultan"}
+
+@{"The King of Aragon"}
+@{"The Duke of Burgundy"}
+@{"The Khan of the Golden Horde"}
+@{"The King of Hungary"}
+@{"The Prince of Novgorod"}
+@{"The Pope"}
+@{"The King of Sicily"}
+@{"The Swiss Leader"}
+
+@{"The Free01 Leader"}		
+@{"The Free02 Leader"}		
+@{"The Free03 Leader"}		
+@{"The Free04 Leader"}		
+@{"The Free05 Leader"}		
+@{"The Free06 Leader"}		
+@{"The Free07 Leader"}		
+@{"The Free08 Leader"}		
+@{"The Free09 Leader"}		
+@{"The Free10 Leader"}		
+@{"The Free11 Leader"}		
+@{"The Free12 Leader"}		
+@{"The Free13 Leader"}		
+@{"The Free14 Leader"}		
+@{"The Free15 Leader"}		
+@{"The Free16 Leader"}		
+@{"The Free17 Leader"}		
+@{"The Free18 Leader"}		
+@{"The Free19 Leader"}		
+@{"The Free20 Leader"}		
+@{"The Free21 Leader"}		
+@{"The Free22 Leader"}		
+@{"The Free23 Leader"}		
+@{"The Free24 Leader"}		
+@{"The Free25 Leader"}		
+@{"The Free26 Leader"}		
+@{"The Free27 Leader"}		
+@{"The Free28 Leader"}		
+@{"The Free29 Leader"}		
+@{"The Free30 Leader"}		
+@{"The Free31 Leader"}		
+@{"The Free32 Leader"}		
+@{"The Free33 Leader"}		
+@{"The Free34 Leader"}		
+@{"The Free35 Leader"}		
+@{"The Free36 Leader"}		
+@{"The Free37 Leader"}		
+@{"The Free38 Leader"}		
+@{"The Free39 Leader"}		
+@{"The Free40 Leader"}		
+@{"The Free41 Leader"}		
+@{"The Free42 Leader"}		
+@{"The Free43 Leader"}		
+
+
+@["factions_xzy"]
+@{"The Rebels"}
+@{"The Almohads"}
+@{"The Byzantines"}
+@{"The Danes"}   		
+@{"The Egyptians"}
+@{"The English"}
+@{"The French"}
+@{"The Germans"}
+@{"The Italians"}  		
+@{"The Polish"}   		
+@{"The Russians"}   		
+@{"The Spanish"}
+@{"The Turkish"}
+
+@{"The Aragonese"}
+@{"The Burgundians"}
+@{"The Golden Horde"}
+@{"The Hungarians"}
+@{"The people of Novgorod"}
+@{"The Papacy"}
+@{"The Sicilians"}
+@{"The Swiss"}
+
+@{"The Free01"}		
+@{"The Free02"}		
+@{"The Free03"}		
+@{"The Free04"}		
+@{"The Free05"}		
+@{"The Free06"}		
+@{"The Free07"}		
+@{"The Free08"}		
+@{"The Free09"}		
+@{"The Free10"}		
+@{"The Free11"}		
+@{"The Free12"}		
+@{"The Free13"}		
+@{"The Free14"}		
+@{"The Free15"}		
+@{"The Free16"}		
+@{"The Free17"}		
+@{"The Free18"}		
+@{"The Free19"}		
+@{"The Free20"}		
+@{"The Free21"}		
+@{"The Free22"}		
+@{"The Free23"}		
+@{"The Free24"}		
+@{"The Free25"}		
+@{"The Free26"}		
+@{"The Free27"}		
+@{"The Free28"}		
+@{"The Free29"}		
+@{"The Free30"}		
+@{"The Free31"}		
+@{"The Free32"}		
+@{"The Free33"}		
+@{"The Free34"}		
+@{"The Free35"}		
+@{"The Free36"}		
+@{"The Free37"}		
+@{"The Free38"}		
+@{"The Free39"}		
+@{"The Free40"}		
+@{"The Free41"}		
+@{"The Free42"}		
+@{"The Free43"}		
+	 
+// To be concatonated with the above names.	  
+@["of_culture"]
+@{""}
+@{", a Pagan faction."}
+@{", a Catholic faction."}
+@{", an Orthodox faction."}
+@{", a Muslim faction."}
+
+@["of_Clan_Names"]
+@{" of the rebels"}
+@{" of The Almohads"}
+@{" of The Byzantines"}
+@{" of The Danes"}   		
+@{" of The Egyptians"}
+@{" of The English"}
+@{" of The French"}
+@{" of The Germans"}
+@{" of The Italians"}  		
+@{" of The Polish"}   		
+@{" of The Russians"}
+@{" of The Spanish"}
+@{" of The Turkish"}
+
+@{" of The Aragonese"}
+@{" of The Burgundians"}
+@{" of The Golden Horde"}
+@{" of The Hungarians"}
+@{" of The men of Novgorod"}
+@{" of The Papacy"}
+@{" of The Sicilians"}
+@{" of The Swiss"}
+
+@{" of The Free01"}		
+@{" of The Free02"}		
+@{" of The Free03"}		
+@{" of The Free04"}		
+@{" of The Free05"}		
+@{" of The Free06"}		
+@{" of The Free07"}		
+@{" of The Free08"}		
+@{" of The Free09"}		
+@{" of The Free10"}		
+@{" of The Free11"}		
+@{" of The Free12"}		
+@{" of The Free13"}		
+@{" of The Free14"}		
+@{" of The Free15"}		
+@{" of The Free16"}		
+@{" of The Free17"}		
+@{" of The Free18"}		
+@{" of The Free19"}		
+@{" of The Free20"}		
+@{" of The Free21"}		
+@{" of The Free22"}		
+@{" of The Free23"}		
+@{" of The Free24"}		
+@{" of The Free25"}		
+@{" of The Free26"}		
+@{" of The Free27"}		
+@{" of The Free28"}		
+@{" of The Free29"}		
+@{" of The Free30"}		
+@{" of The Free31"}		
+@{" of The Free32"}		
+@{" of The Free33"}		
+@{" of The Free34"}		
+@{" of The Free35"}		
+@{" of The Free36"}		
+@{" of The Free37"}		
+@{" of The Free38"}		
+@{" of The Free39"}		
+@{" of The Free40"}		
+@{" of The Free41"}		
+@{" of The Free42"}		
+@{" of The Free43"}		
+
+@["of_Clan_Districts"]
+@{" of the rebels"}
+@{" of Almohad Caliphate"}
+@{" of Byzantium"}
+@{" of The Kingdom of Denmark"}  		
+@{" of Egypt"}
+@{" of England"}
+@{" of France"}
+@{" of The Holy Roman Empire"}
+@{" of Italy"}  		
+@{" of Poland"}   		
+@{" of Russia"}
+@{" of Spain"}
+@{" of Turkey"}
+
+@{" of Aragon"}
+@{" of Burgundy"}
+@{" of Golden Khanate"}
+@{" of Hungary"}
+@{" of Novgorod"}
+@{" of The Papal States"}
+@{" of Sicily"}
+@{" of Switzerland"}
+
+@{" of The Free01"}		
+@{" of The Free02"}		
+@{" of The Free03"}		
+@{" of The Free04"}		
+@{" of The Free05"}		
+@{" of The Free06"}		
+@{" of The Free07"}		
+@{" of The Free08"}		
+@{" of The Free09"}		
+@{" of The Free10"}		
+@{" of The Free11"}		
+@{" of The Free12"}		
+@{" of The Free13"}		
+@{" of The Free14"}		
+@{" of The Free15"}		
+@{" of The Free16"}		
+@{" of The Free17"}		
+@{" of The Free18"}		
+@{" of The Free19"}		
+@{" of The Free20"}		
+@{" of The Free21"}		
+@{" of The Free22"}		
+@{" of The Free23"}		
+@{" of The Free24"}		
+@{" of The Free25"}		
+@{" of The Free26"}		
+@{" of The Free27"}		
+@{" of The Free28"}		
+@{" of The Free29"}		
+@{" of The Free30"}		
+@{" of The Free31"}		
+@{" of The Free32"}		
+@{" of The Free33"}		
+@{" of The Free34"}		
+@{" of The Free35"}		
+@{" of The Free36"}		
+@{" of The Free37"}		
+@{" of The Free38"}		
+@{" of The Free39"}		
+@{" of The Free40"}		
+@{" of The Free41"}		
+@{" of The Free42"}		
+@{" of The Free43"}		
+
+
+
+@["factions_posessive_xzy"]
+@{"Rebel"}
+@{"Almohad"}						  
+@{"Byzantine"}						  
+@{"Danish"}   						  
+@{"Egyptian"}						  
+@{"English"}						  
+@{"French"}							  
+@{"German"}							  
+@{"Italian"}  						  
+@{"Polish"}   						  
+@{"Russian"}   						  
+@{"Spanish"}						  
+@{"Turkish"}						  
+									  
+@{"Aragonese"}						  
+@{"Burgundian"}						  
+@{"Golden Horde"}					  
+@{"Hungarian"}						  
+@{"Novgorod"}						  
+@{"Papal"}							  
+@{"Sicilian"}						  
+@{"Swiss"}							  
+									  
+@{"Free01"}
+@{"Free02"}		
+@{"Free03"}		
+@{"Free04"}		
+@{"Free05"}		
+@{"Free06"}		
+@{"Free07"}		
+@{"Free08"}		
+@{"Free09"}		
+@{"Free10"}		
+@{"Free11"}		
+@{"Free12"}		
+@{"Free13"}		
+@{"Free14"}		
+@{"Free15"}		
+@{"Free16"}		
+@{"Free17"}		
+@{"Free18"}		
+@{"Free19"}		
+@{"Free20"}		
+@{"Free21"}		
+@{"Free22"}		
+@{"Free23"}		
+@{"Free24"}		
+@{"Free25"}		
+@{"Free26"}		
+@{"Free27"}		
+@{"Free28"}		
+@{"Free29"}		
+@{"Free30"}		
+@{"Free31"}		
+@{"Free32"}		
+@{"Free33"}		
+@{"Free34"}		
+@{"Free35"}		
+@{"Free36"}		
+@{"Free37"}		
+@{"Free38"}		
+@{"Free39"}		
+@{"Free40"}		
+@{"Free41"}		
+@{"Free42"}		
+@{"Free43"}		
+
+
+["The "]					{"The "}
+
+
+["Rebel"]					{"Rebel"}
+["Almohad"]					{"Almohad"}
+["Byzantine"]				{"Byzantine"}
+["Danish"]   				{"Danish"}   		
+["Egyptian"]   				{"Egyptian"}   		
+["English"]					{"English"}
+["French"]					{"French"}
+["German"]					{"German"}
+["Italian"]  				{"Italian"}  		
+["Polish"]					{"Polish"}   		
+["Spanish"]					{"Spanish"}
+["Turkish"]					{"Turkish"}
+                          
+["Aragonese"]				{"Aragonese"}
+["Burgundian"]				{"Burgundian"}
+["Golden Horde"]			{"Golden Horde"}
+["Hungarian"]				{"Hungarian"}
+["Novgorodian"]				{"Novgorodian"}
+["Papist"]					{"Papal"}
+["Sicilian"]				{"Sicilian"}
+["Swiss"]					{"Swiss"}
+                          	
+["Free01"]		            {"Free01"}		
+["Free02"]		            {"Free02"}		
+["Free03"]		            {"Free03"}		
+["Free04"]		            {"Free04"}		
+["Free05"]		            {"Free05"}		
+["Free06"]		            {"Free06"}		
+["Free07"]		            {"Free07"}		
+["Free08"]		            {"Free08"}		
+["Free09"]		            {"Free09"}		
+["Free10"]		            {"Free10"}		
+["Free11"]		            {"Free11"}		
+["Free12"]		            {"Free12"}		
+["Free13"]		            {"Free13"}		
+["Free14"]		            {"Free14"}		
+["Free15"]		            {"Free15"}		
+["Free16"]		            {"Free16"}		
+["Free17"]		            {"Free17"}		
+["Free18"]		            {"Free18"}		
+["Free19"]		            {"Free19"}		
+["Free20"]		            {"Free20"}		
+["Free21"]		            {"Free21"}		
+["Free22"]		            {"Free22"}		
+["Free23"]		            {"Free23"}		
+["Free24"]		            {"Free24"}		
+["Free25"]		            {"Free25"}		
+["Free26"]		            {"Free26"}		
+["Free27"]		            {"Free27"}		
+["Free28"]		            {"Free28"}		
+["Free29"]		            {"Free29"}		
+["Free30"]		            {"Free30"}		
+["Free31"]		            {"Free31"}		
+["Free32"]		            {"Free32"}		
+["Free33"]		            {"Free33"}		
+["Free34"]		            {"Free34"}		
+["Free35"]		            {"Free35"}		
+["Free36"]		            {"Free36"}		
+["Free37"]		            {"Free37"}		
+["Free38"]		            {"Free38"}		
+["Free39"]		            {"Free39"}		
+["Free40"]		            {"Free40"}		
+["Free41"]		            {"Free41"}		
+["Free42"]		            {"Free42"}		
+["Free43"]		            {"Free43"}		
+
+
+
+
+@["rebel_factions_xzy"]             
+@{"the Alans"}                          
+@{"the Alsatians"}                      
+@{"the Anatolians"}                     
+@{"the Andalucians"}                    
+@{"the Angevins"}                       
+@{"the Apulians"}                       
+@{"the Arabs"}                          
+@{"the Armenians"}                      
+@{"the Basarabs"}                       
+@{"the Basques"}                        
+@{"the Bedouins"}                       
+@{"the Belarussians"}                   
+@{"the Berbers"}                                           
+@{"the Blois"}                          
+@{"the Bretons"}                        
+@{"the Bulgars"}                        
+@{"the Burgundians"}                    
+@{"the Castilians"}                     
+@{"the Catalans"}                       
+@{"the Cordobans"}                      
+@{"the Corsicans"}                      
+@{"the Cretans"}                        
+@{"the Croatians"}                      
+@{"the Cumans"}                         
+@{"the Cypriots"}                       
+@{"the Czechs"}                         
+@{"the Danes"}                          
+@{"the Dodecanese"}                     
+@{"the Egyptians"}                      
+@{"the English"}                        
+@{"the Finns"}                          
+@{"the Flemish"}                        
+@{"the Friesians"}                      
+@{"the Genoans"}                        
+@{"the Georgians"}                      
+@{"the Guiennes"}                       
+@{"the Hellenes"}                       
+@{"the Irish"}                          
+@{"the Jacquerie"}                      
+@{"the Khazars"}                        
+@{"the Landesadel"}                     
+@{"the Lascarids"}                      
+@{"the Leonese"}                        
+@{"the Levantines"}                     
+@{"the Lithuanians"}                    
+@{"the Livs"}                           
+@{"the Lombards"}                       
+@{"the Cyrenacians"}                        
+@{"the Maltese"}                        
+@{"the Maygars"}                        
+@{"the Mercians"}                       
+@{"the Moors"}                          
+@{"the Neapolitans"}                    
+@{"the Normans"}                        
+@{"the Norse"}                          
+@{"the Northumbrians"}                  
+@{"the Piasts"}                         
+@{"the Poles"}                          
+@{"the Pomeranians"}                    
+@{"the Portuguese"}                     
+@{"the Provencals"}                     
+@{"the Prussians"}                      
+@{"the Rebel Alliance"}                 
+@{"the Rhenish"}                        
+@{"the Rhomaioi"}                       
+@{"the Romans"}                         
+@{"the Rurikids"}                       
+@{"the Sardinians"}                     
+@{"the Saxons"}                         
+@{"the Schaunbergs"}                    
+@{"the Scots"}                          
+@{"the Seljuks"}                        
+@{"the Serbs"}                          
+@{"the Sicilians"}                      
+@{"the Swabs"}                          
+@{"the Swedish"}                        
+@{"the Swiss"}                          
+@{"the Toulousians"}                    
+@{"the Trapezuntines"}                  
+@{"the Tuaregs"}                        
+@{"the Tuscans"}                        
+@{"the Tyrolians"}                      
+@{"the Ugrians"}                        
+@{"the Venitians"}                      
+@{"the Vlads"}                          
+@{"the Volhynians"}                     
+@{"the Welfs"}                          
+@{"the Welsh"}                          
+
+
+
+
+
+// Castle names.
+["Aquitaine Castle_xzy"]		{"Bordeaux Castle"}
+["Africa Castle_xzy"]			{"Africa Castle"}
+["Algeria Castle_xzy"]			{"Algiers Castle"}
+["Anatolia Castle_xzy"]			{"Antalya Castle"}
+["Anjou Castle_xzy"]			{"Angers Castle"}
+["Antioch Castle_xzy"]			{"Antioch Castle"}
+["Aragon Castle_xzy"]			{"Barcelona Castle"}
+["Armenia Castle_xzy"]			{"Yerevan Castle"}
+["Austria Castle_xzy"]			{"Vienna Castle"}
+["Bavaria Castle_xzy"]			{"Munich Castle"}
+["Bohemia Castle_xzy"]			{"Prague Castle"}
+["Brandenburg Castle_xzy"]		{"Berlin-Kolln Castle"}
+["Brittany Castle_xzy"]			{"Nantes Castle"}
+["Bulgaria Castle_xzy"]			{"Turnovo Castle"}
+["Burgundy Castle_xzy"]			{"Dijon Castle"}
+["Castile Castle_xzy"]			{"Toledo Castle"}
+["Champagne Castle_xzy"]		{"Blois Castle"}
+["Chernigov Castle_xzy"]		{"Vladimir Castle"}
+["Constantinople Castle_xzy"]	{"Constantinople Castle"}
+["Cordoba Castle_xzy"]			{"Cordoba Castle"}
+["Corsica Castle_xzy"]			{"Bastia Castle"}
+["Crete Castle_xzy"]			{"Candia Castle"}
+["Croatia Castle_xzy"]			{"Zara Castle"}
+["Cyprus Castle_xzy"]			{"Nicosia Castle"}
+["Denmark Castle_xzy"]			{"Roskilde Castle"}
+["Arabia Castle_xzy"]			{"Kerak Castle"}
+["Edessa Castle_xzy"]			{"Edessa Castle"}
+["Egypt Castle_xzy"]			{"Cairo Castle"}
+["Finland Castle_xzy"]			{"Hame Castle"}
+["Flanders Castle_xzy"]			{"Ghent Castle"}
+["Franconia Castle_xzy"]		{"Bamberg Castle"}
+["Friesland Castle_xzy"]		{"Groningen Castle"}
+["Genoa Castle_xzy"]			{"Genoa Castle"}
+["Georgia Castle_xzy"]			{"T'bilisi Castle"}
+//["Golden Khanate Castle_xzy"]	{"Sarai Castle"}
+["Granada Castle_xzy"]			{"Granada Castle"}
+["Greece Castle_xzy"]			{"Athens Castle"}
+["Hungary Castle_xzy"]			{"Esztergom Castle"}
+["Ile de France Castle_xzy"]	{"Paris Castle"}
+["Ireland Castle_xzy"]			{"Dublin Castle"}
+["Jerusalem Castle_xzy"]		{"Jerusalem Castle"}
+["Kiev Castle_xzy"]				{"Kiev Castle"}
+["Leon Castle_xzy"]				{"Leon Castle"}
+["Lesser Armenia Castle_xzy"]	{"Sivas Castle"}
+["Libya Castle_xzy"]			{"Tripoli Castle"}
+["Lithuania Castle_xzy"]		{"Vilnius Castle"}
+["Livonia Castle_xzy"]			{"Livonia Castle"}
+["Lorraine Castle_xzy"]			{"Nancy Castle"}
+["Malta Castle_xzy"]			{"Valletta Castle"}
+["Mercia Castle_xzy"]			{"Nottingham Castle"}
+["Milan Castle_xzy"]			{"Milan Castle"}
+["Moldavia Castle_xzy"]			{"Cetatea Alba Castle"}
+["Morocco Castle_xzy"]			{"Marrakech Castle"}
+["Muscovy Castle_xzy"]			{"Moscow Castle"}
+["Naples Castle_xzy"]			{"Naples Castle"}
+["Navarre Castle_xzy"]			{"Pamplona Castle"}
+["Nicaea Castle_xzy"]			{"Nicaea Castle"}
+["Normandy Castle_xzy"]			{"Rouen Castle"}
+["Northumbria Castle_xzy"]		{"York Castle"}
+["Norway Castle_xzy"]			{"Akershus Castle"}
+["Novgorod Castle_xzy"]			{"Novgorod Castle"}
+["Papal States Castle_xzy"]		{"Perugia Castle"}
+["Poland Castle_xzy"]			{"Krakow Castle"}
+["Pomerania Castle_xzy"]		{"Mikilinborg Castle"}
+["Portugal Castle_xzy"]			{"Lisbon Castle"}
+["Provence Castle_xzy"]			{"Marseille Castle"}
+["Prussia Castle_xzy"]			{"Konigsberg Castle"}
+["Rhodes Castle_xzy"]			{"Rhodes Castle"}
+["Rome Castle_xzy"]				{"Rome Castle"}
+["Rum Castle_xzy"]				{"Iconium Castle"}
+["Ryazan Castle_xzy"]			{"Ryazan Castle"}
+["Sardinia Castle_xzy"]			{"Cagliari Castle"}
+["Saxony Castle_xzy"]			{"Dresden Castle"}
+["Scotland Castle_xzy"]			{"Edinburgh Castle"}
+["Serbia Castle_xzy"]			{"Beograd Castle"}
+["Sicily Castle_xzy"]			{"Palermo Castle"}
+["Silesia Castle_xzy"]			{"Wroclaw Castle"}
+["Sinai Castle_xzy"]			{"Al-Arish Castle"}
+["Smolensk Castle_xzy"]			{"Smolensk Castle"}
+["Swabia Castle_xzy"]			{"Stuttgart Castle"}
+["Sweden Castle_xzy"]			{"Stockholm Castle"}
+["Switzerland Castle_xzy"]		{"Habsburg Castle"}
+["Syria Castle_xzy"]			{"Damascus Castle"}
+["Toulouse Castle_xzy"]			{"Toulouse Castle"}
+["Trebizond Castle_xzy"]		{"Trebizond Castle"}
+["Tripoli Castle_xzy"]			{"Tripoli Castle"}
+["Tunisia Castle_xzy"]			{"Tunis Castle"}
+["Tuscany Castle_xzy"]			{"Florence Castle"}
+["Tyrolia Castle_xzy"]			{"Innsbruck Castle"}
+["Venice Castle_xzy"]			{"Venice Castle"}
+["Volhynia Castle_xzy"]			{"Lviv Castle"}
+["Wales Castle_xzy"]			{"Caernarfon Castle"}
+["Wallachia Castle_xzy"]		{"Bucharest Castle"}
+["Wessex Castle_xzy"]			{"Tower of London"}
+
+["Carpathia Castle_xzy"]		{"Carpathia Castle"}
+["Volga-Bulgaria Castle_xzy"]	{"Volga-Bulgaria Castle"}
+["Pereyaslavl Castle_xzy"]		{"Pereyaslavl Castle"}
+["Khazar Castle_xzy"]			{"Khazar Castle"}
+["Crimea Castle_xzy"]			{"Crimea Castle"}
+["Valencia Castle_xzy"]			{"Valencia Castle"}
+
+// Special titles
+["King of Scotland"]			{"King of Scotland"}
+["Margrave of Branden"]			{"Margrave of Brandenburg"}
+["King of Bohemia"]				{"King of Bohemia"}
+["Count of Flanders"]			{"Count of Flanders"}
+["Count of Brittany"]			{"Count of Brittany"}
+["Count of Champagne"]			{"Count of Champagne"}
+["Count of Anjou"]				{"Count of Anjou"}
+["Count of Toulouse"]			{"Count of Toulouse"}
+["Prince of Antioch"]			{"Prince of Antioch"}
+["Count of Tripoli"]			{"Count of Tripoli"}
+["King of Jerusalem"]			{"King of Jerusalem"}
+
+
+								
+// first and last name
+// Note could have done as straight array but this way causes least disruption 
+// and has least risk. 
+
+
+//Temp Names
+["Faction_Heir_1_xzy"]		{"Faction Heir 1"}
+["Faction_Heir_2_xzy"]		{"Faction Heir 2"}
+["Faction_Heir_3_xzy"]		{"Faction Heir 3"}
+["Faction_Heir_4_xzy"]		{"Faction Heir 4"}
+["Faction_Heir_5_xzy"]		{"Faction Heir 5"}
+["Faction_Heir_6_xzy"]		{"Faction Heir 6"}
+["Faction_Heir_7_xzy"]		{"Faction Heir 7"}
+["Faction_Heir_8_xzy"]		{"Faction Heir 8"}
+["Faction_Heir_9_xzy"]		{"Faction Heir 9"}
+["Faction_Heir_A_xzy"]		{"Faction Heir A"}
+["Faction_Heir_B_xzy"]		{"Faction Heir B"}
+["Faction_Heir_C_xzy"]		{"Faction Heir C"}
+["Faction_Heir_D_xzy"]		{"Faction Heir D"}
+["Faction_Heir_E_xzy"]		{"Faction Heir E"}
+["Faction_Heir_F_xzy"]		{"Faction Heir F"}
+
+["Hero_1_xzy"]		{"Hero 1"}
+["Hero_2_xzy"]		{"Hero 2"}
+["Hero_3_xzy"]		{"Hero 3"}
+["Hero_4_xzy"]		{"Hero 4"}
+["Hero_5_xzy"]		{"Hero 5"}
+["Hero_6_xzy"]		{"Hero 6"}
+["Hero_7_xzy"]		{"Hero 7"}
+["Hero_8_xzy"]		{"Hero 8"}
+["Hero_9_xzy"]		{"Hero 9"}
+["Hero_A_xzy"]		{"Hero A"}
+["Hero_B_xzy"]		{"Hero B"}
+["Hero_C_xzy"]		{"Hero C"}
+["Hero_D_xzy"]		{"Hero D"}
+["Hero_E_xzy"]		{"Hero E"}
+["Hero_F_xzy"]		{"Hero F"}
+["Hero_G_xzy"]		{"Hero G"}
+["Hero_H_xzy"]		{"Hero H"}
+["Hero_I_xzy"]		{"Hero I"}
+["Hero_J_xzy"]		{"Hero J"}
+["Hero_K_xzy"]		{"Hero K"}
+		
+["Sir Guy"] {"Sir Guy"}
+["De Ogey"] {"De Oggey"}
+
+//
+//
+//								
+//
+//Forenames & Surnames for constructed names. 
+//
+// titles
+
+	["Sir"] {"Sir "}
+	["Don"] {"Don "}
+	["Lord"] {"Lord "}
+	["Amir"] {"Amir "}
+	["Captain"] {"Captain"}
+	["Prince"] {"Prince "}
+	["King"] {"King "}
+	["Princess"] {"Princess "}
+	["Emperor"] {"Emperor "}
+	["Sultan"] {"Sultan "}
+
+// english forenames
+	["Alfred"]	{"Alfred"}
+	["Edward"]	{"Edward"}
+	["Edmund"]	{"Edmund"}
+	["Edgar"]	{"Edgar"}
+	["William"]	{"William"}
+	["Henry"]	{"Henry"}
+	["John"]	{"John"}
+	["Harry"]	{"Harry"}
+	["George"]	{"George"}
+	["Howard"]	{"Howard"}
+	["Anthony"]	{"Anthony"}
+	["Nigel"]	{"Nigel"}
+	["Thomas"]	{"Thomas"}
+	["Hugh"]	{"Hugh"}
+	["Geoffrey"]	{"Geoffrey"}
+	["Hubert"]	{"Hubert"}
+	["Robert"]	{"Robert"}
+	["Ralph"]	{"Ralph"}
+	["Jasper"]	{"Jasper"}
+	["Perkin"]	{"Perkin"}
+	["Roger"]	{"Roger"}
+	["Godwine"]	{"Godwine"}
+	["Tostig"]	{"Tostig"}
+	["Loefwine"]{"Loefwine"}
+	["Aelfgar"]	{"Aelfgar"}
+	["Morcar"]	{"Morcar"}
+	["Walter"]	{"Walter"}
+	["Robin"]	{"Robin"}
+
+
+// english surnames// english surnames
+
+
+	["Cromwell"]	{"Cromwell"}
+	["Pole"]		{"Pole"}
+	["Talbot"]		{"Talbot"}
+	["Stanley"]		{"Stanley"}
+	["Roos"]		{"Roos"}
+	["Mobray"]		{"Mobray"}
+	["Grey"]		{"Grey"}
+	["Plantagenet"]	{"Plantagenet"}
+	["Bourchier"]	{"Bourchier"}
+	["Courtnay"]	{"Courtnay"}
+	["Fitzalan"]	{"Fitzalan"}
+	["Stafford"]	{"Stafford"}
+	["Scrope"]		{"Scrope"}
+	["Neville"]		{"Neville"}
+	["Holland"]		{"Holland"}
+	["Greystoke"]	{"Greystoke"}
+	["Hastings"]	{"Hastings"}
+	["Berkeley"]	{"Berkeley"}
+	["Audley"]		{"Audley"}
+	["Percy"]		{"Percy"}
+	["Beaufort"]	{"Beaufort"}
+	["Herbert"]		{"Herbert"}
+	["Mortimer"]	{"Mortimer"}
+	["Stuart"]		{"Stuart"}
+	["Curthose"]	{"Curthose"}
+	["Giffard"]		{"Giffard"}
+	["Burnell"]		{"Burnell"}
+	["Basset"]		{"Basset"}
+	["Fitzwalter"]	{"Fitzwalter"}
+	["Langton"]		{"Langton"}
+	["Uhtred"]		{"Uhtred"}
+	["Wulfstan"]	{"Wulfstan"}
+	["Eadwulf"]		{"Eadwulf"}
+	["Maitland"]	{"Maitland"}
+	["Fitzneale"]	{"Fitzneale"}
+	["Becket"]		{"Becket"}
+	["Longchamp"]	{"Longchamp"}
+	["Montfort"]	{"Montfort"}
+	["Peckham"]		{"Peckham"}
+	["Gaveston"]	{"Gaveston"}
+	["Despenser"]	{"Despenser"}
+	["de Vere"]		{"de Vere"}
+	["de Beauchamp"]{"de Beauchamp"}
+	["Bolingbroke"]	{"Bolingbroke"}
+	["Gascoigne"]	{"Gascoigne"}
+	["Swynford"]	{"Swynford"}
+
+// danish  surnames
+
+["Forkbeard"]		{"Forkbeard"}
+["Bluetooth"]		{"Bluetooth"}
+["Skotkonung"]		{"Skotkonung"}
+["Haraldsson"]		{"Haraldsson"}
+["Thorkell"]		{"Thorkell"}
+["Jarl"]			{"Jarl"}
+["Tryggvason"]		{"Tryggvason"}
+["Nevjolvson"]		{"Nevjolvson"}
+
+["Ericsson"]	{"Ericsson"}
+["Hunger"]		{"Hunger"}
+["Eigod"]		{"Eigod"}
+["Slyngebard"]	{"Slyngebard"}
+["Grathe "]		{"Grathe "}
+["Haengsson "]	{"Haengsson "}
+["Menved"]		{"Menved"}
+["Thorsteinsson "]	{"Thorsteinsson "}
+["Guddrodson"]	{"Guddrodson"}
+ 
+["Hunthjofson "]	{"Hunthjofson "}
+["Tryggvasson "]	{"Tryggvasson "}
+["Svertingsson "]	{"Svertingsson "}
+["Thorrodson"]	{"Thorrodson"}
+["Tjorvason"]	{"Tjorvason"}
+["Bolverksson"]	{"Bolverksson"}
+["Thorgrimsson"]	{"Thorgrimsson"}
+ 
+["Flosason"]	{"Flosason"}
+["Surtsson"]	{"Surtsson"}
+["Skeggjason"]	{"Skeggjason"}
+["Gunnarsson"]	{"Gunnarsson"}
+["Hrafnsson"]	{"Hrafnsson"}
+["Masson "]		{"Masson "}
+["Loftsson "]	{"Loftsson "}
+["Sturlasson"]	{"Sturlasson"}
+
+["Gille"]		{"Gille"}
+["Slembe"]		{"Slembe"}
+["Ulfsen"]		{"Ulfsen"}
+["Jedwaerdsson"]	{"Jedwaerdsson"}
+["Henriksson"]	{"Henriksson"}
+["Bengtsson "]	{"Bengtsson "}
+["Ironside"]	{"Ironside"}
+["Hildetand"]	{"Hildetand"}
+
+["Bjornsson"]	{"Bjornsson"}
+["Raefillsson"]	{"Raefillsson"}
+["Emundsson"]	{"Emundsson"}
+["Skottkonung"]	{"Skottkonung"}
+["Stenkilsson"]	{"Stenkilsson"}
+["Beleson"]		{"Beleson"}
+["Skaaning"]	{"Skaaning"}
+["Orvendilson"]	{"Orvendilson"}
+
+// danish  forenames
+["Sweyn"]		{"Sweyn"}
+["Harald"]		{"Harald"}
+["Olaf"]		{"Olaf"}
+["Erik"]		{"Erik"}
+["Knud"]		{"Knud"}
+["Ulf"]			{"Ulf"}
+["Hardeknud"]	{"Hardeknud"}
+["Leofric"]		{"Leofric"}
+["Sigifrid"]	{"Sigifrid"}
+["Godafrid"]	{"Godafrid"}
+["Toraren"]		{"Toraren"}
+["Valdemar"]	{"Valdemar"}
+["Christoffer"]	{"Christoffer"}
+
+["Niels"]	{"Niels"}
+["Magnus"]	{"Magnus"}
+["Thorgeir"]	{"Thorgeir"}
+["Grim"]	{"Grim"}
+["Skapti"]	{"Skapti"}
+["Thorkel"]	{"Thorkel"}
+["Gellir"]	{"Gellir"}
+["Gunnar"]	{"Gunnar"}
+
+["Kolbein"]	{"Kolbein"}
+["Sighvat"]	{"Sighvat"}
+["Ulfhedin"]	{"Ulfhedin"}
+["Bergthor"]	{"Bergthor"}
+["Haflidhi"]	{"Haflidhi"}
+["Jon"]	{"Jon"}
+["Snorri"]	{"Snorri"}
+
+["Eystein"]	{"Eystein"}
+["Sigurd"]	{"Sigurd"}
+["Haakon"]	{"Haakon"}
+["Inge"]	{"Inge"}
+["Thorgils"]	{"Thorgils"}
+["Anund"]	{"Anund"}
+["Emund"]	{"Emund"}
+["Stenkil"]	{"Stenkil"}
+
+["Halstan"]	{"Halstan"}
+["Ragnvald"]	{"Ragnvald"}
+["Sten"]	{"Sten"}
+["Birger"]	{"Birger"}
+["Burislev"]	{"Burislev"}
+["Toke"]	{"Toke"}
+["Godfred"]	{"Godfred"}
+
+
+
+//italian forenames - note that we've changed some of them, but the labels are the old ones. This is intentional.
+
+["Vitale"]		{"Vitale"}
+["Orso"]		{"Orso"}
+["Lorenzo"]		{"Lorenzo"}
+["Jacopo"]		{"Jacopo"}
+["Marino"]		{"Marino"}
+["Enrico"]		{"Enrico"}
+["Sicco"]		{"Galeazzo"}
+["Teofilatto"]	{"Ercole"}
+["Romano"]		{"Romano"}
+["Giovanni"]	{"Giovanni"}
+["Anselmo"]		{"Anselmo"}
+["Dauferi"]		{"Antonio"}
+["Bieda"]		{"Biagio"}
+["Cencius"]		{"Cosimo"}
+["Gelasius"]	{"Giulio"}
+["Lamberto"]	{"Lamberto"}
+["Teobaldo"]	{"Teobaldo"}
+["Gregorio"]	{"Gregorio"}
+["Pietro"]		{"Pietro"}
+["Guido"]		{"Guido"}
+["Gherardo"]	{"Gherardo"}
+["Bernardo"]	{"Bernardo"}
+["Corrado"]		{"Corrado"}
+["Rolando"]		{"Rolando"}
+["Ubaldo"]		{"Ubaldo"}
+["Uberto"]		{"Uberto"}
+["Alberto"]		{"Alberto"}
+["Paolo"]		{"Paolo"}
+["Giacinto"]	{"Giacinto"}
+["Cencio"]		{"Giordano"}
+["Goffredo"]	{"Goffredo"}
+["Sinibaldo"]	{"Matteo"}
+["Ottobono"]	{"Ettore"}
+["NiccolX"]		{"Niccolò"}
+
+// italian surnames - note that we've changed some of them, but the labels are the old ones. This is intentional.
+
+
+["Machiavelli"]	{"Macchiavelli"}	
+["Medici"]		{"de’ Medici"}	
+["Piccolomini"]	{"Piccolomini"}	
+["Borgia"]		{"Borgia"}	
+["Collona"]		{"Colonna"}	
+["Albergati"]	{"Albergati"}	
+["Juliani"]		{"Giuliani"}	
+["Dei Segni"]	{"Infanti"}	
+["Fieschi"]		{"Fieschi"}	
+["Orsini"]		{"Orsini"}	
+["Castiglioni"]	{"Castiglioni"}	
+["Scotti"]		{"Scotti"}	
+["Bobone"]		{"de’ Bardi"}	
+["Scolari"]		{"Scolari"}	
+["Prignano"]	{"Prignano"}	
+["Crivelli"]	{"Crivelli"}	
+["Allucingoli"]	{"Odescalchi"}	
+["Bandinelli"]	{"Bandinelli"}	
+["Crescentius"]	{"Corsini"}	
+["Fasano"]		{"Fasano"}	
+["Buccaporci"]	{"Salviati"}	
+["Tusculani"]	{"della Rovere"}	
+["Granziano"]	{"Granziano"}	
+["Tomacelli"]	{"Tomacelli"}	
+["da Baggio"]	{"Torriani"}	
+["di Lucca"]	{"Bonomi"}	
+["Frangipani"]	{"Frangipani"}	
+["di Galeata"]	{"di Monsanto"}	
+["da Gaetan"]	{"Sismondi"}	
+["Scannabecchi"]{"Lanfranchi"}	
+["Buccapeco"]	{"Morosini"}	
+["Papareschi"]	{"Sinibaldi"}	
+["Pierleoni"]	{"Pierleoni"}	
+["Di Castello"]	{"Landolfi"}	
+["Caccianemici"]{"Malatesta"}	
+["Paganelli"]	{"Paganelli"}	
+["Di Suburra"]	{"Barbarigo"}	
+["Savelli"]		{"Savelli"}	
+["Masci"]		{"Masci"}	
+["Cetani"]		{"Caetani"}	
+["Boccasini"]	{"Bonaiuti"}	
+
+// french forenames
+["Louis"]		{"Louis"}
+["Charles"]		{"Charles"}
+["Henri"]		{"Henri"}
+["Phillipe"]	{"Philippe"}
+["Phillippe"]	{"Hugues"}
+["Jean"]		{"Jean"}
+["Francis"]		{"François"}
+["Guillaume"]	{"Guillaume"}
+
+["Odo"]			{"Odo"}
+["Lanfrank"]	{"Robert"}
+["Geoffroi"]	{"Geoffroi"}
+["Baldwin"]		{"Baldwin"}
+["Fulk"]		{"Foucher"}
+["Thibaut"]		{"Thibaut"}
+["Gerbert"]		{"Gerbert"}
+["Arthur"]		{"Arthur"}
+["Pierre"]		{"Pierre"}
+["Raymond"]		{"Raymond"}
+["Mathieu"]		{"Mathieu"}
+["Bernard"]		{"Bernard"}
+["Jaques"]		{"Jacques"}
+["Enguerrand"]	{"Enguerrand"}
+
+["Dtienne"]	{"Etienne"}
+["Georges"]		{"Georges"}
+["Gaspard"]	{"Gaspard"}
+["Gaston"]		{"Gaston"}
+["Richard"]		{"Richard"}
+["RenQ"]		{"René"}
+["Lancelot"]	{"Lancelot"}
+["Gawain"]		{"Gawain"}
+
+// french surnames
+
+["Poitevin"]	{"Poitevin"}
+["de Balliol"]	{"de Baillieul"}
+["des Roches"]	{"des Roches"}
+["Mauclerc"]	{"Mauclerc"}
+["de Lusignan"] {"de Lusignan"}
+["de VendVme"]	{"de Vendôme"}
+["de Brabant"]	{"de Brabant"}
+["de Dampierre"] {"de Dampierre"}
+["Saisset"]	{"Saisset"}
+["de Nogaret"]	 {"de Nogaret"}
+["de Plaisians"] {"de Plaisians"}
+["de Molay"]	{"de Molay"}
+["de Marigny"]	{"de Marigny"}
+["de Brienne"]	{"de Brienne"}
+["de Blois"]	{"de Blois"}
+["du Guesclin"] {"du Guesclin"}
+
+["de La TrQmoille"] {"de La Trémoille"}
+["de Richemont"]	 {"de Richemont"}
+["Coeur"]		 {"Coeur"}
+["d'OrlQans"]	 {"d'Orléans"}
+["Marcel"]		{"Marcel"}
+["Sorel"]		{"Sorel"}
+["de BrQzQ"]	{"de Brézé"}
+["de Chabannes"] {"de Chabannes"}
+["de Bourbon"]	 {"de Bourbon"}
+["de Vesc"]		{"de Vesc"}
+["de ClQves"]	{"de Clèves"}
+["de Valois"]	{"de Valois"}
+["de ChNteaubriant"] {"de Châteaubriant"}
+["de Poitiers"] {"de Poitiers"}
+["Philibert"]	{"Philibert"}
+["de Coligny"] {"de Coligny"}
+
+["Touchet"]		{"Touchet"}
+["Amyot"]		{"Amyot"}
+["ClQment"]		{"Clément"}
+["De Bourbon"] {"De Bourbon"}
+["d'Albret"]	{"d'Albret"}
+["de BQthune"]	 {"de Béthune"}
+["Brulart de Sillery"] {"Brulart de Sillery"}
+["de Neufville"] {"de Neufville"}
+
+["Jeannin"]		{"Jeannin"}
+["de Luynes"]	{"de Luynes"}
+["Richelieu"] {"Richelieu"}
+["du Lac"]		{"du Lac"}
+["de Plater"]	{"d'Artois"}
+["de Mauchaut"]	{"de Machaut"}
+["le Gris"]		{"le Gris"}
+["de Courrouges"] {"de Carrouges"}
+
+
+
+//byzantine_forenames
+["Isaac"]		{"Isaac"}
+["Basil"]		{"Basil"}
+["Romanus"]		{"Romanus"}
+["Nicephorus"]	{"Nicephorus"}
+["Constantine"] {"Constantine"}
+["Michael"]		{"Michael"}
+["Stephen"]		{"Stephen"}
+["Alexius"]		{"Alexius"}
+["Manuel"]		{"Manuel"}
+["Andronicus"]	{"Andronicus"}
+["Theodore"]	{"Theodore"}
+
+//byzantine_surnames
+
+["Comnenus"]		 {"Comnenus"}
+["Ducas"]		{"Ducas"}
+["Diogenes"]	{"Diogenes"}
+["Palaeologus"] {"Palaeologus"}
+["Monomachus"]	{"Monomachus"}
+["Stratiocus"]	{"Stratiocus"}
+["Calaphates"]	{"Calaphates"}
+["Argyrus"]		{"Argyrus"}
+["Bulgaroctonus"] {"Bulgaroctonus"}
+["Angelus"]		{"Angelus"}
+["Prvovencani"] {"Prvovencani"}
+["Phocas"]		{"Phocas"}
+["Tzimisces"]	{"Tzimisces"}
+["Orphanotrophus"] {"Orphanotrophus"}
+["Paphlagonian"] {"Paphlagonian"}
+["Maniakes"]	{"Maniakes"}
+["Bryennius"]	{"Bryennius"}
+["Botaneiates"] {"Botaneiates"}
+["Murtzuphlus"] {"Murtzuphlus"}
+["Cerularius"]	{"Cerularius"}
+["Cantacuzenus"] {"Cantacuzenus"}
+["Nicephoritzes"] {"Nicephoritzes"}
+["Macrembolitissa"] {"Macrembolitissa"}
+["Lascaris"]	{"Lascaris"}
+["Basilacius"]	{"Basilacius"}
+["Melissenus"]	{"Melissenus"}
+["Dalassena"]	{"Dalassena"}
+["Branas"]		{"Branas"}
+["Vatatzes"]	{"Vatatzes"}
+
+//spanish_forenames
+
+["Felipe"]		{"Felipe"}
+["Alfonso"]		{"Alfonso"}
+["Sancho"]		{"Sancho"}
+["Fernando"]	{"Fernando"}
+["GarcZa"]		{"Garc"}
+["Ferdinand"]	{"Ferdinand"}
+
+["Ramiro"]		{"Ramiro"}
+["Bermudo"]		{"Bermudo"}
+["Raimundo"]		{"Raimundo"}
+["Rodrigo"]	{"Rodrigo"}
+["Diego"]		{"Diego"}
+["Lope"]		{"Lope"}
+["Blvaro"]		{"Álvaro"}
+
+["Beltran"]	{"Beltran"}
+["Hernando"]	{"Hernando"}
+["Antonio"]	{"Antonio"}
+["RamXn"]		{"Ramón"}
+["Jaime"]		{"Jaime"}
+["Martin"]		{"Martin"}
+["Arias"]		{"Arias"}
+["Ruy"]			{"Ruy"}
+
+["Reinaldos"]	{"Reinaldos"}
+["Pero"]		{"Pero"}
+["MartZn"]		{"Mart"}
+["Alvar"]		{"Alvar"}
+["Pedro"]		{"Pedro"}
+["Enrique"]		{"Enrique"}
+["Mario"]		{"Mario"}
+
+
+//spanish_surnames
+
+["VelNzquez"]		{"Velázquez"}
+["VermXndez"]		{"Vermúndez"}
+["AntolZnez"]		{"Antolínez"}
+["Gustios"]			{"Gustios"}
+["EnrZquez"]		{"Enríquez"}
+["Sanchez"]			{"Sanchez"}
+["Gonzalo"]			{"Gonzalo"}
+
+["DZaz de Vivar"]	{"Díaz de Vivar"}
+["AnsXrez"]			{"Ansúrez"}
+["RamZrez"]			{"Ramírez"}
+["GelmZrez"]		{"Gelmírez"}
+["de la Cerda"]		{"de la Cerda"}
+["DZaz de Haro"]		{"Díaz de Haro"}
+["de Molina"]		{"de Molina"}
+["de Padilla"]		{"de Padilla"}
+
+["de TrastNmara"]	{"de Trastámara"}
+["de Mena"]			{"de Mena"}
+["de Luna"]			{"de Luna"}
+["Pacheco"]			{"Pacheco"}
+["de la Cueva"]		{"de la Cueva"}
+["Mendoza"]			{"Mendoza"}
+["de Villena"]		{"de Villena"}
+
+["Cisneros"]		{"Cisneros"}
+["d'Anghiera"]		{"d'Anghiera"}
+["de Nebrija"]		{"de Nebrija"}
+["Berenguer"]		{"Berenguer"}
+["Ferrer"]			{"Ferrer"}
+["d'Antequera"]		{"d'Antequera"}
+["PQrez"]			{"Pérez"}
+["de Escobedo"]		{"de Escobedo"}
+
+["de Olivares"]		{"de Olivares"}
+["MQndez"]			{"Méndez"}
+["de Bgreda"]		{"de Ágreda"}
+["Granvelle"]		{"Granvelle"}
+["Lerma"]			{"Lerma"}
+["Claris"]			{"Claris"}
+
+
+// almohad_forenames
+
+["Abu"]		{"Abu"}
+["Hisham"]		{"Hisham"}
+["Abur"]		{"Abur"}
+["Abdur"]		{"Abdur"}
+["Abdullah"]		{"Abdullah"}
+["Ali"]		{"Ali"}
+["Yahya"]		{"Yahya"}
+["Tashufin"]		{"Tashufin"}
+["Ibrahum"]		{"Ibrahum"}
+["Ishaq"]		{"Ishaq"}
+["Abdul"]		{"Abdul"}
+["Yaqub"]		{"Yaqub"}
+["Abdallah"]		{"Abdallah"}
+["Idris"]		{"Idris"}
+["Nazar"]		{"Nazar"}
+["Ismail"]		{"Ismail"}
+["Mohammad"]		{"Mohammad"}
+["Yusef"]		{"Yusef"}
+["Abu-Said"]		{"Abu-Said"}
+
+["Buluggin"]		{"Buluggin"}
+["Muhsin"]		{"Muhsin"}
+["Abu Zayyan"]		{"Abu Zayyan"}
+["Abu Thabit"]		{"Abu Thabit"}
+["Abu Sa'id"]		{"Abu Sa'id"}
+["Abu Malik"]		{"Abu Malik"}
+["Abu Hammu"]		{"Abu Hammu"}
+["Hassan"]		{"Hassan"}
+["Ma'mun"]		{"Ma'mun"}
+["Omar"]		{"Omar"}
+["Salim"]		{"Salim"}
+["Inan"]		{"Inan"}
+["Bakr"]		{"Bakr"}
+["Abu Hatim"]		{"Abu Hatim"}
+["Khalid"]		{"Khalid"}
+["Badis"]		{"Badis"}
+["Abu Khalid"]		{"Abu Khalid"}
+["Abu Sharaf"]		{"Abu Sharaf"}
+["Abu Badis"]		{"Abu Badis"}
+
+
+//almohad_surnames
+["al-Mu'tamid"]		{"al-Mu'tamid"}
+["al-Mansur"]		{"al-Mansur"}
+["al-Mundhir"]		{"al-Mundhir"}
+["al-Hakam"]		{"al-Hakam"}
+["ibn Hamud"]		{"ibn Hamud"}
+["al-Oasim"]		{"al-Oasim"}
+["ibn Ali"]		{"ibn Ali"}
+
+["Rahman"]		{"Rahman"}
+["ibn Tashufin"]		{"ibn Tashufin"}
+["ibn Yusuf"]		{"ibn Yusuf"}
+["abu Yaqub"]		{"abu Yaqub"}
+["ibn Yaqub"]		{"ibn Yaqub"}
+["Wahid"]		{"Wahid"}
+["abu Zakariyya"]		{"abu Zakariyya"}
+["ibn Idris"]		{"ibn Idris"}
+
+["ibn Ishaq"]		{"ibn Ishaq"}
+["abu Abdullah"]		{"abu Abdullah"}
+["abu Muhammad"]		{"abu Muhammad"}
+["al-Qasim"]		{"al-Qasim"}
+["Hasen"]		{"Hasen"}
+["ibn Yusef"]		{"ibn Yusef"}
+["ibn Nazar"]		{"ibn Nazar"}
+
+["al-Ka'id"]		{"al-Ka'id"}
+["al-Hajj"]		{"al-Hajj"}
+["ibn Buluggin"]	{"ibn Buluggin"}
+["ibn Muhsin"]		{"ibn Muhsin"}
+["ibn Hassan"]		{"ibn Hassan"}
+["ibn Ma'mun"]		{"ibn Ma'mun"}
+["ibn Omar"]		{"ibn Omar"}
+["ibn Salim"]		{"ibn Salim"}
+["ibn Inan"]		{"ibn Inan"}
+["ibn Bakr"]		{"ibn Bakr"}
+["ibn Khalid"]		{"ibn Khalid"}
+["ibn Badis"]		{"ibn Badis"}
+["ibn Sharaf"]		{"ibn Sharaf"}
+["abu Buluggin"]	{"abu Buluggin"}
+["abu Muhsin"]		{"abu Muhsin"}
+["abu Hassan"]		{"abu Hassan"}
+["abu Ma'mun"]		{"abu Ma'mun"}
+["abu Omar"]		{"abu Omar"}
+["abu Salim"]		{"abu Salim"}
+["abu Inan"]		{"abu Inan"}
+["abu Badis"]		{"abu Badis"}
+["abu Sharaf"]		{"abu Sharaf"}
+
+//egyptian_forenames
+
+
+
+["Knujur"]		{"Ûnujur"}
+["AlZ"]		{"Alî"}
+["Kafur"]		{"Kafur"}
+["Ahmad"]		{"Ahmad"}
+["Nasir"]		{"Nasir"}
+["Yusuf"]		{"Yusuf"}
+["Sulayman"]		{"Sulayman"}
+["Kaikawus"]	{"Kaikawus"}
+
+
+["Ibrahim"]		{"Ibrahim"}
+["Zakariyya"]		{"Zakariyya"}
+["Umar"]		{"Umar"}
+["Abbas"]		{"Abbas"}
+["Dawud"]		{"Dawud"}
+
+["Hamza"]		{"Hamza"}
+
+
+//egyptian_surnames
+
+["as Salih"]		{"as Salih"}
+["al Kamil"]		{"al Kamil"}
+["al Ikhshid"]		{"al Ikhshid"}
+["al Labi"]		{"al Labi"}
+["al Mahdi"]		{"al Mahdi"}
+["al Qaim"]		{"al Qaim"}
+["al Mansur"]		{"al Mansur"}
+["al Muizz"]		{"al Muizz"}
+
+["al Hakim"]		{"al Hakim"}
+["az Zahir"]		{"az Zahir"}
+["al Mustansir"]		{"al Mustansir"}
+["al Mustali"]		{"al Mustali"}
+["al Muazzam"]		{"al Muazzam"}
+["al Amir"]		{"al Amir"}
+["al Hafiz"]		{"al Hafiz"}
+
+["az Zafir"]		{"az Zafir"}
+["al Faiz"]		{"al Faiz"}
+["al Bdid"]		{"al Âdid"}
+["al Adil"]		{"al Adil"}
+["Salahud Din"]		{"Salahud Din"}
+["Ayyubid"]		{"Ayyubid"}
+["Imad ad Din"]		{"Imad ad Din"}
+["Nasir ad Din"]		{"Nasir ad Din"}
+
+["Sayf ad Din"]		{"Sayf ad Din"}
+["Najm ad Din"]		{"Najm ad Din"}
+["Muzaffar ad Din"]		{"Muzaffar ad Din"}
+["al Wathiq"]		{"al Wathiq"}
+["al Mutadid"]		{"al Mutadid"}
+["al Mutawakkil"]		{"al Mutawakkil"}
+["al Mutasim"]		{"al Mutasim"}
+["al Mustain"]		{"al Mustain"}
+
+["al Mustakfi"]		{"al Mustakfi"}
+["al Mustanjid"]		{"al Mustanjid"}
+["al Mustamsik"]		{"al Mustamsik"}
+
+
+// turkish_forenames
+
+
+
+["Kilij Arslan"]	{"Kilij Arslan}
+//["Kaikawus"]	{"Kaikawus"}
+["Osman"]		{"Osman"}
+["Orhan"]		{"Orhan"}
+["Murad"]		{"Murad"}
+["Bayezid"]		{"Bayezid"}
+["Mehmed"]		{"Mehmed"}
+["Selim"]		{"Selim"}
+["SYleyman"]		{"Süleyman"}
+["Aybak"]		{"Aybak"}
+
+["Qutuz"]		{"Qutuz"}
+["Baybars"]		{"Baybars"}
+["Baraka"]		{"Baraka"}
+["Berke"]		{"Berke"}
+["Salamish"]		{"Salamish"}
+["Suleymish"]		{"Suleymish"}
+["Qalawun"]		{"Qalawun"}
+["KhalZl"]		{"Khalîl"}
+
+["Baydara"]		{"Baydara"}
+["Muhammad"]		{"Muhammad"}
+["Kitbugha"]		{"Kitbugha"}
+["Lachin"]		{"Lachin"}
+["Lajin"]		{"Lajin"}
+["Kujuk"]		{"Kujuk"}
+["Kuchuk"]		{"Kuchuk"}
+
+["Shaban"]		{"Shaban"}
+["Hajji"]		{"Hajji"}
+["Salih"]		{"Salih"}
+["Faraj"]		{"Faraj"}
+["Shaykh"]		{"Shaykh"}
+["Tatar"]		{"Tatar"}
+["Barsbay"]		{"Barsbay"}
+
+["Chaqmaq"]		{"Chaqmaq"}
+["Jaqmaq"]		{"Jaqmaq"}
+["Uthman"]		{"Uthman"}
+["Inal"]		{"Inal"}
+["Khushqadam"]		{"Khushqadam"}
+["Yalbay"]		{"Yalbay"}
+["Timurbugha"]		{"Timurbugha"}
+
+["Qayit"]		{"Qayit"}
+["Janbulat"]		{"Janbulat"}
+["Qansawh"]		{"Qansawh"}
+["Malik"]		{"Malik"}
+["Masud"]		{"Masud"}
+["Kilij"]		{"Kilij"}
+["Kaikubad"]		{"Kaikubad"}
+["Kaikosru"]		{"Kaikosru"}
+
+//turkish_surnames
+["Gazi"]		{"Gazi"}
+["al Turkumani"]		{"al Turkumani"}
+["al Bunduqdari"]		{"al Bunduqdari"}
+["al Muizzi"]		{"al Muizzi"}
+["Khan"]		{"Khan"}
+["al Alfi"]		{"al Alfi"}
+["al Ashqar"]		{"al Ashqar"}
+["al Jashnakir"]		{"al Jashnakir"}
+
+["Burji"]		{"Burji"}
+["Abu Bakr"]		{"Abu Bakr"}
+["al Hasan"]		{"al Hasan"}
+["al Aziz"]		{"al Aziz"}
+["al Mahmudi"]		{"al Mahmudi"}
+["al Zahiri"]		{"al Zahiri"}
+["al Alai"]		{"al Alai"}
+["al-Abbas"]		{"al-Abbas"}
+
+["al Hadi"]		{"al Hadi"}
+["al Rashid"]		{"al Rashid"}
+["al Amin "]		{"al Amin "}
+["al Ma'mun "]		{"al Ma'mun "}
+["al Mu'tasim"]		{"al Mu'tasim"}
+["al Muntasir "]		{"al Muntasir "}
+["Arslan"]		{"Arslan"}
+
+["Shah"]		{"Shah"}
+["Beg"]		{"Beg"}
+["al-Mulk"]		{"al-Mulk"}
+["Sokollu"]		{"Sokollu"}
+["RYstem"]		{"Rüstem"}
+["al-Su'ud"]		{"al-Su'ud"}
+["Candarl"]		{"Çandarl"}
+["Rokh"]		{"Rokh"}
+
+
+//polish_forenames
+
+["Mieszko"]		{"Mieszko"}
+["Boleslaw"]		{"Boleslaw"}
+["Wladyslaw"]		{"Wladyslaw"}
+["Casimir"]		{"Casimir"}
+["Konrad"]		{"Konrad"}
+
+["Leszek"]		{"Leszek"}
+["Przemysl"]		{"Przemysl"}
+["Vaclav"]		{"Vaclav"}
+["Kazimierz"]		{"Kazimierz"}
+["Jan"]		{"Jan"}
+["Zygmunt"]		{"Zygmunt"}
+["Svyatopolk"]		{"Svyatopolk"}
+["Ryksa"]		{"Ryksa"}
+
+["Zbigniew"]		{"Zbigniew"}
+["Przemyslaw"]		{"Przemyslaw"}
+["Troiden"]		{"Troiden"}
+["Janus"]		{"Janus"}
+["Stanislaus"]		{"Stanislaus"}
+
+["Boguslaw"]		{"Boguslaw"}
+["Sobislaw"]		{"Sobislaw"}
+["Msciwoi"]		{"Msciwoi"}
+["Swietopelk"]		{"Swietopelk"}
+["Wartislaw"]		{"Wartislaw"}
+["Ziemowit"]		{"Ziemowit"}
+["Wenceslaus"]		{"Wenceslaus"}
+["Ratibor"]		{"Ratibor"}
+
+["Barnim"]		{"Barnim"}
+["Joachim"]		{"Joachim"}
+["Chrosciszko"]		{"Chrosciszko"}
+["Bezprym"]		{"Bezprym"}
+["Jagielon"]		{"Jagielon"}
+["Kasper"]		{"Kasper"}
+["Pawol"]		{"Pawol"}
+["Szymon"]		{"Szymon"}
+
+["Chwalimir"]		{"Chwalimir"}
+["Bronisad"]		{"Bronisad"}
+["Godzimir"]		{"Godzimir"}
+["Niebor"]		{"Niebor"}
+["Przebor"]		{"Przebor"}
+["Radoslaw"]		{"Radoslaw"}
+["Pakoslaw"]		{"Pakoslaw"}
+["Niegoslaw"]		{"Niegoslaw"}
+
+
+
+ 
+//polish_surnames
+
+["Jagiellonczyk"]		{"Jagiellonczyk"}
+["Jagiello"]		{"Jagiello"}
+["Wielkopolski"]		{"Wielkopolski"}
+["Sandomierz"]		{"Sandomierz"}
+["Maziwiecki"]		{"Maziwiecki"}
+["Brodaty"]		{"Brodaty"}
+["Herman"]		{"Herman"}
+
+
+["Adamczyk"]		{"Adamczyk"}
+["Buczak"]		{"Buczak"}
+["Czajka"]		{"Czajka"}
+["Dudzik"]		{"Dudzik"}
+["Grycki"]		{"Grycki"}
+["Kazczyk"]		{"Kazczyk"}
+["Krawczyk"]		{"Krawczyk"}
+["Kulwiec"]		{"Kulwiec"}
+
+["Majtyka"]		{"Majtyka"}
+["Marosz"]		{"Marosz"}
+["Miazga"]		{"Miazga"}
+["Niemoj"]		{"Niemoj"}
+["Ogitzak"]		{"Ogitzak"}
+["Orlicki"]		{"Orlicki"}
+["Penc"]		{"Penc"}
+["Pieritz"]		{"Pieritz"}
+
+["Petratz"]		{"Petratz"}
+["Plast"]		{"Plast"}
+["Premysl"]		{"Premysl"}
+["Czersk"]		{"Czersk"}
+["Mazovia"]		{"Mazovia"}
+["Premyslid"]		{"Premyslid"}
+["Zapolya"]		{"Zapolya"}
+["Sochaczew"]		{"Sochaczew"}
+
+["Psotka"]		{"Psotka"}
+["Pyrzyce"]		{"Pyrzyce"}
+["Rzegotka"]		{"Rzegotka"}
+["Stawecki"]		{"Stawecki"}
+["Malewicz"]		{"Malewicz"}
+["Stasiak"]		{"Stasiak"}
+["Puch"]		{"Puch"}
+["Turek"]		{"Turek"}
+
+["Wallach"]		{"Wallach"}
+["Wojno"]		{"Wojno"}
+["Wos"]		{"Wos"}
+["Zacharek"]		{"Zacharek"}
+["Zdeb"]		{"Zdeb"}
+["Zuraw"]		{"Zuraw"}
+["Wykowski"]		{"Wykowski"}
+["Wozniak"]		{"Wozniak"}
+
+
+// russian forenames
+["Sviatopolk"]	{"Sviatopolk"}
+["Ysevolod"]	{"Ysevolod"}
+["Yuri"]	{"Yuri"}
+["Mikhail"]	{"Mikhail"}
+["Aleksei"]			{"Aleksei"}
+["Andrei"]			{"Andrei"}
+["Bolda"]			{"Bolda"}
+["Boris"]			{"Boris"}
+["Buiak"]			{"Buiak"}
+["Chernek"]			{"Chernek"}
+["Chort"]			{"Chort"}
+["Dmitrii"]			{"Dmitrii"}
+["Domaslav"]			{"Domaslav"}
+["Domazhir"]			{"Domazhir"}
+["Drozd"]			{"Drozd"}
+["Grechin"]			{"Grechin"}
+["Grigorii"]			{"Grigorii"}
+["Guba"]			{"Guba"}
+["Iosif"]			{"Iosif"}
+["Ivan"]			{"Ivan"}
+["Kisel"]			{"Kisel"}
+["Kozel"]			{"Kozel"}
+["Kuritsa"]			{"Kuritsa"}
+["Maksim"]			{"Maksim"}
+["Mal"]			{"Mal"}
+["Mil"]			{"Mil"}
+["Miloslav"]			{"Miloslav"}
+["Miroslav"]			{"Miroslav"}
+["Mixail"]			{"Mixail"}
+["Nezhek"]			{"Nezhek"}
+["Nikita"]			{"Nikita"}
+["Orekh"]			{"Orekh"}
+["Pavel"]			{"Pavel"}
+["Radoslav"]			{"Radoslav"}
+["Sbyslav"]			{"Sbyslav"}
+["Shchuka"]			{"Shchuka"}
+["Shuba"]			{"Shuba"}
+["Sidor"]			{"Sidor"}
+["Stanimir"]			{"Stanimir"}
+["Stepan"]			{"Stepan"}
+["Tvorimir"]			{"Tvorimir"}
+["Vasilii"]			{"Vasilii"}
+["Vladimir"]			{"Vladimir"}
+["Voislav"]			{"Voislav"}
+["Volchok"]			{"Volchok"}
+["Yaroslav"]			{"Yaroslav"}
+["Zaiats"]			{"Zaiats"}
+["Zavid"]			{"Zavid"}
+["Zhiroslav"]			{"Zhiroslav"}
+["Zhiznobud"]			{"Zhiznobud"}
+["Zub"]			{"Zub"}
+
+// russian surnames
+["Alekseev"]			{"Alekseev"}
+["Andreev"]			{"Andreev"}
+["Boldin"]			{"Boldin"}
+["Buiakov"]			{"Buiakov"}
+["Chernekov"]			{"Chernekov"}
+["Chortov"]			{"Chortov"}
+["Dmitriev"]			{"Dmitriev"}
+["Domaslavov"]			{"Domaslavov"}
+["Domazhirov"]			{"Domazhirov"}
+["Drozdov"]			{"Drozdov"}
+["Grechinov"]			{"Grechinov"}
+["Grigoriev"]			{"Grigoriev"}
+["Gubin"]			{"Gubin"}
+["Iecifovich"]			{"Iecifovich"}
+["Ivanov"]			{"Ivanov"}
+["Ivanovich"]			{"Ivanovich"}
+["Kiselev"]			{"Kiselev"}
+["Kozlov"]			{"Kozlov"}
+["Kuritsev"]			{"Kuritsev"}
+["Kuz'mich"]			{"Kuz"}
+["Maksimov"]			{"Maksimov"}
+["Malov"]			{"Malov"}
+["Mikhailovich"]			{"Mikhailovich"}
+["Miloslavov"]			{"Miloslavov"}
+["Milov"]			{"Milov"}
+["Miroslavov"]			{"Miroslavov"}
+["Nezhkov"]			{"Nezhkov"}
+["Nikitin"]			{"Nikitin"}
+["Orekhov"]			{"Orekhov"}
+["Pavlov"]			{"Pavlov"}
+["Radoslavov"]			{"Radoslavov"}
+["Sbyslavov"]			{"Sbyslavov"}
+["Semenov"]			{"Semenov"}
+["Shchukin"]			{"Shchukin"}
+["Shubin"]			{"Shubin"}
+["Sidorov"]			{"Sidorov"}
+["Stanimirov"]			{"Stanimirov"}
+["Stepanov"]			{"Stepanov"}
+["Tvorimirov"]			{"Tvorimirov"}
+["Vasilievich"]			{"Vasilievich"}
+["Voislavov"]			{"Voislavov"}
+["Volchkov"]			{"Volchkov"}
+["Zaitsev"]			{"Zaitsev"}
+["Zakhariev"]			{"Zakhariev"}
+["Zavidov"]			{"Zavidov"}
+["Zhiroslavov"]			{"Zhiroslavov"}
+["Zhiznobudov"]			{"Zhiznobudov"}
+["Zubov"]			{"Zubov"}
+
+// german surnames// german surnames
+	["Steffen"]		{"Steffen"}
+	["Merode"]		{"Merode"}
+	["Mandorf"]		{"Mandorf"}
+	["Zirn"]		{"Zirn"}
+	["Ruesdorf"]	{"Ruesdorf"}
+	["Erlach"]		{"Erlach"}
+	["Uttenheim"]	{"Uttenheim"}
+	["Wahren"]		{"Wahren"}
+
+	["Echter"]		{"Echter"}
+	["Windeck"]		{"Windeck"}
+	["Blankenberg"]	{"Blankenberg"}
+	["Seubersdorf"]	{"Seubersdorf"}
+	["Courcy"]		{"Courcy"}
+	["Otterbach"]	{"Otterbach"}
+	["Plittersdorf"]	{"Plittersdorf"}
+	["Herden"]		{"Herden"}
+
+["Karolinger"]		{"Karolinger"}
+["Merowinger"]		{"Merowinger"}
+["Salier"]		{"Salier"}
+["von Wittelsbach"]		{"von Wittelsbach"}
+["von Hapsburg"]		{"von Hapsburg"}
+["von Luxemburg"]		{"von Luxemburg"}
+["von Mahren"]		{"von Mahren"}
+["von Lothringen"]		{"von Lothringen"}
+
+["von Osterreich"]		{"von Osterreich"}
+["von Nassau"]		{"von Nassau"}
+["von Kastilien"]		{"von Kastilien"}
+["von Holland"]		{"von Holland"}
+["von Schwaben"]		{"von Schwaben"}
+["von Braunschweig"]		{"von Braunschweig"}
+["der Rote"]		{"der Rote"}
+["von der Pfalz"]		{"von der Pfalz"}
+
+["von Bohmen"]		{"von Bohmen"}
+["der Bartige"]		{"der Bartige"}
+["Guiskard"]		{"Guiskard"}
+["von Salza"]		{"von Salza"}
+["von Grunungen"]		{"von Grunungen"}
+["von Balk"]		{"von Balk"}
+["von Kniprode"]		{"von Kniprode"}
+["von Jungingen"]		{"von Jungingen"}
+
+["von Felben"]		{"von Felben"}
+["von Kassel"]		{"von Kassel"}
+["der Bar"]		{"der Bar"}
+["der Stoltze"]		{"der Stoltze"}
+["von Dassel"]		{"von Dassel"}
+["von Franken"]		{"von Franken"}
+["Raspe"]		{"Raspe"}
+["von Holstein"]		{"von Holstein"}
+
+// german forenames
+["Otto"]		{"Otto"}
+["Heinrich"]		{"Heinrich"}
+["Conrad"]		{"Conrad"}
+["Welf"]		{"Welf"}
+["Rudolf"]		{"Rudolf"}
+["Herrmann"]		{"Herrmann"}
+["Lothair"]		{"Lothair"}
+
+["Friedrich"]		{"Friedrich"}
+["Arnold"]		{"Arnold"}
+["Rainald"]		{"Rainald"}
+["Tancred"]		{"Tancred"}
+["Philipp"]		{"Philipp"}
+["Adolf"]		{"Adolf"}
+["Leopold"]		{"Leopold"}
+
+["Johann"]		{"Johann"}
+["Eusebius"]		{"Eusebius"}
+["Hans"]		{"Hans"}
+["Peter"]		{"Peter"}
+["Albrecht"]		{"Albrecht"}
+["Wilhelm"]		{"Wilhelm"}
+["Ludwig"]		{"Ludwig"}
+["Karl"]		{"Carl"}
+
+["Wenzel"]		{"Wenzel"}
+["Ruprecht"]		{"Ruprecht"}
+["Jobst"]		{"Jobst"}
+["Sigismund"]		{"Sigismund"}
+["Maximillian"]		{"Maximillian"}
+["Gottfied"]		{"Gottfied"}
+["Dietrich"]		{"Dietrich"}
+["Elberhard"]		{"Elberhard"}
+["Andreas"]		{"Andreas"}
+
+// hungarian surnames & some forenames
+
+["AndrNs"]		{"András"}
+["LNszlX"]		{"László"}
+["BQla"]		{"Béla"}
+["KNlmNn"]		{"Kálmán"}
+["Geza"]		{"Geza"}
+["Samuel"]		{"Samuel"}
+["IstvNn"]		{"István"}
+["OttX"]		{"Ottó"}
+["KNroly"]		{"Károly"}
+["Kazimierz "]		{"Kazimierz "}
+["Ambrus"]		{"Ambrus"}
+["Antal"]		{"Antal"}
+["BalNzs"]		{"Balázs"}
+["BNlint"]		{"Bálint"}
+["Benedek"]		{"Benedek"}
+["Ferenc"]		{"Ferenc"}
+["Gergely"]		{"Gergely"}
+["GyVrgy"]		{"György"}
+["Imre"]		{"Imre"}
+["Jakab"]		{"Jakab"}
+["JNnos"]		{"János"}
+["MNrton"]		{"Márton"}
+["MNtQ"]		{"Máté"}
+["MNtyNs"]		{"Mátyás"}
+["MihNly"]		{"Mihály"}
+["MiklXs"]		{"Miklós"}
+["PNl"]		{"Pál"}
+["Tot"]		{"Tot"}
+["Sido"]		{"Sido"}
+["Kovacs"]		{"Kovacs"}
+["Szabo"]		{"Szabo"}
+["Vadas"]		{"Vadas"}
+["Hegedus"]		{"Hegedus"}
+["Szekeres"]		{"Szekeres"}
+["Vamos"]		{"Vamos"}
+["Pap"]		{"Pap"}
+["Kiraly"]		{"Kiraly"}
+["Feher"]		{"Feher"}
+["Fodor"]		{"Fodor"}
+["Hasas"]		{"Hasas"}
+["Melles"]		{"Melles"}
+["Eltes"]		{"Eltes"}
+["Eszes"]		{"Eszes"}
+["Jo"]		{"Jo"}
+["Fejes"]		{"Fejes"}
+["Hideg"]		{"Hideg"}
+["Vak"]		{"Vak"}
+
+// hungarian forenames
+
+["PQter"]		{"Péter"}
+["TamNs"]		{"Tamás"}
+["Azzony"]		{"Azzony"}
+["Balind"]		{"Balind"}
+["Boldyszar"]		{"Boldyszar"}
+["Fabyan"]		{"Fabyan"}
+["Georgius"]		{"Georgius"}
+["Keresztes"]		{"Keresztes"}
+["Lukac"]		{"Lukac"}
+["Markus"]		{"Markus"}
+["Oremus"]		{"Oremus"}
+["Petri"]		{"Petri"}
+["Vtalyus"]		{"Vtalyus"}
+["Byrta"]		{"Byrta"}
+["Bertalan"]		{"Bertalan"}
+["Baltasar"]		{"Baltasar"}
+["Cziriak"]		{"Cziriak"}
+["Damjan"]		{"Damjan"}
+["Elek"]		{"Elek"}
+["Fylep"]		{"Fylep"}
+
+// Pope forenames
+["Nicholas"]	{"Nicholas"}
+["Benedict"]	{"Benedict"}
+["Urban"]	{"Urban"}
+["Innocent"]	{"Innocent"}
+["Clement"]	{"Clement"}
+
+//scottish_forenames
+
+["Bdam"]		{"Ádam"}
+["Aed"]			{"Aed"}
+["Alexander"]		{"Alexander"}
+["Algune"]		{"Algune"}
+["Allan"]		{"Allan"}
+["Aodh"]		{"Aodh"}
+["Arcill"]		{"Arcill"}
+["Angus"]		{"Angus"}
+["Brian"]		{"Brian"}
+["BrXccZn"]		{"Bróccín"}
+["Cathal"]		{"Cathal"}
+["CennQdig"]		{"Cennédig"}
+["Comgell"]		{"Comgell"}
+["Cormac"]		{"Cormac"}
+["Colin"]		{"Colin"}
+["DauZd"]		{"Dauíd"}
+["Domnall"]		{"Domnall"}
+["Domongart"]		{"Domongart"}
+["Donnchadh"]		{"Donnchadh"}
+["Donald"]		{"Donald"}
+["Duncan"]		{"Duncan"}
+["Dougall"]		{"Dougall"}
+["Eoin"]			{"Eoin"}
+["Feradac"]		{"Feradac"}
+["Fearghus"]		{"Fearghus"}
+["Finguine"]		{"Finguine"}
+["Gille CallZne"]		{"Gille Callíne"}
+["Gille Coimded"]	{"Gille Coimded"}
+["Gille Petair"]		{"Gille Petair"}
+["Gille Patrick"]		{"Gille Patrick"}
+["Hew"]			{"Hew"}
+["James"]		{"James"}
+["Lulach"]		{"Lulach"}
+["Mac Bethad"]		{"Mac Bethad"}
+["Mac Dobarchon"]	{"Mac Dobarchon"}
+["Mal-Colum"]		{"Mal-Colum"}
+["MatadZn"]		{"Matad"}
+["Morgunn"]		{"Morgunn"}
+["Nectan"]		{"Nectan"}
+["Patrick"]		{"Patrick"}
+["RuadrZ"]		{"Ruadrí"}
+
+
+//scottish_surnames
+
+["Arthyn"]		{"Arthyn"}
+["the Balleol"]		{"the Balleol"}
+["Bell"]			{"Bell"}
+["Besat"]		{"Besat"}
+["the Boroundoun"]	{"the Boroundoun"}
+["Boyd"]			{"Boyd"}
+["Brechyne"]		{"Brechyne"}
+["the BroiM"]		{"the Broiss"}
+["Broune"]		{"Broune"}
+["Bunnok"]		{"Bunnok"}
+["Campbell"]		{"Campbell"}
+["of Carnavarane"]	{"of Carnavarane"}
+["of Clair"]		{"of Clair"}
+["of Cobhame"]		{"of Cobhame"}
+["Comyn"]		{"Comyn"}
+["Cwnyngame"]		{"Cwnyngame"}
+["of Douglas"]		{"of Douglas"}
+["Erskyn"]		{"Erskyn"}
+["FeniM"]		{"Feniss"}
+["Forster"]		{"Forster"}
+["Gilbertstoune"]		{"Gilbertstoune"}
+["Inchmertyn"]		{"Inchmertyn"}
+["Macgoulchane"]	{"Macgoulchane"}
+["Makartane"]		{"Makartane"}
+["Makdowall"]		{"Makdowall"}
+["Makfulchiane"]		{"Makfulchiane"}
+["Makgullane"]		{"Makgullane"}
+["Makmartane"]		{"Makmartane"}
+["Maknab"]		{"Maknab"}
+["Maknakill"]		{"Maknakill"}
+["Maknauchtan"]		{"Maknauchtan"}
+["Macdonchie"]		{"Macdonchie"}
+["Macconel"]		{"Macconel"}
+["Macdougall"]		{"Macdougall"}
+["Nevell"]		{"Nevell"}
+["Randall"]		{"Randall"}
+["the RoM"]		{"the Ross"}
+["the Sowlis"]		{"the Sowlis"}
+["Stewart"]		{"Stewart"}
+["ViMman"]		{"Vissman"}
+["Buchan"]		{"Buchan"}
+["Mensies"]		{"Mensies"}
+["Mar"]			{"Mar"}
+["Lesly"]		{"Lesly"}
+["Colison"]		{"Colison"}
+["Cullane"]		{"Cullane"}
+["Wallace"]		{"Wallace"}
+
+
+//welsh_forenames
+
+["Madog"]			{"Madog"}
+["David"]			{"David"}
+["Einion"]			{"Einion"}
+["Iorwerth"]			{"Iorwerth"}
+["Adam"]			{"Adam"}
+["Ieuan"]			{"Ieuan"}
+["Gronw"]			{"Gronw"}
+["Ithel"]			{"Ithel"}
+["Gwyn"]			{"Gwyn"}
+["Cynwrig"]			{"Cynwrig"}
+["Cadwgan"]			{"Cadwgan"}
+["Philip"]			{"Philip"}
+["Rhiryd"]			{"Rhiryd"}
+["Gruffydd"]			{"Gruffydd"}
+["Tegwared"]			{"Tegwared"}
+["Meilyr"]			{"Meilyr"}
+["Ednyfed"]			{"Ednyfed"}
+["Gwrgenau"]			{"Gwrgenau"}
+["Llywelyn"]			{"Llywelyn"}
+["Gwion"]			{"Gwion"}
+["Hywel"]			{"Hywel"}
+["Tuder"]			{"Tuder"}
+["Heilyn"]			{"Heilyn"}
+["Cynddelw"]			{"Cynddelw"}
+["Madyn"]			{"Madyn"}
+["Meurig"]			{"Meurig"}
+["Llywarch"]			{"Llywarch"}
+["Griffri"]			{"Griffri"}
+["Ednowain"]			{"Ednowain"}
+["Moriddig"]			{"Moriddig"}
+["Cydifor"]			{"Cydifor"}
+["Iago"]			{"Iago"}
+["Iocyn"]			{"Iocyn"}
+["Rhys"]			{"Rhys"}
+["Bleddyn"]			{"Bleddyn"}
+["Cyfnerth"]			{"Cyfnerth"}
+["Maredudd"]			{"Maredudd"}
+["Ieuaf"]			{"Ieuaf"}
+["Ifor"]			{"Ifor"}
+["Morfran"]			{"Morfran"}
+["Seisyll"]			{"Seisyll"}
+["Deheuwynt"]			{"Deheuwynt"}
+["Gwasdewi"]			{"Gwasdewi"}
+["Llygad"]			{"Llygad"}
+
+//welsh_surnames
+
+["ap Adam"]			{"ap Adam"}
+["ap Ieuan"]		{"ap Ieuan"}
+["ap Gronw"]		{"ap Gronw"}
+["ap Ithel"]		{"ap Ithel"}
+["ap Gwyn"]			{"ap Gwyn"}
+["ap Cynwrig"]		{"ap Cynwrig"}
+["ap Cadwgan"]		{"ap Cadwgan"}
+["ap Philip"]		{"ap Philip"}
+["ap Rhiryd"]		{"ap Rhiryd"}
+["ap Gruffydd"]		{"ap Gruffydd"}
+["ap Tegwared"]		{"ap Tegwared"}
+["ap Meilyr"]		{"ap Meilyr"}
+["ap Ednyfed"]		{"ap Ednyfed"}
+["ap Gwrgenau"]		{"ap Gwrgenau"}
+["ap Llywelyn"]		{"ap Llywelyn"}
+["ap Gwion"]		{"ap Gwion"}
+["ap Hywel"]		{"ap Hywel"}
+["ap Tuder"]		{"ap Tuder"}
+["ap Heilyn"]		{"ap Heilyn"}
+["ap Cynddelw"]		{"ap Cynddelw"}
+["ap Madyn"]		{"ap Madyn"}
+["ap Meurig"]		{"ap Meurig"}
+["ap Llywarch"]		{"ap Llywarch"}
+["ap William"]		{"ap William"}
+["ap Griffri"]		{"ap Griffri"}
+["ap Ednowain"]		{"ap Ednowain"}
+["ap Moriddig"]		{"ap Moriddig"}
+["ap Cydifor"]		{"ap Cydifor"}
+["ap Iago"]			{"ap Iago"}
+["ap Iocyn"]		{"ap Iocyn"}
+["ap John"]			{"ap John"}
+["Coch"]			{"Coch"}
+["Moel"]			{"Moel"}
+["Bychan"]			{"Bychan"}
+["Llwyd"]			{"Llwyd"}
+["Chwith"]			{"Chwith"}
+["Crach"]			{"Crach"}
+["Cam"]				{"Cam"}
+["Cryg"]			{"Cryg"}
+["Mawr"]			{"Mawr"}
+["Hen"]				{"Hen"}
+["Cethin"]			{"Cethin"}
+["Bongam"]			{"Bongam"}
+["Cwtta"]			{"Cwtta"}
+["Rhwth"]			{"Rhwth"}
+["Bach"]			{"Bach"}
+["Hir"]				{"Hir"}
+
+// khazars
+["Alp"]			{"Alp"}
+["Amram"]			{"Amram"}
+["Baghatur"]			{"Baghatur"}
+["Balghichi"]			{"Balghichi"}
+["Kundaj"]			{"Kundaj"}
+["Balgitzi"]			{"Balgitzi"}
+["Barjik"]			{"Barjik"}
+["Bashtu"]			{"Bashtu"}
+["Zoilus"]			{"Zoilus"}
+["Bulchan"]			{"Bulchan"}
+["Buzer"]			{"Buzer"}
+["Chat"]			{"Chat"}
+["Chorpan"]			{"Chorpan"}
+["Gostata"]			{"Gostata"}
+["Gostyata"]			{"Gostyata"}
+["Hanukkah"]			{"Hanukkah"}
+["Itakh"]			{"Itakh"}
+["Khadir"]			{"Khadir"}
+["Khatir"]			{"Khatir"}
+["Kibar"]			{"Kibar"}
+["Kisa"]			{"Kisa"}
+["Kufin"]			{"Kufin"}
+["Kundajiq"]			{"Kundajiq"}
+["Kupin"]			{"Kupin"}
+["MPnPr"]			{"Mänär"}
+["MPnPs"]			{"Mänäs"}
+["MarXt"]			{"Marót"}
+["Menashe"]			{"Menashe"}
+["MenmarXt"]			{"Menmarót"}
+["Menumorut"]			{"Menumorut"}
+["Morut"]			{"Morut"}
+["Nisi"]			{"Nisi"}
+["Papatzys"]			{"Papatzys"}
+["Reuven"]			{"Reuven"}
+["Sabriel"]			{"Sabriel"}
+["Samsam"]			{"Samsam"}
+["Simsam"]			{"Simsam"}
+["Tarmach"]			{"Tarmach"}
+["Yaakov"]			{"Yaakov"}
+["Yehudah"]			{"Yehudah"}
+["Yilig"]			{"Yilig"}
+["Zambri"]			{"Zambri"}
+["Zebulun"]			{"Zebulun"}
+["Ziebil"]			{"Ziebil"}
+
+["Tarkhan"]			{"Tarkhan"}
+
+
+
+//fresian_forenames
+
+["Aitet"]			{"Aitet"}
+["Auutet"]			{"Auutet"}
+["Avin"]			{"Avin"}
+["Bentet"]			{"Bentet"}
+["Blithulf"]			{"Blithulf"}
+["Boio"]			{"Boio"}
+["ETelbern"]			{"Eðelbern"}
+["ETelwi"]			{"Eðelwi"}
+["Eilherd"]			{"Eilherd"}
+["Eilward"]			{"Eilward"}
+["Enhard"]			{"Enhard"}
+["Esulf"]			{"Esulf"}
+["Folkbern"]			{"Folkbern"}
+["Folkhard"]			{"Folkhard"}
+["Frethirik"]			{"Frethirik"}
+["Frethold"]			{"Frethold"}
+["Geldulf"]			{"Geldulf"}
+["Gerbald"]			{"Gerbald"}
+["Gerbrand"]			{"Gerbrand"}
+["Gerold"]			{"Gerold"}
+["Gerulf"]			{"Gerulf"}
+["Habo"]			{"Habo"}
+["Hathuward"]			{"Hathuward"}
+["HroThard"]			{"Hroðhard"}
+["Lubbiko"]			{"Lubbiko"}
+["Meginhard"]			{"Meginhard"}
+["Meginulf"]			{"Meginulf"}
+["Meintet"]			{"Meintet"}
+["Menhard"]			{"Menhard"}
+["Meniko"]			{"Meniko"}
+["Redbad"]			{"Redbad"}
+["Reginhard"]			{"Reginhard"}
+["Renhard"]			{"Renhard"}
+["Riklef"]			{"Riklef"}
+["Rikwi"]			{"Rikwi"}
+["Sibod"]			{"Sibod"}
+["Siwi"]			{"Siwi"}
+["OsnoT"]			{"Osnoð"}
+["Tadaco"]			{"Tadaco"}
+["Thankbern"]			{"Thankbern"}
+["Thiadbold"]			{"Thiadbold"}
+["Thiadward"]			{"Thiadward"}
+["Thonkrik"]			{"Thonkrik"}
+["Tiadi"]			{"Tiadi"}
+["Uulfnoth"]			{"Uulfnoth"}
+["Wibad"]			{"Wibad"}
+["Wibraht"]			{"Wibraht"}
+["Wilbrand"]			{"Wilbrand"}
+
+//dutch_forenames
+
+["Adriaen"]			{"Adriaen"}
+["Alaerdus"]			{"Alaerdus"}
+["Anthonis"]			{"Anthonis"}
+["Augustiin"]			{"Augustiin"}
+["Barnaerd"]			{"Barnaerd"}
+["Bartolomeus"]			{"Bartolomeus"}
+["Beyndijn"]			{"Beyndijn"}
+["Boeyken"]			{"Boeyken"}
+["Bonsart"]			{"Bonsart"}
+["Boudekijn"]			{"Boudekijn"}
+["Boudijn"]			{"Boudijn"}
+["Buus"]			{"Buus"}
+["Calle"]			{"Calle"}
+["Claesekiin"]			{"Claesekiin"}
+["Coenkijn"]			{"Coenkijn"}
+["Coenselijn"]			{"Coenselijn"}
+["Costijn"]			{"Costijn"}
+["Crispiin"]			{"Crispiin"}
+["Doedeken"]			{"Doedeken"}
+["Domaes"]			{"Domaes"}
+["Faucoen"]			{"Faucoen"}
+["Floerkijn"]			{"Floerkijn"}
+["Foyken"]			{"Foyken"}
+["Frankrijk"]			{"Frankrijk"}
+["Godeken"]			{"Godeken"}
+["Godevaart"]			{"Godevaart"}
+["Goeswiin"]			{"Goeswiin"}
+["Goudriaan"]			{"Goudriaan"}
+["Hillebrant"]			{"Hillebrant"}
+["IJman"]			{"IJman"}
+["IJsbrant"]			{"IJsbrant"}
+["Klaas"]			{"Klaas"}
+["Lauwe"]			{"Lauwe"}
+["Lemmeken"]			{"Lemmeken"}
+["Lijsmoet"]			{"Lijsmoet"}
+["Matheeus"]			{"Matheeus"}
+["Moyses"]			{"Moyses"}
+["Noyden"]			{"Noyden"}
+["Oelard"]			{"Oelard"}
+["Ogier"]			{"Ogier"}
+["Pouwels"]			{"Pouwels"}
+["Quade"]			{"Quade"}
+["Rutgheer"]			{"Rutgheer"}
+["Vlas"]			{"Vlas"}
+["Walraven"]			{"Walraven"}
+["Willem"]			{"Willem"}
+["Wolf"]			{"Wolf"}
+
+//dutch_surnames
+["Aelbertssoen"]			{"Aelbertssoen"}
+["Berwoutssoen"]			{"Berwoutssoen"}
+["Dircxsoen"]			{"Dircxsoen"}
+["Fockenzoen"]			{"Fockenzoen"}
+["Geerijtsz"]			{"Geerijtsz"}
+["Heensoon"]			{"Heensoon"}
+["Hermanssoen"]			{"Hermanssoen"}
+["Coppenz"]			{"Coppenz"}
+["Janszoon"]			{"Janszoon"}
+["Kerstantsz"]			{"Kerstantsz"}
+["Peterssoen"]			{"Peterssoen"}
+["Rutgeersz"]			{"Rutgeersz"}
+["Willems"]			{"Willems"}
+["van Andels"]			{"van Andels"}
+["van Bellefelt"]			{"van Bellefelt"}
+["van Blitterswijck"]			{"van Blitterswijck"}
+["van den Broeck"]			{"van den Broeck"}
+["van Dam"]			{"van Dam"}
+["van Elven"]			{"van Elven"}
+["van den Grave"]			{"van den Grave"}
+["van Huesden"]			{"van Huesden"}
+["van Kannen"]			{"van Kannen"}
+["van Loon"]			{"van Loon"}
+["van Oudenberch"]			{"van Oudenberch"}
+["van den Putte"]			{"van den Putte"}
+["van der Spiegel"]			{"van der Spiegel"}
+["van Winterswijck"]			{"van Winterswijck"}
+["die bastaert"]			{"die bastaert"}
+["de Cuyper"]			{"de Cuyper"}
+["die Graef"]			{"die Graef"}
+["de Hollander"]			{"de Hollander"}
+["de Heer"]			{"de Heer"}
+["die Hase"]			{"die Hase"}
+["die Vette"]			{"die Vette"}
+["de Vest"]			{"de Vest"}
+["die Weyter"]			{"die Weyter"}
+["die Wolf"]			{"die Wolf"}
+["Amelonc"]			{"Amelonc"}
+["Anker"]			{"Anker"}
+["Ballen"]			{"Ballen"}
+["Bisscop"]			{"Bisscop"}
+["Boeffaetgen"]			{"Boeffaetgen"}
+["Borstelman"]			{"Borstelman"}
+["Cloppels"]			{"Cloppels"}
+["Dagier"]			{"Dagier"}
+["Henters"]			{"Henters"}
+["Juckhuys"]			{"Juckhuys"}
+["Smaelvelt"]			{"Smaelvelt"}
+
+
+
+
+
+// Princess names
+["Ade"]			{"Ade"}
+["Adela"]			{"Adela"}
+["Adelhaid"]		{"Adelhaid"}
+["Adelaide"]		{"Adelaide"}
+["Agata"]			{"Agata"}
+["Agnes"]			{"Agnes"}
+["Aigiarn"]			{"Aigiarn"}
+["Alice"]			{"Alice"}
+["Amata"]			{"Agnese"}
+["Anastasia"]		{"Anastasia"}
+["Angela"]			{"Angela"}
+["Anna"]			{"Anna"}
+["Antoinette"]		{"Antoinette"}
+["Apolonia"]		{"Apolonia"}
+["Arlette"]			{"Arlette"}
+["Astrid"]			{"Astrid"}
+["Beatrice"]		{"Beatrice"}
+["Beatriz"]			{"Beatriz"}
+["Beatrix"]			{"Beatrix"}
+["Berengaria"]		{"Berengaria"}
+["Berenguela"]		{"Berenguela"}
+["Birgitta"]		{"Birgitta"}
+["Blanca"]			{"Blanca"}
+["Blanche"]			{"Bianca"}
+["Borbala"]			{"Borbala"}
+["Borte"]			{"Borte"}
+["Bruna"]			{"Brunilde"}
+["Buzilla"]			{"Constanza"}
+["Caterina"]		{"Caterina"}
+["Catherine"]		{"Catherine"}
+["Cecilie"]			{"Cecilie"}
+["Chabi"]			{"Chabi"}
+["Charlotte"]		{"Charlotte"}
+["Chotan"]			{"Chotan"}
+["Clare"]			{"Clare"}
+["Claudia"]			{"Claudia"}
+["Conchaka"]		{"Conchaka"}
+["Constance"]		{"Constance"}
+["Constancia"]		{"Constancia"}
+["Cunigunda"]		{"Kunigunde"}
+["Dobronega"]		{"Dobronega"}
+["Doregene"]		{"Doregene"}
+["Dorothea"]		{"Dorothea"}
+["Dulce"]			{"Dulce"}
+["Edith"]			{"Edith"}
+["Ekaterina"]		{"Ekaterina"}
+["Elena"]			{"Elena"}
+["Eleonore"]		{"Eleonore"}
+["Eleanor"]			{"Eleanor"}
+["Elisaveta"]		{"Elisaveta"}
+["Elizabeth"]		{"Elizabeth"}
+["Elzbieta"]		{"Elzbieta"}
+["Emilia"]			{"Emilia"}
+["Emma"]			{"Emma"}
+["Epiphania"]		{"Epiphania"}
+["Erzsebet"]		{"Erzsebet"}
+["Eudocia"]			{"Eudocia"}
+["Euphrosyne"]		{"Euphrosyne"}
+["Evdokia"]			{"Evdokia"}
+["Florese"]			{"Flora"}
+["Gertrud"]			{"Gertrud"}
+["Gisela"]			{"Gisela"}
+["Goland"]			{"Goland"}
+["Gregoria"]		{"Gregoria"}
+["Gunhilda"]		{"Gunhilde"}
+["Gurbesu"]			{"Gurbesu"}
+["Hedwig"]			{"Hedwig"}
+["Helen"]			{"Helen"}
+["Helena"]			{"Helena"}
+["Herleva"]			{"Herleva"}
+["Ho'elun"]			{"Ho"}
+["Ielsavet"]		{"Ielsavet"}
+["Ilona"]			{"Ilona"}
+["Ingeborg"]		{"Ingeborg"}
+["Ingegerd"]		{"Ingegerd"}
+["Ingrid"]			{"Ingrid"}
+["Iogaila"]			{"Iogaila"}
+["Iolande"]			{"Iolande"}
+["Irene"]			{"Irene"}
+["Irina"]			{"Irina"}
+["Irisko"]			{"Irisko"}
+["Isabel"]			{"Isabel"}
+["Isabella"]		{"Isabella"}
+["Jadwiga"]			{"Jadwiga"}
+["Jimena"]			{"Jimena"}
+["Joan"]			{"Joan"}
+["Jozsa"]			{"Jozsa"}
+["Juana"]			{"Juana"}
+["Judith"]			{"Judith"}
+["Jutta"]			{"Jutta"}
+["Kasiane"]			{"Kasiane"}
+["Katalin"]			{"Katalin"}
+["Katarzyna"]		{"Katarzyna"}
+["Khultulun"]		{"Khultulun"}
+["Klementina"]		{"Klementine"}
+["Kokachin"]		{"Kokachin"}
+["Kristina"]		{"Kristina"}
+["Leonor"]			{"Leonor"}
+["Letitia"]			{"Letizia"}
+["Lupicina"]		{"Lupicina"}
+["Mandughai"]		{"Mandughai"}
+["Margaret"]		{"Margaret"}
+["Margaretha"]		{"Margaretha"}
+["Margarita"]		{"Margherita"}
+["Margery"]			{"Margery"}
+["Margrethe"]		{"Margrethe"}
+["Maria"]			{"María"}
+["Marie"]			{"Marie"}
+["Marina"]			{"Matilde"}
+["Marta"]			{"Marta"}
+["Mary"]			{"Mary"}
+["Maud"]			{"Maud"}
+["Massaria"]		{"Laura"}
+["Matasuntha"]		{"Matasuntha"}
+["Matilda"]			{"Matilda"}
+["Nataliya"]		{"Nataliya"}
+["Oghul"]			{"Oghul"}
+["Olga"]			{"Olga"}
+["Orqina"]			{"Orqina"}
+["Orszula"]			{"Orszula"}
+["Petronila"]		{"Petronila"}
+["Phillipa"]		{"Phillipa"}
+["Prascovia"]		{"Prascovia"}
+["Regitze"]			{"Regitze"}
+["Rikissa"]			{"Rikissa"}
+["Rosana"]			{"Rossana"}
+["Ryska"]			{"Ryska"}
+["Salomea"]			{"Salomea"}
+["Sancha"]			{"Sancha"}
+["Santesa"]			{"Sofia"}
+["Sara"]			{"Sara"}
+["Sarolt"]			{"Sarolt"}
+["Sigrid"]			{"Sigrid"}
+["Sofie"]			{"Sofie"}
+["Sofiya"]			{"Sofiya"}
+["Sorghaghtani"]	{"Sorghaghtani"}
+["Svetlana"]		{"Svetlana"}
+["Swatawa"]			{"Swatawa"}
+["Swietoslawa"]		{"Swietoslawa"}
+["Taraisia"]		{"Teresa"}
+["Tatiana"]			{"Tatiana"}
+["Teresa"]			{"Teresa"}
+["Theodora"]		{"Theodora"}
+["Theophano"]		{"Theophano"}
+["Thyra"]			{"Thyra"}
+["Toregene"]		{"Toregene"}
+["Ulfhild"]			{"Ulfhild"}
+["Ulrikke"]			{"Ulrikke"}
+["Uracca"]		{"Urraca"}
+["Verdis"]			{"Valeria"}
+["Vigilantia"]		{"Vigilantia"}
+["Violante"]		{"Violante"}
+["Valentina"]		{"Vittoria"}
+["Whilhelmina"]		{"Whilhelmine"}
+["Zenophilia"]		{"Zenophilia"}
+["Zophia"]			{"Zophia"}
+["Zoe"]				{"Zoe"}
+["Zoya"]		{"Zoya"}
+["Zsofia"]		{"Zsofia"}
+
+// King counts
+
+@["roman_numerals"]
+@{" I"}
+@{" II"}
+@{" III"}
+@{" IV"}
+@{" V"}
+@{" VI"}
+@{" VII"}
+@{" VIII"}
+@{" IX"}
+@{" X"}
+@{" XI"}
+@{" XII"}
+@{" XIII"}
+@{" XIV"}
+@{" XV"}
+@{" XVI"}
+@{" XVII"}
+@{" XVIII"}
+@{" XIX"}
+@{" XX"}
+@{" XXI"}
+@{" XXII"}
+@{" XXIII"}
+@{" XXIV"}
+@{" XXV"}
+@{" XXVI"}
+@{" XXVII"}
+@{" XXVIII"}
+@{" XXIX"}
+@{" XXX"}
+@{" XXXI"}
+@{" XXXII"}
+@{" XXXIII"}
+@{" XXXIV"}
+@{" XXXV"}
+@{" XXXVI"}
+@{" XXXVII"}
+@{" XXXVIII"}
+@{" XXXIX"}
+@{" XL"}
+@{" XLI"}
+@{" XLII"}
+@{" XLIII"}
+@{" XLIV"}
+@{" XLV"}
+@{" XLVI"}
+@{" XLVII"}
+@{" XLVIII"}
+@{" XLIX"}
+@{" L"}
+
+
+								
+//
+// First names.
+//
+
+
+// Mongol commander names
+["Abaqha"]				{"Abaqha"}
+["Aragibag"]			{"Aragibag"}
+["Arghun"]				{"Arghun"}
+["ArigbVge"]			{"Arigböge"}
+["Arigh Boke"]			{"Arigh Boke"}
+["Ayurbarwada"]			{"Ayurbarwada"}
+["Batu"]				{"Batu"}
+["Bayan"]				{"Bayan"}
+["Chagatai"]			{"Chagatai"}
+["Chaghatai"]			{"Chaghatai"}
+["Chinggis"]			{"Chinggis"}
+["EgidY"]				{"Egidü"}
+["El Temur"]			{"El Temur"}
+["Genghis "]			{"Genghis "}
+["Ghazan"]				{"Ghazan"}
+["GYyYk"]				{"Güyük"}
+["HYlegY"]				{"Hülegü"}
+["Hung Ch'a-Ch'iu"]		{"Hung Ch'a-Ch'iu"}
+["Irinjibal"]			{"Irinjibal"}
+["Jagatai "]			{"Jagatai "}
+["Jebe"]				{"Jebe"}
+["JVchi"]				{"Jöchi"}
+["Kaidu"]				{"Kaidu"}
+["Kaishan"]				{"Kaishan"}
+["Kara HYlegY"]			{"Kara Hülegü"}
+["Khoshila"]			{"Khoshila"}
+["Khublai"]				{"Khublai"}
+["Kubla"]				{"Kubla"}
+["Kuyuk"]				{"Kuyuk"}
+["Kublai"]				{"Kublai"}
+["Mamai"]				{"Mamai"}
+["Mengli Girai"]		{"Mengli Girai"}
+["MVngke"]				{"Möngke"}
+["Nayan"]				{"Nayan"}
+["Ogadai"]				{"Ogadai"}
+["Ogatai"]				{"Ogatai"}
+["JgVdei"]				{"Ögödei"}
+["JljeitY"]				{"Öljeitü"}
+["Orda"]				{"Orda"}
+["Orjibal"]				{"Orjibal"}
+["Shidebala"]			{"Shidebala"}
+["Subudai"]				{"Subudai"}
+["Temudur"]				{"Temudur"}
+["Temujin"]				{"Temujin"}
+["Temur Oljeitu"]		{"Temur Oljeitu"}
+["Toghon Temur"]		{"Toghon Temur"}
+["Tokhtamysh"]			{"Tokhtamysh"}
+["Tolui"]				{"Tolui"}
+["Tsagadai"]			{"Tsagadai"}
+["Ugedai"]				{"Ugedai"}
+["Yesugei"]				{"Yesugei"}
+["Yeh-lY Ch'u-ts'ai"]	{"Yeh-lü Ch'u-ts'ai"}
+["Yesun Temur"]			{"Yesun Temur"}
+["Zhen Jin"]			{"Zhen Jin"}
+["Shidadai"]			{"Shidadai"}
+["Ordai"]				{"Ordai"}
+["Ordhun"]				{"Ordhun"}
+["Subujin"]				{"Subujin"}
+["Jebu"]				{"Jebu"}
+["Jebdun"]				{"Jebdun"}
+["Tobu"]				{"Tobu"}
+["Tobdun"]				{"Tobdun"}
+["Nayu"]				{"Nayu"}
+["Argu"]				{"Argu"}
+["Argudhun"]			{"Argudhun"}
+["Khoyan"]				{"Khoyan"}
+["Khoyu"]				{"Khoyu"}
+["Khodun"]				{"Khodun"}
+["Khochi"]				{"Khochi"}
+["Khogibag"]			{"Khogibag"}
+["Abayan"]				{"Abayan"}
+["Abadai"]				{"Abadai"}
+["Abadhun"]				{"Abadhun"}
+["Arablai"]				{"Arablai"}
+["Abangis"]				{"Abangis"}
+["Abashan"]				{"Abashan"}
+["Aboke"]				{"Aboke"}
+["Aragei"]				{"Aragei"}
+["Aradai"]				{"Aradai"}
+["Arabla"]				{"Arabla"}
+["Arajibal"]			{"Arajibal"}
+["Araboge"]				{"Araboge"}
+["Aragatai"]			{"Aragatai"}
+["Araghun"]				{"Araghun"}
+["Batudai"]				{"Batudai"}
+["Batutai"]				{"Batutai"}
+["Batublai"]			{"Batublai"}
+["Batuban"]				{"Batuban"}
+["Batudhun"]			{"Batudhun"}
+["Bavdai"]				{"Bavdai"}
+["Bavaboge"]			{"Bavaboge"}
+["Bavjeitu"]			{"Bavjeitu"}
+["Berkei"]				{"Berkei"}
+["Berkhungis"]			{"Berkhungis"}
+["Chagla"]				{"Chagla"}
+["Chagoke"]				{"Chagoke"}
+["Chaglai"]				{"Chaglai"}
+["Chagdu"]				{"Chagdu"}
+["Chagduk"]				{"Chagduk"}
+["Chagdhun"]			{"Chagdhun"}
+["Chindu"]				{"Chindu"}
+["Egiboge"]				{"Egiboge"}
+["Egishan"]				{"Egishan"}
+["Gendai"]				{"Gendai"}
+["Genduk"]				{"Genduk"}
+["Genke"]				{"Genke"}
+["Ghazandu"]			{"Ghazandu"}
+["Ghazatai"]			{"Ghazatai"}
+["Ghazuk"]				{"Ghazuk"}
+["Guyke"]				{"Guyke"}
+["Huleblai"]			{"Huleblai"}
+["Huleke"]				{"Huleke"}
+["Irindhuk"]			{"Irindhuk"}
+["Iringis"]				{"Iringis"}
+["Jagadai"]				{"Jagadai"}
+["Jagu"]				{"Jagu"}
+["Jebuk"]				{"Jebuk"}
+["Jeblai"]				{"Jeblai"}
+["Kaiblis"]				{"Kaiblis"}
+["Kaizuk"]				{"Kaizuk"}
+["Khodhun"]				{"Khodhun"}
+["Khoduk"]				{"Khoduk"}
+["Khoblai"]				{"Khoblai"}
+["Khogadai"]			{"Khogadai"}
+["Khotai"]				{"Khotai"}
+["Khuzuk"]				{"Khuzuk"}
+["Khushan"]				{"Khushan"}
+["Khundu"]				{"Khundu"}
+["Khugis"]				{"Khugis"}
+["Kubuk"]				{"Kubuk"}
+["Kubadai"]				{"Kubadai"}
+["Kubeke"]				{"Kubeke"}
+["Kundu"]				{"Kundu"}
+["Mamdu"]				{"Mamdu"}
+["Mamdhuk"]				{"Mamdhuk"}
+["Mamgis"]				{"Mamgis"}
+["Menglai"]				{"Menglai"}
+["Mengadai"]			{"Mengadai"}
+["Menguk"]				{"Menguk"}
+["Mongu"]				{"Mongu"}
+["Monduk"]				{"Monduk"}
+["Mongatai"]			{"Mongatai"}
+["Nayuk"]				{"Nayuk"}
+["Naydhun"]				{"Naydhun"}
+["Ogoshin"]				{"Ogoshin"}
+["Ogoshila"]			{"Ogoshila"}
+["Ogodhun"]				{"Ogodhun"}
+["Shidedai"]			{"Shidedai"}
+["Shideghuk"]			{"Shideghuk"}
+["Subuke"]				{"Subuke"}
+["Temudhuk"]			{"Temudhuk"}
+["Temudhun"]			{"Temudhun"}
+["Temublai"]			{"Temublai"}
+["Temugis"]				{"Temugis"}
+["Tsagatai"]			{"Tsagatai"}
+["Tasguk"]				{"Tasguk"}
+["Ugablai"]				{"Ugablai"}
+["Ugamysh"]				{"Ugamysh"}
+["Yesublai"]			{"Yesublai"}
+["Yesugis"]				{"Yesugis"}
+["Yesugatai"]			{"Yesugatai"}
+["Yesuk"]				{"Yesuk"}
+
+// Hero forenames
+["El"]				{"El"}
+["Mathilda"]              {"Mathilda"}
+["Llewellyn"]              {"Llewellyn"}
+["Fra"]              {"Fra"}
+["Simon"]              {"Simon"}
+["Stephan"]              {"Stephan"}
+["Black"]              {"Black"}
+["Wat"]              {"Wat"}
+["Owain"]              {"Owain"}
+["Iskander"]              {"Iskander"}
+["Ibn"]              {"Ibn"}
+["Theodosios"]              {"Theodosios"}
+["Gregory"]              {"Gregory"}
+["Saxo"]              {"Saxo"}
+["Bo"]              {"Bo"}
+["Al-Afdal"]              {"Al-Afdal"}
+["Najamuddin"]              {"Najamuddin"}
+["Nur"]              {"Nur"}
+["Asad"]              {"Asad"}
+["Sharaf"]              {"Sharaf"}
+["Fakhr"]              {"Fakhr"}
+["Ibn Taymiya"]              {"Ibn Taymiya"}
+["Odon"]              {"Odon"}
+["Strongbow"]              {"Strongbow"}
+["Bertrand"]			{"Bertrand"}
+["Francesco"]			{"Francesco"}
+["Blondel"]              {"Blondel"}
+["Godfrey"]              {"Godfrey"}
+["Gerard"]              {"Gerard"}
+["ChrQtien"]              {"Chrétien"}
+["Jacques"]              {"Jacques"}
+["Hartmann"]              {"Hartmann"}
+["Albertus"]              {"Albertus"}
+["Albert"]              {"Albert"}
+["Hannekin"]              {"Hannekin"}
+["Werner"]              {"Werner"}
+["Bohemond"]              {"Bohemond"}
+["Boniface"]              {"Boniface"}
+["Alighieri"]              {"Alighieri"}
+["Catruccio"]              {"Catruccio"}
+["Ambrogio"]              {"Ambrogio"}
+["Alberigo"]              {"Alberigo"}
+["Bartolomeo"]              {"Bartolomeo"}
+["Bartolomei"]              {"Bartolomei"}
+["Domingo"]              {"Domingo"}
+["TomNs"]              {"Tomás"}
+["Frenando"]              {"Frenando"}
+["Hasan-e"]              {"Hasan-e"}
+["Imad"]              {"Imad"}
+["Qara"]              {"Qara"}
+["Qutb"]              {"Qutb"}
+["Vlad"]              {"Vlad"}
+["Domash"]              {"Domash"}
+["Giles"]              {"Giles"}
+["Cola"]              {"Cola"}
+["Gil"]              {"Gil"}
+
+// Hero surnames
+
+["Cid"]			{"Cid"}
+["Diaz de Vivar"]              {"Diaz de Vivar"}
+["de Boulogne"]              {"de Boulogne"}
+["Sgouros"]              {"Sgouros"}
+["of Locksley"]              {"of Locksley"}
+["Dolcino"]              {"Dolcino"}
+["de Montfort the Younger"]              {"de Montfort the Younger"}
+["Walays"]              {"Walays"}
+["Urosh Dushan"]              {"Urosh Dushan"}
+["Agnes Dunbar"]              {"Agnes Dunbar"}
+["van Artevelde"]              {"van Artevelde"}
+["Tyler"]              {"Tyler"}
+["Glyndwr"]              {"Glyndwr"}
+["Bey"]              {"Bey"}
+["Khaldun abd al-Rahman"]              {"Khaldun abd al-Rahman"}
+["Boradiotes"]              {"Boradiotes"}
+["Acropolites"]              {"Acropolites"}
+["Beccus"]              {"Beccus"}
+["Palamas"]              {"Palamas"}
+["Sphrantzes"]              {"Sphrantzes"}
+["Grammaticus"]              {"Grammaticus"}
+["Sturluson"]              {"Sturluson"}
+["Elovsdottir"]              {"Elovsdottir"}
+["Jonsson Grip"]              {"Jonsson Grip"}
+["Shahinshah"]              {"Shahinshah"}
+["Ilghazi of Aleppo"]              {"Ilghazi of Aleppo"}
+["al-Din"]              {"al-Din"}
+["al-Din Shirkoh"]              {"al-Din Shirkoh"}
+["ad Din"]              {"ad Din"}
+["ad-Din"]              {"ad-Din"}
+["al-Harrani"]              {"al-Harrani"}
+["de Bayeux"]              {"de Bayeux"}
+["de Normandie"]              {"de Normandie"}
+["Borleng"]              {"Borleng"}
+["FitzGilbert"]              {"FitzGilbert"}
+["Beckett"]              {"Beckett"}
+["Mercadier"]              {"Mercadier"}
+["Marshall"]              {"Marshall"}
+["de Nesle"]              {"de Nesle"}
+["de Montfort the Elder"]              {"de Montfort the Elder"}
+["Calveley"]              {"Calveley"}
+["Hawkwood"]              {"Hawkwood"}
+["de Grailly"]              {"de Grailly"}
+["Knollys"]              {"Knollys"}
+["Chaucer"]              {"Chaucer"}
+["Camoys"]              {"Camoys"}
+["de la Pole"]              {"de la Pole"}
+["of Cluny"]              {"of Cluny"}
+["of Boulogne"]              {"of Boulogne"}
+["of Bouillon"]              {"of Bouillon"}
+["of Clairvaux"]              {"of Clairvaux"}
+["de Payns"]              {"de Payns"}
+["of Ypres"]              {"of Ypres"}
+["de Ridefort"]              {"de Ridefort"}
+["de Troyes"]              {"de Troyes"}
+["Cadoc"]              {"Cadoc"}
+["de Charny"]              {"de Charny"}
+["Froissart"]              {"Froissart"}
+["le Maingre Boucicault"]              {"le Maingre Boucicault"}
+["de la Salle"]              {"de la Salle"}
+["de Richmont"]              {"de Richmont"}
+["Bureau"]              {"Bureau"}
+["de Bueil"]              {"de Bueil"}
+["of Arc"]              {"of Arc"}
+["the Lion"]              {"the Lion"}
+["von Aue"]              {"von Aue"}
+["of Marburg"]              {"of Marburg"}
+["of Bohemia"]              {"of Bohemia"}
+["Sterz"]              {"Sterz"}
+["Bongarten"]              {"Bongarten"}
+["von Lrslingen"]              {"von Ürslingen"}
+["Zizka"]              {"Zizka"}
+["de Tankerville"]              {"de Tankerville"}
+["of Montferrat"]              {"of Montferrat"}
+["de Plano Carpini"]              {"de Plano Carpini"}
+["d'Assisi"]              {"d'Assisi"}
+["Dante"]              {"Dante"}
+["Castracane"]              {"Castracane"}
+["Visconti"]              {"Visconti"}
+["da Barbiano"]              {"da Barbiano"}
+["Colleoni"]              {"Colleoni"}
+["Sforza"]              {"Sforza"}
+["Petrach"]              {"Petrach"}
+["Oleshnicki"]              {"Oleshnicki"}
+["Petrovich"]              {"Petrovich"}
+["Kirillovich"]              {"Kirillovich"}
+["de GuzmNn"]              {"de Guzmán"}
+["de Torquemada"]              {"de Torquemada"}
+["Martinez"]              {"Martinez"}
+["DZaz Bermejo"]              {"Díaz Bermejo"}
+["Sabbah"]              {"Sabbah"}
+["al-Din Zengi"]              {"al-Din Zengi"}
+["Timurtash"]              {"Timurtash"}
+["al-Din Aibak"]              {"al-Din Aibak"}
+["Evrenos"]              {"Evrenos"}
+["de Lauria"]              {"de Lauria"}
+["de Montaigu"]              {"de Montaigu"}
+["de Vergy"]              {"de Vergy"}
+["Hunyadi"]              {"Hunyadi"}
+["Tepes"]              {"Tepes"}
+["Tverdislavich"]              {"Tverdislavich"}
+["of Verona"]              {"of Verona"}
+["of Rome"]              {"of Rome"}
+["de Monte Corvino"]              {"de Monte Corvino"}
+["di Rienzo"]              {"di Rienzo"}
+["Alvarez Carillo"]              {"Alvarez Carillo"}
+["de Hauteville"]              {"de Hauteville"}
+["de Flor"]              {"de Flor"}
+["Tell"]              {"Tell"}
+["von Malters"]              {"von Malters"}
+
+
+//unit names
+//
+//@["spy_names_xzy"] 
+//@{"Grand Executioner"}
+//@{"Priest"}
+//@{"Cardinal"}
+//@{"Father Visitor"}
+//@{"Witch Finder"}
+//@{"Spy"}
+
+
+["HighlandClansman_Singular"]				{"Highland Clansman"}           
+["BallistaCrew_Singular"]				{"Ballista Crewman"}               
+["MangonelCrew_Singular"]				{"Mangonel Crewman"}               
+["CatapultCrew_Singular"]				{"Catapult Crewman"}               
+["TrebuchetCrew_Singular"]				{"Trebuchet Crewman"}              
+["BombardCrew_Singular"]				{"Bombard Crewman"}                
+["MortarCrew_Singular"]					{"Mortar Crewman"}                 
+["DemiculverinCrew_Singular"]				{"Demi-Culverin Crewman"}           
+["CulverinCrew_Singular"]				{"Culverin Crewman"}               
+["DemicannonCrew_Singular"]				{"Demi-Cannon Crewman"}             
+["SerpentineCrew_Singular"]				{"Serpentine Crewman"}             
+["SiegecannonCrew_Singular"]			  	{"Siege Cannon Crewman"}            
+["MurabitinInfantry_Singular"]				{"Murabitin Infantryman"}          
+["Kern_Singular"]					{"Kern"}                       
+["GenoeseSailors_Singular"]				{"Genoese Sailor"}             
+["Archers_Singular"]					{"Archer"}                 
+["DesertArchers_Singular"]				{"Desert Archer"}              
+["TrebizondArchers_Singular"]				{"Trebizond Archer"}           
+["BulgarianBrigands_Singular"]				{"Bulgarian Brigand"}          
+["JanissaryBows_Singular"]				{"Janissary Archer"}              
+["Nizari_Singular"]					{"Nizari"}                     
+["Futuwwa_Singular"]					{"Futuwwa"}                    
+["JanissaryInfantry_Singular"]				{"Janissary Infantryman"}          
+["TurcomanFoot_Singular"]				{"Turcoman Foot Soldier"}               
+["Longbows_Singular"]					{"Longbowman"}                   
+["Crossbows_Singular"]					{"Crossbowman"}                  
+["PaviseCrossbows_Singular"]			  	{"Pavise Crossbowman"}            
+["Arbalester_Singular"]					{"Arbalester"}                 
+["PaviseArbalester_Singular"]				{"Pavise Arbalester"}           
+["MamlukHandgun_Singular"]				{"Mamluk Handgunner"}              
+["Arquebusier_Singular"]				{"Arquebusier"}                
+["HandGun_Singular"]					{"Handgunner"}                    
+["NapthaThrowers_Singular"]				{"Naptha Thrower"}             
+["AlanMercenaryCavalry_Singular"]			{"Alan Mercenary Cavalryman"}   
+["SteppeCavalry_Singular"]				{"Steppe Cavalryman"}    
+["Turcopole_Singular"]					{"Turcopole"}                  
+["BerberCamel_Singular"]				{"Berber Camel"}                
+["MamlukHorseArchers_Singular"]				{"Mamluk Horse Archer"}         
+["TurcomanHorse_Singular"]				{"Turcoman Horseman"}              
+["HorseArchers_Singular"]				{"Horse Archer"}      
+["GoldenHordeHorseArchers_Singular"]	  		{"Mongol Horse Archer"}    
+["ByzantineCavalry_Singular"]				{"Byzantine Cavalryman"}           
+["GoldenHordeHeavyCavalry_Singular"]	  		{"Mongol Heavy Cavalryman"}    
+["ReligiousFanatics_Singular"]				{"Fanatic"}          
+["HospitallerFootKnights_Singular"]			{"Hospitaller Foot Knight"}     
+["UrbanMilitia_Singular"]				{"Urban Militiaman"}               
+["GhaziInfantry_Singular"]				{"Ghazi Infantryman"}              
+["MilitiaSergeants_Singular"]				{"Militia Sergeant"}           
+["JanissaryHeavyInfantry_Singular"]			{"Janissary Heavy Infantryman"}     
+["Billmen_Singular"]					{"Billman"}                    
+["Housecarle_Singular"]					{"Viking"}                 
+["VarangianGuard_Singular"]				{"Varangian Guard"}             
+["Halbardiers_Singular"]				{"Halberdier"}                
+["OttomanInfantry_Singular"]			  	{"Ottoman Infantryman"}            
+["ChivalricFootKnights_Singular"]			{"Chivalric Foot Knight"}       
+["GothicKnights_Singular"]				{"Gothic Knight"}              
+["MuwahidFoot_Singular"]				{"Muwahid Foot Soldier"}                
+["FeudalManAtArms_Singular"]			  	{"Feudal Man-At-Arms"}            
+["AlmohadUrbanMilitia_Singular"]		  	{"Almohad Urban Militiaman"}        
+["ChivalricManAtArms_Singular"]				{"Chivalric Man-At-Arms"}         
+["Gallowglass_Singular"]				{"Gallowglass"}                
+["FeudalFootKnights_Singular"]				{"Feudal Foot Knight"}          
+["Peasants_Singular"]					{"Peasant"}                   
+["MuslimPeasants_Singular"]				{"Peasant"}             
+["FeudalSergeants_Singular"]				{"Feudal Sergeant"}            
+["Spearmen_Singular"]					{"Spearman"}                   
+["ByzantineInfantry_Singular"]				{"Byzantine Infantryman"}          
+["SaracenInfantry_Singular"]				{"Saracen Infantryman"}            
+["ItalianLightInfantry_Singular"]			{"Italian Infantryman"}       
+["ChivalricSergeants_Singular"]				{"Chivalric Sergeant"}         
+["OrderFootsoldiers_Singular"]				{"Order Foot Soldier"}          
+["GoldenHordeWarriors_Singular"]			{"Mongol Warrior"}        
+["GothicSergeants_Singular"]				{"Gothic Sergeant"}            
+["Pikemen_Singular"]					{"Pikeman"}                    
+["SwissPikemen_Singular"]				{"Swiss Pikeman"}               
+["SwissArmouredPikemen_Singular"]			{"Swiss Armoured Pikeman"}       
+["SaharanCavalry_Singular"]				{"Saharan Cavalryman"}             
+["MamlukCavalry_Singular"]				{"Mamluk Cavalryman"}              
+["ArmenianHeavyCavalry_Singular"]			{"Armenian Heavy Cavalryman"}       
+["BedouinCamelWarriors_Singular"]			{"Bedouin Camel Warrior"}       
+["Hobilar_Singular"]					{"Hobilar"}                    
+["GhulamCavalry_Singular"]				{"Ghulam Cavalryman"}              
+["KhwarazmianCavalry_Singular"]				{"Khwarazmian Cavalryman"}         
+["PronoiaiAllagion_Singular"]				{"Pronoiai Allagion"}           
+["Kataphraktoi_Singular"]				{"Kataphraktos"}               
+["OttomanSipahi_Singular"]				{"Ottoman Sipahi"}              
+["FeudalKnights_Singular"]				{"Feudal Knight"}              
+["TeutonicSergeants_Singular"]				{"Teutonic Sergeant"}          
+["KnightsHospitaller_Singular"]				{"Knight Hospitaller"}         
+["KnightsSantiago_Singular"]				{"Knight of Santiago"}            
+["KnightsTemplar_Singular"]				{"Knight Templar"}             
+["TeutonicKnights_Singular"]				{"Teutonic Knight"}            
+["Lancers_Singular"]					{"Lancer"}                    
+["ChivalricKnights_Singular"]				{"Chivalric Knight"}           
+["Gendarmes_Singular"]					{"Gendarme"}                  
+["GothicFootKnights_Singular"]				{"Gothic Foot Knight"}          
+["EarlyRoyalKnights_Singular"]				{"Royal Knight"}          
+["HighRoyalKnights_Singular"]				{"Royal Knight"}          
+["LateRoyalKnights_Singular"]				{"Royal Knight"}          
+["EarlyRoyalGhulamKnights_Singular"]	   		{"Ghulam Bodyguard"}          
+["HighRoyalGhulamKnights_Singular"]		   	{"Ghulam Bodyguard"}          
+["LateRoyalGhulamKnights_Singular"]		   	{"Ghulam Bodyguard"}          
+["SpanishJinetes_Singular"]			 	{"Spanish Jinete"}
+["SipahiofthePorte_Singular"]				{"Sipahi of the Porte"}
+["Boyar_Singular"]					{"Boyar"}
+["LithuanianCavalry_Singular"]				{"Lithuanian Cavalryman"}
+["PolishRetainer_Singular"]				{"Polish Retainer"}
+["MountedCrossbows_Singular"]				{"Mounted Crossbowman"}
+["MountedSergeants_Singular"]				{"Mounted Sergeant"}
+["Woodsman_Singular"]		 			{"Woodsman"}
+["SwissHalbardiers_Singular"]				{"Swiss Halberdier"}
+["Almughavars_Singular"]				{"Almughavar"}
+["Hashishin_Singular"]	 				{"Hashishin"}
+["NegroSpearmen_Singular"] 				{"Nubian Spearman"}
+["AbyssinianGuard_Singular"]				{"Abyssinian Guard"}
+
+["Horse_Singular"]					{"Horse"}                      
+["Dhow_Singular"]					{"Dhow"}                       
+["Dromon_Singular"]					{"Dromon"}                     
+["Longboat_Singular"]					{"Longboat"}                   
+["Galley_Singular"]					{"Galley"}                     
+["Barque_Singular"]					{"Barque"}                     
+["Baggala_Singular"]					{"Baggala"}                    
+["Caravel_Singular"]					{"Caravel"}                    
+["Firegalley_Singular"]					{"Firegalley"}                 
+["Wargalley_Singular"]					{"Wargalley"}                  
+["Cog_Singular"]					{"Cog"}                        
+["Boom_Singular"]					{"Boom"}                       
+["Gungalley_Singular"]					{"Gungalley"}                  
+["Carrack_Singular"]					{"Carrack"}                    
+["Spy_Singular"]					{"Spy"}                        
+["Assassin_Singular"]					{"Assassin"}                   
+["Emissary_Singular"]					{"Emissary"}                   
+["Bishop_Singular"]					{"Catholic Bishop"}                     
+["Cardinal_Singular"]					{"Cardinal"}                   
+["Inquisitor_Singular"]					{"Inquisitor"}                 
+["GrandInquisitor_Singular"]				{"Grand Inquisitor"}            
+["Priest_Singular"]					{"Priest"}                     
+["OrthodoxBishop_Singular"]				{"Orthodox Bishop"}             
+["Mullah_Singular"]					{"Alim"}                     
+["Ulama_Singular"]					{"Imam"}                      
+["Princess_Singular"]					{"Princess"}                      
+["Crusade_Singular"]					{"Crusade"}                      
+["Jihad_Singular"]					{"Jihad"}
+
+
+["HighlandClansman_Plural"]					{"Highland Clansmen"}           
+["BallistaCrew_Plural"]						{"Ballista Crew"}               
+["MangonelCrew_Plural"]						{"Mangonel Crew"}               
+["CatapultCrew_Plural"]						{"Catapult Crew"}               
+["TrebuchetCrew_Plural"]					{"Trebuchet Crew"}              
+["BombardCrew_Plural"]						{"Bombard Crew"}                
+["MortarCrew_Plural"]						{"Mortar Crew"}                 
+["DemiculverinCrew_Plural"]					{"Demi-Culverin Crew"}           
+["CulverinCrew_Plural"]						{"Culverin Crew"}               
+["DemicannonCrew_Plural"]					{"Demi-Cannon Crew"}             
+["SerpentineCrew_Plural"]					{"Serpentine Crew"}             
+["SiegecannonCrew_Plural"]					{"Siege Cannon Crew"}            
+["MurabitinInfantry_Plural"]					{"Murabitin Infantry"}          
+["Kern_Plural"]							{"Kerns"}                       
+["GenoeseSailors_Plural"]					{"Genoese Sailors"}             
+["Archers_Plural"]						{"Archers"}                 
+["DesertArchers_Plural"]					{"Desert Archers"}              
+["TrebizondArchers_Plural"]					{"Trebizond Archers"}           
+["BulgarianBrigands_Plural"]					{"Bulgarian Brigands"}          
+["JanissaryBows_Plural"]					{"Janissary Archers"}              
+["Nizari_Plural"]						{"Nizaris"}                     
+["Futuwwa_Plural"]						{"Futuwwas"}                    
+["JanissaryInfantry_Plural"]					{"Janissary Infantry"}          
+["TurcomanFoot_Plural"]						{"Turcoman Foot Soldiers"}               
+["Longbows_Plural"]						{"Longbowmen"}                   
+["Crossbows_Plural"]						{"Crossbowmen"}                  
+["PaviseCrossbows_Plural"]					{"Pavise Crossbowmen"}            
+["Arbalester_Plural"]						{"Arbalesters"}                 
+["PaviseArbalester_Plural"]					{"Pavise Arbalesters"}           
+["MamlukHandgun_Plural"]					{"Mamluk Handgunners"}              
+["Arquebusier_Plural"]						{"Arquebusiers"}                
+["HandGun_Plural"]						{"Handgunners"}                    
+["NapthaThrowers_Plural"]					{"Naptha Throwers"}             
+["AlanMercenaryCavalry_Plural"]					{"Alan Mercenary Cavalry"}       
+["SteppeCavalry_Plural"]					{"Steppe Cavalry"}
+["Turcopole_Plural"]						{"Turcopoles"}                  
+["BerberCamel_Plural"]						{"Berber Camels"}                
+["MamlukHorseArchers_Plural"]					{"Mamluk Horse Archers"}         
+["TurcomanHorse_Plural"]					{"Turcoman Horse"}              
+["HorseArchers_Plural"]						{"Horse Archers"}      
+["GoldenHordeHorseArchers_Plural"]				{"Mongol Horse Archers"}    
+["ByzantineCavalry_Plural"]					{"Byzantine Cavalry"}           
+["GoldenHordeHeavyCavalry_Plural"]				{"Mongol Heavy Cavalry"}    
+["ReligiousFanatics_Plural"]					{"Fanatics"}          
+["HospitallerFootKnights_Plural"]				{"Hospitaller Foot Knights"}     
+["UrbanMilitia_Plural"]						{"Urban Militia"}               
+["GhaziInfantry_Plural"]					{"Ghazi Infantry"}              
+["MilitiaSergeants_Plural"]					{"Militia Sergeants"}           
+["JanissaryHeavyInfantry_Plural"]				{"Janissary Heavy Infantry"}     
+["Billmen_Plural"]						{"Billmen"}                    
+["Housecarle_Plural"]						{"Vikings"}                 
+["VarangianGuard_Plural"]					{"Varangian Guard"}             
+["Halbardiers_Plural"]						{"Halberdiers"}                
+["OttomanInfantry_Plural"]					{"Ottoman Infantry"}            
+["ChivalricFootKnights_Plural"]					{"Chivalric Foot Knights"}       
+["GothicKnights_Plural"]					{"Gothic Knights"}              
+["MuwahidFoot_Plural"]						{"Muwahid Foot Soldiers"}                
+["FeudalManAtArms_Plural"]					{"Feudal Men-At-Arms"}            
+["AlmohadUrbanMilitia_Plural"]					{"Almohad Urban Militia"}        
+["ChivalricManAtArms_Plural"]					{"Chivalric Men-At-Arms"}         
+["Gallowglass_Plural"]						{"Gallowglasses"}                
+["FeudalFootKnights_Plural"]					{"Feudal Foot Knights"}          
+["Peasants_Plural"]						{"Peasants"}                   
+["MuslimPeasants_Plural"]					{"Peasants"}             
+["FeudalSergeants_Plural"]					{"Feudal Sergeants"}            
+["Spearmen_Plural"]						{"Spearmen"}                   
+["ByzantineInfantry_Plural"]					{"Byzantine Infantry"}          
+["SaracenInfantry_Plural"]					{"Saracen Infantry"}            
+["ItalianLightInfantry_Plural"]					{"Italian Infantry"}       
+["ChivalricSergeants_Plural"]					{"Chivalric Sergeants"}         
+["OrderFootsoldiers_Plural"]					{"Order Foot Soldiers"}          
+["GoldenHordeWarriors_Plural"]					{"Mongol Warriors"}        
+["GothicSergeants_Plural"]					{"Gothic Sergeants"}            
+["Pikemen_Plural"]						{"Pikemen"}                    
+["SwissPikemen_Plural"]						{"Swiss Pikemen"}               
+["SwissArmouredPikemen_Plural"]					{"Swiss Armoured Pikemen"}       
+["SaharanCavalry_Plural"]					{"Saharan Cavalry"}             
+["MamlukCavalry_Plural"]					{"Mamluk Cavalry"}              
+["ArmenianHeavyCavalry_Plural"]					{"Armenian Heavy Cavalry"}       
+["BedouinCamelWarriors_Plural"]					{"Bedouin Camel Warriors"}       
+["Hobilar_Plural"]						{"Hobilars"}                    
+["GhulamCavalry_Plural"]					{"Ghulam Cavalry"}              
+["KhwarazmianCavalry_Plural"]					{"Khwarazmian Cavalry"}         
+["PronoiaiAllagion_Plural"]					{"Pronoiai Allagion"}           
+["Kataphraktoi_Plural"]						{"Kataphraktoi"}               
+["OttomanSipahi_Plural"]					{"Ottoman Sipahi"}              
+["FeudalKnights_Plural"]					{"Feudal Knights"}              
+["TeutonicSergeants_Plural"]					{"Teutonic Sergeants"}          
+["KnightsHospitaller_Plural"]					{"Knights Hospitaller"}         
+["KnightsSantiago_Plural"]					{"Knights of Santiago"}            
+["KnightsTemplar_Plural"]					{"Knights Templar"}             
+["TeutonicKnights_Plural"]					{"Teutonic Knights"}            
+["Lancers_Plural"]						{"Lancers"}                    
+["ChivalricKnights_Plural"]					{"Chivalric Knights"}           
+["Gendarmes_Plural"]						{"Gendarmes"}                  
+["GothicFootKnights_Plural"]					{"Gothic Foot Knights"}          
+["EarlyRoyalKnights_Plural"]					{"Royal Knights"}          
+["HighRoyalKnights_Plural"]					{"Royal Knights"}          
+["LateRoyalKnights_Plural"]					{"Royal Knights"}          
+["EarlyRoyalGhulamKnights_Plural"]				{"Ghulam Bodyguards"}          
+["HighRoyalGhulamKnights_Plural"]		   		{"Ghulam Bodyguards"}          
+["LateRoyalGhulamKnights_Plural"]		   		{"Ghulam Bodyguards"}          
+["SpanishJinetes_Plural"]			   		{"Spanish Jinetes"}
+["SipahiofthePorte_Plural"]					{"Sipahis of the Porte"}
+["Boyar_Plural"]						{"Boyars"}
+["LithuanianCavalry_Plural"]					{"Lithuanian Cavalry"}
+["PolishRetainer_Plural"]					{"Polish Retainers"}
+["MountedCrossbows_Plural"]					{"Mounted Crossbowmen"}
+["MountedSergeants_Plural"]					{"Mounted Sergeants"}
+["Woodsman_Plural"]						{"Woodsmen"}
+["SwissHalbardiers_Plural"]					{"Swiss Halberdiers"}
+["Almughavars_Plural"]						{"Almughavars"}
+["Hashishin_Plural"]	 					{"Hashishin"}
+["NegroSpearmen_Plural"] 					{"Nubian Spearmen"}
+["AbyssinianGuard_Plural"]					{"Abyssinian Guards"}
+
+["Horse_Plural"]							{"Horses"}                      
+["Dhow_Plural"]								{"Dhows"}                       
+["Dromon_Plural"]							{"Dromons"}                     
+["Longboat_Plural"]							{"Longboats"}                   
+["Galley_Plural"]							{"Galleys"}                     
+["Barque_Plural"]							{"Barques"}                     
+["Baggala_Plural"]							{"Baggalas"}                    
+["Caravel_Plural"]							{"Caravels"}                    
+["Firegalley_Plural"]						{"Firegalleys"}                 
+["Wargalley_Plural"]						{"Wargalleys"}                  
+["Cog_Plural"]								{"Cogs"}                        
+["Boom_Plural"]								{"Booms"}                       
+["Gungalley_Plural"]						{"Gungalleys"}                  
+["Carrack_Plural"]							{"Carracks"}                    
+["Spy_Plural"]								{"Spies"}                        
+["Assassin_Plural"]							{"Assassins"}                   
+["Emissary_Plural"]							{"Emissaries"}                   
+["Bishop_Plural"]							{"Catholic Bishops"}                     
+["Cardinal_Plural"]							{"Cardinals"}                   
+["Inquisitor_Plural"]						{"Inquisitors"}                 
+["GrandInquisitor_Plural"]					{"Grand Inquisitors"}            
+["Priest_Plural"]							{"Priests"}                     
+["OrthodoxBishop_Plural"]					{"Orthodox Bishops"}             
+["Mullah_Plural"]							{"Alims"}                     
+["Ulama_Plural"]							{"Imams"}                      
+["Princess_Plural"]							{"Princesses"}                      
+["Crusade_Plural"]							{"Crusades"}                      
+["Jihad_Plural"]							{"Jihads"}
+
+
+
+									                               
+["Fort"]			{"Fort"}
+["Fort Motte"]			{"Fort and Motte"}
+["Fort Motte Bailey"]		{"Fort, Motte and Bailey"}
+["Keep"]			{"Keep"}
+["Keep Curtainwall"]		{"Keep and Curtain Wall"}
+["Keep Curtainwall Ballista"]	{"Keep, Curtain Wall and Ballista Towers"}
+["Castle"]			{"Castle"}
+["Castle Ringwall"]		{"Castle and Ring Wall"}
+["Castle Ringwall Catapult"]	{"Castle, Ring Wall and Catapult Towers"}
+["Citadel"]			{"Citadel"}
+["Citadel Barbican"]		{"Citadel and Barbican"}
+["Citadel Barbican GunTowers"]	{"Citadel, Barbican and Demi-Culverin Towers"}
+["Fortress"]			{"Fortress"}
+["Fortress Artillerytowers1"]	{"Fortress and Culverin Towers"}
+["Fortress Artillerytowers2"]	{"Fortress and Siege Cannon Towers"}
+
+// Alternative castle upgrade names used ONLY for the title banner in info parchment where it's too small to have the full name in most cases.
+["Fort +"]			{"Fort"}
+["Fort Motte +"]		{"+ Motte"}
+["Fort Motte Bailey +"]		{"+ Bailey"}
+["Keep +"]			{"Keep"}
+["Keep Curtainwall +"]		{"+ Curtain Wall"}
+["Keep Curtainwall Ballista +"]	{"+ Ballista Towers"}
+["Castle +"]			{"Castle"}
+["Castle Ringwall +"]		{"+ Ring Wall"}
+["Castle Ringwall Catapult +"]	{"+ Catapult Towers"}
+["Citadel +"]			{"Citadel"}
+["Citadel Barbican +"]		{"+ Barbican"}
+["Citadel Barbican GunTowers +"]{"+ Demi-Culverin Towers"}
+["Fortress +"]			{"Fortress"}
+["Fortress Artillerytowers1 +"]	{"+ Culverin Towers"}
+["Fortress Artillerytowers2 +"]	{"+ Siege Cannon Towers"}
+
+["Bowyer"]			{"Bowyer"}
+["Bowyers Workshop"]		{"Bowyer's Workshop"}
+["Bowyers Guild"]		{"Bowyers' Guild"}
+["Master Bowyer"]		{"Master Bowyer"}
+["Armourer"]			{"Armourer"}
+["Armourers Workshop"]		{"Armourer's Workshop"}
+["Armourers Guild"]		{"Armourers' Guild"}
+["Master Armourer"]		{"Master Armourer"}
+["Swordsmith"]			{"Swordsmith"}
+["Swordsmiths Workshop"]	{"Swordsmith's Workshop"}
+["Swordsmiths Guild"]		{"Swordsmiths' Guild"}
+["Master Swordsmith"]		{"Master Swordsmith"}
+["Metalsmith"]			{"Metalsmith"}
+["Metalsmiths Workshop"]	{"Metalsmith's Workshop"}
+["Metalsmiths Guild"]		{"Metalsmiths' Guild"}
+["Master Metalsmith"]		{"Master Metalsmith"}
+["Spearmaker"]			{"Spearmaker"}
+["Spearmakers Workshop"]	{"Spearmaker's Workshop"}
+["Spearmakers Guild"]		{"Spearmakers' Guild"}
+["Master Spearmaker"]		{"Master Spearmaker"}
+["Siege Engineer"]		{"Siege Engineer"}
+["Siege Engineers Workshop"]	{"Siege Engineer's Workshop"}
+["Siege Engineers Guild"]	{"Siege Engineers' Guild"}
+["Master Siege Engineer"]	{"Master Siege Engineer"}
+["Gunsmith"]			{"Gunsmith"}
+["Gunsmiths Workshop"]		{"Gunsmith's Workshop"}
+["Gunsmiths Guild"]		{"Gunsmiths' Guild"}
+["Master Gunsmith"]		{"Master Gunsmith"}
+["Trading Post"]		{"Trading Post"}
+["Merchant"]			{"Merchant"}
+["Merchants Guild"]		{"Merchants' Guild"}
+["Master Merchant"]		{"Master Merchant"}
+["Town Watch"]			{"Town Watch"}
+["Town Guard"]			{"Town Guard"}
+["Town Militia"]		{"Town Militia"}
+["County Militia"]		{"County Militia"}
+["Inn"]				{"Inn"}
+["Tavern"]			{"Tavern"}
+["Brothel"]			{"Brothel"}
+["Royal Palace"]		{"Royal Palace"}
+["Chancellery"]			{"Chancellery"}
+["Constables Palace"]		{"Constable's Palace"}
+["Marshals Palace"]		{"Marshal's Palace"}
+["Admiralty"]			{"Admiralty"}
+["University"]			{"University"}
+["College Of Surgeons"]		{"College Of Surgeons"}
+["Military Academy"]		{"Military Academy"}
+
+// The base income description ( not actually a building as such )..
+["Farmland"]			{"Farmland"}
+
+["Improved Farmland1"]		{"Improved Farmland +20%"}
+["Improved Farmland2"]		{"Improved Farmland +40%"}
+["Improved Farmland3"]		{"Improved Farmland +60%"}
+["Improved Farmland4"]		{"Improved Farmland +80%"}
+["Horse Farmer"]		{"Horse Farmer"}
+["Horse Breeder"]		{"Horse Breeder"}
+["Horse Breeders Guild"]	{"Horse Breeders' Guild"}
+["Master Horse Breeder"]	{"Master Horse Breeder"}
+["Royal Court"]			{"Royal Court"}
+["Royal Estate"]		{"Royal Estate"}
+["Baronial Court"]		{"Baronial Court"}
+["Baronial Estate"]		{"Baronial Estate"}
+["Church"]			{"Church"}
+["Mosque"]			{"Mosque"}
+["Monastery"]			{"Monastery"}
+["Reliquary"]			{"Reliquary"}
+["Cathedral"]			{"Cathedral"}
+["Grand Mosque"]		{"Grand Mosque"}
+["Chapter House"]		{"Chapter House"}
+["Ribat"]			{"Ribat"}
+["Watch Towers"]		{"Watch Towers"}
+["Border Fort"]			{"Border Fort"}
+["Port"]			{"Port"}
+["Shipyard1"]			{"Shipwright"}
+["Shipyard2"]			{"Dockyard"}
+["Shipyard3"]			{"Shipbuilders' Guild"}
+["Shipyard4"]			{"Master Shipbuilder"}
+["Bell Foundry"]		{"Bell Foundry"}
+["Cannon Foundry"]		{"Cannon Foundry"}
+["Master Foundry"]		{"Master Foundry"}
+["Copper Mine"]			{"Copper Mine"}
+["Copper Mine Complex"]		{"Copper Mine Complex"}
+["Silver Mine"]			{"Silver Mine"}
+["Silver Mine Complex"]		{"Silver Mine Complex"}
+["Gold Mine"]			{"Gold Mine"}
+["Gold Mine Complex"]		{"Gold Mine Complex"}
+["Salt Mine"]			{"Salt Mine"}
+["Salt Mine Complex"]		{"Salt Mine Complex"}
+
+
+@["religions_xzy"]
+@{"Pagan"}
+@{"Catholic"}
+@{"Orthodox"}
+@{"Islamic"}
+@{"Jewish"}
+@{"Heretic"}
+
+											
+["Amir_String"]
+{"Amir"}
+
+["Duke_String"]
+{"Duke"}
+
+
+["Amir_of_String"]
+{"Amir of %s"}
+
+["Duke_of_String"]
+{"Duke of %s"}
+
+											
+//OFFICE NAMES
+//============
+
+["Title Chamberlain Title"]
+{"Chamberlain"}
+
+["Title Lord High Constable"]
+{"Lord High Constable"}
+
+["Title Marshal"]
+{"Marshal"}
+
+["Title Lord Chancellor"]
+{"Lord Chancellor"}
+
+["Title Admiral"]
+{"Admiral"}
+		  													
+["Title Archbishop"]
+{"Archbishop"}
+
+["Title King"]
+{"King"}
+
+["Title Grand Duke"]
+{"Grand Duke"}
+
+["Title Margrave"]
+{"Margrave"}
+
+["Title Count"]
+{"Count"}
+
+["Title Prince"]
+{"Prince"}
+
+["Title Grand Prince"]
+{"Grand Prince"}
+
+["Title Landgrave"]
+{"Landgrave"}
+
+["Title Viscount"]
+{"Viscount"}
+
+["Title Elector"]
+{"Elector"}
+
+["Title Earl"]
+{"Earl"}
+
+["Title Baron"]
+{"Baron"}
+
+["Title Marquis"]
+{"Marquis"}
+
+
+
+["Qadi al-Quda"]						{"Qadi al-Quda"}
+["Master of the Kalifah's Horses"]		{"Master of the Kalifah's Horses"}
+["Vizier of the Army"]					{"Vizier of the Army"}
+["Grand Vizier"]						{"Grand Vizier"}
+["Amir al-Bahr"]						{"Amir al-Bahr"}
+["Archbishop of Cordoba"]				{"Archbishop of Cordoba"}
+
+["Chamberlain of the Palace"]			{"Chamberlain of the Palace"}
+["Commander of the Stables"]			{"Commander of the Stables"}
+["Commander of the Army"]				{"Commander of the Army"}
+["Chancellor of the Palace"]			{"Chancellor of the Palace"}
+["Commander of the Fleet"]				{"Commander of the Fleet"}
+["Patriarch of Constantinople"]			{"Patriarch of Constantinople"}
+
+
+["Master of the Stables"]				{"Master of the Stables"}
+["Commander of a Thousand"]				{"Commander of a Thousand"}
+["Grand Vizier of the Palace"]			{"Grand Vizier of the Palace"}
+["Archbishop of Cairo"]					{"Archbishop of Cairo"}
+
+["Lord Great Chamberlain"]				{"Lord Great Chamberlain"}
+["Constable of the Tower"]				{"Constable of the Tower"}
+["Warden of the Northern Marches"]		{"Warden of the Northern Marches"}
+["Chancellor of the Exchequer"]			{"Chancellor of the Exchequer"}
+["Warden of the Cinque Ports"]			{"Warden of the Cinque Ports"}
+["Archbishop of Canterbury"]			{"Archbishop of Canterbury"}
+
+["Grand Chamberlain"]					{"Grand Chamberlain"}
+["Constable of France"]					{"Constable of France"}
+["Marshal of France"]					{"Marshal of France"}
+["Chancellor"]							{"Chancellor"}
+["Admiral of France"]					{"Admiral of France"}
+["Archbishop of Reims"]					{"Archbishop of Reims"}
+
+["Imperial Chamberlain"]				{"Imperial Chamberlain"}
+["Grand Constable of the Empire"]		{"Grand Constable of the Empire"}
+["Grand Marshal of the Empire"]			{"Grand Marshal of the Empire"}
+["Imperial Chancellor"]					{"Imperial Chancellor"}
+["Grand Admiral of the Fleet"]			{"Grand Admiral of the Fleet"}
+["Archbishop of Worms"]					{"Archbishop of Worms"}
+
+["Chamberlain of the Major Council"]	{"Chamberlain of the Major Council"}
+["Constable of the Army"]				{"Constable of the Army"}
+["Captain-General of Mercenaries"]		{"Captain-General of Mercenaries"}
+["Chancellor of the Major Council"]		{"Chancellor of the Major Council"}
+["Admiral of the Arsenale"]				{"Admiral of the Arsenale"}
+["Archbishop of Milan"]					{"Archbishop of Milan"}
+
+["Chamberlain of Poland"]				{"Chamberlain of Poland"}
+["Master of the King's Horse"]			{"Master of the King's Horse"}
+["Grand Marshal of Poland"]				{"Grand Marshal of Poland"}
+["High Chancellor of Poland"]			{"High Chancellor of Poland"}
+["Archbishop of Krakow"]				{"Archbishop of Kraków"}
+
+["Lord Chamberlain"]					{"Lord Chamberlain"}
+["Captain of the Stables"]				{"Captain of the Stables"}
+["Captain-General"]						{"Captain-General"}
+["Keeper of the Privy Seal"]			{"Keeper of the Privy Seal"}
+["Lord High Admiral"]					{"Lord High Admiral"}
+["Archbishop of Toledo"]				{"Archbishop of Toledo"}
+
+["Chief Eunuch"]						{"Chief Eunuch"}
+["Master of the Sultan's Horse"]		{"Master of the Sultan's Horse"}
+["General of the Divan"]				{"General of the Divan"}
+["Admiral of the Fleet"]				{"Admiral of the Fleet"}
+["Patriarch of Edessa"]					{"Patriarch of Edessa"}
+
+["Earl Chamberlain of Denmark"]			{"Earl Chamberlain of Denmark"}
+["Earl Marshal of Denmark"]				{"Earl Marshal of Denmark"}
+["Chancellor of Denmark"]				{"Chancellor of Denmark"}
+["Admiral of the North"]				{"Admiral of the North"}
+["Archbishop of Lund"]					{"Archbishop of Lund"}
+
+["Chamberlain of the Great Palace"]		{"Chamberlain of the Great Palace"}
+["Grand Warder of the Kremlin"]			{"Grand Warder of the Kremlin"}
+["Grand Marshal"]						{"Grand Marshal"}
+["Chancellor Of All The Russias"]		{"Chancellor Of All The Russias"}
+["Metropolitan of Moscow"]				{"Metropolitan of Moscow"}
+
+["Chamberlain of Burgundy"]				{"Chamberlain of Burgundy"}
+["Constable of Burgundy"]				{"Constable of Burgundy"}
+["Marshal of Burgundy"]					{"Marshal of Burgundy"}
+["Chancellor of Burgundy"]				{"Chancellor of Burgundy"}
+["Admiral of Burgundy"]					{"Admiral of Burgundy"}
+
+
+["Chamberlain of the Cantons"]			{"Chamberlain of the Cantons"}
+["Constable of the Cantons"]			{"Constable of the Cantons"}
+["Marshal of the Cantons"]				{"Marshal of the Cantons"}
+["Chancellor of the Cantons"]			{"Chancellor of the Cantons"}
+["Admiral of the Cantons"]				{"Admiral of the Cantons"}
+["Archbishop of Geneva"]				{"Archbishop of Geneva"}
+
+
+
+@["tradable_goods_names"]
+@{"Glassware"}
+@{"Wood"}
+@{"Furs"}
+@{"Wine"}
+@{"Wool"}
+@{"Silk"}
+@{"Cotton"}
+@{"Linen"}
+@{"Wax"}
+@{"Honey"}
+@{"Salt"}
+@{"Hides"}
+@{"Butter"}
+@{"Pottery"}
+@{"Saltfish"}
+@{"Spices"}
+@{"Gems"}
+@{"Sugar"}
+@{"Dyes"}
+@{"Ivory"}
+@{"Oliveoil"}
+@{"Grain"}
+
+@["resource_names"]
+@{"Copper"} 
+@{"Gold"} 
+@{"Silver"} 
+@{"Iron"} 
+@{"Forest"} 
+@{"Salt"}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+// New unit names..
+
+["ArabInfantry_Singular"]			{"Arab Infantryman"}
+["ArabInfantry_Plural"]				{"Arab Infantry"}
+						  
+["ArmouredSpearmen_Singular"]		{"Armoured Spearman"}
+["ArmouredSpearmen_Plural"]			{"Armoured Spearmen"}
+						  			
+["AvarNobles_Singular"]				{"Avar Nobleman"}
+["AvarNobles_Plural"]				{"Avar Nobles"}
+									
+["Berserkers_Singular"]				{"Berserker"}
+["Berserkers_Plural"]				{"Berserkers"}
+									
+["ByzantineLancers_Singular"]		{"Byzantine Lancer"}
+["ByzantineLancers_Plural"]			{"Byzantine Lancers"}
+									
+["CelticWarriors_Singular"]			{"Celtic Warrior"}
+["CelticWarriors_Plural"]			{"Celtic Warriors"}
+
+["DarkAgeKnights_Singular"]			{"Mounted Noble"}
+["DarkAgeKnights_Plural"]			{"Mounted Nobles"}
+
+["DarkAgeRoyalKnights_Singular"]	{"Royal Bodyguard"}
+["DarkAgeRoyalKnights_Plural"]		{"Royal Bodyguards"}
+
+["DismountedFaris_Singular"]		{"Dismounted Faris"}
+["DismountedFaris_Plural"]			{"Dismounted Faris"}
+
+["DruzhinaCavalry_Singular"]		{"Druzhina Cavalryman"}
+["DruzhinaCavalry_Plural"]			{"Druzhina Cavalry"}
+
+["EarlyFootKnights_Singular"]		{"Dismounted Noble"}
+["EarlyFootKnights_Plural"]			{"Dismounted Nobles"}
+
+["EarlyRoyalFootKnights_Singular"]	{"Royal Bodyguard"}
+["EarlyRoyalFootKnights_Plural"]	{"Royal Bodyguard"}
+
+["EarlyVarangianGuard_Singular"]	{"Varangian Guard"}
+["EarlyVarangianGuard_Plural"]		{"Varangian Guards"}
+
+["Faris_Singular"]					{"Faris"}
+["Faris_Plural"]					{"Faris"}
+
+["Fyrdmen_Singular"]				{"Fyrdman"}
+["Fyrdmen_Plural"]					{"Fyrdmen"}
+
+["Jobbagy_Singular"]				{"Jobbagy"}
+["Jobbagy_Plural"]					{"Jobbagy"}
+
+["KhazarRoyalCavalry_Singular"]		{"Khazar Royal Cavalry"}
+["KhazarRoyalCavalry_Plural"]		{"Khazar Royal Cavalryman"}
+
+["MediumCavalry_Singular"]			{"Horseman"}
+["MediumCavalry_Plural"]			{"Horsemen"}
+
+["OrganCrew_Singular"]				{"Organ Gun Crewman"}
+["OrganCrew_Plural"]				{"Organ Gun Crew"}
+
+["PictishCavalry_Singular"]			{"Pictish Cavalryman"}
+["PictishCavalry_Plural"]			{"Pictish Cavalry"}
+
+["RoundShieldSpearmen_Singular"]	{"Spearman"}
+["RoundShieldSpearmen_Plural"]		{"Spearmen"}
+
+["RusSpearmen_Singular"]			{"Rus Spearman"}
+["RusSpearmen_Plural"]				{"Rus Spearmen"}
+
+["SaxonHuscarles_Singular"]			{"Saxon Huscarles"}
+["SaxonHuscarles_Plural"]			{"Saxon Huscarles"}
+
+["SherwoodForesters_Singular"]		{"Sherwood Forester"}
+["SherwoodForesters_Plural"]		{"Sherwood Foresters"}
+
+["SlavJavelinmen_Singular"]			{"Slav Javelinman"}
+["SlavJavelinmen_Plural"]			{"Slav Javelinmen"}
+
+["SlavWarriors_Singular"]			{"Slav Warrior"}
+["SlavWarriors_Plural"]				{"Slav Warriors"}
+
+["SpanishJavelinmen_Singular"]		{"Spanish Javelinman"}
+["SpanishJavelinmen_Plural"]		{"Spanish Javelinmen"}
+
+["SteppeHeavyCavalry_Singular"]		{"Steppe Heavy Cavalryman"}
+["SteppeHeavyCavalry_Plural"]		{"Steppe Heavy Cavalry"}
+
+["SwabianSwordsmen_Singular"]		{"Swabian Swordsman"}
+["SwabianSwordsmen_Plural"]			{"Swabian Swordsmen"}
+
+["Szekely_Singular"]				{"Szekely"}
+["Szekely_Plural"]					{"Szekely"}
+
+["VikingHuscarles_Singular"]		{"Viking Huscarle"}
+["VikingHuscarles_Plural"]			{"Viking Huscarles"}
+
+["VikingKarls_Singular"]			{"Viking Carl"}
+["VikingKarls_Plural"]				{"Viking Carls"}
+
+["VikingLandsmenn_Singular"]		{"Viking Landsmann"}
+["VikingLandsmenn_Plural"]			{"Viking Landsmenn"}
+
+["VikingRaiderCavalry_Singular"]	{"Viking Raider Cavalryman"}
+["VikingRaiderCavalry_Plural"]		{"Viking Raider Cavalry"}
+
+["VikingThralls_Singular"]			{"Viking Thrall"}
+["VikingThralls_Plural"]			{"Viking Thralls"}
+
+["JomsVikings_Singular"]			{"Joms Viking"}
+["JomsVikings_Plural"]				{"Joms Vikings"}
+
+["PictishMountedCrossbows_Singular"] {"Pictish Mounted Crossbowman"}
+["PictishMountedCrossbows_Plural"]	 {"Pictish Mounted Crossbowmen"}
+
+["PictishCrossbows_Singular"]		{"Pictish Crossbowman"}
+["PictishCrossbows_Plural"]			{"Pictish Crossbowmen"}
+
+["Bonnachts_Singular"]				{"Bonnacht"}
+["Bonnachts_Plural"]				{"Bonnachts"}
+
+["IrishDartmen_Singular"]			{"Irish Dartman"}
+["IrishDartmen_Plural"]				{"Irish Dartmen"}
+
+["WelshBandits_Singular"]			{"Welsh Bandit"}
+["WelshBandits_Plural"]				{"Welsh Bandits"}
+
+["Drakkar_Singular"]				{"Drakkar"}
+["Drakkar_Plural"]					{"Drakkars"}
+["Snekkja_Singular"]				{"Snekkja"}
+["Snekkja_Plural"]					{"Snekkjas"}
+["Jarnbardi_Singular"]				{"Jarnbardi"}
+["Jarnbardi_Plural"]				{"Jarnbardis"}
+["Curragh_Singular"]				{"Curragh"}
+["Curragh_Plural"]					{"Curraghs"}
+["Boat_Singular"]					{"Boat"}
+["Boat_Plural"]						{"Boats"}
+["Longboat2_Singular"]					{"Longboat"}
+["Longboat2_Plural"]						{"Longboats"}
+
+
+
+
+// New Buildings
+
+["Warrior Hold"]
+{"Warrior Hold"}
+
+["Stockade"]
+{"Stockade"}
+
+["Fortified Village"]
+{"Fortified Village"}
+
+["Muster Field"]
+{"Muster Field"}
+											
+["Butts"]
+{"Butts"}											
+											
+["Trader"]
+{"Trader"}											
+											
+["Drinking Hall"]
+{"Drinking Hall"}
+
+["Mead Hall"]
+{"Mead Hall"}
+											
+["Forest Clearing"]
+{"Forest Clearing"}
+
+["Enclosed Pastures"]
+{"Enclosed Pastures"}
+
+["Christian Shrine"]
+{"Christian Shrine"}
+
+["Catholic Chapel"]
+{"Catholic Chapel"}
+
+["Boat Builder"]
+{"Boat Builder"}
+["Slipway"]
+{"Slipway"}
+
+["Stables"]
+{"Stables"}
+
+["Blacksmith"]
+{"Blacksmith"}
+
+["Master Blacksmith"]
+{"Master Blacksmith"}
+
+["Brothel1"]	   	{"Brothel"}			
+["Brothel2"]	   	{"Stew"}			//  - use any appropriate medieval term for brothels for these 4
+["Brothel3"]	   	{"Bawdyhouse"}		// ideally getting bigger or more upmarket as they go from 1 to 4
+["Brothel4"]	   	{"Cunny-warren"}	
+
+["Tavern1"]			{"Tavern"}			
+["Tavern2"]			{"Alehouse"}		// - any apprpriate medieval terms for taverns will do
+["Tavern3"]			{"Drinking Den"}	// ideally getting bigger or more upmarket as they go from 1 to 4
+["Tavern4"]			{"Rookery"}			
+
+["Viking Port"]		
+{"Port"}
+["Viking Inn"]		
+{"Inn"}
+["Abbey"]		
+{"Abbey"}
+
+// New names for the Viking campaign
+
+// Some of these are already in the original game, but if so they are repeated here with a v in the label 
+
+// Forenames
+
+// Irish    No 1
+["v_Donchad"]	{"Donchad"}
+["v_Flann"]		{"Flann"}
+
+["v_Donal"]		{"Donal"}
+["v_Niall"]		{"Niall"}
+["v_Brian"]		{"Brian"}
+["v_Dermot"]		{"Dermot"}
+
+["v_Fergus"]		{"Fergus"}
+["v_Oengus"]		{"Oengus"}
+["v_Finn"]		{"Finn"}
+["v_Adarc"]		{"Adarc"}
+["v_Aillil"]		{"Aillil"}
+["v_Aindle"]		{"Aindle"}
+["v_Amorgen"]		{"Amorgen"}
+["v_Bran"]		{"Bran"}
+["v_Brea"]		{"Brea"}
+["v_Brenainn"]		{"Brenainn"}
+["v_Bron"]		{"Bron"}
+["v_Cailte"]		{"Cailte"}
+["v_Cathbhadh"]		{"Cathbhadh"}
+["v_Ceithern"]		{"Ceithern"}
+["v_Conare"]		{"Conare"}
+["v_Conmac"]		{"Conmac"}
+["v_Conn"]		{"Conn"}
+["v_Connall"]		{"Connall"}
+["v_Cormac"]	{"Cormac"}
+["v_Dall"]		{"Dall"}
+["v_Diarmaid"]		{"Diarmaid"}
+["v_Donall"]		{"Donall"}
+["v_Echu"]		{"Echu"}
+["v_Eibhear"]		{"Eibhear"}
+["v_Eogan"]		{"Eogan"}
+["v_Erc"]		{"Erc"}
+["v_Fearghal"]		{"Fearghal"}
+["v_Ferdia"]		{"Ferdia"}
+["v_Find"]		{"Find"}
+["v_Findtan"]		{"Findtan"}
+["v_Froech"]		{"Froech"}
+["v_Illand"]		{"Illand"}
+["v_Inloth"]		{"Inloth"}
+["v_Loeg"]		{"Loeg"}
+["v_Lughaid"]		{"Lughaid"}
+["v_Mal"]			{"Mal"}
+["v_Mane"]			{"Mane"}
+["v_Maelmora"]		{"Maelmora"}
+["v_Noisiu"]		{"Noisiu"}
+["v_Rochad"]		{"Rochad"}
+["v_Sedlang"]		{"Sedlang"}
+["v_Senchae"]		{"Senchae"}
+["v_Tadg"]			{"Tadg"}
+["v_Tadhg"]			{"Tadhg"}
+["v_Tindell"]		{"Tindell"}
+["v_Triath"]		{"Triath"}
+["v_Mahon"]			{"Mahon"}
+["v_Donovan"]		{"Donovan"}
+["v_Donnchad"]		{"Donnchad"}
+["v_Maelmaud"]		{"Maelmaud"}
+    
+// Mercians      No 2
+// Northumbrians 
+// Saxons
+
+["v_Aethelwald"]	{"Aethelwald"}
+
+["v_Aelfstan"]		{"Aelfstan"}
+["v_Aelfhere"]		{"Aelfhere"}
+["v_Aetheric"]		{"Aetheric"}
+["v_Aethelmund"]	{"Aethelmund"}
+["v_Aethelwulf"]	{"Aethelwulf"}
+["v_Cuthluf"]		{"Cuthluf"}
+["v_Ealhhelm"]		{"Ealhhelm"}
+["v_Eadric"]		{"Eadric"}
+
+
+["v_Eanbehrt"]		{"Eanbehrt"}
+["v_Swithnoth"]		{"Swithnoth"}
+["v_Aeflheah"]		{"Aeflheah"}
+["v_Forthred"]		{"Forthred"}
+["v_Wulferd"]		{"Wulferd"}
+["v_Wulflaf"]		{"Wulflaf"}
+["v_Wulfgar"]		{"Wulfgar"}
+
+["v_Eadulf"]		{"Eadulf"}
+["v_Eadwulf"]		{"Eadwulf"}
+["v_Eardwulf"]		{"Eardwulf"}
+["v_Eanwulf"]		{"Eanwulf"}
+["v_Elfwald"]		{"Elfwald"}
+["v_Eanred"]		{"Eanred"}
+["v_Redwulf"]		{"Redwulf"}
+["v_Osbert"]		{"Osbert"}
+
+["v_Æthelbert"]		{"Æthelbert"}
+["v_Æthelred"]		{"Æthelred"}
+["v_Ætheric"]		{"Ætheric"}
+["v_Alfred"]		{"Alfred"}
+["v_Edmund"]		{"Edmund"}
+["v_Edward"]		{"Edward"}
+["v_Harold"]		{"Harold"}
+["v_Egbert"]		{"Egbert"}
+
+
+["v_Ælfstan"]		{"Ælfstan"}
+["v_Ælfweard"]		{"Ælfweard"}
+["v_Æthelstan"]		{"Æthelstan"}
+["v_Æthelwald"]		{"Æthelwald"}
+["v_Æthelwulf"]		{"Æthelwulf"}
+["v_Badanoth"]		{"Badanoth"}
+["v_Behrtric"]		{"Behrtric"}
+["v_Beofroth"]		{"Beofroth"}
+["v_Beomund"]		{"Beomund"}
+["v_Brihtric"]		{"Brihtric"}
+["v_Cadwalla"]		{"Cadwalla"}
+["v_Cenwulf"]		{"Cenwulf"}
+["v_Coelwine"]		{"Coelwine"}
+["v_Coeldred"]		{"Coeldred"}
+["v_Cuthbert"]		{"Cuthbert"}
+["v_Cuthred"]		{"Cuthred"}
+["v_Cynewulf"]		{"Cynewulf"}
+["v_Dryhtwald"]		{"Dryhtwald"}
+["v_Dunstan"]		{"Dunstan"}
+["v_Eadgils"]		{"Eadgils"}
+["v_Eadwald"]		{"Eadwald"}
+["v_Ealdred"]		{"Ealdred"}
+["v_Ealhhere"]		{"Ealhhere"}
+["v_Ecgfrith"]		{"Ecgfrith"}
+["v_Edred"]		{"Edred"}
+["v_Edwin"]		{"Edwin"}
+["v_Edwyg"]		{"Edwyg"}
+["v_Egstane"]		{"Egstane"}
+["v_Elfward"]		{"Elfward"}
+["v_Eorpwald"]		{"Eorpwald"}
+["v_Ethelheard"]		{"Ethelheard"}
+["v_Godrum"]		{"Godrum"}
+["v_Godwin"]		{"Godwin"}
+["v_Guthrum"]		{"Guthrum"}
+["v_Harmund"]		{"Harmund"}
+["v_Leofgar"]		{"Leofgar"}
+["v_Leomund"]		{"Leomund"}
+["v_Lulla"]			{"Lulla"}
+["v_Osgyth"]		{"Osgyth"}
+["v_Osmund"]		{"Osmund"}
+["v_Oswulf"]		{"Oswulf"}
+["v_Osulf"]			{"Osulf"}
+["v_Redwald"]		{"Redwald"}
+["v_Sigebert"]		{"Sigebert"}
+["v_Sigemund"]		{"Sigemund"}
+["v_Sihtric"]		{"Sihtric"}
+["v_Tathwold"]		{"Tathwold"}
+["v_Tostig"]		{"Tostig"}
+["v_Uhtred"]		{"Uhtred"}
+["v_Ulfhere"]		{"Ulfhere"}
+["v_Waldred"]		{"Waldred"}
+["v_Wihtric"]		{"Wihtric"}
+["v_Waldfrith"]		{"Waldfrith"}
+["v_Wigferth"]		{"Wigferth"}
+["v_Wulfnoth"]		{"Wulfnoth"}
+["v_Wulfheard"]		{"Wulfheard"}
+["v_Wulfsige"]		{"Wulfsige"}
+["v_Wulfstan"]		{"Wulfstan"}
+["v_Wistan"]		{"Wistan"}
+
+// Picts	No 3 
+             
+["v_Alpin"]		{"Alpin"}
+["v_Brude"]		{"Brude"}
+["v_Drust"]		{"Drust"}
+["v_Breth"]		{"Breth"}
+["v_Talorc"]		{"Talorc"}
+["v_Uurad"]		{"Uurad"}
+
+["v_Allcallorred"]		{"Allcallorred"}
+["v_Broichan"]		{"Broichan"}
+["v_Caltram"]		{"Caltram"}
+["v_Carvorst"]		{"Carvorst"}
+["v_Cimoiod"]		{"Cimoiod"}
+["v_Ciniath"]		{"Ciniath"}
+["v_Ciniod"]		{"Ciniod"}
+["v_Castantin"]		{"Castantin"}
+["v_Denbecan"]		{"Denbecan"}
+["v_Deocilunon"]		{"Deocilunon"}
+["v_Deort"]		{"Deort"}
+["v_Domelch"]		{"Domelch"}
+["v_Drosten"]		{"Drosten"}
+["v_Eddarrnonn"]		{"Eddarrnonn"}
+["v_Forcus"]		{"Forcus"}
+["v_Galam"]		{"Galam"}
+["v_Gartnait"]		{"Gartnait"}
+["v_Gede"]		{"Gede"}
+["v_Gest"]		{"Gest"}
+["v_Irb"]		{"Irb"}
+["v_Lutrin"]		{"Lutrin"}
+["v_Maelchon"]		{"Maelchon"}
+["v_Morleo"]		{"Morleo"}
+["v_Nechtan"]		{"Nechtan"}
+["v_Taran"]		{"Taran"}
+["v_Tharain"]		{"Tharain"}
+["v_Uid"]		{"Uid"}
+["v_Uist"]		{"Uist"}
+["v_Uoret"]		{"Uoret"}
+["v_Uvan"]		{"Uvan"}
+
+// Scots        No 4 
+
+
+["v_Angus"]		{"Angus"}
+["v_Artgal"]	{"Artgal"}
+["v_Kenneth"]		{"Kenneth"}
+["v_Donald"]		{"Donald"}
+["v_Malcolm"]		{"Malcolm"}
+["v_Duncan"]		{"Duncan"}
+["v_Macbeth"]		{"Macbeth"}
+["v_Colin"]		{"Colin"}
+["v_Crinan"]		{"Crinan"}
+["v_Aedh"]		{"Aedh"}
+["v_Alexander"]		{"Alexander"}
+["v_Alistair"]		{"Alistair"}
+["v_Blair"]		{"Blair"}
+["v_Bryce"]		{"Bryce"}
+["v_Callum"]		{"Callum"}
+["v_Cameron"]		{"Cameron"}
+["v_Cellach"]		{"Cellach"}
+["v_Conall"]		{"Conall"}
+["v_Constantine"]		{"Constantine"}
+["v_Cuilian"]		{"Cuilian"}
+["v_Cynan"]			{"Cynan"}
+["v_David"]		{"David"}
+["v_Domnall"]		{"Domnall"}
+["v_Donndorc"]		{"Donndorc"}
+["v_Douglas"]		{"Douglas"}
+["v_Dub"]			{"Dub"}
+["v_Dubh"]		{"Dubh"}
+["v_Duff"]		{"Duff"}
+["v_Dungall"]		{"Dungall"}
+["v_Edgar"]		{"Edgar"}
+["v_Eocha"]		{"Eocha"}
+["v_Eochu"]		{"Eochu"}
+["v_Eoganan"]		{"Eoganan"}
+["v_Eoghain"]		{"Eoghain"}
+["v_Findleach"]		{"Findleach"}
+["v_Fraser"]		{"Fraser"}
+["v_Giric"]			{"Giric"}
+["v_Girig"]		{"Girig"}
+["v_Indulf"]		{"Indulf"}
+["v_James"]		{"James"}
+["v_Keith"]		{"Keith"}
+["v_Olav"]		{"Olav"}
+["v_Lulach"]		{"Lulach"}
+["v_Madoch"]		{"Madoch"}
+["v_Maelmuir"]		{"Maelmuir"}
+["v_Maldred"]		{"Maldred"}
+["v_Malsnechtai"]		{"Malsnechtai"}
+["v_Murray"]		{"Murray"}
+["v_Ronald"]		{"Ronald"}
+["v_Ross"]		{"Ross"}
+["v_Rudderch"]	{"Rudderch"}
+["v_Run"]		{"Run"}
+
+// Vikings      No 5
+
+["v_Ragnar"]		{"Ragnar"}
+["v_Harald"]		{"Harald"}
+["v_Cnut"]		{"Cnut"}
+["v_Sven"]		{"Sven"}
+["v_Erik"]		{"Erik"}
+["v_Olaf"]		{"Olaf"}
+["v_Sigurd"]		{"Sigurd"}
+["v_Magnus"]		{"Magnus"}
+
+["v_Leofric"]		{"Leofric"}
+["v_Alfgeir"]		{"Alfgeir"}
+["v_Arinbjorn"]		{"Arinbjorn"}
+["v_Arnald"]		{"Arnald"}
+["v_Asbjorn"]		{"Asbjorn"}
+["v_Bjarni"]		{"Bjarni"}
+["v_Bjorn"]		{"Bjorn"}
+["v_Brynjolf"]		{"Brynjolf"}
+["v_Egil"]		{"Egil"}
+["v_Einar"]		{"Einar"}
+["v_Eirik"]		{"Eirik"}
+["v_Floki"]		{"Floki"}
+["v_Fridgeir"]		{"Fridgeir"}
+["v_Gardar"]		{"Gardar"}
+["v_Gorm"]		{"Gorm"}
+["v_Grettir"]		{"Grettir"}
+["v_Grim"]		{"Grim"}
+["v_Gudmund"]		{"Gudmund"}
+["v_Gunnar"]		{"Gunnar"}
+["v_Gunnbjorn"]		{"Gunnbjorn"}
+["v_Hakon"]		{"Hakon"}
+["v_Halfdan"]		{"Halfdan"}
+["v_Hastein"]		{"Hastein"}
+["v_Hrafn"]		{"Hrafn"}
+["v_Hroald"]		{"Hroald"}
+["v_Ingolf"]		{"Ingolf"}
+["v_Jon"]		{"Jon"}
+["v_Ketil"]		{"Ketil"}
+["v_Knut"]		{"Knut"}
+["v_Leif"]		{"Leif"}
+["v_Nadd-Odd"]	{"Nadd-Odd"}
+["v_Njal"]		{"Njal"}
+["v_Odd"]		{"Odd"}
+["v_Rognvald"]		{"Rognvald"}
+["v_Runolf"]		{"Runolf"}
+["v_Sigmund"]		{"Sigmund"}
+["v_Sigtrygg"]		{"Sigtrygg"}
+["v_Snorri"]		{"Snorri"}
+["v_Steinar"]		{"Steinar"}
+["v_Thorbjorn"]		{"Thorbjorn"}
+["v_Thorfinn"]		{"Thorfinn"}
+["v_Thorgeir"]		{"Thorgeir"}
+["v_Thorgrim"]		{"Thorgrim"}
+["v_Thorkel"]		{"Thorkel"}
+["v_Thorvald"]		{"Thorvald"}
+["v_Tryggvi"]		{"Tryggvi"}
+["v_Turgeis"]		{"Turgeis"}
+["v_Ulf"]		{"Ulf"}
+["v_Yngvar"]		{"Yngvar"}
+
+// Welsh   No 6
+["v_Caradoc"]		{"Caradoc"}
+["v_Rhodri"]		{"Rhodri"}
+["v_Howel"]		{"Howel"}
+["v_Griffith"]		{"Griffith"}
+["v_Conan"]		{"Conan"}
+["v_Idwal"]		{"Idwal"}
+["v_Cadwallon"]		{"Cadwallon"}
+["v_Mervyn"]		{"Mervyn"}
+
+["v_Madog"]		{"Madog"}
+
+["v_Einion"]		{"Einion"}
+["v_Iorwerth"]		{"Iorwerth"}
+["v_Adam"]		{"Adam"}
+["v_Ieuan"]		{"Ieuan"}
+["v_Gronw"]		{"Gronw"}
+["v_Ithel"]		{"Ithel"}
+["v_Gwyn"]		{"Gwyn"}
+["v_Cynwrig"]		{"Cynwrig"}
+["v_Cadwgan"]		{"Cadwgan"}
+["v_Philip"]		{"Philip"}
+["v_Rhiryd"]		{"Rhiryd"}
+["v_Gruffydd"]		{"Gruffydd"}
+["v_Tegwared"]		{"Tegwared"}
+["v_Meilyr"]		{"Meilyr"}
+["v_Ednyfed"]		{"Ednyfed"}
+["v_Gwrgenau"]		{"Gwrgenau"}
+["v_Llywelyn"]		{"Llywelyn"}
+["v_Gwion"]		{"Gwion"}
+["v_Hywel"]		{"Hywel"}
+["v_Tuder"]		{"Tuder"}
+["v_Heilyn"]		{"Heilyn"}
+["v_Cynddelw"]		{"Cynddelw"}
+["v_Madyn"]		{"Madyn"}
+["v_Meurig"]		{"Meurig"}
+["v_Llywarch"]		{"Llywarch"}
+["v_William"]		{"William"}
+["v_Griffri"]		{"Griffri"}
+["v_Ednowain"]		{"Ednowain"}
+["v_Moriddig"]		{"Moriddig"}
+["v_Cydifor"]		{"Cydifor"}
+["v_Iago"]		{"Iago"}
+["v_Iocyn"]		{"Iocyn"}
+["v_John"]		{"John"}
+["v_Rhys"]		{"Rhys"}
+["v_Bleddyn"]		{"Bleddyn"}
+["v_Cyfnerth"]		{"Cyfnerth"}
+["v_Maredudd"]		{"Maredudd"}
+["v_Thomas"]		{"Thomas"}
+["v_Ieuaf"]		{"Ieuaf"}
+["v_Ifor"]		{"Ifor"}
+["v_Morfran"]		{"Morfran"}
+["v_Seisyll"]		{"Seisyll"}
+["v_Deheuwynt"]		{"Deheuwynt"}
+["v_Gwasdewi"]		{"Gwasdewi"}
+["v_Llygad"]		{"Llygad"}
+["v_Robert"]		{"Robert"}
+
+
+
+// Surnames
+
+// Irish       No 1
+
+["v_Mac Art"]		{"Mac Art"}
+["v_Mac Bran"]		{"Mac Bran"}
+["v_O Brennain"]		{"O Brennain"}
+["v_O Brian"]		{"O Brian"}
+["v_O Conall"]		{"O Conall"}
+["v_O Conare"]		{"O Conare"}
+["v_Mac Cormac"]		{"Mac Cormac"}
+["v_Mac Diarmaid"]		{"Mac Diarmaid"}
+["v_O Donall"]		{"O Donall"}
+["v_Muredach"]		{"Muredach"}
+["v_O Niall"]		{"O Niall"}
+["v_The Handsome"]		{"The Handsome"}
+["v_Of the Showers"]		{"Of the Showers"}
+["v_Of the Nine Hostages"]		{"Of the Nine Hostages"}
+["v_The Dignified"]		{"The Dignified"}
+["v_The White-Grey"]		{"The White-Grey"}
+["v_Black-Knee"]		{"Black-Knee"}
+["v_The Impetuous"]		{"The Impetuous"}
+["v_The Freckled"]		{"The Freckled"}
+["v_The Bald"]		{"The Bald"}
+["v_The Hound"]		{"The Hound"}
+["v_Dearth (the Red)"]		{"Dearth (the Red)"}
+["v_Dubh (the Black)"]		{"Dubh (the Black)"}
+["v_The Fair"]		{"The Fair"}
+["v_The Rowdy"]		{"The Rowdy"}
+["v_The Carefree"]		{"The Carefree"}
+["v_The Broad"]		{"The Broad"}
+["v_The Swift"]		{"The Swift"}
+["v_The Grey"]		{"The Grey"}
+["v_The Dark"]		{"The Dark"}
+["v_Sechnaill"]		{"Sechnaill"}
+["v_Sinna"]			{"Sinna"}
+["v_MacCullenan"]		{"MacCullenan"}
+ 
+// Mercians		- No surnames     
+// Northumbrians - No surnames
+// Picts         - No surnames
+
+// Saxons No 2
+
+["v_Aegen"]		{"Aegen"}
+["v_Aldred"]		{"Aldred"}
+["v_Atheling"]		{"Atheling"}
+["v_Baldwin"]		{"Baldwin"}
+["v_Cadwalader"]		{"Cadwalader"}
+["v_Coxon"]		{"Coxon"}
+["v_Cuthbertson"]		{"Cuthbertson"}
+["v_Eadred"]		{"Eadred"}
+["v_Edmundson"]		{"Edmundson"}
+["v_Egbertson"]		{"Egbertson"}
+
+["v_Hunt"]		{"Hunt"}
+["v_Finnes"]		{"Finnes"}
+["v_Godwinson"]		{"Godwinson"}
+["v_Goodwin"]		{"Goodwin"}
+["v_Oswald"]		{"Oswald"}
+["v_Sexton"]		{"Sexton"}
+["v_Sibitt"]		{"Sibitt"}
+["v_Waldren"]		{"Waldren"}
+["v_Wode"]		{"Wode"}
+["v_The Confessor"]		{"The Confessor"}
+["v_The Homilist"]		{"The Homilist"}
+["v_Ironside"]		{"Ironside"}
+["v_The Unready"]		{"The Unready"}
+["v_of Bernicia"]		{"of Bernicia"}
+["v_Eadulfing"]		{"Eadulfing"}
+["v_Eadulfson"]		{"Eadulfson"}
+["v_Cudel"]			{"Cudel"}
+        
+// Scots  No 3
+["v_of Alba"]		{"of Alba"}
+["v_fitzDuncan"]		{"fitzDuncan"}
+["v_MacAed"]		{"MacAed"}
+["v_MacAlpin"]		{"MacAlpin"}
+["v_Macarthgail"]		{"Macarthgail"}
+["v_MacDonald"]		{"MacDonald"}
+["v_MacDuff"]		{"MacDuff"}
+["v_MacDungal"]		{"MacDungal"}
+["v_MacEoghain"]		{"MacEoghain"}
+["v_MacMalcolm"]		{"MacMalcolm"}
+["v_Macrory"]		{"Macrory"}
+["v_Stewart"]		{"Stewart"}
+["v_Arthyn"]		{"Arthyn"}
+["v_Bell"]		{"Bell"}
+["v_Besat"]		{"Besat"}
+["v_the Boroundoun"]		{"the Boroundoun"}
+["v_Boyd"]		{"Boyd"}
+["v_Brechyne"]		{"Brechyne"}
+["v_Broune"]		{"Broune"}
+["v_Bunnok"]		{"Bunnok"}
+["v_Campbell"]		{"Campbell"}
+["v_of Carnavarane"]		{"of Carnavarane"}
+["v_of Clair"]		{"of Clair"}
+["v_of Cobhame"]		{"of Cobhame"}
+["v_Comyn"]		{"Comyn"}
+["v_Cwnyngame"]		{"Cwnyngame"}
+["v_of Douglas"]		{"of Douglas"}
+["v_Erskyn"]		{"Erskyn"}
+["v_Forster"]		{"Forster"}
+["v_Gilbertstoune"]		{"Gilbertstoune"}
+["v_Inchmertyn"]		{"Inchmertyn"}
+["v_Macgoulchane"]		{"Macgoulchane"}
+["v_Makartane"]		{"Makartane"}
+["v_Makdowall"]		{"Makdowall"}
+["v_Makfulchiane"]		{"Makfulchiane"}
+["v_Makgullane"]		{"Makgullane"}
+["v_Makmartane"]		{"Makmartane"}
+["v_Maknab"]		{"Maknab"}
+["v_Maknakill"]		{"Maknakill"}
+["v_Maknauchtan"]		{"Maknauchtan"}
+["v_Macdonchie"]		{"Macdonchie"}
+["v_Macconel"]		{"Macconel"}
+["v_Macdougall"]		{"Macdougall"}
+["v_Randall"]		{"Randall"}
+["v_Buchan"]		{"Buchan"}
+["v_Mensies"]		{"Mensies"}
+["v_Mar"]		{"Mar"}
+["v_Lesly"]		{"Lesly"}
+["v_Colison"]		{"Colison"}
+["v_Cullane"]		{"Cullane"}
+["v_Wallace"]		{"Wallace"}
+["v_of Strathclyde"]	{"of Strathclyde"}
+        
+// Vikings  No 4
+["v_Alfsson"]		{"Alfsson"}
+["v_Asbjornsson"]		{"Asbjornsson"}
+["v_Eiriksson"]		{"Eiriksson"}
+["v_Ericsson"]		{"Ericsson"}
+["v_Grimsson"]		{"Grimsson"}
+["v_Gudmundsson"]		{"Gudmundsson"}
+["v_Gunnarsson"]		{"Gunnarsson"}
+["v_Herjolfsson"]		{"Herjolfsson"}
+["v_Hroaldsson"]		{"Hroaldsson"}
+["v_Ingolfsson"]		{"Ingolfsson"}
+["v_Jonsson"]		{"Jonsson"}
+["v_Karlsefni"]		{"Karlsefni"}
+["v_Knutsson"]		{"Knutsson"}
+["v_Njalsson"]		{"Njalsson"}
+["v_Ormsson"]		{"Ormsson"}
+["v_Runolfsson"]		{"Runolfsson"}
+["v_Sigmundsson"]		{"Sigmundsson"}
+["v_Sigtryggsson"]		{"Sigtryggsson"}
+["v_Sturlasson"]		{"Sturlasson"}
+["v_Sveinsson"]		{"Sveinsson"}
+["v_Tryggvason"]		{"Tryggvason"}
+["v_Tryggvisson"]		{"Tryggvisson"}
+["v_Ulfsson"]		{"Ulfsson"}
+["v_Yngvarsson"]		{"Yngvarsson"}
+["v_Lodbrok"]		{"Lodbrok"}
+["v_Hardrada"]		{"Hardrada"}
+["v_Silky-beard"]		{"Silky-beard"}
+["v_Forkbeard"]		{"Forkbeard"}
+["v_Bluetooth"]		{"Bluetooth"}
+["v_The Red"]		{"The Red"}
+["v_The White"]		{"The White"}
+["v_Bloodaxe"]		{"Bloodaxe"}
+["v_The Saint"]		{"The Saint"}
+["v_The Victorious"]		{"The Victorious"}
+["v_Weather-Hat"]		{"Weather-Hat"}
+["v_The Hardy"]		{"The Hardy"}
+["v_The Wise"]		{"The Wise"}
+["v_Eight-fingers"]		{"Eight-fingers"}
+["v_One-eye"]		{"One-eye"}
+["v_The Womanizer"]		{"The Womanizer"}
+["v_Fair-hair"]		{"Fair-hair"}
+["v_Finehair"]		{"Finehair"}
+["v_Greycloak"]		{"Greycloak"}
+["v_The Tall"]		{"The Tall"}
+["v_The Stout"]		{"The Stout"}
+["v_The Good"]		{"The Good"}
+["v_The Peaceful"]		{"The Peaceful"}
+["v_Barefoot"]		{"Barefoot"}
+["v_Jerusalem-farer"]		{"Jerusalem-farer"}
+["v_Broad-Shoulder"]		{"Broad-Shoulder"}
+["v_The Priest"]		{"The Priest"}
+
+     
+// Welsh   No 5
+["v_ap Adam"]		{"ap Adam"}
+["v_ap Anarwd"]		{"ap Anarwd"}
+["v_ap Ieuan"]		{"ap Ieuan"}
+["v_ap Gronw"]		{"ap Gronw"}
+["v_ap Ithel"]		{"ap Ithel"}
+["v_ap Cadell"]		{"ap Cadell"}
+["v_ap Gwyn"]		{"ap Gwyn"}
+["v_ap Cynwrig"]		{"ap Cynwrig"}
+["v_ap Cynan"]		{"ap Cynan"}
+["v_ap Cadwgan"]		{"ap Cadwgan"}
+["v_ap Dyfed"]		{"ap Dyfed"}
+["v_ap Philip"]		{"ap Philip"}
+["v_ap Rhiryd"]		{"ap Rhiryd"}
+["v_ap Gruffydd"]		{"ap Gruffydd"}
+["v_ap Tegwared"]		{"ap Tegwared"}
+["v_ap Meilyr"]		{"ap Meilyr"}
+["v_ap Ednyfed"]		{"ap Ednyfed"}
+["v_ap Gwrgenau"]		{"ap Gwrgenau"}
+["v_ap Llywelyn"]		{"ap Llywelyn"}
+["v_ap Gwion"]		{"ap Gwion"}
+["v_ap Hywel"]		{"ap Hywel"}
+["v_ap Tuder"]		{"ap Tuder"}
+["v_ap Heilyn"]		{"ap Heilyn"}
+["v_ap Cynddelw"]		{"ap Cynddelw"}
+["v_ap Madyn"]		{"ap Madyn"}
+["v_ap Meurig"]		{"ap Meurig"}
+["v_ap Llywarch"]		{"ap Llywarch"}
+["v_ap William"]		{"ap William"}
+["v_ap Griffri"]		{"ap Griffri"}
+["v_ap Ednowain"]		{"ap Ednowain"}
+["v_ap Moriddig"]		{"ap Moriddig"}
+["v_ap Cydifor"]		{"ap Cydifor"}
+["v_ap Iago"]		{"ap Iago"}
+["v_ap Idwal"]		{"ap Idwal"}
+["v_ap Ieuaf"]		{"ap Ieuaf"}
+["v_ap Iocyn"]		{"ap Iocyn"}
+["v_ap John"]		{"ap John"}
+["v_ap Owain"]		{"ap Owain"}
+["v_Coch"]		{"Coch"}
+["v_Moel"]		{"Moel"}
+["v_Bychan"]		{"Bychan"}
+["v_Llwyd"]		{"Llwyd"}
+["v_Chwith"]		{"Chwith"}
+["v_Crach"]		{"Crach"}
+["v_Cam"]		{"Cam"}
+["v_Cryg"]		{"Cryg"}
+["v_Mawr"]		{"Mawr"}
+["v_Hen"]		{"Hen"}
+["v_Cethin"]		{"Cethin"}
+["v_Bongam"]		{"Bongam"}
+["v_Cwtta"]		{"Cwtta"}
+["v_Rhwth"]		{"Rhwth"}
+["v_Bach"]		{"Bach"}
+["v_Hir"]		{"Hir"}
+
+
+// Princesses
+
+// Irish  No 1
+["v_Aife"]		{"Aife"}
+["v_Badb"]		{"Badb"}
+["v_Blathnait"]		{"Blathnait"}
+["v_Boand"]		{"Boand"}
+["v_Conchend"]		{"Conchend"}
+["v_Deichtine"]		{"Deichtine"}
+["v_Deirdriu"]		{"Deirdriu"}
+["v_Eimher"]		{"Eimher"}
+["v_Eithne"]		{"Eithne"}
+["v_Emer"]		{"Emer"}
+["v_Etain"]		{"Etain"}
+["v_Fedelm"]		{"Fedelm"}
+["v_Findabhair"]		{"Findabhair"}
+["v_Findbec"]		{"Findbec"}
+["v_Findchoem"]		{"Findchoem"}
+["v_Findige"]		{"Findige"}
+["v_Grainne"]		{"Grainne"}
+["v_Ibormeith"]		{"Ibormeith"}
+["v_Ide"]		{"Ide"}
+["v_Leborcham"]		{"Leborcham"}
+["v_Lennabhair"]		{"Lennabhair"}
+["v_Niamh"]		{"Niamh"}
+["v_Sadhbh"]		{"Sadhbh"}
+["v_Scathach"]		{"Scathach"}
+
+       
+// Mercians	  No 2
+// Northumbrians 
+// Saxons
+// Most shared. A few unique to each faction
+
+
+["v_Offa"]		{"Offa"}
+["v_Coenwulf"]		{"Coenwulf"}
+["v_Beorhtwulf"]		{"Beorhtwulf"}
+["v_Aelgifu"]		{"Aelgifu"}
+["v_Aelfleda"]		{"Aelfleda"}
+["v_Aelfrith"]		{"Aelfrith"}
+["v_Aelfwyn"]		{"Aelfwyn"}
+["v_Aelswith"]		{"Aelswith"}
+["v_Aethelfleda"]		{"Aethelfleda"}
+["v_Aethelfloed"]		{"Aethelfloed"}
+["v_Aethelhild"]		{"Aethelhild"}
+["v_Aethelswith"]		{"Aethelswith"}
+["v_Aethelwynn"]		{"Aethelwynn"}
+["v_Agatha"]		{"Agatha"}
+["v_Alfhild"]		{"Alfhild"}
+["v_Algitha"]		{"Algitha"}
+["v_Althildis"]		{"Althildis"}
+["v_Bertha"]		{"Bertha"}
+["v_Cwenthryth"]		{"Cwenthryth"}
+["v_Cynegth"]		{"Cynegth"}
+["v_Cynewise"]		{"Cynewise"}
+["v_Cynthryth"]		{"Cynthryth"}
+["v_Eadburga"]		{"Eadburga"}
+["v_Eadhilde"]		{"Eadhilde"}
+["v_Eadgyth"]		{"Eadgyth"}
+["v_Eadwige"]		{"Eadwige"}
+["v_Ealdgyth"]		{"Ealdgyth"}
+["v_Ealfgifu"]		{"Ealfgifu"}
+["v_Edgiva"]		{"Edgiva"}
+["v_Edith"]		{"Edith"}
+["v_Editha"]		{"Editha"}
+["v_Elflaed"]		{"Elflaed"}
+["v_Elfreda"]		{"Elfreda"}
+["v_Elfthryth"]		{"Elfthryth"}
+["v_Elfwyn"]		{"Elfwyn"}
+["v_Elgiva"]		{"Elgiva"}
+["v_Elswitha"]		{"Elswitha"}
+["v_Emma"]		{"Emma"}
+["v_Eormengild"]		{"Eormengild"}
+["v_Ethelburga"]		{"Ethelburga"}
+["v_Ethelburh"]		{"Ethelburh"}
+["v_Godgifu"]		{"Godgifu"}
+["v_Godrun"]		{"Godrun"}
+["v_Gunhild"]		{"Gunhild"}
+["v_Gytha"]		{"Gytha"}
+["v_Hygeburh"]		{"Hygeburh"}
+["v_Osburga"]		{"Osburga"}
+["v_Osthryth"]		{"Osthryth"}
+["v_Redburh"]		{"Redburh"}
+["v_Saxburga"]		{"Saxburga"}
+["v_Signy"]		{"Signy"}
+["v_Werburga"]		{"Werburga"}
+["v_Wulfhild"]		{"Wulfhild"}
+
+
+// Picts use scotts  No 3        
+// Scots         
+["v_Aila"]		{"Aila"}
+["v_Aileana"]		{"Aileana"}
+["v_Alpina"]		{"Alpina"}
+["v_Annabella"]		{"Annabella"}
+["v_Beathas"]		{"Beathas"}
+["v_Bethoc"]		{"Bethoc"}
+["v_Bradana"]		{"Bradana"}
+["v_Caroline"]		{"Caroline"}
+["v_Catriona"]		{"Catriona"}
+["v_Coira"]		{"Coira"}
+["v_Colina"]		{"Colina"}
+["v_Cumina"]		{"Cumina"}
+["v_Daracha"]		{"Daracha"}
+["v_Dovada"]		{"Dovada"}
+["v_Eara"]		{"Eara"}
+["v_Edina"]		{"Edina"}
+["v_Elspeth"]		{"Elspeth"}
+["v_Eochaid"]		{"Eochaid"}
+["v_Erskina"]		{"Erskina"}
+["v_Fenells"]		{"Fenells"}
+["v_Finnghuala"]		{"Finnghuala"}
+["v_Fiona"]		{"Fiona"}
+["v_Grizela"]		{"Grizela"}
+["v_Gruoch"]		{"Gruoch"}
+["v_Inghea"]		{"Inghea"}
+["v_Inghinn"]		{"Inghinn"}
+["v_Isobel"]		{"Isobel"}
+["v_Jean"]		{"Jean"}
+["v_Mairi"]		{"Mairi"}
+["v_Mary"]		{"Mary"}
+["v_Matilda"]		{"Matilda"}
+["v_Moira"]		{"Moira"}
+["v_Nairne"]		{"Nairne"}
+["v_Nathaira"]		{"Nathaira"}
+["v_Nessia"]		{"Nessia"}
+["v_Nighinn"]		{"Nighinn"}
+["v_Odaira"]		{"Odaira"}
+["v_Raoghnailt"]		{"Raoghnailt"}
+["v_Robena"]		{"Robena"}
+["v_Rose"]		{"Rose"}
+["v_Siobhan"]		{"Siobhan"}
+["v_Siusan"]		{"Siusan"}
+["v_Skena"]		{"Skena"}
+["v_Struana"]		{"Struana"}
+["v_Tara"]		{"Tara"}
+["v_Tavia"]		{"Tavia"}
+["v_Tyra"]		{"Tyra"}
+["v_Torra"]		{"Torra"}
+["v_Vika"]		{"Vika"}
+["v_Wynda"]		{"Wynda"}
+
+// Vikings No 4
+
+["v_Ase"]		{"Ase"}
+["v_Asgerd"]		{"Asgerd"}
+["v_Aslaug"]		{"Aslaug"}
+["v_Asny"]		{"Asny"}
+["v_Bera"]		{"Bera"}
+["v_Bergthora"]		{"Bergthora"}
+["v_Dalla"]		{"Dalla"}
+["v_Geirlaug"]		{"Geirlaug"}
+["v_Gjaflaug"]		{"Gjaflaug"}
+["v_Grima"]		{"Grima"}
+["v_Groa"]		{"Groa"}
+["v_Gudlaug"]		{"Gudlaug"}
+["v_Gudney"]		{"Gudney"}
+["v_Gudrid"]		{"Gudrid"}
+["v_Gudrun"]		{"Gudrun"}
+["v_Gunnhild"]		{"Gunnhild"}
+["v_Gyda"]		{"Gyda"}
+["v_Hallbera"]		{"Hallbera"}
+["v_Helga"]		{"Helga"}
+["v_Hildirid"]		{"Hildirid"}
+["v_Hrafnhild"]		{"Hrafnhild"}
+["v_Hrefna"]		{"Hrefna"}
+["v_Hrodny"]		{"Hrodny"}
+["v_Ingibjorg"]		{"Ingibjorg"}
+["v_Ingirid"]		{"Ingirid"}
+["v_Ingun"]		{"Ingun"}
+["v_Jofrid"]		{"Jofrid"}
+["v_Jorunn"]		{"Jorunn"}
+["v_Kadlin"]		{"Kadlin"}
+["v_Ljufa"]		{"Ljufa"}
+["v_Moeid"]		{"Moeid"}
+["v_Nidbjorg"]		{"Nidbjorg"}
+["v_Ragnhild"]		{"Ragnhild"}
+["v_Rannveig"]		{"Rannveig"}
+["v_Saeun"]		{"Saeun"}
+["v_Salbjorg"]		{"Salbjorg"}
+["v_Sigrid"]		{"Sigrid"}
+["v_Sigrun"]		{"Sigrun"}
+["v_Solveig"]		{"Solveig"}
+["v_Thora"]		{"Thora"}
+["v_Thorfinna"]		{"Thorfinna"}
+["v_Thorhild"]		{"Thorhild"}
+["v_Thorlaug"]		{"Thorlaug"}
+["v_Thorun"]		{"Thorun"}
+["v_Thorvor"]		{"Thorvor"}
+["v_Thurid"]		{"Thurid"}
+["v_Ulfeid"]		{"Ulfeid"}
+["v_Valgerd"]		{"Valgerd"}
+["v_Vigdis"]		{"Vigdis"}
+["v_Yngvild"]		{"Yngvild"}
+
+      
+// Welsh  No 5
+
+["v_Angharad"]		{"Angharad"}
+["v_Dulon"]		{"Dulon"}
+["v_Onbraust"]		{"Onbraust"}
+["v_Ourdilat"]		{"Ourdilat"}
+["v_Gwenllian"]		{"Gwenllian"}
+["v_Gwladus"]		{"Gwladus"}
+["v_Dyddgu"]		{"Dyddgu"}
+["v_Lleucu"]		{"Lleucu"}
+["v_Eve"]		{"Eve"}
+["v_Tangwystl"]		{"Tangwystl"}
+["v_Generys"]		{"Generys"}
+["v_Gwerfyl"]		{"Gwerfyl"}
+
+["v_Morfudd"]		{"Morfudd"}
+["v_Nest"]		{"Nest"}
+["v_Hunydd"]		{"Hunydd"}
+["v_Gwen"]		{"Gwen"}
+["v_Gwledyr"]		{"Gwledyr"}
+["v_Morfyl"]		{"Morfyl"}
+["v_Myfanwy"]		{"Myfanwy"}
+["v_Erdudfyl"]		{"Erdudfyl"}
+["v_Gwerydd"]		{"Gwerydd"}
+["v_Margaret"]		{"Margaret"}
+["v_Perweur"]		{"Perweur"}
+["v_Alice"]		{"Alice"}
+["v_Genilles"]		{"Genilles"}
+["v_Geneth"]		{"Geneth"}
+["v_Gwir"]		{"Gwir"}
+["v_Helen"]		{"Helen"}
+["v_Iwerydd"]		{"Iwerydd"}
+["v_Mabel"]		{"Mabel"}
+["v_Millicent"]		{"Millicent"}
+
+// ******************************************************
+//			Additions after 1st Loc submission 20/12/02
+// Note also the changes to the brothel and tavern names around line 4082 above, marked with a "#1 changed" comment
+
+["Pagan Shrine"]				{"Pagan Shrine"}
+["Pagan Sacrificial Shrine"]	{"Pagan Sacrificial Shrine"}
+
+["v_Madrun"]		{"Madrun"}
+
+["Royal Hall"]		{"Royal Hall"}
+["Royal Mint"]		{"Royal Mint"}
+["Court of Law"]	{"Court of Law"}
+["Royal Armoury"]	{"Royal Armoury"}
+
+["Curadh"]				{"Curadh (Champion)"}
+["Fraewine"]			{"Fraewine (King's Friend)"}
+["King's Champion"]		{"King's Champion"}
+["Olach"]				{"Olach (Boon Companion)"}
+["Rond-Brodir"]			{"Rond-Brodir (Shield Brother)"}
+["Campwr"]				{"Campwr (Champion)"}
+["Ri Tuathe"]			{"Ri Tuathe (Ruler of a Kindred)"}
+["Goldwine"]			{"Goldwine (Master of the Treasury)"}
+["Treasurer"]			{"Master of the Treasury"}
+["Tapaire"]				{"Tapaire (Master of the Treasury)"}
+["Fe-Jarlar"]			{"Fe-Jarlar (Master of the Treasury)"}
+["Trysorydd"]			{"Trysorydd (Master of the Treasury)"}
+["Taoiseach"]			{"Taoiseach (Elder)"}
+["Folcwine"]			{"Folcwine (People's Champion)"}
+["People's Champion"]	{"People's Champion"}
+["Stait"]				{"Stait (Great Man)"}
+["Lovsigemand"]			{"Lovsigemand (Lawspeaker)"}
+["Cydwladwr"]			{"Cydwladwr" (Compatriot)}
+["Leath-Ri"]			{"Leath-Ri (Half King)"}
+["Hundredman"]			{"Hundredman (War Leader)"}
+["War Leader"]			{"War Leader"}
+["Saoidh"]				{"Saoidh (Warrior Sage)"}
+["Ofridir-Jarlar"]		{"Ofridir-Jarlar (War Earl)"}
+["Blaenwyr"]			{"Blaenwyr (War Leader)"}
+
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	Text added after 7th Jan 2003 begins here:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+["Basic Farms"]
+{"Basic Farms"}
+
+["v_of Sussex"]
+{"of Sussex"}
+
+["v_of Wessex"]
+{"of Wessex"}
+
+["v_the Red"]
+{"the Red"}
+
+["v_the Stout"]
+{"the Stout"}
+
+// Viking title descriptions declared in the startpos file..
+
+["King of the Isles"]							 
+{"King of the Isles"}							 
+
+["Thane of the Northern Isles"]	
+{"Thane of the Northern Isles"}	
+
+["Thane of Cait"]					
+{"Thane of Cait"}					
+
+["Thane of Cawdor"]				
+{"Thane of Cawdor"}				
+
+["Thane of Sci"]					
+{"Thane of Sci"}					
+
+["Thane of Athlotia"]				
+{"Thane of Athlotia"}				
+
+["Thane of Monoth"]				
+{"Thane of Monoth"}				
+
+["Thane of Dal Riada"]			
+{"Thane of Dal Riada"}			
+
+["Thane of Fib"]					
+{"Thane of Fib"}					
+
+["Thane of Cyil"]					
+{"Thane of Cyil"}					
+
+["King of Strathclyde"]			
+{"King of Strathclyde"}			
+
+["Earl of Cumbri"]				
+{"Earl of Cumbri"}				
+
+["Earl of Elmete"]				
+{"Earl of Elmete"}				
+
+["Earl of Beornice"]				
+{"Earl of Beornice"}				
+
+["Earl of Pec Saetan"]			
+{"Earl of Pec Saetan"}			
+
+["Earl of Dere"]					
+{"Earl of Dere"}					
+
+["Prince of Guined"]				
+{"Prince of Guined"}				
+
+["Prince of Clwyd"]				
+{"Prince of Clwyd"}				
+
+["Earl of Wrocen Saetan"]			
+{"Earl of Wrocen Saetan"}			
+
+["Earl of Mierce"]				
+{"Earl of Mierce"}				
+
+["Earl of Lindissi"]				
+{"Earl of Lindissi"}				
+
+["Prince of Pouis"]				
+{"Prince of Pouis"}				
+
+["Earl of Hwicce"]				
+{"Earl of Hwicce"}				
+
+["Prince of Defet"]				
+{"Prince of Defet"}				
+
+["Prince of Guent"]				
+{"Prince of Guent"}				
+
+["Earl of Middel Seaxe"]			
+{"Earl of Middel Seaxe"}			
+
+["Earl of Middel Engle"]			
+{"Earl of Middel Engle"}			
+
+["Earl of East Engle"]			
+{"Earl of East Engle"}			
+
+["Prince of Cerniu"]				
+{"Prince of Cerniu"}				
+
+["Earl of Defnas"]				
+{"Earl of Defnas"}				
+
+["Earl of Sumorsaete"]			
+{"Earl of Sumorsaete"}			
+
+["Earl of West Seaxe"]			
+{"Earl of West Seaxe"}			
+
+["King of East Seaxe"]			
+{"King of East Seaxe"}			
+
+["Earl of Dornsaete"]				
+{"Earl of Dornsaete"}				
+
+["Earl of Suth Seaxe"]			
+{"Earl of Suth Seaxe"}			
+
+["King of Cantware"]				
+{"King of Cantware"}				
+
+["Ruire of Connacht"]				
+{"Ruire of Connacht"}				
+
+["Ruire of Ulster"]				
+{"Ruire of Ulster"}				
+
+["Ruire of Munster"]				
+{"Ruire of Munster"}				
+
+["Ruire of Laigin"]				
+{"Ruire of Laigin"}				
+
+["Prince of Norway"]				
+{"Prince of Norway"}				
+
+["Prince of Denmark"]				
+{"Prince of Denmark"}				
+
+["King of Man"]					
+{"King of Man"}					
+
+["Ruire of Brega"]				
+{"Ruire of Brega"}				
+
+SetShowTransOff //Do not translate.			
+//???? Remove when localized.				
+

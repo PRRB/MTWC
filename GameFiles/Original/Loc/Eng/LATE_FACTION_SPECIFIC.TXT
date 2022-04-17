@@ -1,0 +1,381 @@
+
+//*********************************************************************
+// 
+// The campaigns 'faction specific' and 'rebel' text strings:-
+// 
+// This is the default file used for arrays of faction names and arrays 
+// of text containing the full set of faction names in order.
+//
+// Rebel faction names also need to be placed in this file..
+//
+//*********************************************************************
+
+// This array dictates how the faction corresponding to the position in the list would address their leader.
+// eg. If your first faction was the English then you would want "King" at position 1, not at position 0 as this is always the rebels.
+
+@["king_titles"]	// Label
+@{"Late: King "}			// Position 0
+@{"Late: Khalifah "}		// Position 1
+@{"Late: Emperor "}	
+@{"Late: King "}		
+@{"Late: Sultan "}	
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: Emperor "}	
+@{"Late: Doge "}		
+@{"Late: King "}		
+@{"Late: Prince "}	
+@{"Late: King "}		
+@{"Late: Sultan "}	
+@{"Late: King "}		
+@{"Late: Duke "}		
+@{"Late: Khan "}		
+@{"Late: King "}		
+@{"Late: Prince "}	
+@{"Late: Pope "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+@{"Late: King "}		
+
+
+@["custom_battle_menu_factions"]
+@{"Late: Rebel"}
+@{"Late: Almohad"}						  
+@{"Late: Byzantine"}						  
+@{"Late: Danish"}   						  
+@{"Late: Egyptian"}						  
+@{"Late: English"}						  
+@{"Late: French"}							  
+@{"Late: German"}							  
+@{"Late: Italian"}  						  
+@{"Late: Polish"}   						  
+@{"Late: Russian"}   						  
+@{"Late: Spanish"}						  
+@{"Late: Turkish"}						  
+@{"Late: Aragonese"}						  
+@{"Late: Hungarian"}						  
+@{"Late: Burgundian"}						  
+@{"Late: Golden Horde"}					  
+@{"Late: Novgorod"}						  
+@{"Late: Papal"}							  
+@{"Late: Sicilian"}						  
+@{"Late: Swiss"}							  
+@{"Late: Free01"}
+@{"Late: Free02"}		
+@{"Late: Free03"}		
+@{"Late: Free04"}		
+@{"Late: Free05"}		
+@{"Late: Free06"}		
+@{"Late: Free07"}		
+@{"Late: Free08"}		
+@{"Late: Free09"}		
+@{"Late: Free10"}		
+@{"Late: Free11"}
+
+@["factions_posessive_xzy"]
+@{"Late: Rebel"}
+@{"Late: Almohad"}						  
+@{"Late: Byzantine"}						  
+@{"Late: Danish"}   						  
+@{"Late: Egyptian"}						  
+@{"Late: English"}						  
+@{"Late: French"}							  
+@{"Late: German"}							  
+@{"Late: Italian"}  						  
+@{"Late: Polish"}   						  
+@{"Late: Russian"}   						  
+@{"Late: Spanish"}						  
+@{"Late: Turkish"}						  
+@{"Late: Aragonese"}						  
+@{"Late: Hungarian"}						  
+@{"Late: Burgundian"}						  
+@{"Late: Golden Horde"}					  
+@{"Late: Novgorod"}						  
+@{"Late: Papal"}							  
+@{"Late: Sicilian"}						  
+@{"Late: Swiss"}							  
+@{"Late: Free01"}
+@{"Late: Free02"}		
+@{"Late: Free03"}		
+@{"Late: Free04"}		
+@{"Late: Free05"}		
+@{"Late: Free06"}		
+@{"Late: Free07"}		
+@{"Late: Free08"}		
+@{"Late: Free09"}		
+@{"Late: Free10"}		
+@{"Late: Free11"}		
+
+// The following is to accomodate languages requiring female forms of faction names for ["other_princess_tooltip1"] 
+// in tooltip.txt. For languages not requiring this copy whatever you have in ["factions_posessive_xzy"] (names.txt),
+// but obviously leave the label as is here.
+
+@["female_factions_posessive_xzy"]
+@{"Late: Rebel"}
+@{"Late: Almohad"}						  
+@{"Late: Byzantine"}						  
+@{"Late: Danish"}   						  
+@{"Late: Egyptian"}						  
+@{"Late: English"}						  
+@{"Late: French"}							  
+@{"Late: German"}							  
+@{"Late: Italian"}  						  
+@{"Late: Polish"}   						  
+@{"Late: Russian"}   						  
+@{"Late: Spanish"}						  
+@{"Late: Turkish"}						  
+@{"Late: Aragonese"}						  
+@{"Late: Hungarian"}						  
+@{"Late: Burgundian"}						  
+@{"Late: Golden Horde"}					  
+@{"Late: Novgorod"}						  
+@{"Late: Papal"}							  
+@{"Late: Sicilian"}						  
+@{"Late: Swiss"}							  
+@{"Late: Free01"}
+@{"Late: Free02"}		
+@{"Late: Free03"}		
+@{"Late: Free04"}		
+@{"Late: Free05"}		
+@{"Late: Free06"}		
+@{"Late: Free07"}		
+@{"Late: Free08"}		
+@{"Late: Free09"}		
+@{"Late: Free10"}		
+@{"Late: Free11"}
+
+@["factions_xzy"]
+@{"Late: The Rebels"}
+@{"Late: The Almohads"}
+@{"Late: The Byzantines"}
+@{"Late: The Danes"}   		
+@{"Late: The Egyptians"}
+@{"Late: The English"}
+@{"Late: The French"}
+@{"Late: The Germans"}
+@{"Late: The Italians"}  		
+@{"Late: The Polish"}   		
+@{"Late: The Russians"}   		
+@{"Late: The Spanish"}
+@{"Late: The Turkish"}
+@{"Late: The Aragonese"}
+@{"Late: The Hungarians"}
+@{"Late: The Burgundians"}
+@{"Late: The Golden Horde"}
+@{"Late: The people of Novgorod"}
+@{"Late: The Papacy"}
+@{"Late: The Sicilians"}
+@{"Late: The Swiss"}
+@{"Late: The Free01"}		
+@{"Late: The Free02"}		
+@{"Late: The Free03"}		
+@{"Late: The Free04"}		
+@{"Late: The Free05"}		
+@{"Late: The Free06"}		
+@{"Late: The Free07"}		
+@{"Late: The Free08"}		
+@{"Late: The Free09"}		
+@{"Late: The Free10"}		
+@{"Late: The Free11"}
+
+@["of_Clan_Names"]
+@{"Late:  of the rebels"}
+@{"Late:  of The Almohads"}
+@{"Late:  of The Byzantines"}
+@{"Late:  of The Danes"}   		
+@{"Late:  of The Egyptians"}
+@{"Late:  of The English"}
+@{"Late:  of The French"}
+@{"Late:  of The Germans"}
+@{"Late:  of The Italians"}  		
+@{"Late:  of The Polish"}   		
+@{"Late:  of The Russians"}
+@{"Late:  of The Spanish"}
+@{"Late:  of The Turkish"}
+@{"Late:  of The Aragonese"}
+@{"Late:  of The Hungarians"}
+@{"Late:  of The Burgundians"}
+@{"Late:  of The Golden Horde"}
+@{"Late:  of The men of Novgorod"}
+@{"Late:  of The Papacy"}
+@{"Late:  of The Sicilians"}
+@{"Late:  of The Swiss"}
+@{"Late:  of The Free01"}		
+@{"Late:  of The Free02"}		
+@{"Late:  of The Free03"}		
+@{"Late:  of The Free04"}		
+@{"Late:  of The Free05"}		
+@{"Late:  of The Free06"}		
+@{"Late:  of The Free07"}		
+@{"Late:  of The Free08"}		
+@{"Late:  of The Free09"}		
+@{"Late:  of The Free10"}		
+@{"Late:  of The Free11"}		
+
+@["factions_special_xzy"]
+@{"Late: the Rebels"}
+@{"Late: the Almohads"}
+@{"Late: the Byzantines"}
+@{"Late: the Danes"}   		
+@{"Late: the Egyptians"}
+@{"Late: the English"}
+@{"Late: the French"}
+@{"Late: the Germans"}
+@{"Late: the Italians"}  		
+@{"Late: the Polish"}   		
+@{"Late: the Russians"}   		
+@{"Late: the Spanish"}
+@{"Late: the Turkish"}
+@{"Late: the Aragonese"}
+@{"Late: the Hungarians"}
+@{"Late: the Burgundians"}
+@{"Late: the Golden Horde"}
+@{"Late: the people of Novgorod"}
+@{"Late: the Papacy"}
+@{"Late: the Sicilians"}
+@{"Late: the Swiss"}
+@{"Late: the Free01"}		
+@{"Late: the Free02"}		
+@{"Late: the Free03"}		
+@{"Late: the Free04"}		
+@{"Late: the Free05"}		
+@{"Late: the Free06"}		
+@{"Late: the Free07"}		
+@{"Late: the Free08"}		
+@{"Late: the Free09"}		
+@{"Late: the Free10"}		
+@{"Late: the Free11"}		
+
+@["factions_special_caps_xzy"]	
+@{"Late: The Rebels"}
+@{"Late: The Almohads"}
+@{"Late: The Byzantines"}
+@{"Late: The Danes"}   		
+@{"Late: The Egyptians"}
+@{"Late: The English"}
+@{"Late: The French"}
+@{"Late: The Germans"}
+@{"Late: The Italians"}  		
+@{"Late: The Polish"}   		
+@{"Late: The Russians"}   		
+@{"Late: The Spanish"}
+@{"Late: The Turkish"}
+@{"Late: The Aragonese"}
+@{"Late: The Hungarians"}
+@{"Late: The Burgundians"}
+@{"Late: The Golden Horde"}
+@{"Late: The people of Novgorod"}
+@{"Late: The Papacy"}
+@{"Late: The Sicilians"}
+@{"Late: The Swiss"}
+@{"Late: The Free01"}		
+@{"Late: The Free02"}		
+@{"Late: The Free03"}		
+@{"Late: The Free04"}		
+@{"Late: The Free05"}		
+@{"Late: The Free06"}		
+@{"Late: The Free07"}		
+@{"Late: The Free08"}		
+@{"Late: The Free09"}		
+@{"Late: The Free10"}		
+@{"Late: The Free11"}		
+
+@["rebel_factions_xzy"]             
+@{"Late: the Alans"}                          
+@{"Late: the Alsatians"}                      
+@{"Late: the Anatolians"}                     
+@{"Late: the Andalucians"}                    
+@{"Late: the Angevins"}                       
+@{"Late: the Apulians"}                       
+@{"Late: the Arabs"}                          
+@{"Late: the Armenians"}                      
+@{"Late: the Basarabs"}                       
+@{"Late: the Basques"}                        
+@{"Late: the Bedouins"}                       
+@{"Late: the Belarussians"}                   
+@{"Late: the Berbers"}                                           
+@{"Late: the Blois"}                          
+@{"Late: the Bretons"}                        
+@{"Late: the Bulgars"}                        
+@{"Late: the Burgundians"}                    
+@{"Late: the Castilians"}                     
+@{"Late: the Catalans"}                       
+@{"Late: the Cordobans"}                      
+@{"Late: the Corsicans"}                      
+@{"Late: the Cretans"}                        
+@{"Late: the Croatians"}                      
+@{"Late: the Cumans"}                         
+@{"Late: the Cypriots"}                       
+@{"Late: the Czechs"}                         
+@{"Late: the Danes"}                          
+@{"Late: the Dodecanese"}                     
+@{"Late: the Egyptians"}                      
+@{"Late: the English"}                        
+@{"Late: the Finns"}                          
+@{"Late: the Flemish"}                        
+@{"Late: the Friesians"}                      
+@{"Late: the Genoans"}                        
+@{"Late: the Georgians"}                      
+@{"Late: the Guiennes"}                       
+@{"Late: the Hellenes"}                       
+@{"Late: the Irish"}                          
+@{"Late: the Jacquerie"}                      
+@{"Late: the Khazars"}                        
+@{"Late: the Landesadel"}                     
+@{"Late: the Lascarids"}                      
+@{"Late: the Leonese"}                        
+@{"Late: the Levantines"}                     
+@{"Late: the Lithuanians"}                    
+@{"Late: the Livs"}                           
+@{"Late: the Lombards"}                       
+@{"Late: the Cyrenacians"}                        
+@{"Late: the Maltese"}                        
+@{"Late: the Maygars"}                        
+@{"Late: the Mercians"}                       
+@{"Late: the Moors"}                          
+@{"Late: the Neapolitans"}                    
+@{"Late: the Normans"}                        
+@{"Late: the Norse"}                          
+@{"Late: the Northumbrians"}                  
+@{"Late: the Piasts"}                         
+@{"Late: the Poles"}                          
+@{"Late: the Pomeranians"}                    
+@{"Late: the Portuguese"}                     
+@{"Late: the Provencals"}                     
+@{"Late: the Prussians"}                      
+@{"Late: the Rebel Alliance"}                 
+@{"Late: the Rhenish"}                        
+@{"Late: the Rhomaioi"}                       
+@{"Late: the Romans"}                         
+@{"Late: the Rurikids"}                       
+@{"Late: the Sardinians"}                     
+@{"Late: the Saxons"}                         
+@{"Late: the Schaunbergs"}                    
+@{"Late: the Scots"}                          
+@{"Late: the Seljuks"}                        
+@{"Late: the Serbs"}                          
+@{"Late: the Sicilians"}                      
+@{"Late: the Swabs"}                          
+@{"Late: the Swedish"}                        
+@{"Late: the Swiss"}                          
+@{"Late: the Toulousians"}                    
+@{"Late: the Trapezuntines"}                  
+@{"Late: the Tuaregs"}                        
+@{"Late: the Tuscans"}                        
+@{"Late: the Tyrolians"}                      
+@{"Late: the Ugrians"}                        
+@{"Late: the Venitians"}                      
+@{"Late: the Vlads"}                          
+@{"Late: the Volhynians"}                     
+@{"Late: the Welfs"}                          
+@{"Late: the Welsh"}

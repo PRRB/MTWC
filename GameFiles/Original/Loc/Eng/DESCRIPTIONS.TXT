@@ -1,0 +1,1742 @@
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {" "} need to be translated.
+// and the 
+// {" "} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If an untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated stings
+// easily and can see that they have not been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organized as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later
+// They can be used to issue instructions or for information.
+//
+
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localized.
+
+//=================
+//TITLE DESCRIPTIONS
+//=================
+
+// Note to translators: %s is not to be translated, only positioned correctly, the first will be replaced by the titles name, the second with the name of the region the title pertains to.
+["christian_title"]
+{"Granted by letters patent, herewith the title of %s of %s and the lands, holdings and chattels thereof, to be held in trust as reward for faithful and true service, and giving also the rights and priviliges of nobility, and as a result of this title, the bearer shall receive the following benefits in addition:"}
+
+// Note to translators: %s is not to be translated, only positioned correctly, will be replaced by the name of the office.
+["christian_office"]
+{"This document grants unto the holder the office, privileges, rights and duties of %s, to be held for the furtherance of the King's pleasure and the better governance of his realm. As a direct consequence of this title, the office holder shall receive:"}
+
+// Note to translators: %s is not to be translated, only positioned correctly, the first will be replaced by the titles name, the second with the name of the region the title pertains to.
+["muslim_title"]
+{"By the grace of Allah, the merciful, the wise, the title of %s is a mark of honourable and virtuous service, and carries with it dominion over the lands, goods and chattels of %s, and with its bestowal the bearer shall be seen as additionally worthy, with the benefits of:"}
+
+// Note to translators: %s is not to be translated, only positioned correctly, will be replaced by the name of the office.
+["muslim_office"]
+{"Praise be to Allah, the compassionate, the merciful, and let him show the bearer of the burden of %s how to be virtuous and wise in his service, and righteous in the service of his ruler. With the gift of this office, the bearer shall receive the following benefits:"}
+
+
+
+//=================
+//UNIT DESCRIPTIONS
+//=================
+
+["AbyssinianGuard_desc"]
+{"Abyssinians have been guarding Egyptian rulers for centuries. They are used on the battlefield as disciplined axemen, able to carve a path through enemies. Their lack of armour is a weakness, but their superb discipline is some compensation. They are best used to attack peasants, militia and spearmen."}
+
+["AlanMercenaryCavalry_desc"]
+{"The Alans are excellent steppe horsemen - almost as if they are born in the saddle! The Byzantines see them as the best light cavalry mercenaries available. They can be used to skirmish, ambush and act as a swift covering force for the flanks of heavier cavalry."}
+
+["AlmohadUrbanMilitia_desc"]
+{"As Islamic Spain comes under pressure, its cities look to their own defence, and create urban militias. These men have plenty of opportunities for battle and are much more competent and aggressive than the usual run of militiamen. Well armed and trained, they are almost a standing civic army, rather than a last ditch defence."}
+
+["Almughavars_desc"]
+{"These lightly armoured Catalan mercenaries ply their trade all round the Mediterranean. They are shock troops armed with javelins that give them a fearsome missile attack to open gaps for a subsequent charge with their spears. Few others can match their professional determination and ferocity."}
+
+["Arbalester_desc"]
+{"The arbalest is a heavy crossbow that can fire a bolt which will go through most armoured targets. It has a very slow rate of fire, and needs a small windlass to pull span the weapon. Properly protected by other troops, arbalesters can be deadly."}
+
+["Archers_desc"]
+{"Archery is a survival skill: it helps put food on the table, assuming that the archer isn’t hanged as a poacher! Using the same skill in battle can bring down an armoured man, although short bows are not quite as efficient as true war bows."}
+
+["ArmenianHeavyCavalry_desc"]
+{"Even in Roman times Armenian cavalrymen were often given a position of honour in an army. The Byzantines and others still know that they are disciplined, aggressive and capable. Armed with lances, their initial charge is powerful, and they are steady and reliable when compared to feudal cavalry."}
+
+["ArmHorse_desc"]
+{"Another Horse"}
+
+["Arquebusier_desc"]
+{"The arquebus or matchlock is a relatively sophisticated firearm. It is easy to use, can be aimed with some accuracy and rarely explodes, so as not to kill its user! Arquebusiers can fire volleys at an enemy, damaging morale as well as frail flesh, but they cannot fire at all in wet weather."}
+
+["BallistaCrew_desc"]
+{"The ballista design goes back to the ancient Greeks. A ballista can fire a spear-like bolt or stone missile hundreds of metres with killing force. Although crossbow-like, a ballista uses twisted bundles of animal sinew for its power and, like a spring, these give the weapon a great range."}
+
+["BedouinCamelGun_desc"]
+{"Most early gunpowder weapons are rather cumbersome, so the Bedouin use a jezzail (a very small cannon!) fixed to a camel saddle. The camel must be still as the gun is fired, but the flexibility of being able to dash into a firing position, fire and then retreat to reload is a shock to many enemies!"}
+
+["BedouinCamelWarriors_desc"]
+{"The Bedouin are hardy warriors but sometimes a little undisciplined when fighting as a group. Their shock value against troops unused to camels is considerable particularly when charging, but they are vulnerable to spearmen in the same way as other cavalry. Horses usually hate the smell of camels."}
+
+["BerberCamel_desc"]
+{"The Berbers are hardy desert warriors, and at their best when used as light cavalry archers to disrupt enemies. They are capable in hand-to-hand combat against similar light cavalry, and their camels are an advantage as many horses are unwilling to go too close because of the smell!"}
+
+["Billmen_desc"]
+{"The billhook was a farming tool: an axe-and-hook with a long handle. After it had evolved into a weapon, it could hack, stab or drag a man to his death. English Billmen are well trained in fighting against armoured and mounted soldiers, pulling knights or men-at-arms to their deaths!"}
+
+["BombardCrew_desc"]
+{"Early gunpowder weapons, bombards, are made of wrought iron hoops and mounted on immobile stands. They are primarily siege weapons and fire stone balls that shatter on impact rather than piercing the target. Although prone to explosions, bombards easily unnerve enemies not used to gunpowder!"}
+
+["Boyar_desc"]
+{"Boyars are the landed, social elite in Russia. They are trained to fight as a heavy cavalry bodyguard. Heavy mail and a combination of sword and bow make them powerful, but when these are added to rigorous practice for war, they are a very effective force indeed!"}
+
+["BulgarianBrigands_desc"]
+{"The independent peoples in the Balkans have always been difficult for outsiders to rule. The Bulgar Brigands are organised - and tough - enough to be mercenaries. They are tactically flexible fighters, well able to use both bows and swords but may lack moral fibre in a crisis."}
+
+["ByzantineCavalry_desc"]
+{"The Byzantines have a state army as well as mercenary forces. These cavalry are the disciplined, armoured successors to the Roman legions, armed with bows and swords. While not as fleet as steppe mercenaries, they can be relied on to give a good account of themselves in battle."}
+
+["ByzantineInfantry_desc"]
+{"The Byzantine Empire's military tradition dates back to Roman times, and its armies have always included professional soldiers. These men-at-arms have mail armour, large shields and swords and can be relied on to fight skilfully against most enemies. They are probably among the best heavy infantry in Eastern Europe."}
+
+["Camel_desc"]
+{"A Camel"}
+
+["CatapultCrew_desc"]
+{"The basic design of the catapult goes back to the Romans. The throwing arm is driven by twisted ropes or sinews, and can hurl missiles quite a long way. The small wheels help to absorb the shock of firing. Although easy to operate and quite powerful, the catapult will be outclassed by guns."}
+
+["ChivalricFootKnights_desc"]
+{"Chivalric Knights are a high point in the arms race between armour and killing weaponry. They wear superb plate armour and carry poleaxes - weapons intended to punch through any armour! They are an elite, trained from infancy in the art of war, and like any elite can be impetuous."}
+
+["ChivalricKnights_desc"]
+{"Chivalric Knights represent a considerable improvement in arms and armour. They and their horses are well protected by plate mail and barding, their lances give them an advantage in the charge, and they are trained to fight from childhood. They are a true elite, but can be impetuous in battle."}
+
+["ChivalricManAtArms_desc"]
+{"Not all the very heavy infantry are noble. Most are professionals or gentry who make do with old or second hand armour. These swordsmen are good for both attack and defence, and often form the backbone of a battle line. Heavily armoured as they are, they can be slow moving."}
+
+["ChivalricSergeants_desc"]
+{"These heavy spearmen include professional soldiers and those hoping to be noticed and raised to the nobility. Their equipment may be a little old-fashioned or second hand, but it is always well cared for and their individual skill at arms is very good indeed. They can be undisciplined."}
+
+["Crossbows_desc"]
+{"Anyone can use a crossbow and a few weeks practice will make anyone a master of it - archers have to be trained for years. Once trained as a crossbowman, even the humblest peasant can kill the mightiest king. This weapon is often seen as 'unfair' - by the mighty."}
+
+["CulverinCrew_desc"]
+{"Culverins are long barrelled guns on light carriages. The slim barrel gives a good range, and allows the use of less gunpowder per shot, making firing it safer. Culverins can fire balls up to 45kg, but most generals prefer lighter pieces, as these are easier to transport to a battlefield."}
+
+["DemicannonCrew_desc"]
+{"Demi-cannons are small siege weapons. 'Small' is a relative term, as demi-cannons are often very heavy! Thanks to the need to mount the weapons on sturdy carriages, demi-cannons aren't moved once in place. A demi-cannon might fire shot that weighs up to 30kg and can do substantial damage."}
+
+["DemiculverinCrew_desc"]
+{"As the name suggests, demi-culverins are half the size of long-barrelled culverins. They are small bore weapons, and usually fire a ball that weighs 3-4kg. They are usually well made and not too expensive, making them useful all-round weapons. Given that they are small, they can be emplaced easily."}
+
+["DesertArchers_desc"]
+{"All desert peoples need superior skills and hardiness to survive, let alone prosper. They are superlative light archers and their compound bows are excellent weapons. It is their role to pepper enemy troops with arrows and stay out of reach, for they do not fight well in melee."}
+
+["EarlyRoyalGhulamKnights_desc"]
+{"Ghulam - the word means slave - cavalry are the best available to the Sultan and form his bodyguard. In heavy mail and armed with lances, they are at least as good as other heavy cavalry. The Sultan (and every Prince) leads Ghulams. Additional units can be trained at a high cost."}
+
+["EarlyRoyalKnights_desc"]
+{"Royal Knights are an elite royal household guard. The combination of mail, armoured horses and lances makes them formidable enough, but their dedication in serving their King makes them fearsome indeed! The King and royal Princes command small groups of these Knights. Raising extra Royal Knights is possible, but costly."}
+
+["FeudalFootKnights_desc"]
+{"Feudal Knights begin their training in infancy and are a military elite who rule by the sword, and hold land in return for their service. In combat, they favour lances that give them an advantage when charging opponents. Their mail coats and shields provide good protection against lesser troops. "}
+
+["FeudalKnights_desc"]
+{"Feudal Knights hold land in return for military service. Trained from infancy to be warriors, they hold political and military power in their mailed fists. They are adept at charging down opponents with their lances, and they are honourable and brave to the point of recklessness!"}
+
+["FeudalManAtArms_desc"]
+{"Those seeking social position are often hardened warriors - war can bring wealth and social status. Because they are not rich yet, feudal men-at-arms wear second-hand mail looted from the dead (or that is just old fashioned). They carry broadswords and shields, making them equally good in attack or defence."}
+
+["FeudalSergeants_desc"]
+{"Feudal society is a hierarchy, and each rung of the ladder is expected to serve those above. Feudal Sergeants are a class below knights (but above landless peasants) and are often professional soldiers. Many lords will send these spearmen into battle as reliable medium infantry."}
+
+["Futuwwa_desc"]
+{"Armoured by faith, brave to the point of death, Futuwwa warriors are fanatical in battle, particularly against unbelievers. They are armed with bows and swords making them very useful all-round soldiers, but rashness can be their undoing, as they may suffer heavy casualties during one of their typically brave attacks."}
+
+["Gallowglass_desc"]
+{"In some ways Ireland is a relic of earlier times - Gallowglasses are Celtic warriors. Armed with two-handed swords, they are loyal to a clan chieftain, swift and fierce in battle, and enter an almost berserker-like frenzy. They also are reputed to take the heads of slain enemies as trophies."}
+
+["Gendarmes_desc"]
+{"Gendarmes are high-quality militia cavalry, raised in the growing towns. They often have superb equipment and, unlike most part-time soldiers, are rather disciplined. The Gendarmes lack the dashing bravery and valour of knights. Wealthy French provinces can excel at producing Gendarmes, thanks to their growing regional pride."}
+
+["GenoeseSailors_desc"]
+{"Genoese sailors make very effective units of light archers away from their ships, acting as more than just hastily levied infantry. They are fast moving and lightly armoured, but not equipped to fight hand-to-hand except as a last resort. "}
+
+["GhaziInfantry_desc"]
+{"Ghazi are fanatical warriors who think nothing of facing tremendous odds. Wild and brave, they can be difficult to restrain. In an attack, they can smash into an enemy force, as their axes do terrible damage. On defence they can rashly counterattack and therefore weaken a strong position."}
+
+["GhulamCavalry_desc"]
+{"Ghulam Cavalry are useful heavy attacking units for any desert general. With mail armour and light lances, they can charge into an attack and can fight well against other cavalry, but need to take care when engaging spearmen. Against missile troops, their best option is a swift attack."}
+
+["GoldenHordeHeavyCavalry_desc"]
+{"These warriors have the traditional role of all nobility: the breaking of lesser troops through shock impact. All superb horsemen, these cavalrymen are heavily armed with spears and well protected by plentiful armour and shields. They are best at attacking infantry and in riding down units about to break."}
+
+["GoldenHordeHorseArchers_desc"]
+{"Horse Archers are primarily used to harass and ambush enemies, and are ideally suited to the battlefield hit-and-run tactics favoured by the Mongols. Their superior speed gives them the ability to mass swiftly, attack, withdraw and then repeat as often as needed - and all without fighting in a melee!"}
+
+["GoldenHordeWarriors_desc"]
+{"Away from their precious horses, the Mongols are formidable and highly disciplined warriors, expert in the use of their powerful compound bows and swords. They are not suitable for assaults against heavy infantry, being better at breaking formations with arrow fire, then moving in to crush already beaten men!"}
+
+["GothicFootKnights_desc"]
+{"While it may look cumbersome, gothic armour is a cunning system of smooth surfaces, all devised to deflect attacks away from the wearer. Armed with two-handed swords, these knights are easily capable of smashing their way into most defensive formations. Their desire for personal glory can make them impetuous."}
+
+["GothicKnights_desc"]
+{"Protected by superb armour, Gothic Knights need fear little, although archers and pikemen still have to be treated with respect. Complete with heavily armoured horses, these are superior warriors. With the Gothic Knights, personal armour reaches a peak of practicality and beauty, and their heavy cavalry tactics have been perfected."}
+
+["GothicSergeants_desc"]
+{"Despite their slightly old-fashioned armour, Gothic Sergeants are a mainstay of any army. Their spears allow them to stand in any battle line. They are well motivated due to an emerging professionalism, and without the impetuous desire for personal glory and fanatical bravery that can make noblemen troublesome."}
+
+["Halbardiers_desc"]
+{"The halberd is a terrible weapon. In the hands of a skilled man a blow from one can fell a horse or cleave a man in two. It is a perfect weapon for assault troops, who have to break enemy formations and into fortifications. Halberdiers are armoured in plate mail."}
+
+["HandGun_desc"]
+{"Handguns are not accurate - or safe - and are useless in damp weather, but it is relatively easy to train troops to use them. Even though they are short range, slow missile troops Handgunners are useful, if only because of the frightening noise and smoke they produce!"}
+
+["Hashishin_desc"]
+{"The Hashishin are a sect originally from Persia, and they are masters of stealth, deception and murder. On a battlefield, they can hide in almost any terrain, and are ideal for ambushing enemy generals. When committed to action they can strike at their victims with both sword and bow. "}
+
+["HighlandClansman_desc"]
+{"Clansmen are the last tribal warriors in Western Europe, raised by chieftains from their extended families. While exceptionally brave by nature, Clansmen can also be stiff-necked and impetuous. Coming from lands where life is hard, these light infantry are usually not well armed and can rarely afford much armour."}
+
+["HighRoyalGhulamKnights_desc"]
+{"Ghulam cavalry are among the best available to the Sultan and form his elite bodyguard. In heavy mail and armed with lances, they are at least as good as other heavy cavalry and the Sultan (and every Prince) leads Ghulams. Additional units can be trained at high cost."}
+
+["HighRoyalKnights_desc"]
+{"Royal Knights are an elite royal household guard. The combination of platemail, barded horses and lances makes them formidable enough, but their dedication in serving their King makes them truly awesome! The King and royal Princes command small groups of these Knights. Raising extra Royal Knights is possible, but costly."}
+
+["Hobilar_desc"]
+{"Hobilars ride small 'hobby' horses and are useful scouts and pursuit troops. They come into their own when an enemy must be driven from the field or captured for later ransom. They are not heavily armed or armoured and can't put up much of a fight against nobility."}
+
+["HorseArchers_desc"]
+{"Many eastern European peoples use Horse Archers, and their fighting style requires that they must be masterful horsemen and superb bowmen. They pepper enemies with arrows while staying out of reach as they are vulnerable in hand-to-hand fighting - something a wise commander remembers!"}
+
+["HospitallerFootKnights_desc"]
+{"The Knights Hospitaller have adapted to changing fashions in warfare. Rather than traditional fighting from horseback, they now take the field as armoured infantry elite, well able to cut their way into enemy formations. Tactical flexibility, combined with their traditional discipline and courage, still keeps them formidable."}
+
+["Housecarle_desc"]
+{"Almost eclipsed by newer feudal fighting men, the Vikings are approaching the twilight of their glorious history. They are extremely tough, handpicked warriors whose tactical strength lies in the 'shield wall', a formation that presents a solid front to the enemy. Vikings are only truly vulnerable if they break formation."}
+
+["ItalianLightInfantry_desc"]
+{"The Italians have spent many years fighting Norman, French and Imperial armies and each other. As a result, their medium infantry are rather better than the average footsoldiers, and equipped with quilted armour, spears and shields. They may lack the 'edge' of hardened professionals, but they are reliable. "}
+
+["JanissaryBows_desc"]
+{"Yeni Cheri' - the 'New Soldiers' - are a Turkish system for raising national and royal (not feudal) armies. Disciplined, drilled and dedicated, Janissary Archers are intended to break up and weaken enemy formations so that the other soldiers of the Janissary corps can move in for the kill."}
+
+["JanissaryHeavyInfantry_desc"]
+{"Janissaries are the capable, disciplined elite of Turkish armies with a fearsome reputation. These heavy shock troops are supposed to batter a way through enemy armies so that others can pour through the gap. They are heavily armoured and armed with polearms that give them an advantage in close combat."}
+
+["JanissaryInfantry_desc"]
+{"The Janissaries are raised from provincial children taken into the Sultan’s service, and trained to do nothing but fight and obey. Janissaries do not fight for personal honour; they fight to win. These men are armed with bows and swords, making them a tactically flexible and powerful unit."}
+
+["Kataphraktoi_desc"]
+{"The fearsome, disciplined Kataphraktoi trace their origins to Roman times. Both man and horse are so massively armoured that they are almost unstoppable shock troops. This power comes at a price - the Kataphraktoi are slow and expensive compared to other cavalry - but this is little comfort to their enemies!"}
+
+["Kern_desc"]
+{"The Irish keep to the Celtic way of warfare. Constant skirmishing between Irish warlords and English invaders gives even the peasants a warlike attitude. They fight as kerns - light, harassing javelinmen - rather than as untrained farm labourers, and bring a particularly bloody-minded savagery to the battlefield."}
+
+["KHorse"]
+{"A Horse"}
+
+["KhwarazmianCavalry_desc"]
+{"Unusually for Islamic cavalry, both Khwarazmian cavalrymen and their horses are heavily armoured. This makes them very effective when charging lighter opponents, but means they are far from nimble! As shock troops, they are the equals of western knights but with more discipline - some would say more common sense! "}
+
+["KnightsHospitaller_desc"]
+{"The Knights of St. John were established to protect pilgrims and a hospital in the Holy Land, and they are a powerful fighting order. The Hospitallers are superb heavy knights, armed with lances and able to charge in devastating fashion on the battlefield. In battle they are completely reliable. "}
+
+["KnightsSantiago_desc"]
+{"Originally guards for Christian pilgrims in Spain, the Knights of Santiago are a fighting order organised along semi-monastic lines. They are reliable, excellent heavy cavalry, able to break many enemies when they charge, and are without the impetuous folly often shown by secular western knights. "}
+
+["KnightsTemplar_desc"]
+{"The Knights Templar are a warrior elite, seen as more fearsome than other knights in Christendom. On the battlefield, they may be the finest European cavalry, able to charge home against tremendous odds and still triumph! But while they are brave, some express doubts about their religious purity..."}
+
+["Lancers_desc"]
+{"Lancers are very heavy cavalry, used to charge into and break the enemy. Their plate armour is cunningly designed so that extra protective pieces can be added. The shock value of their charge should not be underestimated, but against spearmen they should attack a flank or the rear for best effect."}
+
+["LateRoyalGhulamKnights_desc"]
+{"These Ghulam cavalry are the best available to the Sultan and form his personal bodyguard. In plate armour and armed with lances they are better than many other heavy cavalry, and the Sultan (and every Prince) personally leads Ghulams. Additional units can be trained at high cost."}
+
+["LateRoyalKnights_desc"]
+{"Royal Knights are the royal household guard. The combination of full plate armour and lances makes them powerful, but their dedication in serving their King makes them formidable indeed! The King and royal Princes command small groups of these Knights. Raising extra Royal Knights is possible, but costly."}
+
+["LiHorse_desc"]
+{"A Little Horse"}
+
+["LithuanianCavalry_desc"]
+{"These light cavalry are drawn from Lithuania's minor nobility, and wear light mail and carry lances and bows. They are excellent horsemen, but also have the ability to dismount before battle and fight as foot archers. Although they are noblemen, they are no match for knights."}
+
+["Longbows_desc"]
+{"Welsh and English Longbowmen are the finest archers in Europe, well able to create a storm of arrows against targets 300m away. Even knights are vulnerable thanks to the armour-piercing bodkin arrowheads they use. Longbowmen are often best when the enemy is forced to attack and then shot down!"}
+
+["MamlukCavalry_desc"]
+{"The Mamluks are warrior slaves with superb military skills. Their cavalry are well armed and armoured, highly disciplined and particularly good against armoured opponents, thanks to the axes they wield. These medium cavalry can be used for many tasks on the battlefield, and can give heavier cavalry a nasty surprise! "}
+
+["MamlukHandgun_desc"]
+{"Islamic science has allowed the Mamluks to produce better gunpowder than other peoples, and their handguns are also skilfully made. Their handgunners have greater discipline than their Christian counterparts, although they must still deal with the handgun's slow rate of fire and low accuracy."}
+
+["MamlukHorseArchers_desc"]
+{"The Mamluks are a slave warrior elite. Almost without exception, their troops are highly disciplined, motivated and organised. Their Horse Archers are both good shots and skilled horsemen able to destroy slower opponents and can fight hand-to-hand in their own defence, but they should not be recklessly committed to such fights."}
+
+["MangonelCrew_desc"]
+{"The basic idea of a mangonel, or small catapult, goes back to Classical times. The throwing arm, driven by twisted ropes or sinews, hurls small missiles quite a long way. The frame isn't wheeled and once in place a mangonel doesn’t move. Mangonels are outclassed by gunpowder weaponry."}
+
+["MilitiaSergeants_desc"]
+{"Militia formations are supplied by the people of growing towns, drawn from amongst the apprentices. Armed with fearsome polearms, they can do significant damage to enemies, but their training is not always of the highest. They can do well against lesser troops, but will quail before more professional soldiery."}
+
+["MortarCrew_desc"]
+{"Mortars are short-barrelled guns that throw shots on a high trajectory (over fortifications) to plunge down on enemies. Firing mortars can be quite complex, as the angle of fire, amount of gunpowder and even the wind all affect accuracy. They can be used to terrible effect in sieges."}
+
+["MountedCrossbows_desc"]
+{"Armed with slightly smaller crossbows than their infantry equivalents, Mounted Crossbowmen are one response by western armies to eastern mounted archers. But while they have killing power, crossbows also have a slow rate of fire, so these men need to use their mobility to stay out of trouble."}
+
+["MountedSergeants_desc"]
+{"These cavalry are more lightly equipped compared to Knights, but they are fast and their heavy lances can be devastating when charging opponents. They are best used to charge home (to an enemy flank or rear, preferably) to cause maximum casualties. Their speed can help them disengage and evade pursuit. "}
+
+["MurabitinInfantry_desc"]
+{"The tough Murabitin are recruited from the desolate Almohad provinces along the North African coast. Armed with javelins, they are good for harassing enemy formations and can cause a surprising number of casualties. Their other arms are only sufficient for self-defence, so they are best used as skirmishers."}
+
+["MuslimPeasants_desc"]
+{"Life for peasants is never easy. They are the lowest, tied to the land or living in hovels around the growing cities. When war breaks out peasants are sometimes forced into the army and then expected to fight. Peasants may see little reason to remain loyal when treated this way."}
+
+["MuwahidFoot_desc"]
+{"These spearmen in the service of the Almohads are lightly equipped to stand in a line of battle. They are hardy, desert men and carry only large shields for protection, but they are also swift and possibly (over) confident. Like all spearmen, they have an advantage when fighting against cavalry."}
+
+["NapthaThrowers_desc"]
+{"Naptha is a fiery mixture of chemicals that is very difficult to put out. Contained in throwable grenades (ceramic pots) that burst open on contact naptha is dangerous and it is possible for the thrower to set fire to himself rather than a target!"}
+
+["NegroSpearmen_desc"]
+{"Nubian spearmen is a slightly misleading title. These men come from all over Africa, having made their way north and ended up in the Sultan’s military service. They carry the same kind of equipment as other spearmen, but they are often more able and disciplined."}
+
+["Nizari_desc"]
+{"The Nizaris are members of a sect who have been inspired by faith to make war. They are armed with swords and bows, making them a flexible force for any Islamic general. Their fanaticism can sometimes make them impetuous in an attack, when they will ignore the odds against them."}
+
+["OrderFootsoldiers_desc"]
+{"Not everyone has the social rank to become a Knight in a fighting order. Instead, these lesser men are taken on to fight in support of the Knights. Often, they do very well, as they are motivated by the prospect of salvation and promotion. They are well armoured and equipped with spears."}
+
+["OttomanInfantry_desc"]
+{"Well armed and armoured, Ottoman infantry are tough enough to be in the vanguard of any Turkish army. They are well equipped with bows and axes (which give them an advantage against armoured enemies), and well trained and disciplined. Usually, they can be relied on to defeat most infantry."}
+
+["OttomanSipahi_desc"]
+{"Turkish Sipahi differ from many European troops in one important respect - control. They are professionals who can be relied on to obey orders. Deployed correctly, the only units the Sipahi need fear are spearmen or pikemen. Their equipment is fully the equal of any other heavy cavalry."}
+
+["PaviseArbalester_desc"]
+{"The arbalest is a heavy crossbow that can fire a bolt which will go through most armoured targets. It has a very slow rate of fire, as it needs a windlass to span the weapon! While reloading, a Pavise Arbalester hides behind his large man-sized shield."}
+
+["PaviseCrossbows_desc"]
+{"Anyone can master a crossbow in a few weeks - but it is not a perfect weapon. It has a slow rate of fire, and during reloading a crossbowman is vulnerable unless he has a pavise, or large shield, to shelter behind. The Italians are famous for their crossbowmen."}
+
+["Peasants_desc"]
+{"Life is never easy for peasants on the bottom rung of a very long social ladder. When war comes, the levy takes them away from home and their crops. They are given few weapons, just expected to fight and die for their betters. Peasants are therefore unreliable but cheap units."}
+
+["Pikemen_desc"]
+{"Pikes are very long spears. This length means that pikemen need proper training before they can act as a unit. Unlike other troops, the first four ranks of pikemen can fight against an enemy, presenting a wall of gleaming spear points to any foolish enough to charge them."}
+
+["PolishRetainer_desc"]
+{"These minor Polish nobility are good medium cavalry, with both mail armour for protection and heavy lances to provide a real punch when charging enemies. While good attackers, they are not equals of Knights and will have trouble holding their ground when committed against such powerful foes. "}
+
+["PronoiaiAllagion_desc"]
+{"Even the coffers of Byzantium are not bottomless, so the mercenary Pronoiai Allagion are paid in land instead of money. These men are the Byzantine equivalent of heavy knights: part soldiers, part local rulers. With mail armour, lances, and horse barding, they are as good as many western knights."}
+
+["ReligiousFanatics_desc"]
+{"Simple, uneducated people are often willing to follow a charismatic leader who promises them Heaven. Existence for many is a hell of backbreaking work and grinding poverty. Fighting and dying with unquestioning, righteous faith is a chance of everlasting life in Paradise! And so religious fanatics are inspired..."}
+
+["SaharanCavalry_desc"]
+{"In a desert, beneath the merciless sun, speed is better protection than armour that could roast its wearer! Saharan Cavalry are fast 'skirmishers' used to protect an army's flanks, keep archers away, and chase down enemies. Even when armed with their swords and shields, they are not suited to prolonged melees."}
+
+["SaracenInfantry_desc"]
+{"Like many Saracens, these medium spearmen are well disciplined when compared to 'Frankish' or Crusader opponents. Their spears give them an advantage when fighting cavalry, and they are lightly armoured so that they can move swiftly beneath the desert sun. They can also hold their own against comparable infantry."}
+
+["SerpentineCrew_desc"]
+{"A Serpentine is a light cannon with a very long barrel - the name comes from its snake-like proportions - that fires a 1 kg ball. It is light, transportable and quite accurate. It has a good range and a single shot can kill more than one man."}
+
+["SiegecannonCrew_desc"]
+{"Siege Cannons are status symbols and all kings want these in their arsenals! Gunnery is a science rather than a matter of luck. Big guns become practical: they won’t explode and kill the crew rather than the enemy as over time gunsmiths become more skilled and gunpowder improves in quality. "}
+
+["SipahiofthePorte_desc"]
+{"The Sipahi of the Porte are the elite Turkish royal bodyguard. Their combination of mail, armoured horses, sword and bow make them powerful foes, but their vigorous training makes them truly impressive! The Sultan and royal Princes all command small Sipahi units. Raising extra Sipahi of the Porte is expensive."}
+
+["SpanishJinetes_desc"]
+{"Once Moorish soldiery, Jinetes are lightly armoured cavalry, both fast and manoeuvrable. They often manage to surprise enemies, as instead of using lances they hurl javelins before closing to fight hand-to-hand with swords. This double ability makes them handy warriors and a fine addition to any Spanish army."}
+
+["Spearmen_desc"]
+{"Spearmen are useful in almost any army, particularly against cavalry and, unlike other troop types, the first two ranks can fight thanks to their spears. They aren't likely to stand for long against professional men-at-arms, but they can give cavalry a nasty shock as long as they hold formation."}
+
+["SteppeCavalry_desc"]
+{"The men of the steppes learn to ride as soon as they can walk; along with hunting, it is a necessary survival skill of life and war. They are superb, almost matchless, light horseman and masters of wide variety of weapons. They are best when used to harass and pursue."}
+
+["SwissArmouredPikemen_desc"]
+{"Swiss Pikemen are very effective against cavalry. The first four ranks of any pike unit can fight, and horses will not charge into a wall of pike points. Swiss Pikemen are highly regarded thanks to their professionalism, but their solid formations can make them an easy target for missile fire."}
+
+["SwissHalbardiers_desc"]
+{"Swiss Halberdiers are extremely well trained and disciplined - a product of the Swiss obsession with defending themselves. Although lightly armoured, their halberds are very effective against most enemies. Unlike spears that are good for holding cavalry at bay, halberds inflict heavy casualties even against heavily armoured opponents."}
+
+["SwissPikemen_desc"]
+{"Using a pike - which may be anything up to 4m long - takes training, and Swiss pikemen are the best in Europe. They are superb against cavalry - no horse will charge against a wall of pike points - with four ranks of pikemen all capable of fighting at once. "}
+
+["TeutonicKnights_desc"]
+{"The Teutonic Knights are an order of German Knights, committed to fighting against heretics, infidels and pagans alike. They are easily the equals in combat of the other Orders of Knighthood, if not quite so disciplined. This 'lack' of discipline is of no comfort to those facing Teutonic Knights!"}
+
+["TeutonicSergeants_desc"]
+{"The fighting Orders are socially exclusive, not taking men from the lower ranks of society into the Order itself. The Teutonic Sergeants are socially inferior men trained as heavy cavalry, but without the dash and valour of true knights. In battle, they are almost as effective as the Order's Knights."}
+
+["TrebizondArchers_desc"]
+{"Compound bows give these soldiers an advantage thanks to their range, accuracy and penetrative power. Trebizond Archers are well trained and disciplined, and can act (at a pinch) as a light infantry. Although they can melee, it would be a foolish commander who used them to attack unbroken enemies."}
+
+["TrebuchetCrew_desc"]
+{"The Trebuchet is a huge weapon - so big that it is usually built on the battlefield! The throwing arm uses a counterweight to hurl missiles tremendous distances. This can be anything from heavy boulders to fire pots, or diseased animals, prisoners, captured spies, or corpses to demoralize the enemy!"}
+
+["TurcomanFoot_desc"]
+{"The Turcomans, from Turkmenistan and North-eastern Persia, are adept in desert warfare. They are primarily archers, but can fight as light infantry if they need to do so. They are best used to weaken an enemy for others to attack. Their combat abilities are best reserved for self defence."}
+
+["TurcomanHorse_desc"]
+{"These fast, light cavalry are ideally suited to desert warfare: lightly armoured with bows and swords. They can harass and weaken units with missile fire and then press home attacks. Against 'Frankish' Crusaders they have little trouble in staying out of range while wearing down the enemy."}
+
+["Turcopole_desc"]
+{"After fighting Saracen cavalry, the Crusaders realised that knights were not suited to war in the East. To counter the nimble Saracens, the Westerners recruited local mercenaries. These Turcopoles are lightly armoured and carry both bows and spears, making them a flexible unit type in combat."}
+
+["UrbanMilitia_desc"]
+{"As cities and trade grow, so does the need for local defence. Some towns and cities can provide a locally raised force, recruited from among apprentices and journeymen. While they only have limited training, their polearms give them an advantage against armoured troops, and they are more disciplined than peasantry."}
+
+["VarangianGuard_desc"]
+{"The Varangian Guard are part of the Imperial Household, a force of mercenary bodyguards. They have a history of being tough, loyal and resourceful men from the North. Over the centuries, their ranks have included Vikings (and a Viking King!), Saxons and Englishmen. Now, they are sometimes a ceremonial unit."}
+
+["Woodsman_desc"]
+{"Hardy woodsmen - superior to peasant levies - populate many regions where dense forests are the normal terrain. With their axes they can do terrible damage, even to 'better' troops and their light armour gives them some protection. They are still peasants, of course, and can run like any other peasantry!"}
+
+
+
+//==================
+//NAVAL DESCRIPTIONS
+//==================
+
+["Baggala_desc"]
+{"The baggala has the same basic design as a dhow but carries a catapult. This can be used to throw pots of Greek fire (an incendiary mixture of chemicals) at enemy ships. Pirates also use the baggala, but with rock missiles as they lack access to Greek fire."}
+
+["Barque_desc"]
+{"The barque is a small, single-masted sailing vessel suitable only for short voyages across shallow waters, but it is cheap and easy to build. Away from land, a heavy swell could sink a barque. The crew is few in number and unlikely to mount a very effective boarding action."}
+
+["Boom_desc"]
+{"The boom is a dhow-like warship. It carries a small cannon as armament to bombard targets and has sufficient crew to allow boarding attacks as well. It is strong enough to meet galleys on better-than-equal terms and handy enough under sail to attack from most quarters."}
+
+["Caravel_desc"]
+{"The caravel is a deep-sea ship, capable of surviving some storms. Originally used in the Mediterranean, it is now used everywhere. It is capable - rather than exceptional - in a fight as it has small catapults to bombard enemy ships, but it is not handy in light winds."}
+
+["Carrack_desc"]
+{"The carrack is a sleek, refined derivative of the Cog, able to withstand rough seas and carry a substantial tonnage. It also carries cannons, culverins and demi-culverins, a contingent of soldiers and a large crew. A carrack can generally be relied on to defeat any other ship. "}
+
+["Cog_desc"]
+{"The cog has come about thanks to shipwrights' experiments and gradual improvements in shipbuilding and rigging. A cog is a sturdy vessel with a deep draft so it can carry a large crew and troops. With demi-cannons as well, it is a handy all-rounder in combat. "}
+
+["Dhow_desc"]
+{"The dhow is a small trading and military ship found throughout the Arab world. It is fast and manoeuvrable, able to use light winds to enter any fight and also stay out of reach of more powerful enemies. Dhows carry no weapons; their crews attack by grappling and boarding."}
+
+["Dromon_desc"]
+{"The dromon is a small galley, with both a sail and oars. It is used as a scout and for coastal work, thanks to its shallow draught. It isn't a battleship, but in calm weather a dromon can out-manoeuvre and out-fight smaller ships and still have the speed to escape!"}
+
+["Firegalley_desc"]
+{"The fire galley is an improvement on the galley of old, equipped with a catapult to rain Greek fire upon an enemy. This, plus soldiers and a ram, make the fire galley a potent ship. Greek fire is a fearsome concoction that burns when wet - the perfect naval weapon!"}
+
+["Galley_desc"]
+{"As a type, the galley is tried, tested and ancient. With oars and sail, it is suited to Mediterranean waters. The crew is mostly rowers with a small fighting contingent of archers and soldiers. A galley has grappling irons and a ram to break an enemy's hull and oars."}
+
+["Gungalley_desc"]
+{"Cannons are the main armament of a gun galley, although it still has a ram and troops who can board enemy vessels. It is a formidable ship by any standards, with both sails and oars. It does have blind spots and is not very handy in a close fight."}
+
+["Longboat_desc"]
+{"The 'Viking' longboat appears to be a simple vessel, but actually is the end of many generations of careful improvement. It is capable of long ocean voyages, can be easily beached and can carry large cargoes, but as a fighting vessel it is only suitable for boarding attacks."}
+
+["Wargalley_desc"]
+{"A war galley is a large vessel equipped with several powerful catapults each capable of throwing Greek fire pots - on the basis that if one catapult is good, then more must be better! Although it also has a ram, it is relatively unwieldy under oars or sail."}
+
+
+
+//==================
+//AGENT DESCRIPTIONS
+//==================
+
+["Assassin_desc"]
+{"An assassin kills people. When dropped onto another character, the assassin will try to kill that character. His chance of success depends on his own skills and the importance of the target. "}
+
+["Bishop_desc"]
+{"A Catholic bishop improves the faith of the Catholic flock in his current province. He will only affect Catholic followers, not Orthodox Christians as well. "}
+
+["Cardinal_desc"]
+{"A cardinal is a powerful figure in the Catholic Church hierarchy, and his mere presence does much to boost the faith of Catholics. "}
+
+["Emissary_desc"]
+{"An emissary is a noble- or high-born man trained in diplomacy and sent to deal with rival monarchs and other nobility. An emissary acts as the eyes and ears of his master in his current location."}
+
+["GrandInquisitor_desc"]
+{"It is the grand inquisitor's calling to root out heresy and dissent wherever he finds it among the Catholic faithful. His presence in a province vastly reduces heresy, increases public zeal and will usually cow any rebellious population, as he often inspires outright terror!"}
+
+["Inquisitor_desc"]
+{"It is an inquisitor's calling to root out heresy and dissent in the Catholic flock. His presence in a province reduces heresy and can cow the whole population, thanks to his harsh reputation."}
+
+["Mullah_desc"]
+{"An alim is a learned, scholastic figure in the Islamic faith, and his presence in a province does much to boost the faith of Muslims."}
+
+["OrthodoxBishop_desc"]
+{"An Orthodox bishop improves the faith of the Orthodox flock in his current province. An Orthodox bishop will only affect his followers, not Catholics as well. "}
+
+["Priest_desc"]
+{"A priest improves the faith of all the Orthodox Christians in his current province just by his presence. Followers of other religions receive no benefits from the priest's presence."}
+
+["Princess_desc"]
+{"A princess is an asset to her family, acting as an emissary of sorts. She can be married to a general to encourage his loyalty, or she can be married into another royal family to cement an alliance. Her new royal husband may then have a claim to her father's lands. "}
+
+["Spy_desc"]
+{"A spy discovers information about your rivals. A spy sees everything about the province and any armies where he is standing. A spy can also be used to find out about a character's hidden vices, and can plant evidence of treachery. He can also cause discontent in rivals' provinces."}
+
+["Ulama_desc"]
+{"An imam is a hugely learned man, one who has spent his life in studying the Islamic faith. His presence in a province does much to inspire faith and raise zeal among Muslims."}
+
+
+
+//=================
+//MISC DESCRIPTIONS
+//=================
+
+["Crusade_desc"]
+{"A Crusade is as much a popular cause or movement as an army. It is created to drive the Church's enemies from a particular province at sword point, and once sent forth it cannot be recalled. Its strength can wax and wane as it proceeds, reflecting both its success and the zeal of the provinces it passes through. "}
+
+["Jihad_desc"]
+{"Jihad is a struggle for Islam. In this case, it is a populist calling to the faithful to take up the sword and defend a province from all enemies. Once begun, a Jihad develops a life of its own and cannot be recalled. Its strength changes to match its success and the zeal of provinces it passes through."}
+
+
+
+//==============================================================
+// Concatonations for describing the tech tree for this building.
+//==============================================================
+["Inactive crusade"]							
+{"Inactive crusade description"}
+
+["Inactive jihad"]
+{"Inactive jihad description"}
+
+["special_functions"]
+{"Special functions"}
+
+["mercenary_special_function"]
+{"Constructing this building will attract any mercenaries closeby to this region. You will then be able to hire these mercenary units for an appropriate fee."}
+
+["generated_income"]
+{"Generated income"}
+
+["mine_income"]
+{"This mine is capable of extracting the following resources here, yielding the specified annual income."}
+
+["farm_income"]
+{"Upgrading this farmland could potentially increase your income by the following amount:"}
+
+["merchant_income"]
+{"Constructing this building would allow you to profit from the following goods that are currenly available."}
+
+["merchant_income_part2"]
+{" + 50% of the income generated by buildings requiring these resources."}
+
+["port_income"]
+{"Ports receive 10% of all income generated by supplied merchants."}
+
+["currenly_generating_income"]
+{"This structure is currently generating an annual income of: "}
+
+["possible upgrades"]
+{"Possible upgrades"}
+		 
+["building_enablement"]
+{"Prerequisite for:"}
+
+["solo training enabled"]
+{"Alone, enables the training of:"}
+
+["training facilities"]
+{"Training facilities"}
+
+["conjunctional training enabled1"]
+{"With: "}
+
+["conjunctional training enabled2"]
+{" enables the training of: "}
+
+["conjunctional training enabled3"]
+{"Produces: "}
+
+["allows training of"]
+{"Allows training of: "}
+
+["with"]
+{"With "}
+
+//=====================
+//BUILDING DESCRIPTIONS
+//=====================
+["Fort_desc"]									
+{"A fort is more than just a defensive structure. It is an important symbol of wealth and a base for controlling land. A fort can hold a garrison of up to 240 men and, as the local centre of power, creates the security that allows all early buildings to be constructed."}
+
+["Fort Motte_desc"]								
+{"A motte is a mound of earth that provides an improved defensive position for a fort. With a commanding position on top of its Motte, a fort is easier to defend and so the motte reduces the losses that a garrison suffers during a siege and also aids defence against assaults."}
+
+["Fort Motte Bailey_desc"]						
+{"A bailey improves a fort's defences. It is a large courtyard surrounded by a stout palisade, creating an extra defensive 'layer' and a secure living area. Defenders can abandon the bailey and still fight on. This ability to retreat within a fort is useful during sieges and assaults."}
+
+["Keep_desc"]									
+{"A keep is the strong centre of a fortification, a "pocket castle" in its own right and a powerful symbol of lordship. It can be garrisoned by up to 420 men at any one time and can withstand long sieges. A keep allows many advanced buildings in the province."}
+
+["Keep Curtainwall_desc"]						
+{"A curtain wall adds an extra layer to a keep's defences, improving its ability to withstand a siege because in times of war many arms, stores and local people can be brought inside the walls to support the defenders. This reduces the attrition rate of the defenders during a siege."}
+
+["Keep Curtainwall Ballista_desc"]						
+{"Protected by its own bulk and by a curtain wall, another layer of defences can be added to a keep with ballista towers. These artillery pieces can bombard any besieging force, making any direct assaults risky! Besiegers are also kept beyond bowshot, reducing the losses suffered by the garrison."}
+
+["Castle_desc"]									
+{"A castle always dominates its landscape as a strongpoint and centre of the community. It needs many goods and services, and allows many advanced buildings in its province. It can hold a garrison of up to 600 men at any one time and can usually withstand sieges for long periods."}
+
+["Castle Ringwall_desc"]				  		
+{"A ring wall gives another defensive layer to a castle, and surrounds a large area that can be used for workshops, stores, stables and barracks. These effects mean that a ring wall greatly aids the garrison in withstanding long sieges, reducing the losses that they suffer over time."}
+
+["Castle Ringwall Catapult_desc"]				  		
+{"By mounting catapults on high towers, the defenders can bombard any attacking force with stones and burning missiles. This keeps besiegers at a safe distance (often beyond bowshot) and helps the garrison hold out during sieges. Catapults can also cause terrible casualties during the pitched battle of an assault."}
+
+["Citadel_desc"]						  		
+{"A huge and imposing structure, a citadel looms over any landscape. It is the power of a kingdom made visible in stone. 780 men can be a Citadel garrison and, when under siege, they can often outlast the foe. Its size and importance allows many advanced buildings in the locale."}
+
+["Citadel Barbican_desc"]						
+{"A barbican is a hugely strengthened gatehouse in a citadel's outer wall, often as strong as the central citadel itself. Castle gates will always be vulnerable to attack, so a barbican makes attackers pay dearly for trying to break through. It also helps house the garrison during a protracted siege."}
+
+["Citadel Barbican GunTowers_desc"]						
+{"A citadel, already guarded by a strong barbican to protect its gate, can be developed further: strong towers can now hold demi-culverins that can sweep enemy attackers away before they can reach the walls in any assault. The guns keep a besieging army at a respectful distance, making their efforts less effective."}
+
+["Fortress_desc"]								
+{"With the fortress, castle design begins to respond to the threat of guns. Hugely strengthened against gunfire rather than just assault, a fortress is so large as to have a small town within its walls. It can hold a garrison of 960 men, and is a prerequisite for very advanced building types."}
+
+["Fortress Artillerytowers1_desc"]				
+{"Culverin towers are a defence against gunfire and a gun position for the fortress's defenders. Cunningly built to deflect cannon fire from besieging armies and take advantage of advances in cannon making skills, culverin towers can also bombard any assault troops that are foolish (or brave) enough to be in range."}
+
+["Fortress Artillerytowers2_desc"]		
+{"Siege Cannon towers are both a defence against gunfire and a mighty gun position. Cunningly built to deflect cannon fire and take advantage of advances in casting technology, they can also bombard any assault troops that are foolish (or brave) enough to be in range."}
+
+["Bowyer_desc"]									
+{"A bowyer is a craftsman whose skills are vital in the medieval world. In addition to warfare, bows are extensively used by all levels of society for hunting and, therefore, for feeding people. A bowyer is also required before any advanced archery buildings can be constructed in a province."}
+
+["Bowyers Workshop_desc"]
+{"A bowyer's workshop puts the production of archery equipment on a more organised footing, and allows better craftsmen to make the most of their skills. This improves the weapon quality for all archers trained in the province, and makes a small contribution to improved trade in the province as well."}
+
+["Bowyers Guild_desc"]							
+{"A bowyers' guild - like all guilds - protects its members from cheap competition and makes sure that they are working to a high (and well-paid!) standard. Again, a bowyers' guild improves the weapon quality of archers trained here as well as, in combination with other buildings, allowing the training of some advanced troop types."}
+
+["Master Bowyer_desc"]
+{"A master bowyer makes weapons of superlative quality: all his products are literally "masterpieces" of their type. This improves the weapon quality of units that are trained here. A master bowyer allows the training of the most advanced forms of archer, providing other appropriate buildings are present in the province."}
+
+["Armourer_desc"]
+{"An armourer specialises in the production of good quality armour. This improves the armour quality of all units trained in this province, giving them a +1 bonus."}
+
+["Armourers Workshop_desc"]						
+{"High quality armour in large quantities is essential for the production of western knights. It is also useful even where knights are not produced, as it gives a +2 armour bonus to all troops produced in the province."}
+
+["Armourers Guild_desc"]
+{"An armourers' guild raises the quality of armour by enforcing standards, as only by joining the guild can a man be an armourer. Better quality, and newer, types of armour are the end result, giving a +3 armour bonus to all troops produced here. "}
+
+["Master Armourer_desc"]
+{"A master armourer is a craftsman beyond compare and rightly valued for the often very beautiful armour that he produces. His workshop supplies armour of the very best quality to units trained in the province, giving them a +4 armour bonus."}
+
+["Swordsmith_desc"]								
+{"Swords are among the most basic of all infantry weapons, but skilled workmanship is required to produce battle-worthy blades, beyond that of an everyday metalworker. A swordsmith allows the training of many basic infantry units and is also needed (along with stables of some kind) for basic cavalry forces."}
+
+["Swordsmiths Workshop_desc"]					
+{"As skills come to fruition, the quality of weapons supplied to troops naturally rises. The speed at which new blades can be made also improves, allowing the arming and training of new types of soldier, although sometimes these new forces require the services provided by other craftsmen and buildings."}
+
+["Swordsmiths Guild_desc"]						
+{"The move to guild status usually comes about when craftsmen realise that they can be a profitable monopoly. They also police their own ranks and drive the less competent men out of the trade. The quality of products rises, and so does the demand, to the benefit of trade and unit production."}
+
+["Master Swordsmith_desc"]						
+{"A master swordsmith only produces the very best blades, often for only the most discerning of customers, who willingly pay the high prices his skills and quality command. The presence of a master swordsmith grants a weapon quality bonus to any unit trained here, and improves income from trade."}
+
+["Metalsmith_desc"]
+{"The metalsmith produces good quality iron and steel which improves the quality of weapons for all troops produced in the province. This gives a +1 bonus to the attack of these troops. "}
+
+["Metalsmiths Workshop_desc"]					
+{"This workshop produces very good quality steel which improves the quality of weapons for all troops produced in the province. This gives a +2 bonus to the attack of these troops. "}
+
+["Metalsmiths Guild_desc"]
+{"This workshop produces high quality steel which improves the quality of weapons for all troops produced in the province. This gives a +3 bonus to the attack of these troops. "}
+
+["Master Metalsmith_desc"]						
+{"This workshop produces excellent quality steel which improves the quality of weapons for all troops produced in the province. This gives a +4 bonus to the attack of these troops. "}
+
+["Weaver_desc"]						
+{"Weaving is a basic skill in all societies, producing cloth and clothes for everyone. Weaving is an easy cottage industry to establish, but needs a wide range of skills between the raw wool and cotton and a finished product. As a result, a weaver provides work for many, boosting trade."}
+
+["Weavers Workshop_desc"]
+{"A weaver's workshop helps trade in the province, thanks to the more efficient use of labour by the weaver, his family and their labouring apprentices. Once the workshop has been established, small-scale "industrial" production gives worthwhile benefits to trade as the demand for cloth can be satisfied."}
+
+["Weavers Guild_desc"]							
+{"A weavers' guild promotes the interests of its members by making sure that local markets are not swamped by foreign goods, and that foreign markets are swamped by the Guild's own products! The Guild rigorously controls the cloth market of its home province, maintaining the lion's share of the growing trade."}
+
+["Master Weaver_desc"]							
+{"In an era when wealth is displayed ostentatiously, fine clothes made from the very best of materials are desired by the rich and powerful. Clothes, more than anything else, indicate a position in society. For the very best, a master weaver can charge what the trade will bear."}
+
+["Spearmaker_desc"]								
+{"A spearmaker is needed before most basic spear-armed troops can be equipped and trained. Almost anyone can be taught to use a spear in a battle, even though they cannot be relied on to stand and fight! Apart from clubs and maces, spears may be the oldest weapons in history."}
+
+["Spearmakers Workshop_desc"]					
+{"A spearmakers' workshop contributes to the training of many cavalry units. Spears used by peasants and foot soldiers are one thing, but the spears required by mounted men are slightly different and need to be carefully made so that they are strong and light, but also balanced for all kinds of combat."}
+
+["Spearmakers Guild_desc"]						
+{"As cavalry tactics evolve, so do the weapons of the cavalryman or knight. This requires the services of a spearmakers' guild to manufacture these new items. Instead of being a simple spear, the lance is highly developed, putting all the weight of man and horse into a single, killing point."}
+
+["Master Spearmaker_desc"]						
+{"The "puissant pike" is the ultimate development of spear technology, and requires both skill in use, and skill in the making of it. A master spearmaker has an eye for wood and the skills needed to produce these extremely long weapons, making it possible to train all kinds of pikemen."}
+
+["Glassmaker_desc"]								
+{"Glassmaking is a skill that dates back to antiquity, but was lost in parts of Europe. The skills needed to make beautiful glass objects are, however, being rediscovered slowly, including the skill of blowing glass. A glassmaker puts his skills to good use to increase trade in his home province."}
+
+["Glassmakers Workshop_desc"]					
+{"A glassmaker's workshop adds to trade in a province. Demand for glass, in particular window glass, drives forward the techniques of making glass; stained glass too needs its own special methods of manufacture, and all of these are labour intensive, involving blowing glass tubes and then carefully opening them out."}
+
+["Glassmakers Guild_desc"]						
+{"A glassmakers' guild is often concerned with protecting the market from outsiders. But it also increases the trade its members do, and hence profits, as they can act as a group to capture any market for their glassware by undercutting locals and then hiking prices, all in the name of trade!"}
+
+["Master Glassmaker_desc"]						
+{"At its most beautiful glass has an ethereal quality that makes it an object of desire, especially when created and decorated by a skilled master craftsman. The very best glassmakers can charge almost any price for their work, and as a result they add greatly to trade in their home provinces."}
+
+["Potter_desc"]									
+{"Pottery is a vital skill in the medieval world. Potters not only make many household utensils, but also the storage jars needed to hold winter food. They also make tiles for flooring and roofing for the better off. As a result, a potter adds to the trade in his province."}
+
+["Potters Workshop_desc"]						
+{"A potter's workshop gives an improvement to trade, thanks to the more efficient use of time by the potter, his many journeymen and their labouring apprentices. Once a workshop has been established, a form of small-scale mass production can be undertaken, giving trade and, perhaps surprisingly, some military benefits."}
+
+["Potters Guild_desc"]							
+{"A potters' guild is formed to protect its members' interests - and most of them are very interested in money! The Guild regulates who can - and who cannot - be a potter and the income of those potters. The guild dominates and helps the trade grow in a controlled way."}
+
+["Master Potter_desc"]							
+{"At its most beautiful and expensive, pottery ceases to be an implement or utensil and becomes an object of desire in itself. The very finest potters can charge comfortably high prices for their wares, and as a result they add greatly to the level of trade in their home provinces."}
+
+["Siege Engineer_desc"]							
+{"The craft of the siege engineer is an old and important one. Many of the techniques and weapons he uses can be traced back to the mists of antiquity. And before the coming of gunpowder, the siege engineer also reigns supreme as a battlefield artillerist of no little skill."}
+
+["Siege Engineers Workshop_desc"]				
+{"Once a siege engineer has a workshop, his skills have fewer limitations. He has the space, time and manual labourers at his command that he needs to produce fearsome engines of war. He also has the luxury of experimenting with new siege tactics, for both the attackers and defenders!"}
+
+["Siege Engineers Guild_desc"]					
+{"The siege engineers' guild serves to formalise and codify much of the knowledge of its members. Although it keeps its secrets from outsiders, the engineers can still use the collected information in their own work. Understanding of the larger siege engines means that they can now be constructed."}
+
+["Master Siege Engineer_desc"]					
+{"A master of his craft is often worth his own weight in gold. A master siege engineer is a peerless practitioner of the art of knocking defences down, and of using pre-gunpowder artillery too. His understanding of siege works is such that any engine may be constructed in his workshop."}
+
+["Mason_desc"]									
+{"A mason is a master of working in stone for buildings rather than wood, although he will use wood for scaffolding and formers. His skills are passed by word of mouth from master to apprentice, keeping the secrets of the craft while making sure that his buildings are sound and strong."}
+
+["Masons Workshop_desc"]				  		
+{"Once a mason has a workshop, his skills can flower. He has the space, time and apprentice labourers at his call that he needs to produce magnificent stone buildings. He also has the luxury of experimenting with new techniques in stonework, bringing benefits to the craft of masonry."}
+
+["Masons Guild_desc"]							
+{"The masons' guild is there to protect the interests of its members, and this includes making sure that non-member masons have to reach certain standards before they are accepted into the Guild and can work. This keeps up members' earnings, while making sure that buildings are high quality and economical."}
+
+["Master Mason_desc"]							
+{"A master mason is more than just a worker in stone. He has the eye of an artist for a pleasing line and he creates rather than simply builds a structure. His work is of such quality, speed and elegance that all the buildings he creates are economical in stone and labour."}
+
+["Vintner_desc"]						  		
+{"Wine is an important trading commodity. In the Christian world those with some aspirations to a social position drink it instead of locally made ale, and they drink it in prodigious quantities! This makes the wine trade very profitable, always assuming that the weather is good enough for the vines."}
+
+["Vintners Workshop_desc"]						
+{"A vintner's workshop allows the steady improvement of a province's viniculture, to the great benefit of trade. Although the vintner concentrates on carefully developing and improving vines, there are those who would accuse him of only inventing new ways to water down the product or squeeze more from the grapes!"}
+
+["Vintners Guild_desc"]							
+{"A vintners' guild is mostly concerned with increasing the profits of its members and making the entry of new merchants into an established market as difficult as possible. The Guild also has the effect of increasing trade, as its members act together to gain a bigger share in every market."}
+
+["Master Vintner_desc"]							
+{"A master vintner can use his connections with merchants in other provinces to significantly increase the value of the wine trade in his home province. His is capable of organising the shipping of fine wines to any land where parched throats and fat purses can be found!"}
+
+["Leatherworker_desc"]							
+{"Leather is a by-product of meat production as no animals are kept just for their skins. The leatherworker's craft has its own peculiarities - he can catch an amazing number of animal diseases, and generates a huge demand for urine (used to soften leather). His work does, however, increase trade."}
+
+["Leatherworkers Workshop_desc"]		  		
+{"Leather is not only for shoes, boots and clothes. Leather is, after all, one of the few vaguely waterproof materials available. It's also needed in the making of armour: chainmail and even plate need some kind of padded backing to cushion the wearer. A workshop improves trade in its province."}
+
+["Leatherworkers Guild_desc"]					
+{"A leatherworkers' guild is completely focused on increasing its members' profits, in making it impossible for non-guild members to work and compete, and in making entry time consuming. All of this has the effect of making the trade of its members much more valuable than it would otherwise be."}
+
+["Master Leatherworker_desc"]					
+{"A master leatherworker can craft the finest items in leather for any customer, from ladies' kid gloves to elaborately decorated scabbards. His work commands a high price, especially for wealthy merchants and nobles who relish conspicuous consumption. A master leatherworker can significantly improve trade."}
+
+["Gunsmith_desc"]								
+{"Once its secrets have been unlocked, gunpowder is a significant addition to any royal armoury. But to make a real contribution to war, the skills of a gunsmith are needed to make the many smaller pieces that an army requires. He is also often an expert in the art of making powder."}
+
+["Gunsmiths Workshop_desc"]						
+{"As the art of gunpowder weaponry advances, a team of workers is required to make the newer and sturdier types of firearm. The gunsmith's workshop allows the training of units that use these weapons, and a sufficient supply of gunpowder for them to function on the battlefield!"}
+
+["Gunsmiths Guild_desc"]				  		
+{"Some guilds are not solely about profits for their members. The gunsmiths' guild protects their secrets from outsiders, making sure that their weaponry and gunpowder are of a high quality. And by raising standards in manufacturing, the guild allows advanced units to be trained to make use of technical developments."}
+
+["Master Gunsmith_desc"]				  		
+{"The master gunsmith represents the pinnacle (to date) of the gun maker's arts. He is capable of producing guns of surpassing beauty and lethality, and can oversee the production of the finest gunpowder yet made. Once built, a master gunsmith allows training of the most advanced types of firearms-equipped troops."}
+
+["Salter_desc"]
+{"Salting is the one way of saving many foodstuffs for safe long-term storage. Without a salter, much of the fish caught or meat taken from animal carcasses will have to be eaten immediately, or simply allowed to rot. By storing some away for off-season consumption, trade in foods is encouraged."}
+
+["Salters Workshop_desc"]						
+{"A salter's workshop allows the preparation of greater quantities and greater varieties of salted meats and fish. This can be put in storage and eaten during the winter months, or used as supplies by armies. In either case, the benefit to trade in the province can be considerable."}
+
+["Salters Guild_desc"]							
+{"A salters' guild is concerned with protecting the market from outside competition, and in completely dominating the protected market. Once in place, the salters have control of preserving all kinds of foods for out-of-season consumption, helping to boost trade (and the profits) in these once seasonal foodstuffs."}
+
+["Master Salter_desc"]							
+{"A master salter can use his skills to preserve foods for long-term storage and make sure that the foods' flavours are not lost in the process. His improved techniques help food storage for the winter months, and help generate trade in salted goods, which are easier to transport than fresh food."}
+
+["Forester_desc"]								
+{"Timber is one of the vital commodities of the medieval world. It is used for homes and palaces, ships and castles. It is the fuel that keeps people warm in winter and, as charcoal, is vital in metalworking. A forester makes sure that this important trade flourishes."}
+
+["Foresters Workshop_desc"]						
+{"A forester's workshop provides a focal point for the work of felling trees and then milling the timber, organising the labour of foresters, apprentices and labourers in an efficient way. As a result, it helps this important trade to flourish and increase in the province."}
+
+["Foresters Guild_desc"]				  		
+{"A foresters' guild is usually concerned with protecting markets for its members. If it is any good, the trade the members control will increase substantially, as the guild is usually in a position where it can shut down outsiders before they have a chance to eat into any profits!"}
+
+["Master Forester_desc"]				  		
+{"A master forester can get the maximum amount of usable wood from any stand of trees. His eye is trained to pick out the best trees for felling, and his skills mean that no effort is wasted. His work helps generate trade simply by producing the timber quickly and economically."}
+
+["Town Watch_desc"]								
+{"The town watch is a group of men paid to act as a combination of firemen, nightwatchmen, wall patrol, thief-takers, linkboys, musicians and even a visiting wake-up service for their fellow townsfolk. The job is not very well paid, but is vital to maintaining public order."}
+
+["Town Guard_desc"]								
+{"A town guard is a mark of prosperity in a province. When towns are independent enough to have their own soldiers, they are beginning to throw off the feudal shackles that can limit trade, growth - and ultimately - wealth. A town guard allows militias to be trained for the battlefield."}
+
+["Town Militia_desc"]							
+{"The town militia put the defence of towns and cities on a more organised footing. Rather than being an ad-hoc collection of citizens, the militias are trained bands of townsfolk and journeymen who practice some military drill in their spare time, but are far from being hardened, professional soldiers."}
+
+["County Militia_desc"]							
+{"The final expression of local pride in a province is the establishment of "gentlemen militias", based in the towns and cities. They owe no feudal loyalties and are independent of the old military system, and have no problems raising money for equipment from wealthy members and sponsors."}
+
+["Trading Post_desc"]
+{"A trading post is a local shop selling local goods to local people, formalising trade and allowing it to be properly taxed. In areas with a port, goods can also be sent to distant lands to earn even greater returns, but thre is a limit to the profit a trading post can generate."}
+
+["Merchant_desc"]
+{"A merchant organises and controls the trade in a province for maximum profit and sales. In coastal areas where he has access to a port and trade routes, he can also export goods for further profit, although there is still a limit to the amount of trade he can handle. "}
+
+["Merchants Guild_desc"]
+{"With the rise of a guild structure, the merchants of a province are in a strong position to monopolise all trade in a province and sell goods overseas for high prices where there is also a port and connecting trade routes. The guild has the potential to generate large revenues."}
+
+["Master Merchant_desc"]
+{"A master merchant is truly a genius of commerce and finance. His control over trade is such that he can squeeze the maximum profits from local sales and make profits from sales across the world where he has access to a port and properly protected trade routes."}
+
+["Inn_desc"]							  		
+{"An inn is more than a place where drink cheers up the locals. It is the centre of the community, where minstrels can sing songs of brave deeds and mighty battles, and where the doers of those brave deeds and mighty battles can be hired as mercenaries."}
+
+["Tavern_desc"]									
+{"A tavern can have more uses than just drinking. It's a place to meet people: useful people. Tavern brawls produce dirty fighters, perhaps not expert soldiers, but still reliable killers who can be paid to pick a fight or put a knife to good, secretive use in a back alley somewhere..."}
+
+["Brothel_desc"]						  		
+{"A man's guard is dropped in moments of intimacy, even in the paid intimacy of a brothel. Secrets are confided in many a sleepy conversation, and sometimes-truthful boasts are made in the hope of impressing a "lady". In all these cases, a clever individual can listen and profit from the craft of spying."}
+
+["Royal Palace_desc"]							
+{"The royal palace is often a hotbed of intrigue among the lesser folk who seek the ruler's favour. In the atmosphere of petty conspiracy, it trains fine emissaries. Having at least one royal palace also gives the ruler the office of chamberlain which he can confer on one of his generals."}
+
+["Chancellery_desc"]					  		
+{"The chancellery is the palace and home of the ruler's first minister, the chancellor, and the man responsible for all government business except running the army. This role gives immense status and it is only fitting that this dwelling, a personal gift from the monarch, is truly magnificent."}
+
+["Constables Palace_desc"]						
+{"The term constable is a derivation from "comes stabuli", the count or companion of the stables in Roman times. This office of high honour is concerned with a monarch's field armies, important tournaments and all other matters military. The magnificence of the constable's palace reflects his high and mighty status."}
+
+["Marshals Palace_desc"]				  		
+{"The marshal gains his title from being a king's farrier or master of horse, but his rank is now far greater than that humble start. The marshal's post involves royal ceremony, precedence and the maintenance of good order. The palace matches the glory and honour of its occupant!"}
+
+["Admiralty_desc"]								
+{"The office of admiral gives its holder immense status as the "lord of the sea" and the leader of a nation's sea captains, although the holder may be only an honoured landlubber! The duties can be onerous, but the title's privileges and the handsome Admiralty building more than compensate."}
+
+["University_desc"]								
+{"A noble seat of learning is always an adornment to a province. A ruler who builds a university and endows it with sufficient lands to bring in an income gains influence and prestige, and may sow the seeds for further greatness in future generations as yet untaught."}
+
+["College Of Surgeons_desc"]			  		
+{"Although looked down on by physicians as menial workers in medicine, surgeons are a vital and skilled part of the medical world. The college of surgeons gives a home to part of the medical profession and helps, by spreading new knowledge and good practice, to mitigate the effects of disease."}
+
+["Military Academy_desc"]						
+{"As feudal armies give way to professional and "national" forces, the need for an educated class of leaders becomes paramount. Social rank - although useful to a commander - is not sufficient to entirely master the new ways of war. A military academy therefore allows the training of some very advanced units."}
+
+["Improved Farmland1_desc"]						
+{"As the population grows land must be cleared to provide food. While slash-and-burn clears large areas quickly, it is not sufficient for sustained farming. This needs improved organisation at the village level, with all the community working to see that crops are properly managed, giving an improved harvest."}
+
+["Improved Farmland2_desc"]						
+{"As crops are taken year after year, there is a need for crop rotation: growing a sequence of different crops to put goodness back into the soil and allowing fields to lie fallow for a year. Although some of the land is not used, the gains outweigh the small loss."}
+
+["Improved Farmland3_desc"]						
+{"Once in use farmland requires constant attention, but the techniques used are often age-old. The introduction of something as simple as a new deep-bladed plough, or even a change from using oxen to horses as draught animals can bring great improvements in the harvest."}
+
+["Improved Farmland4_desc"]						
+{"The final stage in getting the most out of a plot of land is to completely control its use, often by controlling the access to common lands and small plots. If these can be turned over to the local landowners productivity rises, even if the peasants suffer a little."}
+
+["Horse Farmer_desc"]							
+{"A good horse is valuable to a warrior. The rich soldier has a mount to carry him to and from battle, a pack animal for his heavy gear and a trained war-steed. The poorer man makes do with a nag. All, however, must get their horses from a horse farmer!"}
+
+["Horse Breeder_desc"]
+{"Heavier armour and weaponry carried by mounted men means that horses must be bred for endurance, speed and bravery in combat. Without the services of a horse breeder to produce such beasts, cavalry forces are hampered indeed and cannot be raised easily."}
+
+["Horse Breeders Guild_desc"]					
+{"The horse breeder's guild raises standards in its craft or trade, putting the raising of bloodstock on an organised footing. The guild aids in the training of some highly advanced and specialised cavalry units, and gives a general improvement in the quality of all cavalry trained in this province."}
+
+["Master Horse Breeder_desc"]
+{"For the very best troops, only the very best horses will do. With strong, aggressive and fearless mounts the most powerful warriors have an advantage over humbler soldiers. As well as the improved quality of cavalry trained here, a master also aids the production of some specialised troops."}
+
+["Royal Court_desc"]	
+{"The royal court is the seat of power for the monarch, a law court, government, household, army barracks and training ground for loyal troops - all in one place. It is also a seat of majesty, and reflects the power and prestige of the ruler, impressing his subjects with his wealth."}
+
+["Royal Estate_desc"]							
+{"The royal estate is the private holdings of the monarch: his home, civil officers, military and government all housed in a magnificent setting. He can raise units of royal knights here, but only by granting them lands at great expense."}
+
+["Baronial Court_desc"]							
+{"Power comes from the centre, but a monarch may allow authority to lesser lords and barons in return for obedience and duty. The baronial court achieves this, showing that a greater organisation has come to the affairs of goverment. "}
+
+["Baronial Estate_desc"]
+{"The land holdings of a baron can be large and magnificent indeed, almost rivalling those of the monarch. But a baronial estate is only held on behalf of the ruler by one of his lesser lords, who is given authority over the lands, including the right of raising some troops from his holdings. "}
+
+["Church_desc"]									
+{"While a mighty lord might claim his people's loyalty, it is organised religion that claims their souls. Religion is a powerful force in everyone's life, and a church building is God's presence given physical form. A centre of spiritual comfort, it renews and reinforces faith in a province."}
+
+["Mosque_desc"]									
+{"The mosque is the spiritual centre of the Muslim faith, and usually richly decorated by its builders. As well as being a place of worship, a mosque is also a place of scholarship, offering knowledge of the Koran and of the wider culture and science of Islam."}
+
+["Monastery_desc"]								
+{"A monastery is a spiritual powerhouse for the Christian religion, both managing church property in the area and acting as a centre of learning where scholars can collate and copy sacred texts. The monks not only lead the faithful but can also seek out heretical thinking in the flock."}
+
+["Reliquary_desc"]								
+{"Miraculous objects and holy relics that provide a physical connection to the saints and the truth of the Bible are wondrous indeed, and entirely worthy of being housed in great splendour! Not only are the faithful uplifted on a daily basis, some are so inspired as to take up arms! "}
+
+["Cathedral_desc"]								
+{"Often the most beautiful building in a province, a cathedral is a hymn of praise in stone to the glory of God. Its riches and air of sanctity bring pilgrims from far and wide, and its presence is a constant reminder of faith and the Church's power in everybody's life."}
+
+["Grand Mosque_desc"]							
+{"Truly, a remarkable building constructed for the praise of Allah the Merciful. More than just a house of worship, a great mosque is also a centre of learning and scholarship, and acts as a university in all but name, giving added influence to the one who builds it for future generations."}
+
+["Chapter House_desc"]							
+{"While following many of the rules that govern monasteries, the fighting orders of knighthood are not made up of monks. Instead, the knights are an elite, and need establishments that reflect their unique status. These holdings also reflect the wealth, status and piety of rulers who sponsor fighting orders."}
+
+["Ribat_desc"]									
+{"As a remote fastness, a ribat offers the Islamic faithful the chance to leave worldly desires aside for an undistracted ascetic life of piety. Such an isolated life can also lead its followers to see that it is desirable to pursue holy war in defence of their faith."}
+
+["Watch Towers_desc"]							
+{"This is not just a few watch towers, it's a whole network of watch towers along the borders and beacons to connect them. They keep an eye on military activity in neighbouring provinces, giving almost as much information as a spy would. "}
+
+["Border Fort_desc"]					  		
+{"Border forts are used to control which individuals come in and out of the province. All border crossings are covered, giving a good chance of catching and killing enemy spies and assassins as they attempt to enter."}
+
+["Border Fort Motte_desc"]						
+{"May not be used."}
+
+["Border Fort Motte Bailey_desc"]				
+{"May not be used."}
+
+["Border Keep_desc"]					  		
+{"May not be used."}
+
+["Border Keep Curtainwall_desc"]		  		
+{"May not be used."}
+
+["Border Donjon Curtainwall_desc"]				
+{"May not be used."}
+
+["Border Castle_desc"]							
+{"May not be used."}
+
+["Border Castle Sally Port_desc"]				
+{"May not be used."}
+
+["Border Castle Ringwall_desc"]					
+{"May not be used."}
+
+["Port_desc"]									
+{"A port can be a window on the world, and a doorway to new wealth. Merchants can bring in new and exciting goods and create an overseas market for their own produce, bringing new riches. But a port can also bring the danger of disease from foreign lands."}
+
+["Shipyard1_desc"]								
+{"A shipwright builds ships, allowing naval power to be developed. Ships can be used to explore the world, to transport troops long distances quickly, and to set up trade links with other ports, allowing the import of goods and profits to all. "}
+
+["Shipyard2_desc"]								
+{"Ships are the prime tools of sea traders, and a source of wealth and power to all maritime nations. Without control of the seas, no coastline is safe, and no trader can make a (taxable) profit. A small shipyard constructs the first ships that a ruler needs to secure his coasts."}
+
+["Shipyard3_desc"]								
+{"Bigger vessels demand better shipyards to build and maintain them. This shipyard allows all but the largest and most powerful vessels to be constructed. And although maintenance means no more than beaching a ship so that the hull can be scraped, the skilled men from a shipyard are needed."}
+
+["Shipyard4_desc"]								
+{"As trade increases there is a natural tendency for ships to grow too. The greatest shipyards allow the construction of the largest and most advanced vessels, alongside the smaller craft. The very largest cannon-armed vessels do, however, require foundries nearby in the province, because transporting artillery is difficult to say the least!"}
+
+["Bell Foundry_desc"]							
+{"While bells are vital for regulating daily toil and summoning people to prayer in Christian lands, the skills of the bell-founder are also useful in more violent ways. The same techniques used to cast bells can be used to make guns, although never in safety as molten metal is dangerous!"}
+
+["Cannon Foundry_desc"]							
+{"As the techniques needed to make guns are mastered, a cannon foundry is a sensible specialisation to produce nothing but weaponry. The drop casting of large tubes takes skill and patience, or else the end result will be flawed. A rushed job also has its risks for the workers."}
+
+["Master Foundry_desc"]							
+{"A master's foundry can produce not only the largest cannons and guns, but also the most technically advanced. Size isn't everything, as the weight and size of gun barrels can be reduced without reducing firepower. Working with molten metal is still dangerous, of course, even for a master."}
+
+["Copper Mine_desc"]					  		
+{"Copper is one of the main ingredients in bronze that, while no longer used for hand weapons, is still vital in the making of guns and cannons. A land blessed with copper not only gains riches, but also aids the creation of military power, providing the copper mine is working."}
+
+["Copper Mine Complex_desc"]			  		
+{"There is more to mining than simply digging a tunnel and taking the ore out of the ground. With careful work on the surface much of the spoil and lesser quality copper ore can be sorted, crushed and smelted, making a copper mine complex an altogether more profitable operation."}
+
+["Silver Mine_desc"]					  		
+{"Silver is the basis of much coinage, and a universal medium for trade. Finding silver on one’s lands is therefore a road to wealth and the prestige wealth brings. But in order to exploit this wealth, a silver mine must be built and kept running, regardless of risk to the miners. "}
+
+["Silver Mine Complex_desc"]			  		
+{"There is more to mining than simply digging a tunnel and taking the ore out of the ground. With careful work on the surface much of the spoil and lesser quality ore can be sorted, crushed and smelted, making a mine complex an altogether more profitable operation."}
+
+["Gold Mine_desc"]
+{"Gold has always been the basis of wealth. Gold in a province promises untold riches to the land's master. Building a gold mine delivers those riches in abundance, but at a terrible cost in lives as mining even near the surface is dangerous work, even for experts."}
+
+["Gold Mine Complex_desc"]						
+{"There is more to mining than simply finding a vein of gold. With extra workers in the mine, the spoil heaps can be washed, sorted by hand, crushed and smelted, making a gold mine complex an altogether more efficient way of extracting the precious metal. "}
+
+["Salt Mine_desc"]								
+{"Salt is a vital food preservative. With little chance of keeping every farm animal alive over winter, slaughter is the only way of getting the food they represent. The meat must be salted away or it will rot. People starve without salt, making salt mines profitable where salt is found."}
+
+["Salt Mine Complex_desc"]						
+{"While a salt mine can be profitable, with extra work much of the spoil can be processed to extract even more precious salt by washing and allowing the salt water to dry in pans. No more digging than before is needed, but the production rate of a mine complex is higher."}
+
+
+["Fort_Completed"]								{"Fort Completed."}                            
+["Fort Motte_Completed"]						{"Fort and Motte Completed."}                      
+["Fort Motte Bailey_Completed"]					{"Fort, Motte and Bailey Completed."}               
+["Keep_Completed"]								{"Keep Completed."}                           
+["Keep Curtainwall_Completed"]					{"Keep and Curtain Wall Completed."}
+["Keep Curtainwall Ballista_Completed"]                		{"Keep, Curtain Wall and Ballista Towers Completed."}
+["Castle_Completed"]							{"Castle Completed."}                          
+["Castle Ringwall_Completed"]					{"Castle and Ring Wall Completed."}                 
+["Castle Ringwall Catapult_Completed"]			{"Castle, Ring Wall and Catapult Towers Completed."}                 
+["Citadel_Completed"]							{"Citadel Completed."}                         
+["Citadel Barbican_Completed"]					{"Citadel and Barbican Completed."}
+["Citadel Barbican GunTowers_Completed"]			{"Citadel, Barbican and Demi-Culverin Towers Completed."}                
+["Fortress_Completed"]							{"Fortress Completed."}                        
+["Fortress Artillerytowers1_Completed"]			{"Fortress and Culverin Towers Completed."}        
+["Fortress Artillerytowers2_Completed"]			{"Fortress and Siege Cannon Towers Completed."}
+["Bowyer_Completed"]							{"Bowyer Completed."}                          
+["Bowyers Workshop_Completed"]					{"Bowyer's Workshop Completed."}                
+["Bowyers Guild_Completed"]						{"Bowyers' Guild Completed."}                   
+["Master Bowyer_Completed"]						{"Master Bowyer Completed."}                   
+["Armourer_Completed"]							{"Armourer Completed."}                        
+["Armourers Workshop_Completed"]				{"Armourer's Workshop Completed."}              
+["Armourers Guild_Completed"]					{"Armourers' Guild Completed."}                 
+["Master Armourer_Completed"]					{"Master Armourer Completed."}                 
+["Swordsmith_Completed"]						{"Swordsmith Completed."}                      
+["Swordsmiths Workshop_Completed"]				{"Swordsmith's Workshop Completed."}            
+["Swordsmiths Guild_Completed"]					{"Swordsmiths' Guild Completed."}               
+["Master Swordsmith_Completed"]					{"Master Swordsmith Completed."}               
+["Metalsmith_Completed"]						{"Metalsmith Completed."}                      
+["Metalsmiths Workshop_Completed"]				{"Metalsmith's Workshop Completed."}            
+["Metalsmiths Guild_Completed"]					{"Metalsmiths' Guild Completed."}               
+["Master Metalsmith_Completed"]					{"Master Metalsmith Completed."}               
+["Weaver_Completed"]							{"Weaver Completed."}                          
+["Weavers Workshop_Completed"]					{"Weaver's Workshop Completed."}                
+["Weavers Guild_Completed"]						{"Weavers' Guild Completed."}                   
+["Master Weaver_Completed"]						{"Master Weaver Completed."}                   
+["Spearmaker_Completed"]						{"Spearmaker Completed."}                      
+["Spearmakers Workshop_Completed"]				{"Spearmaker's Workshop Completed."}            
+["Spearmakers Guild_Completed"]					{"Spearmakers' Guild Completed."}               
+["Master Spearmaker_Completed"]					{"Master Spearmaker Completed."}               
+["Glassmaker_Completed"]						{"Glassmaker Completed."}                      
+["Glassmakers Workshop_Completed"]				{"Glassmaker's Workshop Completed."}            
+["Glassmakers Guild_Completed"]					{"Glassmakers' Guild Completed."}               
+["Master Glassmaker_Completed"]					{"Master Glassmaker Completed."}               
+["Potter_Completed"]							{"Potter Completed."}                          
+["Potters Workshop_Completed"]					{"Potter's Workshop Completed."}                
+["Potters Guild_Completed"]						{"Potters' Guild Completed."}                   
+["Master Potter_Completed"]						{"Master Potter Completed."}                   
+["Siege Engineer_Completed"]					{"Siege Engineer Completed."}                  
+["Siege Engineers Workshop_Completed"]			{"Siege Engineer's Workshop Completed."}        
+["Siege Engineers Guild_Completed"]				{"Siege Engineers' Guild Completed."}           
+["Master Siege Engineer_Completed"]				{"Master Siege Engineer Completed."}           
+["Mason_Completed"]								{"Mason Completed."}                           
+["Masons Workshop_Completed"]					{"Mason's Workshop Completed."}                 
+["Masons Guild_Completed"]						{"Masons' Guild Completed."}                    
+["Master Mason_Completed"]						{"Master Mason Completed."}                    
+["Vintner_Completed"]							{"Vintner Completed."}                         
+["Vintners Workshop_Completed"]					{"Vintner's Workshop Completed."}               
+["Vintners Guild_Completed"]					{"Vintners' Guild Completed."}                  
+["Master Vintner_Completed"]					{"Master Vintner Completed."}                  
+["Leatherworker_Completed"]						{"Leatherworker Completed."}                   
+["Leatherworkers Workshop_Completed"]			{"Leatherworker's Workshop Completed."}         
+["Leatherworkers Guild_Completed"]				{"Leatherworkers' Guild Completed."}            
+["Master Leatherworker_Completed"]				{"Master Leatherworker Completed."}            
+["Gunsmith_Completed"]							{"Gunsmith Completed."}                        
+["Gunsmiths Workshop_Completed"]				{"Gunsmith's Workshop Completed."}              
+["Gunsmiths Guild_Completed"]					{"Gunsmiths' Guild Completed."}                 
+["Master Gunsmith_Completed"]					{"Master Gunsmith Completed."}                 
+["Salter_Completed"]							{"Salter Completed."}                          
+["Salters Workshop_Completed"]					{"Salter's Workshop Completed."}                
+["Salters Guild_Completed"]						{"Salters' Guild Completed."}                   
+["Master Salter_Completed"]						{"Master Salter Completed."}                   
+["Forester_Completed"]							{"Forester Completed."}                        
+["Foresters Workshop_Completed"]				{"Forester's Workshop Completed."}              
+["Foresters Guild_Completed"]					{"Foresters' Guild Completed."}                 
+["Master Forester_Completed"]					{"Master Forester Completed."}                 
+["Town Watch_Completed"]						{"Town Watch Completed."}                      
+["Town Guard_Completed"]						{"Town Guard Completed."}                      
+["Town Militia_Completed"]						{"Town Militia Completed."}                    
+["County Militia_Completed"]					{"County Militia Completed."}                  
+
+["Trading Post_Completed"]						{"Trading Post Completed"}
+["Merchant_Completed"]							{"Merchant Completed"}
+["Merchants Guild_Completed"]					{"Merchants' Guild Completed"}
+["Master Merchant_Completed"]					{"Master Merchant Completed"}
+
+["Inn_Completed"]								{"Inn Completed."}                             
+["Tavern_Completed"]							{"Tavern Completed."}                          
+["Brothel_Completed"]							{"Brothel Completed."}                         
+["Royal Palace_Completed"]						{"Royal Palace Completed."}                    
+["Chancellery_Completed"]						{"Chancellery Completed."}                     
+["Constables Palace_Completed"]					{"Constable's Palace Completed."}               
+["Marshals Palace_Completed"]					{"Marshal's Palace Completed."}                 
+["Admiralty_Completed"]							{"Admiralty Completed."}                       
+["University_Completed"]						{"University Completed."}                      
+["College Of Surgeons_Completed"]				{"College Of Surgeons Completed."}             
+["Military Academy_Completed"]					{"Military Academy Completed."}                
+["Improved Farmland1_Completed"]				{"Improved Farmland +20% Completed."}              
+["Improved Farmland2_Completed"]				{"Improved Farmland +40% Completed."}              
+["Improved Farmland3_Completed"]				{"Improved Farmland +60% Completed."}              
+["Improved Farmland4_Completed"]				{"Improved Farmland +80% Completed."}              
+["Horse Farmer_Completed"]						{"Horse Farmer Completed."}                    
+["Horse Breeder_Completed"]						{"Horse Breeder Completed."}                   
+["Horse Breeders Guild_Completed"]				{"Horse Breeders' Guild Completed."}            
+["Master Horse Breeder_Completed"]				{"Master Horse Breeder Completed."}            
+["Royal Court_Completed"]						{"Royal Court Completed."}                     
+["Royal Estate_Completed"]						{"Royal Estate Completed."}                    
+["Baronial Court_Completed"]					{"Baronial Court Completed."}                  
+["Baronial Estate_Completed"]					{"Baronial Estate Completed."}                 
+["Church_Completed"]							{"Church Completed."}                          
+["Mosque_Completed"]							{"Mosque Completed."}                          
+["Monastery_Completed"]							{"Monastery Completed."}                       
+["Reliquary_Completed"]							{"Reliquary Completed."}                       
+["Cathedral_Completed"]							{"Cathedral Completed."}                       
+["Grand Mosque_Completed"]						{"Grand Mosque Completed."}                    
+["Chapter House_Completed"]						{"Chapter House Completed."}                   
+["Ribat_Completed"]								{"Ribat Completed."}                           
+["Watch Towers_Completed"]						{"Watch Towers Completed."}                    
+["Border Fort_Completed"]						{"Border Fort Completed."}                     
+["Border Fort Motte_Completed"]					{"Border Fort Motte Completed."}               
+["Border Fort Motte Bailey_Completed"]			{"Border Fort Motte Bailey Completed."}        
+["Border Keep_Completed"]						{"Border Keep Completed."}                     
+["Border Keep Curtainwall_Completed"]			{"Border Keep Curtainwall Completed."}         
+["Border Donjon Curtainwall_Completed"]			{"Border Donjon Curtainwall Completed."}       
+["Border Castle_Completed"]						{"Border Castle Completed."}                   
+["Border Castle Sally Port_Completed"]			{"Border Castle Sally Port Completed."}        
+["Border Castle Ringwall_Completed"]			{"Border Castle Ringwall Completed."}          
+["Port_Completed"]								{"Port Completed."}                            
+["Shipyard1_Completed"]							{"Shipwright Completed."}                       
+["Shipyard2_Completed"]							{"Dockyard Completed."}                       
+["Shipyard3_Completed"]							{"Shipbuilders' Guild Completed."}                       
+["Shipyard4_Completed"]							{"Master Shipbuilder Completed."}                       
+["Bell Foundry_Completed"]						{"Bell Foundry Completed."}                    
+["Cannon Foundry_Completed"]					{"Cannon Foundry Completed."}                  
+["Master Foundry_Completed"]					{"Master Foundry Completed."}                  
+["Copper Mine_Completed"]						{"Copper Mine Completed."}                     
+["Copper Mine Complex_Completed"]				{"Copper Mine Complex Completed."}             
+["Silver Mine_Completed"]						{"Silver Mine Completed."}                     
+["Silver Mine Complex_Completed"]				{"Silver Mine Complex Completed."}             
+["Gold Mine_Completed"]							{"Gold Mine Completed."}                       
+["Gold Mine Complex_Completed"]					{"Gold Mine Complex Completed."}               
+["Salt Mine_Completed"]							{"Salt Mine Completed."}                       
+["Salt Mine Complex_Completed"]					{"Salt Mine Complex Completed."}               
+
+
+
+["Fort_Destroyed"]								{"Fort Destroyed."}                            
+["Fort Motte_Destroyed"]						{"Fort and Motte Destroyed."}                      
+["Fort Motte Bailey_Destroyed"]					{"Fort, Motte and Bailey Destroyed."}               
+["Keep_Destroyed"]								{"Keep Destroyed."}                           
+["Keep Curtainwall_Destroyed"]					{"Keep and Curtain Wall Destroyed."}                
+["Keep Curtainwall Ballista_Destroyed"]				{"Keep, Curtain Wall and Ballista Towers Destroyed."}              
+["Castle_Destroyed"]							{"Castle Destroyed."}                          
+["Castle Ringwall_Destroyed"]					{"Castle and Ring Wall Destroyed."}                 
+["Castle Ringwall Catapult_Destroyed"]			{"Castle, Ring Wall Catapult Towers Destroyed."}                 
+["Citadel_Destroyed"]							{"Citadel Destroyed."}                         
+["Citadel Barbican_Destroyed"]					{"Citadel and Barbican Destroyed."}   
+["Citadel Barbican GunTowers_Destroyed"]             		{"Citadel, Barbican and Demi-Culverin Towers Destroyed."}
+["Fortress_Destroyed"]							{"Fortress Destroyed."}                        
+["Fortress Artillerytowers1_Destroyed"]			{"Fortress and Culverin Towers Destroyed."}        
+["Fortress Artillerytowers2_Destroyed"]			{"Fortress and siege Cannon Towers Destroyed."}
+["Bowyer_Destroyed"]							{"Bowyer Destroyed."}                          
+["Bowyers Workshop_Destroyed"]					{"Bowyer's Workshop Destroyed."}                
+["Bowyers Guild_Destroyed"]						{"Bowyers' Guild Destroyed."}                   
+["Master Bowyer_Destroyed"]						{"Master Bowyer Destroyed."}                   
+["Armourer_Destroyed"]							{"Armourer Destroyed."}                        
+["Armourers Workshop_Destroyed"]				{"Armourer's Workshop Destroyed."}              
+["Armourers Guild_Destroyed"]					{"Armourers' Guild Destroyed."}                 
+["Master Armourer_Destroyed"]					{"Master Armourer Destroyed."}                 
+["Swordsmith_Destroyed"]						{"Swordsmith Destroyed."}                      
+["Swordsmiths Workshop_Destroyed"]				{"Swordsmith's Workshop Destroyed."}            
+["Swordsmiths Guild_Destroyed"]					{"Swordsmiths' Guild Destroyed."}               
+["Master Swordsmith_Destroyed"]					{"Master Swordsmith Destroyed."}               
+["Metalsmith_Destroyed"]						{"Metalsmith Destroyed."}                      
+["Metalsmiths Workshop_Destroyed"]				{"Metalsmith's Workshop Destroyed."}            
+["Metalsmiths Guild_Destroyed"]					{"Metalsmiths' Guild Destroyed."}               
+["Master Metalsmith_Destroyed"]					{"Master Metalsmith Destroyed."}               
+["Weaver_Destroyed"]							{"Weaver Destroyed."}                          
+["Weavers Workshop_Destroyed"]					{"Weaver's Workshop Destroyed."}                
+["Weavers Guild_Destroyed"]						{"Weavers' Guild Destroyed."}                   
+["Master Weaver_Destroyed"]						{"Master Weaver Destroyed."}                   
+["Spearmaker_Destroyed"]						{"Spearmaker Destroyed."}                      
+["Spearmakers Workshop_Destroyed"]				{"Spearmaker's Workshop Destroyed."}            
+["Spearmakers Guild_Destroyed"]					{"Spearmakers' Guild Destroyed."}               
+["Master Spearmaker_Destroyed"]					{"Master Spearmaker Destroyed."}               
+["Glassmaker_Destroyed"]						{"Glassmaker Destroyed."}                      
+["Glassmakers Workshop_Destroyed"]				{"Glassmaker's Workshop Destroyed."}            
+["Glassmakers Guild_Destroyed"]					{"Glassmakers' Guild Destroyed."}               
+["Master Glassmaker_Destroyed"]					{"Master Glassmaker Destroyed."}               
+["Potter_Destroyed"]							{"Potter Destroyed."}                          
+["Potters Workshop_Destroyed"]					{"Potter's Workshop Destroyed."}                
+["Potters Guild_Destroyed"]						{"Potters' Guild Destroyed."}                   
+["Master Potter_Destroyed"]						{"Master Potter Destroyed."}                   
+["Siege Engineer_Destroyed"]					{"Siege Engineer Destroyed."}                  
+["Siege Engineers Workshop_Destroyed"]			{"Siege Engineer's Workshop Destroyed."}        
+["Siege Engineers Guild_Destroyed"]				{"Siege Engineers' Guild Destroyed."}           
+["Master Siege Engineer_Destroyed"]				{"Master Siege Engineer Destroyed."}           
+["Mason_Destroyed"]								{"Mason Destroyed."}                           
+["Masons Workshop_Destroyed"]					{"Mason's Workshop Destroyed."}                 
+["Masons Guild_Destroyed"]						{"Masons' Guild Destroyed."}                    
+["Master Mason_Destroyed"]						{"Master Mason Destroyed."}                    
+["Vintner_Destroyed"]							{"Vintner Destroyed."}                         
+["Vintners Workshop_Destroyed"]					{"Vintner's Workshop Destroyed."}               
+["Vintners Guild_Destroyed"]					{"Vintners' Guild Destroyed."}                  
+["Master Vintner_Destroyed"]					{"Master Vintner Destroyed."}                  
+["Leatherworker_Destroyed"]						{"Leatherworker Destroyed."}                   
+["Leatherworkers Workshop_Destroyed"]			{"Leatherworker's Workshop Destroyed."}         
+["Leatherworkers Guild_Destroyed"]				{"Leatherworkers' Guild Destroyed."}            
+["Master Leatherworker_Destroyed"]				{"Master Leatherworker Destroyed."}            
+["Gunsmith_Destroyed"]							{"Gunsmith Destroyed."}                        
+["Gunsmiths Workshop_Destroyed"]				{"Gunsmith's Workshop Destroyed."}              
+["Gunsmiths Guild_Destroyed"]					{"Gunsmiths' Guild Destroyed."}                 
+["Master Gunsmith_Destroyed"]					{"Master Gunsmith Destroyed."}                 
+["Salter_Destroyed"]							{"Salter Destroyed."}                          
+["Salters Workshop_Destroyed"]					{"Salter's Workshop Destroyed."}                
+["Salters Guild_Destroyed"]						{"Salters' Guild Destroyed."}                   
+["Master Salter_Destroyed"]						{"Master Salter Destroyed."}                   
+["Forester_Destroyed"]							{"Forester Destroyed."}                        
+["Foresters Workshop_Destroyed"]				{"Forester's Workshop Destroyed."}              
+["Foresters Guild_Destroyed"]					{"Foresters' Guild Destroyed."}                 
+["Master Forester_Destroyed"]					{"Master Forester Destroyed."}                 
+["Town Watch_Destroyed"]						{"Town Watch Destroyed."}                      
+["Town Guard_Destroyed"]						{"Town Guard Destroyed."}                      
+["Town Militia_Destroyed"]						{"Town Militia Destroyed."}                    
+["County Militia_Destroyed"]					{"County Militia Destroyed."}                  
+
+["Trading Post_Destroyed"]						{"Trading Post Destroyed"}
+["Merchant_Destroyed"]							{"Merchant Destroyed"}
+["Merchants Guild_Destroyed"]					{"Merchants' Guild Destroyed"}
+["Master Merchant_Destroyed"]					{"Master Merchant Destroyed"}
+
+["Inn_Destroyed"]								{"Inn Destroyed."}                             
+["Tavern_Destroyed"]							{"Tavern Destroyed."}                          
+["Brothel_Destroyed"]							{"Brothel Destroyed."}                         
+["Royal Palace_Destroyed"]						{"Royal Palace Destroyed."}                    
+["Chancellery_Destroyed"]						{"Chancellery Destroyed."}                     
+["Constables Palace_Destroyed"]					{"Constable's Palace Destroyed."}               
+["Marshals Palace_Destroyed"]					{"Marshal's Palace Destroyed."}                 
+["Admiralty_Destroyed"]							{"Admiralty Destroyed."}                       
+["University_Destroyed"]						{"University Destroyed."}                      
+["College Of Surgeons_Destroyed"]				{"College Of Surgeons Destroyed."}             
+["Military Academy_Destroyed"]					{"Military Academy Destroyed."}                
+["Improved Farmland1_Destroyed"]				{"Improved Farmland +20%% Destroyed."}              
+["Improved Farmland2_Destroyed"]				{"Improved Farmland +40%% Destroyed."}              
+["Improved Farmland3_Destroyed"]				{"Improved Farmland +60%% Destroyed."}              
+["Improved Farmland4_Destroyed"]				{"Improved Farmland +80%% Destroyed."}              
+["Horse Farmer_Destroyed"]						{"Horse Farmer Destroyed."}                    
+["Horse Breeder_Destroyed"]						{"Horse Breeder Destroyed."}                   
+["Horse Breeders Guild_Destroyed"]				{"Horse Breeders' Guild Destroyed."}            
+["Master Horse Breeder_Destroyed"]				{"Master Horse Breeder Destroyed."}            
+["Royal Court_Destroyed"]						{"Royal Court Destroyed."}                     
+["Royal Estate_Destroyed"]						{"Royal Estate Destroyed."}                    
+["Baronial Court_Destroyed"]					{"Baronial Court Destroyed."}                  
+["Baronial Estate_Destroyed"]					{"Baronial Estate Destroyed."}                 
+["Church_Destroyed"]							{"Church Destroyed."}                          
+["Mosque_Destroyed"]							{"Mosque Destroyed."}                          
+["Monastery_Destroyed"]							{"Monastery Destroyed."}                       
+["Reliquary_Destroyed"]							{"Reliquary Destroyed."}                       
+["Cathedral_Destroyed"]							{"Cathedral Destroyed."}                       
+["Grand Mosque_Destroyed"]						{"Grand Mosque Destroyed."}                    
+["Chapter House_Destroyed"]						{"Chapter House Destroyed."}                   
+["Ribat_Destroyed"]								{"Ribat Destroyed."}                           
+["Watch Towers_Destroyed"]						{"Watch Towers Destroyed."}                    
+["Border Fort_Destroyed"]						{"Border Fort Destroyed."}                     
+["Border Fort Motte_Destroyed"]					{"Border Fort Motte Destroyed."}               
+["Border Fort Motte Bailey_Destroyed"]			{"Border Fort Motte Bailey Destroyed."}        
+["Border Keep_Destroyed"]						{"Border Keep Destroyed."}                     
+["Border Keep Curtainwall_Destroyed"]			{"Border Keep Curtainwall Destroyed."}         
+["Border Donjon Curtainwall_Destroyed"]			{"Border Donjon Curtainwall Destroyed."}       
+["Border Castle_Destroyed"]						{"Border Castle Destroyed."}                   
+["Border Castle Sally Port_Destroyed"]			{"Border Castle Sally Port Destroyed."}        
+["Border Castle Ringwall_Destroyed"]			{"Border Castle Ringwall Destroyed."}          
+["Port_Destroyed"]								{"Port Destroyed."}                            
+["Shipyard1_Destroyed"]							{"Shipwright Destroyed."}                       
+["Shipyard2_Destroyed"]							{"Dockyard Destroyed."}                       
+["Shipyard3_Destroyed"]							{"Shipbuilders' Guild Destroyed."}                       
+["Shipyard4_Destroyed"]							{"Master Shipbuilder Destroyed."}                       
+["Bell Foundry_Destroyed"]						{"Bell Foundry Destroyed."}                    
+["Cannon Foundry_Destroyed"]					{"Cannon Foundry Destroyed."}                  
+["Master Foundry_Destroyed"]					{"Master Foundry Destroyed."}                  
+["Copper Mine_Destroyed"]						{"Copper Mine Destroyed."}                     
+["Copper Mine Complex_Destroyed"]				{"Copper Mine Complex Destroyed."}             
+["Silver Mine_Destroyed"]						{"Silver Mine Destroyed."}                     
+["Silver Mine Complex_Destroyed"]				{"Silver Mine Complex Destroyed."}             
+["Gold Mine_Destroyed"]							{"Gold Mine Destroyed."}                       
+["Gold Mine Complex_Destroyed"]					{"Gold Mine Complex Destroyed."}               
+["Salt Mine_Destroyed"]							{"Salt Mine Destroyed."}                       
+["Salt Mine Complex_Destroyed"]					{"Salt Mine Complex Destroyed."}               
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	MEDIEVAL ADDON TEXT BEGINS HERE:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+// New unit descriptions..
+
+["ArabInfantry_desc"]			{"These are the backbone of the armies of Islam. Armed with sword and shield, they are effective hand-to-hand fighters, valuable when attacking rather than in defence. "}
+		
+["ArmouredSpearmen_desc"]		{"Whatever chroniclers say about swords and axes, the spear is a fine weapon, and more affordable. A warrior armoured in chain mail and armed with a spear and a shield is a match for most infantry, and well-able to defend against cavalry."}
+									
+["AvarNobles_desc"]				{"Like the other steppe peoples, the Avars' main strength lies in their cavalry. Though not as heavily armoured as the kataphraktoi of Byzantium, they are still a very effective and highly mobile force, equally good for ravaging the enemy's flanks and pulling units out of position."}
+									
+["Berserkers_desc"]				{"The wise men say that berserksgangr, the battle-madness of the Berserkers, is a gift from Odin himself. Despising armour, Berserkers spread slaughter across the battlefield, feeding the crows with the blood of their enemies. A wise commander does not try to control them, but simply lets them go."}
+									
+["ByzantineLancers_desc"]		{"Lancers are the foundation of Byzantine cavalry. Cheaper and lighter than the kataphraktoi, they are still well-protected and able to mount devastating charges against all kinds of enemies. Using archers to weaken  an enemy formation before a charge is a favourite tactic."}
+									
+["CelticWarriors_desc"]			{"The Celtic lands are noted for the fierceness of their warriors, and have been since ancient times. Celtic Warriors make very effective light infantry, and stand at the heart of Celtic armies."}
+
+["DarkAgeKnights_desc"]			{"Mounted Nobles are the precursor to the medieval Knight. They are well equipped and trained, and less likely to flee the field than more common troops. The combination of their mobility and their fighting skill makes them a very effective medium cavalry, able to engage all but the heaviest opponents."}
+
+["DarkAgeRoyalKnights_desc"]	{"The royal bodyguard forms the heart of most royal armies in times of war. Few units are as well-trained, as well-equipped, or as deadly on the battlefield. They are expensive and few in number, but used wisely they can be the key to victory."}
+
+["DismountedFaris_desc"]		{"Their Arabic name means ‘horseman,’ and the faris are the equal of any knights of Christendom, well able to fight on foot as well as on horseback. They are well-trained and well-equipped professional fighters, but not as heavily armoured as their "Frankish" equivalents."}
+
+["DruzhinaCavalry_desc"]		{"Druzhina are an important element in many Rus armies. They are said by some to be inspired by the Byzantine cavalry witnessed by the Scandinavians and Rus of the Varangian Guard. While they are less heavily-armoured than much of the Byzantine cavalry, there is little doubting their effectiveness."}
+
+["EarlyFootKnights_desc"]		{"Nobles fighting on foot are a continuation of the Celtic, Saxon and Viking tradition of nobles maintaining their own armed forces. They are the Norman equivalent of huscarles. They are professional soldiers, and make very effective infantry."}
+
+["EarlyRoyalFootKnights_desc"]	{"The royal bodyguard forms the heart of most royal armies in times of war. Few units are as well-trained, as well-equipped, or as deadly on the battlefield. They are expensive and few in number, but used wisely they can be the key to victory."}
+
+["EarlyVarangianGuard_desc"]	{"Recruited from among the Rus and the Vikings, the Varangian Guard is an elite heavy infantry unit that complements the renowned Byzantine heavy cavalry. More than one Scandinavian king won his throne after returning home from a spell in the Varangian Guard."}
+
+["Faris_desc"]					{"In Arabic, the word Faris simply means ‘horseman’ - as do most of the Christian nations' names for knights, such as chevalier and ritter. The Faris are professional cavalrymen, well-trained and well-equipped, and are compared by many to the knights of Christendom."}
+
+["Fyrdmen_desc"]				{"Fyrdmen are the rank-and-file of Saxon infantry, and form the bulk of Saxon armies. These are free farmers called to battle by their king, and are of a higher quality than peasant levies, while less expensive than truly professional fighting men like huscarles. "}
+
+["Jobbagy_desc"]				{"The Jobbagy derive their name from a Hungarian unit of land, and in times of war they are raised by nobles and cities according to the extent of their land-holdings. They are similar to the peasants of other nations: basic and affordable infantrymen."}
+
+["KhazarRoyalCavalry_desc"]		{"The armies of the Jewish Khazar Kaganate have the same emphasis on cavalry as the other steppe peoples, but their heavy cavalry is of particularly good quality. They are more heavily armoured than other steppe cavalry, and armed with lances as well as swords."}
+
+["MediumCavalry_desc"]			{"Really just a foot warrior on horseback, the Horseman adds mobility to the battlefield and is good for chasing down routing troops. Although they are unlikely to dominate the battlefield, in the right place at the right time they can turn the tide of battle."}
+
+["OrganCrew_desc"]				{"The organ gun takes its name from its multiple barrels, laid side-by-side on a wooden frame and reminiscent of the pipes of a church organ. It can unleash a devastating salvo, but it suffers from the same slow fire rate and difficulty of movement as other artillery pieces."}
+
+["PictishCavalry_desc"]			{"Pictish Cavalry are tough fighters, just like other highlanders and hill folk. Their ferocity in combat, combined with the mobility of cavalry, make them an effective raiding and skirmishing unit."}
+
+["RoundShieldSpearmen_desc"]	{"Spearmen are useful in almost any army, particularly against cavalry and, unlike other troop types, the first two ranks can fight thanks to their spears. They aren't likely to stand for long against professional men-at-arms, but they can give cavalry a nasty shock as long as they hold formation."}
+
+["RusSpearmen_desc"]			{"Rus Spearmen are seasoned warriors, at home on the battlefield. They are well-armoured, and can withstand attacks that would rout lesser units."}
+
+["SaxonHuscarles_desc"]			{"Saxon Huscarles are the followers of a king or noble. In peacetime they act as a bodyguard and personal staff, and in times of war they are the professional spine of the leader's army. Where the fyrdmen form the rank-and-file infantry of an Anglo-Saxon army, the huscarles are the elite."}
+
+["SherwoodForesters_desc"]		{"Those who live within the bounds of the royal forests are renowned for their expertise with the bow. They have sharpened their archery skills and fieldcraft by poaching royal venison, and are now invaluable in times of strife, being able to hide anywhere. They are superior to nearly all other archers."}
+
+["SlavJavelinmen_desc"]			{"Slav Javelinmen have been pressed into service by many lords. They are versatile light infantry, able to shower an enemy with javelins at short range and skirmish hand-to-hand."}
+
+["SlavWarriors_desc"]			{"Slav Warriors have been pressed into service by many lords. Armed with short spears, they are a good low-cost light infantry."}
+
+["SpanishJavelinmen_desc"]		{"Since classical times, Spain has been renowned for the quality of its javelineers - peltasts, as the Greeks called them. Armed with javelins and swords, they are good light infantry and skirmishers."}
+
+["SteppeHeavyCavalry_desc"]		{"The peoples of the steppes are famed for the quality of their cavalry, and Steppe Heavy Cavalry is a powerful and versatile force. Armed with short bows, they are superb horse-archers, and they can use their swords to deadly effect in close combat."}
+
+["SwabianSwordsmen_desc"]		{"The Swabians of south-western Germany are a tough people, regarded almost as a race apart by their fellow Germans. Armoured in mail and armed with great two-handed swords, Swabian swordsmen are a powerful heavy infantry unit, with the emphasis on attack!"}
+
+["Szekely_desc"]				{"Light cavalry from the fringes of the steppes, the Szekely are highly skilled and mobile scouts and skirmishers. Though too lightly-equipped for heavy combat, they make ideal raiders, useful for disrupting enemy formations before an attack by heavier units."}
+
+["VikingHuscarles_desc"]		{"Huscarles are the followers of a Viking jarl, serving him as a bodyguard and personal staff in peacetime and fighting by his side in times of war. Being professional warriors, they are superior infantry, more effective and more expensive than the carls who are called to fight only in wartime."}
+
+["VikingKarls_desc"]			{"The bulk of Scandinavia's population falls into the carl class, which is made up of free farmers and fishermen. They make up the rank-and-file of Viking armies, and the crews of the feared dragon-ships. They are notably superior to the peasant levies of other countries."}
+
+["VikingLandsmenn_desc"]		{"The Landsmenn are the free men of Scandinavian society, farmers or land-owners who can be called into the service of their jarl in times of crisis for military obligations and the building of fortifications."}
+
+["VikingRaiderCavalry_desc"]	{"The Vikings are not known for their cavalry, and for good reason. Scandinavian horses are smaller than those elsewhere, but they do provide a measure of mobility to a Viking army."}
+
+["VikingThralls_desc"]			{"Thralls are the lowest class in the Viking social structure and are little better than slaves. Like their free neighbours, though, they take the field when called upon, but they are neither highly skilled nor highly motivated, and should not be given critical tasks on the battlefield."}
+
+["JomsVikings_desc"]			{"The sagas tell of the great city of Jomsborg, a mighty fortress whose enormous harbour can hold 300 longships. Here, where no women are allowed, the Jomsvikings devote themselves to the arts of war. Every Jomsviking is a hero in his own right, and a unit of Jomsvikings is more feared even than the terrible berserkers."}
+
+["SwordBrethren_desc"]			{"The Sword Brethren are an order of warriors committed to fighting against pagans and infidels alike. They are easily the equals in combat of the other Orders of Knighthood, although their skill is usually measured against barbarous pagans. They still triumph against enormous odds and their charge is fearsome."}
+
+["PictishMountedCrossbows_desc"]	{"Fast, lightly armoured cavalry, that are equipped with the famous Pictish crossbow, giving them a considerable punch at range, albeit at a low rate of fire. More versatile than many other light cavalry types, they are a valuable addition to any Pictish army."}
+
+["PictishCrossbows_desc"]		{"Although many outsiders dismiss them as a backward people, the Picts have not been slow to realize the advantages of the crossbow. Its reach, punch and ease of use have seen it used to great effect against the forces of more "advanced" nations."}
+
+["Bonnachts_desc"]				{"Since the time of the great hero-tales, the spear has been the preferred secondary weapon of the Irish warrior. Thrown at short range as the unit closes for battle, its effects on the enemy can be devastating, giving their charge a double punch."}
+
+["IrishDartmen_desc"]			{"Darts - actually light javelins - are a weapon of great antiquity in Ireland, used by the heroes of the epic tales as well as lesser warriors. While not as deadly as arrow fire, a shower of darts can disrupt many ill-disciplined units."}
+
+["WelshBandits_desc"]			{"The rugged terrain of Wales is ideally suited to irregular warfare, as invaders from the Romans onwards have discovered to their cost. Armed with bow and sword and skilled in attacking from ambush, Welsh bandits are deadly and versatile opponents."}
+
+
+["Drakkar_desc"]	{"The long, narrow drakkar is the perfect ship for sea-raiding. Well able to handle long ocean voyages, its shallow draught and flexible construction allow it to row in through the surf and beach itself without damage, so that its Viking crew can jump straight into battle."}
+
+["Snekkja_desc"]	{"The snekkja is the smallest class of Viking warship, with 13 pairs of oars and a crew of about 30. It is good for small-scale raids and inshore travel, but other ships are better suited to the open sea. "}
+
+["Jarnbardi_desc"]	{"The jarnbardi is the envy of all Viking war-leaders. Clad in stout iron plates and mounting an iron ram at the prow, this "iron-beard" is a mighty wave-serpent indeed!"}
+
+["Curragh_desc"]	{"The curragh is, in effect, a very large coracle, made of waterproofed skins and leather stretched over a frame. Powered by sails and oars, it has a good carrying capacity and is quite sea-worthy, but cannot be considered a suitable ship for any kind of combat."}
+
+["Boat_desc"]	{"This Saxon vessel is ideal for voyages in inshore waters, but not for longer journeys in deeper waters. Lacking a sail, the crew would soon be exhausted if forced to battle northern sea storms. It does, however, carry a reasonable amount of cargo and a strong crew."}
+
+["Longboat2_desc"]	{"After suffering at the hands of Viking raiders, it took little effort of mind to see that copying their fine ships would be a good idea. The longboat is perfect for crossing the seas and working inshore, but not built to quite the same standards as the Viking original."}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// New Buildings
+["Enclosed Pastures_desc"]	
+{"When everyone must work constantly just to feed him or herself, there is no time for people to develop other skills, making trade, society and even war impossible. Organised farming lifts agriculture above this grinding subsistence level."}
+["Blacksmith_desc"]	
+{"Enough food from farming allows a society to support full-time specialist artisans, and the blacksmith is one of the first to appear. As well as making agricultural tools, in a smaller community the blacksmith is also the maker of weaponry, even when these are simple weapons like spear points."}
+["Boat Builder_desc"]	
+{"Boats are a crucial lifeline for any island or coastal area. A skilled boat builder is a valuable addition to any waterside community, allowing fishing, overseas trade, and all the other benefits of water travel, such as being able to carry a war to the heartlands of one's enemies!"}
+["Butts_desc"]	
+{"Most peasants can handle a bow for poaching game to feed the family, but it takes practice and discipline to turn this ability into something useful on the battlefield. The butts are a place where would-be archers can come to train and practice for war."}
+["Catholic Chapel_desc"]	
+{"A chapel is a place of worship that can accommodate a small congregation. While not as grand as a church, it still provides the community with spiritual comfort, resulting in a happy and loyal population, a boost to religious faith, and improved morale for troops trained locally."}
+["Christian Shrine_desc"]	
+{"Often the site of a miracle, a wondrous conversion, or once a false shrine to the pagan gods, a Christian Shrine draws people to pray, make offerings, and receive spiritual comfort. It reinforces faith in a province, and has a beneficial effect on the happiness and loyalty of its inhabitants."}
+["Diggings_desc"]	
+{"Since ancient times, men have known that the earth holds hidden riches for those who know where to look. In places where gold, silver and other metals are near the surface, only a small amount of digging is required to extract mineral wealth."}
+["Drinking Hall_desc"]	
+{"A drinking hall provides a hearth and home - and ale - for a lord's followers and guests, because supporting a following is the sign of a lord. It is the place where people will go to seek out a ruler, seeking his favour and currying influence."}
+["Forest Clearing_desc"]	
+{"Since time out of mind, farmers have been using the slash and burn technique to make clearings in the forest that can be used for growing crops. The ashes created by the fires of a clearing act as fertilizer, increasing the crop yields for a few years."}
+["Fortified Village_desc"]	
+{"A village can be fortified with earth ramparts and a timber palisade, making it much more likely to withstand an attack. Well-armed and determined attackers who have even basic siege equipment can still cause problems for the defenders."}
+["Master Blacksmith_desc"]	
+{"A master blacksmith puts the production of iron objects on a more regular footing, and helps craftsmen to make the most of their skills. This creates an ability to raise some properly equipped troops in a province, and also makes a small improvement to trade."}
+["Mead Hall_desc"]	
+{"A mead hall is a place where warriors gather, happy to toast the generosity of whichever lord provides the mead. While it lacks the subtle sophistication of a cosmopolitan ruler’s palace, it is still a place of intrigue among those who seek a ruler’s favour."}
+["Muster Field_desc"]	
+{"A muster field allows men of fighting age to come together and have some very basic training when not needed in the fields. This increases their effectiveness in battle somewhat, but will never turn them into hardened, professional soldiers."}
+["Slipway_desc"]	
+{"A slipway allows boats to be launched easily, and hauled out of the water for repairs when needed. It is the first step in establishing a maritime industry in an area. Sea traffic adds to the value of trade, and boats are necessary to explore the world."}
+["Stables_desc"]	
+{"A good horse is invaluable to a warrior, and mounted troops can make all the difference in battle. Stables ensure that horses are properly cared for, kept in prime condition for war, and not simply used as draft animals."}
+["Stockade_desc"]	
+{"A stockade is a light fortification surrounding an entire settlement, making it more easily defensible. However, this wooden wall does not offer the same protection as a fort, as it impedes an enemy attack rather than stopping it cold."}
+["Trader_desc"]	
+{"A trader does not raise crops and livestock for himself, but makes a living by buying and selling goods. Establishing a basic level of economic activity generates a modest amount of income from taxation, which can be increased in areas with a port."}
+["Warrior Hold_desc"]	
+{"A warrior hold is a place where warriors and aspiring fighting men can gather, to eat, drink, train and brag about their skill at arms. It also gives a central defensive point for a settlement when it is attacked."}
+["Abbey_desc"]	
+{"Like other religious institutions, an abbey has a beneficial effect on the faith, happiness and loyalty of the local people, and is also a place of learning. Abbeys can become rich and are often the most opulent buildings in a province, making them the targets of greedy and impious raiders."}
+["Brothel2_desc"]	
+{"This establishment is a (tiny) cut above the rough “stewes” frequented by common soldiers and riff-raff. It is tolerably clean, and provides passable drink, food and entertainment to complement the main business. The customers here are of slightly better quality, with more interesting secrets to be overheard..."}
+["Brothel3_desc"]	
+{"The innocent or naive might never guess at the business of this place. Only the wealthiest locals can afford to amuse themselves here, and visiting generals and dignitaries will find everything to their satisfaction. There is no better window into the thoughts and plans of the upper classes..."}
+["Brothel4_desc"]	
+{"In sophisticated towns and cities, the skills of the courtesan are as valued as those of the jeweller, even when hidden behind innuendo. They are an aristocracy of professional love, offering cultured companionship as well as other services,  often hearing vital secrets from the "great and good" as a result..."}
+["Tavern2_desc"]	
+{"In addition to drink, an alehouse serves mostly edible food, brews its own wares and probably has sleeping facilities. Without frills (but not without bed-bugs), it is a better place to sleep off a drink than under a hedge. The customers, however, often have useful skills and few scruples…"}
+["Tavern3_desc"]	
+{"A Drinking Den caters to a seedy clientele that frequents dark corners everywhere. The food is basic, hearty and cheap, but the real purpose of the place is drink and the plotting of dirty deeds. There are few outsiders, as the locals are well used to dealing with strangers. Permanently."}
+["Tavern4_desc"]	
+{"A rookery is an appalling place of crime and deprivation, even by medieval standards. The forces of law and order dare not enter, and the numberless alehouses and drinking dens within are wretched hives of scum and villainy. Here can be found the men ready to do any dark deed…"}
+["Brothel1_desc"]	
+{"A man's guard is dropped in moments of intimacy, even in the paid intimacy of a brothel. Secrets are confided in many a sleepy conversation, and sometimes-truthful boasts are made in the hope of impressing a "lady". In all these cases, a clever individual can listen and profit from the craft of spying."}
+["Tavern1_desc"]	
+{"A tavern can have more uses than just drinking. It's a place to meet people: useful people. Tavern brawls produce dirty fighters, perhaps not expert soldiers, but still reliable killers who can be paid to pick a fight or put a knife to good, secretive use in a back alley somewhere..."}
+["Viking Port_desc"]		
+{"A port can be a window on the world, and a doorway to new wealth. Merchants can bring in new and exciting goods and create an overseas market for their own produce, bringing new riches. But a port can also bring the danger of disease from foreign lands."}
+["Viking Inn_desc"]		
+{"An inn is more than a place where drink cheers up the locals. It is the centre of the community, where minstrels can sing songs of brave deeds and mighty battles, and where the doers of those brave deeds and mighty battles can be hired as mercenaries."}
+["Pagan Shrine_desc"]
+{"There is a power in the old places of the world can touch the Gods. Some sites are portals to the Gods, or the halls of the dead. Those wise in the way of power make shrines in such places, so harnessing it for the good of men."}
+["Pagan Sacrificial Shrine_desc"]
+{"The Old Gods need more than simple worship. Sacrifices are necessary for the Gods to gain power to help their faithful supporters. Even Odin All-Father sacrificed himself by hanging from Yggdrasil, the World Tree, for nine days until he was given the runes, the source of all power and magic."}
+
+// Completed labels..
+
+["Warrior Hold_Completed"]
+{"Warrior Hold Completed"}
+
+["Stockade_Completed"]
+{"Stockade Completed"}
+
+["Fortified Village_Completed"]
+{"Fortified Village Completed"}
+
+["Muster Field_Completed"]
+{"Muster Field Completed"}
+											
+["Butts_Completed"]
+{"Butts Completed"}											
+											
+["Trader_Completed"]
+{"Trader Completed"}											
+											
+["Drinking Hall_Completed"]
+{"Drinking Hall Completed"}
+["Mead Hall_Completed"]
+{"Mead Hall Completed"}
+											
+["Forest Clearing_Completed"]
+{"Forest Clearing Completed"}
+["Enclosed Pastures_Completed"]
+{"Enclosed Pastures Completed"}
+
+["Christian Shrine_Completed"]
+{"Christian Shrine Completed"}
+["Catholic Chapel_Completed"]
+{"Catholic Chapel Completed"}
+
+["Boat Builder_Completed"]
+{"Boat Builder Completed"}
+["Slipway_Completed"]
+{"Slipway Completed"}
+
+["Blacksmith_Completed"]
+{"Blacksmith Completed"}
+["Master Blacksmith_Completed"]
+{"Master Blacksmith Completed"}
+
+["Stables_Completed"]
+{"Stables Completed"}
+
+["Brothel1_Completed"]						  		
+{"Brothel Completed"}
+
+["Brothel2_Completed"]						  		
+{"Stew Completed"}
+
+["Brothel3_Completed"]						  		
+{"Bawdyhouse Completed"}
+
+["Brothel4_Completed"]						  		
+{"Cunny-Warren Completed"}
+
+
+["Tavern1_Completed"]						  		
+{"Tavern Completed"}
+
+["Tavern2_Completed"]						  		
+{"Alehouse Completed"}
+
+["Tavern3_Completed"]						  		
+{"Drinking Den Completed"}
+
+["Tavern4_Completed"]						  		
+{"Rookery Completed"}
+
+["Viking Port_Completed"]		
+{"Port Completed"}
+
+["Viking Inn_Completed"]		
+{"Inn Completed"}
+
+["Abbey_Completed"]		
+{"Abbey Completed"}
+
+["Pagan Shrine_Completed"]
+{"Pagan Shrine Completed"}
+
+["Pagan Sacrificial Shrine_Completed"]
+{"Pagan Sacrificial Shrine Completed"}
+
+
+
+// Destroyed labels..
+
+["Warrior Hold_Destroyed"]
+{"Warrior Hold Destroyed"}
+
+["Stockade_Destroyed"]
+{"Stockade Destroyed"}
+
+["Fortified Village_Destroyed"]
+{"Fortified Village Destroyed"}
+
+["Muster Field_Destroyed"]
+{"Muster Field Destroyed"}
+											
+["Butts_Destroyed"]
+{"Butts Destroyed"}											
+											
+["Trader_Destroyed"]
+{"Trader Destroyed"}											
+											
+["Drinking Hall_Destroyed"]
+{"Drinking Hall Destroyed"}
+["Mead Hall_Destroyed"]
+{"Mead Hall Destroyed"}
+											
+["Forest Clearing_Destroyed"]
+{"Forest Clearing Destroyed"}
+["Enclosed Pastures_Destroyed"]
+{"Enclosed Pastures Destroyed"}
+
+["Christian Shrine_Destroyed"]
+{"Christian Shrine Destroyed"}
+["Catholic Chapel_Destroyed"]
+{"Catholic Chapel Destroyed"}
+
+["Boat Builder_Destroyed"]
+{"Boat Builder Destroyed"}
+["Slipway_Destroyed"]
+{"Slipway Destroyed"}
+
+["Blacksmith_Destroyed"]
+{"Blacksmith Destroyed"}
+["Master Blacksmith_Destroyed"]
+{"Master Blacksmith Destroyed"}
+
+["Stables_Destroyed"]
+{"Stables Destroyed"}
+
+["Brothel1_Destroyed"]						  		
+{"Brothel Destroyed"}
+
+["Brothel2_Destroyed"]						  		
+{"Stew Destroyed"}
+
+["Brothel3_Destroyed"]						  		
+{"Bawdyhouse Destroyed"}
+
+["Brothel4_Destroyed"]						  		
+{"Cunny-Warren Destroyed"}
+
+["Tavern1_Destroyed"]						  		
+{"Tavern Destroyed"}
+
+["Tavern2_Destroyed"]						  		
+{"Alehouse Destroyed"}
+
+["Tavern3_Destroyed"]						  		
+{"Drinking Den Destroyed"}
+
+["Tavern4_Destroyed"]						  		
+{"Rookery Destroyed"}
+
+["Viking Port_Destroyed"]		
+{"Port Destroyed"}
+
+["Viking Inn_Destroyed"]		
+{"Inn Destroyed"}
+
+["Abbey_Destroyed"]		
+{"Abbey Destroyed"}
+
+["Pagan Shrine_Destroyed"]
+{"Pagan Shrine Destroyed"}
+["Pagan Sacrificial Shrine_Destroyed"]
+{"Pagan Sacrificial Shrine Destroyed"}
+
+// ******************************************************
+//			Additions after 1st Loc submission 20/12/02
+
+
+["Royal Hall_desc"]
+{"The Royal Hall is the first step towards an organised administration, allowing the ruler to appoint a right hand man he can rely on in times of need. The appointee gains the benefit of an administrative staff that proves useful in organising military matters."} 		
+["Royal Mint_desc"]		
+{"The issuing of coins is a cruicial step towards developing an economy. It reinforces the suzerainity of the ruler and in some ways helps define the nation. The royal mint also allows the ruler to appoint a trusted aide to help run the economy."}  
+["Court of Law_desc"]	
+{"The Court of Law is the first step towards a legal system other than tribal traditions or might is right. A codified set of Laws, and an officer of state sworn to uphold them might seem to be an expansion personal freedoms, but in fact it was more likely to be used to reinforce the developing feudal system."} 
+["Royal Armoury_desc"]	
+{"The Royal Armoury centralizes the military power of the developing nation, and allows the ruler to appoint an overall commander with the full resources of the kingdom behind him. This gives the commander a considerable advantage on the battlefield."}
+
+["Royal Hall_Completed"]	{"Royal Hall Completed"}	
+["Royal Mint_Completed"]	{"Royal Mint Completed"}	
+["Court of Law_Completed"]	{"Court of Law Completed"}
+["Royal Armoury_Completed"]	{"Royal Armoury Completed"}
+
+
+["Royal Hall_Destroyed"]	{"Royal Hall Destroyed"}	
+["Royal Mint_Destroyed"]	{"Royal Mint Destroyed"}	
+["Court of Law_Destroyed"]	{"Court of Law Destroyed"}
+["Royal Armoury_Destroyed"]	{"Royal Armoury Destroyed"}
+
+["no_info_description"]
+{"You have no spies in the enemies region and therefore have no details of the enemy forces."}
+
+//*******************************************************************************************************
+//*******************************************************************************************************
+//
+//	Text added after 7th Jan 2003 begins here:
+//
+//*******************************************************************************************************
+//*******************************************************************************************************
+
+["Load"]
+{"Load"}
+
+["Save"]
+{"Save"}
+
+["Basic Farms_desc"]	
+{"When everyone must work constantly just to feed him or herself, there is no time for people to develop other skills, making trade, society and even war impossible. Organised farming lifts agriculture above this grinding subsistence level."}
+
+["Basic Farms_Completed"]
+{"Basic Farms Completed"}
+
+["Basic Farms_Destroyed"]
+{"Basic Farms Destroyed"}
+
+
+["stat_upgrades"]
+{"Stat Improvements"}
+
+["valour_upgrade"]
+{"Valour +1"}
+
+["armour_upgrade"]
+{"Armour +1"}
+
+["weapon_upgrade"]
+{"Weapon +1"}
+
+["morale_upgrade"]
+{"Morale +1"}
+
+["discipline_upgrade"]
+{"Discipline +1"}
+
+			 
+SetShowTransOff //Do not translate.
+//???? Remove when localized.
+

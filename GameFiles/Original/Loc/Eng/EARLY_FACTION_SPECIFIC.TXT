@@ -1,0 +1,381 @@
+
+//*********************************************************************
+// 
+// The campaigns 'faction specific' and 'rebel' text strings:-
+// 
+// This is the default file used for arrays of faction names and arrays 
+// of text containing the full set of faction names in order.
+//
+// Rebel faction names also need to be placed in this file..
+//
+//*********************************************************************
+
+// This array dictates how the faction corresponding to the position in the list would address their leader.
+// eg. If your first faction was the English then you would want "King" at position 1, not at position 0 as this is always the rebels.
+
+@["king_titles"]	// Label
+@{"Early: King "}			// Position 0
+@{"Early: Khalifah "}		// Position 1
+@{"Early: Emperor "}	
+@{"Early: King "}		
+@{"Early: Sultan "}	
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: Emperor "}	
+@{"Early: Doge "}		
+@{"Early: King "}		
+@{"Early: Prince "}	
+@{"Early: King "}		
+@{"Early: Sultan "}	
+@{"Early: King "}		
+@{"Early: Duke "}		
+@{"Early: Khan "}		
+@{"Early: King "}		
+@{"Early: Prince "}	
+@{"Early: Pope "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+@{"Early: King "}		
+
+
+@["custom_battle_menu_factions"]
+@{"Early: Rebel"}
+@{"Early: Almohad"}						  
+@{"Early: Byzantine"}						  
+@{"Early: Danish"}   						  
+@{"Early: Egyptian"}						  
+@{"Early: English"}						  
+@{"Early: French"}							  
+@{"Early: German"}							  
+@{"Early: Italian"}  						  
+@{"Early: Polish"}   						  
+@{"Early: Russian"}   						  
+@{"Early: Spanish"}						  
+@{"Early: Turkish"}						  
+@{"Early: Aragonese"}						  
+@{"Early: Hungarian"}						  
+@{"Early: Burgundian"}						  
+@{"Early: Golden Horde"}					  
+@{"Early: Novgorod"}						  
+@{"Early: Papal"}							  
+@{"Early: Sicilian"}						  
+@{"Early: Swiss"}							  
+@{"Early: Free01"}
+@{"Early: Free02"}		
+@{"Early: Free03"}		
+@{"Early: Free04"}		
+@{"Early: Free05"}		
+@{"Early: Free06"}		
+@{"Early: Free07"}		
+@{"Early: Free08"}		
+@{"Early: Free09"}		
+@{"Early: Free10"}		
+@{"Early: Free11"}
+
+@["factions_posessive_xzy"]
+@{"Early: Rebel"}
+@{"Early: Almohad"}						  
+@{"Early: Byzantine"}						  
+@{"Early: Danish"}   						  
+@{"Early: Egyptian"}						  
+@{"Early: English"}						  
+@{"Early: French"}							  
+@{"Early: German"}							  
+@{"Early: Italian"}  						  
+@{"Early: Polish"}   						  
+@{"Early: Russian"}   						  
+@{"Early: Spanish"}						  
+@{"Early: Turkish"}						  
+@{"Early: Aragonese"}						  
+@{"Early: Hungarian"}						  
+@{"Early: Burgundian"}						  
+@{"Early: Golden Horde"}					  
+@{"Early: Novgorod"}						  
+@{"Early: Papal"}							  
+@{"Early: Sicilian"}						  
+@{"Early: Swiss"}							  
+@{"Early: Free01"}
+@{"Early: Free02"}		
+@{"Early: Free03"}		
+@{"Early: Free04"}		
+@{"Early: Free05"}		
+@{"Early: Free06"}		
+@{"Early: Free07"}		
+@{"Early: Free08"}		
+@{"Early: Free09"}		
+@{"Early: Free10"}		
+@{"Early: Free11"}		
+
+// The following is to accomodate languages requiring female forms of faction names for ["other_princess_tooltip1"] 
+// in tooltip.txt. For languages not requiring this copy whatever you have in ["factions_posessive_xzy"] (names.txt),
+// but obviously leave the label as is here.
+
+@["female_factions_posessive_xzy"]
+@{"Early: Rebel"}
+@{"Early: Almohad"}						  
+@{"Early: Byzantine"}						  
+@{"Early: Danish"}   						  
+@{"Early: Egyptian"}						  
+@{"Early: English"}						  
+@{"Early: French"}							  
+@{"Early: German"}							  
+@{"Early: Italian"}  						  
+@{"Early: Polish"}   						  
+@{"Early: Russian"}   						  
+@{"Early: Spanish"}						  
+@{"Early: Turkish"}						  
+@{"Early: Aragonese"}						  
+@{"Early: Hungarian"}						  
+@{"Early: Burgundian"}						  
+@{"Early: Golden Horde"}					  
+@{"Early: Novgorod"}						  
+@{"Early: Papal"}							  
+@{"Early: Sicilian"}						  
+@{"Early: Swiss"}							  
+@{"Early: Free01"}
+@{"Early: Free02"}		
+@{"Early: Free03"}		
+@{"Early: Free04"}		
+@{"Early: Free05"}		
+@{"Early: Free06"}		
+@{"Early: Free07"}		
+@{"Early: Free08"}		
+@{"Early: Free09"}		
+@{"Early: Free10"}		
+@{"Early: Free11"}
+
+@["factions_xzy"]
+@{"Early: The Rebels"}
+@{"Early: The Almohads"}
+@{"Early: The Byzantines"}
+@{"Early: The Danes"}   		
+@{"Early: The Egyptians"}
+@{"Early: The English"}
+@{"Early: The French"}
+@{"Early: The Germans"}
+@{"Early: The Italians"}  		
+@{"Early: The Polish"}   		
+@{"Early: The Russians"}   		
+@{"Early: The Spanish"}
+@{"Early: The Turkish"}
+@{"Early: The Aragonese"}
+@{"Early: The Hungarians"}
+@{"Early: The Burgundians"}
+@{"Early: The Golden Horde"}
+@{"Early: The people of Novgorod"}
+@{"Early: The Papacy"}
+@{"Early: The Sicilians"}
+@{"Early: The Swiss"}
+@{"Early: The Free01"}		
+@{"Early: The Free02"}		
+@{"Early: The Free03"}		
+@{"Early: The Free04"}		
+@{"Early: The Free05"}		
+@{"Early: The Free06"}		
+@{"Early: The Free07"}		
+@{"Early: The Free08"}		
+@{"Early: The Free09"}		
+@{"Early: The Free10"}		
+@{"Early: The Free11"}
+
+@["of_Clan_Names"]
+@{"Early:  of the rebels"}
+@{"Early:  of The Almohads"}
+@{"Early:  of The Byzantines"}
+@{"Early:  of The Danes"}   		
+@{"Early:  of The Egyptians"}
+@{"Early:  of The English"}
+@{"Early:  of The French"}
+@{"Early:  of The Germans"}
+@{"Early:  of The Italians"}  		
+@{"Early:  of The Polish"}   		
+@{"Early:  of The Russians"}
+@{"Early:  of The Spanish"}
+@{"Early:  of The Turkish"}
+@{"Early:  of The Aragonese"}
+@{"Early:  of The Hungarians"}
+@{"Early:  of The Burgundians"}
+@{"Early:  of The Golden Horde"}
+@{"Early:  of The men of Novgorod"}
+@{"Early:  of The Papacy"}
+@{"Early:  of The Sicilians"}
+@{"Early:  of The Swiss"}
+@{"Early:  of The Free01"}		
+@{"Early:  of The Free02"}		
+@{"Early:  of The Free03"}		
+@{"Early:  of The Free04"}		
+@{"Early:  of The Free05"}		
+@{"Early:  of The Free06"}		
+@{"Early:  of The Free07"}		
+@{"Early:  of The Free08"}		
+@{"Early:  of The Free09"}		
+@{"Early:  of The Free10"}		
+@{"Early:  of The Free11"}		
+
+@["factions_special_xzy"]
+@{"Early: the Rebels"}
+@{"Early: the Almohads"}
+@{"Early: the Byzantines"}
+@{"Early: the Danes"}   		
+@{"Early: the Egyptians"}
+@{"Early: the English"}
+@{"Early: the French"}
+@{"Early: the Germans"}
+@{"Early: the Italians"}  		
+@{"Early: the Polish"}   		
+@{"Early: the Russians"}   		
+@{"Early: the Spanish"}
+@{"Early: the Turkish"}
+@{"Early: the Aragonese"}
+@{"Early: the Hungarians"}
+@{"Early: the Burgundians"}
+@{"Early: the Golden Horde"}
+@{"Early: the people of Novgorod"}
+@{"Early: the Papacy"}
+@{"Early: the Sicilians"}
+@{"Early: the Swiss"}
+@{"Early: the Free01"}		
+@{"Early: the Free02"}		
+@{"Early: the Free03"}		
+@{"Early: the Free04"}		
+@{"Early: the Free05"}		
+@{"Early: the Free06"}		
+@{"Early: the Free07"}		
+@{"Early: the Free08"}		
+@{"Early: the Free09"}		
+@{"Early: the Free10"}		
+@{"Early: the Free11"}		
+
+@["factions_special_caps_xzy"]	
+@{"Early: The Rebels"}
+@{"Early: The Almohads"}
+@{"Early: The Byzantines"}
+@{"Early: The Danes"}   		
+@{"Early: The Egyptians"}
+@{"Early: The English"}
+@{"Early: The French"}
+@{"Early: The Germans"}
+@{"Early: The Italians"}  		
+@{"Early: The Polish"}   		
+@{"Early: The Russians"}   		
+@{"Early: The Spanish"}
+@{"Early: The Turkish"}
+@{"Early: The Aragonese"}
+@{"Early: The Hungarians"}
+@{"Early: The Burgundians"}
+@{"Early: The Golden Horde"}
+@{"Early: The people of Novgorod"}
+@{"Early: The Papacy"}
+@{"Early: The Sicilians"}
+@{"Early: The Swiss"}
+@{"Early: The Free01"}		
+@{"Early: The Free02"}		
+@{"Early: The Free03"}		
+@{"Early: The Free04"}		
+@{"Early: The Free05"}		
+@{"Early: The Free06"}		
+@{"Early: The Free07"}		
+@{"Early: The Free08"}		
+@{"Early: The Free09"}		
+@{"Early: The Free10"}		
+@{"Early: The Free11"}		
+
+@["rebel_factions_xzy"]             
+@{"Early: the Alans"}                          
+@{"Early: the Alsatians"}                      
+@{"Early: the Anatolians"}                     
+@{"Early: the Andalucians"}                    
+@{"Early: the Angevins"}                       
+@{"Early: the Apulians"}                       
+@{"Early: the Arabs"}                          
+@{"Early: the Armenians"}                      
+@{"Early: the Basarabs"}                       
+@{"Early: the Basques"}                        
+@{"Early: the Bedouins"}                       
+@{"Early: the Belarussians"}                   
+@{"Early: the Berbers"}                                           
+@{"Early: the Blois"}                          
+@{"Early: the Bretons"}                        
+@{"Early: the Bulgars"}                        
+@{"Early: the Burgundians"}                    
+@{"Early: the Castilians"}                     
+@{"Early: the Catalans"}                       
+@{"Early: the Cordobans"}                      
+@{"Early: the Corsicans"}                      
+@{"Early: the Cretans"}                        
+@{"Early: the Croatians"}                      
+@{"Early: the Cumans"}                         
+@{"Early: the Cypriots"}                       
+@{"Early: the Czechs"}                         
+@{"Early: the Danes"}                          
+@{"Early: the Dodecanese"}                     
+@{"Early: the Egyptians"}                      
+@{"Early: the English"}                        
+@{"Early: the Finns"}                          
+@{"Early: the Flemish"}                        
+@{"Early: the Friesians"}                      
+@{"Early: the Genoans"}                        
+@{"Early: the Georgians"}                      
+@{"Early: the Guiennes"}                       
+@{"Early: the Hellenes"}                       
+@{"Early: the Irish"}                          
+@{"Early: the Jacquerie"}                      
+@{"Early: the Khazars"}                        
+@{"Early: the Landesadel"}                     
+@{"Early: the Lascarids"}                      
+@{"Early: the Leonese"}                        
+@{"Early: the Levantines"}                     
+@{"Early: the Lithuanians"}                    
+@{"Early: the Livs"}                           
+@{"Early: the Lombards"}                       
+@{"Early: the Cyrenacians"}                        
+@{"Early: the Maltese"}                        
+@{"Early: the Maygars"}                        
+@{"Early: the Mercians"}                       
+@{"Early: the Moors"}                          
+@{"Early: the Neapolitans"}                    
+@{"Early: the Normans"}                        
+@{"Early: the Norse"}                          
+@{"Early: the Northumbrians"}                  
+@{"Early: the Piasts"}                         
+@{"Early: the Poles"}                          
+@{"Early: the Pomeranians"}                    
+@{"Early: the Portuguese"}                     
+@{"Early: the Provencals"}                     
+@{"Early: the Prussians"}                      
+@{"Early: the Rebel Alliance"}                 
+@{"Early: the Rhenish"}                        
+@{"Early: the Rhomaioi"}                       
+@{"Early: the Romans"}                         
+@{"Early: the Rurikids"}                       
+@{"Early: the Sardinians"}                     
+@{"Early: the Saxons"}                         
+@{"Early: the Schaunbergs"}                    
+@{"Early: the Scots"}                          
+@{"Early: the Seljuks"}                        
+@{"Early: the Serbs"}                          
+@{"Early: the Sicilians"}                      
+@{"Early: the Swabs"}                          
+@{"Early: the Swedish"}                        
+@{"Early: the Swiss"}                          
+@{"Early: the Toulousians"}                    
+@{"Early: the Trapezuntines"}                  
+@{"Early: the Tuaregs"}                        
+@{"Early: the Tuscans"}                        
+@{"Early: the Tyrolians"}                      
+@{"Early: the Ugrians"}                        
+@{"Early: the Venitians"}                      
+@{"Early: the Vlads"}                          
+@{"Early: the Volhynians"}                     
+@{"Early: the Welfs"}                          
+@{"Early: the Welsh"}

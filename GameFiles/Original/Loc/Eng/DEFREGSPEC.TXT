@@ -1,0 +1,1108 @@
+//
+// This contains the in-game battle text.
+//
+
+
+//
+// Notes to translators.
+//
+// i) Only those things between 
+// {""} need to be translated.
+// and the 
+// {""} should be left in.
+// (Unless otherwise specified.)
+//
+//
+// ii) If untranslated string will have 
+// (!ENG!) (!FRA!) (!DEU!) 
+// (!ITA!) (!ESP!) (!JAP!) 
+// (!SCH!) (!TCH!) (!KOR!)
+// at the end of the string.
+// This is so we can detect untranslated strings
+// easily and can see that they have not been 
+// translated when the program has been run.
+// Once the translation has been done acceptably
+// they should be removed.
+
+
+
+// iii) The data is organized as follows 
+// 
+// ["this is a label"]
+// {"This is the translation"}
+//
+// ["This is another label"]
+// {"This is another translation"}
+// etc
+
+
+//
+// Comments are ignored and will be stripped out later.
+// They can be used to issue instructions or for information.
+//
+
+
+SetShowTransOn  // Do not translate.
+//???? Remove when localized.
+
+//*********************************************************************
+// 
+// The campaigns 'region specific' and 'title' text strings:-
+// 
+// This is the default file used for arrays of region names and arrays 
+// of text containing the full set of region names in order.
+//
+// Specific title names ( specified in the startpos file ) also need 
+// to be placed in this file..
+//
+//*********************************************************************
+
+@["country_xzy"]
+@{"Region Zero"}
+@{"Scotland"}
+@{"Northumbria"}
+@{"Mercia"}
+@{"Wales"}
+@{"Wessex"}
+@{"Ireland"}
+@{"Norway"}
+@{"Sweden"}
+@{"Denmark"}
+@{"Finland"}
+@{"Novgorod"}
+@{"Muscovy"}
+@{"Livonia"}
+@{"Smolensk"}
+@{"Ryazan"}
+@{"Chernigov"}
+@{"Lithuania"}
+@{"Pereyaslavl"}
+@{"Volga-Bulgaria"}
+@{"Khazar"}
+@{"Kiev"}
+@{"Crimea"}
+//@{"Golden Khanate"}
+@{"Volhynia"}
+@{"Prussia"}
+@{"Moldavia"}
+@{"Carpathia"}
+@{"Wallachia"}
+@{"Bulgaria"}
+@{"Hungary"}
+@{"Poland"}
+@{"Pomerania"}
+@{"Brandenburg"}
+@{"Silesia"}
+@{"Bohemia"}
+@{"Saxony"}
+@{"Friesland"}
+@{"Flanders"}
+@{"Normandy"}
+@{"Brittany"}
+@{"Franconia"}
+@{"Lorraine"}
+@{"Champagne"}
+@{"Ile de France"}
+@{"Anjou"}
+@{"Aquitaine"}
+@{"Toulouse"}
+@{"Provence"}
+@{"Burgundy"}
+@{"Swabia"}
+@{"Bavaria"}
+@{"Switzerland"}
+@{"Tyrolia"}
+@{"Austria"}
+@{"Croatia"}
+@{"Serbia"}
+@{"Greece"}
+@{"Constantinople"}
+@{"Crete"}
+@{"Rhodes"}
+@{"Georgia"}
+@{"Armenia"}
+@{"Rum"}
+@{"Lesser Armenia"}
+@{"Edessa"}
+@{"Trebizond"}
+@{"Nicaea"}
+@{"Anatolia"}
+@{"Cyprus"}
+@{"Antioch"}
+@{"Syria"}
+@{"Tripoli"}
+@{"Palestine"}
+@{"Arabia"}
+@{"Sinai"}
+@{"Egypt"}
+@{"Cyrenacia"}
+@{"Sahara"}				//@{"Africa"}
+@{"Tunisia"}
+@{"Algeria"}
+@{"Morocco"}
+@{"Granada"}
+@{"Cordoba"}
+@{"Portugal"}
+@{"Leon"}
+@{"Castile"}
+@{"Valencia"}
+@{"Navarre"}
+@{"Aragon"}
+@{"Corsica"}
+@{"Sardinia"}
+@{"Genoa"}
+@{"Milan"}
+@{"Venice"}
+@{"Tuscany"}
+@{"The Papal States"}
+@{"Rome"}
+@{"Naples"}
+@{"Malta"}
+@{"Sicily"}
+
+@{"North Atlantic"}
+@{"Irish Sea"}
+@{"Norwegian Sea"}
+@{"Skagerrak"}
+@{"Baltic Sea"}
+@{"North Sea"}
+@{"English Channel"}
+@{"Atlantic Ocean"}
+@{"Bay of Biscay"}
+@{"Costa Verde"}
+@{"Spanish Coast"}
+@{"Gulf of Cadiz"}
+@{"Straits of Gibraltar"}
+@{"Western Mediterranean"}
+@{"Gulf of Valencia"}
+@{"Gulf of Lions"}
+@{"Ligurian Sea"}
+@{"Tyrrhenian Sea"}
+@{"Straits of Sicily"}
+@{"Malta Channel"}
+@{"Gulf of Gabes"}
+@{"Africa Coast"}
+@{"Barbary Coast"}
+@{"Adriatic Ocean"}
+@{"Ionian Sea"}
+@{"Central Mediterranean"}
+@{"Gulf of Sidra"}
+@{"Mirtoon Sea"}
+@{"Aegean Sea"}
+@{"Sea Marmara"}
+@{"Black Sea"}
+@{"Sea of Crete"}
+@{"Dodecanese Sea"}
+@{"Eastern Mediterranean"}
+@{"Nile Coast"}
+@{"Atlantic Coast"}
+
+
+	  
+@["province_of_xzy"]
+@{" of Region Zero"}
+@{" of Scotland"}
+@{" of Northumbria"}
+@{" of Mercia"}
+@{" of Wales"}
+@{" of Wessex"}
+@{" of Ireland"}
+@{" of Norway"}
+@{" of Sweden"}
+@{" of Denmark"}
+@{" of Finland"}
+@{" of Novgorod"}
+@{" of Muscovy"}
+@{" of Livonia"}
+@{" of Smolensk"}
+@{" of Ryazan"}
+@{" of Chernigov"}
+@{" of Lithuania"}
+@{" of Pereyaslavl"}
+@{" of Volga-Bulgaria"}
+@{" of Khazar"}
+@{" of Kiev"}
+@{" of The Crimea"}
+@{" of Volhynia"}
+@{" of Prussia"}
+@{" of Moldavia"}
+@{" of Carpathia"}
+@{" of Wallachia"}
+@{" of Bulgaria"}
+@{" of Hungary"}
+@{" of Poland"}
+@{" of Pomerania"}
+@{" of Brandenburg"}
+@{" of Silesia"}
+@{" of Bohemia"}
+@{" of Saxony"}
+@{" of Friesland"}
+@{" of Flanders"}
+@{" of Normandy"}
+@{" of Brittany"}
+@{" of Franconia"}
+@{" of Lorraine"}
+@{" of Champagne"}
+@{" of Ile de France"}
+@{" of Anjou"}
+@{" of Aquitaine"}
+@{" of Toulouse"}
+@{" of Provence"}
+@{" of Burgundy"}
+@{" of Swabia"}
+@{" of Bavaria"}
+@{" of Switzerland"}
+@{" of Tyrolia"}
+@{" of Austria"}
+@{" of Croatia"}
+@{" of Serbia"}
+@{" of Greece"}
+@{" of Constantinople"}
+@{" of Crete"}
+@{" of Rhodes"}
+@{" of Georgia"}
+@{" of Armenia"}
+@{" of Rum"}
+@{" of Lesser Armenia"}
+@{" of Edessa"}
+@{" of Trebizond"}
+@{" of Nicaea"}
+@{" of Anatolia"}
+@{" of Cyprus"}
+@{" of Antioch"}
+@{" of Syria"}
+@{" of Tripoli"}
+@{" of Palestine"}
+@{" of Arabia"}
+@{" of Sinai"}
+@{" of Egypt"}
+@{" of Cyrenacia"}
+@{" of the Sahara"}				//@{"Africa"}
+@{" of Tunisia"}
+@{" of Algeria"}
+@{" of Morocco"}
+@{" of Granada"}
+@{" of Cordoba"}
+@{" of Portugal"}
+@{" of Leon"}
+@{" of Castile"}
+@{" of Valencia"}
+@{" of Navarre"}
+@{" of Aragon"}
+@{" of Corsica"}
+@{" of Sardinia"}
+@{" of Genoa"}
+@{" of Milan"}
+@{" of Venice"}
+@{" of Tuscany"}
+@{" of The Papal States"}
+@{" of Rome"}
+@{" of Naples"}
+@{" of Malta"}
+@{" of Sicily"}
+    
+@{" of The North Atlantic"}
+@{" of The Irish Sea"}
+@{" of The Norwegian Sea"}
+@{" of The Skagerrak"}
+@{" of The Baltic Sea"}
+@{" of The North Sea"}
+@{" of The English Channel"}
+@{" of The Atlantic Ocean"}
+@{" of The Bay of Biscay"}
+@{" of The Costa Verde"}
+@{" of The Spanish Coast"}
+@{" of The Gulf of Cadiz"}
+@{" of The Straits of Gibraltar"}
+@{" of The Western Mediterranean"}
+@{" of The Gulf of Valencia"}
+@{" of The Gulf of Lions"}
+@{" of The Ligurian Sea"}
+@{" of The Tyrrhenian Sea"}
+@{" of The Straits of Sicily"}
+@{" of The Malta Channel"}
+@{" of The Gulf of Gabes"}
+@{" of The Africa Coast"}
+@{" of The Barbary Coast"}
+@{" of The Adriatic Ocean"}
+@{" of The Ionian Sea"}
+@{" of The Central Mediterranean"}
+@{" of The Gulf of Sidra"}
+@{" of The Mirtoon Sea"}
+@{" of The Aegean Sea"}
+@{" of The Sea Marmara"}
+@{" of The Black Sea"}
+@{" of The Sea of Crete"}
+@{" of The Dodecanese Sea"}
+@{" of The Eastern Mediterranean"}
+@{" of The Nile Coast"}
+@{" of The Atlantic Coast"}
+
+@["pl_invasion_title_xzy"]
+@{"Your Forces Invade Region Zero"}
+@{"Your Forces Invade Scotland"}
+@{"Your Forces Invade Northumbria"}
+@{"Your Forces Invade Mercia"}
+@{"Your Forces Invade Wales"}
+@{"Your Forces Invade Wessex"}
+@{"Your Forces Invade Ireland"}
+@{"Your Forces Invade Norway"}
+@{"Your Forces Invade Sweden"}
+@{"Your Forces Invade Denmark"}
+@{"Your Forces Invade Finland"}
+@{"Your Forces Invade Novgorod"}
+@{"Your Forces Invade Muscovy"}
+@{"Your Forces Invade Livonia"}
+@{"Your Forces Invade Smolensk"}
+@{"Your Forces Invade Ryazan"}
+@{"Your Forces Invade Chernigov"}
+@{"Your Forces Invade Lithuania"}
+@{"Your Forces Invade Pereyaslavl"}
+@{"Your Forces Invade Volga-Bulgaria"}
+@{"Your Forces Invade Khazar"}
+@{"Your Forces Invade Kiev"}
+@{"Your Forces Invade The Crimea"}
+@{"Your Forces Invade Volhynia"}
+@{"Your Forces Invade Prussia"}
+@{"Your Forces Invade Moldavia"}
+@{"Your Forces Invade Carpathia"}
+@{"Your Forces Invade Wallachia"}
+@{"Your Forces Invade Bulgaria"}
+@{"Your Forces Invade Hungary"}
+@{"Your Forces Invade Poland"}
+@{"Your Forces Invade Pomerania"}
+@{"Your Forces Invade Brandenburg"}
+@{"Your Forces Invade Silesia"}
+@{"Your Forces Invade Bohemia"}
+@{"Your Forces Invade Saxony"}
+@{"Your Forces Invade Friesland"}
+@{"Your Forces Invade Flanders"}
+@{"Your Forces Invade Normandy"}
+@{"Your Forces Invade Brittany"}
+@{"Your Forces Invade Franconia"}
+@{"Your Forces Invade Lorraine"}
+@{"Your Forces Invade Champagne"}
+@{"Your Forces Invade Ile de France"}
+@{"Your Forces Invade Anjou"}
+@{"Your Forces Invade Aquitaine"}
+@{"Your Forces Invade Toulouse"}
+@{"Your Forces Invade Provence"}
+@{"Your Forces Invade Burgundy"}
+@{"Your Forces Invade Swabia"}
+@{"Your Forces Invade Bavaria"}
+@{"Your Forces Invade Switzerland"}
+@{"Your Forces Invade Tyrolia"}
+@{"Your Forces Invade Austria"}
+@{"Your Forces Invade Croatia"}
+@{"Your Forces Invade Serbia"}
+@{"Your Forces Invade Greece"}
+@{"Your Forces Invade Constantinople"}
+@{"Your Forces Invade Crete"}
+@{"Your Forces Invade Rhodes"}
+@{"Your Forces Invade Georgia"}
+@{"Your Forces Invade Armenia"}
+@{"Your Forces Invade Rum"}
+@{"Your Forces Invade Lesser Armenia"}
+@{"Your Forces Invade Edessa"}
+@{"Your Forces Invade Trebizond"}
+@{"Your Forces Invade Nicaea"}
+@{"Your Forces Invade Anatolia"}
+@{"Your Forces Invade Cyprus"}
+@{"Your Forces Invade Antioch"}
+@{"Your Forces Invade Syria"}
+@{"Your Forces Invade Tripoli"}
+@{"Your Forces Invade Palestine"}
+@{"Your Forces Invade Arabia"}
+@{"Your Forces Invade The Sinai"}
+@{"Your Forces Invade Egypt"}
+@{"Your Forces Invade Cyrenacia"}
+@{"Your Forces Invade Saha"}
+@{"Your Forces Invade Tunisia"}
+@{"Your Forces Invade Algeria"}
+@{"Your Forces Invade Morocco"}
+@{"Your Forces Invade Granada"}
+@{"Your Forces Invade Cordoba"}
+@{"Your Forces Invade Portugal"}
+@{"Your Forces Invade Leon"}
+@{"Your Forces Invade Castile"}
+@{"Your Forces Invade Valencia"}
+@{"Your Forces Invade Navarre"}
+@{"Your Forces Invade Aragon"}
+@{"Your Forces Invade Corsica"}
+@{"Your Forces Invade Sardinia"}
+@{"Your Forces Invade Genoa"}
+@{"Your Forces Invade Milan"}
+@{"Your Forces Invade Venice"}
+@{"Your Forces Invade Tuscany"}
+@{"Your Forces Invade The Papal States"}
+@{"Your Forces Invade Rome"}
+@{"Your Forces Invade Naples"}
+@{"Your Forces Invade Malta"}
+@{"Your Forces Invade Sicily"}
+@{"Your Forces Invade The North Atlantic"}
+@{"Your Forces Invade The Irish Sea"}
+@{"Your Forces Invade The Norwegian Sea"}
+@{"Your Forces Invade The Skagerrak"}
+@{"Your Forces Invade The Baltic Sea"}
+@{"Your Forces Invade The North Sea"}
+@{"Your Forces Invade The English Channel"}
+@{"Your Forces Invade The Atlantic Ocean"}
+@{"Your Forces Invade The Bay of Biscay"}
+@{"Your Forces Invade The Costa Verde"}
+@{"Your Forces Invade The Spanish Coast"}
+@{"Your Forces Invade The Gulf of Cadiz"}
+@{"Your Forces Invade The Straits of Gibraltar"}
+@{"Your Forces Invade The Western Mediterranean"}
+@{"Your Forces Invade The Gulf of Valencia"}
+@{"Your Forces Invade The Gulf of Lions"}
+@{"Your Forces Invade The Ligurian Sea"}
+@{"Your Forces Invade The Tyrrhenian Sea"}
+@{"Your Forces Invade The Straits of Sicily"}
+@{"Your Forces Invade The Malta Channel"}
+@{"Your Forces Invade The Gulf of Gabes"}
+@{"Your Forces Invade The Africa Coast"}
+@{"Your Forces Invade The Barbary Coast"}
+@{"Your Forces Invade The Adriatic Ocean"}
+@{"Your Forces Invade The Ionian Sea"}
+@{"Your Forces Invade The Central Mediterranean"}
+@{"Your Forces Invade The Gulf of Sidra"}
+@{"Your Forces Invade The Mirtoon Sea"}
+@{"Your Forces Invade The Aegean Sea"}
+@{"Your Forces Invade The Sea Marmara"}
+@{"Your Forces Invade The Black Sea"}
+@{"Your Forces Invade The Sea of Crete"}
+@{"Your Forces Invade The Dodecanese Sea"}
+@{"Your Forces Invade The Eastern Mediterranean"}
+@{"Your Forces Invade The Nile Coast"}
+@{"Your Forces Invade The Atlantic Coast"}
+
+@["region_taken_title_xzy"]
+@{"Region Zero Conquered!"}
+@{"Scotland Conquered!"}
+@{"Northumbria Conquered!"}
+@{"Mercia Conquered!"}
+@{"Wales Conquered!"}
+@{"Wessex Conquered!"}
+@{"Ireland Conquered!"}
+@{"Norway Conquered!"}
+@{"Sweden Conquered!"}
+@{"Denmark Conquered!"}
+@{"Finland Conquered!"}
+@{"Novgorod Conquered!"}
+@{"Muscovy Conquered!"}
+@{"Livonia Conquered!"}
+@{"Smolensk Conquered!"}
+@{"Ryazan Conquered!"}
+@{"Chernigov Conquered!"}
+@{"Lithuania Conquered!"}
+@{"Pereyaslavl Conquered!"}
+@{"Volga-Bulgaria Conquered!"}
+@{"Khazar Conquered!"}
+@{"Kiev Conquered!"}
+@{"The Crimea Conquered!"}
+@{"Volhynia Conquered!"}
+@{"Prussia Conquered!"}
+@{"Moldavia Conquered!"}
+@{"Carpathia Conquered!"}
+@{"Wallachia Conquered!"}
+@{"Bulgaria Conquered!"}
+@{"Hungary Conquered!"}
+@{"Poland Conquered!"}
+@{"Pomerania Conquered!"}
+@{"Brandenburg Conquered!"}
+@{"Silesia Conquered!"}
+@{"Bohemia Conquered!"}
+@{"Saxony Conquered!"}
+@{"Friesland Conquered!"}
+@{"Flanders Conquered!"}
+@{"Normandy Conquered!"}
+@{"Brittany Conquered!"}
+@{"Franconia Conquered!"}
+@{"Lorraine Conquered!"}
+@{"Champagne Conquered!"}
+@{"Ile de France Conquered!"}
+@{"Anjou Conquered!"}
+@{"Aquitaine Conquered!"}
+@{"Toulouse Conquered!"}
+@{"Provence Conquered!"}
+@{"Burgundy Conquered!"}
+@{"Swabia Conquered!"}
+@{"Bavaria Conquered!"}
+@{"Switzerland Conquered!"}
+@{"Tyrolia Conquered!"}
+@{"Austria Conquered!"}
+@{"Croatia Conquered!"}
+@{"Serbia Conquered!"}
+@{"Greece Conquered!"}
+@{"Constantinople Conquered!"}
+@{"Crete Conquered!"}
+@{"Rhodes Conquered!"}
+@{"Georgia Conquered!"}
+@{"Armenia Conquered!"}
+@{"Rum Conquered!"}
+@{"Lesser Armenia Conquered!"}
+@{"Edessa Conquered!"}
+@{"Trebizond Conquered!"}
+@{"Nicaea Conquered!"}
+@{"Anatolia Conquered!"}
+@{"Cyprus Conquered!"}
+@{"Antioch Conquered!"}
+@{"Syria Conquered!"}
+@{"Tripoli Conquered!"}
+@{"Palestine Conquered!"}
+@{"Arabia Conquered!"}
+@{"The Sinai Conquered!"}
+@{"Egypt Conquered!"}
+@{"Cyrenacia Conquered!"}
+@{"Saha Conquered!"}
+@{"Tunisia Conquered!"}
+@{"Algeria Conquered!"}
+@{"Morocco Conquered!"}
+@{"Granada Conquered!"}
+@{"Cordoba Conquered!"}
+@{"Portugal Conquered!"}
+@{"Leon Conquered!"}
+@{"Castile Conquered!"}
+@{"Valencia Conquered!"}
+@{"Navarre Conquered!"}
+@{"Aragon Conquered!"}
+@{"Corsica Conquered!"}
+@{"Sardinia Conquered!"}
+@{"Genoa Conquered!"}
+@{"Milan Conquered!"}
+@{"Venice Conquered!"}
+@{"Tuscany Conquered!"}
+@{"The Papal States Conquered!"}
+@{"Rome Conquered!"}
+@{"Naples Conquered!"}
+@{"Malta Conquered!"}
+@{"Sicily Conquered!"}
+@{"The North Atlantic Conquered!"}
+@{"The Irish Sea Conquered!"}
+@{"The Norwegian Sea Conquered!"}
+@{"The Skagerrak Conquered!"}
+@{"The Baltic Sea Conquered!"}
+@{"The North Sea Conquered!"}
+@{"The English Channel Conquered!"}
+@{"The Atlantic Ocean Conquered!"}
+@{"The Bay of Biscay Conquered!"}
+@{"The Costa Verde Conquered!"}
+@{"The Spanish Coast Conquered!"}
+@{"The Gulf of Cadiz Conquered!"}
+@{"The Straits of Gibraltar Conquered!"}
+@{"The Western Mediterranean Conquered!"}
+@{"The Gulf of Valencia Conquered!"}
+@{"The Gulf of Lions Conquered!"}
+@{"The Ligurian Sea Conquered!"}
+@{"The Tyrrhenian Sea Conquered!"}
+@{"The Straits of Sicily Conquered!"}
+@{"The Malta Channel Conquered!"}
+@{"The Gulf of Gabes Conquered!"}
+@{"The Africa Coast Conquered!"}
+@{"The Barbary Coast Conquered!"}
+@{"The Adriatic Ocean Conquered!"}
+@{"The Ionian Sea Conquered!"}
+@{"The Central Mediterranean Conquered!"}
+@{"The Gulf of Sidra Conquered!"}
+@{"The Mirtoon Sea Conquered!"}
+@{"The Aegean Sea Conquered!"}
+@{"The Sea Marmara Conquered!"}
+@{"The Black Sea Conquered!"}
+@{"The Sea of Crete Conquered!"}
+@{"The Dodecanese Sea Conquered!"}
+@{"The Eastern Mediterranean Conquered!"}
+@{"The Nile Coast Conquered!"}
+@{"The Atlantic Coast Conquered!"}
+
+@["region_return_title_xzy"]
+@{"Region Zero Relieved!"}
+@{"Scotland Relieved!"}
+@{"Northumbria Relieved!"}
+@{"Mercia Relieved!"}
+@{"Wales Relieved!"}
+@{"Wessex Relieved!"}
+@{"Ireland Relieved!"}
+@{"Norway Relieved!"}
+@{"Sweden Relieved!"}
+@{"Denmark Relieved!"}
+@{"Finland Relieved!"}
+@{"Novgorod Relieved!"}
+@{"Muscovy Relieved!"}
+@{"Livonia Relieved!"}
+@{"Smolensk Relieved!"}
+@{"Ryazan Relieved!"}
+@{"Chernigov Relieved!"}
+@{"Lithuania Relieved!"}
+@{"Pereyaslavl Relieved!"}
+@{"Volga-Bulgaria Relieved!"}
+@{"Khazar Relieved!"}
+@{"Kiev Relieved!"}
+@{"The Crimea Relieved!"}
+@{"Volhynia Relieved!"}
+@{"Prussia Relieved!"}
+@{"Moldavia Relieved!"}
+@{"Carpathia Relieved!"}
+@{"Wallachia Relieved!"}
+@{"Bulgaria Relieved!"}
+@{"Hungary Relieved!"}
+@{"Poland Relieved!"}
+@{"Pomerania Relieved!"}
+@{"Brandenburg Relieved!"}
+@{"Silesia Relieved!"}
+@{"Bohemia Relieved!"}
+@{"Saxony Relieved!"}
+@{"Friesland Relieved!"}
+@{"Flanders Relieved!"}
+@{"Normandy Relieved!"}
+@{"Brittany Relieved!"}
+@{"Franconia Relieved!"}
+@{"Lorraine Relieved!"}
+@{"Champagne Relieved!"}
+@{"Ile de France Relieved!"}
+@{"Anjou Relieved!"}
+@{"Aquitaine Relieved!"}
+@{"Toulouse Relieved!"}
+@{"Provence Relieved!"}
+@{"Burgundy Relieved!"}
+@{"Swabia Relieved!"}
+@{"Bavaria Relieved!"}
+@{"Switzerland Relieved!"}
+@{"Tyrolia Relieved!"}
+@{"Austria Relieved!"}
+@{"Croatia Relieved!"}
+@{"Serbia Relieved!"}
+@{"Greece Relieved!"}
+@{"Constantinople Relieved!"}
+@{"Crete Relieved!"}
+@{"Rhodes Relieved!"}
+@{"Georgia Relieved!"}
+@{"Armenia Relieved!"}
+@{"Rum Relieved!"}
+@{"Lesser Armenia Relieved!"}
+@{"Edessa Relieved!"}
+@{"Trebizond Relieved!"}
+@{"Nicaea Relieved!"}
+@{"Anatolia Relieved!"}
+@{"Cyprus Relieved!"}
+@{"Antioch Relieved!"}
+@{"Syria Relieved!"}
+@{"Tripoli Relieved!"}
+@{"Palestine Relieved!"}
+@{"Arabia Relieved!"}
+@{"The Sinai Relieved!"}
+@{"Egypt Relieved!"}
+@{"Cyrenacia Relieved!"}
+@{"Saha Relieved!"}
+@{"Tunisia Relieved!"}
+@{"Algeria Relieved!"}
+@{"Morocco Relieved!"}
+@{"Granada Relieved!"}
+@{"Cordoba Relieved!"}
+@{"Portugal Relieved!"}
+@{"Leon Relieved!"}
+@{"Castile Relieved!"}
+@{"Valencia Relieved!"}
+@{"Navarre Relieved!"}
+@{"Aragon Relieved!"}
+@{"Corsica Relieved!"}
+@{"Sardinia Relieved!"}
+@{"Genoa Relieved!"}
+@{"Milan Relieved!"}
+@{"Venice Relieved!"}
+@{"Tuscany Relieved!"}
+@{"The Papal States Relieved!"}
+@{"Rome Relieved!"}
+@{"Naples Relieved!"}
+@{"Malta Relieved!"}
+@{"Sicily Relieved!"}
+@{"The North Atlantic Relieved!"}
+@{"The Irish Sea Relieved!"}
+@{"The Norwegian Sea Relieved!"}
+@{"The Skagerrak Relieved!"}
+@{"The Baltic Sea Relieved!"}
+@{"The North Sea Relieved!"}
+@{"The English Channel Relieved!"}
+@{"The Atlantic Ocean Relieved!"}
+@{"The Bay of Biscay Relieved!"}
+@{"The Costa Verde Relieved!"}
+@{"The Spanish Coast Relieved!"}
+@{"The Gulf of Cadiz Relieved!"}
+@{"The Straits of Gibraltar Relieved!"}
+@{"The Western Mediterranean Relieved!"}
+@{"The Gulf of Valencia Relieved!"}
+@{"The Gulf of Lions Relieved!"}
+@{"The Ligurian Sea Relieved!"}
+@{"The Tyrrhenian Sea Relieved!"}
+@{"The Straits of Sicily Relieved!"}
+@{"The Malta Channel Relieved!"}
+@{"The Gulf of Gabes Relieved!"}
+@{"The Africa Coast Relieved!"}
+@{"The Barbary Coast Relieved!"}
+@{"The Adriatic Ocean Relieved!"}
+@{"The Ionian Sea Relieved!"}
+@{"The Central Mediterranean Relieved!"}
+@{"The Gulf of Sidra Relieved!"}
+@{"The Mirtoon Sea Relieved!"}
+@{"The Aegean Sea Relieved!"}
+@{"The Sea Marmara Relieved!"}
+@{"The Black Sea Relieved!"}
+@{"The Sea of Crete Relieved!"}
+@{"The Dodecanese Sea Relieved!"}
+@{"The Eastern Mediterranean Relieved!"}
+@{"The Nile Coast Relieved!"}
+@{"The Atlantic Coast Relieved!"}
+
+@["Amir_of_String"]
+@{"Amir of Region Zero"}
+@{"Amir of Scotland"}
+@{"Amir of Northumbria"}
+@{"Amir of Mercia"}
+@{"Amir of Wales"}
+@{"Amir of Wessex"}
+@{"Amir of Ireland"}
+@{"Amir of Norway"}
+@{"Amir of Sweden"}
+@{"Amir of Denmark"}
+@{"Amir of Finland"}
+@{"Amir of Novgorod"}
+@{"Amir of Muscovy"}
+@{"Amir of Livonia"}
+@{"Amir of Smolensk"}
+@{"Amir of Ryazan"}
+@{"Amir of Chernigov"}
+@{"Amir of Lithuania"}
+@{"Amir of Pereyaslavl"}
+@{"Amir of Volga-Bulgaria"}
+@{"Amir of Khazar"}
+@{"Amir of Kiev"}
+@{"Amir of The Crimea"}
+@{"Amir of Volhynia"}
+@{"Amir of Prussia"}
+@{"Amir of Moldavia"}
+@{"Amir of Carpathia"}
+@{"Amir of Wallachia"}
+@{"Amir of Bulgaria"}
+@{"Amir of Hungary"}
+@{"Amir of Poland"}
+@{"Amir of Pomerania"}
+@{"Amir of Brandenburg"}
+@{"Amir of Silesia"}
+@{"Amir of Bohemia"}
+@{"Amir of Saxony"}
+@{"Amir of Friesland"}
+@{"Amir of Flanders"}
+@{"Amir of Normandy"}
+@{"Amir of Brittany"}
+@{"Amir of Franconia"}
+@{"Amir of Lorraine"}
+@{"Amir of Champagne"}
+@{"Amir of Ile de France"}
+@{"Amir of Anjou"}
+@{"Amir of Aquitaine"}
+@{"Amir of Toulouse"}
+@{"Amir of Provence"}
+@{"Amir of Burgundy"}
+@{"Amir of Swabia"}
+@{"Amir of Bavaria"}
+@{"Amir of Switzerland"}
+@{"Amir of Tyrolia"}
+@{"Amir of Austria"}
+@{"Amir of Croatia"}
+@{"Amir of Serbia"}
+@{"Amir of Greece"}
+@{"Amir of Constantinople"}
+@{"Amir of Crete"}
+@{"Amir of Rhodes"}
+@{"Amir of Georgia"}
+@{"Amir of Armenia"}
+@{"Amir of Rum"}
+@{"Amir of Lesser Armenia"}
+@{"Amir of Edessa"}
+@{"Amir of Trebizond"}
+@{"Amir of Nicaea"}
+@{"Amir of Anatolia"}
+@{"Amir of Cyprus"}
+@{"Amir of Antioch"}
+@{"Amir of Syria"}
+@{"Amir of Tripoli"}
+@{"Amir of Palestine"}
+@{"Amir of Arabia"}
+@{"Amir of The Sinai"}
+@{"Amir of Egypt"}
+@{"Amir of Cyrenacia"}
+@{"Amir of Saha"}
+@{"Amir of Tunisia"}
+@{"Amir of Algeria"}
+@{"Amir of Morocco"}
+@{"Amir of Granada"}
+@{"Amir of Cordoba"}
+@{"Amir of Portugal"}
+@{"Amir of Leon"}
+@{"Amir of Castile"}
+@{"Amir of Valencia"}
+@{"Amir of Navarre"}
+@{"Amir of Aragon"}
+@{"Amir of Corsica"}
+@{"Amir of Sardinia"}
+@{"Amir of Genoa"}
+@{"Amir of Milan"}
+@{"Amir of Venice"}
+@{"Amir of Tuscany"}
+@{"Amir of The Papal States"}
+@{"Amir of Rome"}
+@{"Amir of Naples"}
+@{"Amir of Malta"}
+@{"Amir of Sicily"}
+@{"Amir of The North Atlantic"}
+@{"Amir of The Irish Sea"}
+@{"Amir of The Norwegian Sea"}
+@{"Amir of The Skagerrak"}
+@{"Amir of The Baltic Sea"}
+@{"Amir of The North Sea"}
+@{"Amir of The English Channel"}
+@{"Amir of The Atlantic Ocean"}
+@{"Amir of The Bay of Biscay"}
+@{"Amir of The Costa Verde"}
+@{"Amir of The Spanish Coast"}
+@{"Amir of The Gulf of Cadiz"}
+@{"Amir of The Straits of Gibraltar"}
+@{"Amir of The Western Mediterranean"}
+@{"Amir of The Gulf of Valencia"}
+@{"Amir of The Gulf of Lions"}
+@{"Amir of The Ligurian Sea"}
+@{"Amir of The Tyrrhenian Sea"}
+@{"Amir of The Straits of Sicily"}
+@{"Amir of The Malta Channel"}
+@{"Amir of The Gulf of Gabes"}
+@{"Amir of The Africa Coast"}
+@{"Amir of The Barbary Coast"}
+@{"Amir of The Adriatic Ocean"}
+@{"Amir of The Ionian Sea"}
+@{"Amir of The Central Mediterranean"}
+@{"Amir of The Gulf of Sidra"}
+@{"Amir of The Mirtoon Sea"}
+@{"Amir of The Aegean Sea"}
+@{"Amir of The Sea Marmara"}
+@{"Amir of The Black Sea"}
+@{"Amir of The Sea of Crete"}
+@{"Amir of The Dodecanese Sea"}
+@{"Amir of The Eastern Mediterranean"}
+@{"Amir of The Nile Coast"}
+@{"Amir of The Atlantic Coast"}
+
+@["Duke_of_String"]
+@{"Duke of Region Zero"}
+@{"Duke of Scotland"}
+@{"Duke of Northumbria"}
+@{"Duke of Mercia"}
+@{"Duke of Wales"}
+@{"Duke of Wessex"}
+@{"Duke of Ireland"}
+@{"Duke of Norway"}
+@{"Duke of Sweden"}
+@{"Duke of Denmark"}
+@{"Duke of Finland"}
+@{"Duke of Novgorod"}
+@{"Duke of Muscovy"}
+@{"Duke of Livonia"}
+@{"Duke of Smolensk"}
+@{"Duke of Ryazan"}
+@{"Duke of Chernigov"}
+@{"Duke of Lithuania"}
+@{"Duke of Pereyaslavl"}
+@{"Duke of Volga-Bulgaria"}
+@{"Duke of Khazar"}
+@{"Duke of Kiev"}
+@{"Duke of The Crimea"}
+@{"Duke of Volhynia"}
+@{"Duke of Prussia"}
+@{"Duke of Moldavia"}
+@{"Duke of Carpathia"}
+@{"Duke of Wallachia"}
+@{"Duke of Bulgaria"}
+@{"Duke of Hungary"}
+@{"Duke of Poland"}
+@{"Duke of Pomerania"}
+@{"Duke of Brandenburg"}
+@{"Duke of Silesia"}
+@{"Duke of Bohemia"}
+@{"Duke of Saxony"}
+@{"Duke of Friesland"}
+@{"Duke of Flanders"}
+@{"Duke of Normandy"}
+@{"Duke of Brittany"}
+@{"Duke of Franconia"}
+@{"Duke of Lorraine"}
+@{"Duke of Champagne"}
+@{"Duke of Ile de France"}
+@{"Duke of Anjou"}
+@{"Duke of Aquitaine"}
+@{"Duke of Toulouse"}
+@{"Duke of Provence"}
+@{"Duke of Burgundy"}
+@{"Duke of Swabia"}
+@{"Duke of Bavaria"}
+@{"Duke of Switzerland"}
+@{"Duke of Tyrolia"}
+@{"Duke of Austria"}
+@{"Duke of Croatia"}
+@{"Duke of Serbia"}
+@{"Duke of Greece"}
+@{"Duke of Constantinople"}
+@{"Duke of Crete"}
+@{"Duke of Rhodes"}
+@{"Duke of Georgia"}
+@{"Duke of Armenia"}
+@{"Duke of Rum"}
+@{"Duke of Lesser Armenia"}
+@{"Duke of Edessa"}
+@{"Duke of Trebizond"}
+@{"Duke of Nicaea"}
+@{"Duke of Anatolia"}
+@{"Duke of Cyprus"}
+@{"Duke of Antioch"}
+@{"Duke of Syria"}
+@{"Duke of Tripoli"}
+@{"Duke of Palestine"}
+@{"Duke of Arabia"}
+@{"Duke of The Sinai"}
+@{"Duke of Egypt"}
+@{"Duke of Cyrenacia"}
+@{"Duke of Saha"}
+@{"Duke of Tunisia"}
+@{"Duke of Algeria"}
+@{"Duke of Morocco"}
+@{"Duke of Granada"}
+@{"Duke of Cordoba"}
+@{"Duke of Portugal"}
+@{"Duke of Leon"}
+@{"Duke of Castile"}
+@{"Duke of Valencia"}
+@{"Duke of Navarre"}
+@{"Duke of Aragon"}
+@{"Duke of Corsica"}
+@{"Duke of Sardinia"}
+@{"Duke of Genoa"}
+@{"Duke of Milan"}
+@{"Duke of Venice"}
+@{"Duke of Tuscany"}
+@{"Duke of The Papal States"}
+@{"Duke of Rome"}
+@{"Duke of Naples"}
+@{"Duke of Malta"}
+@{"Duke of Sicily"}
+@{"Duke of The North Atlantic"}
+@{"Duke of The Irish Sea"}
+@{"Duke of The Norwegian Sea"}
+@{"Duke of The Skagerrak"}
+@{"Duke of The Baltic Sea"}
+@{"Duke of The North Sea"}
+@{"Duke of The English Channel"}
+@{"Duke of The Atlantic Ocean"}
+@{"Duke of The Bay of Biscay"}
+@{"Duke of The Costa Verde"}
+@{"Duke of The Spanish Coast"}
+@{"Duke of The Gulf of Cadiz"}
+@{"Duke of The Straits of Gibraltar"}
+@{"Duke of The Western Mediterranean"}
+@{"Duke of The Gulf of Valencia"}
+@{"Duke of The Gulf of Lions"}
+@{"Duke of The Ligurian Sea"}
+@{"Duke of The Tyrrhenian Sea"}
+@{"Duke of The Straits of Sicily"}
+@{"Duke of The Malta Channel"}
+@{"Duke of The Gulf of Gabes"}
+@{"Duke of The Africa Coast"}
+@{"Duke of The Barbary Coast"}
+@{"Duke of The Adriatic Ocean"}
+@{"Duke of The Ionian Sea"}
+@{"Duke of The Central Mediterranean"}
+@{"Duke of The Gulf of Sidra"}
+@{"Duke of The Mirtoon Sea"}
+@{"Duke of The Aegean Sea"}
+@{"Duke of The Sea Marmara"}
+@{"Duke of The Black Sea"}
+@{"Duke of The Sea of Crete"}
+@{"Duke of The Dodecanese Sea"}
+@{"Duke of The Eastern Mediterranean"}
+@{"Duke of The Nile Coast"}
+@{"Duke of The Atlantic Coast"}
+
+
+["Title King of Scotland"]		{"King of Scotland"}
+["Title King of Bohemia"]		{"King of Bohemia"}
+["Title King of Jerusalem"]		{"King of Jerusalem"}
+
+["Title Earl of Northumbria"]	{"Earl of Northumbria"}
+["Title Earl of Mercia"]		{"Earl of Mercia"}
+["Title Earl of Wessex"]		{"Earl of Wessex"}
+["Title Earl of Norway"]		{"Earl of Norway"}
+["Title Earl of Sweden"]		{"Earl of Sweden"}
+["Title Earl of Denmark"]		{"Earl of Denmark"}
+
+["Title Grand Duke of Novgorod"]	{"Grand Duke of Novgorod"}
+["Title Grand Duke of Muscovy"]		{"Grand Duke of Muscovy"}
+
+["Title Margrave of Brandenburg"]	{"Margrave of Brandenburg"}
+["Title Margrave of Tuscany"]		{"Margrave of Tuscany"}
+
+["Title Count of Flanders"]		{"Count of Flanders"}
+["Title Count of Champagne"]	{"Count of Champagne"}
+["Title Count of Anjou"]		{"Count of Anjou"}
+["Title Count of Toulouse"]		{"Count of Toulouse"}
+["Title Count of Tripoli"]		{"Count of Tripoli"}
+
+["Title Prince of Antioch"]		{"Prince of Antioch"}
+
+@["goods_names"]
+@{"Glassware"}
+@{"Wood"}
+@{"Furs"}
+@{"Wine"}
+@{"Wool"}
+@{"Silk"}
+@{"Cotton"}
+@{"Linen"}
+@{"Wax"}
+@{"Honey"}
+@{"Salt"}
+@{"Hides"}
+@{"Butter"}
+@{"Pottery"}
+@{"Saltfish"}
+@{"Spices"}
+@{"Gems"}
+@{"Sugar"}
+@{"Dyes"}
+@{"Ivory"}
+@{"Oliveoil"}
+@{"Grain"}
+
+@["tradable_goods_intro_tooltips"]
+@{"Glassware is produced here and may be used in trade with other nations."}
+@{"Wood is processed here and may be used in trade with other nations."}
+@{"Furs are produced here and may be used in trade with other nations."}
+@{"Wine is produced here and may be used in trade with other nations."}
+@{"Wool is processed here and may be used in trade with other nations."}
+@{"Silk is processed here and may be used in trade with other nations."}
+@{"Cotton is processed here and may be used in trade with other nations."}
+@{"Linen is processed here and may be used in trade with other nations."}
+@{"Wax is produced here and may be used in trade with other nations."}
+@{"Honey is produced here and may be used in trade with other nations."}
+@{"Salt is processed here and may be used in trade with other nations."}
+@{"Hides are produced here and may be used in trade with other nations."}
+@{"Butter is produced here and may be used in trade with other nations."}
+@{"Pottery is produced here and may be used in trade with other nations."}
+@{"Saltfish are processed here and may be used in trade with other nations."}
+@{"Spices are produced here and may be used in trade with other nations."}
+@{"Gems are processed here and may be used in trade with other nations."}
+@{"Sugar is produced here and may be used in trade with other nations."}
+@{"Dyes are produced here and may be used in trade with other nations."}
+@{"Ivory is processed here and may be used in trade with other nations."}
+@{"Olive oil is produced here and may be used in trade with other nations."}
+@{"Grain is produced here and may be used in trade with other nations."}
+
+///////////////////////////////////
+SetShowTransOff  // Do not translate.
+//???? Remove when localized.
+
