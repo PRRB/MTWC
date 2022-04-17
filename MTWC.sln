@@ -16,6 +16,49 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTWCData", "MTWCData\MTWCDa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net6MTWC", "net6MTWC\net6MTWC.csproj", "{629C0DCB-58F6-4999-A673-0F86BFFBFA11}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameFiles", "GameFiles", "{FBFE1305-E7E5-452C-9D9B-50ED6CC6A886}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Original", "Original", "{445E8759-F8E7-4CB9-BE55-C7D4B24D1236}"
+	ProjectSection(SolutionItems) = preProject
+		GameFiles\Original\CRUSADER_BUILD_PROD13.TXT = GameFiles\Original\CRUSADER_BUILD_PROD13.TXT
+		GameFiles\Original\CRUSADERS_UNIT_PROD11.TXT = GameFiles\Original\CRUSADERS_UNIT_PROD11.TXT
+		GameFiles\Original\PROJECTILESTATS.TXT = GameFiles\Original\PROJECTILESTATS.TXT
+		GameFiles\Original\VIKINGS_BUILD_PROD.TXT = GameFiles\Original\VIKINGS_BUILD_PROD.TXT
+		GameFiles\Original\VIKINGS_UNIT_PROD.TXT = GameFiles\Original\VIKINGS_UNIT_PROD.TXT
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loc", "Loc", "{E229C2EE-866F-46BF-9D70-AFAA5FCB14CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Eng", "Eng", "{A1E82B91-D159-4812-82E3-D7EB17851E43}"
+	ProjectSection(SolutionItems) = preProject
+		GameFiles\Original\Loc\Eng\BATTLE.TXT = GameFiles\Original\Loc\Eng\BATTLE.TXT
+		GameFiles\Original\Loc\Eng\CHANGES.TXT = GameFiles\Original\Loc\Eng\CHANGES.TXT
+		GameFiles\Original\Loc\Eng\Cru_TutorialCommon_NEW.txt = GameFiles\Original\Loc\Eng\Cru_TutorialCommon_NEW.txt
+		GameFiles\Original\Loc\Eng\DEFAULT_FACTION_SPECIFIC.TXT = GameFiles\Original\Loc\Eng\DEFAULT_FACTION_SPECIFIC.TXT
+		GameFiles\Original\Loc\Eng\DEFAULT_REGION_SPECIFIC.TXT = GameFiles\Original\Loc\Eng\DEFAULT_REGION_SPECIFIC.TXT
+		GameFiles\Original\Loc\Eng\DEFREGSPEC.TXT = GameFiles\Original\Loc\Eng\DEFREGSPEC.TXT
+		GameFiles\Original\Loc\Eng\DESCRIPTIONS.TXT = GameFiles\Original\Loc\Eng\DESCRIPTIONS.TXT
+		GameFiles\Original\Loc\Eng\EARLY_FACTION_SPECIFIC.TXT = GameFiles\Original\Loc\Eng\EARLY_FACTION_SPECIFIC.TXT
+		GameFiles\Original\Loc\Eng\EVENTS.TXT = GameFiles\Original\Loc\Eng\EVENTS.TXT
+		GameFiles\Original\Loc\Eng\FRONTEND.TXT = GameFiles\Original\Loc\Eng\FRONTEND.TXT
+		GameFiles\Original\Loc\Eng\GLOBAL.TXT = GameFiles\Original\Loc\Eng\GLOBAL.TXT
+		GameFiles\Original\Loc\Eng\GLORYGOALS.TXT = GameFiles\Original\Loc\Eng\GLORYGOALS.TXT
+		GameFiles\Original\Loc\Eng\HISTCAMPAIGNS.TXT = GameFiles\Original\Loc\Eng\HISTCAMPAIGNS.TXT
+		GameFiles\Original\Loc\Eng\HISTORICAL.TXT = GameFiles\Original\Loc\Eng\HISTORICAL.TXT
+		GameFiles\Original\Loc\Eng\JMTUTORIAL.TXT = GameFiles\Original\Loc\Eng\JMTUTORIAL.TXT
+		GameFiles\Original\Loc\Eng\LATE_FACTION_SPECIFIC.TXT = GameFiles\Original\Loc\Eng\LATE_FACTION_SPECIFIC.TXT
+		GameFiles\Original\Loc\Eng\MAPS.TXT = GameFiles\Original\Loc\Eng\MAPS.TXT
+		GameFiles\Original\Loc\Eng\NAMES.TXT = GameFiles\Original\Loc\Eng\NAMES.TXT
+		GameFiles\Original\Loc\Eng\STARTPOS.TXT = GameFiles\Original\Loc\Eng\STARTPOS.TXT
+		GameFiles\Original\Loc\Eng\SYSTEM.TXT = GameFiles\Original\Loc\Eng\SYSTEM.TXT
+		GameFiles\Original\Loc\Eng\TOOLTIP.TXT = GameFiles\Original\Loc\Eng\TOOLTIP.TXT
+		GameFiles\Original\Loc\Eng\VARIABLES.TXT = GameFiles\Original\Loc\Eng\VARIABLES.TXT
+		GameFiles\Original\Loc\Eng\VIKING_FACTION_SPECIFIC.TXT = GameFiles\Original\Loc\Eng\VIKING_FACTION_SPECIFIC.TXT
+		GameFiles\Original\Loc\Eng\VIKING_REGION_SPECIFIC.TXT = GameFiles\Original\Loc\Eng\VIKING_REGION_SPECIFIC.TXT
+		GameFiles\Original\Loc\Eng\WARVOICE.TXT = GameFiles\Original\Loc\Eng\WARVOICE.TXT
+		GameFiles\Original\Loc\Eng\WEATHER.TXT = GameFiles\Original\Loc\Eng\WEATHER.TXT
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +84,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBFE1305-E7E5-452C-9D9B-50ED6CC6A886} = {6BB6AF4F-71A6-41F8-815B-56C03C6A2F8A}
+		{445E8759-F8E7-4CB9-BE55-C7D4B24D1236} = {FBFE1305-E7E5-452C-9D9B-50ED6CC6A886}
+		{E229C2EE-866F-46BF-9D70-AFAA5FCB14CB} = {445E8759-F8E7-4CB9-BE55-C7D4B24D1236}
+		{A1E82B91-D159-4812-82E3-D7EB17851E43} = {E229C2EE-866F-46BF-9D70-AFAA5FCB14CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45C04E82-EB33-42C2-9F79-9ADAABD7D72E}

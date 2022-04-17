@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace MTWC
 {
@@ -70,9 +72,6 @@ namespace MTWC
 
             //var lighthalberdier = GetRows("lighthalberdier", ColType.UnitId).First();
             //var lightspearmen = GetRows("lightspearmen", ColType.UnitId).First();
-            //var lightcavalry = GetRows("lightcavalry", ColType.UnitId);
-            //var peasantcavalry = GetRows("peasantcavalry", ColType.UnitId);
-            //var mountedscouts = GetRows("mountedscouts", ColType.UnitId);
         }
 
         private List<ColInfo> LoadColInfo(string[] lines)
@@ -128,9 +127,37 @@ namespace MTWC
             return rows;
         }
 
-        private List<Row> GetRows(string value, ColType filter = ColType.UnitId)
+        public List<RowInfo> ShownRows()
+            => RowInfo.Where(r => r._compare).ToList();
+
+        public void SetShownRows(IList selected)
         {
-            return Rows.Where(r => r.HasValue(value, filter)).ToList();
+            var showAll = selected.Count == 0;
+            foreach (RowInfo row in RowInfo)
+            {
+                row._compare = showAll;
+            }
+            foreach (RowInfo row in selected)
+            {
+                row._compare = true;
+            }
         }
+
+        public List<RowInfo> FilterRows(string filter)
+        {
+            var search = filter.Trim() ?? "";
+            if (search == "") return RowInfo;
+            var regex = new Regex(search, RegexOptions.IgnoreCase);
+            return RowInfo.FindAll(r => regex.IsMatch(r.UnitId));
+        }
+
+        public List<RowInfo> DefaultRows
+            => FilterRows(Def.RowSelect);
+
+        public List<ColInfo> DefaultCols()
+        {
+            return ColInfo.Where(c => Def.ColSelect.Any(d => d == c.Type)).ToList();
+        }
+
     }
 }

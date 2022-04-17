@@ -1,62 +1,37 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace MTWC
 {
     public partial class MainForm : Form
     {
+        private MTWCData _ds;
+
         public MainForm()
         {
             InitializeComponent();
         }
-
-        MTWCData _main;
-
-        const string RowDefault = "^spearmen|viking|housecarle";
-
-        static readonly ColType[] ColDefault = new ColType[] {
-            ColType.UnitId, ColType.SupportCost, ColType.ProductionCost,
-            ColType.UnitSize,
-
-            ColType.Region, ColType.RegionIDtroopAdvantage,
-            ColType.RulerIDTroopAdvantage,
-            ColType.FactionAssociation, ColType.BuildingsNeeded,
-            
-            ColType.MeleeSupportingRanks,
-            ColType.CavAttackBonus,
-            ColType.CavDefenceBonus,
-
-            ColType.MoralBonus,
-            ColType.IsArmourPiercing,
-            ColType.ShieldType,
-            ColType.ShieldModifier,
-
-            ColType.RUN_SPEED, ColType.CHARGE_BONUS,
-            ColType.MELEE_BONUS, ColType.DEFENCE_BONUS, ColType.ARMOUR_LEVEL
-        };
 
         private void MainForm_Load(object sender, EventArgs e)
         {
             gvColGrid.DoubleBuffered(true);
             gvCompare.DoubleBuffered(true);
 
-            _main = new MTWCData();
-            tbLines.Lines = _main.Lines;
-            bsColSelection.DataSource = _main.ColInfo;
-            bsCompareCols.DataSource = _main.ColInfo;
+            _ds = new MTWCData();
+            tbLines.Lines = _ds.Lines;
+            bsColSelection.DataSource = _ds.ColInfo;
+            bsCompareCols.DataSource = _ds.ColInfo;
 
-            var selectedCols = _main.ColInfo.Where(c => ColDefault.Any(d => d == c.Type));
-            foreach (ColInfo info in selectedCols)
+            foreach (ColInfo info in _ds.DefaultCols())
             {
                 lbCols.SelectedItems.Add(info);
             }
+
             tbRowFilter.Text = "";
-            SetDefaultRowSelection();
+            _ds.SetShownRows(_ds.DefaultRows);
             PopulateRows();
-            bsCompareRows.DataSource = GetSelectedRows();
+            bsCompareRows.DataSource = _ds.ShownRows();
         }
 
         private void lbCols_SelectedIndexChanged(object sender, EventArgs e)
@@ -124,10 +99,10 @@ namespace MTWC
             lbRows.SelectedIndexChanged -= new EventHandler(lbRows_SelectedIndexChanged);
             lbRows.Items.Clear();
 
-            foreach (var row in GetFilteredRows(tbRowFilter.Text))
+            foreach (var row in _ds.FilterRows(tbRowFilter.Text))
             {
                 lbRows.Items.Add(row);
-                if (row._show)
+                if (row._compare)
                 {
                     lbRows.SelectedItems.Add(row);
                 }
@@ -137,43 +112,10 @@ namespace MTWC
             lbRows.EndUpdate();
         }
 
-        private List<RowInfo> GetFilteredRows(string filter)
-        {
-            var search = filter.Trim() ?? "";
-            if (search == "") return _main.RowInfo;
-            var regex = new Regex(search, RegexOptions.IgnoreCase);
-            return _main.RowInfo.FindAll(r => regex.IsMatch(r.UnitId));
-        }
-
-        private List<RowInfo> GetSelectedRows()
-        {
-            return _main.RowInfo.Where(r => r._show).ToList();
-        }
-
-        private void SetDefaultRowSelection()
-        {
-            foreach (var row in _main.RowInfo)
-            {
-                row._show = false;
-            }
-            foreach (var row in GetFilteredRows(RowDefault))
-            {
-                row._show = true;
-            }
-        }
-
         private void lbRows_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var showAll = lbRows.SelectedItems.Count == 0;
-            foreach (RowInfo row in _main.RowInfo)
-            {
-                row._show = showAll;
-            }
-            foreach (RowInfo row in lbRows.SelectedItems)
-            {
-                row._show = true;
-            }
-            bsCompareRows.DataSource = GetSelectedRows();
+            _ds.SetShownRows(lbRows.SelectedItems);
+            bsCompareRows.DataSource = _ds.ShownRows();
         }
     }
 }
