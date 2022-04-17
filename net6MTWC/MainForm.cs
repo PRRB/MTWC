@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace MTWC
@@ -8,10 +9,7 @@ namespace MTWC
     {
         private MTWCData _ds;
 
-        public MainForm()
-        {
-            InitializeComponent();
-        }
+        public MainForm() => InitializeComponent();
 
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -36,15 +34,14 @@ namespace MTWC
 
         private void lbCols_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var selectedCols = new List<string>();
-            foreach (ColInfo info in lbCols.SelectedItems)
-            {
-                selectedCols.Add(info.Type.ToString());
-            }
+            var selectedCols = lbCols
+                .SelectedItems
+                .Cast<ColInfo>()
+                .Select(c => c.Type.ToString());
 
             foreach (DataGridViewColumn col in gvCompare.Columns)
             {
-                col.Visible = selectedCols.Count == 0
+                col.Visible = !selectedCols.Any()
                     || selectedCols.Contains(col.HeaderText)
                     || col.HeaderText == ColType.UnitId.ToString()
                     || col.HeaderText == "#";
@@ -53,37 +50,11 @@ namespace MTWC
 
         private void gvCompare_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            var ds = (List<RowInfo>)bsCompareRows.DataSource;
+            var row = (List<RowInfo>)bsCompareRows.DataSource;
             var name = gvCompare.Columns[e.ColumnIndex].HeaderText;
 
             var sortProp = typeof(RowInfo).GetProperty(name);
-
-            if (sortProp.PropertyType == typeof(int?))
-            {
-                ds.Sort((x, y) =>
-                {
-                    var xx = sortProp.GetValue(x) as int?;
-                    var yy = sortProp.GetValue(y) as int?;
-
-                    var result = xx == null
-                        ? yy == null ? 0 : 1
-                        : yy == null ? -1 : (int)yy - (int)xx;
-                    return result;
-                });
-            }
-            else
-            {
-                ds.Sort((x, y) =>
-                {
-                    var xx = sortProp.GetValue(x).ToString();
-                    var yy = sortProp.GetValue(y).ToString();
-
-                    var result = string.IsNullOrWhiteSpace(xx)
-                        ? string.IsNullOrWhiteSpace(yy) ? 0 : 1
-                        : string.IsNullOrWhiteSpace(yy) ? -1 : xx.CompareTo(yy);
-                    return result;
-                });
-            }
+            GridHelp.RowSort(row, sortProp);
 
             gvCompare.Refresh();
         }
@@ -102,7 +73,7 @@ namespace MTWC
             foreach (var row in _ds.FilterRows(tbRowFilter.Text))
             {
                 lbRows.Items.Add(row);
-                if (row._compare)
+                if (row._isActive)
                 {
                     lbRows.SelectedItems.Add(row);
                 }

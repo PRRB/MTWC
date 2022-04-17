@@ -5,7 +5,8 @@ namespace MTWC
 {
     public class RowInfo
     {
-        public bool _compare { get; set; }
+        /// <summary>is selected for row comparison</summary>
+        public bool _isActive { get; set; }
         public int RowNum { get; set; }
         public string UnitId { get; set; }
         public string UnitType { get; set; }

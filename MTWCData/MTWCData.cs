@@ -128,18 +128,18 @@ namespace MTWC
         }
 
         public List<RowInfo> ShownRows()
-            => RowInfo.Where(r => r._compare).ToList();
+            => RowInfo.Where(r => r._isActive).ToList();
 
         public void SetShownRows(IList selected)
         {
             var showAll = selected.Count == 0;
             foreach (RowInfo row in RowInfo)
             {
-                row._compare = showAll;
+                row._isActive = showAll;
             }
             foreach (RowInfo row in selected)
             {
-                row._compare = true;
+                row._isActive = true;
             }
         }
 
