@@ -10,17 +10,17 @@ namespace MTWC
 {
     public class MTWCData
     {
-        const string path
-        //= @"C:\MTW\MTW";
-        = @"C:\Program Files (x86)\Steam\steamapps\common\Total War Medieval 1 Gold";
-        const string fullpath = path + "\\CRUSADERS_UNIT_PROD11.TXT";
-        const string newpath = path + "\\CRUSADERS_UNIT_PROD11-2.TXT";
+        const string path =
+            //@"C:\MTW\MTW";
+            //@"D:\SteamLibrary\steamapps\common\Total War Medieval 1 Gold";
+            @"..\..\..\..\GameFiles\Original";
+        const string fullpath = path + @"\CRUSADERS_UNIT_PROD11.TXT";
+        const string newpath = path + @"\CRUSADERS_UNIT_PROD11-2.TXT";
 
         public string[] Lines { get; set; }
         public string Text { get; set; }
         public List<ColInfo> ColInfo { get; set; } = new List<ColInfo>();
         public List<Row> Rows { get; set; } = new List<Row>();
-
         public List<RowInfo> RowInfo { get; set; } = new List<RowInfo>();
 
         public MTWCData()

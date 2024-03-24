@@ -1,11 +1,10 @@
 ﻿using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Engines;
 using System;
 using System.Security.Cryptography;
 
 namespace MTWCBench
 {
-    [SimpleJob(launchCount: 1, warmupCount: 3, targetCount: 5)]
+    [SimpleJob(launchCount: 1, warmupCount: 3, iterationCount: 5)]
     [MemoryDiagnoser]
     //[MinColumn, MaxColumn, MeanColumn, MedianColumn]
     public class Md5VsSha256
