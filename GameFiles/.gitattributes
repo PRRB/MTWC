@@ -1,0 +1,3 @@
+# Avoid modifying original game files which have some weird mix EOL stuff going on
+* text=false
+*.txt binary
